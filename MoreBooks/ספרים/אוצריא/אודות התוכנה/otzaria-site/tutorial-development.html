@@ -52,6 +52,7 @@
                         <a href="#installations" class="toc-link">התקנות וכלים</a>
                         <a href="#git-install" class="toc-link">התקנת Git</a>
                         <a href="#flutter-install" class="toc-link">התקנת Flutter</a>
+                        <a href="#rust-install" class="toc-link">התקנת ראסט (rust)</a>
                         <a href="#editor-install" class="toc-link">התקנת עורך קוד</a>
                         <a href="#project-start" class="toc-link">תחילת עבודה</a>
                         <a href="#fork" class="toc-link">יצירת Fork</a>
@@ -133,7 +134,10 @@
                                         <h4>בדיקת ההתקנה</h4>
                                         <p>פתחו את ה-CMD והריצו את הפקודה:</p>
                                         <pre style="background-color: #2d3748; color: #e2e8f0; padding: 1rem; border-radius: var(--radius-sm); overflow-x: auto; margin: 1rem 0; direction: ltr; text-align: left;"><code>git --version</code></pre>
-                                        <p>אם לא מופיע מספר גירסה, זה אומר שצריך להכניס את נתיב ההתקנה למשתני הסביבה של PATH.</p>
+                                        <p>אם ההתקנה הצליחה, אמור להופיע לכם הפלט הבא:</p>
+                                        <pre style="background-color: #2d3748; color: #e2e8f0; padding: 1rem; border-radius: var(--radius-sm); overflow-x: auto; margin: 1rem 0; direction: ltr; text-align: left;"><code>git version 2.50.1.windows.1</code></pre>
+                                        <p>כמובן מספר הגירסא יכול להשתנות בהתאם לגירסא המותקנת אצלכם.</p>
+                                        <p>אם לא מופיע מספר גירסה, אז יש תקלה בהתקנת גיט, נסו להתקין שוב. אם התקלה נמשכת, נסו להכניס ידנית את נתיב ההתקנה למשתני הסביבה של PATH.</p>
                                     </div>
                                 </div>
                             </div>
@@ -197,6 +201,37 @@
                         </div>
                     </section>
 
+                    <section id="rust-install" class="tutorial-section">
+                        <h3>התקנת ראסט (rust)</h3>
+                        <div class="content-box">
+                            <div class="steps-list">
+                                <div class="step-item">
+                                    <div class="step-number">1</div>
+                                    <div class="step-content">
+                                        <h4>הורדת rust</h4>
+                                        <p>יש להוריד את rust ע"י הפקודה:</p>
+                                        <pre style="background-color: #2d3748; color: #e2e8f0; padding: 1rem; border-radius: var(--radius-sm); overflow-x: auto; margin: 1rem 0; direction: ltr; text-align: left;"><code>rustup install</code></pre>
+                                        <p>rust - היא שפת תכנות, שאוצריא משתמשת בה בשביל החיפוש.</p>
+                                    </div>
+                                </div>
+
+                                <div class="step-item">
+                                    <div class="step-number">2</div>
+                                    <div class="step-content">
+                                        <h4>בדיקת ההתקנה </h4>
+                                        <p>פתחו את ה-CMD <b>מחדש</b> והריצו את הפקודה:</p>
+                                        <pre style="background-color: #2d3748; color: #e2e8f0; padding: 1rem; border-radius: var(--radius-sm); overflow-x: auto; margin: 1rem 0; direction: ltr; text-align: left;"><code>rustup --version</code></pre>
+                                        <p>אם ההתקנה הצליחה, אמור להופיע לכם הפלט הבא:</p>
+                                        <pre style="background-color: #2d3748; color: #e2e8f0; padding: 1rem; border-radius: var(--radius-sm); overflow-x: auto; margin: 1rem 0; direction: ltr; text-align: left;"><code>rustup 1.28.2 (e4f3ad6f8 2025-04-28)
+info: This is the version for the rustup toolchain manager, not the rustc compiler.
+info: The currently active `rustc` version is `rustc 1.89.0 (29483883e 2025-08-04)`</code></pre>
+                                        <p>כמובן מספר הגירסא יכול להשתנות בהתאם לגירסא המותקנת אצלכם.</p>
+                                        <p>אם לא מופיע מספר גירסה, אז יש תקלה בהתקנה, נסו להתקין שוב.</p>                                            
+                                    </div>
+                                </div>
+                            </div>
+                    </section>
+                    
                     <section id="editor-install" class="tutorial-section">
                         <h3>התקנת עורך קוד</h3>
                         <div class="content-box">
@@ -205,8 +240,8 @@
                                     <div class="step-number">1</div>
                                     <div class="step-content">
                                         <h4>הורדת KIRO</h4>
-                                        <p>יש להוריד את עורך הקוד בשם KIRO - זהו עורך קוד חדש עם סוכן AI מובנה מ-<a href="https://did.li/KIRO-AI" target="_blank">https://did.li/KIRO-AI</a></p>
-                                        <p><strong>חלופה:</strong> מי שמותקן לו Visual Studio Code עצמו יכול להשתמש גם בו ע"י התוסף של GitHub Copilot, או התוסף של Gemini.</p>
+                                        <p>יש להוריד את עורך הקוד בשם KIRO - זהו עורך קוד חדש עם סוכן AI מובנה מ- <a href="https://kiro.dev/downloads/" target="_blank">https://kiro.dev/downloads/</a></p>
+                                        <p><strong>חלופות:</strong> מי שמותקן לו Visual Studio Code עצמו, יכול להשתמש גם בו ע"י התוסף של GitHub Copilot, או התוסף של Gemini.</p>
                                     </div>
                                 </div>
 
@@ -216,7 +251,7 @@
                                         <h4>התקנת תוסף Flutter</h4>
                                         <p>בתוך עורך הקוד:</p>
                                         <ul>
-                                            <li>לחצו על כפתור ההרחבות בצד שמאל</li>
+                                            <li>לחצו על כפתור ההרחבות בצד שמאל <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAjCAYAAADxG9hnAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsEAAA7BAbiRa+0AAAR1SURBVFhHzZgxTBtXGIC/MwfH1RCIC0YtDVFAoQWzeEkVe4ggSlC6VIkqQAxBDKGuMliq2qgdMnRqFdQBB1WwgTIgShuRLEkUyWJxHFAqxNBEZKAIWlnYyEQFN0d99uuQZ2Qf4AbsVP0k68n//fff9969e/dsxTAM/g8ob0LENE0ePXrE7OwslZWVnD17lpMnT1rTcii6yPb2NuPj48zPz38FfAugqird3d2K1+tFURTrKZAtEo/HCQaDbGxsWHP2pLS0FK/Xm9PTLImXuq6Xnzt3jrW1Nebm5igpKckroxiGQTQaZWhoiHg8LqwJ+VBVld7eXvX06dOpLIm/dV0vvXLlCi0tLYoQgrt371Y9ePDgRT4ZxTAMxsbGmJ2dFbW1tZw5cwZd13OSrCSTSR4/fszy8jL19fVcvXpVmZqaYn5+/qmu6y0ZiUx+Op3mzp071Q8fPtzYT0YxDIORkREWFhZEf38/p06d2j1ue7C+vs7g4GA6lUopdXV1i0tLSz/qun7d5/PR3Ny8q4Zpmty+ffuTmZmZqb1kbNYTXhebzYaiKDWJRIKlpaX380kgb+OlS5d+8ng836VSKSYnJ0UoFEKIV7Ph0CKSFICu6+STyKCqKj09PV97PJ7pjMzCwgIUQaRK07TXksggZS663W6naZrMzc0JiiBSrqoqFRUVz60H8qGqKk1NTTHgz3Q6DUUQSSUSCW7dutW8ublpPbYv4XCY6elpFEU50tjYCEUQaQNYXl5meHhYvM5iGA6HmZiYIJlMCrfbTUdHh0kRRD5QVRVN01hZWWFkZCSvjFXi8uXLQlXVUoog8tJut+Pz+XA4HKysrHDz5k2xvr5uzdsl0dfXJzRN27l+oSI/Azidzpjf71ccDgeRSIRAICCi0ehO0h4S6WwJiiDynmzHnU4nGZlYLMbw8LBYW1sjFApZJa5rmlZiqZO7xMuYD3gB1AFOoEK2AigDtoDfgSTwjTxHAOdl/NesDgrge+AL+Z2ampq67u7uaFtbWyYE+4i8ccrKyhgYGFBcLtdOTM1OkC+9p8Ag8BnwLpAG7ECpTPsL2IzH47/duHHjPMC1a9eEw+EIA1EgJketCagEDDnCf2xvbz8ZHR2dePbsmRIKhYTL5dpZjfeaIy5gDPgQOAYcB2qAKvl5B2gGOoFMIT/gBS4CA8DnwMdAB/AR0At8qWnaZENDgw25NchmL5HDUHCdggtICt74Fkuk3ho4KMUSKbMGDkqxROzWwEEpVCSzQh6zxA9MoSKZkXi1qSiAQkVMa+CwFCqSeWx/scQPTM4PrBMnTuDxeBSb7d/9EokE9+7dqwA2L1y4MGO329utOVbS6TTBYJBIJCLa29vp6uraWeIVwzBYXV0lEAiIra0t5BtzFPg0k7NTqXA2gKMOhwO/34/T6cwVAYjFYty/f18sLi5imkW79TmUl5fT2tpKZ2cnVVVVOR3c72+JWuBtoFq2x+VIVQNH5eNaLeMp4Ins7aKcd0fkRE7KR3wDeEvW/sFyLcgj8p/zD3/A5KKU4HEIAAAAAElFTkSuQmCC" ></li>
                                             <li>חפשו את FLUTTER</li>
                                             <li>בחרו בפלאטר של Dart-Code</li>
                                         </ul>
@@ -239,11 +274,12 @@
                         <div class="content-box">
                             <p>"מזלג" הוא למעשה יצירת עותק אישי של המאגר המקורי אל חשבון ה-GitHub שלכם.</p>
                             <ul>
-                                <li>גשו ל-<a href="https://github.com/sivan22/otzaria" target="_blank">מאגר 'אוצריא'</a></li>
+                                <li>גשו ל-<a href="https://github.com/Otzaria/otzaria/" target="_blank">מאגר 'אוצריא'</a></li>
                                 <li>לחצו על כפתור ה-Fork בפינה הימנית העליונה</li>
                             </ul>
                             <img src="images/tutorial-dev-img4.png" alt="GitHub Fork" style="max-width: 100%; border-radius: var(--radius-md); box-shadow: var(--shadow-md); margin: 1rem 0;">
                         </div>
+                        שימו לב! חשוב מאוד להסיר את ה V שנמצא שם.
                     </section>
 
                     <section id="clone" class="tutorial-section">
@@ -256,7 +292,7 @@
                                     <div class="step-number">1</div>
                                     <div class="step-content">
                                         <h4>העתקת כתובת המאגר</h4>
-                                        <p>בחשבון ה-GitHub שלכם, היכנסו למאגר המשוכפל, לחצו על כפתור ה-Code והעתיקו את כתובת ה-HTTPS.</p>
+                                        <p>היכנסו למאגר המשוכפל של אוצריא שיצרתם עכשיו [<b>בחשבון ה-GitHub שלכם</b>], לחצו על כפתור ה-Code והעתיקו את כתובת ה-HTTPS.</p>
                                         <img src="images/tutorial-dev-img5.png" alt="כפתור Code" style="max-width: 100%; border-radius: var(--radius-md); box-shadow: var(--shadow-md); margin: 1rem 0;">
                                     </div>
                                 </div>
