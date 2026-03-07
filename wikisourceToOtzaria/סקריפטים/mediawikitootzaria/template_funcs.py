@@ -13,6 +13,10 @@ def space(*args) -> str:
     return " "
 
 
+def bold(template: Template) -> str:
+    return f"<b>{" ".join(map(str, template.params))}</b>"
+
+
 def bold_and_parenthesize(template: Template) -> str:
     return f"(<b>{template.params[0]}</b>) ({template.params[1]})"
 
@@ -42,8 +46,19 @@ def gersim_and_parenthesize(template: Template) -> str:
 
 
 def keep_some_params(template: Template, params_to_keep: list[int]) -> str:
-    kept_params = [str(template.params[i]) for i in params_to_keep if i < len(template.params)]
-    return " ".join(kept_params)
+    result = []
+
+    for i in params_to_keep:
+        try:
+            result.append(str(template.params[i]))
+        except IndexError:
+            continue
+
+    return " ".join(result)
+
+
+def bold_and_colon(template: Template) -> str:
+    return f"<b>{" ".join(map(str, template.params))}</b>:"
 
 
 def mmc(template: Template) -> str:
@@ -65,3 +80,22 @@ def h_1(template: Template) -> str:
 
 def save_all(template: Template) -> str:
     return " ".join(map(str, template.params))
+
+
+def space(template: Template) -> str:
+    return " ".join(
+        " ".join(str(param))
+        for param in template.params
+    )
+
+
+def line_under(template: Template) -> str:
+    return f"<u>{" ".join(map(str, template.params))}</u>"
+
+
+def left_align(template: Template) -> str:
+    return f'<p style="text-align:left">{" ".join(map(str, template.params))}</p>'
+
+
+def ver_fix(template: Template) -> str:
+    return f"({template.params[0]}) [{template.params[1]}]"
