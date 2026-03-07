@@ -172,6 +172,8 @@ def main(url: str, kosher_file: Path, base_url: str, not_kosher_file: Path, need
     for line in updated_csv[1:]:
         if line in old_csv:
             continue
+        if not line:
+            continue
         author = line[3]
         if author in not_kosher_list:
             continue
