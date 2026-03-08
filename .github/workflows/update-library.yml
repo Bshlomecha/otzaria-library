@@ -53,8 +53,14 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
+          lfs: true
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 2
+
+      - name: Pull LFS objects for packaging
+        run: |
+          git lfs pull
+          git lfs checkout
 
       - name: Set up Python
         uses: actions/setup-python@v6
