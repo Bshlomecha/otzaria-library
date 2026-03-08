@@ -237,6 +237,76 @@ jobs:
 
           echo "Dicta archive created successfully!"
 
+      - name: Create Bavli PDF ZST Archive
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          ARCHIVE_NAME="talmud_bavli_latest.tar.zst"
+          SRC="MoreBooks/ספרים/אוצריא/תלמוד בבלי"
+          PREV_RUN=$((GITHUB_RUN_NUMBER - 1))
+          PREV_TAG="library-${PREV_RUN}"
+          REBUILD_ARCHIVE=1
+
+          if [ "${{ github.event_name }}" = "push" ] && [ "${{ github.event.before }}" != "0000000000000000000000000000000000000000" ]; then
+            if git cat-file -e "${{ github.event.before }}^{commit}" 2>/dev/null; then
+              if git diff --quiet "${{ github.event.before }}" "${{ github.sha }}" -- "$SRC"; then
+                echo "No Bavli PDF changes detected in this push."
+                REBUILD_ARCHIVE=0
+              else
+                echo "Bavli PDF changes detected in this push."
+              fi
+            else
+              echo "Base commit is not available locally. Rebuilding Bavli archive."
+            fi
+          else
+            REBUILD_ARCHIVE=0
+          fi
+
+          if [ "$REBUILD_ARCHIVE" -eq 0 ] && [ "$PREV_RUN" -gt 0 ]; then
+            echo "Trying to reuse Bavli archive from release $PREV_TAG..."
+            if gh release download "$PREV_TAG" -p "$ARCHIVE_NAME"; then
+              echo "Reused Bavli archive from previous release."
+              exit 0
+            fi
+
+            echo "Previous Bavli archive not found. Rebuilding..."
+          fi
+
+          echo "Creating flattened ZST archive for Bavli PDFs..."
+
+          STAGING_DIR="$(mktemp -d)"
+          FLAT_DIR="$STAGING_DIR/תלמוד בבלי"
+
+          mkdir -p "$FLAT_DIR"
+
+          declare -A seen_files=()
+
+          while IFS= read -r -d '' pdf; do
+            base_name="$(basename "$pdf")"
+
+            if [[ -n "${seen_files[$base_name]:-}" ]]; then
+              echo "Duplicate PDF name detected while flattening: $base_name"
+              echo "Existing: ${seen_files[$base_name]}"
+              echo "Duplicate: $pdf"
+              exit 1
+            fi
+
+            seen_files[$base_name]="$pdf"
+            cp "$pdf" "$FLAT_DIR/$base_name"
+          done < <(find "$SRC" -type f -iname '*.pdf' -print0)
+
+          if [ -z "$(find "$FLAT_DIR" -maxdepth 1 -type f -iname '*.pdf' -print -quit)" ]; then
+            echo "No PDF files found under $SRC"
+            exit 1
+          fi
+
+          tar -C "$STAGING_DIR" -cf - "תלמוד בבלי" | zstd -19 -T0 -o "$GITHUB_WORKSPACE/$ARCHIVE_NAME"
+
+          rm -rf "$STAGING_DIR"
+
+          echo "Bavli archive created successfully!"
 
 
       - name: Create Release for this run
@@ -256,9 +326,10 @@ jobs:
             --title "Latest Otzaria Files" \
             --notes "Latest version of Otzaria files" \
             otzaria_latest.zip \
-            otzaria_dicta_latest.zip
+            otzaria_dicta_latest.zip \
+            talmud_bavli_latest.tar.zst
 
-          rm otzaria_latest.zip otzaria_dicta_latest.zip
+          rm otzaria_latest.zip otzaria_dicta_latest.zip talmud_bavli_latest.tar.zst
 
       - name: Delete previous release to save space
         continue-on-error: true
