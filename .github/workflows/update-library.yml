@@ -249,6 +249,12 @@ jobs:
           PREV_TAG="library-${PREV_RUN}"
           REBUILD_ARCHIVE=1
 
+          validate_archive() {
+            local archive_path="$1"
+            zstd -t --quiet "$archive_path"
+            tar --use-compress-program=unzstd -tf "$archive_path" > /dev/null
+          }
+
           if [ "${{ github.event_name }}" = "push" ] && [ "${{ github.event.before }}" != "0000000000000000000000000000000000000000" ]; then
             if git cat-file -e "${{ github.event.before }}^{commit}" 2>/dev/null; then
               if git diff --quiet "${{ github.event.before }}" "${{ github.sha }}" -- "$SRC"; then
@@ -267,8 +273,13 @@ jobs:
           if [ "$REBUILD_ARCHIVE" -eq 0 ] && [ "$PREV_RUN" -gt 0 ]; then
             echo "Trying to reuse Bavli archive from release $PREV_TAG..."
             if gh release download "$PREV_TAG" -p "$ARCHIVE_NAME"; then
-              echo "Reused Bavli archive from previous release."
-              exit 0
+              if validate_archive "$ARCHIVE_NAME"; then
+                echo "Reused Bavli archive from previous release."
+                exit 0
+              fi
+
+              echo "Downloaded Bavli archive is invalid. Rebuilding..."
+              rm -f "$ARCHIVE_NAME"
             fi
 
             echo "Previous Bavli archive not found. Rebuilding..."
@@ -305,6 +316,8 @@ jobs:
           tar -C "$STAGING_DIR" -cf - "תלמוד בבלי" | zstd -19 -T0 -o "$GITHUB_WORKSPACE/$ARCHIVE_NAME"
 
           rm -rf "$STAGING_DIR"
+
+          validate_archive "$GITHUB_WORKSPACE/$ARCHIVE_NAME"
 
           echo "Bavli archive created successfully!"
 
