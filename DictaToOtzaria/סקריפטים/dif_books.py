@@ -54,6 +54,7 @@ def new_vs_old(dict_1: dict[str, list[str]], dict_2: dict[str, list[str]]) -> tu
 
 
 def main(file_path: str) -> None:
+    print("Reading CSV files...")
     old_list = read_csv("old.csv")
     new_list = read_csv("list.csv")
     if old_list != new_list:
@@ -61,6 +62,8 @@ def main(file_path: str) -> None:
         dict_old = dict_csv(old_list)
         not_in_old, not_in_old_2 = new_vs_old(dict_new, dict_old)
         not_in_new, not_in_new_2 = new_vs_old(dict_old, dict_new)
+        print(f"Not in old: {len(not_in_old) + len(not_in_old_2)}")
+        print(f"Not in new: {len(not_in_new) + len(not_in_new_2)}")
         write_csv(os.path.join(file_path, "not_in_old.csv"), not_in_old)
         write_csv(os.path.join(file_path, "not_in_new.csv"), not_in_new)
         write_csv(os.path.join(file_path, "not_in_old_2.csv"), not_in_old_2)
