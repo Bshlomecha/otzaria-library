@@ -1,0 +1,5138 @@
+[
+  {
+    "heAuthors": [
+      "רבי אליהו בן שלמה זלמן (הגאון מוילנא)"
+    ],
+    "title": "אדרת אליהו על נביאים כתובים",
+    "enTitle": "Aderet Eliyahu (nevi'im ketuvim)",
+    "authors": [
+      "Rabbi Elijah ben Solomon Zalman (Vilna Gaon)"
+    ],
+    "pubDate": [
+      1871
+    ],
+    "pubDateHeb": "ה׳תרל״א",
+    "pubPlaceStringEn": "Vilna (Vilnius)",
+    "pubPlaceStringHe": "וילנה",
+    "heCategories": [
+      "תנ\"ך ומפרשיו"
+    ],
+    "categories": [
+      "Tanakh and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "לוצאטו, משה חיים בן יעקב חי (רמח\"ל)"
+    ],
+    "title": "אדיר במרום",
+    "enTitle": "Adir Bamarom",
+    "authors": [
+      "Moshe Chaim Luzzatto"
+    ],
+    "pubDate": [
+      1886
+    ],
+    "pubDateHeb": "ה׳תרמ״ו",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "קבלה"
+    ],
+    "categories": [
+      "Kabbala"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יחזקאל הלוי לנדא"
+    ],
+    "title": "אהבת ציון",
+    "enTitle": "Ahavat Tzion",
+    "authors": [
+      "Yechezkel Landau"
+    ],
+    "pubDate": [
+      1827
+    ],
+    "pubDateHeb": "ה׳תקפ״ז",
+    "pubPlaceStringEn": "Prague",
+    "pubPlaceStringHe": "פראג",
+    "heCategories": [
+      "דרשות ודרושים"
+    ],
+    "categories": [
+      "Derashot (Homilies)"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "שלום דוד מאירוביץ"
+    ],
+    "title": "אהבת דוד",
+    "enTitle": "Ahavat David",
+    "authors": [
+      "Rabbi Sholom Dovid Meirovitz"
+    ],
+    "pubDate": [
+      1872
+    ],
+    "pubDateHeb": "ה׳תרל״ב",
+    "pubPlaceStringEn": "Vilna (Vilnius)",
+    "pubPlaceStringHe": "וילנה",
+    "heCategories": [
+      "דרשות ודרושים"
+    ],
+    "categories": [
+      "Derashot (Homilies)"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ר' אברהם קרניץ"
+    ],
+    "title": "אהבת איתן",
+    "enTitle": "Ahvata Itan",
+    "authors": [
+      "Rabbi Avraham Karnitz"
+    ],
+    "pubDate": [
+      1913
+    ],
+    "pubDateHeb": "ה׳תרע״ג",
+    "pubPlaceStringEn": "Vilna (Vilnius)",
+    "pubPlaceStringHe": "וילנה",
+    "heCategories": [
+      "ספרות חז\"ל"
+    ],
+    "categories": [
+      "Rabbinic Literature"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "מנשה בן יוסף מאילייה בן פורת "
+    ],
+    "title": "אלפי מנשה חלק א",
+    "enTitle": "Alfei Menashe part 1",
+    "authors": [
+      "Menashe ben porat"
+    ],
+    "pubDate": [
+      1880
+    ],
+    "pubDateHeb": "ה׳תר״מ",
+    "pubPlaceStringEn": "Vilna (Vilnius)",
+    "pubPlaceStringHe": "וילנה",
+    "heCategories": [
+      "מחשבה ומוסר"
+    ],
+    "categories": [
+      "Jewish Thought and Ethics"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "מנשה איכנשטין"
+    ],
+    "title": "אלפי מנשה עה\"ת",
+    "enTitle": "Alfei Menashe Torah",
+    "authors": [
+      "Eichenstein, Menashe"
+    ],
+    "pubDate": [
+      1935
+    ],
+    "pubDateHeb": "ה׳תרצ״ה",
+    "pubPlaceStringEn": "Munkatch (Mukacheve)",
+    "pubPlaceStringHe": "מונקאטש (מונקאץ')",
+    "heCategories": [
+      "חסידות"
+    ],
+    "categories": [
+      "Chassidut"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ר' ישראל איזנשטיין"
+    ],
+    "title": "עמודי אש",
+    "enTitle": "Amudei Eish",
+    "authors": [
+      "Aizinshtain, Yisrael"
+    ],
+    "pubDate": [
+      1843
+    ],
+    "pubDateHeb": "ה׳תר״ג",
+    "pubPlaceStringEn": "Lemberg (Lvov)",
+    "pubPlaceStringHe": "למברג (לבוב)",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ר' ישראל איזנשטיין"
+    ],
+    "title": "עמודי אש קונטרס עמודי ירושלים",
+    "enTitle": "Amudei Eish Kuntress Amudei Yerushalim",
+    "authors": [
+      "Aizinshtain, Yisrael"
+    ],
+    "pubDate": [
+      1843
+    ],
+    "pubDateHeb": "ה׳תר״ג",
+    "pubPlaceStringEn": "Lemberg (Lvov)",
+    "pubPlaceStringHe": "למברג (לבוב)",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ר' יחיאל הלר"
+    ],
+    "title": "עמודי אור",
+    "enTitle": "Amudei Ohr",
+    "authors": [
+      "Yechiel Heller"
+    ],
+    "pubDate": [
+      1855
+    ],
+    "pubDateHeb": "ה׳תרט״ו",
+    "pubPlaceStringEn": "Königsberg (Kaliningrad)",
+    "pubPlaceStringHe": "קניגסברג (קלינינגרד)",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ר' משה גרינוולד"
+    ],
+    "title": "ערוגת הבושם על או\"ח",
+    "enTitle": "Arugat ha-bosem orach chayim",
+    "authors": [
+      "Mosheh ben Amram Grinvald"
+    ],
+    "pubDate": [
+      1926
+    ],
+    "pubDateHeb": "ה׳תרפ״ו",
+    "pubPlaceStringEn": "New York",
+    "pubPlaceStringHe": "ניו יורק",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ר' משה גרינוולד"
+    ],
+    "title": "ערוגת הבושם על יו\"ד - א",
+    "enTitle": "Arugat ha-bosem yoreh deah part 1",
+    "authors": [
+      "Mosheh ben Amram Grinvald"
+    ],
+    "pubDate": [
+      1912
+    ],
+    "pubDateHeb": "ה׳תרע״ב",
+    "pubPlaceStringEn": "New York",
+    "pubPlaceStringHe": "ניו יורק",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ר' משה גרינוולד"
+    ],
+    "title": "ערוגת הבושם על יו\"ד - ב",
+    "enTitle": "Arugat ha-bosem yoreh deah part 2",
+    "authors": [
+      "Mosheh ben Amram Grinvald"
+    ],
+    "pubDate": [
+      1912
+    ],
+    "pubDateHeb": "ה׳תרע״ב",
+    "pubPlaceStringEn": "New York",
+    "pubPlaceStringHe": "ניו יורק",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אריה ליב ליפשיץ"
+    ],
+    "title": "אריה דבי עילאי (ש\"ס)",
+    "enTitle": "Aryeh deBei Aliyah shas",
+    "authors": [
+      "Aryeh Leibish Lipshitz"
+    ],
+    "pubDate": [
+      1880
+    ],
+    "pubDateHeb": "ה׳תר״מ",
+    "pubPlaceStringEn": "Przemyśl",
+    "pubPlaceStringHe": "פרמישלה",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "מנחם מנדל בן יוסף מרימאנוב"
+    ],
+    "title": "עטרת מנחם",
+    "enTitle": "Ateret Menachem",
+    "authors": [
+      "Menachem Mendel Torem of Rimanov"
+    ],
+    "pubDate": [
+      1910
+    ],
+    "pubDateHeb": "ה׳תר״ע",
+    "pubPlaceStringEn": "Bilgoraj",
+    "pubPlaceStringHe": "בילגוריי",
+    "heCategories": [
+      "חסידות"
+    ],
+    "categories": [
+      "Chassidut"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "שלמה רייזנר"
+    ],
+    "title": "אבני החושן חלק א",
+    "enTitle": "Avnei haChoshen part 1",
+    "authors": [
+      "Shlomo Riezner"
+    ],
+    "pubDate": [
+      1932
+    ],
+    "pubDateHeb": "ה׳תרצ״ב",
+    "pubPlaceStringEn": "Bilgoraj",
+    "pubPlaceStringHe": "בילגוריי",
+    "heCategories": [
+      "שונות"
+    ],
+    "categories": [
+      "Miscellaneous"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "דוד פיפאנו"
+    ],
+    "title": "אבני האפוד חלק א",
+    "enTitle": "Avnei Ha-Ephod part 1",
+    "authors": [
+      "Dovid Ben Avraham Pipeno"
+    ],
+    "pubDate": [
+      1913
+    ],
+    "pubDateHeb": "ה׳תרע״ג",
+    "pubPlaceStringEn": "Sofia",
+    "pubPlaceStringHe": "סופיה",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אריה ליב בן יוסף הכהן (בעל הקצות)"
+    ],
+    "title": "אבני מילואים על השולחן ערוך - א",
+    "enTitle": "Avnei Milu’im (Shulchan Aruch) part 1",
+    "authors": [
+      "Aryeh Leib HaCohen Heller"
+    ],
+    "pubDate": [
+      1860
+    ],
+    "pubDateHeb": "ה׳תר״כ",
+    "pubPlaceStringEn": "Halberstadt",
+    "pubPlaceStringHe": "הלברשטאדט",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אריה ליב בן יוסף הכהן (בעל הקצות)"
+    ],
+    "title": "אבני מילואים על השולחן ערוך - ב",
+    "enTitle": "Avnei Milu’im (Shulchan Aruch) part 2",
+    "authors": [
+      "Aryeh Leib HaCohen Heller"
+    ],
+    "pubDate": [
+      1860
+    ],
+    "pubDateHeb": "ה׳תר״כ",
+    "pubPlaceStringEn": "Halberstadt",
+    "pubPlaceStringHe": "הלברשטאדט",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "רוט, יואל צבי בן שמעון"
+    ],
+    "title": "בית היוצר חלק א",
+    "enTitle": "Bait haYotzer part 1",
+    "authors": [
+      "Yoel Tzvi ben Shimon Rott"
+    ],
+    "pubDate": [
+      1896
+    ],
+    "pubDateHeb": "ה׳תרנ״ו",
+    "pubPlaceStringEn": "Munkatch (Mukacheve)",
+    "pubPlaceStringHe": "מונקאטש (מונקאץ')",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יעקב טובושונסקי"
+    ],
+    "title": "בית יעקב (טבשונסקי)",
+    "enTitle": "Bait Yaakov (Tushinsky)",
+    "authors": [
+      "Yaakov Tushinsky"
+    ],
+    "pubDate": [
+      1912
+    ],
+    "pubDateHeb": "ה׳תרע״ב",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ר' צבי יחזקאל מיכלסון"
+    ],
+    "title": "בית יחזקאל (מיכלסון)",
+    "enTitle": "Bait Yehezkel Michelson",
+    "authors": [
+      "Tzvi Yehezkel Michelson"
+    ],
+    "pubDate": [
+      1924
+    ],
+    "pubDateHeb": "ה׳תרפ״ד",
+    "pubPlaceStringEn": "Piotrków",
+    "pubPlaceStringHe": "פיוטריקוב",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ר' מרדכי פריד"
+    ],
+    "title": "ברוך מרדכי חלק א",
+    "enTitle": "Barukh Mordekhai part 1",
+    "authors": [
+      "Frid, Mordekhai"
+    ],
+    "pubDate": [
+      1875
+    ],
+    "pubDateHeb": "ה׳תרל״ה",
+    "pubPlaceStringEn": "Lemberg (Lvov)",
+    "pubPlaceStringHe": "למברג (לבוב)",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ר' מרדכי פריד"
+    ],
+    "title": "ברוך מרדכי חלק ב",
+    "enTitle": "Barukh Mordekhai part 2",
+    "authors": [
+      "Frid, Mordekhai"
+    ],
+    "pubDate": [
+      1875
+    ],
+    "pubDateHeb": "ה׳תרל״ה",
+    "pubPlaceStringEn": "Lemberg (Lvov)",
+    "pubPlaceStringHe": "למברג (לבוב)",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ר' מרדכי פרהנד"
+    ],
+    "title": "באר מרדכי",
+    "enTitle": "Beer Mordechai",
+    "authors": [
+      "Rabbi Mordechai Farhand"
+    ],
+    "pubDate": [
+      1927
+    ],
+    "pubDateHeb": "ה׳תרפ״ז",
+    "pubPlaceStringEn": "Galati",
+    "pubPlaceStringHe": "גאלאץ",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ר' יצחק ביליצר"
+    ],
+    "title": "באר יצחק עה\"ת",
+    "enTitle": "Beer Yitzchak Billitzer",
+    "authors": [
+      "Rabbi Yitzchak Billitzer"
+    ],
+    "pubDate": [
+      1898
+    ],
+    "pubDateHeb": "ה׳תרנ״ח",
+    "pubPlaceStringEn": "Paks",
+    "pubPlaceStringHe": "פקש",
+    "heCategories": [
+      "תנ\"ך ומפרשיו"
+    ],
+    "categories": [
+      "Tanakh and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "מאיר פוזנר"
+    ],
+    "title": "בית מאיר ש\"ס",
+    "enTitle": "Beit Meir shas",
+    "authors": [
+      "rabbi meir posner"
+    ],
+    "pubDate": [
+      1884
+    ],
+    "pubDateHeb": "ה׳תרמ״ד",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "עמרם בלום"
+    ],
+    "title": "בית שערים יורה דעה חלק א",
+    "enTitle": "Beit She'arim Yoreh Deah part 1",
+    "authors": [
+      "Amram Blum"
+    ],
+    "pubDate": [
+      1941
+    ],
+    "pubDateHeb": "ה׳תש״א",
+    "pubPlaceStringEn": "Grosswardien (Oradea) ",
+    "pubPlaceStringHe": "גרוסורדן (אורדיאה) ",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "שלמה דרימר"
+    ],
+    "title": "בית שלמה יורה דעה מהדורא בתרא חלק א",
+    "enTitle": "Beit Shlomo Yoreh Deah mahadura batra part 1",
+    "authors": [
+      "Shlomo Dreimer"
+    ],
+    "pubDate": [
+      1878
+    ],
+    "pubDateHeb": "ה׳תרל״ח",
+    "pubPlaceStringEn": "Lemberg (Lvov)",
+    "pubPlaceStringHe": "למברג (לבוב)",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יצחק י-הודה שמלקיש"
+    ],
+    "title": "בית יצחק יורה דעה חלק א",
+    "enTitle": "Beit Yitzchak Yoreh Deah part 1",
+    "authors": [
+      "Yitsḥak Yehudah Schmelkes"
+    ],
+    "pubDate": [
+      1888
+    ],
+    "pubDateHeb": "ה׳תרמ״ח",
+    "pubPlaceStringEn": "Przemyśl",
+    "pubPlaceStringHe": "פרמישלה",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יצחק י-הודה שמלקיש"
+    ],
+    "title": "בית יצחק יורה דעה חלק ב",
+    "enTitle": "Beit Yitzchak Yoreh Deah part 2",
+    "authors": [
+      "Yitsḥak Yehudah Schmelkes"
+    ],
+    "pubDate": [
+      1895
+    ],
+    "pubDateHeb": "ה׳תרנ״ה",
+    "pubPlaceStringEn": "Przemyśl",
+    "pubPlaceStringHe": "פרמישלה",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אליהו אלמליח"
+    ],
+    "title": "בקע לגולגולת (שו\"ת)",
+    "enTitle": "Beka Legulgolet (Shulchan Aruch)",
+    "authors": [
+      "Rabbi Eliyahu Elmaleh"
+    ],
+    "pubDate": [
+      1884
+    ],
+    "pubDateHeb": "ה׳תרמ״ד",
+    "pubPlaceStringEn": "Jerusalem",
+    "pubPlaceStringHe": "ירושלים",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "רבי רחמים חיים יהודה ישראל"
+    ],
+    "title": "בן ימין",
+    "enTitle": "Ben Yamin",
+    "authors": [
+      "Rachamim Chaim Yehudah ben Michoel Yakov Yisroel"
+    ],
+    "pubDate": [
+      1896
+    ],
+    "pubDateHeb": "ה׳תרנ״ו",
+    "pubPlaceStringEn": "Salonika (Thessaloniki)",
+    "pubPlaceStringHe": "סאלוניקי",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ברוך מרדכי ליבשיץ"
+    ],
+    "title": "ברית יעקב חלק ב",
+    "enTitle": "Berit Yaaḳov part 2",
+    "authors": [
+      "Libschitz, Baruch Mordecai"
+    ],
+    "pubDate": [
+      1876
+    ],
+    "pubDateHeb": "ה׳תרל״ו",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ניסן מרקל"
+    ],
+    "title": "בינת נבונים",
+    "enTitle": "Binat Nevonim",
+    "authors": [
+      "Isaac Lifietz of Shedlitz"
+    ],
+    "pubDate": [
+      1893
+    ],
+    "pubDateHeb": "ה׳תרנ״ג",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ר' דוד דב מייזליש"
+    ],
+    "title": "בנין דוד א",
+    "enTitle": "Binyan David part1",
+    "authors": [
+      "Rabbi David Dov Meiselis"
+    ],
+    "pubDate": [
+      1942
+    ],
+    "pubDateHeb": "ה׳תש״ב",
+    "pubPlaceStringEn": "Ujhely (Satoraljaujhely)",
+    "pubPlaceStringHe": "אויהל (שטורליאוהי)",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ר' דוד דב מייזליש"
+    ],
+    "title": "שו\"ת בנין דוד",
+    "enTitle": "Shut Binyan David",
+    "authors": [
+      "Rabbi David Dov Meiselis"
+    ],
+    "pubDate": [
+      1932
+    ],
+    "pubDateHeb": "ה׳תרצ״ב",
+    "pubPlaceStringEn": "Ujhely (Satoraljaujhely)",
+    "pubPlaceStringHe": "אויהל (שטורליאוהי)",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אברהם אביש"
+    ],
+    "title": "ברכת אברהם (ברכות)",
+    "enTitle": "Bircat Avraham Berakhot",
+    "authors": [
+      "Abish, Avraham"
+    ],
+    "pubDate": [
+      1930
+    ],
+    "pubDateHeb": "ה׳תר״צ",
+    "pubPlaceStringEn": "Piotrków",
+    "pubPlaceStringHe": "פיוטריקוב",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אשכנזי, אשר בן צבי הירש, הכהן"
+    ],
+    "title": "ברכת ראש ברכות",
+    "enTitle": "Birchat Rosh (Berakhot)",
+    "authors": [
+      "Asher Cohen"
+    ],
+    "pubDate": [
+      1891
+    ],
+    "pubDateHeb": "ה׳תרנ״א",
+    "pubPlaceStringEn": "Piotrków",
+    "pubPlaceStringHe": "פיוטריקוב",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אשכנזי, אשר בן צבי הירש, הכהן"
+    ],
+    "title": "ברכת ראש נזיר",
+    "enTitle": "Birchat Rosh (Nazir)",
+    "authors": [
+      "Asher Cohen"
+    ],
+    "pubDate": [
+      1876
+    ],
+    "pubDateHeb": "ה׳תרל״ו",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אברהם נפתלי הירץ ינר "
+    ],
+    "title": "ברכת אברהם (יענר)",
+    "enTitle": "Birkat Avraham (Yener)",
+    "authors": [
+      "Yener, Avraham Naftali Hirts"
+    ],
+    "pubDate": [
+      1870
+    ],
+    "pubDateHeb": "ה׳תר״ל",
+    "pubPlaceStringEn": "Lemberg (Lvov)",
+    "pubPlaceStringHe": "למברג (לבוב)",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "רפפורט, טוביה גוטמן"
+    ],
+    "title": "ברכת כהן",
+    "enTitle": "Birkat Cohen",
+    "authors": [
+      "Rappoport, Tuviah Gutman"
+    ],
+    "pubDate": [
+      1908
+    ],
+    "pubDateHeb": "ה׳תרס״ח",
+    "pubPlaceStringEn": "Piotrków",
+    "pubPlaceStringHe": "פיוטריקוב",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ר' מרדכי בנט"
+    ],
+    "title": "ביאור מרדכי ברכות",
+    "enTitle": "Biyur Mordechai Berakhot",
+    "authors": [
+      "Rabbi Mordechai Bent"
+    ],
+    "pubDate": [
+      1813
+    ],
+    "pubDateHeb": "ה׳תקע״ג",
+    "pubPlaceStringEn": "Vienna",
+    "pubPlaceStringHe": "וינה",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יוסף מטראני"
+    ],
+    "title": "חידושי המהרי”ט",
+    "enTitle": "Chiddushei Ha-Maharit",
+    "authors": [
+      "Joseph Trani"
+    ],
+    "pubDate": [
+      1861
+    ],
+    "pubDateHeb": "ה׳תרכ״א",
+    "pubPlaceStringEn": "Lemberg (Lvov)",
+    "pubPlaceStringHe": "למברג (לבוב)",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "דוד דוב בן אהרן אריה יהודה יעקב מייזלש "
+    ],
+    "title": "חידושי הרד\"ד",
+    "enTitle": "Chidushei haRadad",
+    "authors": [
+      "David Dov Meisels"
+    ],
+    "pubDate": [
+      1890
+    ],
+    "pubDateHeb": "ה׳תר״נ",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "רבי יהודה אסאד"
+    ],
+    "title": "חידושי מהרי\"א על כתובות",
+    "enTitle": "Hidushei Mahari Ketuvot",
+    "authors": [
+      "Yehudah Assad"
+    ],
+    "pubDate": [
+      1931
+    ],
+    "pubDateHeb": "ה׳תרצ״א",
+    "pubPlaceStringEn": "Turnau (Turnov)",
+    "pubPlaceStringHe": "טורנוב",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "רפאל בן חזקיהו מילדולה "
+    ],
+    "title": "חופת חתנים",
+    "enTitle": "Chopat Chatanim",
+    "authors": [
+      "Raphael Meldola"
+    ],
+    "pubDate": [
+      1875
+    ],
+    "pubDateHeb": "ה׳תרל״ה",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "צבי הירש שפירא"
+    ],
+    "title": "דרכי תשובה - א",
+    "enTitle": "Darkhe teshuvah part 1",
+    "authors": [
+      "Shapira, Tsevi Hirsh"
+    ],
+    "pubDate": [
+      1892
+    ],
+    "pubDateHeb": "ה׳תרנ״ב",
+    "pubPlaceStringEn": "Vilna (Vilnius)",
+    "pubPlaceStringHe": "וילנה",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "צבי הירש שפירא"
+    ],
+    "title": "דרכי תשובה - ב",
+    "enTitle": "Darkhe teshuvah part 2",
+    "authors": [
+      "Shapira, Tsevi Hirsh"
+    ],
+    "pubDate": [
+      1892
+    ],
+    "pubDateHeb": "ה׳תרנ״ב",
+    "pubPlaceStringEn": "Vilna (Vilnius)",
+    "pubPlaceStringHe": "וילנה",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ר' צבי הירש שפירא"
+    ],
+    "title": "דרכי תשובה - ג",
+    "enTitle": "Darkhe teshuvah part 3",
+    "authors": [
+      "Tsevi Hirsh Shapira"
+    ],
+    "pubDate": [
+      1892
+    ],
+    "pubDateHeb": "ה׳תרנ״ב",
+    "pubPlaceStringEn": "Vilna (Vilnius)",
+    "pubPlaceStringHe": "וילנה",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ר' צבי הירש שפירא"
+    ],
+    "title": "דרכי תשובה - ד",
+    "enTitle": "Darkhe teshuvah part 4",
+    "authors": [
+      "Tsevi Hirsh Shapira"
+    ],
+    "pubDate": [
+      1892
+    ],
+    "pubDateHeb": "ה׳תרנ״ב",
+    "pubPlaceStringEn": "Vilna (Vilnius)",
+    "pubPlaceStringHe": "וילנה",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ר' יעקב מאיר פרידלנדר"
+    ],
+    "title": "דרך ימה",
+    "enTitle": "Derech Yama",
+    "authors": [
+      "Rabbi Yaakov Meir Friedlander"
+    ],
+    "pubDate": [
+      1936
+    ],
+    "pubDateHeb": "ה׳תרצ״ו",
+    "pubPlaceStringEn": "Vranov",
+    "pubPlaceStringHe": "ורנוב",
+    "heCategories": [
+      "שונות"
+    ],
+    "categories": [
+      "Miscellaneous"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ר' מנחם מנדל הרטמן"
+    ],
+    "title": "דרך חוקיך",
+    "enTitle": "Derekh hukekha",
+    "authors": [
+      "Menahem Mendel ben Yoel"
+    ],
+    "pubDate": [
+      1887
+    ],
+    "pubDateHeb": "ה׳תרמ״ז",
+    "pubPlaceStringEn": "Drohovich",
+    "pubPlaceStringHe": "דרוהוביטש",
+    "heCategories": [
+      "שונות"
+    ],
+    "categories": [
+      "Miscellaneous"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ר' חיים אריה כהנא"
+    ],
+    "title": "דברי גאונים",
+    "enTitle": "Divrei Gaonim",
+    "authors": [
+      "Rabbi Chaim Aryeh Kahane"
+    ],
+    "pubDate": [
+      1901
+    ],
+    "pubDateHeb": "ה׳תרס״א",
+    "pubPlaceStringEn": "Sziget (Sighetu Marmației)",
+    "pubPlaceStringHe": "סיגט",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "רבי יהודה אסאד"
+    ],
+    "title": "דברי מהרי\"א חלק ב",
+    "enTitle": "Divrei Mahari part 2",
+    "authors": [
+      "Yehudah Assad"
+    ],
+    "pubDate": [
+      1931
+    ],
+    "pubDateHeb": "ה׳תרצ״א",
+    "pubPlaceStringEn": "Michalovce",
+    "pubPlaceStringHe": "מיהלוביץ",
+    "heCategories": [
+      "שונות"
+    ],
+    "categories": [
+      "Miscellaneous"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ר' יוסף שאול נתנזון"
+    ],
+    "title": "דברי שאול דרשות",
+    "enTitle": "Divre Shaul Drashot",
+    "authors": [
+      "Rabbi yosef Shaul Natanson"
+    ],
+    "pubDate": [
+      1876
+    ],
+    "pubDateHeb": "ה׳תרל״ו",
+    "pubPlaceStringEn": "Lemberg (Lvov)",
+    "pubPlaceStringHe": "למברג (לבוב)",
+    "heCategories": [
+      "דרשות ודרושים"
+    ],
+    "categories": [
+      "Derashot (Homilies)"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יוסף שאול נתנזון"
+    ],
+    "title": "דברי שאול - עדות ביוסף - א",
+    "enTitle": "Divre Shaul Edut Beyhosef part1",
+    "authors": [
+      "Nathanson, Joseph Saul"
+    ],
+    "pubDate": [
+      1878
+    ],
+    "pubDateHeb": "ה׳תרל״ח",
+    "pubPlaceStringEn": "Lemberg (Lvov)",
+    "pubPlaceStringHe": "למברג (לבוב)",
+    "heCategories": [
+      "שונות"
+    ],
+    "categories": [
+      "Miscellaneous"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יוסף שאול נתנזון"
+    ],
+    "title": "דברי שאול חלק לשבעה",
+    "enTitle": "Divre Shaul Helek Lesheva",
+    "authors": [
+      "Nathanson, Joseph Saul"
+    ],
+    "pubDate": [
+      1879
+    ],
+    "pubDateHeb": "ה׳תרל״ט",
+    "pubPlaceStringEn": "Lemberg (Lvov)",
+    "pubPlaceStringHe": "למברג (לבוב)",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יחזקאל ברנשטיין"
+    ],
+    "title": "דברי יחזקאל",
+    "enTitle": "Divrei Yechezkel",
+    "authors": [
+      "Yechezkel ben Tzvi Hirsch haLevi"
+    ],
+    "pubDate": [
+      1935
+    ],
+    "pubDateHeb": "ה׳תרצ״ה",
+    "pubPlaceStringEn": "Kiedany (Kedainai)",
+    "pubPlaceStringHe": "קידן (קדאינאי)",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "בראך, שאול בן אלעזר"
+    ],
+    "title": "דבר המלוכה",
+    "enTitle": "Dvar ha-Melukha",
+    "authors": [
+      "Brach, Shaul ben Elazar"
+    ],
+    "pubDate": [
+      1935
+    ],
+    "pubDateHeb": "ה׳תרצ״ה",
+    "pubPlaceStringEn": "Vranov",
+    "pubPlaceStringHe": "ורנוב",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "שמואל בן אהרן עמאר "
+    ],
+    "title": "דבר שמואל",
+    "enTitle": "Dvar Shmuel",
+    "authors": [
+      "Amar, Shmuel ben Aharon"
+    ],
+    "pubDate": [
+      1940
+    ],
+    "pubDateHeb": "ה׳ת״ש",
+    "pubPlaceStringEn": "Casablanca",
+    "pubPlaceStringHe": "קזבלנקה",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יעקב מאיר פדואה"
+    ],
+    "title": "עין המים",
+    "enTitle": "Ein haMayim",
+    "authors": [
+      "Pado, Yaakov Meir"
+    ],
+    "pubDate": [
+      1883
+    ],
+    "pubDateHeb": "ה׳תרמ״ג",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "טאבאק, שלמה יהודה בן פסח צבי"
+    ],
+    "title": "ערך ש\"י ש\"ס",
+    "enTitle": "Erech Shi Shas",
+    "authors": [
+      "Tabak, Shlomo Yehudah ben Pesach Zvi"
+    ],
+    "pubDate": [
+      1910
+    ],
+    "pubDateHeb": "ה׳תר״ע",
+    "pubPlaceStringEn": "Sziget (Sighetu Marmației)",
+    "pubPlaceStringHe": "סיגט",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ר' מנחם מנדל לנדמן"
+    ],
+    "title": "אשכולות הגפן",
+    "enTitle": "Eshkolet haGefen",
+    "authors": [
+      "Menachem Mendel Landman"
+    ],
+    "pubDate": [
+      1910
+    ],
+    "pubDateHeb": "ה׳תר״ע",
+    "pubPlaceStringEn": "Przemyśl",
+    "pubPlaceStringHe": "פרמישלה",
+    "heCategories": [
+      "חסידות"
+    ],
+    "categories": [
+      "Chassidut"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אליעזר בן מרדכי אפרים פישל סופר זוסמאן "
+    ],
+    "title": "עט סופר חלק א",
+    "enTitle": "Et Sofer part 1",
+    "authors": [
+      "Eliezer Zussman-Sofer"
+    ],
+    "pubDate": [
+      1899
+    ],
+    "pubDateHeb": "ה׳תרנ״ט",
+    "pubPlaceStringEn": "Paks",
+    "pubPlaceStringHe": "פקש",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אליעזר בן מרדכי אפרים פישל סופר זוסמאן "
+    ],
+    "title": "עט סופר חלק ג",
+    "enTitle": "Et Sofer part 3",
+    "authors": [
+      "Eliezer Zussman-Sofer"
+    ],
+    "pubDate": [
+      1899
+    ],
+    "pubDateHeb": "ה׳תרנ״ט",
+    "pubPlaceStringEn": "Paks",
+    "pubPlaceStringHe": "פקש",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אליעזר בן מרדכי אפרים פישל סופר זוסמאן "
+    ],
+    "title": "עט סופר חלק ד",
+    "enTitle": "Et Sofer part 4",
+    "authors": [
+      "Eliezer Zussman-Sofer"
+    ],
+    "pubDate": [
+      1899
+    ],
+    "pubDateHeb": "ה׳תרנ״ט",
+    "pubPlaceStringEn": "Paks",
+    "pubPlaceStringHe": "פקש",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ירוחם י-הודה ליב וולפיש"
+    ],
+    "title": "גחלי אש",
+    "enTitle": "Gahale esh",
+    "authors": [
+      "Yerucham Yehuda Leib Wolfish"
+    ],
+    "pubDate": [
+      1908
+    ],
+    "pubDateHeb": "ה׳תרס״ח",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ר' יעקב כהנא"
+    ],
+    "title": "גאון יעקב עירובין",
+    "enTitle": "Gaon Yaakov Eruvin",
+    "authors": [
+      "Yaakov ben Avraham Kahane"
+    ],
+    "pubDate": [
+      1863
+    ],
+    "pubDateHeb": "ה׳תרכ״ג",
+    "pubPlaceStringEn": "Lemberg (Lvov)",
+    "pubPlaceStringHe": "למברג (לבוב)",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "דוד בן משה מנובהרדוק"
+    ],
+    "title": "גליא מסכת חלק א",
+    "enTitle": "Gelia Mesecht part 1",
+    "authors": [
+      "Dovid ben Moshe"
+    ],
+    "pubDate": [
+      1845
+    ],
+    "pubDateHeb": "ה׳תר״ה",
+    "pubPlaceStringEn": "Vilna (Vilnius)",
+    "pubPlaceStringHe": "וילנה",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "דוד בן משה מנובהרדוק"
+    ],
+    "title": "גליא מסכת חלק ב",
+    "enTitle": "Gelia Mesecht part 2",
+    "authors": [
+      "Dovid ben Moshe"
+    ],
+    "pubDate": [
+      1845
+    ],
+    "pubDateHeb": "ה׳תר״ה",
+    "pubPlaceStringEn": "Vilna (Vilnius)",
+    "pubPlaceStringHe": "וילנה",
+    "heCategories": [
+      "דרשות ודרושים"
+    ],
+    "categories": [
+      "Derashot (Homilies)"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ר' יוסף ענגיל"
+    ],
+    "title": "גליוני הש\"ס זרעים",
+    "enTitle": "Gelyoni haShas Zeraim",
+    "authors": [
+      "Rabbi Yosef Engil"
+    ],
+    "pubDate": [
+      1904
+    ],
+    "pubDateHeb": "ה׳תרס״ד",
+    "pubPlaceStringEn": "Vienna",
+    "pubPlaceStringHe": "וינה",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יוסף בלוך"
+    ],
+    "title": "גנזי יוסף",
+    "enTitle": "Ginzei Yosef",
+    "authors": [
+      "Yosef Alter Epstein"
+    ],
+    "pubDate": [
+      1932
+    ],
+    "pubDateHeb": "ה׳תרצ״ב",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "חסידות"
+    ],
+    "categories": [
+      "Chassidut"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אפשטיין, ברוך בן יחיאל מיכל הלוי"
+    ],
+    "title": "גשמי ברכה",
+    "enTitle": "Gishmei Brachah",
+    "authors": [
+      "Yechiel Michel ha-Levi Epstein"
+    ],
+    "pubDate": [
+      1930
+    ],
+    "pubDateHeb": "ה׳תר״צ",
+    "pubPlaceStringEn": "Krakow",
+    "pubPlaceStringHe": "קרקוב (קארקא)",
+    "heCategories": [
+      "תנ\"ך ומפרשיו"
+    ],
+    "categories": [
+      "Tanakh and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "דב בער בן שמעון ליפשיץ "
+    ],
+    "title": "גלות עליות",
+    "enTitle": "Gulot iliyot",
+    "authors": [
+      "Lifshits, Dov Ber ben Shimon"
+    ],
+    "pubDate": [
+      1887
+    ],
+    "pubDateHeb": "ה׳תרמ״ז",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "ספרות חז\"ל"
+    ],
+    "categories": [
+      "Rabbinic Literature"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ר' אברהם יצחק סובלמן"
+    ],
+    "title": "האוצר מספורי צדיקים",
+    "enTitle": "HaOtzer meSepurei Tzadikim",
+    "authors": [
+      "Rabbi Abraham itzchak Sobelman"
+    ],
+    "pubDate": [
+      1937
+    ],
+    "pubDateHeb": "ה׳תרצ״ז",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "כללי"
+    ],
+    "categories": [
+      "General Topics"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "שמואל פירר"
+    ],
+    "title": "הר שפר",
+    "enTitle": "Har Shefer",
+    "authors": [
+      "Rabbi Shmuel Firer"
+    ],
+    "pubDate": [
+      1923
+    ],
+    "pubDateHeb": "ה׳תרפ״ג",
+    "pubPlaceStringEn": "Berdychiv",
+    "pubPlaceStringHe": "ברדיצ'ב",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "זרחיה הלוי מגירונה"
+    ],
+    "title": "השגות הרז\"ה על בעלי הנפש",
+    "enTitle": "Hassagot Rezah Ba’alei Ha-Nefesh",
+    "authors": [
+      "Zerachiah ben Isaac ha-Levi Gerondi"
+    ],
+    "pubDate": [
+      1912
+    ],
+    "pubDateHeb": "ה׳תרע״ב",
+    "pubPlaceStringEn": "Vilna (Vilnius)",
+    "pubPlaceStringHe": "וילנה",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "חיים יצחק בן אברהם מוספיה "
+    ],
+    "title": "חיים וחסד חלק א",
+    "enTitle": "Hayim va-hesed part 1",
+    "authors": [
+      "Musafiya, Hayim Yitshak,"
+    ],
+    "pubDate": [
+      1844
+    ],
+    "pubDateHeb": "ה׳תר״ד",
+    "pubPlaceStringEn": "Livorno (Leghorn)",
+    "pubPlaceStringHe": "ליוורנו ",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "דוד בן אריה ליב לידא"
+    ],
+    "title": "חלקי אבנים",
+    "enTitle": "Helkei Avonim",
+    "authors": [
+      "Rabbi David ben Aryeh Leib of Lida"
+    ],
+    "pubDate": [
+      1898
+    ],
+    "pubDateHeb": "ה׳תרנ״ח",
+    "pubPlaceStringEn": "Podgorze",
+    "pubPlaceStringHe": "פודגורזה",
+    "heCategories": [
+      "תנ\"ך ומפרשיו"
+    ],
+    "categories": [
+      "Tanakh and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יוסף זונדל בן חיים הוטנר "
+    ],
+    "title": "חבל יוסף (חדרי דעה)",
+    "enTitle": "Hevel Yosef Hadrei Deah",
+    "authors": [
+      "Yosef Zundel ben Hayim Hutner"
+    ],
+    "pubDate": [
+      1882
+    ],
+    "pubDateHeb": "ה׳תרמ״ב",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יוסף זונדל בן חיים הוטנר "
+    ],
+    "title": "חבל יוסף (חוקי העזרה)",
+    "enTitle": "Hevel Yosef Huke haAzara",
+    "authors": [
+      "Yosef Zundel ben Hayim Hutner"
+    ],
+    "pubDate": [
+      1880
+    ],
+    "pubDateHeb": "ה׳תר״מ",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יוסף זונדל בן חיים הוטנר "
+    ],
+    "title": "חבל יוסף (אולם המשפט) חלק ב",
+    "enTitle": "Hevel Yosef Olam haMisphat part 2",
+    "authors": [
+      "Yosef Zundel ben Hayim Hutner"
+    ],
+    "pubDate": [
+      1880
+    ],
+    "pubDateHeb": "ה׳תר״מ",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "שלמה בן י-הודה אהרן קלוגר "
+    ],
+    "title": "חידושי אנשי שם",
+    "enTitle": "Hidushei Inshi Shem",
+    "authors": [
+      "Solomon ben Judah Aaron Kluger"
+    ],
+    "pubDate": [
+      1860
+    ],
+    "pubDateHeb": "ה׳תר״כ",
+    "pubPlaceStringEn": "Leipzig",
+    "pubPlaceStringHe": "ליפציג",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אלעזר בן זאב וולף, הכהן"
+    ],
+    "title": "חידושי מהרא\"ך חלק א",
+    "enTitle": "Hidushei Maharah part 1",
+    "authors": [
+      "Elazer ben Zev Wolf haCohen"
+    ],
+    "pubDate": [
+      1902
+    ],
+    "pubDateHeb": "ה׳תרס״ב",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אלעזר בן זאב וולף, הכהן"
+    ],
+    "title": "חידושי מהרא\"ך חלק ב",
+    "enTitle": "Hidushei Maharah part 2",
+    "authors": [
+      "Elazer ben Zev Wolf haCohen"
+    ],
+    "pubDate": [
+      1913
+    ],
+    "pubDateHeb": "ה׳תרע״ג",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יהושע וידרקר "
+    ],
+    "title": "חידושי מהרי\"ו וידקר",
+    "enTitle": "Hidushei Maharuv",
+    "authors": [
+      "Waiderker, Yehoshua"
+    ],
+    "pubDate": [
+      1936
+    ],
+    "pubDateHeb": "ה׳תרצ״ו",
+    "pubPlaceStringEn": "Bilgoraj",
+    "pubPlaceStringHe": "בילגוריי",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ר' מנחם מנדל שפירא"
+    ],
+    "title": "הין צדק",
+    "enTitle": "Hin tsedek",
+    "authors": [
+      "Shapira, Menahem Mendel ben Mosheh Yeshayah"
+    ],
+    "pubDate": [
+      1913
+    ],
+    "pubDateHeb": "ה׳תרע״ג",
+    "pubPlaceStringEn": "Munkatch (Mukacheve)",
+    "pubPlaceStringHe": "מונקאטש (מונקאץ')",
+    "heCategories": [
+      "דרשות ודרושים"
+    ],
+    "categories": [
+      "Derashot (Homilies)"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "סופר, שמעון בן אברהם שמואל בנימין"
+    ],
+    "title": "התעוררות תשובה חלק ג",
+    "enTitle": "Hitoorot Teshuva part 3",
+    "authors": [
+      "Shimon Sofer"
+    ],
+    "pubDate": [
+      1928
+    ],
+    "pubDateHeb": "ה׳תרפ״ח",
+    "pubPlaceStringEn": "Budapest",
+    "pubPlaceStringHe": "בודפשט",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "סופר, שמעון בן אברהם שמואל בנימין"
+    ],
+    "title": "התעוררות תשובה חלק ד",
+    "enTitle": "Hitoorot Teshuva part 4",
+    "authors": [
+      "Shimon Sofer"
+    ],
+    "pubDate": [
+      1928
+    ],
+    "pubDateHeb": "ה׳תרפ״ח",
+    "pubPlaceStringEn": "Budapest",
+    "pubPlaceStringHe": "בודפשט",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "רבי אברהם בורנשטיין"
+    ],
+    "title": "אגלי טל",
+    "enTitle": "Iglei Tal",
+    "authors": [
+      "Rabbi Abraham Bornstein"
+    ],
+    "pubDate": [
+      1905
+    ],
+    "pubDateHeb": "ה׳תרס״ה",
+    "pubPlaceStringEn": "Piotrków",
+    "pubPlaceStringHe": "פיוטריקוב",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ר' משה קורדוברו"
+    ],
+    "title": "אילימה",
+    "enTitle": "Ilmanah Rabbati",
+    "authors": [
+      "Moshe Kordovero"
+    ],
+    "pubDate": [
+      1881
+    ],
+    "pubDateHeb": "ה׳תרמ״א",
+    "pubPlaceStringEn": "Lemberg (Lvov)",
+    "pubPlaceStringHe": "למברג (לבוב)",
+    "heCategories": [
+      "קבלה"
+    ],
+    "categories": [
+      "Kabbala"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "רבי מאיר אריק"
+    ],
+    "title": "אמרי יושר חלק א",
+    "enTitle": "Imrei Yosher part 1",
+    "authors": [
+      "Meir Arik"
+    ],
+    "pubDate": [
+      1913
+    ],
+    "pubDateHeb": "ה׳תרע״ג",
+    "pubPlaceStringEn": "Munkatch (Mukacheve)",
+    "pubPlaceStringHe": "מונקאטש (מונקאץ')",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "רבי מאיר אריק"
+    ],
+    "title": "אמרי יושר חלק ב",
+    "enTitle": "Imrei Yosher part 2",
+    "authors": [
+      "Meir Arik"
+    ],
+    "pubDate": [
+      1925
+    ],
+    "pubDateHeb": "ה׳תרפ״ה",
+    "pubPlaceStringEn": "Krakow",
+    "pubPlaceStringHe": "קרקוב (קארקא)",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "קריו, יוסף יהושע בן דוד אברהם"
+    ],
+    "title": "בני יוסף (קריו)",
+    "enTitle": "bnei yosef (Kario)",
+    "authors": [
+      "Yosef Yehoshua Kario"
+    ],
+    "pubDate": [
+      1890
+    ],
+    "pubDateHeb": "ה׳תר״נ",
+    "pubPlaceStringEn": "Jerusalem",
+    "pubPlaceStringHe": "ירושלים",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "רפאל אנקווה"
+    ],
+    "title": "קרני רא\"ם",
+    "enTitle": "Karne reem",
+    "authors": [
+      "Raphael Ben Mordechai Ankawa"
+    ],
+    "pubDate": [
+      1910
+    ],
+    "pubDateHeb": "ה׳תר״ע",
+    "pubPlaceStringEn": "Jerusalem",
+    "pubPlaceStringHe": "ירושלים",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יום טוב ליפמן הלפרין"
+    ],
+    "title": "קדושת יום טוב (ליפמן)",
+    "enTitle": "Kedushat Yom Tov (Lipman)",
+    "authors": [
+      "Halperin, Yom Tov Lipman"
+    ],
+    "pubDate": [
+      1866
+    ],
+    "pubDateHeb": "ה׳תרכ״ו",
+    "pubPlaceStringEn": "Vilna (Vilnius)",
+    "pubPlaceStringHe": "וילנה",
+    "heCategories": [
+      "רמב\"ם ומפרשיו"
+    ],
+    "categories": [
+      "Rambam "
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יעקב בן אהרן ברוכין "
+    ],
+    "title": "קהלת יעקב (ברוכין)",
+    "enTitle": "Kehilat Yaakov Bruchin",
+    "authors": [
+      "Bruchin, Yaakov"
+    ],
+    "pubDate": [
+      1847
+    ],
+    "pubDateHeb": "ה׳תר״ז",
+    "pubPlaceStringEn": "Vilna (Vilnius)",
+    "pubPlaceStringHe": "וילנה",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "הרב ברוך בנדיט גויטיין"
+    ],
+    "title": "כסף נבחר חלק א",
+    "enTitle": "Kesef Nivchar part 1",
+    "authors": [
+      "Rabbi Baruch Bendit Goitein"
+    ],
+    "pubDate": [
+      1895
+    ],
+    "pubDateHeb": "ה׳תרנ״ה",
+    "pubPlaceStringEn": "Lʹviv",
+    "pubPlaceStringHe": "לבוב",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "הרב ברוך בנדיט גויטיין"
+    ],
+    "title": "כסף נבחר חלק ב",
+    "enTitle": "Kesef Nivchar part 2",
+    "authors": [
+      "Rabbi Baruch Bendit Goitein"
+    ],
+    "pubDate": [
+      1895
+    ],
+    "pubDateHeb": "ה׳תרנ״ה",
+    "pubPlaceStringEn": "Lʹviv",
+    "pubPlaceStringHe": "לבוב",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "הרב ברוך בנדיט גויטיין"
+    ],
+    "title": "כסף נבחר חלק ג",
+    "enTitle": "Kesef Nivchar part 3",
+    "authors": [
+      "Rabbi Baruch Bendit Goitein"
+    ],
+    "pubDate": [
+      1895
+    ],
+    "pubDateHeb": "ה׳תרנ״ה",
+    "pubPlaceStringEn": "Lʹviv",
+    "pubPlaceStringHe": "לבוב",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אברהם שמואל בנימין סופר"
+    ],
+    "title": "כתב סופר גיטין חולין",
+    "enTitle": "Ketav Sofer Chullin",
+    "authors": [
+      "Avraham Shmuel Binyamin Sofer"
+    ],
+    "pubDate": [
+      1896
+    ],
+    "pubDateHeb": "ה׳תרנ״ו",
+    "pubPlaceStringEn": "Munkatch (Mukacheve)",
+    "pubPlaceStringHe": "מונקאטש (מונקאץ')",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אברהם שמואל בנימין סופר"
+    ],
+    "title": "כתב סופר גיטין חלק א",
+    "enTitle": "Ketav Sofer Gittin part 1",
+    "authors": [
+      "Avraham Shmuel Binyamin Sofer"
+    ],
+    "pubDate": [
+      1896
+    ],
+    "pubDateHeb": "ה׳תרנ״ו",
+    "pubPlaceStringEn": "Munkatch (Mukacheve)",
+    "pubPlaceStringHe": "מונקאטש (מונקאץ')",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אברהם שמואל בנימין סופר"
+    ],
+    "title": "כתב סופר גיטין חלק ב",
+    "enTitle": "Ketav Sofer Gittin part 2",
+    "authors": [
+      "Avraham Shmuel Binyamin Sofer"
+    ],
+    "pubDate": [
+      1897
+    ],
+    "pubDateHeb": "ה׳תרנ״ז",
+    "pubPlaceStringEn": "Munkatch (Mukacheve)",
+    "pubPlaceStringHe": "מונקאטש (מונקאץ')",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "זכות, משה בן מרדכי"
+    ],
+    "title": "קול הרמ\"ז קדשים",
+    "enTitle": "Kol Haramaz Kodashim",
+    "authors": [
+      "Moses ben Mordecai Zacuto"
+    ],
+    "pubDate": [
+      1879
+    ],
+    "pubDateHeb": "ה׳תרל״ט",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "ספרות חז\"ל"
+    ],
+    "categories": [
+      "Rabbinic Literature"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "זכות, משה בן מרדכי"
+    ],
+    "title": "קול הרמ\"ז מועד",
+    "enTitle": "Kol Haramaz Moed",
+    "authors": [
+      "Moses ben Mordecai Zacuto"
+    ],
+    "pubDate": [
+      1879
+    ],
+    "pubDateHeb": "ה׳תרל״ט",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "ספרות חז\"ל"
+    ],
+    "categories": [
+      "Rabbinic Literature"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "זכות, משה בן מרדכי"
+    ],
+    "title": "קול הרמ\"ז נשים",
+    "enTitle": "Kol Haramaz Nashim",
+    "authors": [
+      "Moses ben Mordecai Zacuto"
+    ],
+    "pubDate": [
+      1879
+    ],
+    "pubDateHeb": "ה׳תרל״ט",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "ספרות חז\"ל"
+    ],
+    "categories": [
+      "Rabbinic Literature"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "זכות, משה בן מרדכי"
+    ],
+    "title": "קול הרמ\"ז נזקין",
+    "enTitle": "Kol Haramaz Nezikin",
+    "authors": [
+      "Moses ben Mordecai Zacuto"
+    ],
+    "pubDate": [
+      1879
+    ],
+    "pubDateHeb": "ה׳תרל״ט",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "ספרות חז\"ל"
+    ],
+    "categories": [
+      "Rabbinic Literature"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "זכות, משה בן מרדכי"
+    ],
+    "title": "קול הרמ\"ז זרעים",
+    "enTitle": "Kol Haramaz Zeraim",
+    "authors": [
+      "Moses ben Mordecai Zacuto"
+    ],
+    "pubDate": [
+      1879
+    ],
+    "pubDateHeb": "ה׳תרל״ט",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "ספרות חז\"ל"
+    ],
+    "categories": [
+      "Rabbinic Literature"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "שמואל שאטין כ\"ץ"
+    ],
+    "title": "כוס הישועות",
+    "enTitle": "Kos haYeshuot",
+    "authors": [
+      "Shmuel Schotten HaCohen"
+    ],
+    "pubDate": [
+      1904
+    ],
+    "pubDateHeb": "ה׳תרס״ד",
+    "pubPlaceStringEn": "Krakow",
+    "pubPlaceStringHe": "קרקוב (קארקא)",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אברהם ב\"ר משה די בוטון"
+    ],
+    "title": "לחם רב (ל\"לחם משנה\")",
+    "enTitle": "Lechem Rav",
+    "authors": [
+      "De Button, Avraham"
+    ],
+    "pubDate": [
+      1884
+    ],
+    "pubDateHeb": "ה׳תרמ״ד",
+    "pubPlaceStringEn": "Krakow",
+    "pubPlaceStringHe": "קרקוב (קארקא)",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ר' חזקיה פיבל פלויט"
+    ],
+    "title": "ליקוטי חבר בן חיים א",
+    "enTitle": "Lekutei Heber ben Chaim part 1",
+    "authors": [
+      "Chezkiah Feivel Plaut"
+    ],
+    "pubDate": [
+      1878
+    ],
+    "pubDateHeb": "ה׳תרל״ח",
+    "pubPlaceStringEn": "Bratislava (Pressburg)",
+    "pubPlaceStringHe": "ברטיסלבה (פרשבורג)",
+    "heCategories": [
+      "שונות"
+    ],
+    "categories": [
+      "Miscellaneous"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ר' חזקיה פיבל פלויט"
+    ],
+    "title": "ליקוטי חבר בן חיים ג",
+    "enTitle": "Lekutei Heber ben Chaim part 3",
+    "authors": [
+      "Chezkiah Feivel Plaut"
+    ],
+    "pubDate": [
+      1878
+    ],
+    "pubDateHeb": "ה׳תרל״ח",
+    "pubPlaceStringEn": "Bratislava (Pressburg)",
+    "pubPlaceStringHe": "ברטיסלבה (פרשבורג)",
+    "heCategories": [
+      "שונות"
+    ],
+    "categories": [
+      "Miscellaneous"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ר' חזקיה פיבל פלויט"
+    ],
+    "title": "ליקוטי חבר בן חיים ד",
+    "enTitle": "Lekutei Heber ben Chaim part 4",
+    "authors": [
+      "Chezkiah Feivel Plaut"
+    ],
+    "pubDate": [
+      1881
+    ],
+    "pubDateHeb": "ה׳תרמ״א",
+    "pubPlaceStringEn": "Bratislava (Pressburg)",
+    "pubPlaceStringHe": "ברטיסלבה (פרשבורג)",
+    "heCategories": [
+      "שונות"
+    ],
+    "categories": [
+      "Miscellaneous"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "חזקיה פיבל פלויט"
+    ],
+    "title": "ליקוטי חבר בן חיים ז",
+    "enTitle": "Lekutei Heber Ben Chaim part 7",
+    "authors": [
+      "Chezkiah Feivel Plaut "
+    ],
+    "pubDate": [
+      1887
+    ],
+    "pubDateHeb": "ה׳תרמ״ז",
+    "pubPlaceStringEn": "Paks",
+    "pubPlaceStringHe": "פקש",
+    "heCategories": [
+      "שונות"
+    ],
+    "categories": [
+      "Miscellaneous"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "חזקיה פיבל פלויט"
+    ],
+    "title": "ליקוטי חבר בן חיים ח",
+    "enTitle": "Lekutei Heber Ben Chaim part 8",
+    "authors": [
+      "Chezkiah Feivel Plaut "
+    ],
+    "pubDate": [
+      1888
+    ],
+    "pubDateHeb": "ה׳תרמ״ח",
+    "pubPlaceStringEn": "Paks",
+    "pubPlaceStringHe": "פקש",
+    "heCategories": [
+      "שונות"
+    ],
+    "categories": [
+      "Miscellaneous"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "פלג’י, חיים בן יעקב"
+    ],
+    "title": "לב חיים פלג'י חלק ב",
+    "enTitle": "Lev Hayim part 2",
+    "authors": [
+      "Palache, Hayyim,"
+    ],
+    "pubDate": [
+      1869
+    ],
+    "pubDateHeb": "ה׳תרכ״ט",
+    "pubPlaceStringEn": "Izmir",
+    "pubPlaceStringHe": "איזמיר",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "רבי יהודה נפתלי וינקלר"
+    ],
+    "title": "לבושי מרדכי על חושן משפט",
+    "enTitle": "Levushe Mordekhai Choshen Mishpat",
+    "authors": [
+      "Rabbi yehuda naftali Winkler"
+    ],
+    "pubDate": [
+      1913
+    ],
+    "pubDateHeb": "ה׳תרע״ג",
+    "pubPlaceStringEn": "Tulcea",
+    "pubPlaceStringHe": "טולצ'ה",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "רבי יהודה נפתלי וינקלר"
+    ],
+    "title": "לבושי מרדכי על חושן משפט מהדורא תנינא",
+    "enTitle": "Levushe Mordekhai Choshen Mishpat tanina",
+    "authors": [
+      "Rabbi yehuda naftali Winkler"
+    ],
+    "pubDate": [
+      1912
+    ],
+    "pubDateHeb": "ה׳תרע״ב",
+    "pubPlaceStringEn": "Tulcea",
+    "pubPlaceStringHe": "טולצ'ה",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "רבי יהודה נפתלי וינקלר"
+    ],
+    "title": "לבושי מרדכי על אבן העזר מהדורא תנינא",
+    "enTitle": "Levushe Mordekhai Even Haezer  tanina",
+    "authors": [
+      "Rabbi yehuda naftali Winkler"
+    ],
+    "pubDate": [
+      1913
+    ],
+    "pubDateHeb": "ה׳תרע״ג",
+    "pubPlaceStringEn": "Tulcea",
+    "pubPlaceStringHe": "טולצ'ה",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "רבי יהודה נפתלי וינקלר"
+    ],
+    "title": "לבושי מרדכי על אורח חיים",
+    "enTitle": "Levushe Mordekhai Orach Chaim",
+    "authors": [
+      "Rabbi yehuda naftali Winkler"
+    ],
+    "pubDate": [
+      1913
+    ],
+    "pubDateHeb": "ה׳תרע״ג",
+    "pubPlaceStringEn": "Budapest",
+    "pubPlaceStringHe": "בודפשט",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "רבי יהודה נפתלי וינקלר"
+    ],
+    "title": "לבושי מרדכי על אורח חיים מהדורא תליתאי",
+    "enTitle": "Levushe Mordekhai Orach Chaim talitai",
+    "authors": [
+      "Rabbi yehuda naftali Winkler"
+    ],
+    "pubDate": [
+      1912
+    ],
+    "pubDateHeb": "ה׳תרע״ב",
+    "pubPlaceStringEn": "Tulcea",
+    "pubPlaceStringHe": "טולצ'ה",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "רבי יהודה נפתלי וינקלר"
+    ],
+    "title": "לבושי מרדכי על אורח חיים מהדורא תנינא",
+    "enTitle": "Levushe Mordekhai Orach Chaim tanina",
+    "authors": [
+      "Rabbi yehuda naftali Winkler"
+    ],
+    "pubDate": [
+      1912
+    ],
+    "pubDateHeb": "ה׳תרע״ב",
+    "pubPlaceStringEn": "Tulcea",
+    "pubPlaceStringHe": "טולצ'ה",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "רבי יהודה נפתלי וינקלר"
+    ],
+    "title": "לבושי מרדכי על יורה דעה",
+    "enTitle": "Levushe Mordekhai Yoreh Deah",
+    "authors": [
+      "Rabbi yehuda naftali Winkler"
+    ],
+    "pubDate": [
+      1913
+    ],
+    "pubDateHeb": "ה׳תרע״ג",
+    "pubPlaceStringEn": "Budapest",
+    "pubPlaceStringHe": "בודפשט",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "רבי יהודה נפתלי וינקלר"
+    ],
+    "title": "לבושי מרדכי על יורה דעה מהדורא תליתאי",
+    "enTitle": "Levushe Mordekhai Yoreh Deah talitai",
+    "authors": [
+      "Rabbi yehuda naftali Winkler"
+    ],
+    "pubDate": [
+      1913
+    ],
+    "pubDateHeb": "ה׳תרע״ג",
+    "pubPlaceStringEn": "Tulcea",
+    "pubPlaceStringHe": "טולצ'ה",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "רבי יהודה נפתלי וינקלר"
+    ],
+    "title": "לבושי מרדכי על יורה דעה מהדורא תנינא",
+    "enTitle": "Levushe Mordekhai Yoreh Deah tanina",
+    "authors": [
+      "Rabbi yehuda naftali Winkler"
+    ],
+    "pubDate": [
+      1913
+    ],
+    "pubDateHeb": "ה׳תרע״ג",
+    "pubPlaceStringEn": "Tulcea",
+    "pubPlaceStringHe": "טולצ'ה",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "זליג ראובן בן צבי הירש בנגיס "
+    ],
+    "title": "לפלגות ראובן חלק ה",
+    "enTitle": "Li-felagot Reuven part 5",
+    "authors": [
+      "Zelig Reuven Bengis"
+    ],
+    "pubDate": [
+      1932
+    ],
+    "pubDateHeb": "ה׳תרצ״ב",
+    "pubPlaceStringEn": "Kiedany (Kedainai)",
+    "pubPlaceStringHe": "קידן (קדאינאי)",
+    "heCategories": [
+      "שונות"
+    ],
+    "categories": [
+      "Miscellaneous"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "זליג ראובן בן צבי הירש בנגיס "
+    ],
+    "title": "לפלגות ראובן חלק ז",
+    "enTitle": "Li-felagot Reuven part 7",
+    "authors": [
+      "Zelig Reuven Bengis"
+    ],
+    "pubDate": [
+      1950
+    ],
+    "pubDateHeb": "ה׳תש״י",
+    "pubPlaceStringEn": "Jerusalem",
+    "pubPlaceStringHe": "ירושלים",
+    "heCategories": [
+      "שונות"
+    ],
+    "categories": [
+      "Miscellaneous"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ישועה הלוי"
+    ],
+    "title": "לי לישועה (על הש\"ס)",
+    "enTitle": "Li Li-Yeshu’ah (SHAS)",
+    "authors": [
+      "Yishaya Halevi"
+    ],
+    "pubDate": [
+      1883
+    ],
+    "pubDateHeb": "ה׳תרמ״ג",
+    "pubPlaceStringEn": "Jerusalem",
+    "pubPlaceStringHe": "ירושלים",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ישועה הלוי"
+    ],
+    "title": "לי לישועה (על השו\"ע)",
+    "enTitle": "Li Li-Yeshu’ah (Shulchan Aruch)",
+    "authors": [
+      "Yishaya Halevi"
+    ],
+    "pubDate": [
+      1883
+    ],
+    "pubDateHeb": "ה׳תרמ״ג",
+    "pubPlaceStringEn": "Jerusalem",
+    "pubPlaceStringHe": "ירושלים",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ישועה הלוי"
+    ],
+    "title": "לי לישועה (על התנ\"ך)",
+    "enTitle": "Li Li-Yeshu’ah (Tanach)",
+    "authors": [
+      "Yishaya Halevi"
+    ],
+    "pubDate": [
+      1883
+    ],
+    "pubDateHeb": "ה׳תרמ״ג",
+    "pubPlaceStringEn": "Jerusalem",
+    "pubPlaceStringHe": "ירושלים",
+    "heCategories": [
+      "תנ\"ך ומפרשיו"
+    ],
+    "categories": [
+      "Tanakh and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יצחק בן אליעזר ליפמן קונשטט "
+    ],
+    "title": "לוח ארז החדש",
+    "enTitle": "Luah erez hachdash",
+    "authors": [
+      "Isaac ben Eliezer Lipman Kunstadt"
+    ],
+    "pubDate": [
+      1915
+    ],
+    "pubDateHeb": "ה׳תרע״ה",
+    "pubPlaceStringEn": "Vienna",
+    "pubPlaceStringHe": "וינה",
+    "heCategories": [
+      "תנ\"ך ומפרשיו"
+    ],
+    "categories": [
+      "Tanakh and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "שלמה זלמן שניאורסון "
+    ],
+    "title": "מגן אבות חלק ב",
+    "enTitle": "Magen Avot part 2",
+    "authors": [
+      "Shlomo Zalman Schneirson"
+    ],
+    "pubDate": [
+      1902
+    ],
+    "pubDateHeb": "ה׳תרס״ב",
+    "pubPlaceStringEn": "Berdychiv",
+    "pubPlaceStringHe": "ברדיצ'ב",
+    "heCategories": [
+      "חסידות"
+    ],
+    "categories": [
+      "Chassidut"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "מאיר מלובלין"
+    ],
+    "title": "מהר\"ם לובלין",
+    "enTitle": "Maharam Lublin",
+    "authors": [
+      "Meir Lublin"
+    ],
+    "pubDate": [
+      1881
+    ],
+    "pubDateHeb": "ה׳תרמ״א",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "רבי משה שיק"
+    ],
+    "title": "מהר\"ם שיק על התורה",
+    "enTitle": "Maharam Shik Torah",
+    "authors": [
+      "Shik, Moshe"
+    ],
+    "pubDate": [
+      1905
+    ],
+    "pubDateHeb": "ה׳תרס״ה",
+    "pubPlaceStringEn": "Munkatch (Mukacheve)",
+    "pubPlaceStringHe": "מונקאטש (מונקאץ')",
+    "heCategories": [
+      "תנ\"ך ומפרשיו"
+    ],
+    "categories": [
+      "Tanakh and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "שמואל אנגל"
+    ],
+    "title": "שו\"ת מהר\"ש ו",
+    "enTitle": "Maharash responsa part 6",
+    "authors": [
+      "Shmuel Engel"
+    ],
+    "pubDate": [
+      1938
+    ],
+    "pubDateHeb": "ה׳תרצ״ח",
+    "pubPlaceStringEn": "Berdychiv",
+    "pubPlaceStringHe": "ברדיצ'ב",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יום-טוב אלגאזי"
+    ],
+    "title": "מהרי”ט אלגאזי על בכורות וחלה",
+    "enTitle": "Maharit Algazi (Bechorot ve Challah)",
+    "authors": [
+      "rabbi Yom Tov Algazi"
+    ],
+    "pubDate": [
+      1866
+    ],
+    "pubDateHeb": "ה׳תרכ״ו",
+    "pubPlaceStringEn": "Vilna (Vilnius)",
+    "pubPlaceStringHe": "וילנה",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "חנוך אייגש"
+    ],
+    "title": "מרחשת חלק א",
+    "enTitle": "Marcheshet part 1",
+    "authors": [
+      "Hanokh Henikh Aigeś"
+    ],
+    "pubDate": [
+      1931
+    ],
+    "pubDateHeb": "ה׳תרצ״א",
+    "pubPlaceStringEn": "Bilgoraj",
+    "pubPlaceStringHe": "בילגוריי",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "חיים הכהן"
+    ],
+    "title": "מקור חיים - א",
+    "enTitle": "Mekor Chayim - 1",
+    "authors": [
+      "Chaim ben Avraham haCohen miAram Tzovah"
+    ],
+    "pubDate": [
+      1878
+    ],
+    "pubDateHeb": "ה׳תרל״ח",
+    "pubPlaceStringEn": "Piotrków",
+    "pubPlaceStringHe": "פיוטריקוב",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יולס, יעקב צבי בן נפתלי"
+    ],
+    "title": "מלא הרועים  חלק ב",
+    "enTitle": "Melo ha-Royim part 2",
+    "authors": [
+      "Yaakov Tzvi Yalis"
+    ],
+    "pubDate": [
+      1880
+    ],
+    "pubDateHeb": "ה׳תר״מ",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "בורג'ל, נתן בן אברהם"
+    ],
+    "title": "מאורות נתן",
+    "enTitle": "Meorot Natan",
+    "authors": [
+      "Natan Borgel"
+    ],
+    "pubDate": [
+      1903
+    ],
+    "pubDateHeb": "ה׳תרס״ג",
+    "pubPlaceStringEn": "Tunisia",
+    "pubPlaceStringHe": "תוניס",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אריה ליב בן אברהם יוסף ברודא "
+    ],
+    "title": "מצפה אריה",
+    "enTitle": "Metzapeh Aryeh",
+    "authors": [
+      "Broda, Aryeh Leib Ben Avrohom Yosef"
+    ],
+    "pubDate": [
+      1880
+    ],
+    "pubDateHeb": "ה׳תר״מ",
+    "pubPlaceStringEn": "Lemberg (Lvov)",
+    "pubPlaceStringHe": "למברג (לבוב)",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אריה ליב בן אברהם יוסף ברודא "
+    ],
+    "title": "מצפה אריה תנינא חלק א",
+    "enTitle": "Metzapeh Aryeh Tanina part 1",
+    "authors": [
+      "Broda, Aryeh Leib Ben Avrohom Yosef"
+    ],
+    "pubDate": [
+      1912
+    ],
+    "pubDateHeb": "ה׳תרע״ב",
+    "pubPlaceStringEn": "Lemberg (Lvov)",
+    "pubPlaceStringHe": "למברג (לבוב)",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אריה ליב בן אברהם יוסף ברודא "
+    ],
+    "title": "מצפה אריה תנינא חלק ב",
+    "enTitle": "Metzapeh Aryeh Tanina part 2",
+    "authors": [
+      "Broda, Aryeh Leib Ben Avrohom Yosef"
+    ],
+    "pubDate": [
+      1912
+    ],
+    "pubDateHeb": "ה׳תרע״ב",
+    "pubPlaceStringEn": "Lemberg (Lvov)",
+    "pubPlaceStringHe": "למברג (לבוב)",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "מאיר אריק"
+    ],
+    "title": "מנחת פתים חושן משפט",
+    "enTitle": "Minhat Patim choshen mishpat",
+    "authors": [
+      "Rabbi Meir Arik"
+    ],
+    "pubDate": [
+      1898
+    ],
+    "pubDateHeb": "ה׳תרנ״ח",
+    "pubPlaceStringEn": "Munkatch (Mukacheve)",
+    "pubPlaceStringHe": "מונקאטש (מונקאץ')",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "מאיר אריק"
+    ],
+    "title": "מנחת פתים אבן העזר",
+    "enTitle": "Minhat Patim Even haEzer",
+    "authors": [
+      "Rabbi Meir Arik"
+    ],
+    "pubDate": [
+      1907
+    ],
+    "pubDateHeb": "ה׳תרס״ז",
+    "pubPlaceStringEn": "Munkatch (Mukacheve)",
+    "pubPlaceStringHe": "מונקאטש (מונקאץ')",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יעקב שמחה רפיש"
+    ],
+    "title": "משכן העדות",
+    "enTitle": "Mishkan haEidut",
+    "authors": [
+      "Yaakov Simha"
+    ],
+    "pubDate": [
+      1913
+    ],
+    "pubDateHeb": "ה׳תרע״ג",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "שאול בן אלעזר בראך "
+    ],
+    "title": "משמרת אלעזר",
+    "enTitle": "Mishmeret Elazar",
+    "authors": [
+      "Shaul Brach"
+    ],
+    "pubDate": [
+      1938
+    ],
+    "pubDateHeb": "ה׳תרצ״ח",
+    "pubPlaceStringEn": "Michalovce",
+    "pubPlaceStringHe": "מיהלוביץ",
+    "heCategories": [
+      "דרשות ודרושים"
+    ],
+    "categories": [
+      "Derashot (Homilies)"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יעקב בן שלמה זלמן סנדר כהנא-שפירא "
+    ],
+    "title": "נאות יעקב",
+    "enTitle": "Neot Yaakov",
+    "authors": [
+      "Shapira, Yaakov Kahana,"
+    ],
+    "pubDate": [
+      1912
+    ],
+    "pubDateHeb": "ה׳תרע״ב",
+    "pubPlaceStringEn": "Vilna (Vilnius)",
+    "pubPlaceStringHe": "וילנה",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "משה רוזין"
+    ],
+    "title": "נזר הקודש - נדה",
+    "enTitle": "nezer hakodesh (Niddah)",
+    "authors": [
+      "Moshe Rosen"
+    ],
+    "pubDate": [
+      1946
+    ],
+    "pubDateHeb": "ה׳תש״ו",
+    "pubPlaceStringEn": "New York",
+    "pubPlaceStringHe": "ניו יורק",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "משה רוזין"
+    ],
+    "title": "נזר הקודש - יומא",
+    "enTitle": "nezer hakodesh (Yoma)",
+    "authors": [
+      "Moshe Rosen"
+    ],
+    "pubDate": [
+      1942
+    ],
+    "pubDateHeb": "ה׳תש״ב",
+    "pubPlaceStringEn": "New York",
+    "pubPlaceStringHe": "ניו יורק",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "שלמה בן י-הודה אהרן קלוגר "
+    ],
+    "title": "נדרי זריזין חלק ב",
+    "enTitle": "Nidre zerizin part 2",
+    "authors": [
+      "Solomon ben Judah Aaron Kluger"
+    ],
+    "pubDate": [
+      1839
+    ],
+    "pubDateHeb": "ה׳תקצ״ט",
+    "pubPlaceStringEn": "Zolkiewka (Zhovkva)",
+    "pubPlaceStringHe": "זולקוה (ז'ובקבה)",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יעקב חי זריהן"
+    ],
+    "title": "אהל יעקב",
+    "enTitle": "Ohel Yaakov",
+    "authors": [
+      "Rabbi Yaakov Hay Zrihan"
+    ],
+    "pubDate": [
+      1931
+    ],
+    "pubDateHeb": "ה׳תרצ״א",
+    "pubPlaceStringEn": "Jerusalem",
+    "pubPlaceStringHe": "ירושלים",
+    "heCategories": [
+      "דרשות ודרושים"
+    ],
+    "categories": [
+      "Derashot (Homilies)"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "איידליץ, אברהם משה זרח בן מאיר"
+    ],
+    "title": "אור לישרים",
+    "enTitle": "Or la-yesharim",
+    "authors": [
+      "Eidlitz, Zerah ben Meir,"
+    ],
+    "pubDate": [
+      1942
+    ],
+    "pubDateHeb": "ה׳תש״ב",
+    "pubPlaceStringEn": "Budapest",
+    "pubPlaceStringHe": "בודפשט",
+    "heCategories": [
+      "דרשות ודרושים"
+    ],
+    "categories": [
+      "Derashot (Homilies)"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "שמעון דובער אנוליק"
+    ],
+    "title": "אורח משפט",
+    "enTitle": "Orach Mishpat",
+    "authors": [
+      "Shimon Dov Enlik"
+    ],
+    "pubDate": [
+      1908
+    ],
+    "pubDateHeb": "ה׳תרס״ח",
+    "pubPlaceStringEn": "Piotrków",
+    "pubPlaceStringHe": "פיוטריקוב",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ירוחם י-הודה ליב פרלמן"
+    ],
+    "title": "אור גדול",
+    "enTitle": "Or Gadol",
+    "authors": [
+      "Yeruchem Yehudah Leib Pearlman"
+    ],
+    "pubDate": [
+      1924
+    ],
+    "pubDateHeb": "ה׳תרפ״ד",
+    "pubPlaceStringEn": "Vilna (Vilnius)",
+    "pubPlaceStringHe": "וילנה",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "רבי אברהם טיקטין"
+    ],
+    "title": "פתח הבית חלק ב",
+    "enTitle": "Petach ha-bayit part 2",
+    "authors": [
+      "Rabbi Avraham Tiktin"
+    ],
+    "pubDate": [
+      1916
+    ],
+    "pubDateHeb": "ה׳תרע״ו",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "חיים משולם קויפמן אוטרמן"
+    ],
+    "title": "פתח האוהל",
+    "enTitle": "Petach haOhel",
+    "authors": [
+      "Rabbi Chaim Meshulam Kaufman Utterman"
+    ],
+    "pubDate": [
+      1902
+    ],
+    "pubDateHeb": "ה׳תרס״ב",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "ספרות חז\"ל"
+    ],
+    "categories": [
+      "Rabbinic Literature"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יצחק בן משה אבולעפיא"
+    ],
+    "title": "פני יצחק חלק ב",
+    "enTitle": "Pnei Yitzhak part 2",
+    "authors": [
+      "Isaac ben Moses Abulafia"
+    ],
+    "pubDate": [
+      1886
+    ],
+    "pubDateHeb": "ה׳תרמ״ו",
+    "pubPlaceStringEn": "Livorno (Leghorn)",
+    "pubPlaceStringHe": "ליוורנו ",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יצחק בן משה אבולעפיא"
+    ],
+    "title": "פני יצחק חלק ו",
+    "enTitle": "Pnei Yitzhak part 6",
+    "authors": [
+      "Isaac ben Moses Abulafia"
+    ],
+    "pubDate": [
+      1903
+    ],
+    "pubDateHeb": "ה׳תרס״ג",
+    "pubPlaceStringEn": "Jerusalem",
+    "pubPlaceStringHe": "ירושלים",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יוסף בן צבי הירש שלופר "
+    ],
+    "title": "פורת יוסף (שלופר)",
+    "enTitle": "Porat Yosef Shlemfer",
+    "authors": [
+      "Shlemfer, Yosef"
+    ],
+    "pubDate": [
+      1875
+    ],
+    "pubDateHeb": "ה׳תרל״ה",
+    "pubPlaceStringEn": "Vilna (Vilnius)",
+    "pubPlaceStringHe": "וילנה",
+    "heCategories": [
+      "שונות"
+    ],
+    "categories": [
+      "Miscellaneous"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אברהם וינברג"
+    ],
+    "title": "ראשית בכורים (בכורות)",
+    "enTitle": "Reishit Bekurim (Bekhorot)",
+    "authors": [
+      "Avraham Weinberg"
+    ],
+    "pubDate": [
+      1930
+    ],
+    "pubDateHeb": "ה׳תר״צ",
+    "pubPlaceStringEn": "Piotrków",
+    "pubPlaceStringHe": "פיוטריקוב",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יום טוב בן אברהם אשבילי"
+    ],
+    "title": "ריטב”א על גיטין",
+    "enTitle": "Ritva (Gittin)",
+    "authors": [
+      "Yom Tov ben Abraham of Seville"
+    ],
+    "pubDate": [
+      1835
+    ],
+    "pubDateHeb": "ה׳תקצ״ה",
+    "pubPlaceStringEn": "Sdzilkov (Sudilkyiv)",
+    "pubPlaceStringHe": "סודילקוב",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אלעזר מגרמייזא"
+    ],
+    "title": "רוקח על שיר השירים",
+    "enTitle": "Rokach Shir haShirim",
+    "authors": [
+      "Eleazar of Worms"
+    ],
+    "pubDate": [
+      1911
+    ],
+    "pubDateHeb": "ה׳תרע״א",
+    "pubPlaceStringEn": "Piotrków",
+    "pubPlaceStringHe": "פיוטריקוב",
+    "heCategories": [
+      "תנ\"ך ומפרשיו"
+    ],
+    "categories": [
+      "Tanakh and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יצחק אברבנאל"
+    ],
+    "title": "ראש אמנה",
+    "enTitle": "Rosh Emunah",
+    "authors": [
+      "Isaac ben Judah Abarbanel"
+    ],
+    "pubDate": [
+      1881
+    ],
+    "pubDateHeb": "ה׳תרמ״א",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "מחשבה ומוסר"
+    ],
+    "categories": [
+      "Jewish Thought and Ethics"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "חיים חזקיהו מדיני"
+    ],
+    "title": "שדי חמד קונטרס הכללים מערכת ל",
+    "enTitle": "Sdei Chemed Kuntres Haklalim marechet lamed",
+    "authors": [
+      "rabbi Chaim Hezekiah Medini"
+    ],
+    "pubDate": [
+      1896
+    ],
+    "pubDateHeb": "ה׳תרנ״ו",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "דוד שלמה הכהן אדלשטיין"
+    ],
+    "title": "סדר הלכה (רמב\"ם)",
+    "enTitle": "Seder Halacha Rambam",
+    "authors": [
+      "Edelstein, Dovid Shlomo"
+    ],
+    "pubDate": [
+      1917
+    ],
+    "pubDateHeb": "ה׳תרע״ז",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "רמב\"ם ומפרשיו"
+    ],
+    "categories": [
+      "Rambam "
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יצחק בן אבא מרי"
+    ],
+    "title": "ספר העיטור חלק ב",
+    "enTitle": "Sefer Haittur part 2",
+    "authors": [
+      "rabbi Isaac ben Abba Mari"
+    ],
+    "pubDate": [
+      1860
+    ],
+    "pubDateHeb": "ה׳תר״כ",
+    "pubPlaceStringEn": "Lemberg (Lvov)",
+    "pubPlaceStringHe": "למברג (לבוב)",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "שמחה בונים סופר"
+    ],
+    "title": "שבט סופר חלק ב",
+    "enTitle": "Shevet Sofer part 2",
+    "authors": [
+      "rabbi Śimhah Bunem Sofer"
+    ],
+    "pubDate": [
+      1919
+    ],
+    "pubDateHeb": "ה׳תרע״ט",
+    "pubPlaceStringEn": "Budapest",
+    "pubPlaceStringHe": "בודפשט",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אברהם בן יצחק חי הכהן יצחקי "
+    ],
+    "title": "שלחנו של אברהם",
+    "enTitle": "Shulchano shel Avraham",
+    "authors": [
+      "Avraham ben Yitzhak Hi haCohen Yitzhakו"
+    ],
+    "pubDate": [
+      1865
+    ],
+    "pubDateHeb": "ה׳תרכ״ה",
+    "pubPlaceStringEn": "Livorno (Leghorn)",
+    "pubPlaceStringHe": "ליוורנו ",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יוסף בן עזרא"
+    ],
+    "title": "שולחן המלך על הרמב\"ם",
+    "enTitle": "Shulkhan Hamelekh (Rambam)",
+    "authors": [
+      "r' Josef ben Ezra"
+    ],
+    "pubDate": [
+      1862
+    ],
+    "pubDateHeb": "ה׳תרכ״ב",
+    "pubPlaceStringEn": "Izmir",
+    "pubPlaceStringHe": "איזמיר",
+    "heCategories": [
+      "רמב\"ם ומפרשיו"
+    ],
+    "categories": [
+      "Rambam "
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אלישר, יעקב שאול בן אליעזר ירחם"
+    ],
+    "title": "שמחה לאיש",
+    "enTitle": "Simcha leIsh",
+    "authors": [
+      "Elshir, Yaakov Shaul"
+    ],
+    "pubDate": [
+      1888
+    ],
+    "pubDateHeb": "ה׳תרמ״ח",
+    "pubPlaceStringEn": "Jerusalem",
+    "pubPlaceStringHe": "ירושלים",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אליהו בכור חזן"
+    ],
+    "title": "שו\"ת תעלומות לב חלק ג",
+    "enTitle": "Responsa Taalumot Lev part 3",
+    "authors": [
+      "Ḥazan Eliyahu"
+    ],
+    "pubDate": [
+      1903
+    ],
+    "pubDateHeb": "ה׳תרס״ג",
+    "pubPlaceStringEn": "Alexandria ",
+    "pubPlaceStringHe": "אלכנסדריה ",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אליעזר חיים בן אברהם דייטש "
+    ],
+    "title": "תבואות השדה חלק א",
+    "enTitle": "Tevuot Hasadah part 1",
+    "authors": [
+      "Eliezer Deitch"
+    ],
+    "pubDate": [
+      1892
+    ],
+    "pubDateHeb": "ה׳תרנ״ב",
+    "pubPlaceStringEn": "Lemberg (Lvov)",
+    "pubPlaceStringHe": "למברג (לבוב)",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אליעזר חיים בן אברהם דייטש "
+    ],
+    "title": "תבואות השדה חלק ב",
+    "enTitle": "Tevuot Hasadah part 2",
+    "authors": [
+      "Eliezer Deitch"
+    ],
+    "pubDate": [
+      1894
+    ],
+    "pubDateHeb": "ה׳תרנ״ד",
+    "pubPlaceStringEn": "Lemberg (Lvov)",
+    "pubPlaceStringHe": "למברג (לבוב)",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אליעזר חיים בן אברהם דייטש "
+    ],
+    "title": "תבואות השדה חלק ד",
+    "enTitle": "Tevuot Hasadah part 4",
+    "authors": [
+      "Eliezer Deitch"
+    ],
+    "pubDate": [
+      1900
+    ],
+    "pubDateHeb": "ה׳תר״ס",
+    "pubPlaceStringEn": "Paks",
+    "pubPlaceStringHe": "פקש",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אליעזר חיים בן אברהם דייטש "
+    ],
+    "title": "תבואות השדה חלק ו",
+    "enTitle": "Tevuot Hasadah part 6",
+    "authors": [
+      "Eliezer Deitch"
+    ],
+    "pubDate": [
+      1904
+    ],
+    "pubDateHeb": "ה׳תרס״ד",
+    "pubPlaceStringEn": "Paks",
+    "pubPlaceStringHe": "פקש",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יעקב גֶזונדהייט"
+    ],
+    "title": "תפארת יעקב על חולין חלק א",
+    "enTitle": "Tiferet Ya’akov (Chullin part 1)",
+    "authors": [
+      "Yaakov Gezundheit"
+    ],
+    "pubDate": [
+      1867
+    ],
+    "pubDateHeb": "ה׳תרכ״ז",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יעקב גֶזונדהייט"
+    ],
+    "title": "תפארת יעקב על חולין חלק ב",
+    "enTitle": "Tiferet Ya’akov (Chullin part 3)",
+    "authors": [
+      "Yaakov Gezundheit"
+    ],
+    "pubDate": [
+      1867
+    ],
+    "pubDateHeb": "ה׳תרכ״ז",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יעקב גֶזונדהייט"
+    ],
+    "title": "תפארת יעקב יורה דעה שחיטה וטריפות",
+    "enTitle": "Tiferet Yaakov Yoreh Deah Shechita veTreifot",
+    "authors": [
+      "Yaakov Gezundheit"
+    ],
+    "pubDate": [
+      1926
+    ],
+    "pubDateHeb": "ה׳תרפ״ו",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יעקב גֶזונדהייט"
+    ],
+    "title": "תפארת יעקב חושן משפט חלק א",
+    "enTitle": "Tiferet Ya’akov choshen mishpat part 1",
+    "authors": [
+      "Yaakov Gezundheit"
+    ],
+    "pubDate": [
+      1842
+    ],
+    "pubDateHeb": "ה׳תר״ב",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יעקב גֶזונדהייט"
+    ],
+    "title": "תפארת יעקב חושן משפט חלק ב",
+    "enTitle": "Tiferet Ya’akov choshen mishpat part 2",
+    "authors": [
+      "Yaakov Gezundheit"
+    ],
+    "pubDate": [
+      1926
+    ],
+    "pubDateHeb": "ה׳תרפ״ו",
+    "pubPlaceStringEn": "Bilgoraj",
+    "pubPlaceStringHe": "בילגוריי",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יעקב גֶזונדהייט"
+    ],
+    "title": "תפארת יעקב אבן העזר קידושין",
+    "enTitle": "Tiferes Yaakov Even Ha'ezer Kiddushin",
+    "authors": [
+      "Yaakov Gezundheit"
+    ],
+    "pubDate": [
+      1926
+    ],
+    "pubDateHeb": "ה׳תרפ״ו",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אליקום גצל מאיר בן יצחק פודרוביניק "
+    ],
+    "title": "תורת אליקום",
+    "enTitle": "Torat Eliakum",
+    "authors": [
+      "Eliakum Getsil Meir ben Yitzhak"
+    ],
+    "pubDate": [
+      1913
+    ],
+    "pubDateHeb": "ה׳תרע״ג",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ר' אברהם יהושע השל מאפטא"
+    ],
+    "title": "תורת אמת",
+    "enTitle": "Torat Emet",
+    "authors": [
+      "R’ Avraham Yehoshua Heshel miApta"
+    ],
+    "pubDate": [
+      1865
+    ],
+    "pubDateHeb": "ה׳תרכ״ה",
+    "pubPlaceStringEn": "Lemberg (Lvov)",
+    "pubPlaceStringHe": "למברג (לבוב)",
+    "heCategories": [
+      "חסידות"
+    ],
+    "categories": [
+      "Chassidut"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "חיים הכהן"
+    ],
+    "title": "מקור חיים - ג  (טור ברקת חלק א)",
+    "enTitle": "Mekor Chayim(Tur Bareket part 1) - 3",
+    "authors": [
+      "Chaim ben Avraham haCohen miAram Tzovah"
+    ],
+    "pubDate": [
+      1877
+    ],
+    "pubDateHeb": "ה׳תרל״ז",
+    "pubPlaceStringEn": "Piotrków",
+    "pubPlaceStringHe": "פיוטריקוב",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "חיים הכהן"
+    ],
+    "title": "מקור חיים - ג  (טור ברקת חלק ב)",
+    "enTitle": "Mekor Chayim(Tur Bareket part 2) - 3",
+    "authors": [
+      "Chaim ben Avraham haCohen miAram Tzovah"
+    ],
+    "pubDate": [
+      1877
+    ],
+    "pubDateHeb": "ה׳תרל״ז",
+    "pubPlaceStringEn": "Piotrków",
+    "pubPlaceStringHe": "פיוטריקוב",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "חיים הכהן"
+    ],
+    "title": "מקור חיים - ג  (טור ברקת חלק ג)",
+    "enTitle": "Mekor Chayim(Tur Bareket part 3) - 3",
+    "authors": [
+      "Chaim ben Avraham haCohen miAram Tzovah"
+    ],
+    "pubDate": [
+      1877
+    ],
+    "pubDateHeb": "ה׳תרל״ז",
+    "pubPlaceStringEn": "Piotrków",
+    "pubPlaceStringHe": "פיוטריקוב",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "חיים הכהן"
+    ],
+    "title": "מקור חיים - ב  (טור פטדה חלק א)",
+    "enTitle": "Mekor Chayim (Tur Pateda part 1) - 2",
+    "authors": [
+      "Chaim ben Avraham haCohen miAram Tzovah"
+    ],
+    "pubDate": [
+      1877
+    ],
+    "pubDateHeb": "ה׳תרל״ז",
+    "pubPlaceStringEn": "Piotrków",
+    "pubPlaceStringHe": "פיוטריקוב",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "חיים הכהן"
+    ],
+    "title": "מקור חיים - ב  (טור פטדה חלק ב)",
+    "enTitle": "Mekor Chayim (Tur Pateda part 2) - 2",
+    "authors": [
+      "Chaim ben Avraham haCohen miAram Tzovah"
+    ],
+    "pubDate": [
+      1877
+    ],
+    "pubDateHeb": "ה׳תרל״ז",
+    "pubPlaceStringEn": "Piotrków",
+    "pubPlaceStringHe": "פיוטריקוב",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "חיים הכהן"
+    ],
+    "title": "מקור חיים - ד  (טור יהלם)",
+    "enTitle": "Mekor Chayim (Tur Yahalom)- 4",
+    "authors": [
+      "Chaim ben Avraham haCohen miAram Tzovah"
+    ],
+    "pubDate": [
+      1878
+    ],
+    "pubDateHeb": "ה׳תרל״ח",
+    "pubPlaceStringEn": "Piotrków",
+    "pubPlaceStringHe": "פיוטריקוב",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יחזקאל הלוי לנדא"
+    ],
+    "title": "צל\"ח ביצה",
+    "enTitle": "Tzlach Beitzah",
+    "authors": [
+      "Yechezkel Landau"
+    ],
+    "pubDate": [
+      1857
+    ],
+    "pubDateHeb": "ה׳תרי״ז",
+    "pubPlaceStringEn": "Slavuta",
+    "pubPlaceStringHe": "סלאוויטא",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אברהם חיים שור"
+    ],
+    "title": "צאן קדשים",
+    "enTitle": "Tzon Kedoshim",
+    "authors": [
+      "Avraham Chaim Shor"
+    ],
+    "pubDate": [
+      1876
+    ],
+    "pubDateHeb": "ה׳תרל״ו",
+    "pubPlaceStringEn": "Warsaw",
+    "pubPlaceStringHe": "ורשה",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אלעזר סגל לנדא"
+    ],
+    "title": "יד המלך (לנדא) - ד.",
+    "enTitle": "Yad haMelech part 4",
+    "authors": [
+      "Elazar bar Yisroel Landau"
+    ],
+    "pubDate": [
+      1826
+    ],
+    "pubDateHeb": "ה׳תקפ״ו",
+    "pubPlaceStringEn": "Lemberg (Lvov)",
+    "pubPlaceStringHe": "למברג (לבוב)",
+    "heCategories": [
+      "רמב\"ם ומפרשיו"
+    ],
+    "categories": [
+      "Rambam "
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יצחק צבי ארונובסקי"
+    ],
+    "title": "יד יצחק - א",
+    "enTitle": "yad yitzhak part 1",
+    "authors": [
+      "yitzchok tzvi Aronovsky"
+    ],
+    "pubDate": [
+      1867
+    ],
+    "pubDateHeb": "ה׳תרכ״ז",
+    "pubPlaceStringEn": "Vilna (Vilnius)",
+    "pubPlaceStringHe": "וילנה",
+    "heCategories": [
+      "רמב\"ם ומפרשיו"
+    ],
+    "categories": [
+      "Rambam "
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "דוד בן משה הכהן סקלי "
+    ],
+    "title": "ילקוט דוד - באוהל דוד",
+    "enTitle": "Yalkut David Beohel David",
+    "authors": [
+      "David Skali"
+    ],
+    "pubDate": [
+      1946
+    ],
+    "pubDateHeb": "ה׳תש״ו",
+    "pubPlaceStringEn": "Meknes",
+    "pubPlaceStringHe": "מקנס",
+    "heCategories": [
+      "קבלה"
+    ],
+    "categories": [
+      "Kabbala"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "גרשון בן משה שטרן "
+    ],
+    "title": "ילקוט הגרשוני אורח חיים ב",
+    "enTitle": "Yalkut ha-Gershuni Orach Chayim part 2",
+    "authors": [
+      "Gerson Stern"
+    ],
+    "pubDate": [
+      1908
+    ],
+    "pubDateHeb": "ה׳תרס״ח",
+    "pubPlaceStringEn": "Munkatch (Mukacheve)",
+    "pubPlaceStringHe": "מונקאטש (מונקאץ')",
+    "heCategories": [
+      "הלכה ומנהג"
+    ],
+    "categories": [
+      "Halakha and Minhaggim"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "מועטי, דוד בן שמואל"
+    ],
+    "title": "ידי דוד",
+    "enTitle": "Yede David",
+    "authors": [
+      "Muati, Dovid"
+    ],
+    "pubDate": [
+      1853
+    ],
+    "pubDateHeb": "ה׳תרי״ג",
+    "pubPlaceStringEn": "Algiers",
+    "pubPlaceStringHe": "אלג'יר",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "י-הודה אסאד"
+    ],
+    "title": "יהודה יעלה אבן העזר וחושן משפט",
+    "enTitle": "Yehudah Yaaleh Even haEzer Choshen Mishpat",
+    "authors": [
+      "Asud, Yehudah"
+    ],
+    "pubDate": [
+      1880
+    ],
+    "pubDateHeb": "ה׳תר״מ",
+    "pubPlaceStringEn": "Lemberg (Lvov)",
+    "pubPlaceStringHe": "למברג (לבוב)",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "רבי יהודה אסאד"
+    ],
+    "title": "יהודה יעלה אורח חיים",
+    "enTitle": "Yehudah Yaaleh Orach Chayim",
+    "authors": [
+      "Yehudah Assad"
+    ],
+    "pubDate": [
+      1873
+    ],
+    "pubDateHeb": "ה׳תרל״ג",
+    "pubPlaceStringEn": "Lemberg (Lvov)",
+    "pubPlaceStringHe": "למברג (לבוב)",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "שלמה זלמן בן שלום אולמן"
+    ],
+    "title": "יריעות שלמה יורה דעה חלק א",
+    "enTitle": "Yeriot Shlomo (shas)",
+    "authors": [
+      "Ulman, Shelomoh Zalman,"
+    ],
+    "pubDate": [
+      1913
+    ],
+    "pubDateHeb": "ה׳תרע״ג",
+    "pubPlaceStringEn": "Munkatch (Mukacheve)",
+    "pubPlaceStringHe": "מונקאטש (מונקאץ')",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "רבי יקותיאל יהודה טייטלבוים"
+    ],
+    "title": "ייטב לב במדבר",
+    "enTitle": "Yetev Lev Bemidbar",
+    "authors": [
+      "Teiteilbaum, Yekusiel Yehudah"
+    ],
+    "pubDate": [
+      1875
+    ],
+    "pubDateHeb": "ה׳תרל״ה",
+    "pubPlaceStringEn": "Sziget (Sighetu Marmației)",
+    "pubPlaceStringHe": "סיגט",
+    "heCategories": [
+      "חסידות"
+    ],
+    "categories": [
+      "Chassidut"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "רבי יקותיאל יהודה טייטלבוים"
+    ],
+    "title": "ייטב לב בראשית",
+    "enTitle": "Yetev Lev Bershit",
+    "authors": [
+      "Teiteilbaum, Yekusiel Yehudah"
+    ],
+    "pubDate": [
+      1875
+    ],
+    "pubDateHeb": "ה׳תרל״ה",
+    "pubPlaceStringEn": "Sziget (Sighetu Marmației)",
+    "pubPlaceStringHe": "סיגט",
+    "heCategories": [
+      "חסידות"
+    ],
+    "categories": [
+      "Chassidut"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "רבי יקותיאל יהודה טייטלבוים"
+    ],
+    "title": "ייטב לב דברים",
+    "enTitle": "Yetev Lev Devarim",
+    "authors": [
+      "Teiteilbaum, Yekusiel Yehudah"
+    ],
+    "pubDate": [
+      1875
+    ],
+    "pubDateHeb": "ה׳תרל״ה",
+    "pubPlaceStringEn": "Sziget (Sighetu Marmației)",
+    "pubPlaceStringHe": "סיגט",
+    "heCategories": [
+      "חסידות"
+    ],
+    "categories": [
+      "Chassidut"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "רבי יקותיאל יהודה טייטלבוים"
+    ],
+    "title": "ייטב לב שמות",
+    "enTitle": "Yetev Lev Shemot",
+    "authors": [
+      "Teiteilbaum, Yekusiel Yehudah"
+    ],
+    "pubDate": [
+      1875
+    ],
+    "pubDateHeb": "ה׳תרל״ה",
+    "pubPlaceStringEn": "Sziget (Sighetu Marmației)",
+    "pubPlaceStringHe": "סיגט",
+    "heCategories": [
+      "חסידות"
+    ],
+    "categories": [
+      "Chassidut"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "רבי יקותיאל יהודה טייטלבוים"
+    ],
+    "title": "ייטב לב ויקרא",
+    "enTitle": "Yetev Lev Vayikra",
+    "authors": [
+      "Teiteilbaum, Yekusiel Yehudah"
+    ],
+    "pubDate": [
+      1875
+    ],
+    "pubDateHeb": "ה׳תרל״ה",
+    "pubPlaceStringEn": "Sziget (Sighetu Marmației)",
+    "pubPlaceStringHe": "סיגט",
+    "heCategories": [
+      "חסידות"
+    ],
+    "categories": [
+      "Chassidut"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "פאנו, מנחם עזריה בן יצחק ברכיה"
+    ],
+    "title": "יונת אלם",
+    "enTitle": "Yonat Ilem",
+    "authors": [
+      "Menache Azariah miPano"
+    ],
+    "pubDate": [
+      1859
+    ],
+    "pubDateHeb": "ה׳תרי״ט",
+    "pubPlaceStringEn": "Lemberg (Lvov)",
+    "pubPlaceStringHe": "למברג (לבוב)",
+    "heCategories": [
+      "קבלה"
+    ],
+    "categories": [
+      "Kabbala"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "זכריה ישעיה יולס"
+    ],
+    "title": "זכר ישעיהו חלק ב",
+    "enTitle": "Zekher Yeshayahu part 2",
+    "authors": [
+      "Jolles, Zechariah Isaiah"
+    ],
+    "pubDate": [
+      1882
+    ],
+    "pubDateHeb": "ה׳תרמ״ב",
+    "pubPlaceStringEn": "Vilna (Vilnius)",
+    "pubPlaceStringHe": "וילנה",
+    "heCategories": [
+      "תלמוד ומפרשיו"
+    ],
+    "categories": [
+      "Talmud and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "זכריה ישעיה יולס"
+    ],
+    "title": "זכר ישעיהו (רמב\"ם)",
+    "enTitle": "Zekher Yeshayahu (Rambam)",
+    "authors": [
+      "Jolles, Zechariah Isaiah"
+    ],
+    "pubDate": [
+      1882
+    ],
+    "pubDateHeb": "ה׳תרמ״ב",
+    "pubPlaceStringEn": "Vilna (Vilnius)",
+    "pubPlaceStringHe": "וילנה",
+    "heCategories": [
+      "רמב\"ם ומפרשיו"
+    ],
+    "categories": [
+      "Rambam "
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אהרן יוסף קורץ"
+    ],
+    "title": "זקן אהרן (קורץ)",
+    "enTitle": "Zekan Aharon (Kurts)",
+    "authors": [
+      "Kurts, Aharon Yosef"
+    ],
+    "pubDate": [
+      1930
+    ],
+    "pubDateHeb": "ה׳תר״צ",
+    "pubPlaceStringEn": "Krakow",
+    "pubPlaceStringHe": "קרקוב (קארקא)",
+    "heCategories": [
+      "דרשות ודרושים"
+    ],
+    "categories": [
+      "Derashot (Homilies)"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ר' אהרן הכהן"
+    ],
+    "title": "זכרון אהרן",
+    "enTitle": "Zichron Aharon",
+    "authors": [
+      "Kohen, Aharon haCohen"
+    ],
+    "pubDate": [
+      1915
+    ],
+    "pubDateHeb": "ה׳תרע״ה",
+    "pubPlaceStringEn": "Paks",
+    "pubPlaceStringHe": "פקש",
+    "heCategories": [
+      "תנ\"ך ומפרשיו"
+    ],
+    "categories": [
+      "Tanakh and Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ר' י-הודה גרינולד (מסטמר)"
+    ],
+    "title": "זכרון י-הודה גרינוולד חלק א",
+    "enTitle": "Zichron Yehudah part 1",
+    "authors": [
+      "R' Yehuda Greenwald (of Satmar)"
+    ],
+    "pubDate": [
+      1923
+    ],
+    "pubDateHeb": "ה׳תרפ״ג",
+    "pubPlaceStringEn": "Budapest",
+    "pubPlaceStringHe": "בודפשט",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אהרן בן יעקב צבי וואלקין"
+    ],
+    "title": "זקן אהרן חלק א",
+    "enTitle": "Zkan Aharon part 1",
+    "authors": [
+      "Aharon Volkin"
+    ],
+    "pubDate": [
+      1932
+    ],
+    "pubDateHeb": "ה׳תרצ״ב",
+    "pubPlaceStringEn": "Pinsk",
+    "pubPlaceStringHe": "פינסק",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אהרן בן יעקב צבי וואלקין"
+    ],
+    "title": "זקן אהרן חלק ב",
+    "enTitle": "Zkan Aharon part 2",
+    "authors": [
+      "Aharon Volkin"
+    ],
+    "pubDate": [
+      1938
+    ],
+    "pubDateHeb": "ה׳תרצ״ח",
+    "pubPlaceStringEn": "Pinsk",
+    "pubPlaceStringHe": "פינסק",
+    "heCategories": [
+      "שאלות ותשובות (שו\"ת)"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  }
+]
