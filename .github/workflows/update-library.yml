@@ -242,6 +242,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           set -euo pipefail
+          export LANG=C.UTF-8
+          export LC_ALL=C.UTF-8
 
           ARCHIVE_NAME="talmud_bavli_latest.tar.zst"
           SRC="MoreBooks/ספרים/אוצריא/תלמוד בבלי"
@@ -313,7 +315,8 @@ jobs:
             exit 1
           fi
 
-          tar -C "$STAGING_DIR" -cf - "תלמוד בבלי" | zstd -19 -T0 -o "$GITHUB_WORKSPACE/$ARCHIVE_NAME"
+          # Force POSIX/PAX tar metadata so UTF-8 filenames survive cross-platform extraction.
+          tar --format=posix -C "$STAGING_DIR" -cf - "תלמוד בבלי" | zstd -19 -T0 -o "$GITHUB_WORKSPACE/$ARCHIVE_NAME"
 
           rm -rf "$STAGING_DIR"
 
