@@ -31798,5 +31798,17 @@
       "מרדכי דוב איידעלבערג"
     ],
     "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "ספר קושיות",
+    "heAuthors": [
+      "אחד מן הראשונים"
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "הערות על ספר קושיות",
+    "heAuthors": [],
+    "Sourcefolder": "MoreBooks"
   }
 ]
