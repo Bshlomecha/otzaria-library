@@ -1,11 +1,14 @@
 # Kovetz Shitot Kamai - official 2026 edition converters
 
 These scripts produced the 38 per-tractate books now kept under
-`KSK/קובץ שיטות קמאי/סדר <seder>/`
+`KSK/ספרים/אוצריא/תלמוד בבלי/ראשונים/קובץ שיטות קמאי/סדר <seder>/`
 (28 from Word 97-2003 `.doc` sources, 10 from HED PRESS PDFs, including
-Menachot, which had no earlier edition). `KSK/` is not in `BOOK_ROOTS`, so
-neither these books nor anything in this folder is packaged into the library
-release; the scripts are kept here for reproducibility only.
+Menachot, which had no earlier edition). `KSK/ספרים/אוצריא` is one of the
+`BOOK_ROOTS` in `manual_links_packaging.py`, so these books ship in the library
+release (under `אוצריא/תלמוד בבלי/ראשונים/קובץ שיטות קמאי/`) with source `KSK`.
+Nothing else under `KSK/` is packaged: not this folder (the scripts are kept for
+reproducibility only) and not `KSK/ספרים מתוך קובץ שיטות קמאי/`, which holds
+single-rishon books extracted from the old edition, still to be re-extracted.
 
 Output is deterministic: re-running on the same sources gives byte-identical
 books (checked for one `.doc` and one PDF tractate when these files were added).
@@ -32,11 +35,11 @@ Environment variables (all optional):
 
 - `KSK_WORK`: the work directory above.
 - `KSK_REPO`: the otzaria-library checkout (default: two levels above this folder).
-- `KSK_OLD_ROOT`: the **pre-2026** `KSK/` tree. The converters copy each book's
-  `<h1>` and file name from the old file and QA compares against it. The new
-  books overwrote the old ones at the same `KSK/` paths, so the default
-  (`$KSK_REPO/KSK`) now points at the new books themselves: the `<h1>`/name
-  lookup still works, but QA then compares a book with itself. For a real
+- `KSK_OLD_ROOT`: the reference tree for each book's `<h1>` and file name, laid
+  out as `<root>/קובץ שיטות קמאי/סדר <seder>/<name>.txt`. The default
+  (`$KSK_REPO/KSK/ספרים/אוצריא/תלמוד בבלי/ראשונים`) is the packaged books
+  themselves, which replaced the **pre-2026** edition under the same names: the
+  `<h1>`/name lookup works, but QA then compares a book with itself. For a real
   comparison, extract the old tree from the last commit that had it:
   `git archive 93c9fa6d KSK | tar -x -C /some/dir` and set
   `KSK_OLD_ROOT=/some/dir/KSK`.
@@ -76,7 +79,10 @@ use them.
 ## Installing the output
 
 Copy `out/<idx>.txt` / `out_pdf/<key>.txt` to
-`KSK/קובץ שיטות קמאי/סדר <seder>/<name>.txt`, using the name from the
-matching `names.json`. The metadata registries (`ForDB/all_metadata.json`,
-`all_metadata*.json`, `SourcesBooks.csv`) key on that name. They are not in
-`ForDB/generations.csv`, which lists only packaged books.
+`KSK/ספרים/אוצריא/תלמוד בבלי/ראשונים/קובץ שיטות קמאי/סדר <seder>/<name>.txt`,
+using the name from the matching `names.json` (Menachot is in `סדר קדשים`).
+The metadata registries key on that name: `metadata.json` (author),
+`ForDB/all_metadata.json` and `all_metadata*.json` (Sourcefolder `KSK`; the
+`file_path` in `all_metadata_with_file_paths.json` is library-relative with `\`),
+`SourcesBooks.csv` (`אוצריא/...` path, source `KSK`) and `ForDB/generations.csv`
+(`ראשונים`).

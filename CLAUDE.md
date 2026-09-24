@@ -22,7 +22,7 @@
 
 ## הספרים: `BOOK_ROOTS`
 
-מוגדר ב־[manual_links_packaging.py:33-47](manual_links_packaging.py#L33-L47). כל שורש
+מוגדר ב־[manual_links_packaging.py:34-50](manual_links_packaging.py#L34-L50). כל שורש
 מועתק אל תוך אותו עץ יעד `אוצריא/`, לפי הסדר, עם `overwrite=True` — שורש מאוחר יותר
 דורס קובץ באותו נתיב יחסי:
 
@@ -35,6 +35,7 @@ tashmaToOtzaria/ספרים/אוצריא
 sefariaToOtzaria/sefaria_export/ספרים/אוצריא
 sefariaToOtzaria/sefaria_api/ספרים/אוצריא
 MoreBooks/ספרים/אוצריא
+KSK/ספרים/אוצריא
 wikiJewishBooksToOtzaria/ספרים/אוצריא
 wikisourceToOtzaria/ספרים/אוצריא
 ToratEmetToOtzaria/ספרים/אוצריא
@@ -43,13 +44,15 @@ National-LibraryToOtzaria/ספרים/אוצריא
 yam-HaHachmaToOtzaria/ספרים/אוצריא
 ```
 
-אותה רשימה משוכפלת כ־`PACKAGED_PREFIXES` ב־[validate_fordb_book_names.py:135](.github/scripts/validate_fordb_book_names.py#L135)
+אותה רשימה משוכפלת כ־`PACKAGED_PREFIXES` ב־[validate_fordb_book_names.py:186](.github/scripts/validate_fordb_book_names.py#L186)
 (שם היא כוללת גם את `DictaToOtzaria/לא ערוך/`, שנכנס רק ל־zip הדיקטה). **אם משנים
 אחת — צריך לעדכן את השנייה.**
 
 ### מה *לא* נארז
 
-- `extraBooks/`, `KSK/`, `docxToOtzaria/`, `MoreBooks/ספרים/` שאינו תחת `אוצריא/`
+- `extraBooks/`, `docxToOtzaria/`, `MoreBooks/ספרים/` שאינו תחת `אוצריא/`
+- `KSK/` שאינו תחת `ספרים/אוצריא/` — תיקיית הסקריפטים של קובץ שיטות קמאי, ו־`KSK/ספרים מתוך קובץ שיטות קמאי/`
+  (ספרי ראשון יחיד שחולצו מהמהדורה הישנה, ממתינים לחילוץ מחדש)
 - כל `<source>/ספרים/<משהו שאינו אוצריא>/` — למשל `OraytaToOtzaria/ספרים/לא רלוונטי/`
 - `DictaToOtzaria/לא ערוך/` — נכנס רק ל־`otzaria_dicta_latest.zip`, לא לספרייה
 - כלי עבודה: `linker/`, `linker-eval/`, `metadata/`, `library_csv/`, `send_update/`, `סקריפטים שונות/`
@@ -67,7 +70,7 @@ yam-HaHachmaToOtzaria/ספרים/אוצריא
 
 - **ספר של המאגר הזה** (Dicta / MoreBooks / OnYourWay / Orayta / ToratEmet /
   pninim / Ben-Yehuda / wikisource / tashma / wikiJewishBooks / National-Library /
-  yam-HaHachma):
+  yam-HaHachma / KSK):
   הקטגוריה נגזרת מ**נתיב התיקייה הפיזי בתוך `BOOK_ROOTS`**. מזיזים את הקובץ ב־git.
   `ForDB/book_moves.csv` **לא** מיועד לספרים אלה.
 - **ספר של ספריא** (`source.name='Sefaria'`): אין קובץ מקומי, הוא נוצר בזמן הבנייה

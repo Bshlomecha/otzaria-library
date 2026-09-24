@@ -31,7 +31,9 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 # Configurable locations (env overrides; defaults assume this folder is KSK/קובץ שיטות קמאי - סקריפטים/)
 REPO = os.environ.get('KSK_REPO', os.path.dirname(os.path.dirname(HERE)))
 WORK = os.environ.get('KSK_WORK', HERE)  # manifest.json, mapping.json, paras/, work/, out*/ live here
-OLD_ROOT = os.environ.get('KSK_OLD_ROOT', os.path.join(REPO, 'KSK'))  # pre-2026 KSK tree (reference h1/names)
+OLD_ROOT = os.environ.get('KSK_OLD_ROOT', os.path.join(
+    REPO, 'KSK', 'ספרים', 'אוצריא', 'תלמוד בבלי', 'ראשונים'))  # reference h1/names: the packaged books by default;
+# point it at an extracted pre-2026 KSK/ tree for real QA (same <root>/קובץ שיטות קמאי/<seder>/ layout)
 AUTHOR = '\u05dc\u05d9\u05e7\u05d5\u05d8 \u05e8\u05d0\u05e9\u05d5\u05e0\u05d9\u05dd'  # line 2 of every book
 OLD_DIR = os.path.join(OLD_ROOT, 'קובץ שיטות קמאי')
 REPLACE_CSV = os.path.join(HERE, 'replace.csv')  # label fixes (from the old KSK/fix and split/)

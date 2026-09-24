@@ -40,6 +40,7 @@ BOOK_ROOTS = (
     "sefariaToOtzaria/sefaria_export/ספרים/אוצריא",
     "sefariaToOtzaria/sefaria_api/ספרים/אוצריא",
     "MoreBooks/ספרים/אוצריא",
+    "KSK/ספרים/אוצריא",
     "wikiJewishBooksToOtzaria/ספרים/אוצריא",
     "wikisourceToOtzaria/ספרים/אוצריא",
     "ToratEmetToOtzaria/ספרים/אוצריא",

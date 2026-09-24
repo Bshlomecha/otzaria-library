@@ -11,7 +11,7 @@ sefariaToOtzaria/.../otzaria/utils.py):
   מרכיבים:
      1. *מקור האמת* לאוצריא: שמות קבצי הספרים הנארזים ל-release בלבד - הנתיבים תואמים
         בדיוק את .github/workflows/update-library.yml (PACKAGED_PREFIXES). תיקיות
-        ביניים/ארכיון (extraBooks, KSK) אינן נכנסות ל-DB ולכן אינן
+        ביניים/ארכיון (extraBooks, docxToOtzaria) אינן נכנסות ל-DB ולכן אינן
         נחשבות. נמנים דרך `git ls-tree` (ללא הורדת תוכן - עובד עם sparse/partial).
      2. שמות ספרי *ספריא*: נמשכים חיים מ-API (רשומות sefaria שב-all_metadata הן בסיס, ה-API
         מתאחד עליהן). ספרי ספריא נוצרים בבנייה ואין להם קובץ מקומי, לכן זה מקורם. כשל
@@ -19,7 +19,7 @@ sefariaToOtzaria/.../otzaria/utils.py):
      3. שאר רשומות all_metadata_with_file_paths.json (אוצריא) - לבדיקות מטא-דאטה בלבד.
   A. "db_final" = (1)+(2) אחרי שינויי השמות - מה שבאמת מגיע ל-DB. ספר אוצריא נכנס ל-DB
      רק כקובץ נארז, ולכן שם במטא-דאטה לבדו (בלי קובץ נארז) אינו נכלל. כך נתפס ספר שהוזז
-     לתיקייה לא-נארזת (כגון KSK) ושומר מטא-דאטה ישנה.
+     לתיקייה לא-נארזת (כגון extraBooks) ושומר מטא-דאטה ישנה.
   B. "final_canon" = (1)+(2)+(3) אחרי שינויי השמות - רשימה רחבה לבדיקות המטא-דאטה.
      ("sources" = אותם מרכיבים לפני שינויי השמות; משמש לבדיקת book_renames.)
   שינויי השם (srename) נלקחים מ-book_renames.csv: sanitize(old)->sanitize(new).
@@ -180,7 +180,7 @@ def db_title(name):
 # הנתיבים תואמים *בדיוק* לאלו שנארזים ב-.github/workflows/update-library.yml
 # (שלבי "Create otzaria Release Archive" + "Create dicta Release Archive").
 # חשוב: לא כל תיקייה שבה רכיב 'אוצריא' נכנסת ל-DB - תיקיות ביניים/ארכיון כמו
-# extraBooks ו-KSK *אינן* נארזות, ולכן אינן נחשבות.
+# extraBooks ו-docxToOtzaria *אינן* נארזות, ולכן אינן נחשבות.
 # ---------------------------------------------------------------------------
 BOOK_EXTS = (".txt", ".pdf", ".docx")
 PACKAGED_PREFIXES = (
@@ -193,6 +193,7 @@ PACKAGED_PREFIXES = (
     "sefariaToOtzaria/sefaria_export/ספרים/אוצריא/",
     "sefariaToOtzaria/sefaria_api/ספרים/אוצריא/",
     "MoreBooks/ספרים/אוצריא/",
+    "KSK/ספרים/אוצריא/",
     "wikiJewishBooksToOtzaria/ספרים/אוצריא/",
     "wikisourceToOtzaria/ספרים/אוצריא/",
     "ToratEmetToOtzaria/ספרים/אוצריא/",
@@ -379,7 +380,7 @@ def load_canonical(srename):
       * db_final    = השמות שבאמת *מגיעים ל-DB* אחרי שינויי שם: קבצים נארזים בפועל +
                       ספרי ספריא בלבד. ספרי אוצריא נכנסים ל-DB רק כקובץ נארז — ולכן שם
                       במטא-דאטה לבדו (בלי קובץ נארז) אינו נכלל כאן. כך נתפס ספר שהוזז
-                      לתיקייה לא-נארזת (כגון KSK) ושומר מטא-דאטה ישנה.
+                      לתיקייה לא-נארזת (כגון extraBooks) ושומר מטא-דאטה ישנה.
       * sefaria_final = שמות ספרי *ספריא* בלבד (מנוקים, אחרי שינויי שם). משמש לבדיקת
                       דליפת-מקור: ספר ספריא הרשום ב-all_metadata.json עם Sourcefolder
                       לא-"sefaria" יידרס ל-Dicta/וכו' בשלב seed-המטא-דאטה.
@@ -560,7 +561,7 @@ def main():
             )
 
     # 2) generations.csv + 4) book_moves.csv - עמודות "שם ספר"/"name". חייבים להתאים
-    #    בדיוק ל-book.title שב-DB (db_final); ספר שאינו נארז (כגון שהוזז ל-KSK) ייתפס.
+    #    בדיוק ל-book.title שב-DB (db_final); ספר שאינו נארז (כגון שהוזז ל-extraBooks) ייתפס.
     #    ב--fix שורות יתומות מוסרות; במצב report-only הן מדווחות ומפילות.
     removed = []  # [(file_label, name, reason)]
     for file_label, path, col in (
