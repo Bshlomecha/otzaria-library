@@ -29226,16 +29226,16 @@
   {
     "title": "חידושי הראבד על עבודה זרה",
     "heAuthors": [
-      "<h2>דף ב.</h2>"
+      "ראב\"ד"
     ],
-    "Sourcefolder": "MoreBooks"
+    "Sourcefolder": "KSK"
   },
   {
     "title": "תלמידי רבנו יונה על עבודה זרה",
     "heAuthors": [
-      "<h2>דף ב.</h2>"
+      "רבינו יונה"
     ],
-    "Sourcefolder": "MoreBooks"
+    "Sourcefolder": "KSK"
   },
   {
     "title": "חדושי הראה על ברכות",
@@ -29247,44 +29247,51 @@
   {
     "title": "חידושי הראה על עבודה זרה",
     "heAuthors": [
-      "<h2>דף ב.</h2>"
+      "אהרן הלוי"
     ],
-    "Sourcefolder": "MoreBooks"
+    "Sourcefolder": "KSK"
   },
   {
     "title": "פירוש רבינו ישמעאל בן חכמון על עירובין",
     "heAuthors": [
-      "<h2>דף טז:</h2>"
+      "ישמעאל בן חכמון"
     ],
-    "Sourcefolder": "MoreBooks"
+    "Sourcefolder": "KSK"
+  },
+  {
+    "title": "השלמה על עבודה זרה",
+    "heAuthors": [
+      "משולם בן משה מבדרש"
+    ],
+    "Sourcefolder": "KSK"
   },
   {
     "title": "רבינו חננאל בן שמואל על עירובין",
     "heAuthors": [
-      "<h2>דף ד:</h2>"
+      "חננאל בן שמואל"
     ],
-    "Sourcefolder": "MoreBooks"
+    "Sourcefolder": "KSK"
   },
   {
     "title": "רבינו יהונתן מלוניל על עבודה זרה",
     "heAuthors": [
-      "<h2>דף ב.</h2>"
+      "יהונתן מלוניל"
     ],
-    "Sourcefolder": "MoreBooks"
+    "Sourcefolder": "KSK"
   },
   {
     "title": "נימוקי יוסף על עבודה זרה",
     "heAuthors": [
-      "<h2>דף ו.</h2>"
+      "יוסף חביבא"
     ],
-    "Sourcefolder": "MoreBooks"
+    "Sourcefolder": "KSK"
   },
   {
     "title": "תוספות שאנץ על פסחים",
     "heAuthors": [
-      "רבנו שמשון ב\"ר אברהם משאנץ"
+      "שמשון בן אברהם משאנץ"
     ],
-    "Sourcefolder": "MoreBooks"
+    "Sourcefolder": "KSK"
   },
   {
     "title": "קובץ שיטות קמאי על ברכות",
