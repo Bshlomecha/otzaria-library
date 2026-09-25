@@ -6,9 +6,10 @@ These scripts produced the 38 per-tractate books now kept under
 Menachot, which had no earlier edition). `KSK/ספרים/אוצריא` is one of the
 `BOOK_ROOTS` in `manual_links_packaging.py`, so these books ship in the library
 release (under `אוצריא/תלמוד בבלי/ראשונים/קובץ שיטות קמאי/`) with source `KSK`.
-Nothing else under `KSK/` is packaged: not this folder (the scripts are kept for
-reproducibility only) and not `KSK/ספרים מתוך קובץ שיטות קמאי/`, which holds
-single-rishon books extracted from the old edition, still to be re-extracted.
+Besides them, the same root holds nine single-rishon books that
+`split_rishonim.py` extracts from these tractates (see the last section); they
+ship too. Nothing else under `KSK/` is packaged: not this folder (the scripts are
+kept for reproducibility only).
 
 Output is deterministic: re-running on the same sources gives byte-identical
 books (checked for one `.doc` and one PDF tractate when these files were added).
@@ -86,3 +87,49 @@ The metadata registries key on that name: `metadata.json` (author),
 `file_path` in `all_metadata_with_file_paths.json` is library-relative with `\`),
 `SourcesBooks.csv` (`אוצריא/...` path, source `KSK`) and `ForDB/generations.csv`
 (`ראשונים`).
+
+## Single-rishon books (`split_rishonim.py`)
+
+Nine books, each holding the passages of one rishon on one tractate, are split
+out of the packaged tractates by `split_rishonim.py`, driven by
+`split_rishonim_config.json` (one entry per book: `title`, `author`, repo-relative
+`source` tractate and `output` path, and the `<h3>` `labels` that belong to it).
+They were first produced from the pre-2026 edition by the old `split_2.py` /
+`split_3.py` scripts, packaged under `MoreBooks/`, and removed from the library
+in June 2026 together with the rest of KSK. The config recreates them with their
+old file names and at their old paths (under the KSK root instead of
+`MoreBooks/`); the book titles, author names and paths are listed there and not
+repeated here.
+
+```
+python3 split_rishonim.py                # (re)write the nine books
+python3 split_rishonim.py --check        # compare with the files on disk
+python3 split_rishonim.py --report       # matched / variant / excluded labels
+python3 split_rishonim.py --linemap F    # JSON line map of every output line
+```
+
+(`--mask` prints `*` for Hebrew letters.) The rule is the old one: after an
+`<h3>` whose label is listed for the book, every line up to the next `<h3>` is
+copied, under the `<h2>` of its amud (a passage may continue across an amud
+boundary, and an `<h2>` is written only if something is copied under it). The
+output keeps the `<h2>` amud headings, drops the `<h3>` labels, and starts with
+`<h1>title</h1>` and the author line. Two fixes over the old scripts: the source
+author line (before the first `<h3>`) is never copied, and labels are compared
+after `normalize_label` (niqqud, quote marks and dashes removed), with a second,
+looser key without vav/yod reported as a `variant`, so that spelling variants
+are found. Labels that resemble a book's labels but are not listed are reported
+as `excluded` (for example the same rishon quoted on another tractate).
+
+Label modes: `primary` copies the passage only; `sublabel` first copies the
+label as a plain line (used for a second work of the same author inside one
+book, as the old edition of that book did).
+
+The line map is `{title: {"output", "source", "lines": [[out_line, source file
+name, source_line, kind], ...]}}`, 1-based, `kind` = `heading` (an `<h2>`, or a
+`sublabel` label taken from its `<h3>`) or `content`. Lines 1-2 (title and
+author) have no source line and are not listed.
+
+After re-running, update the registries if an output path or line count
+changed: `SourcesBooks.csv` (line count), and for a new book also
+`metadata.json` (author), `all_metadata*.json`, `ForDB/all_metadata.json` and
+`ForDB/generations.csv`, like the tractates above.
