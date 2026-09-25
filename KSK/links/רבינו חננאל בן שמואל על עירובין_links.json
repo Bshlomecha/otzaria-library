@@ -1,0 +1,1362 @@
+[
+  {
+    "line_index_1": 8,
+    "line_index_2": 127,
+    "heRef_2": "עירובין ה., ו",
+    "ref_2": "Eruvin 5a:6",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 9,
+    "line_index_2": 134,
+    "heRef_2": "עירובין ה., יג",
+    "ref_2": "Eruvin 5a:13",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 11,
+    "line_index_2": 139,
+    "heRef_2": "עירובין ה:, ב",
+    "ref_2": "Eruvin 5b:2",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 12,
+    "line_index_2": 141,
+    "heRef_2": "עירובין ה:, ד",
+    "ref_2": "Eruvin 5b:4",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 14,
+    "line_index_2": 154,
+    "heRef_2": "עירובין ו., ה",
+    "ref_2": "Eruvin 6a:5",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 15,
+    "line_index_2": 160,
+    "heRef_2": "עירובין ו., יא",
+    "ref_2": "Eruvin 6a:11",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 17,
+    "line_index_2": 167,
+    "heRef_2": "עירובין ו:, ה",
+    "ref_2": "Eruvin 6b:5",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 22,
+    "line_index_2": 217,
+    "heRef_2": "עירובין ח., טז",
+    "ref_2": "Eruvin 8a:16",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 24,
+    "line_index_2": 226,
+    "heRef_2": "עירובין ח:, ד",
+    "ref_2": "Eruvin 8b:4",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 25,
+    "line_index_2": 229,
+    "heRef_2": "עירובין ח:, ז",
+    "ref_2": "Eruvin 8b:7",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 27,
+    "line_index_2": 238,
+    "heRef_2": "עירובין ח:, טז",
+    "ref_2": "Eruvin 8b:16",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 30,
+    "line_index_2": 248,
+    "heRef_2": "עירובין ט., ו",
+    "ref_2": "Eruvin 9a:6",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 32,
+    "line_index_2": 266,
+    "heRef_2": "עירובין ט:, ה",
+    "ref_2": "Eruvin 9b:5",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 37,
+    "line_index_2": 314,
+    "heRef_2": "עירובין י:, כ",
+    "ref_2": "Eruvin 10b:20",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 39,
+    "line_index_2": 330,
+    "heRef_2": "עירובין יא., טו",
+    "ref_2": "Eruvin 11a:15",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 41,
+    "line_index_2": 344,
+    "heRef_2": "עירובין יא:, ט",
+    "ref_2": "Eruvin 11b:9",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 42,
+    "line_index_2": 354,
+    "heRef_2": "עירובין יא:, יט",
+    "ref_2": "Eruvin 11b:19",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 44,
+    "line_index_2": 356,
+    "heRef_2": "עירובין יא:, כא",
+    "ref_2": "Eruvin 11b:21",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 47,
+    "line_index_2": 387,
+    "heRef_2": "עירובין יב., כג",
+    "ref_2": "Eruvin 12a:23",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 51,
+    "line_index_2": 416,
+    "heRef_2": "עירובין יג., ז",
+    "ref_2": "Eruvin 13a:7",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 54,
+    "line_index_2": 446,
+    "heRef_2": "עירובין יג:, טו",
+    "ref_2": "Eruvin 13b:15",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 53,
+    "line_index_2": 447,
+    "heRef_2": "עירובין יג:, טז",
+    "ref_2": "Eruvin 13b:16",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 57,
+    "line_index_2": 454,
+    "heRef_2": "עירובין יד., ה",
+    "ref_2": "Eruvin 14a:5",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 58,
+    "line_index_2": 465,
+    "heRef_2": "עירובין יד., טז",
+    "ref_2": "Eruvin 14a:16",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 65,
+    "line_index_2": 495,
+    "heRef_2": "עירובין טו., א",
+    "ref_2": "Eruvin 15a:1",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 68,
+    "line_index_2": 525,
+    "heRef_2": "עירובין טו:, י",
+    "ref_2": "Eruvin 15b:10",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 71,
+    "line_index_2": 541,
+    "heRef_2": "עירובין טז., ג",
+    "ref_2": "Eruvin 16a:3",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 73,
+    "line_index_2": 565,
+    "heRef_2": "עירובין טז:, ח",
+    "ref_2": "Eruvin 16b:8",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 76,
+    "line_index_2": 600,
+    "heRef_2": "עירובין יז., יג",
+    "ref_2": "Eruvin 17a:13",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 77,
+    "line_index_2": 602,
+    "heRef_2": "עירובין יז., טו",
+    "ref_2": "Eruvin 17a:15",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 82,
+    "line_index_2": 625,
+    "heRef_2": "עירובין יז:, טו",
+    "ref_2": "Eruvin 17b:15",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 85,
+    "line_index_2": 633,
+    "heRef_2": "עירובין יח., ב",
+    "ref_2": "Eruvin 18a:2",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 86,
+    "line_index_2": 633,
+    "heRef_2": "עירובין יח., ב",
+    "ref_2": "Eruvin 18a:2",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 90,
+    "line_index_2": 707,
+    "heRef_2": "עירובין יט:, ד",
+    "ref_2": "Eruvin 19b:4",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 98,
+    "line_index_2": 784,
+    "heRef_2": "עירובין כא., ז",
+    "ref_2": "Eruvin 21a:7",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 100,
+    "line_index_2": 842,
+    "heRef_2": "עירובין כב., יט",
+    "ref_2": "Eruvin 22a:19",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 107,
+    "line_index_2": 883,
+    "heRef_2": "עירובין כג., ח",
+    "ref_2": "Eruvin 23a:8",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 108,
+    "line_index_2": 884,
+    "heRef_2": "עירובין כג., ט",
+    "ref_2": "Eruvin 23a:9",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 116,
+    "line_index_2": 935,
+    "heRef_2": "עירובין כד:, ד",
+    "ref_2": "Eruvin 24b:4",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 120,
+    "line_index_2": 1012,
+    "heRef_2": "עירובין כו:, טו",
+    "ref_2": "Eruvin 26b:15",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 121,
+    "line_index_2": 1014,
+    "heRef_2": "עירובין כו:, יז",
+    "ref_2": "Eruvin 26b:17",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 122,
+    "line_index_2": 1015,
+    "heRef_2": "עירובין כו:, יח",
+    "ref_2": "Eruvin 26b:18",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 123,
+    "line_index_2": 1015,
+    "heRef_2": "עירובין כו:, יח",
+    "ref_2": "Eruvin 26b:18",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 124,
+    "line_index_2": 1016,
+    "heRef_2": "עירובין כו:, יט",
+    "ref_2": "Eruvin 26b:19",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 129,
+    "line_index_2": 1181,
+    "heRef_2": "עירובין לא., י",
+    "ref_2": "Eruvin 31a:10",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 131,
+    "line_index_2": 1193,
+    "heRef_2": "עירובין לא:, ט",
+    "ref_2": "Eruvin 31b:9",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 132,
+    "line_index_2": 1195,
+    "heRef_2": "עירובין לא:, יא",
+    "ref_2": "Eruvin 31b:11",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 135,
+    "line_index_2": 1225,
+    "heRef_2": "עירובין לב:, ג",
+    "ref_2": "Eruvin 32b:3",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 138,
+    "line_index_2": 1264,
+    "heRef_2": "עירובין לד:, ד",
+    "ref_2": "Eruvin 34b:4",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 139,
+    "line_index_2": 1273,
+    "heRef_2": "עירובין לד:, יג",
+    "ref_2": "Eruvin 34b:13",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 141,
+    "line_index_2": 1290,
+    "heRef_2": "עירובין לה., יא",
+    "ref_2": "Eruvin 35a:11",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 147,
+    "line_index_2": 1336,
+    "heRef_2": "עירובין לו:, ג",
+    "ref_2": "Eruvin 36b:3",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 151,
+    "line_index_2": 1390,
+    "heRef_2": "עירובין לח., יד",
+    "ref_2": "Eruvin 38a:14",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 153,
+    "line_index_2": 1408,
+    "heRef_2": "עירובין לח:, טז",
+    "ref_2": "Eruvin 38b:16",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 155,
+    "line_index_2": 1419,
+    "heRef_2": "עירובין לט., ד",
+    "ref_2": "Eruvin 39a:4",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 157,
+    "line_index_2": 1424,
+    "heRef_2": "עירובין לט., ט",
+    "ref_2": "Eruvin 39a:9",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 161,
+    "line_index_2": 1446,
+    "heRef_2": "עירובין מ., ד",
+    "ref_2": "Eruvin 40a:4",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 166,
+    "line_index_2": 1499,
+    "heRef_2": "עירובין מא:, ו",
+    "ref_2": "Eruvin 41b:6",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 167,
+    "line_index_2": 1513,
+    "heRef_2": "עירובין מא:, כ",
+    "ref_2": "Eruvin 41b:20",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 168,
+    "line_index_2": 1521,
+    "heRef_2": "עירובין מא:, כח",
+    "ref_2": "Eruvin 41b:28",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 170,
+    "line_index_2": 1531,
+    "heRef_2": "עירובין מב., ז",
+    "ref_2": "Eruvin 42a:7",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 173,
+    "line_index_2": 1548,
+    "heRef_2": "עירובין מב:, ח",
+    "ref_2": "Eruvin 42b:8",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 182,
+    "line_index_2": 1620,
+    "heRef_2": "עירובין מד:, ב",
+    "ref_2": "Eruvin 44b:2",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 183,
+    "line_index_2": 1626,
+    "heRef_2": "עירובין מד:, ח",
+    "ref_2": "Eruvin 44b:8",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 187,
+    "line_index_2": 1639,
+    "heRef_2": "עירובין מה., ד",
+    "ref_2": "Eruvin 45a:4",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 188,
+    "line_index_2": 1655,
+    "heRef_2": "עירובין מה., כ",
+    "ref_2": "Eruvin 45a:20",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 189,
+    "line_index_2": 1659,
+    "heRef_2": "עירובין מה., כד",
+    "ref_2": "Eruvin 45a:24",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 190,
+    "line_index_2": 1662,
+    "heRef_2": "עירובין מה., כז",
+    "ref_2": "Eruvin 45a:27",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 192,
+    "line_index_2": 1665,
+    "heRef_2": "עירובין מה:, ב",
+    "ref_2": "Eruvin 45b:2",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 194,
+    "line_index_2": 1708,
+    "heRef_2": "עירובין מו:, א",
+    "ref_2": "Eruvin 46b:1",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 195,
+    "line_index_2": 1713,
+    "heRef_2": "עירובין מו:, ו",
+    "ref_2": "Eruvin 46b:6",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 203,
+    "line_index_2": 1803,
+    "heRef_2": "עירובין מח:, ח",
+    "ref_2": "Eruvin 48b:8",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 205,
+    "line_index_2": 1835,
+    "heRef_2": "עירובין מט:, ד",
+    "ref_2": "Eruvin 49b:4",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 207,
+    "line_index_2": 1836,
+    "heRef_2": "עירובין מט:, ה",
+    "ref_2": "Eruvin 49b:5",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 208,
+    "line_index_2": 1840,
+    "heRef_2": "עירובין מט:, ט",
+    "ref_2": "Eruvin 49b:9",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 213,
+    "line_index_2": 1866,
+    "heRef_2": "עירובין נ:, ד",
+    "ref_2": "Eruvin 50b:4",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 215,
+    "line_index_2": 1875,
+    "heRef_2": "עירובין נ:, יג",
+    "ref_2": "Eruvin 50b:13",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 218,
+    "line_index_2": 1886,
+    "heRef_2": "עירובין נא., ז",
+    "ref_2": "Eruvin 51a:7",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 219,
+    "line_index_2": 1897,
+    "heRef_2": "עירובין נא., יח",
+    "ref_2": "Eruvin 51a:18",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 221,
+    "line_index_2": 1947,
+    "heRef_2": "עירובין נב:, טז",
+    "ref_2": "Eruvin 52b:16",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 223,
+    "line_index_2": 1949,
+    "heRef_2": "עירובין נג., א",
+    "ref_2": "Eruvin 53a:1",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 225,
+    "line_index_2": 2057,
+    "heRef_2": "עירובין נה., ד",
+    "ref_2": "Eruvin 55a:4",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 229,
+    "line_index_2": 2081,
+    "heRef_2": "עירובין נה:, יד",
+    "ref_2": "Eruvin 55b:14",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 233,
+    "line_index_2": 2127,
+    "heRef_2": "עירובין נז., יא",
+    "ref_2": "Eruvin 57a:11",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 234,
+    "line_index_2": 2128,
+    "heRef_2": "עירובין נז., יב",
+    "ref_2": "Eruvin 57a:12",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 235,
+    "line_index_2": 2130,
+    "heRef_2": "עירובין נז., יד",
+    "ref_2": "Eruvin 57a:14",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 237,
+    "line_index_2": 2150,
+    "heRef_2": "עירובין נז:, טו",
+    "ref_2": "Eruvin 57b:15",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 242,
+    "line_index_2": 2171,
+    "heRef_2": "עירובין נח:, ב",
+    "ref_2": "Eruvin 58b:2",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 243,
+    "line_index_2": 2181,
+    "heRef_2": "עירובין נח:, יב",
+    "ref_2": "Eruvin 58b:12",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 245,
+    "line_index_2": 2184,
+    "heRef_2": "עירובין נט., א",
+    "ref_2": "Eruvin 59a:1",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 246,
+    "line_index_2": 2189,
+    "heRef_2": "עירובין נט., ו",
+    "ref_2": "Eruvin 59a:6",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 249,
+    "line_index_2": 2198,
+    "heRef_2": "עירובין נט:, ג",
+    "ref_2": "Eruvin 59b:3",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 250,
+    "line_index_2": 2205,
+    "heRef_2": "עירובין נט:, י",
+    "ref_2": "Eruvin 59b:10",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 253,
+    "line_index_2": 2229,
+    "heRef_2": "עירובין ס., יח",
+    "ref_2": "Eruvin 60a:18",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 254,
+    "line_index_2": 2231,
+    "heRef_2": "עירובין ס., כ",
+    "ref_2": "Eruvin 60a:20",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 256,
+    "line_index_2": 2239,
+    "heRef_2": "עירובין ס:, ו",
+    "ref_2": "Eruvin 60b:6",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 259,
+    "line_index_2": 2265,
+    "heRef_2": "עירובין סא., כ",
+    "ref_2": "Eruvin 61a:20",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 261,
+    "line_index_2": 2280,
+    "heRef_2": "עירובין סא:, יא",
+    "ref_2": "Eruvin 61b:11",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 265,
+    "line_index_2": 2310,
+    "heRef_2": "עירובין סב:, י",
+    "ref_2": "Eruvin 62b:10",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 279,
+    "line_index_2": 2494,
+    "heRef_2": "עירובין סז:, טז",
+    "ref_2": "Eruvin 67b:16",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 285,
+    "line_index_2": 2528,
+    "heRef_2": "עירובין סח:, יד",
+    "ref_2": "Eruvin 68b:14",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 290,
+    "line_index_2": 2555,
+    "heRef_2": "עירובין סט:, י",
+    "ref_2": "Eruvin 69b:10",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 291,
+    "line_index_2": 2557,
+    "heRef_2": "עירובין סט:, יב",
+    "ref_2": "Eruvin 69b:12",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 298,
+    "line_index_2": 2616,
+    "heRef_2": "עירובין עא., יג",
+    "ref_2": "Eruvin 71a:13",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 300,
+    "line_index_2": 2634,
+    "heRef_2": "עירובין עא:, י",
+    "ref_2": "Eruvin 71b:10",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 302,
+    "line_index_2": 2642,
+    "heRef_2": "עירובין עב., ה",
+    "ref_2": "Eruvin 72a:5",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 303,
+    "line_index_2": 2644,
+    "heRef_2": "עירובין עב., ז",
+    "ref_2": "Eruvin 72a:7",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 305,
+    "line_index_2": 2658,
+    "heRef_2": "עירובין עב:, יב",
+    "ref_2": "Eruvin 72b:12",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 309,
+    "line_index_2": 2678,
+    "heRef_2": "עירובין עג., יג",
+    "ref_2": "Eruvin 73a:13",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 311,
+    "line_index_2": 2683,
+    "heRef_2": "עירובין עג., יח",
+    "ref_2": "Eruvin 73a:18",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 315,
+    "line_index_2": 2716,
+    "heRef_2": "עירובין עד:, ד",
+    "ref_2": "Eruvin 74b:4",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 317,
+    "line_index_2": 2724,
+    "heRef_2": "עירובין עה., ד",
+    "ref_2": "Eruvin 75a:4",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 324,
+    "line_index_2": 2782,
+    "heRef_2": "עירובין עו:, ו",
+    "ref_2": "Eruvin 76b:6",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 325,
+    "line_index_2": 2788,
+    "heRef_2": "עירובין עו:, יב",
+    "ref_2": "Eruvin 76b:12",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 327,
+    "line_index_2": 2799,
+    "heRef_2": "עירובין עז., ז",
+    "ref_2": "Eruvin 77a:7",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 328,
+    "line_index_2": 2804,
+    "heRef_2": "עירובין עז., יב",
+    "ref_2": "Eruvin 77a:12",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 333,
+    "line_index_2": 2825,
+    "heRef_2": "עירובין עח., ג",
+    "ref_2": "Eruvin 78a:3",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 335,
+    "line_index_2": 2848,
+    "heRef_2": "עירובין עח:, ג",
+    "ref_2": "Eruvin 78b:3",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 336,
+    "line_index_2": 2859,
+    "heRef_2": "עירובין עח:, יד",
+    "ref_2": "Eruvin 78b:14",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 339,
+    "line_index_2": 2873,
+    "heRef_2": "עירובין עט., ח",
+    "ref_2": "Eruvin 79a:8",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 343,
+    "line_index_2": 2894,
+    "heRef_2": "עירובין עט:, י",
+    "ref_2": "Eruvin 79b:10",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 344,
+    "line_index_2": 2896,
+    "heRef_2": "עירובין עט:, יב",
+    "ref_2": "Eruvin 79b:12",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 346,
+    "line_index_2": 2917,
+    "heRef_2": "עירובין פ., יד",
+    "ref_2": "Eruvin 80a:14",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 348,
+    "line_index_2": 2934,
+    "heRef_2": "עירובין פ:, ה",
+    "ref_2": "Eruvin 80b:5",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 349,
+    "line_index_2": 2935,
+    "heRef_2": "עירובין פ:, ו",
+    "ref_2": "Eruvin 80b:6",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 351,
+    "line_index_2": 2948,
+    "heRef_2": "עירובין פ:, יט",
+    "ref_2": "Eruvin 80b:19",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 354,
+    "line_index_2": 2966,
+    "heRef_2": "עירובין פא., יז",
+    "ref_2": "Eruvin 81a:17",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 357,
+    "line_index_2": 2979,
+    "heRef_2": "עירובין פא:, יא",
+    "ref_2": "Eruvin 81b:11",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 359,
+    "line_index_2": 3000,
+    "heRef_2": "עירובין פב., י",
+    "ref_2": "Eruvin 82a:10",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 360,
+    "line_index_2": 3001,
+    "heRef_2": "עירובין פב., יא",
+    "ref_2": "Eruvin 82a:11",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 363,
+    "line_index_2": 3023,
+    "heRef_2": "עירובין פב:, יג",
+    "ref_2": "Eruvin 82b:13",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 364,
+    "line_index_2": 3028,
+    "heRef_2": "עירובין פב:, יח",
+    "ref_2": "Eruvin 82b:18",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 369,
+    "line_index_2": 3059,
+    "heRef_2": "עירובין פג:, ד",
+    "ref_2": "Eruvin 83b:4",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 371,
+    "line_index_2": 3084,
+    "heRef_2": "עירובין פד., טו",
+    "ref_2": "Eruvin 84a:15",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 373,
+    "line_index_2": 3113,
+    "heRef_2": "עירובין פה:, ט",
+    "ref_2": "Eruvin 85b:9",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 376,
+    "line_index_2": 3130,
+    "heRef_2": "עירובין פו., ו",
+    "ref_2": "Eruvin 86a:6",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 377,
+    "line_index_2": 3134,
+    "heRef_2": "עירובין פו., י",
+    "ref_2": "Eruvin 86a:10",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 380,
+    "line_index_2": 3165,
+    "heRef_2": "עירובין פז., ט",
+    "ref_2": "Eruvin 87a:9",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 383,
+    "line_index_2": 3191,
+    "heRef_2": "עירובין פז:, טו",
+    "ref_2": "Eruvin 87b:15",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 386,
+    "line_index_2": 3214,
+    "heRef_2": "עירובין פח., טז",
+    "ref_2": "Eruvin 88a:16",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 387,
+    "line_index_2": 3218,
+    "heRef_2": "עירובין פח., כ",
+    "ref_2": "Eruvin 88a:20",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 391,
+    "line_index_2": 3247,
+    "heRef_2": "עירובין פט., ד",
+    "ref_2": "Eruvin 89a:4",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 393,
+    "line_index_2": 3286,
+    "heRef_2": "עירובין צ., יא",
+    "ref_2": "Eruvin 90a:11",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 396,
+    "line_index_2": 3297,
+    "heRef_2": "עירובין צ:, י",
+    "ref_2": "Eruvin 90b:10",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 398,
+    "line_index_2": 3305,
+    "heRef_2": "עירובין צא., ז",
+    "ref_2": "Eruvin 91a:7",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 400,
+    "line_index_2": 3334,
+    "heRef_2": "עירובין צב., ח",
+    "ref_2": "Eruvin 92a:8",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 402,
+    "line_index_2": 3378,
+    "heRef_2": "עירובין צג:, ט",
+    "ref_2": "Eruvin 93b:9",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 403,
+    "line_index_2": 3382,
+    "heRef_2": "עירובין צג:, יג",
+    "ref_2": "Eruvin 93b:13",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 406,
+    "line_index_2": 3406,
+    "heRef_2": "עירובין צד., כב",
+    "ref_2": "Eruvin 94a:22",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 410,
+    "line_index_2": 3440,
+    "heRef_2": "עירובין צה., יג",
+    "ref_2": "Eruvin 95a:13",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 413,
+    "line_index_2": 3452,
+    "heRef_2": "עירובין צה:, א",
+    "ref_2": "Eruvin 95b:1",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 419,
+    "line_index_2": 3543,
+    "heRef_2": "עירובין צז:, יט",
+    "ref_2": "Eruvin 97b:19",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 421,
+    "line_index_2": 3573,
+    "heRef_2": "עירובין צח:, ט",
+    "ref_2": "Eruvin 98b:9",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 423,
+    "line_index_2": 3577,
+    "heRef_2": "עירובין צח:, יג",
+    "ref_2": "Eruvin 98b:13",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 426,
+    "line_index_2": 3597,
+    "heRef_2": "עירובין צט., טז",
+    "ref_2": "Eruvin 99a:16",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 427,
+    "line_index_2": 3599,
+    "heRef_2": "עירובין צט., יח",
+    "ref_2": "Eruvin 99a:18",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 429,
+    "line_index_2": 3609,
+    "heRef_2": "עירובין צט:, ה",
+    "ref_2": "Eruvin 99b:5",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 430,
+    "line_index_2": 3614,
+    "heRef_2": "עירובין צט:, י",
+    "ref_2": "Eruvin 99b:10",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 431,
+    "line_index_2": 3625,
+    "heRef_2": "עירובין צט:, כא",
+    "ref_2": "Eruvin 99b:21",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 433,
+    "line_index_2": 3630,
+    "heRef_2": "עירובין ק., ב",
+    "ref_2": "Eruvin 100a:2",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 437,
+    "line_index_2": 3700,
+    "heRef_2": "עירובין קא:, א",
+    "ref_2": "Eruvin 101b:1",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 438,
+    "line_index_2": 3712,
+    "heRef_2": "עירובין קא:, יג",
+    "ref_2": "Eruvin 101b:13",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 440,
+    "line_index_2": 3717,
+    "heRef_2": "עירובין קב., ב",
+    "ref_2": "Eruvin 102a:2",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 443,
+    "line_index_2": 3741,
+    "heRef_2": "עירובין קב:, ה",
+    "ref_2": "Eruvin 102b:5",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 444,
+    "line_index_2": 3744,
+    "heRef_2": "עירובין קב:, ח",
+    "ref_2": "Eruvin 102b:8",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 445,
+    "line_index_2": 3745,
+    "heRef_2": "עירובין קב:, ט",
+    "ref_2": "Eruvin 102b:9",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 446,
+    "line_index_2": 3750,
+    "heRef_2": "עירובין קב:, יד",
+    "ref_2": "Eruvin 102b:14",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 448,
+    "line_index_2": 3762,
+    "heRef_2": "עירובין קג., ו",
+    "ref_2": "Eruvin 103a:6",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 450,
+    "line_index_2": 3787,
+    "heRef_2": "עירובין קג:, ח",
+    "ref_2": "Eruvin 103b:8",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 456,
+    "line_index_2": 3830,
+    "heRef_2": "עירובין קד:, ו",
+    "ref_2": "Eruvin 104b:6",
+    "path_2": "עירובין.txt",
+    "Conection Type": "source"
+  }
+]

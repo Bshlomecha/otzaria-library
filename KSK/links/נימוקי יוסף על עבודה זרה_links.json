@@ -1,0 +1,314 @@
+[
+  {
+    "line_index_1": 7,
+    "line_index_2": 150,
+    "heRef_2": "עבודה זרה ו., יב",
+    "ref_2": "Avodah Zarah 6a:12",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 11,
+    "line_index_2": 171,
+    "heRef_2": "עבודה זרה ו:, טז",
+    "ref_2": "Avodah Zarah 6b:16",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 13,
+    "line_index_2": 183,
+    "heRef_2": "עבודה זרה ז., ט",
+    "ref_2": "Avodah Zarah 7a:9",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 24,
+    "line_index_2": 319,
+    "heRef_2": "עבודה זרה יא:, יא",
+    "ref_2": "Avodah Zarah 11b:11",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 43,
+    "line_index_2": 419,
+    "heRef_2": "עבודה זרה טו:, י",
+    "ref_2": "Avodah Zarah 15b:10",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 45,
+    "line_index_2": 461,
+    "heRef_2": "עבודה זרה יז., א",
+    "ref_2": "Avodah Zarah 17a:1",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 53,
+    "line_index_2": 598,
+    "heRef_2": "עבודה זרה כ:, יט",
+    "ref_2": "Avodah Zarah 20b:19",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 55,
+    "line_index_2": 618,
+    "heRef_2": "עבודה זרה כא:, ד",
+    "ref_2": "Avodah Zarah 21b:4",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 61,
+    "line_index_2": 640,
+    "heRef_2": "עבודה זרה כב:, ח",
+    "ref_2": "Avodah Zarah 22b:8",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 75,
+    "line_index_2": 798,
+    "heRef_2": "עבודה זרה כז:, ה",
+    "ref_2": "Avodah Zarah 27b:5",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 84,
+    "line_index_2": 854,
+    "heRef_2": "עבודה זרה כט:, א",
+    "ref_2": "Avodah Zarah 29b:1",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 86,
+    "line_index_2": 858,
+    "heRef_2": "עבודה זרה כט:, ה",
+    "ref_2": "Avodah Zarah 29b:5",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 100,
+    "line_index_2": 927,
+    "heRef_2": "עבודה זרה לב., ב",
+    "ref_2": "Avodah Zarah 32a:2",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 115,
+    "line_index_2": 981,
+    "heRef_2": "עבודה זרה לד., ה",
+    "ref_2": "Avodah Zarah 34a:5",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 120,
+    "line_index_2": 1027,
+    "heRef_2": "עבודה זרה לה:, ט",
+    "ref_2": "Avodah Zarah 35b:9",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 128,
+    "line_index_2": 1109,
+    "heRef_2": "עבודה זרה לח., ב",
+    "ref_2": "Avodah Zarah 38a:2",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 143,
+    "line_index_2": 1183,
+    "heRef_2": "עבודה זרה מ., א",
+    "ref_2": "Avodah Zarah 40a:1",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 144,
+    "line_index_2": 1190,
+    "heRef_2": "עבודה זרה מ., ח",
+    "ref_2": "Avodah Zarah 40a:8",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 155,
+    "line_index_2": 1271,
+    "heRef_2": "עבודה זרה מב:, ו",
+    "ref_2": "Avodah Zarah 42b:6",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 156,
+    "line_index_2": 1276,
+    "heRef_2": "עבודה זרה מב:, יא",
+    "ref_2": "Avodah Zarah 42b:11",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 161,
+    "line_index_2": 1321,
+    "heRef_2": "עבודה זרה מג:, יז",
+    "ref_2": "Avodah Zarah 43b:17",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 164,
+    "line_index_2": 1349,
+    "heRef_2": "עבודה זרה מד:, ד",
+    "ref_2": "Avodah Zarah 44b:4",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 171,
+    "line_index_2": 1444,
+    "heRef_2": "עבודה זרה מז:, א",
+    "ref_2": "Avodah Zarah 47b:1",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 173,
+    "line_index_2": 1453,
+    "heRef_2": "עבודה זרה מז:, י",
+    "ref_2": "Avodah Zarah 47b:10",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 174,
+    "line_index_2": 1456,
+    "heRef_2": "עבודה זרה מז:, יג",
+    "ref_2": "Avodah Zarah 47b:13",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 180,
+    "line_index_2": 1485,
+    "heRef_2": "עבודה זרה מח:, ז",
+    "ref_2": "Avodah Zarah 48b:7",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 186,
+    "line_index_2": 1525,
+    "heRef_2": "עבודה זרה מט:, ו",
+    "ref_2": "Avodah Zarah 49b:6",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 190,
+    "line_index_2": 1551,
+    "heRef_2": "עבודה זרה נ., י",
+    "ref_2": "Avodah Zarah 50a:10",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 194,
+    "line_index_2": 1609,
+    "heRef_2": "עבודה זרה נא:, יז",
+    "ref_2": "Avodah Zarah 51b:17",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 208,
+    "line_index_2": 1713,
+    "heRef_2": "עבודה זרה נד:, ג",
+    "ref_2": "Avodah Zarah 54b:3",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 214,
+    "line_index_2": 1749,
+    "heRef_2": "עבודה זרה נה:, ג",
+    "ref_2": "Avodah Zarah 55b:3",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 218,
+    "line_index_2": 1790,
+    "heRef_2": "עבודה זרה נז:, ז",
+    "ref_2": "Avodah Zarah 57b:7",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 243,
+    "line_index_2": 1877,
+    "heRef_2": "עבודה זרה סב., א",
+    "ref_2": "Avodah Zarah 62a:1",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 271,
+    "line_index_2": 2059,
+    "heRef_2": "עבודה זרה סט., א",
+    "ref_2": "Avodah Zarah 69a:1",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 287,
+    "line_index_2": 2117,
+    "heRef_2": "עבודה זרה עא., ה",
+    "ref_2": "Avodah Zarah 71a:5",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 294,
+    "line_index_2": 2150,
+    "heRef_2": "עבודה זרה עב., יב",
+    "ref_2": "Avodah Zarah 72a:12",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 304,
+    "line_index_2": 2177,
+    "heRef_2": "עבודה זרה עג., י",
+    "ref_2": "Avodah Zarah 73a:10",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 309,
+    "line_index_2": 2193,
+    "heRef_2": "עבודה זרה עג:, יב",
+    "ref_2": "Avodah Zarah 73b:12",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 331,
+    "line_index_2": 2262,
+    "heRef_2": "עבודה זרה עו., ד",
+    "ref_2": "Avodah Zarah 76a:4",
+    "path_2": "עבודה זרה.txt",
+    "Conection Type": "source"
+  }
+]

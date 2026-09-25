@@ -1,0 +1,3226 @@
+[
+  {
+    "line_index_1": 41,
+    "line_index_2": 4,
+    "heRef_2": "מעילה ב., ב",
+    "ref_2": "Meilah 2a:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 59,
+    "line_index_2": 5,
+    "heRef_2": "מעילה ב., ג",
+    "ref_2": "Meilah 2a:3",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 67,
+    "line_index_2": 8,
+    "heRef_2": "מעילה ב., ו",
+    "ref_2": "Meilah 2a:6",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 69,
+    "line_index_2": 8,
+    "heRef_2": "מעילה ב., ו",
+    "ref_2": "Meilah 2a:6",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 73,
+    "line_index_2": 9,
+    "heRef_2": "מעילה ב., ז",
+    "ref_2": "Meilah 2a:7",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 77,
+    "line_index_2": 9,
+    "heRef_2": "מעילה ב., ז",
+    "ref_2": "Meilah 2a:7",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 79,
+    "line_index_2": 9,
+    "heRef_2": "מעילה ב., ז",
+    "ref_2": "Meilah 2a:7",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 81,
+    "line_index_2": 9,
+    "heRef_2": "מעילה ב., ז",
+    "ref_2": "Meilah 2a:7",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 83,
+    "line_index_2": 10,
+    "heRef_2": "מעילה ב., ח",
+    "ref_2": "Meilah 2a:8",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 87,
+    "line_index_2": 14,
+    "heRef_2": "מעילה ב., יב",
+    "ref_2": "Meilah 2a:12",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 108,
+    "line_index_2": 19,
+    "heRef_2": "מעילה ב:, ב",
+    "ref_2": "Meilah 2b:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 110,
+    "line_index_2": 19,
+    "heRef_2": "מעילה ב:, ב",
+    "ref_2": "Meilah 2b:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 156,
+    "line_index_2": 19,
+    "heRef_2": "מעילה ב:, ב",
+    "ref_2": "Meilah 2b:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 114,
+    "line_index_2": 20,
+    "heRef_2": "מעילה ב:, ג",
+    "ref_2": "Meilah 2b:3",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 116,
+    "line_index_2": 22,
+    "heRef_2": "מעילה ב:, ה",
+    "ref_2": "Meilah 2b:5",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 148,
+    "line_index_2": 27,
+    "heRef_2": "מעילה ב:, י",
+    "ref_2": "Meilah 2b:10",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 150,
+    "line_index_2": 27,
+    "heRef_2": "מעילה ב:, י",
+    "ref_2": "Meilah 2b:10",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 152,
+    "line_index_2": 27,
+    "heRef_2": "מעילה ב:, י",
+    "ref_2": "Meilah 2b:10",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 154,
+    "line_index_2": 27,
+    "heRef_2": "מעילה ב:, י",
+    "ref_2": "Meilah 2b:10",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 163,
+    "line_index_2": 30,
+    "heRef_2": "מעילה ג., א",
+    "ref_2": "Meilah 3a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 169,
+    "line_index_2": 30,
+    "heRef_2": "מעילה ג., א",
+    "ref_2": "Meilah 3a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 204,
+    "line_index_2": 30,
+    "heRef_2": "מעילה ג., א",
+    "ref_2": "Meilah 3a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 175,
+    "line_index_2": 31,
+    "heRef_2": "מעילה ג., ב",
+    "ref_2": "Meilah 3a:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 194,
+    "line_index_2": 33,
+    "heRef_2": "מעילה ג., ד",
+    "ref_2": "Meilah 3a:4",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 198,
+    "line_index_2": 37,
+    "heRef_2": "מעילה ג., ח",
+    "ref_2": "Meilah 3a:8",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 200,
+    "line_index_2": 38,
+    "heRef_2": "מעילה ג., ט",
+    "ref_2": "Meilah 3a:9",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 202,
+    "line_index_2": 38,
+    "heRef_2": "מעילה ג., ט",
+    "ref_2": "Meilah 3a:9",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 211,
+    "line_index_2": 40,
+    "heRef_2": "מעילה ג:, א",
+    "ref_2": "Meilah 3b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 213,
+    "line_index_2": 40,
+    "heRef_2": "מעילה ג:, א",
+    "ref_2": "Meilah 3b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 260,
+    "line_index_2": 40,
+    "heRef_2": "מעילה ג:, א",
+    "ref_2": "Meilah 3b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 215,
+    "line_index_2": 41,
+    "heRef_2": "מעילה ג:, ב",
+    "ref_2": "Meilah 3b:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 227,
+    "line_index_2": 47,
+    "heRef_2": "מעילה ג:, ח",
+    "ref_2": "Meilah 3b:8",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 229,
+    "line_index_2": 48,
+    "heRef_2": "מעילה ג:, ט",
+    "ref_2": "Meilah 3b:9",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 277,
+    "line_index_2": 58,
+    "heRef_2": "מעילה ד., ג",
+    "ref_2": "Meilah 4a:3",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 281,
+    "line_index_2": 58,
+    "heRef_2": "מעילה ד., ג",
+    "ref_2": "Meilah 4a:3",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 283,
+    "line_index_2": 61,
+    "heRef_2": "מעילה ד., ו",
+    "ref_2": "Meilah 4a:6",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 289,
+    "line_index_2": 61,
+    "heRef_2": "מעילה ד., ו",
+    "ref_2": "Meilah 4a:6",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 297,
+    "line_index_2": 65,
+    "heRef_2": "מעילה ד., י",
+    "ref_2": "Meilah 4a:10",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 310,
+    "line_index_2": 68,
+    "heRef_2": "מעילה ד:, ב",
+    "ref_2": "Meilah 4b:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 312,
+    "line_index_2": 68,
+    "heRef_2": "מעילה ד:, ב",
+    "ref_2": "Meilah 4b:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 328,
+    "line_index_2": 71,
+    "heRef_2": "מעילה ד:, ה",
+    "ref_2": "Meilah 4b:5",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 324,
+    "line_index_2": 80,
+    "heRef_2": "מעילה ד:, יד",
+    "ref_2": "Meilah 4b:14",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 337,
+    "line_index_2": 82,
+    "heRef_2": "מעילה ה., א",
+    "ref_2": "Meilah 5a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 339,
+    "line_index_2": 82,
+    "heRef_2": "מעילה ה., א",
+    "ref_2": "Meilah 5a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 356,
+    "line_index_2": 82,
+    "heRef_2": "מעילה ה., א",
+    "ref_2": "Meilah 5a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 348,
+    "line_index_2": 84,
+    "heRef_2": "מעילה ה., ג",
+    "ref_2": "Meilah 5a:3",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 354,
+    "line_index_2": 91,
+    "heRef_2": "מעילה ה., י",
+    "ref_2": "Meilah 5a:10",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 372,
+    "line_index_2": 109,
+    "heRef_2": "מעילה ה:, יב",
+    "ref_2": "Meilah 5b:12",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 383,
+    "line_index_2": 114,
+    "heRef_2": "מעילה ו., ב",
+    "ref_2": "Meilah 6a:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 393,
+    "line_index_2": 121,
+    "heRef_2": "מעילה ו., ט",
+    "ref_2": "Meilah 6a:9",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 395,
+    "line_index_2": 121,
+    "heRef_2": "מעילה ו., ט",
+    "ref_2": "Meilah 6a:9",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 401,
+    "line_index_2": 127,
+    "heRef_2": "מעילה ו., טו",
+    "ref_2": "Meilah 6a:15",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 408,
+    "line_index_2": 133,
+    "heRef_2": "מעילה ו:, א",
+    "ref_2": "Meilah 6b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 410,
+    "line_index_2": 133,
+    "heRef_2": "מעילה ו:, א",
+    "ref_2": "Meilah 6b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 412,
+    "line_index_2": 133,
+    "heRef_2": "מעילה ו:, א",
+    "ref_2": "Meilah 6b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 418,
+    "line_index_2": 141,
+    "heRef_2": "מעילה ו:, ט",
+    "ref_2": "Meilah 6b:9",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 420,
+    "line_index_2": 141,
+    "heRef_2": "מעילה ו:, ט",
+    "ref_2": "Meilah 6b:9",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 426,
+    "line_index_2": 146,
+    "heRef_2": "מעילה ו:, יד",
+    "ref_2": "Meilah 6b:14",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 433,
+    "line_index_2": 149,
+    "heRef_2": "מעילה ז., א",
+    "ref_2": "Meilah 7a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 435,
+    "line_index_2": 149,
+    "heRef_2": "מעילה ז., א",
+    "ref_2": "Meilah 7a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 437,
+    "line_index_2": 149,
+    "heRef_2": "מעילה ז., א",
+    "ref_2": "Meilah 7a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 460,
+    "line_index_2": 152,
+    "heRef_2": "מעילה ז., ד",
+    "ref_2": "Meilah 7a:4",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 458,
+    "line_index_2": 160,
+    "heRef_2": "מעילה ז., יב",
+    "ref_2": "Meilah 7a:12",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 500,
+    "line_index_2": 162,
+    "heRef_2": "מעילה ז:, א",
+    "ref_2": "Meilah 7b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 477,
+    "line_index_2": 164,
+    "heRef_2": "מעילה ז:, ג",
+    "ref_2": "Meilah 7b:3",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 481,
+    "line_index_2": 166,
+    "heRef_2": "מעילה ז:, ה",
+    "ref_2": "Meilah 7b:5",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 483,
+    "line_index_2": 167,
+    "heRef_2": "מעילה ז:, ו",
+    "ref_2": "Meilah 7b:6",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 487,
+    "line_index_2": 168,
+    "heRef_2": "מעילה ז:, ז",
+    "ref_2": "Meilah 7b:7",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 494,
+    "line_index_2": 173,
+    "heRef_2": "מעילה ז:, יב",
+    "ref_2": "Meilah 7b:12",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 498,
+    "line_index_2": 175,
+    "heRef_2": "מעילה ז:, יד",
+    "ref_2": "Meilah 7b:14",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 527,
+    "line_index_2": 182,
+    "heRef_2": "מעילה ח., א",
+    "ref_2": "Meilah 8a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 511,
+    "line_index_2": 184,
+    "heRef_2": "מעילה ח., ג",
+    "ref_2": "Meilah 8a:3",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 521,
+    "line_index_2": 186,
+    "heRef_2": "מעילה ח., ה",
+    "ref_2": "Meilah 8a:5",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 552,
+    "line_index_2": 192,
+    "heRef_2": "מעילה ח:, ד",
+    "ref_2": "Meilah 8b:4",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 540,
+    "line_index_2": 194,
+    "heRef_2": "מעילה ח:, ו",
+    "ref_2": "Meilah 8b:6",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 544,
+    "line_index_2": 196,
+    "heRef_2": "מעילה ח:, ח",
+    "ref_2": "Meilah 8b:8",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 546,
+    "line_index_2": 196,
+    "heRef_2": "מעילה ח:, ח",
+    "ref_2": "Meilah 8b:8",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 559,
+    "line_index_2": 201,
+    "heRef_2": "מעילה ט., א",
+    "ref_2": "Meilah 9a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 561,
+    "line_index_2": 201,
+    "heRef_2": "מעילה ט., א",
+    "ref_2": "Meilah 9a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 565,
+    "line_index_2": 201,
+    "heRef_2": "מעילה ט., א",
+    "ref_2": "Meilah 9a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 620,
+    "line_index_2": 202,
+    "heRef_2": "מעילה ט., ב",
+    "ref_2": "Meilah 9a:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 578,
+    "line_index_2": 207,
+    "heRef_2": "מעילה ט., ז",
+    "ref_2": "Meilah 9a:7",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 580,
+    "line_index_2": 207,
+    "heRef_2": "מעילה ט., ז",
+    "ref_2": "Meilah 9a:7",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 582,
+    "line_index_2": 207,
+    "heRef_2": "מעילה ט., ז",
+    "ref_2": "Meilah 9a:7",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 571,
+    "line_index_2": 208,
+    "heRef_2": "מעילה ט., ח",
+    "ref_2": "Meilah 9a:8",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 573,
+    "line_index_2": 210,
+    "heRef_2": "מעילה ט., י",
+    "ref_2": "Meilah 9a:10",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 588,
+    "line_index_2": 210,
+    "heRef_2": "מעילה ט., י",
+    "ref_2": "Meilah 9a:10",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 592,
+    "line_index_2": 211,
+    "heRef_2": "מעילה ט., יא",
+    "ref_2": "Meilah 9a:11",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 608,
+    "line_index_2": 214,
+    "heRef_2": "מעילה ט., יד",
+    "ref_2": "Meilah 9a:14",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 575,
+    "line_index_2": 216,
+    "heRef_2": "מעילה ט., טז",
+    "ref_2": "Meilah 9a:16",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 612,
+    "line_index_2": 216,
+    "heRef_2": "מעילה ט., טז",
+    "ref_2": "Meilah 9a:16",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 616,
+    "line_index_2": 217,
+    "heRef_2": "מעילה ט., יז",
+    "ref_2": "Meilah 9a:17",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 618,
+    "line_index_2": 217,
+    "heRef_2": "מעילה ט., יז",
+    "ref_2": "Meilah 9a:17",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 625,
+    "line_index_2": 221,
+    "heRef_2": "מעילה ט:, א",
+    "ref_2": "Meilah 9b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 627,
+    "line_index_2": 221,
+    "heRef_2": "מעילה ט:, א",
+    "ref_2": "Meilah 9b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 631,
+    "line_index_2": 221,
+    "heRef_2": "מעילה ט:, א",
+    "ref_2": "Meilah 9b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 637,
+    "line_index_2": 225,
+    "heRef_2": "מעילה ט:, ה",
+    "ref_2": "Meilah 9b:5",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 641,
+    "line_index_2": 226,
+    "heRef_2": "מעילה ט:, ו",
+    "ref_2": "Meilah 9b:6",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 633,
+    "line_index_2": 228,
+    "heRef_2": "מעילה ט:, ח",
+    "ref_2": "Meilah 9b:8",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 692,
+    "line_index_2": 232,
+    "heRef_2": "מעילה י., א",
+    "ref_2": "Meilah 10a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 663,
+    "line_index_2": 233,
+    "heRef_2": "מעילה י., ב",
+    "ref_2": "Meilah 10a:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 665,
+    "line_index_2": 233,
+    "heRef_2": "מעילה י., ב",
+    "ref_2": "Meilah 10a:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 671,
+    "line_index_2": 237,
+    "heRef_2": "מעילה י., ו",
+    "ref_2": "Meilah 10a:6",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 676,
+    "line_index_2": 237,
+    "heRef_2": "מעילה י., ו",
+    "ref_2": "Meilah 10a:6",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 705,
+    "line_index_2": 243,
+    "heRef_2": "מעילה י:, ב",
+    "ref_2": "Meilah 10b:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 711,
+    "line_index_2": 245,
+    "heRef_2": "מעילה י:, ד",
+    "ref_2": "Meilah 10b:4",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 733,
+    "line_index_2": 246,
+    "heRef_2": "מעילה י:, ה",
+    "ref_2": "Meilah 10b:5",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 714,
+    "line_index_2": 248,
+    "heRef_2": "מעילה י:, ז",
+    "ref_2": "Meilah 10b:7",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 740,
+    "line_index_2": 251,
+    "heRef_2": "מעילה יא., א",
+    "ref_2": "Meilah 11a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 742,
+    "line_index_2": 251,
+    "heRef_2": "מעילה יא., א",
+    "ref_2": "Meilah 11a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 744,
+    "line_index_2": 251,
+    "heRef_2": "מעילה יא., א",
+    "ref_2": "Meilah 11a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 833,
+    "line_index_2": 251,
+    "heRef_2": "מעילה יא., א",
+    "ref_2": "Meilah 11a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 750,
+    "line_index_2": 252,
+    "heRef_2": "מעילה יא., ב",
+    "ref_2": "Meilah 11a:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 752,
+    "line_index_2": 255,
+    "heRef_2": "מעילה יא., ה",
+    "ref_2": "Meilah 11a:5",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 754,
+    "line_index_2": 255,
+    "heRef_2": "מעילה יא., ה",
+    "ref_2": "Meilah 11a:5",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 768,
+    "line_index_2": 255,
+    "heRef_2": "מעילה יא., ה",
+    "ref_2": "Meilah 11a:5",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 770,
+    "line_index_2": 255,
+    "heRef_2": "מעילה יא., ה",
+    "ref_2": "Meilah 11a:5",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 780,
+    "line_index_2": 258,
+    "heRef_2": "מעילה יא., ח",
+    "ref_2": "Meilah 11a:8",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 790,
+    "line_index_2": 261,
+    "heRef_2": "מעילה יא., יא",
+    "ref_2": "Meilah 11a:11",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 811,
+    "line_index_2": 262,
+    "heRef_2": "מעילה יא., יב",
+    "ref_2": "Meilah 11a:12",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 840,
+    "line_index_2": 269,
+    "heRef_2": "מעילה יא:, א",
+    "ref_2": "Meilah 11b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 846,
+    "line_index_2": 269,
+    "heRef_2": "מעילה יא:, א",
+    "ref_2": "Meilah 11b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 920,
+    "line_index_2": 270,
+    "heRef_2": "מעילה יא:, ב",
+    "ref_2": "Meilah 11b:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 897,
+    "line_index_2": 282,
+    "heRef_2": "מעילה יא:, יד",
+    "ref_2": "Meilah 11b:14",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 899,
+    "line_index_2": 283,
+    "heRef_2": "מעילה יא:, טו",
+    "ref_2": "Meilah 11b:15",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 901,
+    "line_index_2": 286,
+    "heRef_2": "מעילה יא:, יח",
+    "ref_2": "Meilah 11b:18",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 908,
+    "line_index_2": 286,
+    "heRef_2": "מעילה יא:, יח",
+    "ref_2": "Meilah 11b:18",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 910,
+    "line_index_2": 286,
+    "heRef_2": "מעילה יא:, יח",
+    "ref_2": "Meilah 11b:18",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 912,
+    "line_index_2": 286,
+    "heRef_2": "מעילה יא:, יח",
+    "ref_2": "Meilah 11b:18",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 914,
+    "line_index_2": 286,
+    "heRef_2": "מעילה יא:, יח",
+    "ref_2": "Meilah 11b:18",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 927,
+    "line_index_2": 289,
+    "heRef_2": "מעילה יב., א",
+    "ref_2": "Meilah 12a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 931,
+    "line_index_2": 289,
+    "heRef_2": "מעילה יב., א",
+    "ref_2": "Meilah 12a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 958,
+    "line_index_2": 291,
+    "heRef_2": "מעילה יב., ג",
+    "ref_2": "Meilah 12a:3",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 940,
+    "line_index_2": 294,
+    "heRef_2": "מעילה יב., ו",
+    "ref_2": "Meilah 12a:6",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 942,
+    "line_index_2": 295,
+    "heRef_2": "מעילה יב., ז",
+    "ref_2": "Meilah 12a:7",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 965,
+    "line_index_2": 305,
+    "heRef_2": "מעילה יב:, א",
+    "ref_2": "Meilah 12b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 987,
+    "line_index_2": 305,
+    "heRef_2": "מעילה יב:, א",
+    "ref_2": "Meilah 12b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 989,
+    "line_index_2": 308,
+    "heRef_2": "מעילה יב:, ד",
+    "ref_2": "Meilah 12b:4",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 999,
+    "line_index_2": 309,
+    "heRef_2": "מעילה יב:, ה",
+    "ref_2": "Meilah 12b:5",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1007,
+    "line_index_2": 312,
+    "heRef_2": "מעילה יב:, ח",
+    "ref_2": "Meilah 12b:8",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1009,
+    "line_index_2": 312,
+    "heRef_2": "מעילה יב:, ח",
+    "ref_2": "Meilah 12b:8",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1028,
+    "line_index_2": 317,
+    "heRef_2": "מעילה יג., א",
+    "ref_2": "Meilah 13a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1030,
+    "line_index_2": 317,
+    "heRef_2": "מעילה יג., א",
+    "ref_2": "Meilah 13a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1034,
+    "line_index_2": 318,
+    "heRef_2": "מעילה יג., ב",
+    "ref_2": "Meilah 13a:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1063,
+    "line_index_2": 324,
+    "heRef_2": "מעילה יג., ח",
+    "ref_2": "Meilah 13a:8",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1067,
+    "line_index_2": 326,
+    "heRef_2": "מעילה יג., י",
+    "ref_2": "Meilah 13a:10",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1071,
+    "line_index_2": 329,
+    "heRef_2": "מעילה יג., יג",
+    "ref_2": "Meilah 13a:13",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1078,
+    "line_index_2": 329,
+    "heRef_2": "מעילה יג., יג",
+    "ref_2": "Meilah 13a:13",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1087,
+    "line_index_2": 331,
+    "heRef_2": "מעילה יג:, א",
+    "ref_2": "Meilah 13b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1114,
+    "line_index_2": 331,
+    "heRef_2": "מעילה יג:, א",
+    "ref_2": "Meilah 13b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1116,
+    "line_index_2": 331,
+    "heRef_2": "מעילה יג:, א",
+    "ref_2": "Meilah 13b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1118,
+    "line_index_2": 331,
+    "heRef_2": "מעילה יג:, א",
+    "ref_2": "Meilah 13b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1136,
+    "line_index_2": 331,
+    "heRef_2": "מעילה יג:, א",
+    "ref_2": "Meilah 13b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1122,
+    "line_index_2": 334,
+    "heRef_2": "מעילה יג:, ד",
+    "ref_2": "Meilah 13b:4",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1128,
+    "line_index_2": 340,
+    "heRef_2": "מעילה יג:, י",
+    "ref_2": "Meilah 13b:10",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1132,
+    "line_index_2": 340,
+    "heRef_2": "מעילה יג:, י",
+    "ref_2": "Meilah 13b:10",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1159,
+    "line_index_2": 342,
+    "heRef_2": "מעילה יד., א",
+    "ref_2": "Meilah 14a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1209,
+    "line_index_2": 351,
+    "heRef_2": "מעילה יד., י",
+    "ref_2": "Meilah 14a:10",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1211,
+    "line_index_2": 351,
+    "heRef_2": "מעילה יד., י",
+    "ref_2": "Meilah 14a:10",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1213,
+    "line_index_2": 351,
+    "heRef_2": "מעילה יד., י",
+    "ref_2": "Meilah 14a:10",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1215,
+    "line_index_2": 351,
+    "heRef_2": "מעילה יד., י",
+    "ref_2": "Meilah 14a:10",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1218,
+    "line_index_2": 352,
+    "heRef_2": "מעילה יד., יא",
+    "ref_2": "Meilah 14a:11",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1237,
+    "line_index_2": 352,
+    "heRef_2": "מעילה יד., יא",
+    "ref_2": "Meilah 14a:11",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1248,
+    "line_index_2": 356,
+    "heRef_2": "מעילה יד:, א",
+    "ref_2": "Meilah 14b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1252,
+    "line_index_2": 356,
+    "heRef_2": "מעילה יד:, א",
+    "ref_2": "Meilah 14b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1262,
+    "line_index_2": 356,
+    "heRef_2": "מעילה יד:, א",
+    "ref_2": "Meilah 14b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1281,
+    "line_index_2": 356,
+    "heRef_2": "מעילה יד:, א",
+    "ref_2": "Meilah 14b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1278,
+    "line_index_2": 363,
+    "heRef_2": "מעילה יד:, ח",
+    "ref_2": "Meilah 14b:8",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1292,
+    "line_index_2": 367,
+    "heRef_2": "מעילה טו., א",
+    "ref_2": "Meilah 15a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1317,
+    "line_index_2": 367,
+    "heRef_2": "מעילה טו., א",
+    "ref_2": "Meilah 15a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1294,
+    "line_index_2": 368,
+    "heRef_2": "מעילה טו., ב",
+    "ref_2": "Meilah 15a:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1296,
+    "line_index_2": 368,
+    "heRef_2": "מעילה טו., ב",
+    "ref_2": "Meilah 15a:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1324,
+    "line_index_2": 381,
+    "heRef_2": "מעילה טו:, א",
+    "ref_2": "Meilah 15b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1328,
+    "line_index_2": 381,
+    "heRef_2": "מעילה טו:, א",
+    "ref_2": "Meilah 15b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1330,
+    "line_index_2": 381,
+    "heRef_2": "מעילה טו:, א",
+    "ref_2": "Meilah 15b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1334,
+    "line_index_2": 382,
+    "heRef_2": "מעילה טו:, ב",
+    "ref_2": "Meilah 15b:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1336,
+    "line_index_2": 382,
+    "heRef_2": "מעילה טו:, ב",
+    "ref_2": "Meilah 15b:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1338,
+    "line_index_2": 383,
+    "heRef_2": "מעילה טו:, ג",
+    "ref_2": "Meilah 15b:3",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1342,
+    "line_index_2": 391,
+    "heRef_2": "מעילה טו:, יא",
+    "ref_2": "Meilah 15b:11",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1357,
+    "line_index_2": 391,
+    "heRef_2": "מעילה טו:, יא",
+    "ref_2": "Meilah 15b:11",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1359,
+    "line_index_2": 391,
+    "heRef_2": "מעילה טו:, יא",
+    "ref_2": "Meilah 15b:11",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1363,
+    "line_index_2": 391,
+    "heRef_2": "מעילה טו:, יא",
+    "ref_2": "Meilah 15b:11",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1398,
+    "line_index_2": 397,
+    "heRef_2": "מעילה טז., א",
+    "ref_2": "Meilah 16a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1402,
+    "line_index_2": 399,
+    "heRef_2": "מעילה טז., ג",
+    "ref_2": "Meilah 16a:3",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1409,
+    "line_index_2": 399,
+    "heRef_2": "מעילה טז., ג",
+    "ref_2": "Meilah 16a:3",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1467,
+    "line_index_2": 399,
+    "heRef_2": "מעילה טז., ג",
+    "ref_2": "Meilah 16a:3",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1411,
+    "line_index_2": 400,
+    "heRef_2": "מעילה טז., ד",
+    "ref_2": "Meilah 16a:4",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1437,
+    "line_index_2": 400,
+    "heRef_2": "מעילה טז., ד",
+    "ref_2": "Meilah 16a:4",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1450,
+    "line_index_2": 403,
+    "heRef_2": "מעילה טז., ז",
+    "ref_2": "Meilah 16a:7",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1474,
+    "line_index_2": 405,
+    "heRef_2": "מעילה טז:, א",
+    "ref_2": "Meilah 16b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1500,
+    "line_index_2": 405,
+    "heRef_2": "מעילה טז:, א",
+    "ref_2": "Meilah 16b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1560,
+    "line_index_2": 405,
+    "heRef_2": "מעילה טז:, א",
+    "ref_2": "Meilah 16b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1502,
+    "line_index_2": 406,
+    "heRef_2": "מעילה טז:, ב",
+    "ref_2": "Meilah 16b:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1558,
+    "line_index_2": 411,
+    "heRef_2": "מעילה טז:, ז",
+    "ref_2": "Meilah 16b:7",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1567,
+    "line_index_2": 414,
+    "heRef_2": "מעילה יז., א",
+    "ref_2": "Meilah 17a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1569,
+    "line_index_2": 414,
+    "heRef_2": "מעילה יז., א",
+    "ref_2": "Meilah 17a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1589,
+    "line_index_2": 415,
+    "heRef_2": "מעילה יז., ב",
+    "ref_2": "Meilah 17a:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1591,
+    "line_index_2": 415,
+    "heRef_2": "מעילה יז., ב",
+    "ref_2": "Meilah 17a:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1573,
+    "line_index_2": 420,
+    "heRef_2": "מעילה יז., ז",
+    "ref_2": "Meilah 17a:7",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1575,
+    "line_index_2": 421,
+    "heRef_2": "מעילה יז., ח",
+    "ref_2": "Meilah 17a:8",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1613,
+    "line_index_2": 423,
+    "heRef_2": "מעילה יז., י",
+    "ref_2": "Meilah 17a:10",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1615,
+    "line_index_2": 423,
+    "heRef_2": "מעילה יז., י",
+    "ref_2": "Meilah 17a:10",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1632,
+    "line_index_2": 423,
+    "heRef_2": "מעילה יז., י",
+    "ref_2": "Meilah 17a:10",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1634,
+    "line_index_2": 424,
+    "heRef_2": "מעילה יז., יא",
+    "ref_2": "Meilah 17a:11",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1636,
+    "line_index_2": 424,
+    "heRef_2": "מעילה יז., יא",
+    "ref_2": "Meilah 17a:11",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1577,
+    "line_index_2": 425,
+    "heRef_2": "מעילה יז., יב",
+    "ref_2": "Meilah 17a:12",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1658,
+    "line_index_2": 430,
+    "heRef_2": "מעילה יז:, א",
+    "ref_2": "Meilah 17b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1660,
+    "line_index_2": 430,
+    "heRef_2": "מעילה יז:, א",
+    "ref_2": "Meilah 17b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1662,
+    "line_index_2": 431,
+    "heRef_2": "מעילה יז:, ב",
+    "ref_2": "Meilah 17b:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1664,
+    "line_index_2": 435,
+    "heRef_2": "מעילה יז:, ו",
+    "ref_2": "Meilah 17b:6",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1716,
+    "line_index_2": 437,
+    "heRef_2": "מעילה יז:, ח",
+    "ref_2": "Meilah 17b:8",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1724,
+    "line_index_2": 438,
+    "heRef_2": "מעילה יז:, ט",
+    "ref_2": "Meilah 17b:9",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1754,
+    "line_index_2": 439,
+    "heRef_2": "מעילה יז:, י",
+    "ref_2": "Meilah 17b:10",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1672,
+    "line_index_2": 442,
+    "heRef_2": "מעילה יז:, יג",
+    "ref_2": "Meilah 17b:13",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1793,
+    "line_index_2": 444,
+    "heRef_2": "מעילה יח., א",
+    "ref_2": "Meilah 18a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1806,
+    "line_index_2": 444,
+    "heRef_2": "מעילה יח., א",
+    "ref_2": "Meilah 18a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1812,
+    "line_index_2": 444,
+    "heRef_2": "מעילה יח., א",
+    "ref_2": "Meilah 18a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1902,
+    "line_index_2": 444,
+    "heRef_2": "מעילה יח., א",
+    "ref_2": "Meilah 18a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1826,
+    "line_index_2": 446,
+    "heRef_2": "מעילה יח., ג",
+    "ref_2": "Meilah 18a:3",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1870,
+    "line_index_2": 451,
+    "heRef_2": "מעילה יח., ח",
+    "ref_2": "Meilah 18a:8",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1874,
+    "line_index_2": 451,
+    "heRef_2": "מעילה יח., ח",
+    "ref_2": "Meilah 18a:8",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1876,
+    "line_index_2": 451,
+    "heRef_2": "מעילה יח., ח",
+    "ref_2": "Meilah 18a:8",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1832,
+    "line_index_2": 452,
+    "heRef_2": "מעילה יח., ט",
+    "ref_2": "Meilah 18a:9",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1880,
+    "line_index_2": 454,
+    "heRef_2": "מעילה יח., יא",
+    "ref_2": "Meilah 18a:11",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1882,
+    "line_index_2": 454,
+    "heRef_2": "מעילה יח., יא",
+    "ref_2": "Meilah 18a:11",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1834,
+    "line_index_2": 455,
+    "heRef_2": "מעילה יח., יב",
+    "ref_2": "Meilah 18a:12",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1892,
+    "line_index_2": 456,
+    "heRef_2": "מעילה יח., יג",
+    "ref_2": "Meilah 18a:13",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1900,
+    "line_index_2": 457,
+    "heRef_2": "מעילה יח., יד",
+    "ref_2": "Meilah 18a:14",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1909,
+    "line_index_2": 460,
+    "heRef_2": "מעילה יח:, ב",
+    "ref_2": "Meilah 18b:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1919,
+    "line_index_2": 460,
+    "heRef_2": "מעילה יח:, ב",
+    "ref_2": "Meilah 18b:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1921,
+    "line_index_2": 460,
+    "heRef_2": "מעילה יח:, ב",
+    "ref_2": "Meilah 18b:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1917,
+    "line_index_2": 465,
+    "heRef_2": "מעילה יח:, ז",
+    "ref_2": "Meilah 18b:7",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1970,
+    "line_index_2": 472,
+    "heRef_2": "מעילה יט., א",
+    "ref_2": "Meilah 19a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1976,
+    "line_index_2": 473,
+    "heRef_2": "מעילה יט., ב",
+    "ref_2": "Meilah 19a:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2008,
+    "line_index_2": 474,
+    "heRef_2": "מעילה יט., ג",
+    "ref_2": "Meilah 19a:3",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1978,
+    "line_index_2": 475,
+    "heRef_2": "מעילה יט., ד",
+    "ref_2": "Meilah 19a:4",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1980,
+    "line_index_2": 476,
+    "heRef_2": "מעילה יט., ה",
+    "ref_2": "Meilah 19a:5",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1998,
+    "line_index_2": 480,
+    "heRef_2": "מעילה יט., ט",
+    "ref_2": "Meilah 19a:9",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2000,
+    "line_index_2": 480,
+    "heRef_2": "מעילה יט., ט",
+    "ref_2": "Meilah 19a:9",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2004,
+    "line_index_2": 482,
+    "heRef_2": "מעילה יט., יא",
+    "ref_2": "Meilah 19a:11",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2017,
+    "line_index_2": 484,
+    "heRef_2": "מעילה יט:, א",
+    "ref_2": "Meilah 19b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2019,
+    "line_index_2": 484,
+    "heRef_2": "מעילה יט:, א",
+    "ref_2": "Meilah 19b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2059,
+    "line_index_2": 485,
+    "heRef_2": "מעילה יט:, ב",
+    "ref_2": "Meilah 19b:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2069,
+    "line_index_2": 486,
+    "heRef_2": "מעילה יט:, ג",
+    "ref_2": "Meilah 19b:3",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2071,
+    "line_index_2": 487,
+    "heRef_2": "מעילה יט:, ד",
+    "ref_2": "Meilah 19b:4",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2079,
+    "line_index_2": 490,
+    "heRef_2": "מעילה יט:, ז",
+    "ref_2": "Meilah 19b:7",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2083,
+    "line_index_2": 495,
+    "heRef_2": "מעילה יט:, יב",
+    "ref_2": "Meilah 19b:12",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2092,
+    "line_index_2": 498,
+    "heRef_2": "מעילה כ., ב",
+    "ref_2": "Meilah 20a:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2114,
+    "line_index_2": 498,
+    "heRef_2": "מעילה כ., ב",
+    "ref_2": "Meilah 20a:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2156,
+    "line_index_2": 502,
+    "heRef_2": "מעילה כ., ו",
+    "ref_2": "Meilah 20a:6",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2116,
+    "line_index_2": 505,
+    "heRef_2": "מעילה כ., ט",
+    "ref_2": "Meilah 20a:9",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2182,
+    "line_index_2": 508,
+    "heRef_2": "מעילה כ., יב",
+    "ref_2": "Meilah 20a:12",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2184,
+    "line_index_2": 508,
+    "heRef_2": "מעילה כ., יב",
+    "ref_2": "Meilah 20a:12",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2195,
+    "line_index_2": 511,
+    "heRef_2": "מעילה כ:, א",
+    "ref_2": "Meilah 20b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2197,
+    "line_index_2": 511,
+    "heRef_2": "מעילה כ:, א",
+    "ref_2": "Meilah 20b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2199,
+    "line_index_2": 511,
+    "heRef_2": "מעילה כ:, א",
+    "ref_2": "Meilah 20b:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2209,
+    "line_index_2": 512,
+    "heRef_2": "מעילה כ:, ב",
+    "ref_2": "Meilah 20b:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2217,
+    "line_index_2": 512,
+    "heRef_2": "מעילה כ:, ב",
+    "ref_2": "Meilah 20b:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2221,
+    "line_index_2": 512,
+    "heRef_2": "מעילה כ:, ב",
+    "ref_2": "Meilah 20b:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2263,
+    "line_index_2": 512,
+    "heRef_2": "מעילה כ:, ב",
+    "ref_2": "Meilah 20b:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2215,
+    "line_index_2": 514,
+    "heRef_2": "מעילה כ:, ד",
+    "ref_2": "Meilah 20b:4",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2231,
+    "line_index_2": 514,
+    "heRef_2": "מעילה כ:, ד",
+    "ref_2": "Meilah 20b:4",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2257,
+    "line_index_2": 514,
+    "heRef_2": "מעילה כ:, ד",
+    "ref_2": "Meilah 20b:4",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2299,
+    "line_index_2": 514,
+    "heRef_2": "מעילה כ:, ד",
+    "ref_2": "Meilah 20b:4",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2281,
+    "line_index_2": 518,
+    "heRef_2": "מעילה כ:, ח",
+    "ref_2": "Meilah 20b:8",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2297,
+    "line_index_2": 520,
+    "heRef_2": "מעילה כ:, י",
+    "ref_2": "Meilah 20b:10",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2308,
+    "line_index_2": 524,
+    "heRef_2": "מעילה כא., ב",
+    "ref_2": "Meilah 21a:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2310,
+    "line_index_2": 524,
+    "heRef_2": "מעילה כא., ב",
+    "ref_2": "Meilah 21a:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2315,
+    "line_index_2": 524,
+    "heRef_2": "מעילה כא., ב",
+    "ref_2": "Meilah 21a:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2467,
+    "line_index_2": 524,
+    "heRef_2": "מעילה כא., ב",
+    "ref_2": "Meilah 21a:2",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2319,
+    "line_index_2": 525,
+    "heRef_2": "מעילה כא., ג",
+    "ref_2": "Meilah 21a:3",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2334,
+    "line_index_2": 528,
+    "heRef_2": "מעילה כא., ו",
+    "ref_2": "Meilah 21a:6",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2431,
+    "line_index_2": 528,
+    "heRef_2": "מעילה כא., ו",
+    "ref_2": "Meilah 21a:6",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2435,
+    "line_index_2": 529,
+    "heRef_2": "מעילה כא., ז",
+    "ref_2": "Meilah 21a:7",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2312,
+    "line_index_2": 531,
+    "heRef_2": "מעילה כא., ט",
+    "ref_2": "Meilah 21a:9",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2437,
+    "line_index_2": 531,
+    "heRef_2": "מעילה כא., ט",
+    "ref_2": "Meilah 21a:9",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2463,
+    "line_index_2": 538,
+    "heRef_2": "מעילה כא., טז",
+    "ref_2": "Meilah 21a:16",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2536,
+    "line_index_2": 542,
+    "heRef_2": "מעילה כא:, ג",
+    "ref_2": "Meilah 21b:3",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2617,
+    "line_index_2": 543,
+    "heRef_2": "מעילה כא:, ד",
+    "ref_2": "Meilah 21b:4",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2504,
+    "line_index_2": 545,
+    "heRef_2": "מעילה כא:, ו",
+    "ref_2": "Meilah 21b:6",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2557,
+    "line_index_2": 547,
+    "heRef_2": "מעילה כא:, ח",
+    "ref_2": "Meilah 21b:8",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2559,
+    "line_index_2": 547,
+    "heRef_2": "מעילה כא:, ח",
+    "ref_2": "Meilah 21b:8",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2567,
+    "line_index_2": 547,
+    "heRef_2": "מעילה כא:, ח",
+    "ref_2": "Meilah 21b:8",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2571,
+    "line_index_2": 547,
+    "heRef_2": "מעילה כא:, ח",
+    "ref_2": "Meilah 21b:8",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2573,
+    "line_index_2": 547,
+    "heRef_2": "מעילה כא:, ח",
+    "ref_2": "Meilah 21b:8",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2591,
+    "line_index_2": 547,
+    "heRef_2": "מעילה כא:, ח",
+    "ref_2": "Meilah 21b:8",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2613,
+    "line_index_2": 548,
+    "heRef_2": "מעילה כא:, ט",
+    "ref_2": "Meilah 21b:9",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2626,
+    "line_index_2": 554,
+    "heRef_2": "מעילה כב., א",
+    "ref_2": "Meilah 22a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2630,
+    "line_index_2": 554,
+    "heRef_2": "מעילה כב., א",
+    "ref_2": "Meilah 22a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2644,
+    "line_index_2": 554,
+    "heRef_2": "מעילה כב., א",
+    "ref_2": "Meilah 22a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2652,
+    "line_index_2": 554,
+    "heRef_2": "מעילה כב., א",
+    "ref_2": "Meilah 22a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2659,
+    "line_index_2": 554,
+    "heRef_2": "מעילה כב., א",
+    "ref_2": "Meilah 22a:1",
+    "path_2": "מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 262,
+    "line_index_2": 63,
+    "heRef_2": "רש\"י על מעילה ג:, א, א",
+    "ref_2": "Rashi on Meilah 3b:1:1",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 246,
+    "line_index_2": 75,
+    "heRef_2": "רש\"י על מעילה ג:, יב, ב",
+    "ref_2": "Rashi on Meilah 3b:12:2",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 275,
+    "line_index_2": 80,
+    "heRef_2": "רש\"י על מעילה ד., ב, א",
+    "ref_2": "Rashi on Meilah 4a:2:1",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 295,
+    "line_index_2": 91,
+    "heRef_2": "רש\"י על מעילה ד., ט, ב",
+    "ref_2": "Rashi on Meilah 4a:9:2",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 358,
+    "line_index_2": 114,
+    "heRef_2": "רש\"י על מעילה ה., א, ב",
+    "ref_2": "Rashi on Meilah 5a:1:2",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 428,
+    "line_index_2": 168,
+    "heRef_2": "רש\"י על מעילה ו:, י, א",
+    "ref_2": "Rashi on Meilah 6b:10:1",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 502,
+    "line_index_2": 195,
+    "heRef_2": "רש\"י על מעילה ז:, ג, א",
+    "ref_2": "Rashi on Meilah 7b:3:1",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 554,
+    "line_index_2": 234,
+    "heRef_2": "רש\"י על מעילה ח:, ו, א",
+    "ref_2": "Rashi on Meilah 8b:6:1",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 622,
+    "line_index_2": 249,
+    "heRef_2": "רש\"י על מעילה ט., ג, א",
+    "ref_2": "Rashi on Meilah 9a:3:1",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 584,
+    "line_index_2": 258,
+    "heRef_2": "רש\"י על מעילה ט., ח, ב",
+    "ref_2": "Rashi on Meilah 9a:8:2",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 590,
+    "line_index_2": 265,
+    "heRef_2": "רש\"י על מעילה ט., יא, ב",
+    "ref_2": "Rashi on Meilah 9a:11:2",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 652,
+    "line_index_2": 283,
+    "heRef_2": "רש\"י על מעילה ט:, א, א",
+    "ref_2": "Rashi on Meilah 9b:1:1",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 694,
+    "line_index_2": 302,
+    "heRef_2": "רש\"י על מעילה י., א, ב",
+    "ref_2": "Rashi on Meilah 10a:1:2",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 835,
+    "line_index_2": 335,
+    "heRef_2": "רש\"י על מעילה יא., ב, א",
+    "ref_2": "Rashi on Meilah 11a:2:1",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 842,
+    "line_index_2": 357,
+    "heRef_2": "רש\"י על מעילה יא:, א, א",
+    "ref_2": "Rashi on Meilah 11b:1:1",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 922,
+    "line_index_2": 367,
+    "heRef_2": "רש\"י על מעילה יא:, יד, א",
+    "ref_2": "Rashi on Meilah 11b:14:1",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 904,
+    "line_index_2": 369,
+    "heRef_2": "רש\"י על מעילה יא:, טו, ב",
+    "ref_2": "Rashi on Meilah 11b:15:2",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 906,
+    "line_index_2": 370,
+    "heRef_2": "רש\"י על מעילה יא:, טז, א",
+    "ref_2": "Rashi on Meilah 11b:16:1",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 960,
+    "line_index_2": 379,
+    "heRef_2": "רש\"י על מעילה יב., ד, א",
+    "ref_2": "Rashi on Meilah 12a:4:1",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1015,
+    "line_index_2": 396,
+    "heRef_2": "רש\"י על מעילה יב:, ד, א",
+    "ref_2": "Rashi on Meilah 12b:4:1",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1082,
+    "line_index_2": 410,
+    "heRef_2": "רש\"י על מעילה יג., ה, א",
+    "ref_2": "Rashi on Meilah 13a:5:1",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1138,
+    "line_index_2": 426,
+    "heRef_2": "רש\"י על מעילה יג:, א, ג",
+    "ref_2": "Rashi on Meilah 13b:1:3",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1243,
+    "line_index_2": 444,
+    "heRef_2": "רש\"י על מעילה יד., ב, ב",
+    "ref_2": "Rashi on Meilah 14a:2:2",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1283,
+    "line_index_2": 460,
+    "heRef_2": "רש\"י על מעילה יד:, ד, א",
+    "ref_2": "Rashi on Meilah 14b:4:1",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1319,
+    "line_index_2": 469,
+    "heRef_2": "רש\"י על מעילה טו., א, ג",
+    "ref_2": "Rashi on Meilah 15a:1:3",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1332,
+    "line_index_2": 481,
+    "heRef_2": "רש\"י על מעילה טו:, א, ב",
+    "ref_2": "Rashi on Meilah 15b:1:2",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1381,
+    "line_index_2": 482,
+    "heRef_2": "רש\"י על מעילה טו:, ב, א",
+    "ref_2": "Rashi on Meilah 15b:2:1",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1469,
+    "line_index_2": 501,
+    "heRef_2": "רש\"י על מעילה טז., א, א",
+    "ref_2": "Rashi on Meilah 16a:1:1",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1562,
+    "line_index_2": 521,
+    "heRef_2": "רש\"י על מעילה טז:, ה, א",
+    "ref_2": "Rashi on Meilah 16b:5:1",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1653,
+    "line_index_2": 533,
+    "heRef_2": "רש\"י על מעילה יז., ג, א",
+    "ref_2": "Rashi on Meilah 17a:3:1",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1788,
+    "line_index_2": 557,
+    "heRef_2": "רש\"י על מעילה יז:, ד, א",
+    "ref_2": "Rashi on Meilah 17b:4:1",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1718,
+    "line_index_2": 563,
+    "heRef_2": "רש\"י על מעילה יז:, ח, א",
+    "ref_2": "Rashi on Meilah 17b:8:1",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1904,
+    "line_index_2": 576,
+    "heRef_2": "רש\"י על מעילה יח., ד, א",
+    "ref_2": "Rashi on Meilah 18a:4:1",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1890,
+    "line_index_2": 591,
+    "heRef_2": "רש\"י על מעילה יח., יב, ב",
+    "ref_2": "Rashi on Meilah 18a:12:2",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1965,
+    "line_index_2": 603,
+    "heRef_2": "רש\"י על מעילה יח:, ו, א",
+    "ref_2": "Rashi on Meilah 18b:6:1",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2010,
+    "line_index_2": 613,
+    "heRef_2": "רש\"י על מעילה יט., א, א",
+    "ref_2": "Rashi on Meilah 19a:1:1",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2087,
+    "line_index_2": 630,
+    "heRef_2": "רש\"י על מעילה יט:, א, ג",
+    "ref_2": "Rashi on Meilah 19b:1:3",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2190,
+    "line_index_2": 647,
+    "heRef_2": "רש\"י על מעילה כ., ד, ב",
+    "ref_2": "Rashi on Meilah 20a:4:2",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2301,
+    "line_index_2": 662,
+    "heRef_2": "רש\"י על מעילה כ:, א, א",
+    "ref_2": "Rashi on Meilah 20b:1:1",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2469,
+    "line_index_2": 680,
+    "heRef_2": "רש\"י על מעילה כא., ג, א",
+    "ref_2": "Rashi on Meilah 21a:3:1",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2619,
+    "line_index_2": 700,
+    "heRef_2": "רש\"י על מעילה כא:, ב, א",
+    "ref_2": "Rashi on Meilah 21b:2:1",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2663,
+    "line_index_2": 725,
+    "heRef_2": "רש\"י על מעילה כב., ב, א",
+    "ref_2": "Rashi on Meilah 22a:2:1",
+    "path_2": "רש\"י על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 31,
+    "line_index_2": 5,
+    "heRef_2": "תוספות על מעילה ב., א, ב",
+    "ref_2": "Tosafot on Meilah 2a:1:2",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 33,
+    "line_index_2": 5,
+    "heRef_2": "תוספות על מעילה ב., א, ב",
+    "ref_2": "Tosafot on Meilah 2a:1:2",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 35,
+    "line_index_2": 6,
+    "heRef_2": "תוספות על מעילה ב., א, ג",
+    "ref_2": "Tosafot on Meilah 2a:1:3",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 37,
+    "line_index_2": 6,
+    "heRef_2": "תוספות על מעילה ב., א, ג",
+    "ref_2": "Tosafot on Meilah 2a:1:3",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 39,
+    "line_index_2": 6,
+    "heRef_2": "תוספות על מעילה ב., א, ג",
+    "ref_2": "Tosafot on Meilah 2a:1:3",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 65,
+    "line_index_2": 8,
+    "heRef_2": "תוספות על מעילה ב., ו, א",
+    "ref_2": "Tosafot on Meilah 2a:6:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 112,
+    "line_index_2": 14,
+    "heRef_2": "תוספות על מעילה ב:, ג, א",
+    "ref_2": "Tosafot on Meilah 2b:3:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 192,
+    "line_index_2": 19,
+    "heRef_2": "תוספות על מעילה ג., ד, א",
+    "ref_2": "Tosafot on Meilah 3a:4:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 208,
+    "line_index_2": 19,
+    "heRef_2": "תוספות על מעילה ג., ד, א",
+    "ref_2": "Tosafot on Meilah 3a:4:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 244,
+    "line_index_2": 25,
+    "heRef_2": "תוספות על מעילה ג:, יא, א",
+    "ref_2": "Tosafot on Meilah 3b:11:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 250,
+    "line_index_2": 27,
+    "heRef_2": "תוספות על מעילה ג:, יג, א",
+    "ref_2": "Tosafot on Meilah 3b:13:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 316,
+    "line_index_2": 37,
+    "heRef_2": "תוספות על מעילה ד:, ז, ב",
+    "ref_2": "Tosafot on Meilah 4b:7:2",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 318,
+    "line_index_2": 37,
+    "heRef_2": "תוספות על מעילה ד:, ז, ב",
+    "ref_2": "Tosafot on Meilah 4b:7:2",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 380,
+    "line_index_2": 48,
+    "heRef_2": "תוספות על מעילה ה:, א, א",
+    "ref_2": "Tosafot on Meilah 5b:1:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 391,
+    "line_index_2": 56,
+    "heRef_2": "תוספות על מעילה ו., ט, א",
+    "ref_2": "Tosafot on Meilah 6a:9:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 430,
+    "line_index_2": 60,
+    "heRef_2": "תוספות על מעילה ו:, א, א",
+    "ref_2": "Tosafot on Meilah 6b:1:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 422,
+    "line_index_2": 63,
+    "heRef_2": "תוספות על מעילה ו:, י, א",
+    "ref_2": "Tosafot on Meilah 6b:10:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 464,
+    "line_index_2": 67,
+    "heRef_2": "תוספות על מעילה ז., ג, א",
+    "ref_2": "Tosafot on Meilah 7a:3:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 504,
+    "line_index_2": 75,
+    "heRef_2": "תוספות על מעילה ז:, ח, א",
+    "ref_2": "Tosafot on Meilah 7b:8:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 556,
+    "line_index_2": 109,
+    "heRef_2": "תוספות על מעילה ח:, ב, ב",
+    "ref_2": "Tosafot on Meilah 8b:2:2",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 548,
+    "line_index_2": 114,
+    "heRef_2": "תוספות על מעילה ח:, י, א",
+    "ref_2": "Tosafot on Meilah 8b:10:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 550,
+    "line_index_2": 116,
+    "heRef_2": "תוספות על מעילה ח:, יא, א",
+    "ref_2": "Tosafot on Meilah 8b:11:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 654,
+    "line_index_2": 122,
+    "heRef_2": "תוספות על מעילה ט:, א, א",
+    "ref_2": "Tosafot on Meilah 9b:1:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 696,
+    "line_index_2": 134,
+    "heRef_2": "תוספות על מעילה י., א, א",
+    "ref_2": "Tosafot on Meilah 10a:1:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 709,
+    "line_index_2": 138,
+    "heRef_2": "תוספות על מעילה י:, ב, ב",
+    "ref_2": "Tosafot on Meilah 10b:2:2",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 746,
+    "line_index_2": 147,
+    "heRef_2": "תוספות על מעילה יא., ב, א",
+    "ref_2": "Tosafot on Meilah 11a:2:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 837,
+    "line_index_2": 148,
+    "heRef_2": "תוספות על מעילה יא., ד, א",
+    "ref_2": "Tosafot on Meilah 11a:4:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 924,
+    "line_index_2": 162,
+    "heRef_2": "תוספות על מעילה יא:, יד, א",
+    "ref_2": "Tosafot on Meilah 11b:14:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 962,
+    "line_index_2": 166,
+    "heRef_2": "תוספות על מעילה יא:, יט, א",
+    "ref_2": "Tosafot on Meilah 11b:19:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 936,
+    "line_index_2": 169,
+    "heRef_2": "תוספות על מעילה יב., ה, א",
+    "ref_2": "Tosafot on Meilah 12a:5:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 952,
+    "line_index_2": 172,
+    "heRef_2": "תוספות על מעילה יב., ט, א",
+    "ref_2": "Tosafot on Meilah 12a:9:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 997,
+    "line_index_2": 177,
+    "heRef_2": "תוספות על מעילה יב:, ד, א",
+    "ref_2": "Tosafot on Meilah 12b:4:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1003,
+    "line_index_2": 178,
+    "heRef_2": "תוספות על מעילה יב:, ו, א",
+    "ref_2": "Tosafot on Meilah 12b:6:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1084,
+    "line_index_2": 185,
+    "heRef_2": "תוספות על מעילה יג., ד, א",
+    "ref_2": "Tosafot on Meilah 13a:4:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1112,
+    "line_index_2": 196,
+    "heRef_2": "תוספות על מעילה יג:, א, א",
+    "ref_2": "Tosafot on Meilah 13b:1:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1134,
+    "line_index_2": 205,
+    "heRef_2": "תוספות על מעילה יג:, י, ג",
+    "ref_2": "Tosafot on Meilah 13b:10:3",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1245,
+    "line_index_2": 207,
+    "heRef_2": "תוספות על מעילה יד., ב, א",
+    "ref_2": "Tosafot on Meilah 14a:2:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1285,
+    "line_index_2": 212,
+    "heRef_2": "תוספות על מעילה יד:, א, א",
+    "ref_2": "Tosafot on Meilah 14b:1:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1311,
+    "line_index_2": 224,
+    "heRef_2": "תוספות על מעילה טו., ח, א",
+    "ref_2": "Tosafot on Meilah 15a:8:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1315,
+    "line_index_2": 225,
+    "heRef_2": "תוספות על מעילה טו., יא, א",
+    "ref_2": "Tosafot on Meilah 15a:11:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1383,
+    "line_index_2": 229,
+    "heRef_2": "תוספות על מעילה טו:, ב, א",
+    "ref_2": "Tosafot on Meilah 15b:2:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1377,
+    "line_index_2": 238,
+    "heRef_2": "תוספות על מעילה טו:, טו, א",
+    "ref_2": "Tosafot on Meilah 15b:15:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1564,
+    "line_index_2": 247,
+    "heRef_2": "תוספות על מעילה טז:, ב, א",
+    "ref_2": "Tosafot on Meilah 16b:2:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1655,
+    "line_index_2": 254,
+    "heRef_2": "תוספות על מעילה יז., ב, ב",
+    "ref_2": "Tosafot on Meilah 17a:2:2",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1611,
+    "line_index_2": 256,
+    "heRef_2": "תוספות על מעילה יז., ח, א",
+    "ref_2": "Tosafot on Meilah 17a:8:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1790,
+    "line_index_2": 262,
+    "heRef_2": "תוספות על מעילה יז:, ב, א",
+    "ref_2": "Tosafot on Meilah 17b:2:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1820,
+    "line_index_2": 272,
+    "heRef_2": "תוספות על מעילה יח., ב, א",
+    "ref_2": "Tosafot on Meilah 18a:2:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1906,
+    "line_index_2": 272,
+    "heRef_2": "תוספות על מעילה יח., ב, א",
+    "ref_2": "Tosafot on Meilah 18a:2:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1845,
+    "line_index_2": 273,
+    "heRef_2": "תוספות על מעילה יח., ג, א",
+    "ref_2": "Tosafot on Meilah 18a:3:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1913,
+    "line_index_2": 283,
+    "heRef_2": "תוספות על מעילה יח:, ב, א",
+    "ref_2": "Tosafot on Meilah 18b:2:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1915,
+    "line_index_2": 283,
+    "heRef_2": "תוספות על מעילה יח:, ב, א",
+    "ref_2": "Tosafot on Meilah 18b:2:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1955,
+    "line_index_2": 285,
+    "heRef_2": "תוספות על מעילה יח:, ח, א",
+    "ref_2": "Tosafot on Meilah 18b:8:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1994,
+    "line_index_2": 287,
+    "heRef_2": "תוספות על מעילה יט., ח, א",
+    "ref_2": "Tosafot on Meilah 19a:8:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2012,
+    "line_index_2": 287,
+    "heRef_2": "תוספות על מעילה יט., ח, א",
+    "ref_2": "Tosafot on Meilah 19a:8:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2002,
+    "line_index_2": 290,
+    "heRef_2": "תוספות על מעילה יט., ט, ב",
+    "ref_2": "Tosafot on Meilah 19a:9:2",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2089,
+    "line_index_2": 294,
+    "heRef_2": "תוספות על מעילה יט:, ב, א",
+    "ref_2": "Tosafot on Meilah 19b:2:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2075,
+    "line_index_2": 297,
+    "heRef_2": "תוספות על מעילה יט:, ה, א",
+    "ref_2": "Tosafot on Meilah 19b:5:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2081,
+    "line_index_2": 299,
+    "heRef_2": "תוספות על מעילה יט:, ט, א",
+    "ref_2": "Tosafot on Meilah 19b:9:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2192,
+    "line_index_2": 306,
+    "heRef_2": "תוספות על מעילה כ., ג, א",
+    "ref_2": "Tosafot on Meilah 20a:3:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2119,
+    "line_index_2": 307,
+    "heRef_2": "תוספות על מעילה כ., ד, א",
+    "ref_2": "Tosafot on Meilah 20a:4:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2162,
+    "line_index_2": 310,
+    "heRef_2": "תוספות על מעילה כ., ח, א",
+    "ref_2": "Tosafot on Meilah 20a:8:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2186,
+    "line_index_2": 312,
+    "heRef_2": "תוספות על מעילה כ., יג, א",
+    "ref_2": "Tosafot on Meilah 20a:13:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2303,
+    "line_index_2": 314,
+    "heRef_2": "תוספות על מעילה כ:, א, א",
+    "ref_2": "Tosafot on Meilah 20b:1:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2279,
+    "line_index_2": 316,
+    "heRef_2": "תוספות על מעילה כ:, ה, א",
+    "ref_2": "Tosafot on Meilah 20b:5:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2471,
+    "line_index_2": 320,
+    "heRef_2": "תוספות על מעילה כא., ב, א",
+    "ref_2": "Tosafot on Meilah 21a:2:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2317,
+    "line_index_2": 321,
+    "heRef_2": "תוספות על מעילה כא., ב, ב",
+    "ref_2": "Tosafot on Meilah 21a:2:2",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2465,
+    "line_index_2": 330,
+    "heRef_2": "תוספות על מעילה כא., טז, א",
+    "ref_2": "Tosafot on Meilah 21a:16:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2534,
+    "line_index_2": 332,
+    "heRef_2": "תוספות על מעילה כא:, ג, א",
+    "ref_2": "Tosafot on Meilah 21b:3:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2609,
+    "line_index_2": 335,
+    "heRef_2": "תוספות על מעילה כא:, ט, א",
+    "ref_2": "Tosafot on Meilah 21b:9:1",
+    "path_2": "תוספות על מעילה.txt",
+    "Conection Type": "source"
+  }
+]

@@ -1,0 +1,3810 @@
+[
+  {
+    "line_index_1": 61,
+    "line_index_2": 4,
+    "heRef_2": "תמורה ב., ב",
+    "ref_2": "Temurah 2a:2",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 31,
+    "line_index_2": 6,
+    "heRef_2": "תמורה ב., ד",
+    "ref_2": "Temurah 2a:4",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 33,
+    "line_index_2": 6,
+    "heRef_2": "תמורה ב., ד",
+    "ref_2": "Temurah 2a:4",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 18,
+    "line_index_2": 11,
+    "heRef_2": "תמורה ב., ט",
+    "ref_2": "Temurah 2a:9",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 55,
+    "line_index_2": 13,
+    "heRef_2": "תמורה ב., יא",
+    "ref_2": "Temurah 2a:11",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 68,
+    "line_index_2": 16,
+    "heRef_2": "תמורה ב:, ב",
+    "ref_2": "Temurah 2b:2",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 70,
+    "line_index_2": 16,
+    "heRef_2": "תמורה ב:, ב",
+    "ref_2": "Temurah 2b:2",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 156,
+    "line_index_2": 16,
+    "heRef_2": "תמורה ב:, ב",
+    "ref_2": "Temurah 2b:2",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 72,
+    "line_index_2": 19,
+    "heRef_2": "תמורה ב:, ה",
+    "ref_2": "Temurah 2b:5",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 102,
+    "line_index_2": 20,
+    "heRef_2": "תמורה ב:, ו",
+    "ref_2": "Temurah 2b:6",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 144,
+    "line_index_2": 23,
+    "heRef_2": "תמורה ב:, ט",
+    "ref_2": "Temurah 2b:9",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 161,
+    "line_index_2": 28,
+    "heRef_2": "תמורה ג., א",
+    "ref_2": "Temurah 3a:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 177,
+    "line_index_2": 31,
+    "heRef_2": "תמורה ג., ד",
+    "ref_2": "Temurah 3a:4",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 183,
+    "line_index_2": 31,
+    "heRef_2": "תמורה ג., ד",
+    "ref_2": "Temurah 3a:4",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 185,
+    "line_index_2": 32,
+    "heRef_2": "תמורה ג., ה",
+    "ref_2": "Temurah 3a:5",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 189,
+    "line_index_2": 36,
+    "heRef_2": "תמורה ג., ט",
+    "ref_2": "Temurah 3a:9",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 191,
+    "line_index_2": 36,
+    "heRef_2": "תמורה ג., ט",
+    "ref_2": "Temurah 3a:9",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 193,
+    "line_index_2": 37,
+    "heRef_2": "תמורה ג., י",
+    "ref_2": "Temurah 3a:10",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 195,
+    "line_index_2": 39,
+    "heRef_2": "תמורה ג., יב",
+    "ref_2": "Temurah 3a:12",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 266,
+    "line_index_2": 46,
+    "heRef_2": "תמורה ג., יט",
+    "ref_2": "Temurah 3a:19",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 439,
+    "line_index_2": 50,
+    "heRef_2": "תמורה ג:, ג",
+    "ref_2": "Temurah 3b:3",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 295,
+    "line_index_2": 51,
+    "heRef_2": "תמורה ג:, ד",
+    "ref_2": "Temurah 3b:4",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 348,
+    "line_index_2": 62,
+    "heRef_2": "תמורה ג:, טו",
+    "ref_2": "Temurah 3b:15",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 350,
+    "line_index_2": 63,
+    "heRef_2": "תמורה ג:, טז",
+    "ref_2": "Temurah 3b:16",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 368,
+    "line_index_2": 65,
+    "heRef_2": "תמורה ג:, יח",
+    "ref_2": "Temurah 3b:18",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 435,
+    "line_index_2": 66,
+    "heRef_2": "תמורה ג:, יט",
+    "ref_2": "Temurah 3b:19",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 437,
+    "line_index_2": 67,
+    "heRef_2": "תמורה ג:, כ",
+    "ref_2": "Temurah 3b:20",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 448,
+    "line_index_2": 69,
+    "heRef_2": "תמורה ד., א",
+    "ref_2": "Temurah 4a:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 518,
+    "line_index_2": 69,
+    "heRef_2": "תמורה ד., א",
+    "ref_2": "Temurah 4a:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 506,
+    "line_index_2": 74,
+    "heRef_2": "תמורה ד., ו",
+    "ref_2": "Temurah 4a:6",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 527,
+    "line_index_2": 80,
+    "heRef_2": "תמורה ד:, ב",
+    "ref_2": "Temurah 4b:2",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 531,
+    "line_index_2": 81,
+    "heRef_2": "תמורה ד:, ג",
+    "ref_2": "Temurah 4b:3",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 533,
+    "line_index_2": 81,
+    "heRef_2": "תמורה ד:, ג",
+    "ref_2": "Temurah 4b:3",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 607,
+    "line_index_2": 89,
+    "heRef_2": "תמורה ד:, יא",
+    "ref_2": "Temurah 4b:11",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 639,
+    "line_index_2": 92,
+    "heRef_2": "תמורה ד:, יד",
+    "ref_2": "Temurah 4b:14",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 707,
+    "line_index_2": 109,
+    "heRef_2": "תמורה ה., טז",
+    "ref_2": "Temurah 5a:16",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 808,
+    "line_index_2": 130,
+    "heRef_2": "תמורה ה:, יט",
+    "ref_2": "Temurah 5b:19",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 845,
+    "line_index_2": 140,
+    "heRef_2": "תמורה ו., ג",
+    "ref_2": "Temurah 6a:3",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 851,
+    "line_index_2": 140,
+    "heRef_2": "תמורה ו., ג",
+    "ref_2": "Temurah 6a:3",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 853,
+    "line_index_2": 140,
+    "heRef_2": "תמורה ו., ג",
+    "ref_2": "Temurah 6a:3",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 865,
+    "line_index_2": 140,
+    "heRef_2": "תמורה ו., ג",
+    "ref_2": "Temurah 6a:3",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 879,
+    "line_index_2": 140,
+    "heRef_2": "תמורה ו., ג",
+    "ref_2": "Temurah 6a:3",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 943,
+    "line_index_2": 143,
+    "heRef_2": "תמורה ו., ו",
+    "ref_2": "Temurah 6a:6",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 965,
+    "line_index_2": 146,
+    "heRef_2": "תמורה ו., ט",
+    "ref_2": "Temurah 6a:9",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 972,
+    "line_index_2": 147,
+    "heRef_2": "תמורה ו., י",
+    "ref_2": "Temurah 6a:10",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 985,
+    "line_index_2": 150,
+    "heRef_2": "תמורה ו., יג",
+    "ref_2": "Temurah 6a:13",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 997,
+    "line_index_2": 152,
+    "heRef_2": "תמורה ו., טו",
+    "ref_2": "Temurah 6a:15",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1001,
+    "line_index_2": 152,
+    "heRef_2": "תמורה ו., טו",
+    "ref_2": "Temurah 6a:15",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1032,
+    "line_index_2": 152,
+    "heRef_2": "תמורה ו., טו",
+    "ref_2": "Temurah 6a:15",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1058,
+    "line_index_2": 161,
+    "heRef_2": "תמורה ו:, ח",
+    "ref_2": "Temurah 6b:8",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1102,
+    "line_index_2": 165,
+    "heRef_2": "תמורה ו:, יב",
+    "ref_2": "Temurah 6b:12",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1100,
+    "line_index_2": 166,
+    "heRef_2": "תמורה ו:, יג",
+    "ref_2": "Temurah 6b:13",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1120,
+    "line_index_2": 175,
+    "heRef_2": "תמורה ו:, כב",
+    "ref_2": "Temurah 6b:22",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1124,
+    "line_index_2": 176,
+    "heRef_2": "תמורה ו:, כג",
+    "ref_2": "Temurah 6b:23",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1174,
+    "line_index_2": 178,
+    "heRef_2": "תמורה ז., א",
+    "ref_2": "Temurah 7a:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1133,
+    "line_index_2": 179,
+    "heRef_2": "תמורה ז., ב",
+    "ref_2": "Temurah 7a:2",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1135,
+    "line_index_2": 179,
+    "heRef_2": "תמורה ז., ב",
+    "ref_2": "Temurah 7a:2",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1137,
+    "line_index_2": 179,
+    "heRef_2": "תמורה ז., ב",
+    "ref_2": "Temurah 7a:2",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1146,
+    "line_index_2": 180,
+    "heRef_2": "תמורה ז., ג",
+    "ref_2": "Temurah 7a:3",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1148,
+    "line_index_2": 181,
+    "heRef_2": "תמורה ז., ד",
+    "ref_2": "Temurah 7a:4",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1160,
+    "line_index_2": 181,
+    "heRef_2": "תמורה ז., ד",
+    "ref_2": "Temurah 7a:4",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1164,
+    "line_index_2": 187,
+    "heRef_2": "תמורה ז., י",
+    "ref_2": "Temurah 7a:10",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1166,
+    "line_index_2": 187,
+    "heRef_2": "תמורה ז., י",
+    "ref_2": "Temurah 7a:10",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1168,
+    "line_index_2": 190,
+    "heRef_2": "תמורה ז., יג",
+    "ref_2": "Temurah 7a:13",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1340,
+    "line_index_2": 198,
+    "heRef_2": "תמורה ז:, ג",
+    "ref_2": "Temurah 7b:3",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1181,
+    "line_index_2": 199,
+    "heRef_2": "תמורה ז:, ד",
+    "ref_2": "Temurah 7b:4",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1183,
+    "line_index_2": 199,
+    "heRef_2": "תמורה ז:, ד",
+    "ref_2": "Temurah 7b:4",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1255,
+    "line_index_2": 202,
+    "heRef_2": "תמורה ז:, ז",
+    "ref_2": "Temurah 7b:7",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1298,
+    "line_index_2": 203,
+    "heRef_2": "תמורה ז:, ח",
+    "ref_2": "Temurah 7b:8",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1304,
+    "line_index_2": 208,
+    "heRef_2": "תמורה ז:, יג",
+    "ref_2": "Temurah 7b:13",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1338,
+    "line_index_2": 209,
+    "heRef_2": "תמורה ז:, יד",
+    "ref_2": "Temurah 7b:14",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1353,
+    "line_index_2": 216,
+    "heRef_2": "תמורה ח., ד",
+    "ref_2": "Temurah 8a:4",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1361,
+    "line_index_2": 216,
+    "heRef_2": "תמורה ח., ד",
+    "ref_2": "Temurah 8a:4",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1363,
+    "line_index_2": 216,
+    "heRef_2": "תמורה ח., ד",
+    "ref_2": "Temurah 8a:4",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1376,
+    "line_index_2": 216,
+    "heRef_2": "תמורה ח., ד",
+    "ref_2": "Temurah 8a:4",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1378,
+    "line_index_2": 217,
+    "heRef_2": "תמורה ח., ה",
+    "ref_2": "Temurah 8a:5",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1392,
+    "line_index_2": 221,
+    "heRef_2": "תמורה ח., ט",
+    "ref_2": "Temurah 8a:9",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1448,
+    "line_index_2": 232,
+    "heRef_2": "תמורה ח:, ב",
+    "ref_2": "Temurah 8b:2",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1450,
+    "line_index_2": 235,
+    "heRef_2": "תמורה ח:, ה",
+    "ref_2": "Temurah 8b:5",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1458,
+    "line_index_2": 237,
+    "heRef_2": "תמורה ח:, ז",
+    "ref_2": "Temurah 8b:7",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1460,
+    "line_index_2": 238,
+    "heRef_2": "תמורה ח:, ח",
+    "ref_2": "Temurah 8b:8",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1482,
+    "line_index_2": 242,
+    "heRef_2": "תמורה ח:, יב",
+    "ref_2": "Temurah 8b:12",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1491,
+    "line_index_2": 242,
+    "heRef_2": "תמורה ח:, יב",
+    "ref_2": "Temurah 8b:12",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1495,
+    "line_index_2": 242,
+    "heRef_2": "תמורה ח:, יב",
+    "ref_2": "Temurah 8b:12",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1504,
+    "line_index_2": 246,
+    "heRef_2": "תמורה ט., א",
+    "ref_2": "Temurah 9a:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1515,
+    "line_index_2": 247,
+    "heRef_2": "תמורה ט., ב",
+    "ref_2": "Temurah 9a:2",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1566,
+    "line_index_2": 247,
+    "heRef_2": "תמורה ט., ב",
+    "ref_2": "Temurah 9a:2",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1526,
+    "line_index_2": 251,
+    "heRef_2": "תמורה ט., ו",
+    "ref_2": "Temurah 9a:6",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1530,
+    "line_index_2": 255,
+    "heRef_2": "תמורה ט., י",
+    "ref_2": "Temurah 9a:10",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1532,
+    "line_index_2": 255,
+    "heRef_2": "תמורה ט., י",
+    "ref_2": "Temurah 9a:10",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1573,
+    "line_index_2": 278,
+    "heRef_2": "תמורה ט:, יא",
+    "ref_2": "Temurah 9b:11",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1581,
+    "line_index_2": 278,
+    "heRef_2": "תמורה ט:, יא",
+    "ref_2": "Temurah 9b:11",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1583,
+    "line_index_2": 286,
+    "heRef_2": "תמורה ט:, יט",
+    "ref_2": "Temurah 9b:19",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1594,
+    "line_index_2": 292,
+    "heRef_2": "תמורה י., ה",
+    "ref_2": "Temurah 10a:5",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1610,
+    "line_index_2": 297,
+    "heRef_2": "תמורה י., י",
+    "ref_2": "Temurah 10a:10",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1634,
+    "line_index_2": 304,
+    "heRef_2": "תמורה י:, ג",
+    "ref_2": "Temurah 10b:3",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1636,
+    "line_index_2": 308,
+    "heRef_2": "תמורה י:, ז",
+    "ref_2": "Temurah 10b:7",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1646,
+    "line_index_2": 309,
+    "heRef_2": "תמורה י:, ח",
+    "ref_2": "Temurah 10b:8",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1650,
+    "line_index_2": 309,
+    "heRef_2": "תמורה י:, ח",
+    "ref_2": "Temurah 10b:8",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1652,
+    "line_index_2": 311,
+    "heRef_2": "תמורה י:, י",
+    "ref_2": "Temurah 10b:10",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1654,
+    "line_index_2": 312,
+    "heRef_2": "תמורה י:, יא",
+    "ref_2": "Temurah 10b:11",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1663,
+    "line_index_2": 320,
+    "heRef_2": "תמורה יא., א",
+    "ref_2": "Temurah 11a:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1669,
+    "line_index_2": 320,
+    "heRef_2": "תמורה יא., א",
+    "ref_2": "Temurah 11a:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1738,
+    "line_index_2": 320,
+    "heRef_2": "תמורה יא., א",
+    "ref_2": "Temurah 11a:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1759,
+    "line_index_2": 339,
+    "heRef_2": "תמורה יא:, ד",
+    "ref_2": "Temurah 11b:4",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1761,
+    "line_index_2": 340,
+    "heRef_2": "תמורה יא:, ה",
+    "ref_2": "Temurah 11b:5",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1813,
+    "line_index_2": 341,
+    "heRef_2": "תמורה יא:, ו",
+    "ref_2": "Temurah 11b:6",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1824,
+    "line_index_2": 342,
+    "heRef_2": "תמורה יא:, ז",
+    "ref_2": "Temurah 11b:7",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1826,
+    "line_index_2": 342,
+    "heRef_2": "תמורה יא:, ז",
+    "ref_2": "Temurah 11b:7",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1830,
+    "line_index_2": 346,
+    "heRef_2": "תמורה יא:, יא",
+    "ref_2": "Temurah 11b:11",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1832,
+    "line_index_2": 347,
+    "heRef_2": "תמורה יא:, יב",
+    "ref_2": "Temurah 11b:12",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1846,
+    "line_index_2": 352,
+    "heRef_2": "תמורה יא:, יז",
+    "ref_2": "Temurah 11b:17",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1868,
+    "line_index_2": 356,
+    "heRef_2": "תמורה יב., א",
+    "ref_2": "Temurah 12a:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2008,
+    "line_index_2": 359,
+    "heRef_2": "תמורה יב., ד",
+    "ref_2": "Temurah 12a:4",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1870,
+    "line_index_2": 360,
+    "heRef_2": "תמורה יב., ה",
+    "ref_2": "Temurah 12a:5",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1898,
+    "line_index_2": 360,
+    "heRef_2": "תמורה יב., ה",
+    "ref_2": "Temurah 12a:5",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1902,
+    "line_index_2": 360,
+    "heRef_2": "תמורה יב., ה",
+    "ref_2": "Temurah 12a:5",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1912,
+    "line_index_2": 360,
+    "heRef_2": "תמורה יב., ה",
+    "ref_2": "Temurah 12a:5",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1908,
+    "line_index_2": 363,
+    "heRef_2": "תמורה יב., ח",
+    "ref_2": "Temurah 12a:8",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1914,
+    "line_index_2": 365,
+    "heRef_2": "תמורה יב., י",
+    "ref_2": "Temurah 12a:10",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1933,
+    "line_index_2": 365,
+    "heRef_2": "תמורה יב., י",
+    "ref_2": "Temurah 12a:10",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2017,
+    "line_index_2": 371,
+    "heRef_2": "תמורה יב:, א",
+    "ref_2": "Temurah 12b:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2155,
+    "line_index_2": 374,
+    "heRef_2": "תמורה יב:, ד",
+    "ref_2": "Temurah 12b:4",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2189,
+    "line_index_2": 374,
+    "heRef_2": "תמורה יב:, ד",
+    "ref_2": "Temurah 12b:4",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2198,
+    "line_index_2": 374,
+    "heRef_2": "תמורה יב:, ד",
+    "ref_2": "Temurah 12b:4",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2212,
+    "line_index_2": 379,
+    "heRef_2": "תמורה יב:, ט",
+    "ref_2": "Temurah 12b:9",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2311,
+    "line_index_2": 385,
+    "heRef_2": "תמורה יג., א",
+    "ref_2": "Temurah 13a:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2295,
+    "line_index_2": 391,
+    "heRef_2": "תמורה יג., ז",
+    "ref_2": "Temurah 13a:7",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2318,
+    "line_index_2": 404,
+    "heRef_2": "תמורה יג:, ב",
+    "ref_2": "Temurah 13b:2",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2332,
+    "line_index_2": 404,
+    "heRef_2": "תמורה יג:, ב",
+    "ref_2": "Temurah 13b:2",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2324,
+    "line_index_2": 412,
+    "heRef_2": "תמורה יג:, י",
+    "ref_2": "Temurah 13b:10",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2409,
+    "line_index_2": 421,
+    "heRef_2": "תמורה יד., א",
+    "ref_2": "Temurah 14a:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2344,
+    "line_index_2": 423,
+    "heRef_2": "תמורה יד., ג",
+    "ref_2": "Temurah 14a:3",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2348,
+    "line_index_2": 424,
+    "heRef_2": "תמורה יד., ד",
+    "ref_2": "Temurah 14a:4",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2361,
+    "line_index_2": 429,
+    "heRef_2": "תמורה יד., ט",
+    "ref_2": "Temurah 14a:9",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2375,
+    "line_index_2": 431,
+    "heRef_2": "תמורה יד., יא",
+    "ref_2": "Temurah 14a:11",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2377,
+    "line_index_2": 432,
+    "heRef_2": "תמורה יד., יב",
+    "ref_2": "Temurah 14a:12",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2393,
+    "line_index_2": 436,
+    "heRef_2": "תמורה יד., טז",
+    "ref_2": "Temurah 14a:16",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2403,
+    "line_index_2": 438,
+    "heRef_2": "תמורה יד., יח",
+    "ref_2": "Temurah 14a:18",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2416,
+    "line_index_2": 446,
+    "heRef_2": "תמורה יד:, א",
+    "ref_2": "Temurah 14b:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2420,
+    "line_index_2": 447,
+    "heRef_2": "תמורה יד:, ב",
+    "ref_2": "Temurah 14b:2",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2442,
+    "line_index_2": 448,
+    "heRef_2": "תמורה יד:, ג",
+    "ref_2": "Temurah 14b:3",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2484,
+    "line_index_2": 450,
+    "heRef_2": "תמורה יד:, ה",
+    "ref_2": "Temurah 14b:5",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2487,
+    "line_index_2": 451,
+    "heRef_2": "תמורה יד:, ו",
+    "ref_2": "Temurah 14b:6",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2489,
+    "line_index_2": 455,
+    "heRef_2": "תמורה יד:, י",
+    "ref_2": "Temurah 14b:10",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2511,
+    "line_index_2": 466,
+    "heRef_2": "תמורה יד:, כא",
+    "ref_2": "Temurah 14b:21",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2513,
+    "line_index_2": 467,
+    "heRef_2": "תמורה יד:, כב",
+    "ref_2": "Temurah 14b:22",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2524,
+    "line_index_2": 469,
+    "heRef_2": "תמורה טו., א",
+    "ref_2": "Temurah 15a:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2550,
+    "line_index_2": 469,
+    "heRef_2": "תמורה טו., א",
+    "ref_2": "Temurah 15a:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2542,
+    "line_index_2": 474,
+    "heRef_2": "תמורה טו., ו",
+    "ref_2": "Temurah 15a:6",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2546,
+    "line_index_2": 475,
+    "heRef_2": "תמורה טו., ז",
+    "ref_2": "Temurah 15a:7",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2621,
+    "line_index_2": 479,
+    "heRef_2": "תמורה טו:, א",
+    "ref_2": "Temurah 15b:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2559,
+    "line_index_2": 480,
+    "heRef_2": "תמורה טו:, ב",
+    "ref_2": "Temurah 15b:2",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2561,
+    "line_index_2": 481,
+    "heRef_2": "תמורה טו:, ג",
+    "ref_2": "Temurah 15b:3",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2565,
+    "line_index_2": 489,
+    "heRef_2": "תמורה טו:, יא",
+    "ref_2": "Temurah 15b:11",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2567,
+    "line_index_2": 489,
+    "heRef_2": "תמורה טו:, יא",
+    "ref_2": "Temurah 15b:11",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2574,
+    "line_index_2": 492,
+    "heRef_2": "תמורה טו:, יד",
+    "ref_2": "Temurah 15b:14",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2580,
+    "line_index_2": 495,
+    "heRef_2": "תמורה טו:, יז",
+    "ref_2": "Temurah 15b:17",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2589,
+    "line_index_2": 497,
+    "heRef_2": "תמורה טו:, יט",
+    "ref_2": "Temurah 15b:19",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2681,
+    "line_index_2": 501,
+    "heRef_2": "תמורה טז., ב",
+    "ref_2": "Temurah 16a:2",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2636,
+    "line_index_2": 502,
+    "heRef_2": "תמורה טז., ג",
+    "ref_2": "Temurah 16a:3",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2638,
+    "line_index_2": 502,
+    "heRef_2": "תמורה טז., ג",
+    "ref_2": "Temurah 16a:3",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2642,
+    "line_index_2": 511,
+    "heRef_2": "תמורה טז., יב",
+    "ref_2": "Temurah 16a:12",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2644,
+    "line_index_2": 512,
+    "heRef_2": "תמורה טז., יג",
+    "ref_2": "Temurah 16a:13",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2646,
+    "line_index_2": 513,
+    "heRef_2": "תמורה טז., יד",
+    "ref_2": "Temurah 16a:14",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2648,
+    "line_index_2": 515,
+    "heRef_2": "תמורה טז., טז",
+    "ref_2": "Temurah 16a:16",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2686,
+    "line_index_2": 525,
+    "heRef_2": "תמורה טז:, א",
+    "ref_2": "Temurah 16b:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2713,
+    "line_index_2": 534,
+    "heRef_2": "תמורה יז., א",
+    "ref_2": "Temurah 17a:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2725,
+    "line_index_2": 536,
+    "heRef_2": "תמורה יז., ג",
+    "ref_2": "Temurah 17a:3",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2739,
+    "line_index_2": 537,
+    "heRef_2": "תמורה יז., ד",
+    "ref_2": "Temurah 17a:4",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2773,
+    "line_index_2": 537,
+    "heRef_2": "תמורה יז., ד",
+    "ref_2": "Temurah 17a:4",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2745,
+    "line_index_2": 541,
+    "heRef_2": "תמורה יז., ח",
+    "ref_2": "Temurah 17a:8",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2833,
+    "line_index_2": 557,
+    "heRef_2": "תמורה יז:, א",
+    "ref_2": "Temurah 17b:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2778,
+    "line_index_2": 559,
+    "heRef_2": "תמורה יז:, ג",
+    "ref_2": "Temurah 17b:3",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2782,
+    "line_index_2": 559,
+    "heRef_2": "תמורה יז:, ג",
+    "ref_2": "Temurah 17b:3",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2788,
+    "line_index_2": 563,
+    "heRef_2": "תמורה יז:, ז",
+    "ref_2": "Temurah 17b:7",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2790,
+    "line_index_2": 563,
+    "heRef_2": "תמורה יז:, ז",
+    "ref_2": "Temurah 17b:7",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2794,
+    "line_index_2": 567,
+    "heRef_2": "תמורה יז:, יא",
+    "ref_2": "Temurah 17b:11",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2831,
+    "line_index_2": 577,
+    "heRef_2": "תמורה יז:, כא",
+    "ref_2": "Temurah 17b:21",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2890,
+    "line_index_2": 579,
+    "heRef_2": "תמורה יח., א",
+    "ref_2": "Temurah 18a:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2846,
+    "line_index_2": 581,
+    "heRef_2": "תמורה יח., ג",
+    "ref_2": "Temurah 18a:3",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2856,
+    "line_index_2": 581,
+    "heRef_2": "תמורה יח., ג",
+    "ref_2": "Temurah 18a:3",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2897,
+    "line_index_2": 599,
+    "heRef_2": "תמורה יח:, א",
+    "ref_2": "Temurah 18b:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2907,
+    "line_index_2": 608,
+    "heRef_2": "תמורה יח:, י",
+    "ref_2": "Temurah 18b:10",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2911,
+    "line_index_2": 612,
+    "heRef_2": "תמורה יח:, יד",
+    "ref_2": "Temurah 18b:14",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2913,
+    "line_index_2": 612,
+    "heRef_2": "תמורה יח:, יד",
+    "ref_2": "Temurah 18b:14",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2915,
+    "line_index_2": 617,
+    "heRef_2": "תמורה יח:, יט",
+    "ref_2": "Temurah 18b:19",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2926,
+    "line_index_2": 620,
+    "heRef_2": "תמורה יט., א",
+    "ref_2": "Temurah 19a:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2936,
+    "line_index_2": 623,
+    "heRef_2": "תמורה יט., ד",
+    "ref_2": "Temurah 19a:4",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2940,
+    "line_index_2": 625,
+    "heRef_2": "תמורה יט., ו",
+    "ref_2": "Temurah 19a:6",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2942,
+    "line_index_2": 625,
+    "heRef_2": "תמורה יט., ו",
+    "ref_2": "Temurah 19a:6",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2959,
+    "line_index_2": 632,
+    "heRef_2": "תמורה יט:, א",
+    "ref_2": "Temurah 19b:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2975,
+    "line_index_2": 639,
+    "heRef_2": "תמורה יט:, ח",
+    "ref_2": "Temurah 19b:8",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2979,
+    "line_index_2": 645,
+    "heRef_2": "תמורה יט:, יד",
+    "ref_2": "Temurah 19b:14",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2990,
+    "line_index_2": 650,
+    "heRef_2": "תמורה כ., ב",
+    "ref_2": "Temurah 20a:2",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2992,
+    "line_index_2": 651,
+    "heRef_2": "תמורה כ., ג",
+    "ref_2": "Temurah 20a:3",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2994,
+    "line_index_2": 652,
+    "heRef_2": "תמורה כ., ד",
+    "ref_2": "Temurah 20a:4",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3018,
+    "line_index_2": 652,
+    "heRef_2": "תמורה כ., ד",
+    "ref_2": "Temurah 20a:4",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2998,
+    "line_index_2": 653,
+    "heRef_2": "תמורה כ., ה",
+    "ref_2": "Temurah 20a:5",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3027,
+    "line_index_2": 671,
+    "heRef_2": "תמורה כ:, ג",
+    "ref_2": "Temurah 20b:3",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3063,
+    "line_index_2": 672,
+    "heRef_2": "תמורה כ:, ד",
+    "ref_2": "Temurah 20b:4",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3047,
+    "line_index_2": 679,
+    "heRef_2": "תמורה כ:, יא",
+    "ref_2": "Temurah 20b:11",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3055,
+    "line_index_2": 682,
+    "heRef_2": "תמורה כ:, יד",
+    "ref_2": "Temurah 20b:14",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3061,
+    "line_index_2": 686,
+    "heRef_2": "תמורה כ:, יח",
+    "ref_2": "Temurah 20b:18",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3103,
+    "line_index_2": 690,
+    "heRef_2": "תמורה כא., ב",
+    "ref_2": "Temurah 21a:2",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3076,
+    "line_index_2": 693,
+    "heRef_2": "תמורה כא., ה",
+    "ref_2": "Temurah 21a:5",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3124,
+    "line_index_2": 701,
+    "heRef_2": "תמורה כא., יג",
+    "ref_2": "Temurah 21a:13",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3136,
+    "line_index_2": 708,
+    "heRef_2": "תמורה כא., כ",
+    "ref_2": "Temurah 21a:20",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3222,
+    "line_index_2": 708,
+    "heRef_2": "תמורה כא., כ",
+    "ref_2": "Temurah 21a:20",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3289,
+    "line_index_2": 712,
+    "heRef_2": "תמורה כא:, א",
+    "ref_2": "Temurah 21b:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3255,
+    "line_index_2": 719,
+    "heRef_2": "תמורה כא:, ח",
+    "ref_2": "Temurah 21b:8",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3269,
+    "line_index_2": 723,
+    "heRef_2": "תמורה כא:, יב",
+    "ref_2": "Temurah 21b:12",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3271,
+    "line_index_2": 724,
+    "heRef_2": "תמורה כא:, יג",
+    "ref_2": "Temurah 21b:13",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3273,
+    "line_index_2": 726,
+    "heRef_2": "תמורה כא:, טו",
+    "ref_2": "Temurah 21b:15",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3285,
+    "line_index_2": 726,
+    "heRef_2": "תמורה כא:, טו",
+    "ref_2": "Temurah 21b:15",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3340,
+    "line_index_2": 729,
+    "heRef_2": "תמורה כב., ב",
+    "ref_2": "Temurah 22a:2",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3308,
+    "line_index_2": 731,
+    "heRef_2": "תמורה כב., ד",
+    "ref_2": "Temurah 22a:4",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3314,
+    "line_index_2": 736,
+    "heRef_2": "תמורה כב., ט",
+    "ref_2": "Temurah 22a:9",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3318,
+    "line_index_2": 737,
+    "heRef_2": "תמורה כב., י",
+    "ref_2": "Temurah 22a:10",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3320,
+    "line_index_2": 738,
+    "heRef_2": "תמורה כב., יא",
+    "ref_2": "Temurah 22a:11",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3347,
+    "line_index_2": 747,
+    "heRef_2": "תמורה כב:, א",
+    "ref_2": "Temurah 22b:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3363,
+    "line_index_2": 748,
+    "heRef_2": "תמורה כב:, ב",
+    "ref_2": "Temurah 22b:2",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3349,
+    "line_index_2": 751,
+    "heRef_2": "תמורה כב:, ה",
+    "ref_2": "Temurah 22b:5",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3357,
+    "line_index_2": 760,
+    "heRef_2": "תמורה כב:, יד",
+    "ref_2": "Temurah 22b:14",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3359,
+    "line_index_2": 760,
+    "heRef_2": "תמורה כב:, יד",
+    "ref_2": "Temurah 22b:14",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3410,
+    "line_index_2": 774,
+    "heRef_2": "תמורה כג., ג",
+    "ref_2": "Temurah 23a:3",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3378,
+    "line_index_2": 776,
+    "heRef_2": "תמורה כג., ה",
+    "ref_2": "Temurah 23a:5",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3380,
+    "line_index_2": 777,
+    "heRef_2": "תמורה כג., ו",
+    "ref_2": "Temurah 23a:6",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3456,
+    "line_index_2": 787,
+    "heRef_2": "תמורה כג:, ג",
+    "ref_2": "Temurah 23b:3",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3421,
+    "line_index_2": 790,
+    "heRef_2": "תמורה כג:, ו",
+    "ref_2": "Temurah 23b:6",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3425,
+    "line_index_2": 797,
+    "heRef_2": "תמורה כג:, יג",
+    "ref_2": "Temurah 23b:13",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3429,
+    "line_index_2": 797,
+    "heRef_2": "תמורה כג:, יג",
+    "ref_2": "Temurah 23b:13",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3431,
+    "line_index_2": 797,
+    "heRef_2": "תמורה כג:, יג",
+    "ref_2": "Temurah 23b:13",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3433,
+    "line_index_2": 797,
+    "heRef_2": "תמורה כג:, יג",
+    "ref_2": "Temurah 23b:13",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3440,
+    "line_index_2": 798,
+    "heRef_2": "תמורה כג:, יד",
+    "ref_2": "Temurah 23b:14",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3471,
+    "line_index_2": 807,
+    "heRef_2": "תמורה כד., ו",
+    "ref_2": "Temurah 24a:6",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3483,
+    "line_index_2": 817,
+    "heRef_2": "תמורה כד., טז",
+    "ref_2": "Temurah 24a:16",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3488,
+    "line_index_2": 817,
+    "heRef_2": "תמורה כד., טז",
+    "ref_2": "Temurah 24a:16",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3485,
+    "line_index_2": 827,
+    "heRef_2": "תמורה כד., כו",
+    "ref_2": "Temurah 24a:26",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3511,
+    "line_index_2": 833,
+    "heRef_2": "תמורה כד:, א",
+    "ref_2": "Temurah 24b:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3515,
+    "line_index_2": 833,
+    "heRef_2": "תמורה כד:, א",
+    "ref_2": "Temurah 24b:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3581,
+    "line_index_2": 844,
+    "heRef_2": "תמורה כה., א",
+    "ref_2": "Temurah 25a:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3636,
+    "line_index_2": 844,
+    "heRef_2": "תמורה כה., א",
+    "ref_2": "Temurah 25a:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3587,
+    "line_index_2": 845,
+    "heRef_2": "תמורה כה., ב",
+    "ref_2": "Temurah 25a:2",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3585,
+    "line_index_2": 848,
+    "heRef_2": "תמורה כה., ה",
+    "ref_2": "Temurah 25a:5",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3606,
+    "line_index_2": 855,
+    "heRef_2": "תמורה כה., יב",
+    "ref_2": "Temurah 25a:12",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3610,
+    "line_index_2": 862,
+    "heRef_2": "תמורה כה., יט",
+    "ref_2": "Temurah 25a:19",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3643,
+    "line_index_2": 865,
+    "heRef_2": "תמורה כה:, א",
+    "ref_2": "Temurah 25b:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3647,
+    "line_index_2": 865,
+    "heRef_2": "תמורה כה:, א",
+    "ref_2": "Temurah 25b:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3651,
+    "line_index_2": 865,
+    "heRef_2": "תמורה כה:, א",
+    "ref_2": "Temurah 25b:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3756,
+    "line_index_2": 865,
+    "heRef_2": "תמורה כה:, א",
+    "ref_2": "Temurah 25b:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3694,
+    "line_index_2": 880,
+    "heRef_2": "תמורה כה:, טז",
+    "ref_2": "Temurah 25b:16",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3748,
+    "line_index_2": 881,
+    "heRef_2": "תמורה כה:, יז",
+    "ref_2": "Temurah 25b:17",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3769,
+    "line_index_2": 888,
+    "heRef_2": "תמורה כו., ה",
+    "ref_2": "Temurah 26a:5",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3775,
+    "line_index_2": 893,
+    "heRef_2": "תמורה כו., י",
+    "ref_2": "Temurah 26a:10",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3861,
+    "line_index_2": 900,
+    "heRef_2": "תמורה כו:, א",
+    "ref_2": "Temurah 26b:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3857,
+    "line_index_2": 905,
+    "heRef_2": "תמורה כו:, ו",
+    "ref_2": "Temurah 26b:6",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3872,
+    "line_index_2": 923,
+    "heRef_2": "תמורה כז., יב",
+    "ref_2": "Temurah 27a:12",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3894,
+    "line_index_2": 929,
+    "heRef_2": "תמורה כז., יח",
+    "ref_2": "Temurah 27a:18",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3902,
+    "line_index_2": 929,
+    "heRef_2": "תמורה כז., יח",
+    "ref_2": "Temurah 27a:18",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3908,
+    "line_index_2": 929,
+    "heRef_2": "תמורה כז., יח",
+    "ref_2": "Temurah 27a:18",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3918,
+    "line_index_2": 929,
+    "heRef_2": "תמורה כז., יח",
+    "ref_2": "Temurah 27a:18",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3920,
+    "line_index_2": 929,
+    "heRef_2": "תמורה כז., יח",
+    "ref_2": "Temurah 27a:18",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3924,
+    "line_index_2": 929,
+    "heRef_2": "תמורה כז., יח",
+    "ref_2": "Temurah 27a:18",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4018,
+    "line_index_2": 945,
+    "heRef_2": "תמורה כז:, יד",
+    "ref_2": "Temurah 27b:14",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4020,
+    "line_index_2": 945,
+    "heRef_2": "תמורה כז:, יד",
+    "ref_2": "Temurah 27b:14",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4029,
+    "line_index_2": 952,
+    "heRef_2": "תמורה כח., א",
+    "ref_2": "Temurah 28a:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4033,
+    "line_index_2": 952,
+    "heRef_2": "תמורה כח., א",
+    "ref_2": "Temurah 28a:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4051,
+    "line_index_2": 952,
+    "heRef_2": "תמורה כח., א",
+    "ref_2": "Temurah 28a:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4038,
+    "line_index_2": 953,
+    "heRef_2": "תמורה כח., ב",
+    "ref_2": "Temurah 28a:2",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4040,
+    "line_index_2": 953,
+    "heRef_2": "תמורה כח., ב",
+    "ref_2": "Temurah 28a:2",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4076,
+    "line_index_2": 961,
+    "heRef_2": "תמורה כח., י",
+    "ref_2": "Temurah 28a:10",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4120,
+    "line_index_2": 961,
+    "heRef_2": "תמורה כח., י",
+    "ref_2": "Temurah 28a:10",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4236,
+    "line_index_2": 974,
+    "heRef_2": "תמורה כח:, א",
+    "ref_2": "Temurah 28b:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4240,
+    "line_index_2": 976,
+    "heRef_2": "תמורה כח:, ג",
+    "ref_2": "Temurah 28b:3",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4242,
+    "line_index_2": 976,
+    "heRef_2": "תמורה כח:, ג",
+    "ref_2": "Temurah 28b:3",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4301,
+    "line_index_2": 977,
+    "heRef_2": "תמורה כח:, ד",
+    "ref_2": "Temurah 28b:4",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4253,
+    "line_index_2": 978,
+    "heRef_2": "תמורה כח:, ה",
+    "ref_2": "Temurah 28b:5",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4244,
+    "line_index_2": 981,
+    "heRef_2": "תמורה כח:, ח",
+    "ref_2": "Temurah 28b:8",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4246,
+    "line_index_2": 981,
+    "heRef_2": "תמורה כח:, ח",
+    "ref_2": "Temurah 28b:8",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4281,
+    "line_index_2": 984,
+    "heRef_2": "תמורה כח:, יא",
+    "ref_2": "Temurah 28b:11",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4314,
+    "line_index_2": 1002,
+    "heRef_2": "תמורה כט., ו",
+    "ref_2": "Temurah 29a:6",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4316,
+    "line_index_2": 1007,
+    "heRef_2": "תמורה כט., יא",
+    "ref_2": "Temurah 29a:11",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4318,
+    "line_index_2": 1007,
+    "heRef_2": "תמורה כט., יא",
+    "ref_2": "Temurah 29a:11",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4338,
+    "line_index_2": 1011,
+    "heRef_2": "תמורה כט., טו",
+    "ref_2": "Temurah 29a:15",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4340,
+    "line_index_2": 1011,
+    "heRef_2": "תמורה כט., טו",
+    "ref_2": "Temurah 29a:15",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4358,
+    "line_index_2": 1013,
+    "heRef_2": "תמורה כט., יז",
+    "ref_2": "Temurah 29a:17",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4373,
+    "line_index_2": 1017,
+    "heRef_2": "תמורה כט:, א",
+    "ref_2": "Temurah 29b:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4474,
+    "line_index_2": 1024,
+    "heRef_2": "תמורה כט:, ח",
+    "ref_2": "Temurah 29b:8",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4499,
+    "line_index_2": 1025,
+    "heRef_2": "תמורה כט:, ט",
+    "ref_2": "Temurah 29b:9",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4530,
+    "line_index_2": 1039,
+    "heRef_2": "תמורה כט:, כג",
+    "ref_2": "Temurah 29b:23",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4687,
+    "line_index_2": 1046,
+    "heRef_2": "תמורה ל., ב",
+    "ref_2": "Temurah 30a:2",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4644,
+    "line_index_2": 1050,
+    "heRef_2": "תמורה ל., ו",
+    "ref_2": "Temurah 30a:6",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4648,
+    "line_index_2": 1050,
+    "heRef_2": "תמורה ל., ו",
+    "ref_2": "Temurah 30a:6",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4651,
+    "line_index_2": 1050,
+    "heRef_2": "תמורה ל., ו",
+    "ref_2": "Temurah 30a:6",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4657,
+    "line_index_2": 1051,
+    "heRef_2": "תמורה ל., ז",
+    "ref_2": "Temurah 30a:7",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4663,
+    "line_index_2": 1056,
+    "heRef_2": "תמורה ל., יב",
+    "ref_2": "Temurah 30a:12",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4700,
+    "line_index_2": 1060,
+    "heRef_2": "תמורה ל:, א",
+    "ref_2": "Temurah 30b:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4805,
+    "line_index_2": 1060,
+    "heRef_2": "תמורה ל:, א",
+    "ref_2": "Temurah 30b:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4776,
+    "line_index_2": 1081,
+    "heRef_2": "תמורה ל:, כב",
+    "ref_2": "Temurah 30b:22",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4801,
+    "line_index_2": 1082,
+    "heRef_2": "תמורה ל:, כג",
+    "ref_2": "Temurah 30b:23",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4784,
+    "line_index_2": 1083,
+    "heRef_2": "תמורה ל:, כד",
+    "ref_2": "Temurah 30b:24",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4702,
+    "line_index_2": 1084,
+    "heRef_2": "תמורה ל:, כה",
+    "ref_2": "Temurah 30b:25",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4979,
+    "line_index_2": 1088,
+    "heRef_2": "תמורה לא., א",
+    "ref_2": "Temurah 31a:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4888,
+    "line_index_2": 1094,
+    "heRef_2": "תמורה לא., ז",
+    "ref_2": "Temurah 31a:7",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4896,
+    "line_index_2": 1094,
+    "heRef_2": "תמורה לא., ז",
+    "ref_2": "Temurah 31a:7",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4904,
+    "line_index_2": 1094,
+    "heRef_2": "תמורה לא., ז",
+    "ref_2": "Temurah 31a:7",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4975,
+    "line_index_2": 1100,
+    "heRef_2": "תמורה לא., יג",
+    "ref_2": "Temurah 31a:13",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4977,
+    "line_index_2": 1101,
+    "heRef_2": "תמורה לא., יד",
+    "ref_2": "Temurah 31a:14",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4986,
+    "line_index_2": 1103,
+    "heRef_2": "תמורה לא:, א",
+    "ref_2": "Temurah 31b:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4999,
+    "line_index_2": 1103,
+    "heRef_2": "תמורה לא:, א",
+    "ref_2": "Temurah 31b:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4995,
+    "line_index_2": 1122,
+    "heRef_2": "תמורה לא:, כ",
+    "ref_2": "Temurah 31b:20",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5008,
+    "line_index_2": 1125,
+    "heRef_2": "תמורה לב., א",
+    "ref_2": "Temurah 32a:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5020,
+    "line_index_2": 1125,
+    "heRef_2": "תמורה לב., א",
+    "ref_2": "Temurah 32a:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5010,
+    "line_index_2": 1126,
+    "heRef_2": "תמורה לב., ב",
+    "ref_2": "Temurah 32a:2",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5038,
+    "line_index_2": 1126,
+    "heRef_2": "תמורה לב., ב",
+    "ref_2": "Temurah 32a:2",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5074,
+    "line_index_2": 1139,
+    "heRef_2": "תמורה לב:, ב",
+    "ref_2": "Temurah 32b:2",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5094,
+    "line_index_2": 1178,
+    "heRef_2": "תמורה לג:, א",
+    "ref_2": "Temurah 33b:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5108,
+    "line_index_2": 1180,
+    "heRef_2": "תמורה לג:, ג",
+    "ref_2": "Temurah 33b:3",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5254,
+    "line_index_2": 1180,
+    "heRef_2": "תמורה לג:, ג",
+    "ref_2": "Temurah 33b:3",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5112,
+    "line_index_2": 1184,
+    "heRef_2": "תמורה לג:, ז",
+    "ref_2": "Temurah 33b:7",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5122,
+    "line_index_2": 1192,
+    "heRef_2": "תמורה לג:, טו",
+    "ref_2": "Temurah 33b:15",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5156,
+    "line_index_2": 1193,
+    "heRef_2": "תמורה לג:, טז",
+    "ref_2": "Temurah 33b:16",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5248,
+    "line_index_2": 1194,
+    "heRef_2": "תמורה לג:, יז",
+    "ref_2": "Temurah 33b:17",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5250,
+    "line_index_2": 1194,
+    "heRef_2": "תמורה לג:, יז",
+    "ref_2": "Temurah 33b:17",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5446,
+    "line_index_2": 1196,
+    "heRef_2": "תמורה לד., א",
+    "ref_2": "Temurah 34a:1",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5292,
+    "line_index_2": 1198,
+    "heRef_2": "תמורה לד., ג",
+    "ref_2": "Temurah 34a:3",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5268,
+    "line_index_2": 1199,
+    "heRef_2": "תמורה לד., ד",
+    "ref_2": "Temurah 34a:4",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5325,
+    "line_index_2": 1205,
+    "heRef_2": "תמורה לד., י",
+    "ref_2": "Temurah 34a:10",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5335,
+    "line_index_2": 1205,
+    "heRef_2": "תמורה לד., י",
+    "ref_2": "Temurah 34a:10",
+    "path_2": "תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 63,
+    "line_index_2": 5,
+    "heRef_2": "רש\"י על תמורה ב., א, ב",
+    "ref_2": "Rashi on Temurah 2a:1:2",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 158,
+    "line_index_2": 29,
+    "heRef_2": "רש\"י על תמורה ב:, ב, ד",
+    "ref_2": "Rashi on Temurah 2b:2:4",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 154,
+    "line_index_2": 57,
+    "heRef_2": "רש\"י על תמורה ב:, יב, ב",
+    "ref_2": "Rashi on Temurah 2b:12:2",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 270,
+    "line_index_2": 65,
+    "heRef_2": "רש\"י על תמורה ג., ו, ב",
+    "ref_2": "Rashi on Temurah 3a:6:2",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 441,
+    "line_index_2": 88,
+    "heRef_2": "רש\"י על תמורה ג:, ה, א",
+    "ref_2": "Rashi on Temurah 3b:5:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 423,
+    "line_index_2": 113,
+    "heRef_2": "רש\"י על תמורה ג:, יח, ב",
+    "ref_2": "Rashi on Temurah 3b:18:2",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 520,
+    "line_index_2": 119,
+    "heRef_2": "רש\"י על תמורה ד., א, א",
+    "ref_2": "Rashi on Temurah 4a:1:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 660,
+    "line_index_2": 132,
+    "heRef_2": "רש\"י על תמורה ד:, א, א",
+    "ref_2": "Rashi on Temurah 4b:1:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 713,
+    "line_index_2": 154,
+    "heRef_2": "רש\"י על תמורה ה., א, א",
+    "ref_2": "Rashi on Temurah 5a:1:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 822,
+    "line_index_2": 182,
+    "heRef_2": "רש\"י על תמורה ה:, א, ג",
+    "ref_2": "Rashi on Temurah 5b:1:3",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1046,
+    "line_index_2": 209,
+    "heRef_2": "רש\"י על תמורה ו., א, א",
+    "ref_2": "Rashi on Temurah 6a:1:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1128,
+    "line_index_2": 228,
+    "heRef_2": "רש\"י על תמורה ו:, א, א",
+    "ref_2": "Rashi on Temurah 6b:1:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1176,
+    "line_index_2": 252,
+    "heRef_2": "רש\"י על תמורה ז., א, ג",
+    "ref_2": "Rashi on Temurah 7a:1:3",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1342,
+    "line_index_2": 271,
+    "heRef_2": "רש\"י על תמורה ז:, א, ד",
+    "ref_2": "Rashi on Temurah 7b:1:4",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1435,
+    "line_index_2": 308,
+    "heRef_2": "רש\"י על תמורה ח., א, ב",
+    "ref_2": "Rashi on Temurah 8a:1:2",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1499,
+    "line_index_2": 337,
+    "heRef_2": "רש\"י על תמורה ח:, ה, א",
+    "ref_2": "Rashi on Temurah 8b:5:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1568,
+    "line_index_2": 361,
+    "heRef_2": "רש\"י על תמורה ט., ז, ב",
+    "ref_2": "Rashi on Temurah 9a:7:2",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1589,
+    "line_index_2": 378,
+    "heRef_2": "רש\"י על תמורה ט:, א, ב",
+    "ref_2": "Rashi on Temurah 9b:1:2",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1658,
+    "line_index_2": 416,
+    "heRef_2": "רש\"י על תמורה י:, א, א",
+    "ref_2": "Rashi on Temurah 10b:1:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1740,
+    "line_index_2": 442,
+    "heRef_2": "רש\"י על תמורה יא., א, א",
+    "ref_2": "Rashi on Temurah 11a:1:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1865,
+    "line_index_2": 459,
+    "heRef_2": "רש\"י על תמורה יא:, ד, ב",
+    "ref_2": "Rashi on Temurah 11b:4:2",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2010,
+    "line_index_2": 487,
+    "heRef_2": "רש\"י על תמורה יב., א, ב",
+    "ref_2": "Rashi on Temurah 12a:1:2",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2238,
+    "line_index_2": 509,
+    "heRef_2": "רש\"י על תמורה יב:, ב, א",
+    "ref_2": "Rashi on Temurah 12b:2:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2313,
+    "line_index_2": 528,
+    "heRef_2": "רש\"י על תמורה יג., א, א",
+    "ref_2": "Rashi on Temurah 13a:1:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2334,
+    "line_index_2": 549,
+    "heRef_2": "רש\"י על תמורה יג:, ב, ב",
+    "ref_2": "Rashi on Temurah 13b:2:2",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2326,
+    "line_index_2": 566,
+    "heRef_2": "רש\"י על תמורה יג:, י, ב",
+    "ref_2": "Rashi on Temurah 13b:10:2",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2411,
+    "line_index_2": 577,
+    "heRef_2": "רש\"י על תמורה יד., א, א",
+    "ref_2": "Rashi on Temurah 14a:1:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2517,
+    "line_index_2": 609,
+    "heRef_2": "רש\"י על תמורה יד:, א, א",
+    "ref_2": "Rashi on Temurah 14b:1:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2522,
+    "line_index_2": 635,
+    "heRef_2": "רש\"י על תמורה טו., א, א",
+    "ref_2": "Rashi on Temurah 15a:1:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2552,
+    "line_index_2": 635,
+    "heRef_2": "רש\"י על תמורה טו., א, א",
+    "ref_2": "Rashi on Temurah 15a:1:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2623,
+    "line_index_2": 653,
+    "heRef_2": "רש\"י על תמורה טו:, ב, ב",
+    "ref_2": "Rashi on Temurah 15b:2:2",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2683,
+    "line_index_2": 679,
+    "heRef_2": "רש\"י על תמורה טז., ב, ב",
+    "ref_2": "Rashi on Temurah 16a:2:2",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2706,
+    "line_index_2": 707,
+    "heRef_2": "רש\"י על תמורה טז:, ב, א",
+    "ref_2": "Rashi on Temurah 16b:2:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2694,
+    "line_index_2": 711,
+    "heRef_2": "רש\"י על תמורה טז:, ה, ב",
+    "ref_2": "Rashi on Temurah 16b:5:2",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2775,
+    "line_index_2": 717,
+    "heRef_2": "רש\"י על תמורה יז., ד, ב",
+    "ref_2": "Rashi on Temurah 17a:4:2",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2835,
+    "line_index_2": 740,
+    "heRef_2": "רש\"י על תמורה יז:, א, א",
+    "ref_2": "Rashi on Temurah 17b:1:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2892,
+    "line_index_2": 767,
+    "heRef_2": "רש\"י על תמורה יח., ג, א",
+    "ref_2": "Rashi on Temurah 18a:3:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2921,
+    "line_index_2": 789,
+    "heRef_2": "רש\"י על תמורה יח:, ז, א",
+    "ref_2": "Rashi on Temurah 18b:7:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2954,
+    "line_index_2": 814,
+    "heRef_2": "רש\"י על תמורה יט., א, א",
+    "ref_2": "Rashi on Temurah 19a:1:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3020,
+    "line_index_2": 845,
+    "heRef_2": "רש\"י על תמורה כ., ד, א",
+    "ref_2": "Rashi on Temurah 20a:4:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3067,
+    "line_index_2": 859,
+    "heRef_2": "רש\"י על תמורה כ:, ב, א",
+    "ref_2": "Rashi on Temurah 20b:2:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3043,
+    "line_index_2": 874,
+    "heRef_2": "רש\"י על תמורה כ:, י, ב",
+    "ref_2": "Rashi on Temurah 20b:10:2",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3232,
+    "line_index_2": 885,
+    "heRef_2": "רש\"י על תמורה כא., א, א",
+    "ref_2": "Rashi on Temurah 21a:1:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3128,
+    "line_index_2": 898,
+    "heRef_2": "רש\"י על תמורה כא., יד, א",
+    "ref_2": "Rashi on Temurah 21a:14:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3291,
+    "line_index_2": 912,
+    "heRef_2": "רש\"י על תמורה כא:, ב, א",
+    "ref_2": "Rashi on Temurah 21b:2:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3342,
+    "line_index_2": 933,
+    "heRef_2": "רש\"י על תמורה כב., א, ב",
+    "ref_2": "Rashi on Temurah 22a:1:2",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3310,
+    "line_index_2": 942,
+    "heRef_2": "רש\"י על תמורה כב., ו, א",
+    "ref_2": "Rashi on Temurah 22a:6:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3365,
+    "line_index_2": 967,
+    "heRef_2": "רש\"י על תמורה כב:, ג, ב",
+    "ref_2": "Rashi on Temurah 22b:3:2",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3353,
+    "line_index_2": 982,
+    "heRef_2": "רש\"י על תמורה כב:, יב, א",
+    "ref_2": "Rashi on Temurah 22b:12:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3412,
+    "line_index_2": 996,
+    "heRef_2": "רש\"י על תמורה כג., א, א",
+    "ref_2": "Rashi on Temurah 23a:1:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3458,
+    "line_index_2": 1013,
+    "heRef_2": "רש\"י על תמורה כג:, א, א",
+    "ref_2": "Rashi on Temurah 23b:1:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3423,
+    "line_index_2": 1018,
+    "heRef_2": "רש\"י על תמורה כג:, ז, א",
+    "ref_2": "Rashi on Temurah 23b:7:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3508,
+    "line_index_2": 1037,
+    "heRef_2": "רש\"י על תמורה כד., ז, א",
+    "ref_2": "Rashi on Temurah 24a:7:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3498,
+    "line_index_2": 1049,
+    "heRef_2": "רש\"י על תמורה כד., כא, א",
+    "ref_2": "Rashi on Temurah 24a:21:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3638,
+    "line_index_2": 1074,
+    "heRef_2": "רש\"י על תמורה כה., א, ב",
+    "ref_2": "Rashi on Temurah 25a:1:2",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3758,
+    "line_index_2": 1105,
+    "heRef_2": "רש\"י על תמורה כה:, ב, א",
+    "ref_2": "Rashi on Temurah 25b:2:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3681,
+    "line_index_2": 1110,
+    "heRef_2": "רש\"י על תמורה כה:, ה, א",
+    "ref_2": "Rashi on Temurah 25b:5:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3801,
+    "line_index_2": 1128,
+    "heRef_2": "רש\"י על תמורה כו., ד, א",
+    "ref_2": "Rashi on Temurah 26a:4:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3863,
+    "line_index_2": 1137,
+    "heRef_2": "רש\"י על תמורה כו:, א, א",
+    "ref_2": "Rashi on Temurah 26b:1:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3934,
+    "line_index_2": 1152,
+    "heRef_2": "רש\"י על תמורה כז., ד, א",
+    "ref_2": "Rashi on Temurah 27a:4:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4024,
+    "line_index_2": 1174,
+    "heRef_2": "רש\"י על תמורה כז:, ז, א",
+    "ref_2": "Rashi on Temurah 27b:7:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4233,
+    "line_index_2": 1196,
+    "heRef_2": "רש\"י על תמורה כח., י, ב",
+    "ref_2": "Rashi on Temurah 28a:10:2",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4303,
+    "line_index_2": 1215,
+    "heRef_2": "רש\"י על תמורה כח:, ד, ב",
+    "ref_2": "Rashi on Temurah 28b:4:2",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4368,
+    "line_index_2": 1246,
+    "heRef_2": "רש\"י על תמורה כט., ג, ב",
+    "ref_2": "Rashi on Temurah 29a:3:2",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4589,
+    "line_index_2": 1264,
+    "heRef_2": "רש\"י על תמורה כט:, ג, א",
+    "ref_2": "Rashi on Temurah 29b:3:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4807,
+    "line_index_2": 1300,
+    "heRef_2": "רש\"י על תמורה ל:, ב, א",
+    "ref_2": "Rashi on Temurah 30b:2:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5001,
+    "line_index_2": 1333,
+    "heRef_2": "רש\"י על תמורה לא:, א, א",
+    "ref_2": "Rashi on Temurah 31b:1:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5040,
+    "line_index_2": 1351,
+    "heRef_2": "רש\"י על תמורה לב., א, ג",
+    "ref_2": "Rashi on Temurah 32a:1:3",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5076,
+    "line_index_2": 1369,
+    "heRef_2": "רש\"י על תמורה לב:, א, א",
+    "ref_2": "Rashi on Temurah 32b:1:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5089,
+    "line_index_2": 1387,
+    "heRef_2": "רש\"י על תמורה לג., ו, א",
+    "ref_2": "Rashi on Temurah 33a:6:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5256,
+    "line_index_2": 1410,
+    "heRef_2": "רש\"י על תמורה לג:, ב, א",
+    "ref_2": "Rashi on Temurah 33b:2:1",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5448,
+    "line_index_2": 1434,
+    "heRef_2": "רש\"י על תמורה לד., א, ב",
+    "ref_2": "Rashi on Temurah 34a:1:2",
+    "path_2": "רש\"י על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 29,
+    "line_index_2": 6,
+    "heRef_2": "תוספות על תמורה ב., ב, א",
+    "ref_2": "Tosafot on Temurah 2a:2:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 49,
+    "line_index_2": 8,
+    "heRef_2": "תוספות על תמורה ב., ח, א",
+    "ref_2": "Tosafot on Temurah 2a:8:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 187,
+    "line_index_2": 16,
+    "heRef_2": "תוספות על תמורה ג., ו, א",
+    "ref_2": "Tosafot on Temurah 3a:6:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 272,
+    "line_index_2": 16,
+    "heRef_2": "תוספות על תמורה ג., ו, א",
+    "ref_2": "Tosafot on Temurah 3a:6:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 209,
+    "line_index_2": 19,
+    "heRef_2": "תוספות על תמורה ג., יד, א",
+    "ref_2": "Tosafot on Temurah 3a:14:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 443,
+    "line_index_2": 22,
+    "heRef_2": "תוספות על תמורה ג:, ח, א",
+    "ref_2": "Tosafot on Temurah 3b:8:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 522,
+    "line_index_2": 27,
+    "heRef_2": "תוספות על תמורה ד., ג, א",
+    "ref_2": "Tosafot on Temurah 4a:3:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 508,
+    "line_index_2": 30,
+    "heRef_2": "תוספות על תמורה ד., ו, ב",
+    "ref_2": "Tosafot on Temurah 4a:6:2",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 516,
+    "line_index_2": 31,
+    "heRef_2": "תוספות על תמורה ד., ז, א",
+    "ref_2": "Tosafot on Temurah 4a:7:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 549,
+    "line_index_2": 34,
+    "heRef_2": "תוספות על תמורה ד:, ד, א",
+    "ref_2": "Tosafot on Temurah 4b:4:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 662,
+    "line_index_2": 36,
+    "heRef_2": "תוספות על תמורה ד:, ח, א",
+    "ref_2": "Tosafot on Temurah 4b:8:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 641,
+    "line_index_2": 39,
+    "heRef_2": "תוספות על תמורה ד:, יד, א",
+    "ref_2": "Tosafot on Temurah 4b:14:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 665,
+    "line_index_2": 41,
+    "heRef_2": "תוספות על תמורה ה., א, א",
+    "ref_2": "Tosafot on Temurah 5a:1:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 693,
+    "line_index_2": 43,
+    "heRef_2": "תוספות על תמורה ה., ט, א",
+    "ref_2": "Tosafot on Temurah 5a:9:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 824,
+    "line_index_2": 47,
+    "heRef_2": "תוספות על תמורה ה:, א, א",
+    "ref_2": "Tosafot on Temurah 5b:1:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1048,
+    "line_index_2": 51,
+    "heRef_2": "תוספות על תמורה ו., ו, א",
+    "ref_2": "Tosafot on Temurah 6a:6:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 991,
+    "line_index_2": 56,
+    "heRef_2": "תוספות על תמורה ו., יד, א",
+    "ref_2": "Tosafot on Temurah 6a:14:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1162,
+    "line_index_2": 61,
+    "heRef_2": "תוספות על תמורה ז., ד, א",
+    "ref_2": "Tosafot on Temurah 7a:4:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1178,
+    "line_index_2": 61,
+    "heRef_2": "תוספות על תמורה ז., ד, א",
+    "ref_2": "Tosafot on Temurah 7a:4:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1344,
+    "line_index_2": 65,
+    "heRef_2": "תוספות על תמורה ז:, ז, א",
+    "ref_2": "Tosafot on Temurah 7b:7:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1334,
+    "line_index_2": 67,
+    "heRef_2": "תוספות על תמורה ז:, יד, א",
+    "ref_2": "Tosafot on Temurah 7b:14:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1437,
+    "line_index_2": 71,
+    "heRef_2": "תוספות על תמורה ח., יא, א",
+    "ref_2": "Tosafot on Temurah 8a:11:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1501,
+    "line_index_2": 74,
+    "heRef_2": "תוספות על תמורה ח:, א, א",
+    "ref_2": "Tosafot on Temurah 8b:1:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1570,
+    "line_index_2": 80,
+    "heRef_2": "תוספות על תמורה ט., ג, א",
+    "ref_2": "Tosafot on Temurah 9a:3:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1627,
+    "line_index_2": 87,
+    "heRef_2": "תוספות על תמורה י., ד, א",
+    "ref_2": "Tosafot on Temurah 10a:4:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1667,
+    "line_index_2": 98,
+    "heRef_2": "תוספות על תמורה יא., א, א",
+    "ref_2": "Tosafot on Temurah 11a:1:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1861,
+    "line_index_2": 104,
+    "heRef_2": "תוספות על תמורה יא:, יט, א",
+    "ref_2": "Tosafot on Temurah 11b:19:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2012,
+    "line_index_2": 106,
+    "heRef_2": "תוספות על תמורה יב., ה, א",
+    "ref_2": "Tosafot on Temurah 12a:5:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1961,
+    "line_index_2": 108,
+    "heRef_2": "תוספות על תמורה יב., יד, א",
+    "ref_2": "Tosafot on Temurah 12a:14:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2204,
+    "line_index_2": 111,
+    "heRef_2": "תוספות על תמורה יב:, ד, א",
+    "ref_2": "Tosafot on Temurah 12b:4:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2315,
+    "line_index_2": 114,
+    "heRef_2": "תוספות על תמורה יג., א, א",
+    "ref_2": "Tosafot on Temurah 13a:1:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2275,
+    "line_index_2": 116,
+    "heRef_2": "תוספות על תמורה יג., ג, א",
+    "ref_2": "Tosafot on Temurah 13a:3:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2413,
+    "line_index_2": 122,
+    "heRef_2": "תוספות על תמורה יד., כב, א",
+    "ref_2": "Tosafot on Temurah 14a:22:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2519,
+    "line_index_2": 124,
+    "heRef_2": "תוספות על תמורה יד:, ג, א",
+    "ref_2": "Tosafot on Temurah 14b:3:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2532,
+    "line_index_2": 129,
+    "heRef_2": "תוספות על תמורה טו., א, א",
+    "ref_2": "Tosafot on Temurah 15a:1:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2534,
+    "line_index_2": 129,
+    "heRef_2": "תוספות על תמורה טו., א, א",
+    "ref_2": "Tosafot on Temurah 15a:1:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2554,
+    "line_index_2": 129,
+    "heRef_2": "תוספות על תמורה טו., א, א",
+    "ref_2": "Tosafot on Temurah 15a:1:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2625,
+    "line_index_2": 131,
+    "heRef_2": "תוספות על תמורה טו:, א, א",
+    "ref_2": "Tosafot on Temurah 15b:1:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2708,
+    "line_index_2": 139,
+    "heRef_2": "תוספות על תמורה טז:, א, א",
+    "ref_2": "Tosafot on Temurah 16b:1:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2692,
+    "line_index_2": 140,
+    "heRef_2": "תוספות על תמורה טז:, ג, א",
+    "ref_2": "Tosafot on Temurah 16b:3:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2894,
+    "line_index_2": 151,
+    "heRef_2": "תוספות על תמורה יח., ד, א",
+    "ref_2": "Tosafot on Temurah 18a:4:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2987,
+    "line_index_2": 174,
+    "heRef_2": "תוספות על תמורה יט:, א, ב",
+    "ref_2": "Tosafot on Temurah 19b:1:2",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2965,
+    "line_index_2": 176,
+    "heRef_2": "תוספות על תמורה יט:, ו, א",
+    "ref_2": "Tosafot on Temurah 19b:6:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2981,
+    "line_index_2": 180,
+    "heRef_2": "תוספות על תמורה יט:, טו, א",
+    "ref_2": "Tosafot on Temurah 19b:15:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3022,
+    "line_index_2": 184,
+    "heRef_2": "תוספות על תמורה כ., ו, א",
+    "ref_2": "Tosafot on Temurah 20a:6:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3008,
+    "line_index_2": 187,
+    "heRef_2": "תוספות על תמורה כ., ט, א",
+    "ref_2": "Tosafot on Temurah 20a:9:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3069,
+    "line_index_2": 193,
+    "heRef_2": "תוספות על תמורה כ:, יב, א",
+    "ref_2": "Tosafot on Temurah 20b:12:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3053,
+    "line_index_2": 195,
+    "heRef_2": "תוספות על תמורה כ:, יג, ב",
+    "ref_2": "Tosafot on Temurah 20b:13:2",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3234,
+    "line_index_2": 199,
+    "heRef_2": "תוספות על תמורה כא., ו, א",
+    "ref_2": "Tosafot on Temurah 21a:6:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3228,
+    "line_index_2": 201,
+    "heRef_2": "תוספות על תמורה כא., כא, א",
+    "ref_2": "Tosafot on Temurah 21a:21:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3249,
+    "line_index_2": 203,
+    "heRef_2": "תוספות על תמורה כא:, ד, א",
+    "ref_2": "Tosafot on Temurah 21b:4:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3312,
+    "line_index_2": 209,
+    "heRef_2": "תוספות על תמורה כב., ט, א",
+    "ref_2": "Tosafot on Temurah 22a:9:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3344,
+    "line_index_2": 209,
+    "heRef_2": "תוספות על תמורה כב., ט, א",
+    "ref_2": "Tosafot on Temurah 22a:9:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3338,
+    "line_index_2": 212,
+    "heRef_2": "תוספות על תמורה כב., יח, א",
+    "ref_2": "Tosafot on Temurah 22a:18:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3414,
+    "line_index_2": 216,
+    "heRef_2": "תוספות על תמורה כג., א, א",
+    "ref_2": "Tosafot on Temurah 23a:1:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3394,
+    "line_index_2": 218,
+    "heRef_2": "תוספות על תמורה כג., ז, א",
+    "ref_2": "Tosafot on Temurah 23a:7:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3408,
+    "line_index_2": 219,
+    "heRef_2": "תוספות על תמורה כג., יב, א",
+    "ref_2": "Tosafot on Temurah 23a:12:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3460,
+    "line_index_2": 223,
+    "heRef_2": "תוספות על תמורה כג:, יג, א",
+    "ref_2": "Tosafot on Temurah 23b:13:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3565,
+    "line_index_2": 230,
+    "heRef_2": "תוספות על תמורה כד:, ד, א",
+    "ref_2": "Tosafot on Temurah 24b:4:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3640,
+    "line_index_2": 235,
+    "heRef_2": "תוספות על תמורה כה., יב, א",
+    "ref_2": "Tosafot on Temurah 25a:12:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3760,
+    "line_index_2": 243,
+    "heRef_2": "תוספות על תמורה כה:, טז, א",
+    "ref_2": "Tosafot on Temurah 25b:16:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3803,
+    "line_index_2": 245,
+    "heRef_2": "תוספות על תמורה כו., א, א",
+    "ref_2": "Tosafot on Temurah 26a:1:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3865,
+    "line_index_2": 250,
+    "heRef_2": "תוספות על תמורה כו:, א, א",
+    "ref_2": "Tosafot on Temurah 26b:1:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3851,
+    "line_index_2": 251,
+    "heRef_2": "תוספות על תמורה כו:, ג, א",
+    "ref_2": "Tosafot on Temurah 26b:3:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3870,
+    "line_index_2": 254,
+    "heRef_2": "תוספות על תמורה כז., ח, א",
+    "ref_2": "Tosafot on Temurah 27a:8:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4370,
+    "line_index_2": 277,
+    "heRef_2": "תוספות על תמורה כט., ו, א",
+    "ref_2": "Tosafot on Temurah 29a:6:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4591,
+    "line_index_2": 281,
+    "heRef_2": "תוספות על תמורה כט:, ט, א",
+    "ref_2": "Tosafot on Temurah 29b:9:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4809,
+    "line_index_2": 287,
+    "heRef_2": "תוספות על תמורה ל:, א, א",
+    "ref_2": "Tosafot on Temurah 30b:1:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4708,
+    "line_index_2": 288,
+    "heRef_2": "תוספות על תמורה ל:, ד, א",
+    "ref_2": "Tosafot on Temurah 30b:4:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4983,
+    "line_index_2": 292,
+    "heRef_2": "תוספות על תמורה לא., א, א",
+    "ref_2": "Tosafot on Temurah 31a:1:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5003,
+    "line_index_2": 299,
+    "heRef_2": "תוספות על תמורה לא:, א, א",
+    "ref_2": "Tosafot on Temurah 31b:1:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5042,
+    "line_index_2": 307,
+    "heRef_2": "תוספות על תמורה לב., א, א",
+    "ref_2": "Tosafot on Temurah 32a:1:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5091,
+    "line_index_2": 328,
+    "heRef_2": "תוספות על תמורה לג., טז, א",
+    "ref_2": "Tosafot on Temurah 33a:16:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5450,
+    "line_index_2": 335,
+    "heRef_2": "תוספות על תמורה לד., ט, א",
+    "ref_2": "Tosafot on Temurah 34a:9:1",
+    "path_2": "תוספות על תמורה.txt",
+    "Conection Type": "source"
+  }
+]

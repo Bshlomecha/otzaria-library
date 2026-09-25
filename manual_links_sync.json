@@ -10,6 +10,7 @@
     { "path": "sefariaToOtzaria/sefaria_export/links", "expected_state": "absent" },
     { "path": "sefariaToOtzaria/sefaria_api/links", "expected_state": "absent" },
     { "path": "MoreBooks/links", "expected_state": "present" },
+    { "path": "KSK/links", "expected_state": "present" },
     { "path": "wikiJewishBooksToOtzaria/links", "expected_state": "present" },
     { "path": "wikisourceToOtzaria/links", "expected_state": "absent" },
     { "path": "ToratEmetToOtzaria/links", "expected_state": "present" },

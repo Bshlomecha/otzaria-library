@@ -1,0 +1,5242 @@
+[
+  {
+    "line_index_1": 10,
+    "line_index_2": 3,
+    "heRef_2": "ערכין ב., א",
+    "ref_2": "Arakhin 2a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 27,
+    "line_index_2": 3,
+    "heRef_2": "ערכין ב., א",
+    "ref_2": "Arakhin 2a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 39,
+    "line_index_2": 12,
+    "heRef_2": "ערכין ב., י",
+    "ref_2": "Arakhin 2a:10",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 41,
+    "line_index_2": 16,
+    "heRef_2": "ערכין ב., יד",
+    "ref_2": "Arakhin 2a:14",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 49,
+    "line_index_2": 16,
+    "heRef_2": "ערכין ב., יד",
+    "ref_2": "Arakhin 2a:14",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 51,
+    "line_index_2": 16,
+    "heRef_2": "ערכין ב., יד",
+    "ref_2": "Arakhin 2a:14",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 53,
+    "line_index_2": 17,
+    "heRef_2": "ערכין ב., טו",
+    "ref_2": "Arakhin 2a:15",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 55,
+    "line_index_2": 18,
+    "heRef_2": "ערכין ב., טז",
+    "ref_2": "Arakhin 2a:16",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 62,
+    "line_index_2": 21,
+    "heRef_2": "ערכין ב:, א",
+    "ref_2": "Arakhin 2b:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 476,
+    "line_index_2": 21,
+    "heRef_2": "ערכין ב:, א",
+    "ref_2": "Arakhin 2b:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 68,
+    "line_index_2": 24,
+    "heRef_2": "ערכין ב:, ד",
+    "ref_2": "Arakhin 2b:4",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 72,
+    "line_index_2": 24,
+    "heRef_2": "ערכין ב:, ד",
+    "ref_2": "Arakhin 2b:4",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 130,
+    "line_index_2": 25,
+    "heRef_2": "ערכין ב:, ה",
+    "ref_2": "Arakhin 2b:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 132,
+    "line_index_2": 25,
+    "heRef_2": "ערכין ב:, ה",
+    "ref_2": "Arakhin 2b:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 137,
+    "line_index_2": 25,
+    "heRef_2": "ערכין ב:, ה",
+    "ref_2": "Arakhin 2b:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 141,
+    "line_index_2": 25,
+    "heRef_2": "ערכין ב:, ה",
+    "ref_2": "Arakhin 2b:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 143,
+    "line_index_2": 25,
+    "heRef_2": "ערכין ב:, ה",
+    "ref_2": "Arakhin 2b:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 151,
+    "line_index_2": 25,
+    "heRef_2": "ערכין ב:, ה",
+    "ref_2": "Arakhin 2b:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 153,
+    "line_index_2": 25,
+    "heRef_2": "ערכין ב:, ה",
+    "ref_2": "Arakhin 2b:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 155,
+    "line_index_2": 25,
+    "heRef_2": "ערכין ב:, ה",
+    "ref_2": "Arakhin 2b:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 167,
+    "line_index_2": 25,
+    "heRef_2": "ערכין ב:, ה",
+    "ref_2": "Arakhin 2b:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 169,
+    "line_index_2": 26,
+    "heRef_2": "ערכין ב:, ו",
+    "ref_2": "Arakhin 2b:6",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 181,
+    "line_index_2": 26,
+    "heRef_2": "ערכין ב:, ו",
+    "ref_2": "Arakhin 2b:6",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 187,
+    "line_index_2": 26,
+    "heRef_2": "ערכין ב:, ו",
+    "ref_2": "Arakhin 2b:6",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 203,
+    "line_index_2": 27,
+    "heRef_2": "ערכין ב:, ז",
+    "ref_2": "Arakhin 2b:7",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 221,
+    "line_index_2": 27,
+    "heRef_2": "ערכין ב:, ז",
+    "ref_2": "Arakhin 2b:7",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 226,
+    "line_index_2": 28,
+    "heRef_2": "ערכין ב:, ח",
+    "ref_2": "Arakhin 2b:8",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 246,
+    "line_index_2": 28,
+    "heRef_2": "ערכין ב:, ח",
+    "ref_2": "Arakhin 2b:8",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 330,
+    "line_index_2": 28,
+    "heRef_2": "ערכין ב:, ח",
+    "ref_2": "Arakhin 2b:8",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 304,
+    "line_index_2": 34,
+    "heRef_2": "ערכין ב:, יד",
+    "ref_2": "Arakhin 2b:14",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 356,
+    "line_index_2": 37,
+    "heRef_2": "ערכין ב:, יז",
+    "ref_2": "Arakhin 2b:17",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 360,
+    "line_index_2": 37,
+    "heRef_2": "ערכין ב:, יז",
+    "ref_2": "Arakhin 2b:17",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 394,
+    "line_index_2": 37,
+    "heRef_2": "ערכין ב:, יז",
+    "ref_2": "Arakhin 2b:17",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 406,
+    "line_index_2": 37,
+    "heRef_2": "ערכין ב:, יז",
+    "ref_2": "Arakhin 2b:17",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 410,
+    "line_index_2": 37,
+    "heRef_2": "ערכין ב:, יז",
+    "ref_2": "Arakhin 2b:17",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 424,
+    "line_index_2": 37,
+    "heRef_2": "ערכין ב:, יז",
+    "ref_2": "Arakhin 2b:17",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 426,
+    "line_index_2": 37,
+    "heRef_2": "ערכין ב:, יז",
+    "ref_2": "Arakhin 2b:17",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 428,
+    "line_index_2": 37,
+    "heRef_2": "ערכין ב:, יז",
+    "ref_2": "Arakhin 2b:17",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 438,
+    "line_index_2": 38,
+    "heRef_2": "ערכין ב:, יח",
+    "ref_2": "Arakhin 2b:18",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 452,
+    "line_index_2": 38,
+    "heRef_2": "ערכין ב:, יח",
+    "ref_2": "Arakhin 2b:18",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 456,
+    "line_index_2": 38,
+    "heRef_2": "ערכין ב:, יח",
+    "ref_2": "Arakhin 2b:18",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 460,
+    "line_index_2": 38,
+    "heRef_2": "ערכין ב:, יח",
+    "ref_2": "Arakhin 2b:18",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 466,
+    "line_index_2": 38,
+    "heRef_2": "ערכין ב:, יח",
+    "ref_2": "Arakhin 2b:18",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 485,
+    "line_index_2": 40,
+    "heRef_2": "ערכין ג., א",
+    "ref_2": "Arakhin 3a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 495,
+    "line_index_2": 40,
+    "heRef_2": "ערכין ג., א",
+    "ref_2": "Arakhin 3a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 499,
+    "line_index_2": 40,
+    "heRef_2": "ערכין ג., א",
+    "ref_2": "Arakhin 3a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 503,
+    "line_index_2": 40,
+    "heRef_2": "ערכין ג., א",
+    "ref_2": "Arakhin 3a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 507,
+    "line_index_2": 40,
+    "heRef_2": "ערכין ג., א",
+    "ref_2": "Arakhin 3a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 527,
+    "line_index_2": 40,
+    "heRef_2": "ערכין ג., א",
+    "ref_2": "Arakhin 3a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 529,
+    "line_index_2": 40,
+    "heRef_2": "ערכין ג., א",
+    "ref_2": "Arakhin 3a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 553,
+    "line_index_2": 40,
+    "heRef_2": "ערכין ג., א",
+    "ref_2": "Arakhin 3a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 555,
+    "line_index_2": 40,
+    "heRef_2": "ערכין ג., א",
+    "ref_2": "Arakhin 3a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 551,
+    "line_index_2": 41,
+    "heRef_2": "ערכין ג., ב",
+    "ref_2": "Arakhin 3a:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 575,
+    "line_index_2": 41,
+    "heRef_2": "ערכין ג., ב",
+    "ref_2": "Arakhin 3a:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 583,
+    "line_index_2": 41,
+    "heRef_2": "ערכין ג., ב",
+    "ref_2": "Arakhin 3a:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 585,
+    "line_index_2": 41,
+    "heRef_2": "ערכין ג., ב",
+    "ref_2": "Arakhin 3a:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 595,
+    "line_index_2": 42,
+    "heRef_2": "ערכין ג., ג",
+    "ref_2": "Arakhin 3a:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 606,
+    "line_index_2": 42,
+    "heRef_2": "ערכין ג., ג",
+    "ref_2": "Arakhin 3a:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 655,
+    "line_index_2": 42,
+    "heRef_2": "ערכין ג., ג",
+    "ref_2": "Arakhin 3a:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 663,
+    "line_index_2": 42,
+    "heRef_2": "ערכין ג., ג",
+    "ref_2": "Arakhin 3a:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 667,
+    "line_index_2": 42,
+    "heRef_2": "ערכין ג., ג",
+    "ref_2": "Arakhin 3a:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 675,
+    "line_index_2": 42,
+    "heRef_2": "ערכין ג., ג",
+    "ref_2": "Arakhin 3a:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 677,
+    "line_index_2": 42,
+    "heRef_2": "ערכין ג., ג",
+    "ref_2": "Arakhin 3a:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 685,
+    "line_index_2": 42,
+    "heRef_2": "ערכין ג., ג",
+    "ref_2": "Arakhin 3a:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 868,
+    "line_index_2": 42,
+    "heRef_2": "ערכין ג., ג",
+    "ref_2": "Arakhin 3a:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 729,
+    "line_index_2": 46,
+    "heRef_2": "ערכין ג., ז",
+    "ref_2": "Arakhin 3a:7",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 751,
+    "line_index_2": 53,
+    "heRef_2": "ערכין ג., יד",
+    "ref_2": "Arakhin 3a:14",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 763,
+    "line_index_2": 53,
+    "heRef_2": "ערכין ג., יד",
+    "ref_2": "Arakhin 3a:14",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 773,
+    "line_index_2": 53,
+    "heRef_2": "ערכין ג., יד",
+    "ref_2": "Arakhin 3a:14",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 879,
+    "line_index_2": 59,
+    "heRef_2": "ערכין ג:, ב",
+    "ref_2": "Arakhin 3b:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 885,
+    "line_index_2": 60,
+    "heRef_2": "ערכין ג:, ג",
+    "ref_2": "Arakhin 3b:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 921,
+    "line_index_2": 63,
+    "heRef_2": "ערכין ג:, ו",
+    "ref_2": "Arakhin 3b:6",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 935,
+    "line_index_2": 63,
+    "heRef_2": "ערכין ג:, ו",
+    "ref_2": "Arakhin 3b:6",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1017,
+    "line_index_2": 68,
+    "heRef_2": "ערכין ג:, יא",
+    "ref_2": "Arakhin 3b:11",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1023,
+    "line_index_2": 68,
+    "heRef_2": "ערכין ג:, יא",
+    "ref_2": "Arakhin 3b:11",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1027,
+    "line_index_2": 68,
+    "heRef_2": "ערכין ג:, יא",
+    "ref_2": "Arakhin 3b:11",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1029,
+    "line_index_2": 69,
+    "heRef_2": "ערכין ג:, יב",
+    "ref_2": "Arakhin 3b:12",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1031,
+    "line_index_2": 71,
+    "heRef_2": "ערכין ג:, יד",
+    "ref_2": "Arakhin 3b:14",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1104,
+    "line_index_2": 74,
+    "heRef_2": "ערכין ג:, יז",
+    "ref_2": "Arakhin 3b:17",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1110,
+    "line_index_2": 74,
+    "heRef_2": "ערכין ג:, יז",
+    "ref_2": "Arakhin 3b:17",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1117,
+    "line_index_2": 77,
+    "heRef_2": "ערכין ד., ב",
+    "ref_2": "Arakhin 4a:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1119,
+    "line_index_2": 77,
+    "heRef_2": "ערכין ד., ב",
+    "ref_2": "Arakhin 4a:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1134,
+    "line_index_2": 77,
+    "heRef_2": "ערכין ד., ב",
+    "ref_2": "Arakhin 4a:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1142,
+    "line_index_2": 77,
+    "heRef_2": "ערכין ד., ב",
+    "ref_2": "Arakhin 4a:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1144,
+    "line_index_2": 77,
+    "heRef_2": "ערכין ד., ב",
+    "ref_2": "Arakhin 4a:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1194,
+    "line_index_2": 78,
+    "heRef_2": "ערכין ד., ג",
+    "ref_2": "Arakhin 4a:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1162,
+    "line_index_2": 80,
+    "heRef_2": "ערכין ד., ה",
+    "ref_2": "Arakhin 4a:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1170,
+    "line_index_2": 80,
+    "heRef_2": "ערכין ד., ה",
+    "ref_2": "Arakhin 4a:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1172,
+    "line_index_2": 81,
+    "heRef_2": "ערכין ד., ו",
+    "ref_2": "Arakhin 4a:6",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1176,
+    "line_index_2": 83,
+    "heRef_2": "ערכין ד., ח",
+    "ref_2": "Arakhin 4a:8",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1182,
+    "line_index_2": 87,
+    "heRef_2": "ערכין ד., יב",
+    "ref_2": "Arakhin 4a:12",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1184,
+    "line_index_2": 89,
+    "heRef_2": "ערכין ד., יד",
+    "ref_2": "Arakhin 4a:14",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1186,
+    "line_index_2": 92,
+    "heRef_2": "ערכין ד., יז",
+    "ref_2": "Arakhin 4a:17",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1199,
+    "line_index_2": 100,
+    "heRef_2": "ערכין ד:, ד",
+    "ref_2": "Arakhin 4b:4",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1278,
+    "line_index_2": 149,
+    "heRef_2": "ערכין ה:, ב",
+    "ref_2": "Arakhin 5b:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1280,
+    "line_index_2": 150,
+    "heRef_2": "ערכין ה:, ג",
+    "ref_2": "Arakhin 5b:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1357,
+    "line_index_2": 169,
+    "heRef_2": "ערכין ו., א",
+    "ref_2": "Arakhin 6a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1480,
+    "line_index_2": 169,
+    "heRef_2": "ערכין ו., א",
+    "ref_2": "Arakhin 6a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1315,
+    "line_index_2": 170,
+    "heRef_2": "ערכין ו., ב",
+    "ref_2": "Arakhin 6a:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1332,
+    "line_index_2": 173,
+    "heRef_2": "ערכין ו., ה",
+    "ref_2": "Arakhin 6a:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1336,
+    "line_index_2": 177,
+    "heRef_2": "ערכין ו., ט",
+    "ref_2": "Arakhin 6a:9",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1339,
+    "line_index_2": 177,
+    "heRef_2": "ערכין ו., ט",
+    "ref_2": "Arakhin 6a:9",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1351,
+    "line_index_2": 177,
+    "heRef_2": "ערכין ו., ט",
+    "ref_2": "Arakhin 6a:9",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1353,
+    "line_index_2": 177,
+    "heRef_2": "ערכין ו., ט",
+    "ref_2": "Arakhin 6a:9",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1399,
+    "line_index_2": 184,
+    "heRef_2": "ערכין ו., טז",
+    "ref_2": "Arakhin 6a:16",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1437,
+    "line_index_2": 184,
+    "heRef_2": "ערכין ו., טז",
+    "ref_2": "Arakhin 6a:16",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1443,
+    "line_index_2": 184,
+    "heRef_2": "ערכין ו., טז",
+    "ref_2": "Arakhin 6a:16",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1478,
+    "line_index_2": 184,
+    "heRef_2": "ערכין ו., טז",
+    "ref_2": "Arakhin 6a:16",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1691,
+    "line_index_2": 186,
+    "heRef_2": "ערכין ו:, א",
+    "ref_2": "Arakhin 6b:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1546,
+    "line_index_2": 187,
+    "heRef_2": "ערכין ו:, ב",
+    "ref_2": "Arakhin 6b:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1550,
+    "line_index_2": 187,
+    "heRef_2": "ערכין ו:, ב",
+    "ref_2": "Arakhin 6b:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1552,
+    "line_index_2": 187,
+    "heRef_2": "ערכין ו:, ב",
+    "ref_2": "Arakhin 6b:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1581,
+    "line_index_2": 195,
+    "heRef_2": "ערכין ו:, י",
+    "ref_2": "Arakhin 6b:10",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1595,
+    "line_index_2": 200,
+    "heRef_2": "ערכין ו:, טו",
+    "ref_2": "Arakhin 6b:15",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1635,
+    "line_index_2": 201,
+    "heRef_2": "ערכין ו:, טז",
+    "ref_2": "Arakhin 6b:16",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1674,
+    "line_index_2": 201,
+    "heRef_2": "ערכין ו:, טז",
+    "ref_2": "Arakhin 6b:16",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1698,
+    "line_index_2": 206,
+    "heRef_2": "ערכין ז., ב",
+    "ref_2": "Arakhin 7a:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1728,
+    "line_index_2": 215,
+    "heRef_2": "ערכין ז., יא",
+    "ref_2": "Arakhin 7a:11",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1730,
+    "line_index_2": 215,
+    "heRef_2": "ערכין ז., יא",
+    "ref_2": "Arakhin 7a:11",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1801,
+    "line_index_2": 223,
+    "heRef_2": "ערכין ז., יט",
+    "ref_2": "Arakhin 7a:19",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1767,
+    "line_index_2": 224,
+    "heRef_2": "ערכין ז., כ",
+    "ref_2": "Arakhin 7a:20",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1805,
+    "line_index_2": 225,
+    "heRef_2": "ערכין ז., כא",
+    "ref_2": "Arakhin 7a:21",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1814,
+    "line_index_2": 225,
+    "heRef_2": "ערכין ז., כא",
+    "ref_2": "Arakhin 7a:21",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1819,
+    "line_index_2": 225,
+    "heRef_2": "ערכין ז., כא",
+    "ref_2": "Arakhin 7a:21",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1821,
+    "line_index_2": 225,
+    "heRef_2": "ערכין ז., כא",
+    "ref_2": "Arakhin 7a:21",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1823,
+    "line_index_2": 225,
+    "heRef_2": "ערכין ז., כא",
+    "ref_2": "Arakhin 7a:21",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1825,
+    "line_index_2": 225,
+    "heRef_2": "ערכין ז., כא",
+    "ref_2": "Arakhin 7a:21",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1844,
+    "line_index_2": 228,
+    "heRef_2": "ערכין ז:, ב",
+    "ref_2": "Arakhin 7b:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1860,
+    "line_index_2": 228,
+    "heRef_2": "ערכין ז:, ב",
+    "ref_2": "Arakhin 7b:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1862,
+    "line_index_2": 228,
+    "heRef_2": "ערכין ז:, ב",
+    "ref_2": "Arakhin 7b:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1987,
+    "line_index_2": 230,
+    "heRef_2": "ערכין ז:, ד",
+    "ref_2": "Arakhin 7b:4",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1883,
+    "line_index_2": 231,
+    "heRef_2": "ערכין ז:, ה",
+    "ref_2": "Arakhin 7b:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1892,
+    "line_index_2": 237,
+    "heRef_2": "ערכין ז:, יא",
+    "ref_2": "Arakhin 7b:11",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1877,
+    "line_index_2": 238,
+    "heRef_2": "ערכין ז:, יב",
+    "ref_2": "Arakhin 7b:12",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1879,
+    "line_index_2": 239,
+    "heRef_2": "ערכין ז:, יג",
+    "ref_2": "Arakhin 7b:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1896,
+    "line_index_2": 241,
+    "heRef_2": "ערכין ז:, טו",
+    "ref_2": "Arakhin 7b:15",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1977,
+    "line_index_2": 241,
+    "heRef_2": "ערכין ז:, טו",
+    "ref_2": "Arakhin 7b:15",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1894,
+    "line_index_2": 243,
+    "heRef_2": "ערכין ז:, יז",
+    "ref_2": "Arakhin 7b:17",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1902,
+    "line_index_2": 248,
+    "heRef_2": "ערכין ז:, כב",
+    "ref_2": "Arakhin 7b:22",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1946,
+    "line_index_2": 249,
+    "heRef_2": "ערכין ז:, כג",
+    "ref_2": "Arakhin 7b:23",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1950,
+    "line_index_2": 249,
+    "heRef_2": "ערכין ז:, כג",
+    "ref_2": "Arakhin 7b:23",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1969,
+    "line_index_2": 249,
+    "heRef_2": "ערכין ז:, כג",
+    "ref_2": "Arakhin 7b:23",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1983,
+    "line_index_2": 249,
+    "heRef_2": "ערכין ז:, כג",
+    "ref_2": "Arakhin 7b:23",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1985,
+    "line_index_2": 250,
+    "heRef_2": "ערכין ז:, כד",
+    "ref_2": "Arakhin 7b:24",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1994,
+    "line_index_2": 253,
+    "heRef_2": "ערכין ח., ב",
+    "ref_2": "Arakhin 8a:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2060,
+    "line_index_2": 253,
+    "heRef_2": "ערכין ח., ב",
+    "ref_2": "Arakhin 8a:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2044,
+    "line_index_2": 256,
+    "heRef_2": "ערכין ח., ה",
+    "ref_2": "Arakhin 8a:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2000,
+    "line_index_2": 257,
+    "heRef_2": "ערכין ח., ו",
+    "ref_2": "Arakhin 8a:6",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2058,
+    "line_index_2": 263,
+    "heRef_2": "ערכין ח., יב",
+    "ref_2": "Arakhin 8a:12",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2067,
+    "line_index_2": 271,
+    "heRef_2": "ערכין ח:, ה",
+    "ref_2": "Arakhin 8b:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2071,
+    "line_index_2": 275,
+    "heRef_2": "ערכין ח:, ט",
+    "ref_2": "Arakhin 8b:9",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2075,
+    "line_index_2": 278,
+    "heRef_2": "ערכין ח:, יב",
+    "ref_2": "Arakhin 8b:12",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2107,
+    "line_index_2": 281,
+    "heRef_2": "ערכין ח:, טו",
+    "ref_2": "Arakhin 8b:15",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2109,
+    "line_index_2": 281,
+    "heRef_2": "ערכין ח:, טו",
+    "ref_2": "Arakhin 8b:15",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2113,
+    "line_index_2": 281,
+    "heRef_2": "ערכין ח:, טו",
+    "ref_2": "Arakhin 8b:15",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2143,
+    "line_index_2": 282,
+    "heRef_2": "ערכין ח:, טז",
+    "ref_2": "Arakhin 8b:16",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2163,
+    "line_index_2": 282,
+    "heRef_2": "ערכין ח:, טז",
+    "ref_2": "Arakhin 8b:16",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2174,
+    "line_index_2": 285,
+    "heRef_2": "ערכין ט., א",
+    "ref_2": "Arakhin 9a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2176,
+    "line_index_2": 285,
+    "heRef_2": "ערכין ט., א",
+    "ref_2": "Arakhin 9a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2181,
+    "line_index_2": 286,
+    "heRef_2": "ערכין ט., ב",
+    "ref_2": "Arakhin 9a:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2190,
+    "line_index_2": 286,
+    "heRef_2": "ערכין ט., ב",
+    "ref_2": "Arakhin 9a:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2192,
+    "line_index_2": 286,
+    "heRef_2": "ערכין ט., ב",
+    "ref_2": "Arakhin 9a:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2199,
+    "line_index_2": 293,
+    "heRef_2": "ערכין ט:, ב",
+    "ref_2": "Arakhin 9b:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2211,
+    "line_index_2": 293,
+    "heRef_2": "ערכין ט:, ב",
+    "ref_2": "Arakhin 9b:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2213,
+    "line_index_2": 297,
+    "heRef_2": "ערכין ט:, ו",
+    "ref_2": "Arakhin 9b:6",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2221,
+    "line_index_2": 299,
+    "heRef_2": "ערכין ט:, ח",
+    "ref_2": "Arakhin 9b:8",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2223,
+    "line_index_2": 300,
+    "heRef_2": "ערכין ט:, ט",
+    "ref_2": "Arakhin 9b:9",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2289,
+    "line_index_2": 302,
+    "heRef_2": "ערכין ט:, יא",
+    "ref_2": "Arakhin 9b:11",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2291,
+    "line_index_2": 303,
+    "heRef_2": "ערכין ט:, יב",
+    "ref_2": "Arakhin 9b:12",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2307,
+    "line_index_2": 307,
+    "heRef_2": "ערכין ט:, טז",
+    "ref_2": "Arakhin 9b:16",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2314,
+    "line_index_2": 309,
+    "heRef_2": "ערכין י., א",
+    "ref_2": "Arakhin 10a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2322,
+    "line_index_2": 309,
+    "heRef_2": "ערכין י., א",
+    "ref_2": "Arakhin 10a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2356,
+    "line_index_2": 310,
+    "heRef_2": "ערכין י., ב",
+    "ref_2": "Arakhin 10a:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2324,
+    "line_index_2": 311,
+    "heRef_2": "ערכין י., ג",
+    "ref_2": "Arakhin 10a:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2326,
+    "line_index_2": 311,
+    "heRef_2": "ערכין י., ג",
+    "ref_2": "Arakhin 10a:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2339,
+    "line_index_2": 311,
+    "heRef_2": "ערכין י., ג",
+    "ref_2": "Arakhin 10a:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2343,
+    "line_index_2": 311,
+    "heRef_2": "ערכין י., ג",
+    "ref_2": "Arakhin 10a:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2365,
+    "line_index_2": 317,
+    "heRef_2": "ערכין י., ט",
+    "ref_2": "Arakhin 10a:9",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2401,
+    "line_index_2": 318,
+    "heRef_2": "ערכין י., י",
+    "ref_2": "Arakhin 10a:10",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2431,
+    "line_index_2": 318,
+    "heRef_2": "ערכין י., י",
+    "ref_2": "Arakhin 10a:10",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2499,
+    "line_index_2": 320,
+    "heRef_2": "ערכין י., יב",
+    "ref_2": "Arakhin 10a:12",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2459,
+    "line_index_2": 321,
+    "heRef_2": "ערכין י., יג",
+    "ref_2": "Arakhin 10a:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2461,
+    "line_index_2": 321,
+    "heRef_2": "ערכין י., יג",
+    "ref_2": "Arakhin 10a:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2475,
+    "line_index_2": 321,
+    "heRef_2": "ערכין י., יג",
+    "ref_2": "Arakhin 10a:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2481,
+    "line_index_2": 321,
+    "heRef_2": "ערכין י., יג",
+    "ref_2": "Arakhin 10a:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2503,
+    "line_index_2": 321,
+    "heRef_2": "ערכין י., יג",
+    "ref_2": "Arakhin 10a:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2509,
+    "line_index_2": 321,
+    "heRef_2": "ערכין י., יג",
+    "ref_2": "Arakhin 10a:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2511,
+    "line_index_2": 321,
+    "heRef_2": "ערכין י., יג",
+    "ref_2": "Arakhin 10a:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2533,
+    "line_index_2": 321,
+    "heRef_2": "ערכין י., יג",
+    "ref_2": "Arakhin 10a:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2543,
+    "line_index_2": 321,
+    "heRef_2": "ערכין י., יג",
+    "ref_2": "Arakhin 10a:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2549,
+    "line_index_2": 321,
+    "heRef_2": "ערכין י., יג",
+    "ref_2": "Arakhin 10a:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2557,
+    "line_index_2": 321,
+    "heRef_2": "ערכין י., יג",
+    "ref_2": "Arakhin 10a:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2565,
+    "line_index_2": 321,
+    "heRef_2": "ערכין י., יג",
+    "ref_2": "Arakhin 10a:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2569,
+    "line_index_2": 321,
+    "heRef_2": "ערכין י., יג",
+    "ref_2": "Arakhin 10a:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2572,
+    "line_index_2": 321,
+    "heRef_2": "ערכין י., יג",
+    "ref_2": "Arakhin 10a:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2596,
+    "line_index_2": 321,
+    "heRef_2": "ערכין י., יג",
+    "ref_2": "Arakhin 10a:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2610,
+    "line_index_2": 321,
+    "heRef_2": "ערכין י., יג",
+    "ref_2": "Arakhin 10a:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2885,
+    "line_index_2": 326,
+    "heRef_2": "ערכין י:, ג",
+    "ref_2": "Arakhin 10b:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2762,
+    "line_index_2": 328,
+    "heRef_2": "ערכין י:, ה",
+    "ref_2": "Arakhin 10b:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2816,
+    "line_index_2": 328,
+    "heRef_2": "ערכין י:, ה",
+    "ref_2": "Arakhin 10b:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2822,
+    "line_index_2": 328,
+    "heRef_2": "ערכין י:, ה",
+    "ref_2": "Arakhin 10b:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2868,
+    "line_index_2": 335,
+    "heRef_2": "ערכין י:, יב",
+    "ref_2": "Arakhin 10b:12",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2877,
+    "line_index_2": 335,
+    "heRef_2": "ערכין י:, יב",
+    "ref_2": "Arakhin 10b:12",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2881,
+    "line_index_2": 336,
+    "heRef_2": "ערכין י:, יג",
+    "ref_2": "Arakhin 10b:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2870,
+    "line_index_2": 340,
+    "heRef_2": "ערכין י:, יז",
+    "ref_2": "Arakhin 10b:17",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2874,
+    "line_index_2": 341,
+    "heRef_2": "ערכין י:, יח",
+    "ref_2": "Arakhin 10b:18",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2922,
+    "line_index_2": 347,
+    "heRef_2": "ערכין יא., ה",
+    "ref_2": "Arakhin 11a:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2924,
+    "line_index_2": 348,
+    "heRef_2": "ערכין יא., ו",
+    "ref_2": "Arakhin 11a:6",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2930,
+    "line_index_2": 352,
+    "heRef_2": "ערכין יא., י",
+    "ref_2": "Arakhin 11a:10",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2932,
+    "line_index_2": 355,
+    "heRef_2": "ערכין יא., יג",
+    "ref_2": "Arakhin 11a:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2942,
+    "line_index_2": 357,
+    "heRef_2": "ערכין יא., טו",
+    "ref_2": "Arakhin 11a:15",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2951,
+    "line_index_2": 364,
+    "heRef_2": "ערכין יא:, א",
+    "ref_2": "Arakhin 11b:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2953,
+    "line_index_2": 364,
+    "heRef_2": "ערכין יא:, א",
+    "ref_2": "Arakhin 11b:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3009,
+    "line_index_2": 365,
+    "heRef_2": "ערכין יא:, ב",
+    "ref_2": "Arakhin 11b:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2993,
+    "line_index_2": 369,
+    "heRef_2": "ערכין יא:, ו",
+    "ref_2": "Arakhin 11b:6",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2999,
+    "line_index_2": 372,
+    "heRef_2": "ערכין יא:, ט",
+    "ref_2": "Arakhin 11b:9",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3005,
+    "line_index_2": 381,
+    "heRef_2": "ערכין יא:, יח",
+    "ref_2": "Arakhin 11b:18",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3014,
+    "line_index_2": 388,
+    "heRef_2": "ערכין יב., א",
+    "ref_2": "Arakhin 12a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3023,
+    "line_index_2": 388,
+    "heRef_2": "ערכין יב., א",
+    "ref_2": "Arakhin 12a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3025,
+    "line_index_2": 394,
+    "heRef_2": "ערכין יב., ז",
+    "ref_2": "Arakhin 12a:7",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3098,
+    "line_index_2": 407,
+    "heRef_2": "ערכין יב:, ג",
+    "ref_2": "Arakhin 12b:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3104,
+    "line_index_2": 412,
+    "heRef_2": "ערכין יב:, ח",
+    "ref_2": "Arakhin 12b:8",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3106,
+    "line_index_2": 412,
+    "heRef_2": "ערכין יב:, ח",
+    "ref_2": "Arakhin 12b:8",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3132,
+    "line_index_2": 417,
+    "heRef_2": "ערכין יג., א",
+    "ref_2": "Arakhin 13a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3155,
+    "line_index_2": 417,
+    "heRef_2": "ערכין יג., א",
+    "ref_2": "Arakhin 13a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3146,
+    "line_index_2": 425,
+    "heRef_2": "ערכין יג., ט",
+    "ref_2": "Arakhin 13a:9",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3162,
+    "line_index_2": 429,
+    "heRef_2": "ערכין יג:, א",
+    "ref_2": "Arakhin 13b:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3239,
+    "line_index_2": 432,
+    "heRef_2": "ערכין יג:, ד",
+    "ref_2": "Arakhin 13b:4",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3183,
+    "line_index_2": 434,
+    "heRef_2": "ערכין יג:, ו",
+    "ref_2": "Arakhin 13b:6",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3176,
+    "line_index_2": 435,
+    "heRef_2": "ערכין יג:, ז",
+    "ref_2": "Arakhin 13b:7",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3187,
+    "line_index_2": 437,
+    "heRef_2": "ערכין יג:, ט",
+    "ref_2": "Arakhin 13b:9",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3231,
+    "line_index_2": 445,
+    "heRef_2": "ערכין יג:, יז",
+    "ref_2": "Arakhin 13b:17",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3178,
+    "line_index_2": 446,
+    "heRef_2": "ערכין יג:, יח",
+    "ref_2": "Arakhin 13b:18",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3237,
+    "line_index_2": 446,
+    "heRef_2": "ערכין יג:, יח",
+    "ref_2": "Arakhin 13b:18",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3342,
+    "line_index_2": 451,
+    "heRef_2": "ערכין יד., א",
+    "ref_2": "Arakhin 14a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3273,
+    "line_index_2": 455,
+    "heRef_2": "ערכין יד., ה",
+    "ref_2": "Arakhin 14a:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3287,
+    "line_index_2": 455,
+    "heRef_2": "ערכין יד., ה",
+    "ref_2": "Arakhin 14a:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3295,
+    "line_index_2": 457,
+    "heRef_2": "ערכין יד., ז",
+    "ref_2": "Arakhin 14a:7",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3351,
+    "line_index_2": 473,
+    "heRef_2": "ערכין יד:, ב",
+    "ref_2": "Arakhin 14b:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3418,
+    "line_index_2": 476,
+    "heRef_2": "ערכין יד:, ה",
+    "ref_2": "Arakhin 14b:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3353,
+    "line_index_2": 477,
+    "heRef_2": "ערכין יד:, ו",
+    "ref_2": "Arakhin 14b:6",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3355,
+    "line_index_2": 483,
+    "heRef_2": "ערכין יד:, יב",
+    "ref_2": "Arakhin 14b:12",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3374,
+    "line_index_2": 483,
+    "heRef_2": "ערכין יד:, יב",
+    "ref_2": "Arakhin 14b:12",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3357,
+    "line_index_2": 484,
+    "heRef_2": "ערכין יד:, יג",
+    "ref_2": "Arakhin 14b:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3382,
+    "line_index_2": 486,
+    "heRef_2": "ערכין יד:, טו",
+    "ref_2": "Arakhin 14b:15",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3384,
+    "line_index_2": 487,
+    "heRef_2": "ערכין יד:, טז",
+    "ref_2": "Arakhin 14b:16",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3359,
+    "line_index_2": 490,
+    "heRef_2": "ערכין יד:, יט",
+    "ref_2": "Arakhin 14b:19",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3408,
+    "line_index_2": 490,
+    "heRef_2": "ערכין יד:, יט",
+    "ref_2": "Arakhin 14b:19",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3410,
+    "line_index_2": 493,
+    "heRef_2": "ערכין יד:, כב",
+    "ref_2": "Arakhin 14b:22",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3416,
+    "line_index_2": 494,
+    "heRef_2": "ערכין יד:, כג",
+    "ref_2": "Arakhin 14b:23",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3423,
+    "line_index_2": 498,
+    "heRef_2": "ערכין טו., א",
+    "ref_2": "Arakhin 15a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3429,
+    "line_index_2": 498,
+    "heRef_2": "ערכין טו., א",
+    "ref_2": "Arakhin 15a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3431,
+    "line_index_2": 498,
+    "heRef_2": "ערכין טו., א",
+    "ref_2": "Arakhin 15a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3433,
+    "line_index_2": 498,
+    "heRef_2": "ערכין טו., א",
+    "ref_2": "Arakhin 15a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3472,
+    "line_index_2": 500,
+    "heRef_2": "ערכין טו., ג",
+    "ref_2": "Arakhin 15a:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3435,
+    "line_index_2": 502,
+    "heRef_2": "ערכין טו., ה",
+    "ref_2": "Arakhin 15a:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3451,
+    "line_index_2": 508,
+    "heRef_2": "ערכין טו., יא",
+    "ref_2": "Arakhin 15a:11",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3455,
+    "line_index_2": 509,
+    "heRef_2": "ערכין טו., יב",
+    "ref_2": "Arakhin 15a:12",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3458,
+    "line_index_2": 509,
+    "heRef_2": "ערכין טו., יב",
+    "ref_2": "Arakhin 15a:12",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3634,
+    "line_index_2": 521,
+    "heRef_2": "ערכין טו:, ב",
+    "ref_2": "Arakhin 15b:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3489,
+    "line_index_2": 523,
+    "heRef_2": "ערכין טו:, ד",
+    "ref_2": "Arakhin 15b:4",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3513,
+    "line_index_2": 527,
+    "heRef_2": "ערכין טו:, ח",
+    "ref_2": "Arakhin 15b:8",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3515,
+    "line_index_2": 527,
+    "heRef_2": "ערכין טו:, ח",
+    "ref_2": "Arakhin 15b:8",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3585,
+    "line_index_2": 540,
+    "heRef_2": "ערכין טו:, כא",
+    "ref_2": "Arakhin 15b:21",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3592,
+    "line_index_2": 540,
+    "heRef_2": "ערכין טו:, כא",
+    "ref_2": "Arakhin 15b:21",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3587,
+    "line_index_2": 546,
+    "heRef_2": "ערכין טו:, כז",
+    "ref_2": "Arakhin 15b:27",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3653,
+    "line_index_2": 548,
+    "heRef_2": "ערכין טז., א",
+    "ref_2": "Arakhin 16a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3655,
+    "line_index_2": 548,
+    "heRef_2": "ערכין טז., א",
+    "ref_2": "Arakhin 16a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3659,
+    "line_index_2": 549,
+    "heRef_2": "ערכין טז., ב",
+    "ref_2": "Arakhin 16a:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3673,
+    "line_index_2": 552,
+    "heRef_2": "ערכין טז., ה",
+    "ref_2": "Arakhin 16a:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3683,
+    "line_index_2": 553,
+    "heRef_2": "ערכין טז., ו",
+    "ref_2": "Arakhin 16a:6",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3691,
+    "line_index_2": 560,
+    "heRef_2": "ערכין טז., יג",
+    "ref_2": "Arakhin 16a:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3671,
+    "line_index_2": 562,
+    "heRef_2": "ערכין טז., טו",
+    "ref_2": "Arakhin 16a:15",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3735,
+    "line_index_2": 573,
+    "heRef_2": "ערכין טז:, ב",
+    "ref_2": "Arakhin 16b:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3720,
+    "line_index_2": 574,
+    "heRef_2": "ערכין טז:, ג",
+    "ref_2": "Arakhin 16b:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3739,
+    "line_index_2": 575,
+    "heRef_2": "ערכין טז:, ד",
+    "ref_2": "Arakhin 16b:4",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3741,
+    "line_index_2": 575,
+    "heRef_2": "ערכין טז:, ד",
+    "ref_2": "Arakhin 16b:4",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3745,
+    "line_index_2": 575,
+    "heRef_2": "ערכין טז:, ד",
+    "ref_2": "Arakhin 16b:4",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3747,
+    "line_index_2": 575,
+    "heRef_2": "ערכין טז:, ד",
+    "ref_2": "Arakhin 16b:4",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3757,
+    "line_index_2": 575,
+    "heRef_2": "ערכין טז:, ד",
+    "ref_2": "Arakhin 16b:4",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3759,
+    "line_index_2": 575,
+    "heRef_2": "ערכין טז:, ד",
+    "ref_2": "Arakhin 16b:4",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3763,
+    "line_index_2": 576,
+    "heRef_2": "ערכין טז:, ה",
+    "ref_2": "Arakhin 16b:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3778,
+    "line_index_2": 576,
+    "heRef_2": "ערכין טז:, ה",
+    "ref_2": "Arakhin 16b:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3722,
+    "line_index_2": 577,
+    "heRef_2": "ערכין טז:, ו",
+    "ref_2": "Arakhin 16b:6",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3765,
+    "line_index_2": 581,
+    "heRef_2": "ערכין טז:, י",
+    "ref_2": "Arakhin 16b:10",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3724,
+    "line_index_2": 585,
+    "heRef_2": "ערכין טז:, יד",
+    "ref_2": "Arakhin 16b:14",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3864,
+    "line_index_2": 585,
+    "heRef_2": "ערכין טז:, יד",
+    "ref_2": "Arakhin 16b:14",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3893,
+    "line_index_2": 597,
+    "heRef_2": "ערכין יז., א",
+    "ref_2": "Arakhin 17a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3899,
+    "line_index_2": 599,
+    "heRef_2": "ערכין יז., ג",
+    "ref_2": "Arakhin 17a:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3907,
+    "line_index_2": 605,
+    "heRef_2": "ערכין יז., ט",
+    "ref_2": "Arakhin 17a:9",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3915,
+    "line_index_2": 609,
+    "heRef_2": "ערכין יז., יג",
+    "ref_2": "Arakhin 17a:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4002,
+    "line_index_2": 618,
+    "heRef_2": "ערכין יז:, א",
+    "ref_2": "Arakhin 17b:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3924,
+    "line_index_2": 623,
+    "heRef_2": "ערכין יז:, ו",
+    "ref_2": "Arakhin 17b:6",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3928,
+    "line_index_2": 626,
+    "heRef_2": "ערכין יז:, ט",
+    "ref_2": "Arakhin 17b:9",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3932,
+    "line_index_2": 626,
+    "heRef_2": "ערכין יז:, ט",
+    "ref_2": "Arakhin 17b:9",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3949,
+    "line_index_2": 634,
+    "heRef_2": "ערכין יז:, יז",
+    "ref_2": "Arakhin 17b:17",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3955,
+    "line_index_2": 634,
+    "heRef_2": "ערכין יז:, יז",
+    "ref_2": "Arakhin 17b:17",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3986,
+    "line_index_2": 634,
+    "heRef_2": "ערכין יז:, יז",
+    "ref_2": "Arakhin 17b:17",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3988,
+    "line_index_2": 634,
+    "heRef_2": "ערכין יז:, יז",
+    "ref_2": "Arakhin 17b:17",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4025,
+    "line_index_2": 636,
+    "heRef_2": "ערכין יח., א",
+    "ref_2": "Arakhin 18a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4027,
+    "line_index_2": 636,
+    "heRef_2": "ערכין יח., א",
+    "ref_2": "Arakhin 18a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4038,
+    "line_index_2": 638,
+    "heRef_2": "ערכין יח., ג",
+    "ref_2": "Arakhin 18a:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4112,
+    "line_index_2": 642,
+    "heRef_2": "ערכין יח., ז",
+    "ref_2": "Arakhin 18a:7",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4158,
+    "line_index_2": 642,
+    "heRef_2": "ערכין יח., ז",
+    "ref_2": "Arakhin 18a:7",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4182,
+    "line_index_2": 645,
+    "heRef_2": "ערכין יח., י",
+    "ref_2": "Arakhin 18a:10",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4184,
+    "line_index_2": 647,
+    "heRef_2": "ערכין יח., יב",
+    "ref_2": "Arakhin 18a:12",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4203,
+    "line_index_2": 647,
+    "heRef_2": "ערכין יח., יב",
+    "ref_2": "Arakhin 18a:12",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4188,
+    "line_index_2": 648,
+    "heRef_2": "ערכין יח., יג",
+    "ref_2": "Arakhin 18a:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4212,
+    "line_index_2": 655,
+    "heRef_2": "ערכין יח:, א",
+    "ref_2": "Arakhin 18b:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4214,
+    "line_index_2": 655,
+    "heRef_2": "ערכין יח:, א",
+    "ref_2": "Arakhin 18b:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4216,
+    "line_index_2": 655,
+    "heRef_2": "ערכין יח:, א",
+    "ref_2": "Arakhin 18b:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4275,
+    "line_index_2": 659,
+    "heRef_2": "ערכין יח:, ה",
+    "ref_2": "Arakhin 18b:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4222,
+    "line_index_2": 660,
+    "heRef_2": "ערכין יח:, ו",
+    "ref_2": "Arakhin 18b:6",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4284,
+    "line_index_2": 671,
+    "heRef_2": "ערכין יט., א",
+    "ref_2": "Arakhin 19a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4381,
+    "line_index_2": 672,
+    "heRef_2": "ערכין יט., ב",
+    "ref_2": "Arakhin 19a:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4286,
+    "line_index_2": 674,
+    "heRef_2": "ערכין יט., ד",
+    "ref_2": "Arakhin 19a:4",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4294,
+    "line_index_2": 675,
+    "heRef_2": "ערכין יט., ה",
+    "ref_2": "Arakhin 19a:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4296,
+    "line_index_2": 675,
+    "heRef_2": "ערכין יט., ה",
+    "ref_2": "Arakhin 19a:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4292,
+    "line_index_2": 676,
+    "heRef_2": "ערכין יט., ו",
+    "ref_2": "Arakhin 19a:6",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4298,
+    "line_index_2": 677,
+    "heRef_2": "ערכין יט., ז",
+    "ref_2": "Arakhin 19a:7",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4300,
+    "line_index_2": 678,
+    "heRef_2": "ערכין יט., ח",
+    "ref_2": "Arakhin 19a:8",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4341,
+    "line_index_2": 682,
+    "heRef_2": "ערכין יט., יב",
+    "ref_2": "Arakhin 19a:12",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4528,
+    "line_index_2": 686,
+    "heRef_2": "ערכין יט:, א",
+    "ref_2": "Arakhin 19b:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4388,
+    "line_index_2": 688,
+    "heRef_2": "ערכין יט:, ג",
+    "ref_2": "Arakhin 19b:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4394,
+    "line_index_2": 690,
+    "heRef_2": "ערכין יט:, ה",
+    "ref_2": "Arakhin 19b:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4405,
+    "line_index_2": 690,
+    "heRef_2": "ערכין יט:, ה",
+    "ref_2": "Arakhin 19b:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4422,
+    "line_index_2": 690,
+    "heRef_2": "ערכין יט:, ה",
+    "ref_2": "Arakhin 19b:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4424,
+    "line_index_2": 690,
+    "heRef_2": "ערכין יט:, ה",
+    "ref_2": "Arakhin 19b:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4466,
+    "line_index_2": 690,
+    "heRef_2": "ערכין יט:, ה",
+    "ref_2": "Arakhin 19b:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4470,
+    "line_index_2": 691,
+    "heRef_2": "ערכין יט:, ו",
+    "ref_2": "Arakhin 19b:6",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4396,
+    "line_index_2": 693,
+    "heRef_2": "ערכין יט:, ח",
+    "ref_2": "Arakhin 19b:8",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4516,
+    "line_index_2": 695,
+    "heRef_2": "ערכין יט:, י",
+    "ref_2": "Arakhin 19b:10",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4398,
+    "line_index_2": 697,
+    "heRef_2": "ערכין יט:, יב",
+    "ref_2": "Arakhin 19b:12",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4590,
+    "line_index_2": 715,
+    "heRef_2": "ערכין כ., י",
+    "ref_2": "Arakhin 20a:10",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4540,
+    "line_index_2": 727,
+    "heRef_2": "ערכין כ., כב",
+    "ref_2": "Arakhin 20a:22",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4597,
+    "line_index_2": 739,
+    "heRef_2": "ערכין כ:, א",
+    "ref_2": "Arakhin 20b:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4599,
+    "line_index_2": 741,
+    "heRef_2": "ערכין כ:, ג",
+    "ref_2": "Arakhin 20b:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4601,
+    "line_index_2": 744,
+    "heRef_2": "ערכין כ:, ו",
+    "ref_2": "Arakhin 20b:6",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4603,
+    "line_index_2": 745,
+    "heRef_2": "ערכין כ:, ז",
+    "ref_2": "Arakhin 20b:7",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4607,
+    "line_index_2": 746,
+    "heRef_2": "ערכין כ:, ח",
+    "ref_2": "Arakhin 20b:8",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4613,
+    "line_index_2": 746,
+    "heRef_2": "ערכין כ:, ח",
+    "ref_2": "Arakhin 20b:8",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4615,
+    "line_index_2": 748,
+    "heRef_2": "ערכין כ:, י",
+    "ref_2": "Arakhin 20b:10",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4619,
+    "line_index_2": 748,
+    "heRef_2": "ערכין כ:, י",
+    "ref_2": "Arakhin 20b:10",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4713,
+    "line_index_2": 750,
+    "heRef_2": "ערכין כא., א",
+    "ref_2": "Arakhin 21a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4766,
+    "line_index_2": 750,
+    "heRef_2": "ערכין כא., א",
+    "ref_2": "Arakhin 21a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4717,
+    "line_index_2": 754,
+    "heRef_2": "ערכין כא., ה",
+    "ref_2": "Arakhin 21a:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4773,
+    "line_index_2": 768,
+    "heRef_2": "ערכין כא:, ג",
+    "ref_2": "Arakhin 21b:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5159,
+    "line_index_2": 769,
+    "heRef_2": "ערכין כא:, ד",
+    "ref_2": "Arakhin 21b:4",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4777,
+    "line_index_2": 774,
+    "heRef_2": "ערכין כא:, ט",
+    "ref_2": "Arakhin 21b:9",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4842,
+    "line_index_2": 774,
+    "heRef_2": "ערכין כא:, ט",
+    "ref_2": "Arakhin 21b:9",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4917,
+    "line_index_2": 774,
+    "heRef_2": "ערכין כא:, ט",
+    "ref_2": "Arakhin 21b:9",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4937,
+    "line_index_2": 774,
+    "heRef_2": "ערכין כא:, ט",
+    "ref_2": "Arakhin 21b:9",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5048,
+    "line_index_2": 778,
+    "heRef_2": "ערכין כא:, יג",
+    "ref_2": "Arakhin 21b:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5054,
+    "line_index_2": 778,
+    "heRef_2": "ערכין כא:, יג",
+    "ref_2": "Arakhin 21b:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5056,
+    "line_index_2": 778,
+    "heRef_2": "ערכין כא:, יג",
+    "ref_2": "Arakhin 21b:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5137,
+    "line_index_2": 778,
+    "heRef_2": "ערכין כא:, יג",
+    "ref_2": "Arakhin 21b:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5156,
+    "line_index_2": 779,
+    "heRef_2": "ערכין כא:, יד",
+    "ref_2": "Arakhin 21b:14",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5143,
+    "line_index_2": 780,
+    "heRef_2": "ערכין כא:, טו",
+    "ref_2": "Arakhin 21b:15",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5146,
+    "line_index_2": 780,
+    "heRef_2": "ערכין כא:, טו",
+    "ref_2": "Arakhin 21b:15",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5166,
+    "line_index_2": 784,
+    "heRef_2": "ערכין כב., א",
+    "ref_2": "Arakhin 22a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5170,
+    "line_index_2": 787,
+    "heRef_2": "ערכין כב., ד",
+    "ref_2": "Arakhin 22a:4",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5179,
+    "line_index_2": 789,
+    "heRef_2": "ערכין כב., ו",
+    "ref_2": "Arakhin 22a:6",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5181,
+    "line_index_2": 789,
+    "heRef_2": "ערכין כב., ו",
+    "ref_2": "Arakhin 22a:6",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5502,
+    "line_index_2": 789,
+    "heRef_2": "ערכין כב., ו",
+    "ref_2": "Arakhin 22a:6",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5192,
+    "line_index_2": 791,
+    "heRef_2": "ערכין כב., ח",
+    "ref_2": "Arakhin 22a:8",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5264,
+    "line_index_2": 793,
+    "heRef_2": "ערכין כב., י",
+    "ref_2": "Arakhin 22a:10",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5266,
+    "line_index_2": 793,
+    "heRef_2": "ערכין כב., י",
+    "ref_2": "Arakhin 22a:10",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5272,
+    "line_index_2": 793,
+    "heRef_2": "ערכין כב., י",
+    "ref_2": "Arakhin 22a:10",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5274,
+    "line_index_2": 793,
+    "heRef_2": "ערכין כב., י",
+    "ref_2": "Arakhin 22a:10",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5276,
+    "line_index_2": 793,
+    "heRef_2": "ערכין כב., י",
+    "ref_2": "Arakhin 22a:10",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5286,
+    "line_index_2": 793,
+    "heRef_2": "ערכין כב., י",
+    "ref_2": "Arakhin 22a:10",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5310,
+    "line_index_2": 797,
+    "heRef_2": "ערכין כב., יד",
+    "ref_2": "Arakhin 22a:14",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5322,
+    "line_index_2": 797,
+    "heRef_2": "ערכין כב., יד",
+    "ref_2": "Arakhin 22a:14",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5324,
+    "line_index_2": 803,
+    "heRef_2": "ערכין כב., כ",
+    "ref_2": "Arakhin 22a:20",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5326,
+    "line_index_2": 804,
+    "heRef_2": "ערכין כב., כא",
+    "ref_2": "Arakhin 22a:21",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5334,
+    "line_index_2": 806,
+    "heRef_2": "ערכין כב., כג",
+    "ref_2": "Arakhin 22a:23",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5215,
+    "line_index_2": 807,
+    "heRef_2": "ערכין כב., כד",
+    "ref_2": "Arakhin 22a:24",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5336,
+    "line_index_2": 807,
+    "heRef_2": "ערכין כב., כד",
+    "ref_2": "Arakhin 22a:24",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5172,
+    "line_index_2": 808,
+    "heRef_2": "ערכין כב., כה",
+    "ref_2": "Arakhin 22a:25",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5492,
+    "line_index_2": 808,
+    "heRef_2": "ערכין כב., כה",
+    "ref_2": "Arakhin 22a:25",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5174,
+    "line_index_2": 810,
+    "heRef_2": "ערכין כב., כז",
+    "ref_2": "Arakhin 22a:27",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5396,
+    "line_index_2": 810,
+    "heRef_2": "ערכין כב., כז",
+    "ref_2": "Arakhin 22a:27",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5540,
+    "line_index_2": 810,
+    "heRef_2": "ערכין כב., כז",
+    "ref_2": "Arakhin 22a:27",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5555,
+    "line_index_2": 816,
+    "heRef_2": "ערכין כב:, ה",
+    "ref_2": "Arakhin 22b:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5551,
+    "line_index_2": 819,
+    "heRef_2": "ערכין כב:, ח",
+    "ref_2": "Arakhin 22b:8",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5650,
+    "line_index_2": 822,
+    "heRef_2": "ערכין כב:, יא",
+    "ref_2": "Arakhin 22b:11",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5652,
+    "line_index_2": 822,
+    "heRef_2": "ערכין כב:, יא",
+    "ref_2": "Arakhin 22b:11",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5670,
+    "line_index_2": 822,
+    "heRef_2": "ערכין כב:, יא",
+    "ref_2": "Arakhin 22b:11",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5707,
+    "line_index_2": 826,
+    "heRef_2": "ערכין כג., א",
+    "ref_2": "Arakhin 23a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5709,
+    "line_index_2": 826,
+    "heRef_2": "ערכין כג., א",
+    "ref_2": "Arakhin 23a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5711,
+    "line_index_2": 826,
+    "heRef_2": "ערכין כג., א",
+    "ref_2": "Arakhin 23a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5713,
+    "line_index_2": 826,
+    "heRef_2": "ערכין כג., א",
+    "ref_2": "Arakhin 23a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5961,
+    "line_index_2": 826,
+    "heRef_2": "ערכין כג., א",
+    "ref_2": "Arakhin 23a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5965,
+    "line_index_2": 826,
+    "heRef_2": "ערכין כג., א",
+    "ref_2": "Arakhin 23a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6009,
+    "line_index_2": 826,
+    "heRef_2": "ערכין כג., א",
+    "ref_2": "Arakhin 23a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5799,
+    "line_index_2": 827,
+    "heRef_2": "ערכין כג., ב",
+    "ref_2": "Arakhin 23a:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5768,
+    "line_index_2": 828,
+    "heRef_2": "ערכין כג., ג",
+    "ref_2": "Arakhin 23a:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5772,
+    "line_index_2": 828,
+    "heRef_2": "ערכין כג., ג",
+    "ref_2": "Arakhin 23a:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5774,
+    "line_index_2": 828,
+    "heRef_2": "ערכין כג., ג",
+    "ref_2": "Arakhin 23a:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5791,
+    "line_index_2": 828,
+    "heRef_2": "ערכין כג., ג",
+    "ref_2": "Arakhin 23a:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5801,
+    "line_index_2": 829,
+    "heRef_2": "ערכין כג., ד",
+    "ref_2": "Arakhin 23a:4",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5835,
+    "line_index_2": 831,
+    "heRef_2": "ערכין כג., ו",
+    "ref_2": "Arakhin 23a:6",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5839,
+    "line_index_2": 831,
+    "heRef_2": "ערכין כג., ו",
+    "ref_2": "Arakhin 23a:6",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5864,
+    "line_index_2": 831,
+    "heRef_2": "ערכין כג., ו",
+    "ref_2": "Arakhin 23a:6",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5887,
+    "line_index_2": 831,
+    "heRef_2": "ערכין כג., ו",
+    "ref_2": "Arakhin 23a:6",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5891,
+    "line_index_2": 831,
+    "heRef_2": "ערכין כג., ו",
+    "ref_2": "Arakhin 23a:6",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5870,
+    "line_index_2": 832,
+    "heRef_2": "ערכין כג., ז",
+    "ref_2": "Arakhin 23a:7",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5916,
+    "line_index_2": 832,
+    "heRef_2": "ערכין כג., ז",
+    "ref_2": "Arakhin 23a:7",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5973,
+    "line_index_2": 837,
+    "heRef_2": "ערכין כג., יב",
+    "ref_2": "Arakhin 23a:12",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5715,
+    "line_index_2": 838,
+    "heRef_2": "ערכין כג., יג",
+    "ref_2": "Arakhin 23a:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6022,
+    "line_index_2": 844,
+    "heRef_2": "ערכין כג:, ג",
+    "ref_2": "Arakhin 23b:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6024,
+    "line_index_2": 844,
+    "heRef_2": "ערכין כג:, ג",
+    "ref_2": "Arakhin 23b:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6036,
+    "line_index_2": 844,
+    "heRef_2": "ערכין כג:, ג",
+    "ref_2": "Arakhin 23b:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6226,
+    "line_index_2": 844,
+    "heRef_2": "ערכין כג:, ג",
+    "ref_2": "Arakhin 23b:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6158,
+    "line_index_2": 849,
+    "heRef_2": "ערכין כג:, ח",
+    "ref_2": "Arakhin 23b:8",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6224,
+    "line_index_2": 853,
+    "heRef_2": "ערכין כג:, יב",
+    "ref_2": "Arakhin 23b:12",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6238,
+    "line_index_2": 854,
+    "heRef_2": "ערכין כג:, יג",
+    "ref_2": "Arakhin 23b:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6268,
+    "line_index_2": 859,
+    "heRef_2": "ערכין כד., ב",
+    "ref_2": "Arakhin 24a:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6370,
+    "line_index_2": 866,
+    "heRef_2": "ערכין כד., ט",
+    "ref_2": "Arakhin 24a:9",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6348,
+    "line_index_2": 867,
+    "heRef_2": "ערכין כד., י",
+    "ref_2": "Arakhin 24a:10",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6350,
+    "line_index_2": 867,
+    "heRef_2": "ערכין כד., י",
+    "ref_2": "Arakhin 24a:10",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6374,
+    "line_index_2": 869,
+    "heRef_2": "ערכין כד., יב",
+    "ref_2": "Arakhin 24a:12",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6380,
+    "line_index_2": 869,
+    "heRef_2": "ערכין כד., יב",
+    "ref_2": "Arakhin 24a:12",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6382,
+    "line_index_2": 869,
+    "heRef_2": "ערכין כד., יב",
+    "ref_2": "Arakhin 24a:12",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6388,
+    "line_index_2": 871,
+    "heRef_2": "ערכין כד., יד",
+    "ref_2": "Arakhin 24a:14",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6391,
+    "line_index_2": 871,
+    "heRef_2": "ערכין כד., יד",
+    "ref_2": "Arakhin 24a:14",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6393,
+    "line_index_2": 871,
+    "heRef_2": "ערכין כד., יד",
+    "ref_2": "Arakhin 24a:14",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6395,
+    "line_index_2": 871,
+    "heRef_2": "ערכין כד., יד",
+    "ref_2": "Arakhin 24a:14",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6399,
+    "line_index_2": 875,
+    "heRef_2": "ערכין כד., יח",
+    "ref_2": "Arakhin 24a:18",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6418,
+    "line_index_2": 883,
+    "heRef_2": "ערכין כד:, ז",
+    "ref_2": "Arakhin 24b:7",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6446,
+    "line_index_2": 887,
+    "heRef_2": "ערכין כד:, יא",
+    "ref_2": "Arakhin 24b:11",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6455,
+    "line_index_2": 890,
+    "heRef_2": "ערכין כה., א",
+    "ref_2": "Arakhin 25a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6457,
+    "line_index_2": 891,
+    "heRef_2": "ערכין כה., ב",
+    "ref_2": "Arakhin 25a:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6459,
+    "line_index_2": 891,
+    "heRef_2": "ערכין כה., ב",
+    "ref_2": "Arakhin 25a:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6461,
+    "line_index_2": 893,
+    "heRef_2": "ערכין כה., ד",
+    "ref_2": "Arakhin 25a:4",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6503,
+    "line_index_2": 896,
+    "heRef_2": "ערכין כה., ז",
+    "ref_2": "Arakhin 25a:7",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6536,
+    "line_index_2": 896,
+    "heRef_2": "ערכין כה., ז",
+    "ref_2": "Arakhin 25a:7",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6491,
+    "line_index_2": 901,
+    "heRef_2": "ערכין כה., יב",
+    "ref_2": "Arakhin 25a:12",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6493,
+    "line_index_2": 901,
+    "heRef_2": "ערכין כה., יב",
+    "ref_2": "Arakhin 25a:12",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6525,
+    "line_index_2": 901,
+    "heRef_2": "ערכין כה., יב",
+    "ref_2": "Arakhin 25a:12",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6543,
+    "line_index_2": 909,
+    "heRef_2": "ערכין כה:, ב",
+    "ref_2": "Arakhin 25b:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6545,
+    "line_index_2": 909,
+    "heRef_2": "ערכין כה:, ב",
+    "ref_2": "Arakhin 25b:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6624,
+    "line_index_2": 909,
+    "heRef_2": "ערכין כה:, ב",
+    "ref_2": "Arakhin 25b:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6557,
+    "line_index_2": 911,
+    "heRef_2": "ערכין כה:, ד",
+    "ref_2": "Arakhin 25b:4",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6559,
+    "line_index_2": 914,
+    "heRef_2": "ערכין כה:, ז",
+    "ref_2": "Arakhin 25b:7",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6608,
+    "line_index_2": 915,
+    "heRef_2": "ערכין כה:, ח",
+    "ref_2": "Arakhin 25b:8",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6614,
+    "line_index_2": 921,
+    "heRef_2": "ערכין כה:, יד",
+    "ref_2": "Arakhin 25b:14",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6620,
+    "line_index_2": 922,
+    "heRef_2": "ערכין כה:, טו",
+    "ref_2": "Arakhin 25b:15",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6561,
+    "line_index_2": 925,
+    "heRef_2": "ערכין כה:, יח",
+    "ref_2": "Arakhin 25b:18",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6639,
+    "line_index_2": 933,
+    "heRef_2": "ערכין כו., ג",
+    "ref_2": "Arakhin 26a:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6643,
+    "line_index_2": 936,
+    "heRef_2": "ערכין כו., ו",
+    "ref_2": "Arakhin 26a:6",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6647,
+    "line_index_2": 937,
+    "heRef_2": "ערכין כו., ז",
+    "ref_2": "Arakhin 26a:7",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6649,
+    "line_index_2": 938,
+    "heRef_2": "ערכין כו., ח",
+    "ref_2": "Arakhin 26a:8",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6653,
+    "line_index_2": 940,
+    "heRef_2": "ערכין כו., י",
+    "ref_2": "Arakhin 26a:10",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6689,
+    "line_index_2": 950,
+    "heRef_2": "ערכין כו:, ג",
+    "ref_2": "Arakhin 26b:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6671,
+    "line_index_2": 964,
+    "heRef_2": "ערכין כו:, יז",
+    "ref_2": "Arakhin 26b:17",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6692,
+    "line_index_2": 970,
+    "heRef_2": "ערכין כז., א",
+    "ref_2": "Arakhin 27a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6738,
+    "line_index_2": 970,
+    "heRef_2": "ערכין כז., א",
+    "ref_2": "Arakhin 27a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6696,
+    "line_index_2": 976,
+    "heRef_2": "ערכין כז., ז",
+    "ref_2": "Arakhin 27a:7",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6702,
+    "line_index_2": 977,
+    "heRef_2": "ערכין כז., ח",
+    "ref_2": "Arakhin 27a:8",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6747,
+    "line_index_2": 988,
+    "heRef_2": "ערכין כז:, א",
+    "ref_2": "Arakhin 27b:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6749,
+    "line_index_2": 989,
+    "heRef_2": "ערכין כז:, ב",
+    "ref_2": "Arakhin 27b:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6745,
+    "line_index_2": 1006,
+    "heRef_2": "ערכין כז:, יט",
+    "ref_2": "Arakhin 27b:19",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6771,
+    "line_index_2": 1011,
+    "heRef_2": "ערכין כח., ב",
+    "ref_2": "Arakhin 28a:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6775,
+    "line_index_2": 1011,
+    "heRef_2": "ערכין כח., ב",
+    "ref_2": "Arakhin 28a:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6777,
+    "line_index_2": 1011,
+    "heRef_2": "ערכין כח., ב",
+    "ref_2": "Arakhin 28a:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6781,
+    "line_index_2": 1012,
+    "heRef_2": "ערכין כח., ג",
+    "ref_2": "Arakhin 28a:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6783,
+    "line_index_2": 1015,
+    "heRef_2": "ערכין כח., ו",
+    "ref_2": "Arakhin 28a:6",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6826,
+    "line_index_2": 1019,
+    "heRef_2": "ערכין כח., י",
+    "ref_2": "Arakhin 28a:10",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6828,
+    "line_index_2": 1019,
+    "heRef_2": "ערכין כח., י",
+    "ref_2": "Arakhin 28a:10",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6838,
+    "line_index_2": 1021,
+    "heRef_2": "ערכין כח., יב",
+    "ref_2": "Arakhin 28a:12",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6848,
+    "line_index_2": 1021,
+    "heRef_2": "ערכין כח., יב",
+    "ref_2": "Arakhin 28a:12",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6850,
+    "line_index_2": 1022,
+    "heRef_2": "ערכין כח., יג",
+    "ref_2": "Arakhin 28a:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6852,
+    "line_index_2": 1023,
+    "heRef_2": "ערכין כח., יד",
+    "ref_2": "Arakhin 28a:14",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6863,
+    "line_index_2": 1028,
+    "heRef_2": "ערכין כח:, א",
+    "ref_2": "Arakhin 28b:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6911,
+    "line_index_2": 1037,
+    "heRef_2": "ערכין כח:, י",
+    "ref_2": "Arakhin 28b:10",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6934,
+    "line_index_2": 1037,
+    "heRef_2": "ערכין כח:, י",
+    "ref_2": "Arakhin 28b:10",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6965,
+    "line_index_2": 1037,
+    "heRef_2": "ערכין כח:, י",
+    "ref_2": "Arakhin 28b:10",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6967,
+    "line_index_2": 1038,
+    "heRef_2": "ערכין כח:, יא",
+    "ref_2": "Arakhin 28b:11",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6913,
+    "line_index_2": 1039,
+    "heRef_2": "ערכין כח:, יב",
+    "ref_2": "Arakhin 28b:12",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6969,
+    "line_index_2": 1039,
+    "heRef_2": "ערכין כח:, יב",
+    "ref_2": "Arakhin 28b:12",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6977,
+    "line_index_2": 1040,
+    "heRef_2": "ערכין כח:, יג",
+    "ref_2": "Arakhin 28b:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6915,
+    "line_index_2": 1041,
+    "heRef_2": "ערכין כח:, יד",
+    "ref_2": "Arakhin 28b:14",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6986,
+    "line_index_2": 1043,
+    "heRef_2": "ערכין כט., א",
+    "ref_2": "Arakhin 29a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7237,
+    "line_index_2": 1052,
+    "heRef_2": "ערכין כט., י",
+    "ref_2": "Arakhin 29a:10",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6998,
+    "line_index_2": 1053,
+    "heRef_2": "ערכין כט., יא",
+    "ref_2": "Arakhin 29a:11",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7116,
+    "line_index_2": 1054,
+    "heRef_2": "ערכין כט., יב",
+    "ref_2": "Arakhin 29a:12",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7145,
+    "line_index_2": 1056,
+    "heRef_2": "ערכין כט., יד",
+    "ref_2": "Arakhin 29a:14",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7172,
+    "line_index_2": 1057,
+    "heRef_2": "ערכין כט., טו",
+    "ref_2": "Arakhin 29a:15",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7191,
+    "line_index_2": 1059,
+    "heRef_2": "ערכין כט., יז",
+    "ref_2": "Arakhin 29a:17",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7199,
+    "line_index_2": 1061,
+    "heRef_2": "ערכין כט., יט",
+    "ref_2": "Arakhin 29a:19",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7205,
+    "line_index_2": 1062,
+    "heRef_2": "ערכין כט., כ",
+    "ref_2": "Arakhin 29a:20",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7286,
+    "line_index_2": 1068,
+    "heRef_2": "ערכין כט:, א",
+    "ref_2": "Arakhin 29b:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7254,
+    "line_index_2": 1069,
+    "heRef_2": "ערכין כט:, ב",
+    "ref_2": "Arakhin 29b:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7256,
+    "line_index_2": 1070,
+    "heRef_2": "ערכין כט:, ג",
+    "ref_2": "Arakhin 29b:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7270,
+    "line_index_2": 1070,
+    "heRef_2": "ערכין כט:, ג",
+    "ref_2": "Arakhin 29b:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7272,
+    "line_index_2": 1071,
+    "heRef_2": "ערכין כט:, ד",
+    "ref_2": "Arakhin 29b:4",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7288,
+    "line_index_2": 1075,
+    "heRef_2": "ערכין כט:, ח",
+    "ref_2": "Arakhin 29b:8",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7290,
+    "line_index_2": 1075,
+    "heRef_2": "ערכין כט:, ח",
+    "ref_2": "Arakhin 29b:8",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7294,
+    "line_index_2": 1078,
+    "heRef_2": "ערכין כט:, יא",
+    "ref_2": "Arakhin 29b:11",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7298,
+    "line_index_2": 1078,
+    "heRef_2": "ערכין כט:, יא",
+    "ref_2": "Arakhin 29b:11",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7304,
+    "line_index_2": 1080,
+    "heRef_2": "ערכין כט:, יג",
+    "ref_2": "Arakhin 29b:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7308,
+    "line_index_2": 1080,
+    "heRef_2": "ערכין כט:, יג",
+    "ref_2": "Arakhin 29b:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7316,
+    "line_index_2": 1080,
+    "heRef_2": "ערכין כט:, יג",
+    "ref_2": "Arakhin 29b:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7347,
+    "line_index_2": 1082,
+    "heRef_2": "ערכין ל., א",
+    "ref_2": "Arakhin 30a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7357,
+    "line_index_2": 1084,
+    "heRef_2": "ערכין ל., ג",
+    "ref_2": "Arakhin 30a:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7371,
+    "line_index_2": 1089,
+    "heRef_2": "ערכין ל., ח",
+    "ref_2": "Arakhin 30a:8",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7359,
+    "line_index_2": 1094,
+    "heRef_2": "ערכין ל., יג",
+    "ref_2": "Arakhin 30a:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7389,
+    "line_index_2": 1097,
+    "heRef_2": "ערכין ל., טז",
+    "ref_2": "Arakhin 30a:16",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7402,
+    "line_index_2": 1103,
+    "heRef_2": "ערכין ל:, א",
+    "ref_2": "Arakhin 30b:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7404,
+    "line_index_2": 1103,
+    "heRef_2": "ערכין ל:, א",
+    "ref_2": "Arakhin 30b:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7525,
+    "line_index_2": 1103,
+    "heRef_2": "ערכין ל:, א",
+    "ref_2": "Arakhin 30b:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7415,
+    "line_index_2": 1104,
+    "heRef_2": "ערכין ל:, ב",
+    "ref_2": "Arakhin 30b:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7425,
+    "line_index_2": 1104,
+    "heRef_2": "ערכין ל:, ב",
+    "ref_2": "Arakhin 30b:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7406,
+    "line_index_2": 1105,
+    "heRef_2": "ערכין ל:, ג",
+    "ref_2": "Arakhin 30b:3",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7462,
+    "line_index_2": 1114,
+    "heRef_2": "ערכין ל:, יב",
+    "ref_2": "Arakhin 30b:12",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7481,
+    "line_index_2": 1117,
+    "heRef_2": "ערכין ל:, טו",
+    "ref_2": "Arakhin 30b:15",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7538,
+    "line_index_2": 1127,
+    "heRef_2": "ערכין לא., א",
+    "ref_2": "Arakhin 31a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7530,
+    "line_index_2": 1128,
+    "heRef_2": "ערכין לא., ב",
+    "ref_2": "Arakhin 31a:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7576,
+    "line_index_2": 1139,
+    "heRef_2": "ערכין לא., יג",
+    "ref_2": "Arakhin 31a:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7619,
+    "line_index_2": 1141,
+    "heRef_2": "ערכין לא:, א",
+    "ref_2": "Arakhin 31b:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7692,
+    "line_index_2": 1141,
+    "heRef_2": "ערכין לא:, א",
+    "ref_2": "Arakhin 31b:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7631,
+    "line_index_2": 1147,
+    "heRef_2": "ערכין לא:, ז",
+    "ref_2": "Arakhin 31b:7",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7638,
+    "line_index_2": 1150,
+    "heRef_2": "ערכין לא:, י",
+    "ref_2": "Arakhin 31b:10",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7646,
+    "line_index_2": 1152,
+    "heRef_2": "ערכין לא:, יב",
+    "ref_2": "Arakhin 31b:12",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7648,
+    "line_index_2": 1153,
+    "heRef_2": "ערכין לא:, יג",
+    "ref_2": "Arakhin 31b:13",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7633,
+    "line_index_2": 1158,
+    "heRef_2": "ערכין לא:, יח",
+    "ref_2": "Arakhin 31b:18",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7656,
+    "line_index_2": 1158,
+    "heRef_2": "ערכין לא:, יח",
+    "ref_2": "Arakhin 31b:18",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7703,
+    "line_index_2": 1165,
+    "heRef_2": "ערכין לב., ה",
+    "ref_2": "Arakhin 32a:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7707,
+    "line_index_2": 1166,
+    "heRef_2": "ערכין לב., ו",
+    "ref_2": "Arakhin 32a:6",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7709,
+    "line_index_2": 1168,
+    "heRef_2": "ערכין לב., ח",
+    "ref_2": "Arakhin 32a:8",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7711,
+    "line_index_2": 1170,
+    "heRef_2": "ערכין לב., י",
+    "ref_2": "Arakhin 32a:10",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7713,
+    "line_index_2": 1170,
+    "heRef_2": "ערכין לב., י",
+    "ref_2": "Arakhin 32a:10",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7715,
+    "line_index_2": 1170,
+    "heRef_2": "ערכין לב., י",
+    "ref_2": "Arakhin 32a:10",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7717,
+    "line_index_2": 1170,
+    "heRef_2": "ערכין לב., י",
+    "ref_2": "Arakhin 32a:10",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7724,
+    "line_index_2": 1170,
+    "heRef_2": "ערכין לב., י",
+    "ref_2": "Arakhin 32a:10",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7738,
+    "line_index_2": 1170,
+    "heRef_2": "ערכין לב., י",
+    "ref_2": "Arakhin 32a:10",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7719,
+    "line_index_2": 1171,
+    "heRef_2": "ערכין לב., יא",
+    "ref_2": "Arakhin 32a:11",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7770,
+    "line_index_2": 1175,
+    "heRef_2": "ערכין לב:, א",
+    "ref_2": "Arakhin 32b:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7852,
+    "line_index_2": 1179,
+    "heRef_2": "ערכין לב:, ה",
+    "ref_2": "Arakhin 32b:5",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7867,
+    "line_index_2": 1186,
+    "heRef_2": "ערכין לב:, יב",
+    "ref_2": "Arakhin 32b:12",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7869,
+    "line_index_2": 1190,
+    "heRef_2": "ערכין לב:, טז",
+    "ref_2": "Arakhin 32b:16",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7972,
+    "line_index_2": 1195,
+    "heRef_2": "ערכין לג., ב",
+    "ref_2": "Arakhin 33a:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7977,
+    "line_index_2": 1216,
+    "heRef_2": "ערכין לג:, א",
+    "ref_2": "Arakhin 33b:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 8032,
+    "line_index_2": 1217,
+    "heRef_2": "ערכין לג:, ב",
+    "ref_2": "Arakhin 33b:2",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7979,
+    "line_index_2": 1225,
+    "heRef_2": "ערכין לג:, י",
+    "ref_2": "Arakhin 33b:10",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7981,
+    "line_index_2": 1227,
+    "heRef_2": "ערכין לג:, יב",
+    "ref_2": "Arakhin 33b:12",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7983,
+    "line_index_2": 1227,
+    "heRef_2": "ערכין לג:, יב",
+    "ref_2": "Arakhin 33b:12",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 8005,
+    "line_index_2": 1230,
+    "heRef_2": "ערכין לג:, טו",
+    "ref_2": "Arakhin 33b:15",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 8009,
+    "line_index_2": 1231,
+    "heRef_2": "ערכין לג:, טז",
+    "ref_2": "Arakhin 33b:16",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 8011,
+    "line_index_2": 1234,
+    "heRef_2": "ערכין לג:, יט",
+    "ref_2": "Arakhin 33b:19",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 8037,
+    "line_index_2": 1241,
+    "heRef_2": "ערכין לד., א",
+    "ref_2": "Arakhin 34a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 8047,
+    "line_index_2": 1241,
+    "heRef_2": "ערכין לד., א",
+    "ref_2": "Arakhin 34a:1",
+    "path_2": "ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 478,
+    "line_index_2": 28,
+    "heRef_2": "רש\"י על ערכין ב:, ב, ב",
+    "ref_2": "Rashi on Arakhin 2b:2:2",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1216,
+    "line_index_2": 113,
+    "heRef_2": "רש\"י על ערכין ד:, כד, א",
+    "ref_2": "Rashi on Arakhin 4b:24:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1271,
+    "line_index_2": 121,
+    "heRef_2": "רש\"י על ערכין ה., ב, א",
+    "ref_2": "Rashi on Arakhin 5a:2:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1282,
+    "line_index_2": 145,
+    "heRef_2": "רש\"י על ערכין ה:, א, א",
+    "ref_2": "Rashi on Arakhin 5b:1:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1482,
+    "line_index_2": 172,
+    "heRef_2": "רש\"י על ערכין ו., ג, ד",
+    "ref_2": "Rashi on Arakhin 6a:3:4",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1693,
+    "line_index_2": 194,
+    "heRef_2": "רש\"י על ערכין ו:, א, ב",
+    "ref_2": "Rashi on Arakhin 6b:1:2",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1833,
+    "line_index_2": 225,
+    "heRef_2": "רש\"י על ערכין ז., ו, א",
+    "ref_2": "Rashi on Arakhin 7a:6:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1803,
+    "line_index_2": 246,
+    "heRef_2": "רש\"י על ערכין ז., כ, א",
+    "ref_2": "Rashi on Arakhin 7a:20:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1989,
+    "line_index_2": 253,
+    "heRef_2": "רש\"י על ערכין ז:, ה, ג",
+    "ref_2": "Rashi on Arakhin 7b:5:3",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2062,
+    "line_index_2": 275,
+    "heRef_2": "רש\"י על ערכין ח., ד, א",
+    "ref_2": "Rashi on Arakhin 8a:4:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2171,
+    "line_index_2": 286,
+    "heRef_2": "רש\"י על ערכין ח:, א, א",
+    "ref_2": "Rashi on Arakhin 8b:1:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2194,
+    "line_index_2": 315,
+    "heRef_2": "רש\"י על ערכין ט., ב, א",
+    "ref_2": "Rashi on Arakhin 9a:2:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2183,
+    "line_index_2": 317,
+    "heRef_2": "רש\"י על ערכין ט., ב, ג",
+    "ref_2": "Rashi on Arakhin 9a:2:3",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2311,
+    "line_index_2": 323,
+    "heRef_2": "רש\"י על ערכין ט:, א, א",
+    "ref_2": "Rashi on Arakhin 9b:1:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2318,
+    "line_index_2": 355,
+    "heRef_2": "רש\"י על ערכין י., ג, ח",
+    "ref_2": "Rashi on Arakhin 10a:3:8",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2887,
+    "line_index_2": 380,
+    "heRef_2": "רש\"י על ערכין י:, יב, א",
+    "ref_2": "Rashi on Arakhin 10b:12:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3011,
+    "line_index_2": 420,
+    "heRef_2": "רש\"י על ערכין יא:, ט, א",
+    "ref_2": "Rashi on Arakhin 11b:9:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3034,
+    "line_index_2": 452,
+    "heRef_2": "רש\"י על ערכין יב., ח, א",
+    "ref_2": "Rashi on Arakhin 12a:8:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3127,
+    "line_index_2": 472,
+    "heRef_2": "רש\"י על ערכין יב:, ה, א",
+    "ref_2": "Rashi on Arakhin 12b:5:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3241,
+    "line_index_2": 497,
+    "heRef_2": "רש\"י על ערכין יג:, א, א",
+    "ref_2": "Rashi on Arakhin 13b:1:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3344,
+    "line_index_2": 522,
+    "heRef_2": "רש\"י על ערכין יד., א, א",
+    "ref_2": "Rashi on Arakhin 14a:1:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3420,
+    "line_index_2": 565,
+    "heRef_2": "רש\"י על ערכין יד:, יב, ב",
+    "ref_2": "Rashi on Arakhin 14b:12:2",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3474,
+    "line_index_2": 595,
+    "heRef_2": "רש\"י על ערכין טו., יג, א",
+    "ref_2": "Rashi on Arakhin 15a:13:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3636,
+    "line_index_2": 608,
+    "heRef_2": "רש\"י על ערכין טו:, יג, ב",
+    "ref_2": "Rashi on Arakhin 15b:13:2",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3713,
+    "line_index_2": 622,
+    "heRef_2": "רש\"י על ערכין טז., א, א",
+    "ref_2": "Rashi on Arakhin 16a:1:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3888,
+    "line_index_2": 657,
+    "heRef_2": "רש\"י על ערכין טז:, ט, א",
+    "ref_2": "Rashi on Arakhin 16b:9:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3917,
+    "line_index_2": 689,
+    "heRef_2": "רש\"י על ערכין יז., ט, ג",
+    "ref_2": "Rashi on Arakhin 17a:9:3",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4004,
+    "line_index_2": 700,
+    "heRef_2": "רש\"י על ערכין יז:, א, א",
+    "ref_2": "Rashi on Arakhin 17b:1:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4205,
+    "line_index_2": 738,
+    "heRef_2": "רש\"י על ערכין יח., יב, א",
+    "ref_2": "Rashi on Arakhin 18a:12:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4277,
+    "line_index_2": 752,
+    "heRef_2": "רש\"י על ערכין יח:, ג, א",
+    "ref_2": "Rashi on Arakhin 18b:3:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4383,
+    "line_index_2": 778,
+    "heRef_2": "רש\"י על ערכין יט., ה, א",
+    "ref_2": "Rashi on Arakhin 19a:5:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4592,
+    "line_index_2": 821,
+    "heRef_2": "רש\"י על ערכין כ., א, א",
+    "ref_2": "Rashi on Arakhin 20a:1:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4625,
+    "line_index_2": 855,
+    "heRef_2": "רש\"י על ערכין כ:, ה, א",
+    "ref_2": "Rashi on Arakhin 20b:5:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4768,
+    "line_index_2": 867,
+    "heRef_2": "רש\"י על ערכין כא., ב, א",
+    "ref_2": "Rashi on Arakhin 21a:2:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5161,
+    "line_index_2": 890,
+    "heRef_2": "רש\"י על ערכין כא:, יד, ב",
+    "ref_2": "Rashi on Arakhin 21b:14:2",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5546,
+    "line_index_2": 910,
+    "heRef_2": "רש\"י על ערכין כב., טז, א",
+    "ref_2": "Rashi on Arakhin 22a:16:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5700,
+    "line_index_2": 929,
+    "heRef_2": "רש\"י על ערכין כב:, ח, ג",
+    "ref_2": "Rashi on Arakhin 22b:8:3",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6011,
+    "line_index_2": 945,
+    "heRef_2": "רש\"י על ערכין כג., ח, א",
+    "ref_2": "Rashi on Arakhin 23a:8:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6255,
+    "line_index_2": 956,
+    "heRef_2": "רש\"י על ערכין כג:, ג, ב",
+    "ref_2": "Rashi on Arakhin 23b:3:2",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6403,
+    "line_index_2": 981,
+    "heRef_2": "רש\"י על ערכין כד., ו, א",
+    "ref_2": "Rashi on Arakhin 24a:6:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6538,
+    "line_index_2": 1017,
+    "heRef_2": "רש\"י על ערכין כה., א, א",
+    "ref_2": "Rashi on Arakhin 25a:1:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6634,
+    "line_index_2": 1049,
+    "heRef_2": "רש\"י על ערכין כה:, ד, א",
+    "ref_2": "Rashi on Arakhin 25b:4:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6657,
+    "line_index_2": 1069,
+    "heRef_2": "רש\"י על ערכין כו., ד, א",
+    "ref_2": "Rashi on Arakhin 26a:4:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6740,
+    "line_index_2": 1109,
+    "heRef_2": "רש\"י על ערכין כז., ב, א",
+    "ref_2": "Rashi on Arakhin 27a:2:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6766,
+    "line_index_2": 1131,
+    "heRef_2": "רש\"י על ערכין כז:, ב, א",
+    "ref_2": "Rashi on Arakhin 27b:2:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6856,
+    "line_index_2": 1154,
+    "heRef_2": "רש\"י על ערכין כח., א, א",
+    "ref_2": "Rashi on Arakhin 28a:1:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6981,
+    "line_index_2": 1174,
+    "heRef_2": "רש\"י על ערכין כח:, א, א",
+    "ref_2": "Rashi on Arakhin 28b:1:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7239,
+    "line_index_2": 1200,
+    "heRef_2": "רש\"י על ערכין כט., ב, א",
+    "ref_2": "Rashi on Arakhin 29a:2:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6990,
+    "line_index_2": 1201,
+    "heRef_2": "רש\"י על ערכין כט., ג, א",
+    "ref_2": "Rashi on Arakhin 29a:3:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7324,
+    "line_index_2": 1229,
+    "heRef_2": "רש\"י על ערכין כט:, ב, ב",
+    "ref_2": "Rashi on Arakhin 29b:2:2",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7314,
+    "line_index_2": 1247,
+    "heRef_2": "רש\"י על ערכין כט:, יב, ב",
+    "ref_2": "Rashi on Arakhin 29b:12:2",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7397,
+    "line_index_2": 1251,
+    "heRef_2": "רש\"י על ערכין ל., א, ב",
+    "ref_2": "Rashi on Arakhin 30a:1:2",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7527,
+    "line_index_2": 1278,
+    "heRef_2": "רש\"י על ערכין ל:, א, א",
+    "ref_2": "Rashi on Arakhin 30b:1:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7614,
+    "line_index_2": 1310,
+    "heRef_2": "רש\"י על ערכין לא., ד, ב",
+    "ref_2": "Rashi on Arakhin 31a:4:2",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7694,
+    "line_index_2": 1325,
+    "heRef_2": "רש\"י על ערכין לא:, א, א",
+    "ref_2": "Rashi on Arakhin 31b:1:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7765,
+    "line_index_2": 1355,
+    "heRef_2": "רש\"י על ערכין לב., ו, א",
+    "ref_2": "Rashi on Arakhin 32a:6:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7924,
+    "line_index_2": 1371,
+    "heRef_2": "רש\"י על ערכין לב:, ב, ג",
+    "ref_2": "Rashi on Arakhin 32b:2:3",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7974,
+    "line_index_2": 1398,
+    "heRef_2": "רש\"י על ערכין לג., ג, א",
+    "ref_2": "Rashi on Arakhin 33a:3:1",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 8034,
+    "line_index_2": 1439,
+    "heRef_2": "רש\"י על ערכין לג:, ה, ג",
+    "ref_2": "Rashi on Arakhin 33b:5:3",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 8049,
+    "line_index_2": 1471,
+    "heRef_2": "רש\"י על ערכין לד., א, ג",
+    "ref_2": "Rashi on Arakhin 34a:1:3",
+    "path_2": "רש\"י על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 195,
+    "line_index_2": 25,
+    "heRef_2": "תוספות על ערכין ב:, ו, א",
+    "ref_2": "Tosafot on Arakhin 2b:6:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 480,
+    "line_index_2": 29,
+    "heRef_2": "תוספות על ערכין ב:, ח, א",
+    "ref_2": "Tosafot on Arakhin 2b:8:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 430,
+    "line_index_2": 36,
+    "heRef_2": "תוספות על ערכין ב:, יז, ב",
+    "ref_2": "Tosafot on Arakhin 2b:17:2",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 557,
+    "line_index_2": 38,
+    "heRef_2": "תוספות על ערכין ג., א, א",
+    "ref_2": "Tosafot on Arakhin 3a:1:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1115,
+    "line_index_2": 68,
+    "heRef_2": "תוספות על ערכין ד., א, א",
+    "ref_2": "Tosafot on Arakhin 4a:1:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1203,
+    "line_index_2": 77,
+    "heRef_2": "תוספות על ערכין ד:, יב, א",
+    "ref_2": "Tosafot on Arakhin 4b:12:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1231,
+    "line_index_2": 86,
+    "heRef_2": "תוספות על ערכין ה., יג, א",
+    "ref_2": "Tosafot on Arakhin 5a:13:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1835,
+    "line_index_2": 108,
+    "heRef_2": "תוספות על ערכין ז., ד, א",
+    "ref_2": "Tosafot on Arakhin 7a:4:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1991,
+    "line_index_2": 114,
+    "heRef_2": "תוספות על ערכין ז:, טז, א",
+    "ref_2": "Tosafot on Arakhin 7b:16:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 2889,
+    "line_index_2": 144,
+    "heRef_2": "תוספות על ערכין י:, יב, א",
+    "ref_2": "Tosafot on Arakhin 10b:12:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3007,
+    "line_index_2": 163,
+    "heRef_2": "תוספות על ערכין יא:, כא, א",
+    "ref_2": "Tosafot on Arakhin 11b:21:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3021,
+    "line_index_2": 166,
+    "heRef_2": "תוספות על ערכין יב., א, א",
+    "ref_2": "Tosafot on Arakhin 12a:1:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3036,
+    "line_index_2": 166,
+    "heRef_2": "תוספות על ערכין יב., א, א",
+    "ref_2": "Tosafot on Arakhin 12a:1:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3243,
+    "line_index_2": 189,
+    "heRef_2": "תוספות על ערכין יג:, ט, א",
+    "ref_2": "Tosafot on Arakhin 13b:9:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3685,
+    "line_index_2": 213,
+    "heRef_2": "תוספות על ערכין טז., י, א",
+    "ref_2": "Tosafot on Arakhin 16a:10:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3715,
+    "line_index_2": 213,
+    "heRef_2": "תוספות על ערכין טז., י, א",
+    "ref_2": "Tosafot on Arakhin 16a:10:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3890,
+    "line_index_2": 219,
+    "heRef_2": "תוספות על ערכין טז:, יג, א",
+    "ref_2": "Tosafot on Arakhin 16b:13:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3909,
+    "line_index_2": 225,
+    "heRef_2": "תוספות על ערכין יז., יג, א",
+    "ref_2": "Tosafot on Arakhin 17a:13:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 3919,
+    "line_index_2": 225,
+    "heRef_2": "תוספות על ערכין יז., יג, א",
+    "ref_2": "Tosafot on Arakhin 17a:13:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4006,
+    "line_index_2": 229,
+    "heRef_2": "תוספות על ערכין יז:, ג, א",
+    "ref_2": "Tosafot on Arakhin 17b:3:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4056,
+    "line_index_2": 236,
+    "heRef_2": "תוספות על ערכין יח., ו, א",
+    "ref_2": "Tosafot on Arakhin 18a:6:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4218,
+    "line_index_2": 240,
+    "heRef_2": "תוספות על ערכין יח:, ד, א",
+    "ref_2": "Tosafot on Arakhin 18b:4:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4279,
+    "line_index_2": 240,
+    "heRef_2": "תוספות על ערכין יח:, ד, א",
+    "ref_2": "Tosafot on Arakhin 18b:4:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4392,
+    "line_index_2": 253,
+    "heRef_2": "תוספות על ערכין יט:, ג, א",
+    "ref_2": "Tosafot on Arakhin 19b:3:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4532,
+    "line_index_2": 253,
+    "heRef_2": "תוספות על ערכין יט:, ג, א",
+    "ref_2": "Tosafot on Arakhin 19b:3:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4524,
+    "line_index_2": 256,
+    "heRef_2": "תוספות על ערכין יט:, טו, א",
+    "ref_2": "Tosafot on Arakhin 19b:15:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4594,
+    "line_index_2": 260,
+    "heRef_2": "תוספות על ערכין כ., ז, א",
+    "ref_2": "Tosafot on Arakhin 20a:7:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 4627,
+    "line_index_2": 266,
+    "heRef_2": "תוספות על ערכין כ:, ג, א",
+    "ref_2": "Tosafot on Arakhin 20b:3:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5163,
+    "line_index_2": 275,
+    "heRef_2": "תוספות על ערכין כא:, ג, א",
+    "ref_2": "Tosafot on Arakhin 21b:3:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5562,
+    "line_index_2": 285,
+    "heRef_2": "תוספות על ערכין כב:, ח, א",
+    "ref_2": "Tosafot on Arakhin 22b:8:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5630,
+    "line_index_2": 286,
+    "heRef_2": "תוספות על ערכין כב:, ח, ב",
+    "ref_2": "Tosafot on Arakhin 22b:8:2",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5702,
+    "line_index_2": 287,
+    "heRef_2": "תוספות על ערכין כב:, יא, א",
+    "ref_2": "Tosafot on Arakhin 22b:11:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6405,
+    "line_index_2": 309,
+    "heRef_2": "תוספות על ערכין כד., יד, א",
+    "ref_2": "Tosafot on Arakhin 24a:14:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6420,
+    "line_index_2": 313,
+    "heRef_2": "תוספות על ערכין כד:, ז, א",
+    "ref_2": "Tosafot on Arakhin 24b:7:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6540,
+    "line_index_2": 317,
+    "heRef_2": "תוספות על ערכין כה., ט, א",
+    "ref_2": "Tosafot on Arakhin 25a:9:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6636,
+    "line_index_2": 321,
+    "heRef_2": "תוספות על ערכין כה:, טז, א",
+    "ref_2": "Tosafot on Arakhin 25b:16:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6768,
+    "line_index_2": 338,
+    "heRef_2": "תוספות על ערכין כז:, יא, א",
+    "ref_2": "Tosafot on Arakhin 27b:11:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6858,
+    "line_index_2": 341,
+    "heRef_2": "תוספות על ערכין כח., ג, א",
+    "ref_2": "Tosafot on Arakhin 28a:3:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7616,
+    "line_index_2": 370,
+    "heRef_2": "תוספות על ערכין לא., ט, א",
+    "ref_2": "Tosafot on Arakhin 31a:9:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7697,
+    "line_index_2": 378,
+    "heRef_2": "תוספות על ערכין לב., א, א",
+    "ref_2": "Tosafot on Arakhin 32a:1:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7767,
+    "line_index_2": 378,
+    "heRef_2": "תוספות על ערכין לב., א, א",
+    "ref_2": "Tosafot on Arakhin 32a:1:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7926,
+    "line_index_2": 385,
+    "heRef_2": "תוספות על ערכין לב:, יח, א",
+    "ref_2": "Tosafot on Arakhin 32b:18:1",
+    "path_2": "תוספות על ערכין.txt",
+    "Conection Type": "source"
+  }
+]
