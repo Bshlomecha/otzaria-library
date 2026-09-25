@@ -18,6 +18,7 @@ from collections import Counter
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 from convert_doc import DOC_IDX, old_file  # noqa: E402
+from copyright_line import COPYRIGHT_LINE  # noqa: E402
 
 VALIDATOR = os.environ.get('KSK_VALIDATOR', os.path.join(
     os.environ.get('KSK_REPO', os.path.dirname(os.path.dirname(HERE))),
@@ -50,7 +51,7 @@ def parse(path):
     h2 = h3 = None
     h2s = []
     for l in L[1:]:
-        if not l.strip():
+        if not l.strip() or l == COPYRIGHT_LINE:
             continue
         if l.startswith('<h2>'):
             h2 = l[4:-5]

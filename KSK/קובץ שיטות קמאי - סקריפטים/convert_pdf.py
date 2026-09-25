@@ -34,6 +34,7 @@ OLD_ROOT = os.environ.get('KSK_OLD_ROOT', os.path.join(
 AUTHOR = '\u05dc\u05d9\u05e7\u05d5\u05d8 \u05e8\u05d0\u05e9\u05d5\u05e0\u05d9\u05dd'  # line 2 of every book
 sys.path.insert(0, HERE)
 from kskdec import decode_file
+from copyright_line import COPYRIGHT_LINE  # line 3 of every book
 
 OUT = os.path.join(WORK, 'out_pdf')
 
@@ -410,7 +411,7 @@ def convert(key):
         fname = prefix + ' ' + mp[str(idxs[0])]['tractate_he'] + '.txt'
         h1 = '<h1>' + fname[:-4] + '</h1>'
     # ---- build sections
-    lines = [h1, AUTHOR]
+    lines = [h1, AUTHOR, COPYRIGHT_LINE]
     sec = []          # list of output strings for the current section (paragraph/table lines)
     sec_h2 = None     # h2 that opens the current section
     in_aruch = False
@@ -509,9 +510,9 @@ def convert(key):
         if label is not None:
             flush(label)
     flush(None)
-    # final hygiene: no empty lines except line 2, balanced tags
-    body = [l for l in lines[2:] if l.strip()]
-    lines = lines[:2] + body
+    # final hygiene: no empty lines after the three header lines, balanced tags
+    body = [l for l in lines[3:] if l.strip()]
+    lines = lines[:3] + body
     os.makedirs(OUT, exist_ok=True)
     with open(os.path.join(OUT, key + '.txt'), 'w', encoding='utf-8', newline='\n') as f:
         f.write('\n'.join(lines) + '\n')

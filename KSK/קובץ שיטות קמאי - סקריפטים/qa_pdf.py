@@ -74,7 +74,7 @@ def coverage(a_lines, b_set, b_short, n=5, thr=0.7):
 
 
 def body_of(lines):
-    return [l for l in lines[1:] if l.strip() and not l.startswith('<h')]
+    return [l for l in lines[1:] if l.strip() and not l.startswith('<h') and l != C.COPYRIGHT_LINE]
 
 
 def qa(key):
@@ -85,9 +85,12 @@ def qa(key):
     r['lines'] = len(NL)
     r['line1_h1'] = NL[0].startswith('<h1>') and NL[0].endswith('</h1>')
     r['line2_author'] = NL[1] == C.AUTHOR
+    r['line3_copyright'] = NL[2] == C.COPYRIGHT_LINE
     r['empty_lines_after_2'] = sum(1 for l in NL[2:] if not l.strip())
     unbal = 0
     for l in NL:
+        if l == C.COPYRIGHT_LINE:
+            continue
         for t in ('b', 'h1', 'h2', 'h3'):
             if l.count('<' + t + '>') != l.count('</' + t + '>'):
                 unbal += 1

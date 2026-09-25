@@ -5,6 +5,7 @@ Each KSK tractate is laid out as:
 
     line 1   <h1>title</h1>
     line 2   author line
+    line 3   copyright notice (small gray print)
     <h2>amud</h2>                 (daf X. / daf X:)
     <h3>rishon label</h3>         (the source of the passage that follows)
     passage paragraphs ...
@@ -14,7 +15,7 @@ labels that belong to it. Every passage under a matching label is copied, in
 source order, under the <h2> of its amud; everything else is dropped. This is
 the same rule as the old split scripts (split_2.py/split_3.py) that produced
 these books from the pre-2026 edition, with two fixes: text before the first
-<h3> (the author line) is never copied, and labels are compared after
+<h3> (the author and copyright lines) is never copied, and labels are compared after
 normalization, so spelling variants of a label are still found.
 
 Label modes:
@@ -25,6 +26,7 @@ Label modes:
 Output book:
     line 1   <h1>title</h1>      (title = file name)
     line 2   author
+    line 3   copyright notice    (copyright_line.COPYRIGHT_LINE, as in the tractates)
     then <h2> + passages, per amud that has at least one matching passage.
 
 Usage (from anywhere; all paths in the config are repo-relative):
@@ -46,6 +48,9 @@ import sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
+sys.path.insert(0, str(HERE))
+from copyright_line import COPYRIGHT_LINE  # noqa: E402
+
 REPO = HERE.parents[1]
 CONFIG = HERE / "split_rishonim_config.json"
 
@@ -85,7 +90,7 @@ def split_book(book: dict) -> tuple[list[str], list[list], dict]:
     exact = {normalize_label(x["label"]): x["mode"] for x in book["labels"]}
     loose = {loose_label(x["label"]): x["mode"] for x in book["labels"]}
 
-    out = [f"<h1>{book['title']}</h1>", book["author"]]
+    out = [f"<h1>{book['title']}</h1>", book["author"], COPYRIGHT_LINE]
     lmap: list[list] = []
     stats = {
         "matched": collections.Counter(),   # label -> passages copied

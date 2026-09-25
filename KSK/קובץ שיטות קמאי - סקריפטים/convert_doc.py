@@ -8,6 +8,7 @@ Output: out/<i>.txt, out/<i>.stats.json, out/names.json, out/summary.json
 Structure produced (mirrors the old KSK files under KSK/<..>/<seder>/):
   line 1  <h1>TITLE</h1>          (identical to the old file's h1)
   line 2  AUTHOR                   (anthology label, identical in all 38 books)
+  line 3  COPYRIGHT_LINE           (publisher's notice in small gray print; text in copyright.txt)
   <h2>DAF X.</h2> / <h2>DAF X:</h2> per amud  (period = amud a, colon = amud b)
   <h3>LABEL</h3> before each passage; LABEL = the trailing "[...]" source label of the
           passage (moved from the end of its last paragraph, like KSK/fix and split/fix.py)
@@ -28,6 +29,8 @@ import unicodedata
 from collections import Counter
 
 HERE = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, HERE)
+from copyright_line import COPYRIGHT_LINE  # noqa: E402  (line 3 of every book)
 # Configurable locations (env overrides; defaults assume this folder is KSK/קובץ שיטות קמאי - סקריפטים/)
 REPO = os.environ.get('KSK_REPO', os.path.dirname(os.path.dirname(HERE)))
 WORK = os.environ.get('KSK_WORK', HERE)  # manifest.json, mapping.json, paras/, work/, out*/ live here
@@ -533,7 +536,7 @@ def convert(idx):
     old_lines = open(old, encoding='utf-8').read().split('\n')
     h1 = old_lines[0]
     assert h1.startswith('<h1>') and h1.endswith('</h1>')
-    out_lines = [h1, AUTHOR] + lines
+    out_lines = [h1, AUTHOR, COPYRIGHT_LINE] + lines
     text = '\n'.join(out_lines) + '\n'
     assert '\r' not in text
     os.makedirs(OUT, exist_ok=True)

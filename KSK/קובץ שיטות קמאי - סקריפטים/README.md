@@ -50,6 +50,14 @@ Environment variables (all optional):
 `convert_doc.py` also reads `replace.csv` from this folder: the label fixes
 (cp1255) moved here from the old `KSK/fix and split/` scripts, which were removed.
 
+Every book (the 38 tractates and the nine single-rishon books) has three header
+lines: `<h1>title</h1>`, the author line, and the publisher's copyright notice in
+small gray print, `<span style="color:Gray;"><small><small>...</small></small></span>`
+(the markup other library books use for such notices). The notice text is kept in
+`copyright.txt` (one UTF-8 line) and `copyright_line.py` builds the line; all
+three generators and both QA scripts import it from there. Line numbers in
+`KSK/links/*_links.json` (`line_index_1`) count this line.
+
 ## Pipeline and run order
 
 Run every command from `$KSK_WORK`.
@@ -113,8 +121,9 @@ python3 split_rishonim.py --linemap F    # JSON line map of every output line
 copied, under the `<h2>` of its amud (a passage may continue across an amud
 boundary, and an `<h2>` is written only if something is copied under it). The
 output keeps the `<h2>` amud headings, drops the `<h3>` labels, and starts with
-`<h1>title</h1>` and the author line. Two fixes over the old scripts: the source
-author line (before the first `<h3>`) is never copied, and labels are compared
+`<h1>title</h1>`, the author line and the copyright line. Two fixes over the
+old scripts: the source author and copyright lines (before the first `<h3>`)
+are never copied, and labels are compared
 after `normalize_label` (niqqud, quote marks and dashes removed), with a second,
 looser key without vav/yod reported as a `variant`, so that spelling variants
 are found. Labels that resemble a book's labels but are not listed are reported
@@ -126,8 +135,8 @@ book, as the old edition of that book did).
 
 The line map is `{title: {"output", "source", "lines": [[out_line, source file
 name, source_line, kind], ...]}}`, 1-based, `kind` = `heading` (an `<h2>`, or a
-`sublabel` label taken from its `<h3>`) or `content`. Lines 1-2 (title and
-author) have no source line and are not listed.
+`sublabel` label taken from its `<h3>`) or `content`. Lines 1-3 (title,
+author and copyright notice) have no source line and are not listed.
 
 After re-running, update the registries if an output path or line count
 changed: `SourcesBooks.csv` (line count), and for a new book also
