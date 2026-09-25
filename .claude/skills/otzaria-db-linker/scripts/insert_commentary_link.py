@@ -32,14 +32,14 @@ Job config schema (see references/db_write_notes.md for full detail):
   "links_json_path": "C:\\...\\links\\<citing_title>_links.json",
   "seforim_db_path": null,          # optional override; auto-discovered if omitted
   "keep_backups": 3,                 # how many _db_backups/seforim.db.bak_* to retain
-  "replace_existing": false,         # true = wipe EVERY existing link row for this citing
-                                      # book (targetBookId = citing_id, any source book, any
-                                      # type) and re-insert fresh from the current file, after
-                                      # the user has confirmed this is an intentional update.
-                                      # Deliberately a full wipe, not per-(type, real target)
-                                      # deletion -- see module docstring and db_write_notes.md,
-                                      # "Re-running / updating", for the orphan-row bug this
-                                      # replaced.
+  "replace_existing": false,         # false = insert only missing rows, never delete.
+                                      # true = also refresh existing rows of this file and
+                                      # delete stale rows the DB proves this file wrote
+                                      # (never-flipped types out of the citing book). See
+                                      # db_write_notes.md, "How re-runs work now".
+  "delete_reported_stale": false,    # with replace_existing: also delete the STALE? rows
+                                      # (dependent rows into the citing book this file does
+                                      # not produce) -- only after the user confirmed the list
   "dry_run": true                    # true = do everything except commit; always run this
                                       # first and read the report before setting it to false
 }
@@ -66,25 +66,112 @@ import re
 import shutil
 import sqlite3
 import sys
+import unicodedata
 from datetime import datetime
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 
 DEFAULT_DB_PATH = Path(r"C:\ProgramData\otzaria\books\seforim.db")
 
-# Heading lines are skipped when expanding a range into link_coverage, matching
-# the official otzariasqlite generator's own behavior.
-HEADING_RE = re.compile(r"^\s*<h[1-6]\b", re.I)
+# ---- Port of SeforimLibrary's link-storage rules (otzariasqlite/Generator.kt) ----
+# Kept byte-for-byte equivalent to Generator.kt: normalizeHebrewLabel, comparableLabel,
+# titleDeclaresDependencyOn, DEPENDENCY_TITLE_PREFIXES, ORIENTED_DEPENDANT_TYPES and
+# the flip/storedType decision in processLinksForBook. Update together.
+ORIENTED_DEPENDANT_TYPES = frozenset({
+    "COMMENTARY", "SUPER_COMMENTARY", "TARGUM", "MIDRASH", "PARSHANUT",
+    "DIBUR_HAMATCHIL", "EIN_MISHPAT", "ELUCIDATION", "FOOTNOTES",
+})
+_DEP_PREFIXES = (   # DEPENDENCY_TITLE_PREFIXES, same order
+    "תלמוד בבלי ",
+    "תלמוד ירושלמי ",
+    "מסכת ", "משנה ", "ספר ",
+)
+_ON = " על "
+# Java's \s (no UNICODE_CHARACTER_CLASS) is ASCII-only: NBSP is NOT whitespace there.
+_JAVA_WS = re.compile(r"[ \t\n\x0b\f\r]+")
+_CORPUS_SUFFIX = re.compile(
+    r"[ \t\n\x0b\f\r]+על[ \t\n\x0b\f\r]+(?:"
+    "התנ\"ך|התורה|התלמוד|"
+    "המשנה|תנך|תורה|"
+    "תלמוד|משנה)$",
+    re.I,
+)
 
-# Only these three map onto a book flag column with real confidence -- confirmed
-# against live data in this project (see references/db_write_notes.md, "Flag mapping").
-# Everything else falls back to hasOtherConnection with a printed warning; verify
-# those in the running app rather than trusting the fallback blindly.
-FLAG_MAP = {
-    "COMMENTARY": "hasCommentaryConnection",
-    "TARGUM": "hasTargumConnection",
-    "REFERENCE": "hasReferenceConnection",
-}
-FALLBACK_FLAG = "hasOtherConnection"
+
+def _kt_trim(s: str) -> str:
+    """Kotlin String.trim(): strips Char.isWhitespace (incl. Unicode spaces)."""
+    def ws(c: str) -> bool:
+        return c in "\t\n\x0b\f\r\x1c\x1d\x1e\x1f" or unicodedata.category(c) in ("Zs", "Zl", "Zp")
+    i, j = 0, len(s)
+    while i < j and ws(s[i]):
+        i += 1
+    while j > i and ws(s[j - 1]):
+        j -= 1
+    return s[i:j]
+
+
+def _comparable_label(raw: str) -> str:
+    """Generator.comparableLabel (normalizeHebrewLabel + quote strip + corpus suffix)."""
+    s = _kt_trim(raw)
+    s = s.replace("“", '"').replace("”", '"')
+    s = s.replace("‘", "'").replace("’", "'")
+    s = s.replace('"', "״").replace("''", "״").replace("׳׳", "״")
+    s = s.replace("`", "׳")
+    s = _kt_trim(_JAVA_WS.sub(" ", s))
+    for ch in ("״", '"', "׳", "'"):
+        s = s.replace(ch, "")
+    s = _kt_trim(_JAVA_WS.sub(" ", s))
+    return _kt_trim(_CORPUS_SUFFIX.sub("", s))
+
+
+def _dependency_key(raw: str) -> str:
+    v = _comparable_label(raw)
+    while True:
+        prefix = next((p for p in _DEP_PREFIXES if v.startswith(p)), None)
+        if prefix is None:
+            return v
+        v = _kt_trim(v[len(prefix):])
+
+
+def title_declares_dependency_on(dependant_title: str, base_title: str) -> bool:
+    """Generator.titleDeclaresDependencyOn."""
+    norm = _comparable_label(dependant_title or "")
+    i = norm.rfind(_ON)
+    if i < 0:
+        return False
+    declared = norm[i + len(_ON):]
+    if not _kt_trim(declared):
+        return False
+    return _dependency_key(declared) == _dependency_key(base_title or "")
+
+
+def generator_target_title(path2: str) -> str:
+    """Target title exactly as Generator.kt derives it from path_2: the last component
+    (after a backslash, else Paths.get(path).fileName), minus everything from its last '.'."""
+    path2 = path2 or ""
+    last = path2.split("\\")[-1] if "\\" in path2 else PurePosixPath(path2).name
+    return last.rsplit(".", 1)[0] if "." in last else last
+
+
+def plan_storage(declared: str, file_title: str, file_is_base: bool,
+                 path2_title: str, path2_is_base: bool) -> tuple[bool, str]:
+    """(flip, storedType) for one entry of `<file_title>_links.json` pointing at
+    path2_title, exactly as Generator.processLinksForBook decides it. `declared` is the
+    upper-case ConnectionType name. flip=True stores path_2 book -> file book."""
+    points_from_non_base_into_base = (
+        declared in ORIENTED_DEPENDANT_TYPES and path2_is_base and not file_is_base
+    )
+    reversed_dependant = points_from_non_base_into_base and title_declares_dependency_on(
+        file_title, path2_title
+    )
+    flip = declared == "SOURCE" or reversed_dependant
+    if declared == "SOURCE":
+        stored = "COMMENTARY"
+    elif points_from_non_base_into_base and not reversed_dependant:
+        stored = "OTHER"
+    else:
+        stored = declared
+    return flip, stored
+# ---- end of the Generator.kt port ----
 
 
 def resolve_db_path(cfg: dict) -> Path:
@@ -164,17 +251,6 @@ def load_links(links_path: Path) -> list[dict]:
     return data
 
 
-def target_title_from_path(path2: str) -> str:
-    """Resolves the REAL target-book title from a link entry's own path_2 --
-    strips any directory prefix (path_2 is sometimes a bare filename, sometimes
-    a backslash path) and the .txt extension. Never assume this equals the
-    job's nominal target_title; a file can mix targets -- see module docstring
-    and db_write_notes.md, "A _links.json file can target MULTIPLE different
-    books"."""
-    name = path2.replace("\\", "/").split("/")[-1]
-    return name[:-4] if name.lower().endswith(".txt") else name
-
-
 def get_book(cur: sqlite3.Cursor, title: str) -> tuple[int, int]:
     """Returns (id, orderIndex). Raises if not found or ambiguous."""
     rows = cur.execute(
@@ -200,83 +276,193 @@ def table_exists(cur: sqlite3.Cursor, name: str) -> bool:
     )
 
 
+def get_book_info(cur: sqlite3.Cursor, title: str) -> dict:
+    """id / orderIndex plus the two facts the generator's storage rules depend on:
+    book.isBaseBook, and whether the book's source is Sefaria."""
+    book_id, order = get_book(cur, title)
+    row = cur.execute(
+        "SELECT b.isBaseBook, COALESCE(s.name, '') FROM book b "
+        "LEFT JOIN source s ON s.id = b.sourceId WHERE b.id = ?",
+        (book_id,),
+    ).fetchone()
+    return {
+        "id": book_id,
+        "title": title,
+        "order": order,
+        "is_base": bool(row[0]),
+        "is_sefaria": "sefaria" in str(row[1]).lower(),
+    }
+
+
+def is_heading_content(content: object) -> bool:
+    """SeforimRepository.getHeadingLineIds: content LIKE '<h1%' .. '<h4%' (LIKE is
+    ASCII-case-insensitive, no leading-whitespace tolerance)."""
+    return isinstance(content, str) and content[:3].lower() in ("<h1", "<h2", "<h3", "<h4")
+
+
+_heading_cache: dict[int, set[int]] = {}
+
+
+def heading_line_ids(cur: sqlite3.Cursor, book_id: int) -> set[int]:
+    if book_id not in _heading_cache:
+        _heading_cache[book_id] = {
+            int(lid) for lid, content in cur.execute(
+                "SELECT id, content FROM line WHERE bookId = ?", (book_id,)
+            ) if is_heading_content(content)
+        }
+    return _heading_cache[book_id]
+
+
+def count_visible_chars(html: str, end_exclusive: int) -> int:
+    """common/HtmlCharCounter.kt countVisibleChars(html, endExclusive). Kotlin indexes
+    UTF-16 code units, so the walk is done on those, not on Python code points."""
+    units = memoryview(html.encode("utf-16-le")).cast("H")
+    if len(units) == 0 or end_exclusive <= 0:
+        return 0
+    lt, gt, amp, semi = ord("<"), ord(">"), ord("&"), ord(";")
+    count = 0
+    in_tag = False
+    i = 0
+    n = min(len(units), end_exclusive)
+    while i < n:
+        c = units[i]
+        if in_tag:
+            if c == gt:
+                in_tag = False
+        elif c == lt:
+            in_tag = True
+        elif c == amp:
+            end = min(n, i + 10)
+            j = i + 1
+            terminated = False
+            while j < end:
+                if units[j] == semi:
+                    terminated = True
+                    break
+                j += 1
+            count += 1
+            if terminated:
+                i = j
+        else:
+            count += 1
+        i += 1
+    return count
+
+
+_ANCHOR_OT = " אות "
+
+
+def anchor_label_from_heref(heref: str) -> str | None:
+    """Generator.anchorLabelFromHeRef."""
+    idx = heref.rfind(_ANCHOR_OT)
+    if idx < 0:
+        return None
+    tail = _kt_trim(heref[idx + len(_ANCHOR_OT):])
+    if not tail or len(tail) > 6:
+        return None
+    ok = all("א" <= ch <= "ת" or ch in ('"', "׳", "״") for ch in tail)
+    return tail if ok else None
+
+
 def write_satellites(
     cur: sqlite3.Cursor,
     pending: list[dict],
     *,
-    citing_id: int,
-    real_target_id: int,
     has_anchor: bool,
     has_range: bool,
     has_coverage: bool,
 ) -> tuple[int, int]:
-    """Writes optional link_anchor / link_range / link_coverage rows for a just-
-    inserted group of links, if the entry's JSON carried the extra fields and the
-    tables exist in this seforim.db. Convention (matches the JSON-producing
-    otzaria-commentary-linker skill and the schema): side=1 is the citing book
-    (line_index_1 space, i.e. `start`/`end`/`line_index_1_end`), side=0 is the
-    real target/base book (line_index_2 space, i.e. `line_index_2_end`). Returns
-    (anchors_written, ranges_written)."""
+    """Writes link_anchor / link_range / link_coverage rows for a just-inserted group,
+    exactly as Generator.processLinksForBook does (buildLinkAnchor, queueRangeSide):
+
+    * anchor -- only when the link is NOT flipped (the anchor is on the stored source
+      side, which is then the file's own line): side=0, `start`/`end` converted from raw
+      offsets to visible chars, label from heRef_2. A flipped link gets no anchor.
+    * range -- side 0 = stored source, 1 = stored target, so a flip swaps which file end
+      lands on which side. end == start is a plain link; an end before the start, a
+      missing end line or a heading end line drops the range; coverage rows skip
+      heading lines.
+
+    Returns (anchors_written, ranges_written)."""
     anchors = 0
     ranges = 0
     for p in pending:
         entry = p["entry"]
         link_id = p["link_id"]
 
-        if has_anchor and entry.get("start") is not None:
+        if has_anchor and not p["flip"] and entry.get("start") is not None:
+            row = cur.execute("SELECT content FROM line WHERE id=?", (p["file_line_id"],)).fetchone()
+            content = row[0] if row else None
             try:
-                char_start = int(entry["start"])
-                char_end = int(entry["end"]) if entry.get("end") is not None else None
+                raw_start = int(entry["start"])
             except (TypeError, ValueError):
-                pass
-            else:
+                raw_start = None
+            length = len(content.encode("utf-16-le")) // 2 if isinstance(content, str) else -1
+            if raw_start is not None and isinstance(content, str) and 0 <= raw_start <= length:
+                raw_end = None
+                if entry.get("end") is not None:
+                    try:
+                        raw_end = int(entry["end"])
+                    except (TypeError, ValueError):
+                        raw_end = None
+                    if raw_end is not None and not raw_start <= raw_end <= length:
+                        raw_end = None
                 cur.execute(
                     """
                     INSERT OR IGNORE INTO link_anchor (linkId, side, charStart, charEnd, label)
-                    VALUES (?, 1, ?, ?, NULL)
+                    VALUES (?, 0, ?, ?, ?)
                     """,
-                    (link_id, char_start, char_end),
+                    (
+                        link_id,
+                        count_visible_chars(content, raw_start),
+                        count_visible_chars(content, raw_end) if raw_end is not None else None,
+                        anchor_label_from_heref(str(entry.get("heRef_2", ""))),
+                    ),
                 )
                 anchors += 1
 
         if not has_range:
             continue
 
-        for side, end_1based, book_id, start_0based in (
-            (1, entry.get("line_index_1_end"), citing_id, p["c_idx"]),
-            (0, entry.get("line_index_2_end"), real_target_id, p["t_idx"]),
-        ):
-            if end_1based is None:
+        file_end = (entry.get("line_index_1_end"), p["file_book_id"], p["file_idx"])
+        path2_end = (entry.get("line_index_2_end"), p["path2_book_id"], p["path2_idx"])
+        sides = ((0, *path2_end), (1, *file_end)) if p["flip"] else ((0, *file_end), (1, *path2_end))
+        for side, raw_end_1based, book_id, start_0based in sides:
+            if raw_end_1based is None:
                 continue
             try:
-                end_0 = int(end_1based) - 1
+                end_0 = int(raw_end_1based) - 1
             except (TypeError, ValueError):
                 continue
-            if end_0 <= start_0based:
+            if end_0 == start_0based:
                 continue
-            end_line = cur.execute(
-                "SELECT id FROM line WHERE bookId=? AND lineIndex=?", (book_id, end_0)
-            ).fetchone()
-            if not end_line:
+            end_row = None
+            if end_0 > start_0based:
+                end_row = cur.execute(
+                    "SELECT id, content FROM line WHERE bookId=? AND lineIndex=?", (book_id, end_0)
+                ).fetchone()
+            if not end_row or is_heading_content(end_row[1]):
+                print(f"  range end {end_0 + 1} reversed/missing/heading (side {side}) -- range dropped")
                 continue
+            # LinkRangeQueries.sq insertRange: two producers of one row keep the WIDEST
+            # range per side, whatever order their files are processed in.
             cur.execute(
                 """
-                INSERT OR REPLACE INTO link_range (linkId, side, endLineId, endLineIndex)
+                INSERT INTO link_range (linkId, side, endLineId, endLineIndex)
                 VALUES (?, ?, ?, ?)
+                ON CONFLICT(linkId, side) DO UPDATE
+                SET endLineId = excluded.endLineId, endLineIndex = excluded.endLineIndex
+                WHERE excluded.endLineIndex > link_range.endLineIndex
                 """,
-                (link_id, side, end_line[0], end_0),
+                (link_id, side, end_row[0], end_0),
             )
             ranges += 1
             if has_coverage:
-                for mid in range(start_0based + 1, end_0 + 1):
-                    mid_row = cur.execute(
-                        "SELECT id, content FROM line WHERE bookId=? AND lineIndex=?",
-                        (book_id, mid),
-                    ).fetchone()
-                    if not mid_row:
-                        continue
-                    mid_id, content = mid_row
-                    if isinstance(content, str) and HEADING_RE.match(content):
+                for mid_id, content in cur.execute(
+                    "SELECT id, content FROM line WHERE bookId=? AND lineIndex BETWEEN ? AND ?",
+                    (book_id, start_0based + 1, end_0),
+                ).fetchall():
+                    if is_heading_content(content):
                         continue
                     cur.execute(
                         """
@@ -288,30 +474,123 @@ def write_satellites(
     return anchors, ranges
 
 
-def normalize_type_name(name: str) -> str:
-    """Map a `_links.json` "Conection Type" onto the name actually stored in `link`.
+# The 24 SeforimLibrary ConnectionType names (core/.../models/Link.kt).
+KNOWN_CONNECTION_TYPES = frozenset({
+    "COMMENTARY", "SUPER_COMMENTARY", "TARGUM", "REFERENCE", "SOURCE", "MIDRASH",
+    "QUOTATION", "MESORAT_HASHAS", "EIN_MISHPAT", "DIBUR_HAMATCHIL", "PARSHANUT",
+    "MISHNAH_IN_TALMUD", "RELATED", "OTHER", "LINKER", "SIFREI_MITZVOT", "ESSAY",
+    "ALLUSION", "LITURGY", "ELUCIDATION", "EXPLICATION", "LAW", "SUMMARY", "FOOTNOTES",
+})
+# Link.kt `fromKnownStringOrNull` spelling aliases, after its trim/lowercase/' '->'_'.
+_TYPE_ALIASES = {
+    "supercommentary": "super_commentary",
+    "quotation_auto": "quotation", "quotation_auto_tanakh": "quotation",
+    "ein_mishpat_/_ner_mitsvah": "ein_mishpat", "ein_mishpat_/_ner_mitzvah": "ein_mishpat",
+    "related_passage": "related",
+    "ellucidation": "elucidation",
+    "footnote": "footnotes",
+    "": "other", "none": "other",
+}
 
-    A citing-named links file states the relation from the מפרש's side, so its
-    canonical value is `source`. SOURCE is a *virtual* type -- the app derives it by
-    inverting a stored link and never reads a stored SOURCE row. This script already
-    writes every link flipped (sourceBookId = the real target, targetBookId = the
-    citing book), which is exactly the direction `source` asks for; so the value that
-    must land in the row is COMMENTARY. This mirrors the library generator:
-    `flip = declaredType == ConnectionType.SOURCE; storedType = COMMENTARY`
-    (SeforimLibrary otzariasqlite/Generator.kt).
-    """
-    return "commentary" if name.strip().lower() == "source" else name
+
+def canonical_type(name: object) -> str:
+    """Upper-case ConnectionType name a `Conection Type` value parses as (Link.kt).
+
+    Stricter than the generator on purpose: an unknown value (a typo, or the trap
+    spelling "sifrei mitsvot") is refused instead of silently becoming OTHER."""
+    key = str(name if name is not None else "").strip().lower().replace(" ", "_")
+    canonical = _TYPE_ALIASES.get(key, key).upper()
+    if canonical not in KNOWN_CONNECTION_TYPES:
+        raise ValueError(
+            f'Unrecognized "Conection Type" value {name!r}. Valid: {sorted(KNOWN_CONNECTION_TYPES)}'
+        )
+    return canonical
 
 
-def resolve_connection_type_id(cur: sqlite3.Cursor, name: str) -> int:
-    name = normalize_type_name(name)
+def resolve_connection_type_id(cur: sqlite3.Cursor, stored_name: str) -> int:
+    """connection_type.id of a STORED type name (see plan_storage), by name."""
     row = cur.execute(
-        "SELECT id FROM connection_type WHERE upper(name) = upper(?)", (name,)
+        "SELECT id FROM connection_type WHERE upper(name) = upper(?)", (stored_name,)
     ).fetchone()
     if not row:
         valid = [r[0] for r in cur.execute("SELECT name FROM connection_type").fetchall()]
-        raise ValueError(f'Unrecognized "Conection Type" value {name!r}. Valid: {valid}')
+        raise ValueError(
+            f"connection_type {stored_name!r} is missing from this seforim.db (built before "
+            f"SeforimLibrary added it?). Present: {valid}"
+        )
     return row[0]
+
+
+# Generator.kt setConnFlag(...): a book gets the flag when it is EITHER end of a link
+# of that stored type. No other type sets any of these four columns.
+TYPE_FLAG_COLUMNS = {
+    "TARGUM": "hasTargumConnection",
+    "REFERENCE": "hasReferenceConnection",
+    "COMMENTARY": "hasCommentaryConnection",
+    "OTHER": "hasOtherConnection",
+}
+# Generator.kt hasSourceConnection: the book is the stored TARGET of a non-self link of
+# one of these types. FOOTNOTES is (deliberately, upstream) not in this list.
+SOURCE_CONNECTION_TYPES = (
+    "COMMENTARY", "SUPER_COMMENTARY", "TARGUM", "MIDRASH",
+    "PARSHANUT", "DIBUR_HAMATCHIL", "EIN_MISHPAT", "ELUCIDATION",
+)
+
+
+def delete_satellites(cur: sqlite3.Cursor, link_ids: list[int]) -> None:
+    """Deletes the link_anchor / link_range / link_coverage rows of `link_ids`."""
+    rows = [(int(i),) for i in link_ids]
+    for table in ("link_anchor", "link_range", "link_coverage"):
+        if table_exists(cur, table):
+            cur.executemany(f"DELETE FROM {table} WHERE linkId=?", rows)
+
+
+def delete_links(cur: sqlite3.Cursor, link_ids: list[int]) -> None:
+    """Deletes link rows and their satellite rows. The satellites' ON DELETE CASCADE
+    only fires with PRAGMA foreign_keys=ON, which this connection does not set, so
+    without this they would survive as orphans."""
+    delete_satellites(cur, link_ids)
+    cur.executemany("DELETE FROM link WHERE id=?", [(int(i),) for i in link_ids])
+
+
+def recompute_book_flags(cur: sqlite3.Cursor, book_ids: set[int]) -> None:
+    """Sets book_has_links and book.has*Connection for `book_ids` exactly as the
+    generator derives them from the whole link table (reset, then set)."""
+    ids_by_name = {str(n).upper(): int(i) for i, n in cur.execute("SELECT id, name FROM connection_type")}
+
+    def in_list(names) -> str:
+        ids = [str(ids_by_name[n]) for n in names if n in ids_by_name]
+        return "(" + ",".join(ids) + ")" if ids else "(NULL)"
+
+    book_cols = {r[1] for r in cur.execute("PRAGMA table_info(book)")}
+    for book_id in sorted(book_ids):
+        has_src = cur.execute("SELECT EXISTS(SELECT 1 FROM link WHERE sourceBookId=?)", (book_id,)).fetchone()[0]
+        has_tgt = cur.execute("SELECT EXISTS(SELECT 1 FROM link WHERE targetBookId=?)", (book_id,)).fetchone()[0]
+        cur.execute(
+            "INSERT INTO book_has_links(bookId, hasSourceLinks, hasTargetLinks) VALUES (?, ?, ?) "
+            "ON CONFLICT(bookId) DO UPDATE SET hasSourceLinks=excluded.hasSourceLinks, "
+            "hasTargetLinks=excluded.hasTargetLinks",
+            (book_id, has_src, has_tgt),
+        )
+        values = {}
+        for type_name, column in TYPE_FLAG_COLUMNS.items():
+            ids = in_list([type_name])
+            values[column] = cur.execute(
+                f"SELECT EXISTS(SELECT 1 FROM link WHERE sourceBookId=? AND connectionTypeId IN {ids}) "
+                f"OR EXISTS(SELECT 1 FROM link WHERE targetBookId=? AND connectionTypeId IN {ids})",
+                (book_id, book_id),
+            ).fetchone()[0]
+        values["hasSourceConnection"] = cur.execute(
+            f"SELECT EXISTS(SELECT 1 FROM link WHERE targetBookId=? AND sourceBookId != ? "
+            f"AND connectionTypeId IN {in_list(SOURCE_CONNECTION_TYPES)})",
+            (book_id, book_id),
+        ).fetchone()[0]
+        values = {k: v for k, v in values.items() if k in book_cols}
+        if values:
+            cur.execute(
+                "UPDATE book SET " + ", ".join(f"{k}=?" for k in values) + " WHERE id=?",
+                (*values.values(), book_id),
+            )
 
 
 def main() -> int:
@@ -334,8 +613,17 @@ def run(config_path: Path) -> int:
     citing_title = cfg["citing_title"]
     target_title = cfg["target_title"]
     links_path = Path(cfg["links_json_path"])
-    keep_backups = int(cfg.get("keep_backups", 3))
     replace_existing = bool(cfg.get("replace_existing", False))
+    if replace_existing and links_path.name != f"{citing_title}_links.json":
+        # The generator reads a links file as the links of the book its NAME gives, and
+        # replace mode's proof that a row is this file's own rests on that book being
+        # citing_title. A mismatch means the job describes a different book than the file.
+        raise ValueError(
+            f"replace_existing refused: the links file is named {links_path.name!r}, but the "
+            f"generator would only read it as {citing_title!r}'s links if it were named "
+            f"{citing_title + '_links.json'!r}. Fix citing_title or the file name."
+        )
+    keep_backups = int(cfg.get("keep_backups", 3))
     dry_run = bool(cfg.get("dry_run", True))
 
     print(f"{'DRY RUN -- ' if dry_run else ''}citing={citing_title!r} target={target_title!r}")
@@ -362,219 +650,315 @@ def run(config_path: Path) -> int:
     conn.execute("PRAGMA synchronous=NORMAL")
     cur = conn.cursor()
 
+    _heading_cache.clear()  # per-connection cache: ids differ between DBs
     has_anchor = table_exists(cur, "link_anchor")
     has_range = table_exists(cur, "link_range")
     has_coverage = table_exists(cur, "link_coverage")
 
     try:
         # target_title is only the file's DEFAULT/primary target (see module docstring).
-        # It's still resolved eagerly here so the printed summary below matches the old
-        # behavior, and so it's pre-seeded into the per-real-target cache -- the common,
-        # single-target case then costs no extra query at all.
-        target_id, target_order = get_book(cur, target_title)
-        citing_id, citing_order = get_book(cur, citing_title)
-        target_lines = line_map(cur, target_id)
+        # It's still resolved eagerly so the printed summary matches the old behavior and
+        # the common single-target case costs no extra query.
+        citing = get_book_info(cur, citing_title)
+        citing_id, citing_order = citing["id"], citing["order"]
         citing_lines = line_map(cur, citing_id)
-        print(f"target book: {target_title} id={target_id} orderIndex={target_order}")
-        print(f"citing book: {citing_title} id={citing_id} orderIndex={citing_order}")
-        print(f"target has {len(target_lines)} lines, citing has {len(citing_lines)} lines")
+        target_book_cache: dict[str, dict] = {}
 
-        target_book_cache: dict[str, tuple[int, int, dict[int, int]]] = {
-            target_title: (target_id, target_order, target_lines)
-        }
-
-        def resolve_target(title: str) -> tuple[int, int, dict[int, int]]:
+        def resolve_target(title: str) -> dict:
             if title not in target_book_cache:
-                tid, torder = get_book(cur, title)
-                target_book_cache[title] = (tid, torder, line_map(cur, tid))
+                info = get_book_info(cur, title)
+                info["lines"] = line_map(cur, info["id"])
+                target_book_cache[title] = info
             return target_book_cache[title]
 
-        # Group entries by (Conection Type, REAL target book from each entry's own
-        # path_2) -- NOT by type alone, and NOT assumed to be target_title. A links
-        # file can mix targets (commentary -> Gemara, super_commentary -> Tosafot/
-        # Rashi, ...); resolving every entry against one fixed line map silently
-        # corrupts every entry whose real target differs. See module docstring and
-        # db_write_notes.md for the full story.
-        groups: dict[tuple[str, str], list[dict]] = {}
+        primary = resolve_target(target_title)
+        print(f"target book: {target_title} id={primary['id']} orderIndex={primary['order']} isBaseBook={primary['is_base']}")
+        print(f"citing book: {citing_title} id={citing_id} orderIndex={citing_order} isBaseBook={citing['is_base']}")
+        print(f"target has {len(primary['lines'])} lines, citing has {len(citing_lines)} lines")
+
+        # Entries are first collected by (Conection Type, REAL target book from each
+        # entry's own path_2) -- never assumed to be target_title: a links file can mix
+        # targets (commentary -> Gemara, super_commentary -> Tosafot/Rashi, ...). The
+        # title is derived from path_2 exactly as Generator.kt does (generator_target_title).
+        raw_groups: dict[tuple[str, str], list[dict]] = {}
         for entry in data:
-            real_target_title = target_title_from_path(entry["path_2"])
-            groups.setdefault((entry["Conection Type"], real_target_title), []).append(entry)
+            real_target_title = generator_target_title(str(entry["path_2"]))
+            raw_groups.setdefault((entry["Conection Type"], real_target_title), []).append(entry)
+        # Fail on an unknown type before anything is written.
+        declared_by_group = {key: canonical_type(key[0]) for key in raw_groups}
 
-        next_id = (cur.execute("SELECT MAX(id) FROM link").fetchone()[0] or 0) + 1
-        report = {"inserted": {}, "deleted_for_replace": {}, "skipped_existing": {},
-                  "skipped_missing_line": 0, "skipped_duplicate": 0,
-                  "skipped_target_book_not_found": 0, "anchors": 0, "ranges": 0}
+        report = {"inserted": {}, "refreshed_existing": {}, "skipped_existing": 0,
+                  "deleted_stale_own_rows": {}, "reported_stale_candidates": {},
+                  "deleted_reported_stale": {}, "other_rows_kept": {}, "stored_as_other": {},
+                  "skipped_missing_line": 0, "skipped_heading_line": 0, "skipped_duplicate": 0,
+                  "skipped_target_book_not_found": 0, "skipped_linker": 0,
+                  "skipped_both_sefaria": 0, "anchors": 0, "ranges": 0}
+        touched_book_ids: set[int] = set()
 
-        if replace_existing:
-            # Wipe EVERY existing outgoing link for this citing book up front, not just
-            # the (type, real target) groups that happen to appear in *this* file. A
-            # book's classification can legitimately change between runs (e.g. a line
-            # reclassified from commentary->Gemara to super_commentary->Rashi) -- if we
-            # only deleted per-group-in-current-file, the old group's rows would never
-            # be targeted (it's no longer a group in this run) and would survive as
-            # orphans alongside the freshly inserted rows, double-counting that line.
-            # Confirmed bug: אבן העוזר על מגילה and אבן העוזר על קידושין both accumulated
-            # exactly this kind of orphaned stale row across a re-run where a line's type
-            # changed. A single citing book has exactly one _links.json driving all of
-            # its outgoing links, so a full wipe-and-reinsert for that citing_id is safe.
-            cur.execute(
-                """
-                SELECT b.title, ct.name, COUNT(*)
-                FROM link l
-                JOIN book b ON b.id = l.sourceBookId
-                JOIN connection_type ct ON ct.id = l.connectionTypeId
-                WHERE l.targetBookId=?
-                GROUP BY b.title, ct.name
-                """,
-                (citing_id,),
-            )
-            pre_existing = cur.fetchall()
-            if pre_existing:
-                cur.execute("DELETE FROM link WHERE targetBookId=?", (citing_id,))
-                for src_title, type_name_existing, cnt in pre_existing:
-                    label = f"{type_name_existing} -> {src_title}"
-                    report["deleted_for_replace"][label] = cnt
-                    print(f'Deleted {cnt} stale "{label}" links before re-inserting (full wipe for this citing book).')
-
-        verify_targets: dict[str, tuple[int, int]] = {}
-        for (json_type_name, real_target_title), entries in groups.items():
-            type_name = normalize_type_name(json_type_name)
-            type_id = resolve_connection_type_id(cur, type_name)
-            type_upper = type_name.upper()
-            group_label = f"{json_type_name} -> {real_target_title}"
-            if type_name != json_type_name:
-                group_label += f" (stored as {type_upper})"
-
+        # ---- 1. plan: every row this file produces, grouped by its STORED identity ----
+        # Grouping by the stored (type, source book, target book) -- not by the raw JSON
+        # string -- is what keeps two spellings that store alike ("quotation" and
+        # "quotation_auto_tanakh", None/""/"other", a demoted oriented type and "other")
+        # from treating each other's rows as pre-existing, or deleting them.
+        planned: dict[tuple[int, int, int], dict] = {}
+        planned_keys: set[tuple[int, int, int]] = set()
+        named_book_ids: set[int] = set()
+        for (json_type_name, real_target_title), entries in raw_groups.items():
+            declared = declared_by_group[(json_type_name, real_target_title)]
+            if declared == "LINKER":
+                # Generator.kt: "linker"-typed rows are never imported.
+                print(f'SKIPPING {len(entries)} "linker" entries -> "{real_target_title}" (the generator never imports them).')
+                report["skipped_linker"] += len(entries)
+                continue
             try:
-                real_target_id, real_target_order, real_target_lines = resolve_target(
-                    real_target_title
-                )
+                target = resolve_target(real_target_title)
             except ValueError as e:
-                print(f'SKIPPING {len(entries)} entries for "{group_label}": {e}')
+                print(f'SKIPPING {len(entries)} entries for "{json_type_name} -> {real_target_title}": {e}')
                 report["skipped_target_book_not_found"] += len(entries)
                 continue
+            named_book_ids.add(target["id"])
+            if citing["is_sefaria"] and target["is_sefaria"]:
+                # Generator.kt: Sefaria ships its own links between two Sefaria books.
+                print(f'SKIPPING {len(entries)} entries -> "{real_target_title}": both books are Sefaria books.')
+                report["skipped_both_sefaria"] += len(entries)
+                continue
 
-            existing_count = cur.execute(
-                "SELECT COUNT(*) FROM link WHERE sourceBookId=? AND targetBookId=? AND connectionTypeId=?",
-                (real_target_id, citing_id, type_id),
-            ).fetchone()[0]
-
-            if existing_count:
-                if not replace_existing:
-                    print(
-                        f'SKIPPING "{group_label}": {existing_count} matching links already '
-                        f"exist. Re-run with replace_existing=true (after confirming with the "
-                        f"user) to delete and replace them, or leave as-is if this is intentional."
-                    )
-                    report["skipped_existing"][group_label] = existing_count
-                    continue
-                cur.execute(
-                    "DELETE FROM link WHERE sourceBookId=? AND targetBookId=? AND connectionTypeId=?",
-                    (real_target_id, citing_id, type_id),
+            flip, stored = plan_storage(
+                declared, citing_title, citing["is_base"], real_target_title, target["is_base"]
+            )
+            type_id = resolve_connection_type_id(cur, stored)
+            src, tgt = (target, citing) if flip else (citing, target)
+            group = planned.setdefault((type_id, src["id"], tgt["id"]), {
+                "label": f"{stored}: {src['title']} -> {tgt['title']}",
+                "type_id": type_id, "stored": stored, "flip": flip, "src": src, "tgt": tgt,
+                "rows": {}, "sources": [],
+            })
+            group["sources"].append(json_type_name)
+            if stored == "OTHER" and declared != "OTHER":
+                print(
+                    f'WARNING: {len(entries)} {json_type_name!r} entries -> {real_target_title!r} are '
+                    f"stored as OTHER by the generator, which the commentary panel never shows: "
+                    f"they point from a non-base book into the base book {real_target_title!r}, but "
+                    f"the title {citing_title!r} does not name it. Use 'source' if this is a commentary."
                 )
-                print(f'Deleted {existing_count} stale "{group_label}" links before re-inserting.')
-                report["deleted_for_replace"][group_label] = existing_count
+                report["stored_as_other"][f"{json_type_name} -> {real_target_title}"] = len(entries)
 
-            pending = []
-            seen = set()
+            heading_ids = heading_line_ids(cur, citing_id) | heading_line_ids(cur, target["id"])
             for entry in entries:
-                c_idx = int(entry["line_index_1"]) - 1  # citing book, 0-based
-                t_idx = int(entry["line_index_2"]) - 1  # real target book, 0-based
-                if c_idx not in citing_lines or t_idx not in real_target_lines:
+                # Generator.kt: (line_index - 1).coerceAtLeast(0)
+                f_idx = max(int(entry["line_index_1"]) - 1, 0)  # citing book, 0-based
+                t_idx = max(int(entry["line_index_2"]) - 1, 0)  # path_2 book, 0-based
+                if f_idx not in citing_lines or t_idx not in target["lines"]:
                     report["skipped_missing_line"] += 1
                     continue
-                source_line_id = real_target_lines[t_idx]
-                target_line_id = citing_lines[c_idx]
+                f_line_id = citing_lines[f_idx]
+                t_line_id = target["lines"][t_idx]
+                if f_line_id in heading_ids or t_line_id in heading_ids:
+                    report["skipped_heading_line"] += 1
+                    continue
+                if flip:
+                    source_line_id, target_line_id, target_line_index = t_line_id, f_line_id, f_idx
+                else:
+                    source_line_id, target_line_id, target_line_index = f_line_id, t_line_id, t_idx
                 key = (source_line_id, target_line_id, type_id)
-                if key in seen:
+                if key in planned_keys:
                     report["skipped_duplicate"] += 1
                     continue
-                seen.add(key)
-                link_id = next_id
-                next_id += 1
-                pending.append(
-                    {
-                        "link_id": link_id,
-                        "tuple": (
-                            link_id, real_target_id, citing_id, source_line_id, target_line_id,
-                            c_idx, citing_order, type_id, 1,  # isDeclaredBase
-                        ),
-                        "entry": entry,
-                        "c_idx": c_idx,
-                        "t_idx": t_idx,
-                    }
-                )
+                planned_keys.add(key)
+                group["rows"][key] = {
+                    "fields": (src["id"], tgt["id"], source_line_id, target_line_id,
+                               target_line_index, tgt["order"], type_id),
+                    "entry": entry,
+                    "flip": flip,
+                    "file_book_id": citing_id,
+                    "file_idx": f_idx,
+                    "file_line_id": f_line_id,
+                    "path2_book_id": target["id"],
+                    "path2_idx": t_idx,
+                }
+
+        ids_by_name = {str(n).upper(): int(i) for i, n in cur.execute("SELECT id, name FROM connection_type")}
+        linker_id = ids_by_name.get("LINKER")
+        # Stored types the generator never flips: a row of one of these whose SOURCE is
+        # the citing book can only have been written from the citing book's own file
+        # (every other file stores its own book as the source of such rows; the Sefaria
+        # importer only links Sefaria books; LinkerToOtzaria writes LINKER only).
+        own_only_ids = {
+            ids_by_name[n] for n in KNOWN_CONNECTION_TYPES
+            - {"SOURCE", "LINKER", "COMMENTARY", *ORIENTED_DEPENDANT_TYPES}
+            if n in ids_by_name
+        }
+
+        # ---- 2. write, group by group ----
+        next_id = (cur.execute("SELECT MAX(id) FROM link").fetchone()[0] or 0) + 1
+        verify_targets: dict[str, tuple[int, int, int, int]] = {}
+        for (type_id, src_id, tgt_id), group in planned.items():
+            label = group["label"]
+            existing: dict[tuple[int, int, int], int] = {}
+            extra_ids: list[int] = []
+            for link_id, s_line, t_line in cur.execute(
+                "SELECT id, sourceLineId, targetLineId FROM link "
+                "WHERE sourceBookId=? AND targetBookId=? AND connectionTypeId=?",
+                (src_id, tgt_id, type_id),
+            ).fetchall():
+                key = (s_line, t_line, type_id)
+                if key in group["rows"] and key not in existing:
+                    existing[key] = link_id
+                else:
+                    extra_ids.append(link_id)
+
+            pending = []
+            refreshed = 0
+            # Provably this file's rows: never-flipped type out of a non-Sefaria citing book.
+            own_row = (not group["flip"] and type_id in own_only_ids
+                       and src_id == citing_id and not citing["is_sefaria"])
+            for key, row in group["rows"].items():
+                if key in existing:
+                    if not replace_existing:
+                        report["skipped_existing"] += 1
+                        continue
+                    link_id = existing[key]
+                    cur.execute(
+                        "UPDATE link SET targetLineIndex=?, targetBookOrderIndex=? WHERE id=?",
+                        (row["fields"][4], row["fields"][5], link_id),
+                    )
+                    # One stored row can have two producers: the file of its stored SOURCE
+                    # book (writing it as written) and the file of its stored TARGET book
+                    # (writing it flipped) -- e.g. a base book's base-named "commentary" file
+                    # and the commentary's own "source" file. Only satellites this file
+                    # provably owns are dropped before rewriting:
+                    #   * all of them, when only this file can produce the row at all;
+                    #   * the side-0 anchors, when this file writes the row as written (an
+                    #     anchor lives on the stored source side, i.e. this file's book).
+                    # Everything else (the other producer's anchor, ranges/coverage that
+                    # either producer may have written) is left, and this file's ranges are
+                    # merged with the generator's widest-range rule.
+                    if own_row:
+                        delete_satellites(cur, [link_id])
+                    elif not row["flip"] and not citing["is_sefaria"] and has_anchor:
+                        cur.execute("DELETE FROM link_anchor WHERE linkId=? AND side=0", (link_id,))
+                    refreshed += 1
+                else:
+                    link_id = next_id
+                    next_id += 1
+                    cur.execute(
+                        """
+                        INSERT INTO link (
+                            id, sourceBookId, targetBookId, sourceLineId, targetLineId,
+                            targetLineIndex, targetBookOrderIndex, connectionTypeId
+                        ) VALUES (?,?,?,?,?,?,?,?)
+                        """,
+                        (link_id, *row["fields"]),
+                    )
+                    report["inserted"][label] = report["inserted"].get(label, 0) + 1
+                pending.append({**row, "link_id": link_id})
+            if refreshed:
+                report["refreshed_existing"][label] = refreshed
+
+            # Rows of the same stored identity that this file no longer produces.
+            own = replace_existing and own_row
+            if extra_ids and own:
+                delete_links(cur, extra_ids)
+                report["deleted_stale_own_rows"][label] = len(extra_ids)
+                print(f'Deleted {len(extra_ids)} stale "{label}" rows (only this file can have written them).')
+            elif extra_ids:
+                report["other_rows_kept"][label] = len(extra_ids)
+                print(f'KEPT {len(extra_ids)} other "{label}" rows this file does not produce '
+                      f"(they may come from another book's file).")
 
             if pending:
-                cur.executemany(
-                    """
-                    INSERT INTO link (
-                        id, sourceBookId, targetBookId, sourceLineId, targetLineId,
-                        targetLineIndex, targetBookOrderIndex, connectionTypeId, isDeclaredBase
-                    ) VALUES (?,?,?,?,?,?,?,?,?)
-                    """,
-                    [p["tuple"] for p in pending],
-                )
-                report["inserted"][group_label] = len(pending)
-                # Keep the resolved identity: `group_label` is a display string and
-                # may carry a suffix (e.g. "(stored as COMMENTARY)"), so it must never
-                # be split back apart to recover these.
-                verify_targets[group_label] = (type_id, real_target_id)
-                print(f'Inserted {len(pending)} "{group_label}" links.')
-
-                # Optional satellite tables (link_anchor / link_range / link_coverage) —
-                # only written if the entries carried the extra fields and the tables
-                # exist in this seforim.db. See write_satellites() docstring for the
-                # side=1(citing)/side=0(real target) convention.
+                touched_book_ids.update((src_id, tgt_id))
+                verify_targets[label] = (type_id, src_id, tgt_id, len(group["rows"]))
+                print(f'Wrote {len(pending)} "{label}" links '
+                      f"({len(pending) - refreshed} new, {refreshed} refreshed; from {sorted(set(group['sources']), key=str)}).")
                 anchors, ranges = write_satellites(
-                    cur,
-                    pending,
-                    citing_id=citing_id,
-                    real_target_id=real_target_id,
-                    has_anchor=has_anchor,
-                    has_range=has_range,
-                    has_coverage=has_coverage,
+                    cur, pending, has_anchor=has_anchor, has_range=has_range, has_coverage=has_coverage,
                 )
                 report["anchors"] += anchors
                 report["ranges"] += ranges
-                if anchors or ranges:
-                    print(f'  + {anchors} anchor(s), {ranges} range(s) for "{group_label}".')
-
-                # book_has_links: both sides are now truthfully participating in this role.
-                cur.execute(
-                    "INSERT INTO book_has_links(bookId, hasSourceLinks, hasTargetLinks) "
-                    "VALUES (?, 1, 0) ON CONFLICT(bookId) DO UPDATE SET hasSourceLinks=1",
-                    (real_target_id,),
-                )
-                cur.execute(
-                    "INSERT INTO book_has_links(bookId, hasSourceLinks, hasTargetLinks) "
-                    "VALUES (?, 0, 1) ON CONFLICT(bookId) DO UPDATE SET hasTargetLinks=1",
-                    (citing_id,),
-                )
-
-                # Flag column: set on the REAL target book (not the job's nominal
-                # target_title), which is the one that now has a real panel of this
-                # type to show. See references/db_write_notes.md for why only
-                # COMMENTARY/TARGUM/REFERENCE are set with confidence.
-                flag_col = FLAG_MAP.get(type_upper)
-                if flag_col:
-                    cur.execute(f"UPDATE book SET {flag_col}=1 WHERE id=?", (real_target_id,))
-                else:
-                    cur.execute(f"UPDATE book SET {FALLBACK_FLAG}=1 WHERE id=?", (real_target_id,))
-                    print(
-                        f'WARNING: "{type_name}" has no confirmed flag mapping; set '
-                        f'{FALLBACK_FLAG} on "{real_target_title}" as a fallback. Verify in '
-                        f"the running app that the commentary actually appears."
-                    )
-
-                # For COMMENTARY specifically, the citing book genuinely gains a real
-                # "source" (מקור) reverse view now -- confirmed by live precedent.
-                if type_upper == "COMMENTARY":
-                    cur.execute(
-                        "UPDATE book SET hasSourceConnection=1 WHERE id=?", (citing_id,)
-                    )
+            elif group["rows"]:
+                print(f'All {len(group["rows"])} "{label}" links already exist (replace_existing=false).')
             else:
-                print(f'Nothing to insert for "{group_label}" (all entries skipped).')
+                print(f'Nothing to insert for "{label}" (all entries skipped).')
+
+        # ---- 3. replace mode: rows of an earlier version of this file ----
+        if replace_existing:
+            planned_triples = set(planned)
+            # (a) Provably this file's: never-flipped types OUT of the citing book.
+            if not citing["is_sefaria"] and own_only_ids:
+                stale = [
+                    (lid, t, tgt) for lid, t, tgt in cur.execute(
+                        "SELECT id, connectionTypeId, targetBookId FROM link WHERE sourceBookId=? "
+                        f"AND connectionTypeId IN ({','.join(map(str, sorted(own_only_ids)))})",
+                        (citing_id,),
+                    ).fetchall()
+                    if (t, citing_id, tgt) not in planned_triples
+                ]
+                if stale:
+                    by = {}
+                    for _lid, t, tgt in stale:
+                        by[(t, tgt)] = by.get((t, tgt), 0) + 1
+                        touched_book_ids.add(tgt)
+                    delete_links(cur, [lid for lid, _t, _tgt in stale])
+                    touched_book_ids.add(citing_id)
+                    for (t, tgt), n in by.items():
+                        lab = f"type {t}: {citing_title} -> book {tgt}"
+                        report["deleted_stale_own_rows"][lab] = n
+                        print(f'Deleted {n} stale "{lab}" rows (only this file can have written them).')
+            # (b) Dependent-text rows INTO the citing book that this file no longer
+            # produces. They may be an earlier version of this file (a line re-typed from
+            # commentary->Gemara to super_commentary->Rashi leaves its old row behind), OR
+            # another book's links (a super-commentary on this book, a base book's own
+            # file). The DB cannot tell which, so they are reported, and deleted only when
+            # the job sets delete_reported_stale=true after the user confirmed the list.
+            # Also reported: dependent rows OUT of a non-base citing book INTO a base book.
+            # The current generator never stores that from this file (it flips such an
+            # entry, or demotes it to OTHER when the title does not name the base -- e.g.
+            # an old Siddur -> Bereshit COMMENTARY row); only another book's "source" file
+            # could, so it is not provable either.
+            dep_ids = sorted(ids_by_name[n] for n in {"COMMENTARY", *ORIENTED_DEPENDANT_TYPES} if n in ids_by_name)
+            cand = cur.execute(
+                "SELECT l.id, l.sourceBookId, l.targetBookId, l.connectionTypeId, l.sourceLineId, "
+                "l.targetLineId, COALESCE(s1.name,''), COALESCE(s2.name,'') FROM link l "
+                "JOIN book b1 ON b1.id = l.sourceBookId JOIN book b2 ON b2.id = l.targetBookId "
+                "LEFT JOIN source s1 ON s1.id = b1.sourceId LEFT JOIN source s2 ON s2.id = b2.sourceId "
+                "WHERE (l.targetBookId=? OR (l.sourceBookId=? AND ? = 0 AND b2.isBaseBook = 1)) "
+                f"AND l.connectionTypeId IN ({','.join(map(str, dep_ids)) or 'NULL'}) "
+                "AND l.sourceBookId != l.targetBookId",
+                (citing_id, citing_id, int(citing["is_base"])),
+            ).fetchall() if dep_ids else []
+            cand = [
+                r for r in cand
+                if (r[4], r[5], r[3]) not in planned_keys
+                and not ("sefaria" in r[6].lower() and "sefaria" in r[7].lower())
+                and r[3] != linker_id
+            ]
+            if cand:
+                by = {}
+                for _lid, s, t, ty, *_ in cand:
+                    by[(s, t, ty)] = by.get((s, t, ty), 0) + 1
+                titles = dict(cur.execute("SELECT id, title FROM book WHERE id IN (%s)" % ",".join(
+                    str(b) for key in by for b in key[:2])).fetchall())
+                names = {v: k for k, v in ids_by_name.items()}
+                delete = bool(cfg.get("delete_reported_stale", False))
+                if delete and citing["is_sefaria"]:
+                    raise ValueError("delete_reported_stale is refused for a Sefaria book: its "
+                                     "dependent rows come from the Sefaria import, not from this file.")
+                for (s, t, ty), n in sorted(by.items()):
+                    lab = f"{names.get(ty, ty)}: {titles.get(s, s)} -> {titles.get(t, t)}"
+                    report["deleted_reported_stale" if delete else "reported_stale_candidates"][lab] = n
+                    print(f'{"Deleted" if delete else "STALE?"} {n} "{lab}" rows this file does not produce'
+                          + ("" if delete else " -- kept; set delete_reported_stale=true (after the user "
+                                               "confirms this list) to delete them."))
+                if delete:
+                    delete_links(cur, [r[0] for r in cand])
+                    for _lid, s, t, *_ in cand:
+                        touched_book_ids.update((s, t))
+
+        # book_has_links + book.has*Connection, recomputed for every touched book with
+        # the generator's own rules (Generator.kt, "Updating book_has_links ..."), so a
+        # deletion also clears flags that no longer hold.
+        recompute_book_flags(cur, touched_book_ids)
 
         if dry_run:
             conn.rollback()
@@ -586,12 +970,12 @@ def run(config_path: Path) -> int:
         print(json.dumps(report, ensure_ascii=False, indent=2))
 
         if not dry_run:
-            for group_label, (type_id, real_target_id) in verify_targets.items():
+            for group_label, (type_id, src_id, tgt_id, wanted) in verify_targets.items():
                 verify = cur.execute(
                     "SELECT COUNT(*) FROM link WHERE sourceBookId=? AND targetBookId=? AND connectionTypeId=?",
-                    (real_target_id, citing_id, type_id),
+                    (src_id, tgt_id, type_id),
                 ).fetchone()[0]
-                print(f'VERIFY "{group_label}"->{citing_title}: {verify} rows in DB')
+                print(f'VERIFY "{group_label}": {verify} rows in DB ({wanted} from this file)')
             print(f"Backup kept at: {backup_path}")
             print("Close and reopen Otzaria, then open the target book to check the commentary panel.")
 

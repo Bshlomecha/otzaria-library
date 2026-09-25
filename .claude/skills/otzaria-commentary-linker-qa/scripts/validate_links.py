@@ -28,17 +28,200 @@ import random
 import re
 import sqlite3
 import sys
-from collections import Counter, defaultdict
-from pathlib import Path
+from collections import Counter
+from pathlib import Path, PurePosixPath
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from connection_type import canonical_connection_type, kt_trim as _kt_trim  # noqa: E402
 
 EXPECTED_KEYS = {"line_index_1", "line_index_2", "heRef_2", "path_2", "Conection Type"}
 # Lateral (non base/dependant) references. Written under their own name from either side,
-# never rewritten to "source" — the flip would be meaningless for them.
+# never rewritten to "source" — the flip would be meaningless for them. (ein_mishpat is
+# NOT here: the generator treats it as an oriented dependant type, see below.)
 LATERAL_TYPES = {
-    "reference", "quotation", "mesorat_hashas", "ein_mishpat", "mishnah_in_talmud",
+    "reference", "quotation", "mesorat_hashas", "mishnah_in_talmud",
     "related", "other", "sifrei_mitzvot", "essay", "allusion", "liturgy", "law", "summary",
 }
 HEADER_RE = re.compile(r"^<h([1-6])>(.*?)</h\1>\s*$", re.I)
+# How SeforimLibrary's generator (otzariasqlite/Generator.kt, ~L71-81, 249-360,
+# 2013-2030) stores an entry of a links file named after book S whose path_2 is book T:
+#   * "source"                    -> always flipped, stored COMMENTARY (T -> S).
+#   * ORIENTED type (below), T.isBaseBook and not S.isBaseBook:
+#         title of S declares T ("<X> AL <T>")  -> flipped, stored as its own type
+#         otherwise                              -> stored OTHER (lost from the panel)
+#   * ORIENTED type, any other base-book combination -> stored as-is, S -> T, i.e. S is
+#     the base. Correct for a base-named file; backwards for a citing-named one.
+# isBaseBook = the book is in the generator's priority.txt (Otzaria) / Sefaria's base
+# list; the reliable source is `book.isBaseBook` in a built seforim.db (--db).
+# Policy here stays stricter than the generator for commentary/super_commentary in a
+# citing-named file: 'source' is canonical, the old values are a link_direction blocker
+# even where the title heuristic would happen to rescue them.
+ORIENTED_TYPES = {
+    "commentary", "super_commentary", "targum", "midrash", "parshanut",
+    "dibur_hamatchil", "ein_mishpat", "elucidation", "footnotes",
+}
+ORIENTED_OTHER_TYPES = ORIENTED_TYPES - {"commentary", "super_commentary"}
+# Dependant types Kotlin knows but never flips / re-types (stored exactly as declared).
+AS_IS_DEPENDANT_TYPES = {"explication"}
+_DEP_PREFIXES = (   # DEPENDENCY_TITLE_PREFIXES, same order
+    "\u05ea\u05dc\u05de\u05d5\u05d3 \u05d1\u05d1\u05dc\u05d9 ",
+    "\u05ea\u05dc\u05de\u05d5\u05d3 \u05d9\u05e8\u05d5\u05e9\u05dc\u05de\u05d9 ",
+    "\u05de\u05e1\u05db\u05ea ", "\u05de\u05e9\u05e0\u05d4 ", "\u05e1\u05e4\u05e8 ",
+)
+_ON = " \u05e2\u05dc "
+# Java's \s (no UNICODE_CHARACTER_CLASS) is ASCII-only: NBSP is NOT whitespace there.
+_JAVA_WS = re.compile(r"[ \t\n\x0b\f\r]+")
+_CORPUS_SUFFIX = re.compile(
+    r"[ \t\n\x0b\f\r]+\u05e2\u05dc[ \t\n\x0b\f\r]+(?:"
+    "\u05d4\u05ea\u05e0\"\u05da|\u05d4\u05ea\u05d5\u05e8\u05d4|\u05d4\u05ea\u05dc\u05de\u05d5\u05d3|"
+    "\u05d4\u05de\u05e9\u05e0\u05d4|\u05ea\u05e0\u05da|\u05ea\u05d5\u05e8\u05d4|"
+    "\u05ea\u05dc\u05de\u05d5\u05d3|\u05de\u05e9\u05e0\u05d4)$",
+    re.I,
+)
+
+
+def normalize_hebrew_label(raw: str) -> str:
+    """Port of Generator.normalizeHebrewLabel."""
+    s = _kt_trim(raw)
+    s = s.replace("“", '"').replace("”", '"')
+    s = s.replace("‘", "'").replace("’", "'")
+    s = s.replace('"', "\u05f4")
+    s = s.replace("''", "\u05f4")
+    s = s.replace("\u05f3\u05f3", "\u05f4")
+    s = s.replace("`", "\u05f3")
+    return _kt_trim(_JAVA_WS.sub(" ", s))
+
+
+def comparable_label(raw: str) -> str:
+    """Port of Generator.comparableLabel (incl. stripCorpusSuffix)."""
+    base = normalize_hebrew_label(raw)
+    for ch in ("\u05f4", '"', "\u05f3", "'"):
+        base = base.replace(ch, "")
+    base = _kt_trim(_JAVA_WS.sub(" ", base))
+    return _kt_trim(_CORPUS_SUFFIX.sub("", base))
+
+
+def _dep_key(raw: str) -> str:
+    v = comparable_label(raw)
+    while True:
+        pre = next((p for p in _DEP_PREFIXES if v.startswith(p)), None)
+        if pre is None:
+            return v
+        v = _kt_trim(v[len(pre):])
+
+
+def title_declares_dependency_on(dependant: str, base: str) -> bool:
+    """Port of Generator.titleDeclaresDependencyOn."""
+    norm = comparable_label(dependant or "")
+    i = norm.rfind(_ON)
+    if i < 0:
+        return False
+    declared = norm[i + len(_ON):]
+    if not _kt_trim(declared):
+        return False
+    return _dep_key(declared) == _dep_key(base or "")
+
+
+def default_priority_lists() -> list:
+    """The generator's priority.txt files, if SeforimLibrary is checked out next to
+    this repo (.../otzaria-books/SeforimLibrary)."""
+    here = Path(__file__).resolve()
+    if len(here.parents) < 5:
+        return []
+    sl = here.parents[4].parent / "SeforimLibrary" / "generator"
+    return [q for q in (sl / "otzariasqlite/src/commonMain/resources/priority.txt",
+                        sl / "sefariasqlite/src/jvmMain/resources/priority.txt") if q.is_file()]
+
+
+def load_priority_titles(paths) -> set:
+    out = set()
+    for q in paths:
+        if not Path(q).is_file():
+            print(f"WARNING: --priority-list {q} not found — ignored", file=sys.stderr)
+            continue
+        for line in Path(q).read_text(encoding="utf-8-sig").splitlines():
+            line = line.strip().replace("\\", "/")
+            if line and not line.startswith("#") and line.lower().endswith(".txt"):
+                out.add(comparable_label(line.rsplit("/", 1)[-1][:-4]))
+    return out
+
+
+class BaseBookOracle:
+    """isBaseBook lookup: seforim.db first (authoritative), then priority.txt for
+    titles the DB lacks, else None (unknown)."""
+
+    def __init__(self, db_path, priority_paths):
+        self.conn = None
+        if db_path and Path(db_path).is_file():
+            self.conn = sqlite3.connect(f"file:{Path(db_path).as_posix()}?mode=ro", uri=True)
+        self.priority = load_priority_titles(priority_paths) if priority_paths else set()
+        self.source = "+".join(x for x, on in (("db", self.conn), ("priority.txt", self.priority)) if on) or None
+
+    def is_base(self, title: str):
+        if self.conn is not None:
+            for t in title_variants(title):
+                row = self.conn.execute(
+                    "SELECT isBaseBook FROM book WHERE title = ? LIMIT 1", (t,)).fetchone()
+                if row is not None:
+                    return bool(row[0])
+            # not in the DB (e.g. a notes book merged inline): fall back to priority.txt
+        if self.priority:
+            return comparable_label(title) in self.priority
+        return None
+
+    def close(self):
+        if self.conn is not None:
+            self.conn.close()
+
+
+def generator_target_title(path2: str) -> str:
+    """Target title exactly as Generator.kt derives it from path_2 (~L1975): the last
+    component after a backslash, else Paths.get(path).fileName, then everything before
+    the last '.' (the whole name when there is none). Folder parts never survive."""
+    path2 = path2 or ""
+    last = path2.split("\\")[-1] if "\\" in path2 else PurePosixPath(path2).name  # like Path.fileName: ignores a trailing /
+    return last.rsplit(".", 1)[0] if "." in last else last
+
+
+def classify_orientation(ctype, s_title, t_title, oracle):
+    """-> (outcome, severity, summary), mirroring Generator.kt for an ORIENTED type."""
+    declared = title_declares_dependency_on(s_title, t_title)
+    if ctype not in ORIENTED_TYPES:
+        # e.g. explication: a valid dependant type the generator never flips and never
+        # re-types (not in ORIENTED_DEPENDANT_TYPES) -> always stored as-is.
+        if declared:
+            return ("as_is", "major",
+                    f"{ctype!r} -> {t_title!r}: never flipped by the generator, so "
+                    f"{s_title!r} is stored as the BASE although its title names "
+                    f"{t_title!r} — backwards; use 'source'")
+        return ("as_is", "minor",
+                f"{ctype!r} -> {t_title!r}: never flipped by the generator — stored with "
+                f"{s_title!r} as the base (right only for a base-named file)")
+    t_base, s_base = oracle.is_base(t_title), oracle.is_base(s_title)
+    if t_base is None or s_base is None:
+        return ("unverifiable", "minor",
+                f"cannot tell how the generator stores {ctype!r} -> {t_title!r}: isBaseBook "
+                f"unknown (target={t_base}, citing={s_base}; pass --db). Title "
+                f"{'names' if declared else 'does NOT name'} the target")
+    if t_base and not s_base:
+        if declared:
+            return ("flipped", "info",
+                    f"{ctype!r} -> base {t_title!r}: generator flips it (title names the base)")
+        return ("stored_other", "major",
+                f"{ctype!r} -> base {t_title!r} from a non-base book whose title does not "
+                f"name it: stored as OTHER, never shown as a commentary — use 'source'")
+    if declared:
+        # The named book's own title says it depends on path_2, yet it is stored as
+        # the base of path_2: backwards for certain.
+        return ("as_is", "major",
+                f"{ctype!r} -> {t_title!r}: stored as-is with {s_title!r} as the BASE, "
+                f"although its title names {t_title!r} (target isBaseBook={t_base}) — "
+                f"backwards; use 'source'")
+    return ("as_is", "info",
+            f"{ctype!r} -> {t_title!r}: stored as-is with {s_title!r} as the BASE "
+            f"(right for a base-named file, backwards for a citing-named one)")
+
+
 # Generic placeholders / colophons. Author bylines are book-specific — pass --skip-line
 # and/or rely on short-line-after-h1 heuristics via --auto-byline-max-len.
 PLACEHOLDER_RE = re.compile(r"@@@חסר\s*עמוד\s*מקורי@@@", re.I)
@@ -275,6 +458,9 @@ def main() -> int:
         help="If >0, treat a short line 2 under <h1> as author byline (0 disables)",
     )
     p.add_argument("--db", type=Path, default=None)
+    p.add_argument("--priority-list", type=Path, action="append", default=None,
+                   help="generator priority.txt used for isBaseBook when --db is absent "
+                        "(default: sibling SeforimLibrary checkout, if present)")
     p.add_argument("--book-id", type=int, default=None, help="Override primary target bookId")
     p.add_argument("--book-title", default=None, help="Override primary title for heRef/DB")
     p.add_argument("--db-sample", type=int, default=20, help="Random DB heRef samples across path_2")
@@ -348,6 +534,8 @@ def main() -> int:
     expected_path2 = f"{args.target.stem}.txt"
 
     type_counts: Counter = Counter()
+    canon_counts: Counter = Counter()
+    oriented_groups: dict = {}
     commentary_like: list[dict] = []
     linker_entries: list[dict] = []
 
@@ -360,16 +548,29 @@ def main() -> int:
             continue
         ctype = e.get("Conection Type")
         type_counts[ctype] += 1
+        # All classification uses the generator's normalized name (Link.kt: trim,
+        # lowercase, ' '->'_', aliases); ctype stays raw for messages.
+        canon = canonical_connection_type(ctype)
+        canon_counts[canon] += 1
         keys = set(e.keys())
 
         if "Conection Type" not in e and "Connection Type" in e:
             issues.append({
                 "severity": "blocker", "check": "schema",
                 "line_index_1": e.get("line_index_1"),
-                "summary": 'uses "Connection Type" — app expects misspelled "Conection Type"',
+                "summary": ('uses "Connection Type" — the generator reads only the misspelled '
+                            '"Conection Type" key, ignores this one and stores the entry as OTHER'),
+            })
+        elif ctype is None:
+            issues.append({
+                "severity": "minor", "check": "schema",
+                "line_index_1": e.get("line_index_1"),
+                "summary": ('"Conection Type" is ' + ("null" if "Conection Type" in e else "missing")
+                            + ' — the generator reads it as "" and stores OTHER (not a '
+                            'dependent-text link); probably an authoring error'),
             })
 
-        if ctype == "linker":
+        if canon == "linker":
             linker_entries.append(e)
             for req in EXPECTED_KEYS:
                 if req not in e:
@@ -404,14 +605,15 @@ def main() -> int:
                 # has extras that are known optional — already handled
                 pass
 
-        # A citing-named file states the link from the מפרש's side, so the only
-        # correct value is "source" — the one the DB generator flips to the
-        # canonical base→מפרש direction. "commentary"/"super_commentary" here are
-        # the reversed-direction bug: the DB stores the מפרש as the base and the
-        # מפרש never reaches the commentary panel.
-        if ctype == "source":
+        # A citing-named file states the link from the dependant's side, so the
+        # canonical value is "source" — always flipped by the generator to base ->
+        # dependant. commentary/super_commentary are flipped only when path_2 is a base
+        # book, the citing book is not, and its title names that base (see
+        # classify_orientation); anywhere else they store the pair backwards. Policy:
+        # keep them a blocker in a citing-named file regardless.
+        if canon == "source":
             pass
-        elif ctype in ("commentary", "super_commentary"):
+        elif canon in ("commentary", "super_commentary"):
             issues.append({
                 "severity": "blocker", "check": "link_direction",
                 "line_index_1": e.get("line_index_1"),
@@ -420,7 +622,19 @@ def main() -> int:
                     f"backwards (מפרש as base) — must be 'source'"
                 ),
             })
-        elif ctype in LATERAL_TYPES:
+        elif canon in ORIENTED_OTHER_TYPES or canon in AS_IS_DEPENDANT_TYPES:
+            # Valid, but its stored direction depends on isBaseBook + the title
+            # heuristic; resolved once per (type, path_2) after the loop (no flood).
+            g = oriented_groups.setdefault((canon, e.get("path_2") or ""), [0, e.get("line_index_1")])
+            g[0] += 1
+        elif canon == "other":
+            if ctype is not None:
+                issues.append({
+                    "severity": "info", "check": "schema",
+                    "line_index_1": e.get("line_index_1"),
+                    "summary": f"Conection Type {ctype!r} = OTHER (not a dependent-text link)",
+                })
+        elif canon in LATERAL_TYPES:
             # Lateral references are not a base/dependant relation, so they are written
             # under their own name from either side and get no flip. Legitimate, but
             # worth surfacing since they don't count toward commentary coverage.
@@ -433,7 +647,8 @@ def main() -> int:
             issues.append({
                 "severity": "major", "check": "schema",
                 "line_index_1": e.get("line_index_1"),
-                "summary": f"unexpected Conection Type: {ctype!r}",
+                "summary": (f"unexpected Conection Type: {ctype!r} — rejected by the "
+                            f"generator's ConnectionType parser, stored as OTHER"),
             })
 
         for k in ("line_index_1", "line_index_2"):
@@ -458,8 +673,9 @@ def main() -> int:
             })
 
     stats["type_counts"] = dict(type_counts)
+    stats["type_counts_canonical"] = {str(k): v for k, v in canon_counts.items()}
     if args.expected_linker is not None:
-        got = type_counts.get("linker", 0)
+        got = canon_counts.get("linker", 0)   # " Linker" etc. count, like the generator
         if got != args.expected_linker:
             issues.append({
                 "severity": "major", "check": "linker_preserve", "line_index_1": None,
@@ -705,9 +921,30 @@ def main() -> int:
             "severity": "info", "check": "heRef_db", "line_index_1": None,
             "summary": "DB not available — skipped heRef_db check",
         })
+        # Not a silent pass: say it where a human running the tool will see it.
+        print("WARNING: heRef_db check SKIPPED (no --db and no %APPDATA% seforim.db) — "
+              "0 DB samples verified", file=sys.stderr)
         stats["db_sample_n"] = 0
         stats["db_sample_ok"] = 0
         stats["db_sample_fail"] = 0
+
+    # --- orientation of footnotes/targum/midrash/... entries (aggregated) ---
+    orient_stats: dict = {}
+    if oriented_groups:
+        prio = args.priority_list if args.priority_list is not None else default_priority_lists()
+        oracle = BaseBookOracle(db_path, prio)
+        s_title = args.citing.stem
+        for (ctype, path2), (n, first_li) in sorted(oriented_groups.items()):
+            outcome, severity, summary = classify_orientation(
+                ctype, s_title, generator_target_title(path2), oracle)
+            orient_stats[f"{ctype} -> {path2}"] = {"entries": n, "outcome": outcome}
+            issues.append({
+                "severity": severity, "check": "link_direction", "line_index_1": first_li,
+                "summary": f"{n} entries: {summary}",
+            })
+        stats["orientation_oracle"] = oracle.source
+        oracle.close()
+    stats["oriented_groups"] = orient_stats
 
     sev = Counter(i["severity"] for i in issues)
     stats["issues_by_severity"] = dict(sev)

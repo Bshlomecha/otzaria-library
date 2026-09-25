@@ -14,6 +14,7 @@ from linker.dibur_matcher import (
     extract_fresh_quote,
     load_manual_overrides,
     match_citing_book,
+    merge_entries,
     normalize_book_title,
     self_check_super_commentary,
 )
@@ -126,6 +127,57 @@ class OverrideTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 load_manual_overrides(str(path))
             self.assertEqual(len(LINK_ENTRY_KEYS), 5)
+
+
+
+def _link(line, conn, path_2="Base.txt"):
+    return {"line_index_1": line, "line_index_2": line, "heRef_2": "x",
+            "path_2": path_2, "Conection Type": conn}
+
+
+class MergeTests(unittest.TestCase):
+    def test_every_dependent_type_is_replaced_not_duplicated(self):
+        stale = ["commentary", "super_commentary", "super commentary", "footnotes", "footnote",
+                 "targum", "midrash", "parshanut", "dibur_hamatchil", "elucidation", "explication"]
+        existing = [_link(i, conn) for i, conn in enumerate(stale, start=1)]
+        new = [_link(1, "source")]
+        merged, summary = merge_entries(existing, new)
+        self.assertEqual(merged, new)
+        self.assertEqual(summary["removed_stale"], len(stale))
+        self.assertEqual(summary["removed_by_type"]["footnotes"], 1)
+
+    def test_lateral_types_and_other_targets_survive(self):
+        kept = [_link(1, "mesorat hashas"), _link(2, "ein mishpat / ner mitsvah"),
+                _link(3, "reference"), _link(4, "footnotes", "Notes.txt")]
+        new = [_link(5, "source")]
+        merged, summary = merge_entries(kept, new)
+        self.assertEqual(summary["removed_stale"], 0)
+        self.assertEqual(merged, kept + new)
+
+
+import linker.dibur_matcher as _dm  # noqa: E402
+
+
+# Characters Kotlin's String.trim() removes (Character.isWhitespace || isSpaceChar),
+# measured on the JVM against SeforimLibrary's ConnectionType.fromKnownStringOrNull.
+# Notably NOT U+0085 (str.strip() removes it), U+200B, U+FEFF.
+KOTLIN_TRIM_BMP = {0x09, 0x0a, 0x0b, 0x0c, 0x0d, 0x1c, 0x1d, 0x1e, 0x1f, 0x20, 0xa0, 0x1680,
+              0x2000, 0x2001, 0x2002, 0x2003, 0x2004, 0x2005, 0x2006, 0x2007, 0x2008,
+              0x2009, 0x200a, 0x2028, 0x2029, 0x202f, 0x205f, 0x3000}
+
+
+class ConnTypeKotlinTrimTests(unittest.TestCase):
+    def test_trim_matches_kotlin_over_the_bmp(self):
+        norm = _dm._normalize_conn_type
+        for cp in range(0x10000):
+            if 0xD800 <= cp <= 0xDFFF:
+                continue
+            c = chr(cp)
+            for s in (c + "source", "source" + c):
+                self.assertEqual(norm(s) == "source", cp in KOTLIN_TRIM_BMP, hex(cp))
+
+    def test_null_is_empty_like_the_generator(self):
+        self.assertEqual(_dm._normalize_conn_type(None), "")
 
 
 if __name__ == "__main__":

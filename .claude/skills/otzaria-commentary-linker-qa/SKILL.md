@@ -82,6 +82,9 @@ as the base, the מפרש disappears from the commentary panel, and the base tex
 up as a "פירוש" on the מפרש. Sept 2026: 16,093 such entries across 46 files (קרן אורה,
 שפת אמת, ערוך לנר על יבמות, אבן העוזר, ריטב"א על גיטין, חידושי רמב״ן על כתובות) shipped
 inverted through `db_version=27` before this was caught.
+(Later generator versions also flip an oriented type - `commentary`, `footnotes`, … - when
+`path_2` is a base book, the named book is not, and its title reads `<X> al <path_2>`; see F20.
+That rescue is a heuristic, so `source` remains the rule here.)
 
 **Consequence for this checklist:** the plain-פירוש vs super-commentary distinction is
 carried by `path_2` alone — the base text's file, or the intermediate book's file — not by
@@ -208,6 +211,37 @@ python -X utf8 .claude/skills/otzaria-commentary-linker-qa/scripts/check_daf.py 
 
 It exits non-zero on any mismatch. Its `daf_util.py` handles every daf notation in the
 corpus — import it instead of writing your own parser (see the warning under check 8).
+
+Which entries it checks, and what "pass" means (F20):
+
+- It checks every **dependent-text** entry — `source`, `commentary`, `super_commentary`,
+  `footnotes`, `targum`, `midrash`, `parshanut`, `dibur_hamatchil`, `elucidation`,
+  `explication` — by
+  comparing the daf above `line_index_1` in the book the file is **named after**
+  (`--citing`) with the daf in `heRef_2`. That is direction-agnostic, so it is right for a
+  citing-named `source` file and for a base-named `commentary` file alike. Lateral types
+  (`quotation`, `reference`, `mesorat_hashas`, `ein_mishpat`, …) and `linker` are skipped
+  and **counted** under `skipped_type`, never silently.
+- Types are compared the way the generator parses them (`scripts/connection_type.py`, a port of
+  Link.kt: Kotlin trim, lowercase, space -> `_`, aliases), so `"footnote"`, `" Source "` or
+  `"ein mishpat / ner mitsvah"` classify correctly. A missing or `null` `Conection Type`, and a
+  misspelled `"Connection Type"` key (ignored by the generator), are read as `""` -> OTHER:
+  skipped here, reported by `validate_links.py` (`minor` for missing/null, `blocker` for the
+  misspelled key).
+- Notes-book targets carry no daf: a base-named `footnotes` file has `path_2` = the notes
+  book and `heRef_2` = its bare title. Such entries (and any heRef whose last word is not a
+  Hebrew-numeral daf) are counted as `target_daf_unknown`, never as a mismatch - so a pure
+  footnotes file checks 0 entries and exits `2`; that is expected, the daf check does not
+  apply to it.
+- Exit codes: `0` all checked entries match · `1` any mismatch (wins over `2`) · `2` **not
+  verified** - a file checked 0 entries (no daf headings, only lateral rows, notes-book
+  targets), its citing `.txt` was not found, or the links file is unreadable / not a JSON
+  array (the batch continues) · `3` usage error. `2` is a failure, not a pass.
+  `--allow-unchecked` downgrades per-file cases to a warning for mixed batches
+  (Mishnah-mapped or non-Talmud books), but a run that verified nothing at all still exits `2`.
+- Always read the `match` count, not just the exit code. Before Sept 2026 the script only
+  looked at `commentary`/`super_commentary`, so every modern `source` file reported
+  `match 0` and exited `0`. Regression tests: `scripts/test_check_daf.py`.
 
 To resolve or re-resolve a dibur against a target's lemmas, use
 `otzaria-commentary-linker/scripts/lemma_head_match.py`; when its `best()` returns `None`,

@@ -472,6 +472,14 @@
     "Conection Type": "source"
   },
   {
+    "line_index_1": 79,
+    "heRef_2": "פסחים יא:, יא",
+    "path_2": "פסחים.txt",
+    "line_index_2": 330,
+    "ref_2": "Pesachim 11b:11",
+    "Conection Type": "source"
+  },
+  {
     "line_index_1": 80,
     "heRef_2": "פסחים יא:, יא",
     "path_2": "פסחים.txt",
@@ -488,15 +496,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 82,
-    "heRef_2": "פסחים יא:, יא",
-    "path_2": "פסחים.txt",
-    "line_index_2": 330,
-    "ref_2": "Pesachim 11b:11",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 84,
+    "line_index_1": 83,
     "heRef_2": "פסחים יב., ג",
     "path_2": "פסחים.txt",
     "line_index_2": 339,
@@ -504,7 +504,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 87,
+    "line_index_1": 86,
     "heRef_2": "פסחים יג:, ז",
     "path_2": "פסחים.txt",
     "line_index_2": 393,
@@ -512,7 +512,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 89,
+    "line_index_1": 88,
     "heRef_2": "פסחים יד., יד",
     "path_2": "פסחים.txt",
     "line_index_2": 417,
@@ -520,7 +520,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 90,
+    "line_index_1": 89,
     "heRef_2": "פסחים יד., טו",
     "path_2": "פסחים.txt",
     "line_index_2": 418,
@@ -528,7 +528,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 92,
+    "line_index_1": 91,
     "heRef_2": "פסחים יד:, ג",
     "path_2": "פסחים.txt",
     "line_index_2": 423,
@@ -536,11 +536,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 93,
+    "line_index_1": 92,
     "heRef_2": "פסחים יד:, ב",
     "path_2": "פסחים.txt",
     "line_index_2": 422,
     "ref_2": "Pesachim 14b:2",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 93,
+    "heRef_2": "פסחים יד:, י",
+    "path_2": "פסחים.txt",
+    "line_index_2": 430,
+    "ref_2": "Pesachim 14b:10",
     "Conection Type": "source"
   },
   {
@@ -552,15 +560,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 95,
-    "heRef_2": "פסחים יד:, י",
-    "path_2": "פסחים.txt",
-    "line_index_2": 430,
-    "ref_2": "Pesachim 14b:10",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 97,
+    "line_index_1": 96,
     "heRef_2": "פסחים טז., ג",
     "path_2": "פסחים.txt",
     "line_index_2": 469,
@@ -568,7 +568,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 98,
+    "line_index_1": 97,
     "heRef_2": "פסחים טז., ט",
     "path_2": "פסחים.txt",
     "line_index_2": 475,
@@ -576,7 +576,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 99,
+    "line_index_1": 98,
     "heRef_2": "פסחים טז., טז",
     "path_2": "פסחים.txt",
     "line_index_2": 482,
@@ -584,7 +584,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 101,
+    "line_index_1": 100,
     "heRef_2": "פסחים טז:, ד",
     "path_2": "פסחים.txt",
     "line_index_2": 488,
@@ -592,7 +592,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 102,
+    "line_index_1": 101,
     "heRef_2": "פסחים טז:, ה",
     "path_2": "פסחים.txt",
     "line_index_2": 489,
@@ -600,7 +600,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 103,
+    "line_index_1": 102,
     "heRef_2": "פסחים טז:, ח",
     "path_2": "פסחים.txt",
     "line_index_2": 492,
@@ -608,7 +608,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 104,
+    "line_index_1": 103,
     "heRef_2": "פסחים טז:, ט",
     "path_2": "פסחים.txt",
     "line_index_2": 493,
@@ -616,7 +616,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 106,
+    "line_index_1": 105,
     "heRef_2": "פסחים יז., ב",
     "path_2": "פסחים.txt",
     "line_index_2": 497,
@@ -624,7 +624,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 107,
+    "line_index_1": 106,
     "heRef_2": "פסחים יז., ח",
     "path_2": "פסחים.txt",
     "line_index_2": 503,
@@ -632,7 +632,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 108,
+    "line_index_1": 107,
     "heRef_2": "פסחים יז., ט",
     "path_2": "פסחים.txt",
     "line_index_2": 504,
@@ -640,7 +640,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 109,
+    "line_index_1": 108,
     "heRef_2": "פסחים יז., יא",
     "path_2": "פסחים.txt",
     "line_index_2": 506,
@@ -648,7 +648,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 110,
+    "line_index_1": 109,
     "heRef_2": "פסחים יז., טו",
     "path_2": "פסחים.txt",
     "line_index_2": 510,
@@ -656,7 +656,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 112,
+    "line_index_1": 111,
     "heRef_2": "פסחים יז:, ד",
     "path_2": "פסחים.txt",
     "line_index_2": 520,
@@ -664,11 +664,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 113,
+    "line_index_1": 112,
     "heRef_2": "פסחים יז:, יא",
     "path_2": "פסחים.txt",
     "line_index_2": 527,
     "ref_2": "Pesachim 17b:11",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 114,
+    "heRef_2": "פסחים יח., ד",
+    "path_2": "פסחים.txt",
+    "line_index_2": 536,
+    "ref_2": "Pesachim 18a:4",
     "Conection Type": "source"
   },
   {
@@ -681,14 +689,6 @@
   },
   {
     "line_index_1": 116,
-    "heRef_2": "פסחים יח., ד",
-    "path_2": "פסחים.txt",
-    "line_index_2": 536,
-    "ref_2": "Pesachim 18a:4",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 117,
     "heRef_2": "פסחים יח., י",
     "path_2": "פסחים.txt",
     "line_index_2": 542,
@@ -696,7 +696,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 118,
+    "line_index_1": 117,
     "heRef_2": "פסחים יח., יב",
     "path_2": "פסחים.txt",
     "line_index_2": 544,
@@ -704,7 +704,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 120,
+    "line_index_1": 119,
     "heRef_2": "פסחים יח:, א",
     "path_2": "פסחים.txt",
     "line_index_2": 547,
@@ -712,7 +712,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 121,
+    "line_index_1": 120,
     "heRef_2": "פסחים יח:, ו",
     "path_2": "פסחים.txt",
     "line_index_2": 552,
@@ -720,7 +720,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 122,
+    "line_index_1": 121,
     "heRef_2": "פסחים יח:, ז",
     "path_2": "פסחים.txt",
     "line_index_2": 553,
@@ -728,7 +728,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 124,
+    "line_index_1": 123,
     "heRef_2": "פסחים יט:, יא",
     "path_2": "פסחים.txt",
     "line_index_2": 585,
@@ -736,7 +736,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 126,
+    "line_index_1": 125,
     "heRef_2": "פסחים כ., א",
     "path_2": "פסחים.txt",
     "line_index_2": 590,
@@ -744,7 +744,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 127,
+    "line_index_1": 126,
     "heRef_2": "פסחים כ., ד",
     "path_2": "פסחים.txt",
     "line_index_2": 593,
@@ -752,7 +752,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 128,
+    "line_index_1": 127,
     "heRef_2": "פסחים כ., ז",
     "path_2": "פסחים.txt",
     "line_index_2": 596,
@@ -760,7 +760,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 130,
+    "line_index_1": 129,
     "heRef_2": "פסחים כ:, כג",
     "path_2": "פסחים.txt",
     "line_index_2": 626,
@@ -768,7 +768,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 132,
+    "line_index_1": 131,
     "heRef_2": "פסחים כא., ו",
     "path_2": "פסחים.txt",
     "line_index_2": 634,
@@ -776,7 +776,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 135,
+    "line_index_1": 134,
     "heRef_2": "פסחים כא., ט",
     "path_2": "פסחים.txt",
     "line_index_2": 637,
@@ -784,7 +784,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 136,
+    "line_index_1": 135,
     "heRef_2": "פסחים כא., יג",
     "path_2": "פסחים.txt",
     "line_index_2": 641,
@@ -800,7 +800,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 139,
+    "line_index_1": 138,
     "heRef_2": "פסחים כא:, ב",
     "path_2": "פסחים.txt",
     "line_index_2": 646,
@@ -808,7 +808,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 140,
+    "line_index_1": 139,
     "heRef_2": "פסחים כא:, ג",
     "path_2": "פסחים.txt",
     "line_index_2": 647,
@@ -816,11 +816,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 141,
+    "line_index_1": 140,
     "heRef_2": "פסחים כא:, ח",
     "path_2": "פסחים.txt",
     "line_index_2": 652,
     "ref_2": "Pesachim 21b:8",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 141,
+    "heRef_2": "פסחים כא:, י",
+    "path_2": "פסחים.txt",
+    "line_index_2": 654,
+    "ref_2": "Pesachim 21b:10",
     "Conection Type": "source"
   },
   {
@@ -832,15 +840,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 143,
-    "heRef_2": "פסחים כא:, י",
-    "path_2": "פסחים.txt",
-    "line_index_2": 654,
-    "ref_2": "Pesachim 21b:10",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 145,
+    "line_index_1": 144,
     "heRef_2": "פסחים כב., א",
     "path_2": "פסחים.txt",
     "line_index_2": 657,
@@ -848,7 +848,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 146,
+    "line_index_1": 145,
     "heRef_2": "פסחים כב., ט",
     "path_2": "פסחים.txt",
     "line_index_2": 665,
@@ -856,7 +856,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 148,
+    "line_index_1": 147,
     "heRef_2": "פסחים כב:, ב",
     "path_2": "פסחים.txt",
     "line_index_2": 669,
@@ -864,7 +864,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 149,
+    "line_index_1": 148,
     "heRef_2": "פסחים כב:, ח",
     "path_2": "פסחים.txt",
     "line_index_2": 675,
@@ -872,7 +872,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 150,
+    "line_index_1": 149,
     "heRef_2": "פסחים כב:, יא",
     "path_2": "פסחים.txt",
     "line_index_2": 678,
@@ -880,7 +880,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 151,
+    "line_index_1": 150,
     "heRef_2": "פסחים כב:, טו",
     "path_2": "פסחים.txt",
     "line_index_2": 682,
@@ -888,11 +888,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 153,
+    "line_index_1": 152,
     "heRef_2": "פסחים כג., ה",
     "path_2": "פסחים.txt",
     "line_index_2": 688,
     "ref_2": "Pesachim 23a:5",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 153,
+    "heRef_2": "פסחים כג., י",
+    "path_2": "פסחים.txt",
+    "line_index_2": 693,
+    "ref_2": "Pesachim 23a:10",
     "Conection Type": "source"
   },
   {
@@ -905,14 +913,6 @@
   },
   {
     "line_index_1": 155,
-    "heRef_2": "פסחים כג., י",
-    "path_2": "פסחים.txt",
-    "line_index_2": 693,
-    "ref_2": "Pesachim 23a:10",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 156,
     "heRef_2": "פסחים כג., יב",
     "path_2": "פסחים.txt",
     "line_index_2": 695,
@@ -920,7 +920,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 158,
+    "line_index_1": 157,
     "heRef_2": "פסחים כג:, ז",
     "path_2": "פסחים.txt",
     "line_index_2": 708,
@@ -928,7 +928,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 159,
+    "line_index_1": 158,
     "heRef_2": "רש\"י על פסחים כג:, יג, א",
     "path_2": "רש\"י על פסחים.txt",
     "line_index_2": 1014,
@@ -936,7 +936,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 161,
+    "line_index_1": 160,
     "heRef_2": "פסחים כד., א",
     "path_2": "פסחים.txt",
     "line_index_2": 716,
@@ -944,7 +944,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 163,
+    "line_index_1": 162,
     "heRef_2": "פסחים כד., טו",
     "path_2": "פסחים.txt",
     "line_index_2": 730,
@@ -952,7 +952,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 165,
+    "line_index_1": 164,
     "heRef_2": "פסחים כה., י",
     "path_2": "פסחים.txt",
     "line_index_2": 755,
@@ -960,7 +960,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 166,
+    "line_index_1": 165,
     "heRef_2": "פסחים כה., יב",
     "path_2": "פסחים.txt",
     "line_index_2": 757,
@@ -968,7 +968,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 168,
+    "line_index_1": 167,
     "heRef_2": "פסחים כה:, ג",
     "path_2": "פסחים.txt",
     "line_index_2": 762,
@@ -976,7 +976,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 171,
+    "line_index_1": 170,
     "heRef_2": "פסחים ל:, י",
     "path_2": "פסחים.txt",
     "line_index_2": 905,
@@ -984,7 +984,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 173,
+    "line_index_1": 172,
     "heRef_2": "פסחים לא., י",
     "path_2": "פסחים.txt",
     "line_index_2": 919,
@@ -992,11 +992,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 175,
+    "line_index_1": 174,
     "heRef_2": "פסחים לא:, א",
     "path_2": "פסחים.txt",
     "line_index_2": 922,
     "ref_2": "Pesachim 31b:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 175,
+    "heRef_2": "פסחים לא:, ד",
+    "path_2": "פסחים.txt",
+    "line_index_2": 925,
+    "ref_2": "Pesachim 31b:4",
     "Conection Type": "source"
   },
   {
@@ -1009,14 +1017,6 @@
   },
   {
     "line_index_1": 177,
-    "heRef_2": "פסחים לא:, ד",
-    "path_2": "פסחים.txt",
-    "line_index_2": 925,
-    "ref_2": "Pesachim 31b:4",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 178,
     "heRef_2": "פסחים לא:, ח",
     "path_2": "פסחים.txt",
     "line_index_2": 929,
@@ -1024,11 +1024,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 180,
+    "line_index_1": 179,
     "heRef_2": "פסחים לב:, י",
     "path_2": "פסחים.txt",
     "line_index_2": 957,
     "ref_2": "Pesachim 32b:10",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 181,
+    "heRef_2": "פסחים לג., ג",
+    "path_2": "פסחים.txt",
+    "line_index_2": 964,
+    "ref_2": "Pesachim 33a:3",
     "Conection Type": "source"
   },
   {
@@ -1041,14 +1049,6 @@
   },
   {
     "line_index_1": 183,
-    "heRef_2": "פסחים לג., ג",
-    "path_2": "פסחים.txt",
-    "line_index_2": 964,
-    "ref_2": "Pesachim 33a:3",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 184,
     "heRef_2": "פסחים לג., ו",
     "path_2": "פסחים.txt",
     "line_index_2": 967,
@@ -1056,7 +1056,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 185,
+    "line_index_1": 184,
     "heRef_2": "פסחים לג., ט",
     "path_2": "פסחים.txt",
     "line_index_2": 970,
@@ -1064,7 +1064,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 187,
+    "line_index_1": 186,
     "heRef_2": "פסחים לג:, ד",
     "path_2": "פסחים.txt",
     "line_index_2": 978,
@@ -1072,7 +1072,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 188,
+    "line_index_1": 187,
     "heRef_2": "פסחים לג:, ו",
     "path_2": "פסחים.txt",
     "line_index_2": 980,
@@ -1080,7 +1080,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 190,
+    "line_index_1": 189,
     "heRef_2": "פסחים לד., א",
     "path_2": "פסחים.txt",
     "line_index_2": 984,
@@ -1088,7 +1088,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 191,
+    "line_index_1": 190,
     "heRef_2": "פסחים לד., ב",
     "path_2": "פסחים.txt",
     "line_index_2": 985,
@@ -1096,7 +1096,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 192,
+    "line_index_1": 191,
     "heRef_2": "פסחים לד., ג",
     "path_2": "פסחים.txt",
     "line_index_2": 986,
@@ -1104,7 +1104,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 193,
+    "line_index_1": 192,
     "heRef_2": "פסחים לד., ד",
     "path_2": "פסחים.txt",
     "line_index_2": 987,
@@ -1112,7 +1112,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 194,
+    "line_index_1": 193,
     "heRef_2": "פסחים לד., ו",
     "path_2": "פסחים.txt",
     "line_index_2": 989,
@@ -1120,7 +1120,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 196,
+    "line_index_1": 195,
     "heRef_2": "פסחים לד:, ג",
     "path_2": "פסחים.txt",
     "line_index_2": 996,
@@ -1128,7 +1128,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 198,
+    "line_index_1": 197,
     "heRef_2": "פסחים לה., ו",
     "path_2": "פסחים.txt",
     "line_index_2": 1013,
@@ -1136,7 +1136,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 199,
+    "line_index_1": 198,
     "heRef_2": "פסחים לה., י",
     "path_2": "פסחים.txt",
     "line_index_2": 1017,
@@ -1144,7 +1144,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 200,
+    "line_index_1": 199,
     "heRef_2": "פסחים לה., יא",
     "path_2": "פסחים.txt",
     "line_index_2": 1018,
@@ -1152,7 +1152,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 203,
+    "line_index_1": 202,
     "heRef_2": "פסחים לז:, ד",
     "path_2": "פסחים.txt",
     "line_index_2": 1104,
@@ -1160,7 +1160,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 204,
+    "line_index_1": 203,
     "heRef_2": "פסחים לז:, ה",
     "path_2": "פסחים.txt",
     "line_index_2": 1105,
@@ -1168,7 +1168,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 205,
+    "line_index_1": 204,
     "heRef_2": "פסחים לז:, ט",
     "path_2": "פסחים.txt",
     "line_index_2": 1109,
@@ -1176,7 +1176,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 207,
+    "line_index_1": 206,
     "heRef_2": "פסחים לח., ה",
     "path_2": "פסחים.txt",
     "line_index_2": 1117,
@@ -1184,7 +1184,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 212,
+    "line_index_1": 211,
     "heRef_2": "פסחים מב., יז",
     "path_2": "פסחים.txt",
     "line_index_2": 1277,
@@ -1192,7 +1192,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 214,
+    "line_index_1": 213,
     "heRef_2": "פסחים מג., יג",
     "path_2": "פסחים.txt",
     "line_index_2": 1316,
@@ -1200,7 +1200,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 215,
+    "line_index_1": 214,
     "heRef_2": "פסחים מג., כה",
     "path_2": "פסחים.txt",
     "line_index_2": 1328,
@@ -1208,7 +1208,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 217,
+    "line_index_1": 216,
     "heRef_2": "פסחים מג:, א",
     "path_2": "פסחים.txt",
     "line_index_2": 1332,
@@ -1216,7 +1216,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 218,
+    "line_index_1": 217,
     "heRef_2": "פסחים מג:, י",
     "path_2": "פסחים.txt",
     "line_index_2": 1341,
@@ -1224,7 +1224,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 219,
+    "line_index_1": 218,
     "heRef_2": "פסחים מג:, יג",
     "path_2": "פסחים.txt",
     "line_index_2": 1344,
@@ -1232,7 +1232,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 221,
+    "line_index_1": 220,
     "heRef_2": "פסחים מד., א",
     "path_2": "פסחים.txt",
     "line_index_2": 1348,
@@ -1240,7 +1240,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 228,
+    "line_index_1": 227,
     "heRef_2": "רש\"י על שבת כו:, א, א",
     "path_2": "רש\"י על שבת.txt",
     "line_index_2": 1229,

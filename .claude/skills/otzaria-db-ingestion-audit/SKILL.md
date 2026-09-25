@@ -43,6 +43,17 @@ python .claude/skills/otzaria-db-ingestion-audit/scripts/audit_ingestion.py \
 
 If `--links` is omitted, skip JSON↔DB coverage and only audit DB presence/flags/direction.
 
+With `--links`, every entry is checked against **its own `path_2` book** (not always
+`--target` — a file can mix the Gemara with Rashi/Tosafot super-commentary targets), in the
+direction and under the type SeforimLibrary's `Generator.kt` stores it: `source` flipped as
+COMMENTARY; an oriented type flipped under its own type only when `path_2` is a base book, the
+citing book is not, and the citing title names it (else demoted to OTHER); lateral types as
+written. `linker` entries, links between two Sefaria books and heading lines are skipped, as
+the generator skips them. The rules come from the otzaria-db-linker engine
+(`plan_storage()`), which this read-only script imports. Flags (`book_has_links`,
+`has*Connection`, `hasSourceConnection`) are checked on the books of every matched row with
+the generator's rules. `--type footnotes` / `--type-id N` force one stored type for every entry.
+
 Interpret exit codes: `0` = PASS, `1` = FAIL (report lists reasons), `2` = could not open DB.
 
 ## What “done correctly” means
@@ -59,9 +70,9 @@ Canonical **stored** direction for commentary (like Rashi):
 
 - `sourceBookId` = **target/base** (מסכת)
 - `targetBookId` = **citing** (מפרש)
-- `connectionTypeId` = `1` (`COMMENTARY`) unless another type was intended
+- `connectionTypeId` = `COMMENTARY` (id 1) for `source`/`commentary` entries; the entry's own type otherwise (e.g. `FOOTNOTES` — look the id up by name, it is absent from DBs built before Sept 2026)
 - `targetLineIndex` = 0-based line index **in the citing book**
-- `isDeclaredBase` = `1` for normal commentary-on-base
+- `baseProvenance` = `0` (the generator never sets it for Otzaria links; it replaced the pre-July-2026 `isDeclaredBase`, DEFAULT 0)
 
 Repo `_links.json` is the **opposite** narrative (citing→base via `line_index_1`/`line_index_2`).
 Ingestion must **flip** when writing `link` rows. Finding only citing→base rows (or zero rows)

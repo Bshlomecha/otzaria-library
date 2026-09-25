@@ -59,6 +59,7 @@ audit's specific flagged lines):
 import argparse
 import json
 import re
+import unicodedata
 from dataclasses import dataclass, field
 from typing import Dict, List, Optional, Tuple
 
@@ -966,24 +967,67 @@ def load_existing_links(path: str) -> List[dict]:
 # Dependent-text types collapse to one merge key. A file written before the
 # direction fix carries "commentary"/"super_commentary" where we now write
 # "source"; without this the stale entries match no new key, survive the merge,
-# and end up duplicated alongside the new ones — in both directions.
-_DEPENDENT_MERGE_TYPES = {"source", "commentary", "super_commentary"}
+# and end up duplicated alongside the new ones — in both directions. The same holds
+# for every other type the app shows in the commentary panel (otzaria
+# lib/models/link_types.dart `LinkTypes.dependentTextTypes`, all of them valid
+# SeforimLibrary ConnectionTypes): a stale "footnotes"/"targum"/... entry to the same
+# path_2 would show the book twice. "ein_mishpat" is deliberately NOT here: the
+# generator orients it (Generator.kt ORIENTED_DEPENDANT_TYPES), but the app does not
+# count it as a dependent text (it is absent from LinkTypes.dependentTextTypes), so it
+# never shows next to the matcher's COMMENTARY rows in the commentary panel. It is a
+# different relation (a halakhic-index pointer, not a dibur-hamatchil commentary):
+# collapsing it would only delete it on a re-match, never de-duplicate anything.
+_DEPENDENT_MERGE_TYPES = {
+    "source", "commentary", "super_commentary", "targum", "midrash", "parshanut",
+    "dibur_hamatchil", "elucidation", "explication", "footnotes",
+}
+# SeforimLibrary Link.kt `fromKnownStringOrNull` normalization (trim, lowercase,
+# ' ' -> '_') plus its spelling aliases for the types above.
+_CONN_TYPE_ALIASES = {"supercommentary": "super_commentary", "footnote": "footnotes",
+                      "ellucidation": "elucidation"}
+
+
+def _kt_ws(c: str) -> bool:
+    """Kotlin Char.isWhitespace(): Character.isWhitespace || Character.isSpaceChar.
+    Unlike str.strip() it does NOT treat U+0085 (NEL) as whitespace. Kept identical to
+    .claude/skills/otzaria-commentary-linker-qa/scripts/connection_type.py (tested)."""
+    return c in "\t\n\x0b\f\r\x1c\x1d\x1e\x1f" or unicodedata.category(c) in ("Zs", "Zl", "Zp")
+
+
+def _kt_trim(s: str) -> str:
+    """Kotlin String.trim()."""
+    i, j = 0, len(s)
+    while i < j and _kt_ws(s[i]):
+        i += 1
+    while j > i and _kt_ws(s[j - 1]):
+        j -= 1
+    return s[i:j]
+
+
+def _normalize_conn_type(conn: object) -> str:
+    # null / missing -> "" like the generator (coerceInputValues + default "").
+    v = _kt_trim("" if conn is None else str(conn)).lower().replace(" ", "_")
+    return _CONN_TYPE_ALIASES.get(v, v)
 
 
 def _merge_key(entry: dict) -> Tuple[Optional[str], str]:
     conn = entry.get("Conection Type")
-    return entry.get("path_2"), "dependent" if conn in _DEPENDENT_MERGE_TYPES else str(conn)
+    norm = _normalize_conn_type(conn)
+    return entry.get("path_2"), "dependent" if norm in _DEPENDENT_MERGE_TYPES else str(conn)
 
 
 def merge_entries(existing: List[dict], new_entries: List[dict]) -> Tuple[List[dict], dict]:
     new_keys = {_merge_key(e) for e in new_entries}
     kept: List[dict] = []
     removed_count = 0
+    removed_by_type: Dict[str, int] = {}
     insert_at: Optional[int] = None
     for e in existing:
         key = _merge_key(e)
         if key in new_keys:
             removed_count += 1
+            raw = str(e.get("Conection Type"))
+            removed_by_type[raw] = removed_by_type.get(raw, 0) + 1
             if insert_at is None:
                 insert_at = len(kept)
             continue
@@ -994,6 +1038,7 @@ def merge_entries(existing: List[dict], new_entries: List[dict]) -> Tuple[List[d
     summary = {
         "existing_total": len(existing),
         "removed_stale": removed_count,
+        "removed_by_type": dict(sorted(removed_by_type.items())),
         "added_new": len(new_entries),
         "kept_untouched": len(kept),
         "replaced_keys": sorted(new_keys),
@@ -1057,8 +1102,10 @@ def main():
         print("existing entries: " + str(summary['existing_total']))
         print("stale entries that will be replaced: " + str(summary['removed_stale']))
         for path_2, conn in summary["replaced_keys"]:
-            label = "commentary/super_commentary/source" if conn == "dependent" else conn
+            label = "any dependent-text type" if conn == "dependent" else conn
             print("  - path_2=" + repr(path_2) + " Conection Type=" + repr(label))
+        for conn, n in summary["removed_by_type"].items():
+            print("    replaced " + str(n) + " stale " + repr(conn) + " entries")
         print("entries kept untouched: " + str(summary['kept_untouched']))
         print("new entries being written in their place: " + str(summary['added_new']))
         if args.confirm_merge:

@@ -103,13 +103,17 @@ slower and more deliberate than the JSON-producing sibling skill, not less.
 
 5. **Re-runs and updates don't silently duplicate or silently clobber.** `link.id` has no
    uniqueness constraint, so nothing stops a second run from inserting the same links twice.
-   The script checks for existing rows on the same base/commentary/type triple first (per
-   *real* target book — see criterion 8, not just per declared type); if any exist, it skips
-   that group rather than duplicating, and reports the count. Only pass
-   `replace_existing: true` after telling the user how many existing rows would be deleted
-   and getting their explicit go-ahead — treat this exactly like the sibling skill's rule for
-   overwriting an existing `_links.json`: show what's about to be dropped, wait for
-   confirmation, don't drop-and-replace silently.
+   The script matches every planned row to the DB by `(sourceLineId, targetLineId,
+   connectionTypeId)` first (per *real* target book — see criterion 8 — and per *stored*
+   type, so two spellings that store alike are one group): existing rows are skipped and
+   counted, missing ones inserted; the default mode never deletes. Only pass
+   `replace_existing: true` after telling the user what it will refresh and delete (see
+   `references/db_write_notes.md`, "How re-runs work now": it deletes only rows the DB proves
+   this file wrote, and lists possibly-stale dependent rows for an explicit
+   `delete_reported_stale: true`) and getting their explicit go-ahead — treat this exactly
+   like the sibling skill's rule for overwriting an existing `_links.json`: show what's about
+   to be dropped, wait for confirmation, don't drop-and-replace silently.
+   `replace_existing` is refused unless the links file is named `<citing_title>_links.json`.
 
 6. **Verified after writing, not assumed.** After a real (non-dry-run) commit, the script
    re-queries the actual row count for what it just inserted and prints it — that's the
@@ -190,9 +194,9 @@ slower and more deliberate than the JSON-producing sibling skill, not less.
    count usually means the `_links.json` was built against a different edition/line-count of
    the book than what's actually in `seforim.db` — that's a data problem to take back to
    the otzaria-commentary-linker skill, not something to push through. A nonzero
-   "skipped_existing" means this exact base/commentary/type combination is already linked;
-   tell the user and ask whether they want a `replace_existing: true` re-run (see criterion 5)
-   or to leave it alone. A nonzero "skipped_target_book_not_found" means some entries' `path_2`
+   "skipped_existing" means those exact rows are already in the DB (nothing to do for them);
+   a `KEPT`/`STALE?` line means other rows exist between the same books — tell the user and ask
+   whether they want a `replace_existing: true` re-run (see criterion 5) or to leave it alone. A nonzero "skipped_target_book_not_found" means some entries' `path_2`
    names a book that isn't in `seforim.db` at all. Before concluding the book is genuinely
    missing, check the far more common cause: a title spelled the *filename* way instead of the
    DB way — gershayim stripped (`רשי על שבת.txt` where the book is `רש"י על שבת`), or written
@@ -233,9 +237,11 @@ slower and more deliberate than the JSON-producing sibling skill, not less.
 If a `_links.json` entry carries `start`/`end` (character offsets on the citing side) or
 `line_index_1_end`/`line_index_2_end` (a multi-line range on either side), and the live
 `seforim.db` has the `link_anchor` / `link_range` / `link_coverage` tables, the script
-writes those too — `start`/`end` → `link_anchor` (citing side, `side=1`), the `*_end`
-fields → `link_range` (+ `link_coverage` for the lines in between, skipping `<h1-6>`
-heading lines the same way the official DB generator does). This is optional: entries
+writes those too, exactly as the official DB generator does: `start`/`end` →
+`link_anchor` (`side=0`, visible-char offsets) **only for a link stored as written** — a flipped
+link, e.g. every `source` entry, gets no anchor; the `*_end` fields → `link_range` (`side=0` =
+the stored source, `side=1` = the stored target, so a flip swaps them) + `link_coverage` for the
+lines in between, skipping `<h1>`-`<h4>` heading lines. This is optional: entries
 without these fields, or a `seforim.db` without these tables, are unaffected — only the
 base `link` row and its flags are required for a מפרש to show up at all.
 
@@ -253,12 +259,23 @@ specifically so you don't have to re-derive any of this from scratch or guess.
 `references/db_write_notes.md` also has the full `"Conection Type"` → `connectionTypeId`
 table if you need to confirm a type id directly. `connection_type` has grown past the
 original 14 rows (23 in `db_version=27`), so read the id from the DB rather than from
-memory. **One entry there is load-bearing: `source`.** It is the canonical value of a links
-file named after the citing book, and it is *not* skipped — `normalize_type_name()` maps it
-to COMMENTARY before the id lookup, because this script already writes every link flipped
-(`sourceBookId` = the real target, `targetBookId` = the citing book), which is exactly the
-direction `source` declares. Same rule as the library generator
-(`Generator.kt`: `flip = declaredType == SOURCE` → `storedType = COMMENTARY`).
+memory. **Storage mirrors the library generator exactly** (`plan_storage()` in the script is a
+port of `Generator.kt`'s `processLinksForBook`; `test_insert_commentary_link.py` pins it):
+- `source` (the canonical value of a citing-named file) is always flipped
+  (`sourceBookId` = the `path_2` book, `targetBookId` = the citing book) and stored as COMMENTARY.
+- An oriented type (`commentary`, `super_commentary`, `targum`, `midrash`, `parshanut`,
+  `dibur_hamatchil`, `ein_mishpat`, `elucidation`, `footnotes`) is flipped only when the
+  `path_2` book is a base book (`book.isBaseBook`), the citing book is not, and the citing
+  title names it ("X al Y"); it then keeps its own type. If the first two hold but the title
+  does not name the base, the generator stores **OTHER** (not shown in the commentary panel) —
+  the script does the same and prints a WARNING. In every other case it is stored as written.
+- Lateral / as-is types (`reference`, `mesorat hashas`, `quotation`, `explication`, ...) are
+  never flipped. `linker` entries are skipped, as are links between two Sefaria books and
+  links touching a heading line (`<h1`-`<h4`).
+- Spellings are normalized like Link.kt (`footnote`, `super commentary`,
+  `ein mishpat / ner mitsvah`, ...); an unknown value is refused before anything is written.
+- `book_has_links` and `book.has*Connection` are recomputed for every touched book with the
+  generator's rules (see `references/db_write_notes.md`, "Flag mapping").
 
 ## Related skills
 

@@ -34,7 +34,7 @@ line(id, bookId, lineIndex [0-based], content, heRef, tocEntryId, charCount)
 link(id, sourceBookId, targetBookId, sourceLineId, targetLineId,
      targetLineIndex [0-based, denormalized copy of the target line's lineIndex],
      targetBookOrderIndex [= the target/citing book's own orderIndex],
-     connectionTypeId, isDeclaredBase)
+     connectionTypeId, baseProvenance [DEFAULT 0; was isDeclaredBase DEFAULT 0 before July 2026])
 
 connection_type(id, name)   -- 23 rows in db_version=27, name is UPPER_SNAKE_CASE:
   COMMENTARY, SUPER_COMMENTARY, TARGUM, REFERENCE, SOURCE, MIDRASH, QUOTATION,
@@ -50,22 +50,17 @@ link_coverage(lineId, linkId, side)                      -- optional, one row pe
 The JSON's `"Conection Type"` string (misspelling is load-bearing; `"Connection Type"` is
 ignored) maps onto `connectionTypeId` as:
 
-| JSON string | id | Notes |
+| JSON string (normalized like Link.kt) | stored as | Notes |
 |---|---|---|
-| `commentary` | 1 | Only correct in a **base-named** file (`line_index_1` = the base text). In a citing-named file it is the reversed-direction bug — use `source`. |
-| `super_commentary` | 2 | Same caveat as `commentary`. From a citing-named file write `source` with `path_2` = the intermediate book (Rashi/Tosafot); it stores as `COMMENTARY` off that book. The app treats COMMENTARY and SUPER_COMMENTARY identically in every query — only the displayed Hebrew label differs. |
-| `targum` | 3 | |
-| `reference` | 4 | |
-| `source` | 1 (**not** 5) | **The canonical value of a citing-named links file.** `SOURCE` itself is id 5, but no row is ever stored with it — SOURCE is virtual and is never stored; this script already writes every link flipped (`sourceBookId` = the real target, `targetBookId` = the citing book), which *is* the direction `source` declares, so the row lands as `COMMENTARY`. `normalize_type_name()` does the mapping — same rule as the library generator (`flip = declaredType == SOURCE` → `storedType = COMMENTARY`). |
-| `midrash` | 6 | |
-| `quotation` | 7 | |
-| `mesorat_hashas` | 8 | |
-| `ein_mishpat` | 9 | |
-| `dibur_hamatchil` | 10 | |
-| `parshanut` | 11 | |
-| `mishnah_in_talmud` | 12 | also accept typo `mishnah_in_tumud` |
-| `related` | 13 | |
-| `other` / `linker` / unknown | 14 | `linker` = automated pipeline |
+| `source` | COMMENTARY, flipped | **The canonical value of a citing-named links file.** Always flipped (`sourceBookId` = the `path_2` book). `SOURCE` (id 5) is virtual and never stored. |
+| `commentary`, `super_commentary`/`supercommentary`, `targum`, `midrash`, `parshanut`, `dibur_hamatchil`, `ein_mishpat` (+ `ein mishpat / ner mitsvah`), `elucidation`/`ellucidation`, `footnotes`/`footnote` | own type, flipped **only if** `path_2` is a base book, the citing book is not, and the citing title names it; OTHER (unflipped) if only the first two hold; else own type as written | `commentary`/`super_commentary` belong in a **base-named** file; from a citing-named file write `source`. |
+| `reference`, `quotation` (+ `quotation_auto`, `quotation_auto_tanakh`), `mesorat_hashas`, `mishnah_in_talmud`, `related` (+ `related passage`), `sifrei_mitzvot`, `essay`, `allusion`, `liturgy`, `law`, `summary`, `explication` | own type, as written | never flipped |
+| `other`, `none`, `""`, `null`, missing key | OTHER, as written | the generator reads a missing/null key as `""` |
+| `linker` | — | never imported (the LINKER layer comes from LinkerToOtzaria only) |
+| anything else (a typo such as `mishnah_in_tumud`, the trap `sifrei mitsvot`) | — | **refused** before anything is written (the generator would silently store OTHER) |
+
+Ids are always looked up by name in the DB's `connection_type` table (enum order in a fresh
+build: COMMENTARY=1 ... SUMMARY=23, FOOTNOTES=24 — absent from DBs built before Sept 2026).
 
 ## Optional satellites: anchors, ranges, coverage
 
@@ -74,12 +69,19 @@ pair, and `insert_commentary_link.py` writes them when present and when the corr
 table exists in the target `seforim.db` (older/smaller DBs may not have these tables at all
 — the script checks with `table_exists()` and simply skips this step if they're absent):
 
-- `start` / `end` (character offsets, citing side) → one `link_anchor` row, `side=1`.
-- `line_index_1_end` (citing side) and `line_index_2_end` (real target side) → one
-  `link_range` row per side that has an end value (`side=1` citing, `side=0` target), plus
-  — if `link_coverage` exists — one row per line strictly between the start and end line on
-  that side, skipping lines whose content starts with an `<h1>`-`<h6>` heading tag (matching
-  the official `otzariasqlite` generator's own behavior).
+Written exactly as `Generator.kt` writes them (`buildLinkAnchor`, `queueRangeSide`):
+
+- `start` / `end` (raw character offsets into the citing line) → one `link_anchor` row,
+  `side=0`, **only when the link is stored as written** (not flipped); the offsets are
+  converted to visible characters (`countVisibleChars`: tags skipped, an entity = 1) and the
+  label is taken from `heRef_2`'s trailing letter. A flipped link (e.g. every `source` entry)
+  gets no anchor — the generator drops it too, because its anchor side is the stored source.
+- `line_index_1_end` (citing side) and `line_index_2_end` (`path_2` side) → one `link_range`
+  row per side that has an end value. `side=0` is the stored *source*, `side=1` the stored
+  *target*, so a flip swaps them (flipped: citing end → side 1). `end == start` is a plain
+  link; an end before the start, a missing end line or a heading end line drops the range.
+  If `link_coverage` exists, one row per line strictly between start and end, skipping
+  heading lines (`<h1`-`<h4`, as `SeforimRepository.getHeadingLineIds`).
 
 These are genuinely optional: an entry with neither field, or a `seforim.db` without these
 three tables, still gets its plain `link` row and flags — a מפרש with no anchor/range data
@@ -110,12 +112,11 @@ what the JSON calls "line_index_1/line_index_2" into "target/source" — this is
 `insert_commentary_link.py` does; **the JSON's own field names never map 1:1 onto the DB's
 column names for this reason and that's expected, not a bug.**
 
-This direction is only *directly confirmed* for `COMMENTARY`. It's very likely the same
-base→cited-thing pattern holds for `TARGUM`/`REFERENCE`/others (the schema's own `isDeclaredBase`
-column comment talks about "base_text_titles" in general, not commentary specifically), but
-if you're writing a non-commentary type for the first time, it's worth spot-checking one
-existing precedent pair of that type in the DB the same way this was verified here, rather
-than assuming.
+This direction holds for `source` (always) and for the oriented dependent types under the
+generator's condition; lateral types are stored as written. `plan_storage()` in the script is
+the exact port of that decision — see SKILL.md. Checked against a generator-built
+`seforim.db` (Sept 2026): 700/700 sampled `source` (Dicta, National-Library) and base-named
+`commentary` (tashma) entries matched the row `plan_storage()` predicts.
 
 ## A `_links.json` file can target MULTIPLE different books — never assume one `target_title`
 
@@ -182,34 +183,35 @@ types:
 - `TARGUM` → `hasTargumConnection`
 - `REFERENCE` → `hasReferenceConnection` (confirmed the same way)
 
-The other 11 types could not be cleanly isolated this way on the live data — every book emitting
-`MIDRASH`, `QUOTATION`, `MESORAT_HASHAS`, etc. also happened to emit some other type, so it's not
-possible to say with confidence which flag (if any) governs them from this data alone. The
-script falls back to `hasOtherConnection` for anything outside the three confirmed types and
-prints a warning — treat that as a reasonable guess, not a verified fact, and check the app
-after running. When a file has multiple real target books (see above), this flag is now set on
-each real target book independently, not just once on the job's nominal `target_title`.
+**Superseded (Sept 2026):** the flags are no longer guessed. They are recomputed for every
+touched book exactly as `Generator.kt` ("Updating book_has_links ...") derives them from the
+whole `link` table:
 
-Separately, `hasSourceConnection` looks like it means "this book itself has a virtual מקור/base
-to show" (i.e. it's set on the *citing* side of a commentary link, enabling the reverse
-"source" view the app derives automatically). The script sets this on the citing book
-specifically for `COMMENTARY` links, since that's the one case confirmed by a real example
-(`רש"י על שבת` has `hasSourceConnection=1`). This is *not* the same thing as writing a `SOURCE`
-connection-type row yourself — `SOURCE` is virtual-only and never a row you insert (matches what
-the sibling `otzaria-commentary-linker` skill already documents about the JSON format).
+- `book_has_links.hasSourceLinks` / `hasTargetLinks` = the book is the stored source / target
+  of any link.
+- `hasTargumConnection`, `hasReferenceConnection`, `hasCommentaryConnection`,
+  `hasOtherConnection` = the book is **either end** of a TARGUM / REFERENCE / COMMENTARY /
+  OTHER link. No other stored type sets any of them — FOOTNOTES, MESORAT_HASHAS, ... set none
+  (the old `hasOtherConnection` fallback was wrong).
+- `hasSourceConnection` = the book is the stored **target** of a non-self COMMENTARY,
+  SUPER_COMMENTARY, TARGUM, MIDRASH, PARSHANUT, DIBUR_HAMATCHIL, EIN_MISHPAT or ELUCIDATION
+  link (FOOTNOTES is deliberately absent upstream).
+
+Recomputing (rather than only setting) also clears flags that a `replace_existing` deletion made
+stale. `SOURCE` is still virtual-only — never a row you insert.
 
 ## Re-running / updating an existing link
 
-There's no DB constraint stopping a second run from inserting duplicate rows for the same
-book pair, so the script checks `COUNT(*)` for the `(sourceBookId, targetBookId,
-connectionTypeId)` triple before writing anything — now per *real* target book (see above),
-not per declared type alone:
+There's no DB constraint stopping a second run from inserting duplicate rows, so every
+planned row is first looked up by `(sourceLineId, targetLineId, connectionTypeId)` — see "How
+re-runs work now" below. Two spellings that store alike (`quotation` + `quotation_auto_tanakh`,
+`None`/`""`/`other`, a demoted oriented type + `other`) form ONE planned group, so they never
+count each other's fresh rows as pre-existing or delete them.
 
-- If matching rows already exist and `replace_existing` is false (the default), that group is
-  **skipped**, not silently duplicated — the report will show it under `skipped_existing`.
-- Only set `replace_existing: true` after telling the user how many existing rows will be
-  deleted and getting their go-ahead — mirrors the same "show what's about to be dropped, wait
-  for confirmation" rule the JSON-producing sibling skill uses for merging `_links.json` files.
+- Only set `replace_existing: true` after telling the user what it may refresh/delete (run
+  `dry_run: true` first — the report lists every group) and getting their go-ahead — mirrors the
+  same "show what's about to be dropped, wait for confirmation" rule the JSON-producing sibling
+  skill uses for merging `_links.json` files.
 - If a previous run mis-attributed rows to the wrong `sourceBookId` (the bug described above),
   those stale rows will **not** be caught by a `(real target, citing, type)` existing-count
   check, since their `sourceBookId` doesn't match the real target at all. Recovering from that
@@ -218,7 +220,7 @@ not per declared type alone:
   currently holds) before re-inserting correctly; treat this as a one-off cleanup for data
   written by the old, buggy behavior, not the normal `replace_existing` path.
 
-**Confirmed second bug, since fixed: `replace_existing` deleting per-group instead of per-citing-book.**
+**Confirmed second bug (history): `replace_existing` deleting per-group only.** Its first fix, a per-citing-book full wipe, was itself wrong — see "How re-runs work now" below.
 An earlier version of this script's `replace_existing` path deleted only the `(real target,
 citing, type)` groups that appear *in the current run's file*, then inserted those same
 groups fresh. That silently leaves orphaned rows behind whenever a line's classification
@@ -235,12 +237,51 @@ every citing book — a cheap, worthwhile sanity check after any batch of `repla
 writes, since the per-group `VERIFY` line the script prints only checks the groups *it just
 wrote*, not the citing book's total.
 
-**The fix, now in place:** when `replace_existing` is true, the script deletes **every**
-existing row where `targetBookId = citing_id` (any source book, any connection type) once,
-up front, before the per-group insert loop — not scoped to the groups found in the current
-file. A single citing book has exactly one `_links.json` driving all of its outgoing links,
-so a full wipe-and-reinsert for that citing_id is safe and is now the only `replace_existing`
-behavior; there is no remaining per-group-only deletion path to opt into.
+**How re-runs work now (Sept 2026 rewrite; the "full wipe" is gone).** Rows are planned per
+*stored* identity `(stored type, stored source book, stored target book)` and matched to the
+DB row by row on `(sourceLineId, targetLineId, connectionTypeId)`:
+
+- Default (`replace_existing: false`): rows that already exist are left untouched and counted
+  under `skipped_existing`; only missing rows are inserted. Nothing is ever deleted.
+- `replace_existing: true`: existing matching rows are *refreshed* (their denormalized
+  columns and anchor/range/coverage rows are rewritten), missing ones inserted, and stale rows
+  are deleted **only where the DB proves this file wrote them**: a row of a never-flipped type
+  (lateral types, `explication`, OTHER — never LINKER) whose *source* is the citing book. Every
+  other file stores its own book as the source of such rows, the Sefaria import only links
+  Sefaria books, and LinkerToOtzaria writes LINKER only. Not for a Sefaria citing book.
+- Dependent-text rows (COMMENTARY/oriented types) *into* the citing book that this file does not
+  produce are only **reported** (`STALE?` lines, `reported_stale_candidates`): they may be an
+  earlier version of this file — e.g. a line re-typed from `commentary`→Gemara to
+  `super_commentary`→Rashi leaves its old Gemara row behind, the orphan bug described above —
+  or another book's links (a super-commentary on this book, a base book's own base-named file,
+  the Sefaria import). The DB cannot tell which. After the user confirms the printed list, set
+  `delete_reported_stale: true` in the job to delete exactly those rows (refused for a Sefaria
+  citing book; LINKER and Sefaria<->Sefaria rows are never candidates).
+- The earlier claim that "a single citing book has exactly one `_links.json` driving all of its
+  links, so a full wipe is safe" was **false**: QA's round-trip on 12 real files found the wipe
+  deleting 77,668 unrelated rows (other books' super-commentary and reference rows into the
+  citing book, LinkerToOtzaria rows, and for Sefaria citing books whole Sefaria link sets).
+- Satellite rows of every deleted link are deleted with it (ON DELETE CASCADE does not fire:
+  the connection does not enable foreign keys).
+- `replace_existing` is **refused** unless the links file is named exactly
+  `<citing_title>_links.json`: the generator reads a file as the links of the book its name
+  gives, and every "this file wrote it" proof above rests on that book being `citing_title`.
+  There is no override — rename the file or fix `citing_title`. (The default mode, which never
+  deletes, still accepts any file name.)
+- Refreshing a matched row keeps satellites another producer may own. A stored row can have two
+  producers — the file of its stored *source* book (writing it as written) and the file of its
+  stored *target* book (writing it flipped), e.g. a base book's base-named `commentary` file and
+  the commentary's own `source` file. Before rewriting, the script drops all satellites only of
+  a row only this file can produce; otherwise only the side-0 anchors, and only when this file
+  writes the row as written (an anchor sits on the stored source side = this file's book). Ranges
+  are merged with the generator's rule (`LinkRangeQueries.sq insertRange`: the widest end per
+  side wins), coverage and anchors with INSERT OR IGNORE — so a range an older version of a
+  shared row's file wrote wider cannot be narrowed here; only a rebuild does that.
+- Also reported as `STALE?`: dependent rows **out of** a non-base citing book **into** a base
+  book. The current generator never stores that from this file (it flips such an entry, or
+  demotes it to OTHER when the title does not name the base — e.g. an old Siddur → Bereshit
+  COMMENTARY row); only another book's `source` file could, so it is not provable either and
+  follows the same `delete_reported_stale` rule. Flags are recomputed after any deletion.
 
 ## Safety: locking, backups, dry runs
 

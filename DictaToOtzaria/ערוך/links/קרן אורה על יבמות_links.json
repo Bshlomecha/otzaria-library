@@ -72,6 +72,14 @@
     "Conection Type": "source"
   },
   {
+    "line_index_1": 20,
+    "line_index_2": 89,
+    "heRef_2": "יבמות ה., ז",
+    "ref_2": "Yevamot 5a:7",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
     "line_index_1": 21,
     "line_index_2": 89,
     "heRef_2": "יבמות ה., ז",
@@ -88,11 +96,11 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 23,
-    "line_index_2": 89,
-    "heRef_2": "יבמות ה., ז",
-    "ref_2": "Yevamot 5a:7",
-    "path_2": "יבמות.txt",
+    "line_index_1": 24,
+    "line_index_2": 57,
+    "heRef_2": "תוספות על יבמות ה:, ה, ב",
+    "ref_2": "Tosafot on Yevamot 5b:5:2",
+    "path_2": "תוספות על יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -105,10 +113,10 @@
   },
   {
     "line_index_1": 26,
-    "line_index_2": 57,
-    "heRef_2": "תוספות על יבמות ה:, ה, ב",
-    "ref_2": "Tosafot on Yevamot 5b:5:2",
-    "path_2": "תוספות על יבמות.txt",
+    "line_index_2": 95,
+    "heRef_2": "יבמות ה:, א",
+    "ref_2": "Yevamot 5b:1",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -129,10 +137,10 @@
   },
   {
     "line_index_1": 29,
-    "line_index_2": 95,
-    "heRef_2": "יבמות ה:, א",
-    "ref_2": "Yevamot 5b:1",
-    "path_2": "יבמות.txt",
+    "line_index_2": 58,
+    "heRef_2": "תוספות על יבמות ה:, יא, א",
+    "ref_2": "Tosafot on Yevamot 5b:11:1",
+    "path_2": "תוספות על יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -169,10 +177,10 @@
   },
   {
     "line_index_1": 34,
-    "line_index_2": 58,
-    "heRef_2": "תוספות על יבמות ה:, יא, א",
-    "ref_2": "Tosafot on Yevamot 5b:11:1",
-    "path_2": "תוספות על יבמות.txt",
+    "line_index_2": 105,
+    "heRef_2": "יבמות ה:, יא",
+    "ref_2": "Yevamot 5b:11",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -185,9 +193,9 @@
   },
   {
     "line_index_1": 36,
-    "line_index_2": 105,
-    "heRef_2": "יבמות ה:, יא",
-    "ref_2": "Yevamot 5b:11",
+    "line_index_2": 107,
+    "heRef_2": "יבמות ה:, יג",
+    "ref_2": "Yevamot 5b:13",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -200,10 +208,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 38,
-    "line_index_2": 107,
-    "heRef_2": "יבמות ה:, יג",
-    "ref_2": "Yevamot 5b:13",
+    "line_index_1": 39,
+    "line_index_2": 110,
+    "heRef_2": "יבמות ו., א",
+    "ref_2": "Yevamot 6a:1",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -225,18 +233,18 @@
   },
   {
     "line_index_1": 42,
-    "line_index_2": 110,
-    "heRef_2": "יבמות ו., א",
-    "ref_2": "Yevamot 6a:1",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 43,
     "line_index_2": 63,
     "heRef_2": "תוספות על יבמות ו., ג, א",
     "ref_2": "Tosafot on Yevamot 6a:3:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 43,
+    "line_index_2": 112,
+    "heRef_2": "יבמות ו., ג",
+    "ref_2": "Yevamot 6a:3",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -248,19 +256,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 45,
-    "line_index_2": 112,
-    "heRef_2": "יבמות ו., ג",
-    "ref_2": "Yevamot 6a:3",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 47,
+    "line_index_1": 46,
     "line_index_2": 69,
     "heRef_2": "תוספות על יבמות ו:, יב, א",
     "ref_2": "Tosafot on Yevamot 6b:12:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 48,
+    "line_index_2": 140,
+    "heRef_2": "יבמות ז., א",
+    "ref_2": "Yevamot 7a:1",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -304,15 +312,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 54,
-    "line_index_2": 140,
-    "heRef_2": "יבמות ז., א",
-    "ref_2": "Yevamot 7a:1",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 56,
+    "line_index_1": 55,
     "line_index_2": 88,
     "heRef_2": "תוספות על יבמות ח., ט, א",
     "ref_2": "Tosafot on Yevamot 8a:9:1",
@@ -320,11 +320,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 58,
+    "line_index_1": 57,
     "line_index_2": 190,
     "heRef_2": "יבמות ח:, ו",
     "ref_2": "Yevamot 8b:6",
     "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 59,
+    "line_index_2": 103,
+    "heRef_2": "תוספות על יבמות ט., י, א",
+    "ref_2": "Tosafot on Yevamot 9a:10:1",
+    "path_2": "תוספות על יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -336,15 +344,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 61,
-    "line_index_2": 103,
-    "heRef_2": "תוספות על יבמות ט., י, א",
-    "ref_2": "Tosafot on Yevamot 9a:10:1",
-    "path_2": "תוספות על יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 63,
+    "line_index_1": 62,
     "line_index_2": 116,
     "heRef_2": "תוספות על יבמות י:, ג, א",
     "ref_2": "Tosafot on Yevamot 10b:3:1",
@@ -352,10 +352,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 64,
+    "line_index_1": 63,
     "line_index_2": 255,
     "heRef_2": "יבמות י:, ג",
     "ref_2": "Yevamot 10b:3",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 64,
+    "line_index_2": 258,
+    "heRef_2": "יבמות י:, ו",
+    "ref_2": "Yevamot 10b:6",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -377,9 +385,9 @@
   },
   {
     "line_index_1": 67,
-    "line_index_2": 258,
-    "heRef_2": "יבמות י:, ו",
-    "ref_2": "Yevamot 10b:6",
+    "line_index_2": 268,
+    "heRef_2": "יבמות י:, טז",
+    "ref_2": "Yevamot 10b:16",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -392,15 +400,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 69,
-    "line_index_2": 268,
-    "heRef_2": "יבמות י:, טז",
-    "ref_2": "Yevamot 10b:16",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 71,
+    "line_index_1": 70,
     "line_index_2": 270,
     "heRef_2": "יבמות יא., א",
     "ref_2": "Yevamot 11a:1",
@@ -408,7 +408,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 72,
+    "line_index_1": 71,
     "line_index_2": 275,
     "heRef_2": "יבמות יא., ו",
     "ref_2": "Yevamot 11a:6",
@@ -416,11 +416,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 73,
+    "line_index_1": 72,
     "line_index_2": 124,
     "heRef_2": "תוספות על יבמות יא., ז, א",
     "ref_2": "Tosafot on Yevamot 11a:7:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 73,
+    "line_index_2": 279,
+    "heRef_2": "יבמות יא., י",
+    "ref_2": "Yevamot 11a:10",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -456,18 +464,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 78,
-    "line_index_2": 279,
-    "heRef_2": "יבמות יא., י",
-    "ref_2": "Yevamot 11a:10",
+    "line_index_1": 79,
+    "line_index_2": 295,
+    "heRef_2": "יבמות יא:, יא",
+    "ref_2": "Yevamot 11b:11",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
     "line_index_1": 80,
-    "line_index_2": 295,
-    "heRef_2": "יבמות יא:, יא",
-    "ref_2": "Yevamot 11b:11",
+    "line_index_2": 303,
+    "heRef_2": "יבמות יא:, יט",
+    "ref_2": "Yevamot 11b:19",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -512,19 +520,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 86,
-    "line_index_2": 303,
-    "heRef_2": "יבמות יא:, יט",
-    "ref_2": "Yevamot 11b:19",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 88,
+    "line_index_1": 87,
     "line_index_2": 140,
     "heRef_2": "תוספות על יבמות יב., יח, א",
     "ref_2": "Tosafot on Yevamot 12a:18:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 89,
+    "line_index_2": 338,
+    "heRef_2": "יבמות יב:, ט",
+    "ref_2": "Yevamot 12b:9",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -592,15 +600,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 98,
-    "line_index_2": 338,
-    "heRef_2": "יבמות יב:, ט",
-    "ref_2": "Yevamot 12b:9",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 100,
+    "line_index_1": 99,
     "line_index_2": 354,
     "heRef_2": "יבמות יג., טו",
     "ref_2": "Yevamot 13a:15",
@@ -608,7 +608,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 102,
+    "line_index_1": 101,
     "line_index_2": 358,
     "heRef_2": "יבמות יג:, א",
     "ref_2": "Yevamot 13b:1",
@@ -616,7 +616,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 103,
+    "line_index_1": 102,
     "line_index_2": 367,
     "heRef_2": "יבמות יג:, י",
     "ref_2": "Yevamot 13b:10",
@@ -624,7 +624,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 104,
+    "line_index_1": 103,
     "line_index_2": 373,
     "heRef_2": "יבמות יג:, טז",
     "ref_2": "Yevamot 13b:16",
@@ -632,7 +632,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 106,
+    "line_index_1": 105,
     "line_index_2": 393,
     "heRef_2": "יבמות יד., יג",
     "ref_2": "Yevamot 14a:13",
@@ -640,11 +640,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 108,
+    "line_index_1": 107,
     "line_index_2": 176,
     "heRef_2": "תוספות על יבמות יד:, א, א",
     "ref_2": "Tosafot on Yevamot 14b:1:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 108,
+    "line_index_2": 402,
+    "heRef_2": "יבמות יד:, א",
+    "ref_2": "Yevamot 14b:1",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -657,10 +665,10 @@
   },
   {
     "line_index_1": 110,
-    "line_index_2": 402,
-    "heRef_2": "יבמות יד:, א",
-    "ref_2": "Yevamot 14b:1",
-    "path_2": "יבמות.txt",
+    "line_index_2": 179,
+    "heRef_2": "תוספות על יבמות יד:, ח, ב",
+    "ref_2": "Tosafot on Yevamot 14b:8:2",
+    "path_2": "תוספות על יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -680,15 +688,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 113,
-    "line_index_2": 179,
-    "heRef_2": "תוספות על יבמות יד:, ח, ב",
-    "ref_2": "Tosafot on Yevamot 14b:8:2",
-    "path_2": "תוספות על יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 115,
+    "line_index_1": 114,
     "line_index_2": 425,
     "heRef_2": "יבמות טו., ז",
     "ref_2": "Yevamot 15a:7",
@@ -696,7 +696,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 116,
+    "line_index_1": 115,
     "line_index_2": 428,
     "heRef_2": "יבמות טו., י",
     "ref_2": "Yevamot 15a:10",
@@ -704,11 +704,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 118,
+    "line_index_1": 117,
     "line_index_2": 192,
     "heRef_2": "תוספות על יבמות טו:, יד, א",
     "ref_2": "Tosafot on Yevamot 15b:14:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 118,
+    "line_index_2": 451,
+    "heRef_2": "יבמות טו:, יד",
+    "ref_2": "Yevamot 15b:14",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -776,19 +784,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 127,
-    "line_index_2": 451,
-    "heRef_2": "יבמות טו:, יד",
-    "ref_2": "Yevamot 15b:14",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 129,
+    "line_index_1": 128,
     "line_index_2": 461,
     "heRef_2": "יבמות טז., ט",
     "ref_2": "Yevamot 16a:9",
     "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 130,
+    "line_index_2": 201,
+    "heRef_2": "תוספות על יבמות טז:, ב, א",
+    "ref_2": "Tosafot on Yevamot 16b:2:1",
+    "path_2": "תוספות על יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -801,14 +809,6 @@
   },
   {
     "line_index_1": 132,
-    "line_index_2": 201,
-    "heRef_2": "תוספות על יבמות טז:, ב, א",
-    "ref_2": "Tosafot on Yevamot 16b:2:1",
-    "path_2": "תוספות על יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 133,
     "line_index_2": 473,
     "heRef_2": "יבמות טז:, ב",
     "ref_2": "Yevamot 16b:2",
@@ -816,11 +816,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 134,
+    "line_index_1": 133,
     "line_index_2": 205,
     "heRef_2": "תוספות על יבמות טז:, ט, א",
     "ref_2": "Tosafot on Yevamot 16b:9:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 134,
+    "line_index_2": 473,
+    "heRef_2": "יבמות טז:, ב",
+    "ref_2": "Yevamot 16b:2",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -840,15 +848,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 137,
-    "line_index_2": 473,
-    "heRef_2": "יבמות טז:, ב",
-    "ref_2": "Yevamot 16b:2",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 139,
+    "line_index_1": 138,
     "line_index_2": 486,
     "heRef_2": "יבמות יז., ד",
     "ref_2": "Yevamot 17a:4",
@@ -856,11 +856,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 142,
+    "line_index_1": 141,
     "line_index_2": 495,
     "heRef_2": "יבמות יז., יג",
     "ref_2": "Yevamot 17a:13",
     "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 143,
+    "line_index_2": 214,
+    "heRef_2": "תוספות על יבמות יז:, ב, א",
+    "ref_2": "Tosafot on Yevamot 17b:2:1",
+    "path_2": "תוספות על יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -873,10 +881,10 @@
   },
   {
     "line_index_1": 145,
-    "line_index_2": 214,
-    "heRef_2": "תוספות על יבמות יז:, ב, א",
-    "ref_2": "Tosafot on Yevamot 17b:2:1",
-    "path_2": "תוספות על יבמות.txt",
+    "line_index_2": 503,
+    "heRef_2": "יבמות יז:, ז",
+    "ref_2": "Yevamot 17b:7",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -888,10 +896,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 147,
-    "line_index_2": 503,
-    "heRef_2": "יבמות יז:, ז",
-    "ref_2": "Yevamot 17b:7",
+    "line_index_1": 148,
+    "line_index_2": 508,
+    "heRef_2": "יבמות יז:, יב",
+    "ref_2": "Yevamot 17b:12",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -904,19 +912,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 150,
-    "line_index_2": 508,
-    "heRef_2": "יבמות יז:, יב",
-    "ref_2": "Yevamot 17b:12",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 152,
+    "line_index_1": 151,
     "line_index_2": 219,
     "heRef_2": "תוספות על יבמות יח., ה, א",
     "ref_2": "Tosafot on Yevamot 18a:5:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 152,
+    "line_index_2": 518,
+    "heRef_2": "יבמות יח., ה",
+    "ref_2": "Yevamot 18a:5",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -929,14 +937,6 @@
   },
   {
     "line_index_1": 154,
-    "line_index_2": 518,
-    "heRef_2": "יבמות יח., ה",
-    "ref_2": "Yevamot 18a:5",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 155,
     "line_index_2": 520,
     "heRef_2": "יבמות יח., ז",
     "ref_2": "Yevamot 18a:7",
@@ -944,7 +944,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 156,
+    "line_index_1": 155,
     "line_index_2": 224,
     "heRef_2": "תוספות על יבמות יח., יא, א",
     "ref_2": "Tosafot on Yevamot 18a:11:1",
@@ -952,11 +952,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 158,
+    "line_index_1": 157,
     "line_index_2": 226,
     "heRef_2": "תוספות על יבמות יח:, א, א",
     "ref_2": "Tosafot on Yevamot 18b:1:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 158,
+    "line_index_2": 528,
+    "heRef_2": "יבמות יח:, א",
+    "ref_2": "Yevamot 18b:1",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -976,19 +984,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 161,
-    "line_index_2": 528,
-    "heRef_2": "יבמות יח:, א",
-    "ref_2": "Yevamot 18b:1",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 163,
+    "line_index_1": 162,
     "line_index_2": 544,
     "heRef_2": "יבמות יט., א",
     "ref_2": "Yevamot 19a:1",
     "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 164,
+    "line_index_2": 236,
+    "heRef_2": "תוספות על יבמות יט:, א, א",
+    "ref_2": "Tosafot on Yevamot 19b:1:1",
+    "path_2": "תוספות על יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -1001,14 +1009,6 @@
   },
   {
     "line_index_1": 166,
-    "line_index_2": 236,
-    "heRef_2": "תוספות על יבמות יט:, א, א",
-    "ref_2": "Tosafot on Yevamot 19b:1:1",
-    "path_2": "תוספות על יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 167,
     "line_index_2": 240,
     "heRef_2": "תוספות על יבמות יט:, ז, א",
     "ref_2": "Tosafot on Yevamot 19b:7:1",
@@ -1016,10 +1016,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 168,
+    "line_index_1": 167,
     "line_index_2": 575,
     "heRef_2": "יבמות יט:, יא",
     "ref_2": "Yevamot 19b:11",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 169,
+    "line_index_2": 582,
+    "heRef_2": "יבמות כ., ד",
+    "ref_2": "Yevamot 20a:4",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -1032,10 +1040,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 171,
-    "line_index_2": 582,
-    "heRef_2": "יבמות כ., ד",
-    "ref_2": "Yevamot 20a:4",
+    "line_index_1": 172,
+    "line_index_2": 601,
+    "heRef_2": "יבמות כ:, ב",
+    "ref_2": "Yevamot 20b:2",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -1049,14 +1057,6 @@
   },
   {
     "line_index_1": 174,
-    "line_index_2": 601,
-    "heRef_2": "יבמות כ:, ב",
-    "ref_2": "Yevamot 20b:2",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 175,
     "line_index_2": 605,
     "heRef_2": "יבמות כ:, ו",
     "ref_2": "Yevamot 20b:6",
@@ -1064,10 +1064,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 176,
+    "line_index_1": 175,
     "line_index_2": 252,
     "heRef_2": "תוספות על יבמות כ:, יג, א",
     "ref_2": "Tosafot on Yevamot 20b:13:1",
+    "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 176,
+    "line_index_2": 254,
+    "heRef_2": "תוספות על יבמות כ:, יד, ב",
+    "ref_2": "Tosafot on Yevamot 20b:14:2",
     "path_2": "תוספות על יבמות.txt",
     "Conection Type": "source"
   },
@@ -1081,10 +1089,10 @@
   },
   {
     "line_index_1": 178,
-    "line_index_2": 254,
-    "heRef_2": "תוספות על יבמות כ:, יד, ב",
-    "ref_2": "Tosafot on Yevamot 20b:14:2",
-    "path_2": "תוספות על יבמות.txt",
+    "line_index_2": 616,
+    "heRef_2": "יבמות כ:, יז",
+    "ref_2": "Yevamot 20b:17",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -1112,10 +1120,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 182,
-    "line_index_2": 616,
-    "heRef_2": "יבמות כ:, יז",
-    "ref_2": "Yevamot 20b:17",
+    "line_index_1": 183,
+    "line_index_2": 619,
+    "heRef_2": "יבמות כא., א",
+    "ref_2": "Yevamot 21a:1",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -1185,14 +1193,6 @@
   },
   {
     "line_index_1": 192,
-    "line_index_2": 619,
-    "heRef_2": "יבמות כא., א",
-    "ref_2": "Yevamot 21a:1",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 193,
     "line_index_2": 258,
     "heRef_2": "תוספות על יבמות כא., יד, א",
     "ref_2": "Tosafot on Yevamot 21a:14:1",
@@ -1200,7 +1200,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 194,
+    "line_index_1": 193,
     "line_index_2": 632,
     "heRef_2": "יבמות כא., יד",
     "ref_2": "Yevamot 21a:14",
@@ -1208,7 +1208,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 196,
+    "line_index_1": 195,
     "line_index_2": 264,
     "heRef_2": "תוספות על יבמות כא:, טו, א",
     "ref_2": "Tosafot on Yevamot 21b:15:1",
@@ -1216,7 +1216,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 199,
+    "line_index_1": 198,
     "line_index_2": 669,
     "heRef_2": "יבמות כב., יא",
     "ref_2": "Yevamot 22a:11",
@@ -1224,11 +1224,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 200,
+    "line_index_1": 199,
     "line_index_2": 270,
     "heRef_2": "תוספות על יבמות כב., יב, א",
     "ref_2": "Tosafot on Yevamot 22a:12:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 200,
+    "line_index_2": 669,
+    "heRef_2": "יבמות כב., יא",
+    "ref_2": "Yevamot 22a:11",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -1280,15 +1288,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 207,
-    "line_index_2": 669,
-    "heRef_2": "יבמות כב., יא",
-    "ref_2": "Yevamot 22a:11",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 209,
+    "line_index_1": 208,
     "line_index_2": 673,
     "heRef_2": "יבמות כב:, א",
     "ref_2": "Yevamot 22b:1",
@@ -1296,7 +1296,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 210,
+    "line_index_1": 209,
     "line_index_2": 688,
     "heRef_2": "יבמות כב:, טז",
     "ref_2": "Yevamot 22b:16",
@@ -1304,7 +1304,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 212,
+    "line_index_1": 211,
     "line_index_2": 278,
     "heRef_2": "תוספות על יבמות כג., ט, א",
     "ref_2": "Tosafot on Yevamot 23a:9:1",
@@ -1312,7 +1312,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 213,
+    "line_index_1": 212,
     "line_index_2": 279,
     "heRef_2": "תוספות על יבמות כג., יב, א",
     "ref_2": "Tosafot on Yevamot 23a:12:1",
@@ -1320,11 +1320,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 214,
+    "line_index_1": 213,
     "line_index_2": 278,
     "heRef_2": "תוספות על יבמות כג., ט, א",
     "ref_2": "Tosafot on Yevamot 23a:9:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 214,
+    "line_index_2": 703,
+    "heRef_2": "יבמות כג., ט",
+    "ref_2": "Yevamot 23a:9",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -1448,15 +1456,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 230,
-    "line_index_2": 703,
-    "heRef_2": "יבמות כג., ט",
-    "ref_2": "Yevamot 23a:9",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 232,
+    "line_index_1": 231,
     "line_index_2": 283,
     "heRef_2": "תוספות על יבמות כג:, ב, א",
     "ref_2": "Tosafot on Yevamot 23b:2:1",
@@ -1464,7 +1464,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 233,
+    "line_index_1": 232,
     "line_index_2": 897,
     "ref_2": "Rashi on Yevamot 23b:8:3",
     "heRef_2": "רש\"י על יבמות כג:, ח, ג",
@@ -1472,10 +1472,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 234,
+    "line_index_1": 233,
     "line_index_2": 723,
     "heRef_2": "יבמות כג:, יד",
     "ref_2": "Yevamot 23b:14",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 235,
+    "line_index_2": 727,
+    "heRef_2": "יבמות כד., ב",
+    "ref_2": "Yevamot 24a:2",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -1488,15 +1496,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 237,
-    "line_index_2": 727,
-    "heRef_2": "יבמות כד., ב",
-    "ref_2": "Yevamot 24a:2",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 239,
+    "line_index_1": 238,
     "line_index_2": 730,
     "heRef_2": "יבמות כד., ה",
     "ref_2": "Yevamot 24a:5",
@@ -1504,7 +1504,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 240,
+    "line_index_1": 239,
     "line_index_2": 742,
     "heRef_2": "יבמות כד., יז",
     "ref_2": "Yevamot 24a:17",
@@ -1512,7 +1512,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 242,
+    "line_index_1": 241,
     "line_index_2": 293,
     "heRef_2": "תוספות על יבמות כד:, א, א",
     "ref_2": "Tosafot on Yevamot 24b:1:1",
@@ -1520,10 +1520,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 244,
+    "line_index_1": 243,
     "line_index_2": 747,
     "heRef_2": "יבמות כד:, א",
     "ref_2": "Yevamot 24b:1",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 244,
+    "line_index_2": 755,
+    "heRef_2": "יבמות כד:, ט",
+    "ref_2": "Yevamot 24b:9",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -1584,15 +1592,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 252,
-    "line_index_2": 755,
-    "heRef_2": "יבמות כד:, ט",
-    "ref_2": "Yevamot 24b:9",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 254,
+    "line_index_1": 253,
     "line_index_2": 764,
     "heRef_2": "יבמות כה., א",
     "ref_2": "Yevamot 25a:1",
@@ -1600,7 +1600,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 255,
+    "line_index_1": 254,
     "line_index_2": 304,
     "heRef_2": "תוספות על יבמות כה., יא, א",
     "ref_2": "Tosafot on Yevamot 25a:11:1",
@@ -1608,7 +1608,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 256,
+    "line_index_1": 255,
     "line_index_2": 305,
     "heRef_2": "תוספות על יבמות כה., יב, א",
     "ref_2": "Tosafot on Yevamot 25a:12:1",
@@ -1616,10 +1616,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 257,
+    "line_index_1": 256,
     "line_index_2": 776,
     "heRef_2": "יבמות כה., יג",
     "ref_2": "Yevamot 25a:13",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 258,
+    "line_index_2": 780,
+    "heRef_2": "יבמות כה:, ב",
+    "ref_2": "Yevamot 25b:2",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -1640,10 +1648,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 261,
-    "line_index_2": 780,
-    "heRef_2": "יבמות כה:, ב",
-    "ref_2": "Yevamot 25b:2",
+    "line_index_1": 262,
+    "line_index_2": 783,
+    "heRef_2": "יבמות כה:, ה",
+    "ref_2": "Yevamot 25b:5",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -1664,10 +1672,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 265,
-    "line_index_2": 783,
-    "heRef_2": "יבמות כה:, ה",
-    "ref_2": "Yevamot 25b:5",
+    "line_index_1": 266,
+    "line_index_2": 797,
+    "heRef_2": "יבמות כו., ד",
+    "ref_2": "Yevamot 26a:4",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -1680,10 +1688,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 268,
-    "line_index_2": 797,
-    "heRef_2": "יבמות כו., ד",
-    "ref_2": "Yevamot 26a:4",
+    "line_index_1": 269,
+    "line_index_2": 810,
+    "heRef_2": "יבמות כו., יז",
+    "ref_2": "Yevamot 26a:17",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -1745,18 +1753,18 @@
   },
   {
     "line_index_1": 277,
-    "line_index_2": 810,
-    "heRef_2": "יבמות כו., יז",
-    "ref_2": "Yevamot 26a:17",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 278,
     "line_index_2": 815,
     "heRef_2": "יבמות כו., כב",
     "ref_2": "Yevamot 26a:22",
     "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 279,
+    "line_index_2": 322,
+    "heRef_2": "תוספות על יבמות כו:, ג, א",
+    "ref_2": "Tosafot on Yevamot 26b:3:1",
+    "path_2": "תוספות על יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -1769,10 +1777,10 @@
   },
   {
     "line_index_1": 281,
-    "line_index_2": 322,
-    "heRef_2": "תוספות על יבמות כו:, ג, א",
-    "ref_2": "Tosafot on Yevamot 26b:3:1",
-    "path_2": "תוספות על יבמות.txt",
+    "line_index_2": 821,
+    "heRef_2": "יבמות כו:, ג",
+    "ref_2": "Yevamot 26b:3",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -1793,14 +1801,6 @@
   },
   {
     "line_index_1": 284,
-    "line_index_2": 821,
-    "heRef_2": "יבמות כו:, ג",
-    "ref_2": "Yevamot 26b:3",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 285,
     "line_index_2": 324,
     "heRef_2": "תוספות על יבמות כו:, ה, א",
     "ref_2": "Tosafot on Yevamot 26b:5:1",
@@ -1808,11 +1808,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 286,
+    "line_index_1": 285,
     "line_index_2": 326,
     "heRef_2": "תוספות על יבמות כו:, ח, א",
     "ref_2": "Tosafot on Yevamot 26b:8:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 287,
+    "line_index_2": 830,
+    "heRef_2": "יבמות כז., ב",
+    "ref_2": "Yevamot 27a:2",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -1857,14 +1865,6 @@
   },
   {
     "line_index_1": 293,
-    "line_index_2": 830,
-    "heRef_2": "יבמות כז., ב",
-    "ref_2": "Yevamot 27a:2",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 294,
     "line_index_2": 841,
     "heRef_2": "יבמות כז., יג",
     "ref_2": "Yevamot 27a:13",
@@ -1872,7 +1872,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 295,
+    "line_index_1": 294,
     "line_index_2": 840,
     "heRef_2": "יבמות כז., יב",
     "ref_2": "Yevamot 27a:12",
@@ -1880,7 +1880,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 297,
+    "line_index_1": 296,
     "line_index_2": 336,
     "heRef_2": "תוספות על יבמות כז:, א, א",
     "ref_2": "Tosafot on Yevamot 27b:1:1",
@@ -1888,7 +1888,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 298,
+    "line_index_1": 297,
     "line_index_2": 845,
     "heRef_2": "יבמות כז:, א",
     "ref_2": "Yevamot 27b:1",
@@ -1896,7 +1896,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 299,
+    "line_index_1": 298,
     "line_index_2": 342,
     "heRef_2": "תוספות על יבמות כז:, ז, ב",
     "ref_2": "Tosafot on Yevamot 27b:7:2",
@@ -1904,11 +1904,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 300,
+    "line_index_1": 299,
     "line_index_2": 343,
     "heRef_2": "תוספות על יבמות כז:, ח, א",
     "ref_2": "Tosafot on Yevamot 27b:8:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 300,
+    "line_index_2": 845,
+    "heRef_2": "יבמות כז:, א",
+    "ref_2": "Yevamot 27b:1",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -1952,15 +1960,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 306,
-    "line_index_2": 845,
-    "heRef_2": "יבמות כז:, א",
-    "ref_2": "Yevamot 27b:1",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 308,
+    "line_index_1": 307,
     "line_index_2": 346,
     "heRef_2": "תוספות על יבמות כח., ג, א",
     "ref_2": "Tosafot on Yevamot 28a:3:1",
@@ -1968,7 +1968,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 309,
+    "line_index_1": 308,
     "line_index_2": 856,
     "heRef_2": "יבמות כח., א",
     "ref_2": "Yevamot 28a:1",
@@ -1976,7 +1976,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 311,
+    "line_index_1": 310,
     "line_index_2": 874,
     "heRef_2": "יבמות כח:, ב",
     "ref_2": "Yevamot 28b:2",
@@ -1984,7 +1984,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 313,
+    "line_index_1": 312,
     "line_index_2": 900,
     "heRef_2": "יבמות כט., א",
     "ref_2": "Yevamot 29a:1",
@@ -1992,7 +1992,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 315,
+    "line_index_1": 314,
     "line_index_2": 903,
     "heRef_2": "יבמות כט., ד",
     "ref_2": "Yevamot 29a:4",
@@ -2000,7 +2000,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 316,
+    "line_index_1": 315,
     "line_index_2": 355,
     "heRef_2": "תוספות על יבמות כט., ה, א",
     "ref_2": "Tosafot on Yevamot 29a:5:1",
@@ -2008,7 +2008,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 317,
+    "line_index_1": 316,
     "line_index_2": 356,
     "heRef_2": "תוספות על יבמות כט., ו, א",
     "ref_2": "Tosafot on Yevamot 29a:6:1",
@@ -2016,7 +2016,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 318,
+    "line_index_1": 317,
     "line_index_2": 357,
     "heRef_2": "תוספות על יבמות כט., ז, א",
     "ref_2": "Tosafot on Yevamot 29a:7:1",
@@ -2024,7 +2024,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 319,
+    "line_index_1": 318,
     "line_index_2": 359,
     "heRef_2": "תוספות על יבמות כט., ח, א",
     "ref_2": "Tosafot on Yevamot 29a:8:1",
@@ -2032,7 +2032,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 320,
+    "line_index_1": 319,
     "line_index_2": 907,
     "heRef_2": "יבמות כט., ח",
     "ref_2": "Yevamot 29a:8",
@@ -2040,7 +2040,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 322,
+    "line_index_1": 321,
     "line_index_2": 910,
     "heRef_2": "יבמות כט:, א",
     "ref_2": "Yevamot 29b:1",
@@ -2048,7 +2048,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 323,
+    "line_index_1": 322,
     "line_index_2": 915,
     "heRef_2": "יבמות כט:, ו",
     "ref_2": "Yevamot 29b:6",
@@ -2056,10 +2056,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 324,
+    "line_index_1": 323,
     "line_index_2": 916,
     "heRef_2": "יבמות כט:, ז",
     "ref_2": "Yevamot 29b:7",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 324,
+    "line_index_2": 919,
+    "heRef_2": "יבמות כט:, י",
+    "ref_2": "Yevamot 29b:10",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -2073,17 +2081,17 @@
   },
   {
     "line_index_1": 326,
-    "line_index_2": 919,
-    "heRef_2": "יבמות כט:, י",
-    "ref_2": "Yevamot 29b:10",
+    "line_index_2": 918,
+    "heRef_2": "יבמות כט:, ט",
+    "ref_2": "Yevamot 29b:9",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
     "line_index_1": 327,
-    "line_index_2": 918,
-    "heRef_2": "יבמות כט:, ט",
-    "ref_2": "Yevamot 29b:9",
+    "line_index_2": 924,
+    "heRef_2": "יבמות כט:, טו",
+    "ref_2": "Yevamot 29b:15",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -2096,10 +2104,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 329,
-    "line_index_2": 924,
-    "heRef_2": "יבמות כט:, טו",
-    "ref_2": "Yevamot 29b:15",
+    "line_index_1": 330,
+    "line_index_2": 933,
+    "heRef_2": "יבמות ל., ה",
+    "ref_2": "Yevamot 30a:5",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -2112,10 +2120,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 332,
-    "line_index_2": 933,
-    "heRef_2": "יבמות ל., ה",
-    "ref_2": "Yevamot 30a:5",
+    "line_index_1": 333,
+    "line_index_2": 945,
+    "heRef_2": "יבמות ל:, ב",
+    "ref_2": "Yevamot 30b:2",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -2161,9 +2169,9 @@
   },
   {
     "line_index_1": 339,
-    "line_index_2": 945,
-    "heRef_2": "יבמות ל:, ב",
-    "ref_2": "Yevamot 30b:2",
+    "line_index_2": 953,
+    "heRef_2": "יבמות ל:, י",
+    "ref_2": "Yevamot 30b:10",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -2177,14 +2185,6 @@
   },
   {
     "line_index_1": 341,
-    "line_index_2": 953,
-    "heRef_2": "יבמות ל:, י",
-    "ref_2": "Yevamot 30b:10",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 342,
     "line_index_2": 1259,
     "ref_2": "Rashi on Yevamot 30b:14:4",
     "heRef_2": "רש\"י על יבמות ל:, יד, ד",
@@ -2192,10 +2192,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 344,
+    "line_index_1": 343,
     "line_index_2": 963,
     "heRef_2": "יבמות לא., ה",
     "ref_2": "Yevamot 31a:5",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 344,
+    "line_index_2": 969,
+    "heRef_2": "יבמות לא., יא",
+    "ref_2": "Yevamot 31a:11",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -2232,10 +2240,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 349,
-    "line_index_2": 969,
-    "heRef_2": "יבמות לא., יא",
-    "ref_2": "Yevamot 31a:11",
+    "line_index_1": 350,
+    "line_index_2": 972,
+    "heRef_2": "יבמות לא:, א",
+    "ref_2": "Yevamot 31b:1",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -2257,14 +2265,6 @@
   },
   {
     "line_index_1": 353,
-    "line_index_2": 972,
-    "heRef_2": "יבמות לא:, א",
-    "ref_2": "Yevamot 31b:1",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 354,
     "line_index_2": 390,
     "heRef_2": "תוספות על יבמות לא:, ח, א",
     "ref_2": "Tosafot on Yevamot 31b:8:1",
@@ -2272,7 +2272,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 355,
+    "line_index_1": 354,
     "line_index_2": 1295,
     "ref_2": "Rashi on Yevamot 31b:11:2",
     "heRef_2": "רש\"י על יבמות לא:, יא, ב",
@@ -2280,7 +2280,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 356,
+    "line_index_1": 355,
     "line_index_2": 982,
     "heRef_2": "יבמות לא:, יא",
     "ref_2": "Yevamot 31b:11",
@@ -2288,7 +2288,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 359,
+    "line_index_1": 358,
     "line_index_2": 991,
     "heRef_2": "יבמות לב., ד",
     "ref_2": "Yevamot 32a:4",
@@ -2296,7 +2296,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 361,
+    "line_index_1": 360,
     "line_index_2": 402,
     "heRef_2": "תוספות על יבמות לב:, ד, א",
     "ref_2": "Tosafot on Yevamot 32b:4:1",
@@ -2304,7 +2304,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 362,
+    "line_index_1": 361,
     "line_index_2": 1333,
     "ref_2": "Rashi on Yevamot 32b:5:1",
     "heRef_2": "רש\"י על יבמות לב:, ה, א",
@@ -2312,7 +2312,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 363,
+    "line_index_1": 362,
     "line_index_2": 1002,
     "heRef_2": "יבמות לב:, א",
     "ref_2": "Yevamot 32b:1",
@@ -2320,10 +2320,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 364,
+    "line_index_1": 363,
     "line_index_2": 1007,
     "heRef_2": "יבמות לב:, ו",
     "ref_2": "Yevamot 32b:6",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 364,
+    "line_index_2": 1008,
+    "heRef_2": "יבמות לב:, ז",
+    "ref_2": "Yevamot 32b:7",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -2336,11 +2344,11 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 366,
-    "line_index_2": 1008,
-    "heRef_2": "יבמות לב:, ז",
-    "ref_2": "Yevamot 32b:7",
-    "path_2": "יבמות.txt",
+    "line_index_1": 367,
+    "line_index_2": 408,
+    "heRef_2": "תוספות על יבמות לג., א, א",
+    "ref_2": "Tosafot on Yevamot 33a:1:1",
+    "path_2": "תוספות על יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -2353,18 +2361,18 @@
   },
   {
     "line_index_1": 369,
-    "line_index_2": 408,
-    "heRef_2": "תוספות על יבמות לג., א, א",
-    "ref_2": "Tosafot on Yevamot 33a:1:1",
+    "line_index_2": 410,
+    "heRef_2": "תוספות על יבמות לג., ג, א",
+    "ref_2": "Tosafot on Yevamot 33a:3:1",
     "path_2": "תוספות על יבמות.txt",
     "Conection Type": "source"
   },
   {
     "line_index_1": 370,
-    "line_index_2": 410,
-    "heRef_2": "תוספות על יבמות לג., ג, א",
-    "ref_2": "Tosafot on Yevamot 33a:3:1",
-    "path_2": "תוספות על יבמות.txt",
+    "line_index_2": 1014,
+    "heRef_2": "יבמות לג., א",
+    "ref_2": "Yevamot 33a:1",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -2440,15 +2448,15 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 380,
-    "line_index_2": 1014,
-    "heRef_2": "יבמות לג., א",
-    "ref_2": "Yevamot 33a:1",
+    "line_index_1": 381,
+    "line_index_2": 1028,
+    "heRef_2": "יבמות לג:, ד",
+    "ref_2": "Yevamot 33b:4",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 382,
+    "line_index_1": 383,
     "line_index_2": 1028,
     "heRef_2": "יבמות לג:, ד",
     "ref_2": "Yevamot 33b:4",
@@ -2625,14 +2633,6 @@
   },
   {
     "line_index_1": 405,
-    "line_index_2": 1028,
-    "heRef_2": "יבמות לג:, ד",
-    "ref_2": "Yevamot 33b:4",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 406,
     "line_index_2": 1027,
     "heRef_2": "יבמות לג:, ג",
     "ref_2": "Yevamot 33b:3",
@@ -2640,10 +2640,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 408,
+    "line_index_1": 407,
     "line_index_2": 1039,
     "heRef_2": "יבמות לד., א",
     "ref_2": "Yevamot 34a:1",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 408,
+    "line_index_2": 1046,
+    "heRef_2": "יבמות לד., ח",
+    "ref_2": "Yevamot 34a:8",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -2665,9 +2673,9 @@
   },
   {
     "line_index_1": 411,
-    "line_index_2": 1046,
-    "heRef_2": "יבמות לד., ח",
-    "ref_2": "Yevamot 34a:8",
+    "line_index_2": 1049,
+    "heRef_2": "יבמות לד., יא",
+    "ref_2": "Yevamot 34a:11",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -2688,18 +2696,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 414,
-    "line_index_2": 1049,
-    "heRef_2": "יבמות לד., יא",
-    "ref_2": "Yevamot 34a:11",
+    "line_index_1": 415,
+    "line_index_2": 1059,
+    "heRef_2": "יבמות לד:, ו",
+    "ref_2": "Yevamot 34b:6",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 416,
-    "line_index_2": 1059,
-    "heRef_2": "יבמות לד:, ו",
-    "ref_2": "Yevamot 34b:6",
+    "line_index_1": 417,
+    "line_index_2": 1067,
+    "heRef_2": "יבמות לה., ג",
+    "ref_2": "Yevamot 35a:3",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -2736,19 +2744,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 422,
-    "line_index_2": 1067,
-    "heRef_2": "יבמות לה., ג",
-    "ref_2": "Yevamot 35a:3",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 424,
+    "line_index_1": 423,
     "line_index_2": 1075,
     "heRef_2": "יבמות לה., יא",
     "ref_2": "Yevamot 35a:11",
     "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 425,
+    "line_index_2": 441,
+    "heRef_2": "תוספות על יבמות לה:, א, ב",
+    "ref_2": "Tosafot on Yevamot 35b:1:2",
+    "path_2": "תוספות על יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -2769,14 +2777,6 @@
   },
   {
     "line_index_1": 428,
-    "line_index_2": 441,
-    "heRef_2": "תוספות על יבמות לה:, א, ב",
-    "ref_2": "Tosafot on Yevamot 35b:1:2",
-    "path_2": "תוספות על יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 429,
     "line_index_2": 1084,
     "heRef_2": "יבמות לה:, ח",
     "ref_2": "Yevamot 35b:8",
@@ -2784,10 +2784,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 430,
+    "line_index_1": 429,
     "line_index_2": 1093,
     "heRef_2": "יבמות לה:, יז",
     "ref_2": "Yevamot 35b:17",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 430,
+    "line_index_2": 1091,
+    "heRef_2": "יבמות לה:, טו",
+    "ref_2": "Yevamot 35b:15",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -2809,9 +2817,9 @@
   },
   {
     "line_index_1": 433,
-    "line_index_2": 1091,
-    "heRef_2": "יבמות לה:, טו",
-    "ref_2": "Yevamot 35b:15",
+    "line_index_2": 1097,
+    "heRef_2": "יבמות לה:, כא",
+    "ref_2": "Yevamot 35b:21",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -2840,15 +2848,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 437,
-    "line_index_2": 1097,
-    "heRef_2": "יבמות לה:, כא",
-    "ref_2": "Yevamot 35b:21",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 439,
+    "line_index_1": 438,
     "line_index_2": 1107,
     "heRef_2": "יבמות לו., ו",
     "ref_2": "Yevamot 36a:6",
@@ -2856,7 +2856,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 440,
+    "line_index_1": 439,
     "line_index_2": 452,
     "heRef_2": "תוספות על יבמות לו., ח, ב",
     "ref_2": "Tosafot on Yevamot 36a:8:2",
@@ -2864,7 +2864,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 442,
+    "line_index_1": 441,
     "line_index_2": 1128,
     "heRef_2": "יבמות לו:, י",
     "ref_2": "Yevamot 36b:10",
@@ -2872,7 +2872,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 443,
+    "line_index_1": 442,
     "line_index_2": 461,
     "heRef_2": "תוספות על יבמות לו:, יא, א",
     "ref_2": "Tosafot on Yevamot 36b:11:1",
@@ -2880,7 +2880,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 445,
+    "line_index_1": 444,
     "line_index_2": 1137,
     "heRef_2": "יבמות לז., ב",
     "ref_2": "Yevamot 37a:2",
@@ -2888,10 +2888,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 446,
+    "line_index_1": 445,
     "line_index_2": 1140,
     "heRef_2": "יבמות לז., ה",
     "ref_2": "Yevamot 37a:5",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 447,
+    "line_index_2": 1144,
+    "heRef_2": "יבמות לז., ט",
+    "ref_2": "Yevamot 37a:9",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -2913,18 +2921,18 @@
   },
   {
     "line_index_1": 450,
-    "line_index_2": 1144,
-    "heRef_2": "יבמות לז., ט",
-    "ref_2": "Yevamot 37a:9",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 451,
     "line_index_2": 468,
     "heRef_2": "תוספות על יבמות לז., ט, ג",
     "ref_2": "Tosafot on Yevamot 37a:9:3",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 451,
+    "line_index_2": 1143,
+    "heRef_2": "יבמות לז., ח",
+    "ref_2": "Yevamot 37a:8",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -3120,15 +3128,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 476,
-    "line_index_2": 1143,
-    "heRef_2": "יבמות לז., ח",
-    "ref_2": "Yevamot 37a:8",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 478,
+    "line_index_1": 477,
     "line_index_2": 1163,
     "heRef_2": "יבמות לז:, ט",
     "ref_2": "Yevamot 37b:9",
@@ -3136,7 +3136,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 479,
+    "line_index_1": 478,
     "line_index_2": 1165,
     "heRef_2": "יבמות לז:, יא",
     "ref_2": "Yevamot 37b:11",
@@ -3144,10 +3144,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 480,
+    "line_index_1": 479,
     "line_index_2": 1167,
     "heRef_2": "יבמות לז:, יג",
     "ref_2": "Yevamot 37b:13",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 480,
+    "line_index_2": 1173,
+    "heRef_2": "יבמות לז:, יט",
+    "ref_2": "Yevamot 37b:19",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -3176,15 +3184,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 484,
-    "line_index_2": 1173,
-    "heRef_2": "יבמות לז:, יט",
-    "ref_2": "Yevamot 37b:19",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 486,
+    "line_index_1": 485,
     "line_index_2": 478,
     "heRef_2": "תוספות על יבמות לח., י, א",
     "ref_2": "Tosafot on Yevamot 38a:10:1",
@@ -3192,11 +3192,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 488,
+    "line_index_1": 487,
     "line_index_2": 1582,
     "ref_2": "Rashi on Yevamot 38b:5:1",
     "heRef_2": "רש\"י על יבמות לח:, ה, א",
     "path_2": "רש\"י על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 488,
+    "line_index_2": 1199,
+    "heRef_2": "יבמות לח:, א",
+    "ref_2": "Yevamot 38b:1",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -3217,9 +3225,9 @@
   },
   {
     "line_index_1": 491,
-    "line_index_2": 1199,
-    "heRef_2": "יבמות לח:, א",
-    "ref_2": "Yevamot 38b:1",
+    "line_index_2": 1220,
+    "heRef_2": "יבמות לח:, כב",
+    "ref_2": "Yevamot 38b:22",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -3248,18 +3256,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 495,
-    "line_index_2": 1220,
-    "heRef_2": "יבמות לח:, כב",
-    "ref_2": "Yevamot 38b:22",
+    "line_index_1": 496,
+    "line_index_2": 1235,
+    "heRef_2": "יבמות לט., יד",
+    "ref_2": "Yevamot 39a:14",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
     "line_index_1": 497,
-    "line_index_2": 1235,
-    "heRef_2": "יבמות לט., יד",
-    "ref_2": "Yevamot 39a:14",
+    "line_index_2": 1241,
+    "heRef_2": "יבמות לט., כ",
+    "ref_2": "Yevamot 39a:20",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -3272,18 +3280,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 499,
-    "line_index_2": 1241,
-    "heRef_2": "יבמות לט., כ",
-    "ref_2": "Yevamot 39a:20",
+    "line_index_1": 500,
+    "line_index_2": 1248,
+    "heRef_2": "יבמות לט:, א",
+    "ref_2": "Yevamot 39b:1",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
     "line_index_1": 501,
-    "line_index_2": 1248,
-    "heRef_2": "יבמות לט:, א",
-    "ref_2": "Yevamot 39b:1",
+    "line_index_2": 1264,
+    "heRef_2": "יבמות לט:, יז",
+    "ref_2": "Yevamot 39b:17",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -3296,15 +3304,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 503,
-    "line_index_2": 1264,
-    "heRef_2": "יבמות לט:, יז",
-    "ref_2": "Yevamot 39b:17",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 505,
+    "line_index_1": 504,
     "line_index_2": 1273,
     "heRef_2": "יבמות מ., א",
     "ref_2": "Yevamot 40a:1",
@@ -3312,7 +3312,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 506,
+    "line_index_1": 505,
     "line_index_2": 1283,
     "heRef_2": "יבמות מ., יא",
     "ref_2": "Yevamot 40a:11",
@@ -3320,7 +3320,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 507,
+    "line_index_1": 506,
     "line_index_2": 1287,
     "heRef_2": "יבמות מ., טו",
     "ref_2": "Yevamot 40a:15",
@@ -3328,10 +3328,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 509,
+    "line_index_1": 508,
     "line_index_2": 1332,
     "heRef_2": "יבמות מ:, לב",
     "ref_2": "Yevamot 40b:32",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 510,
+    "line_index_2": 1334,
+    "heRef_2": "יבמות מא., א",
+    "ref_2": "Yevamot 41a:1",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -3344,15 +3352,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 512,
-    "line_index_2": 1334,
-    "heRef_2": "יבמות מא., א",
-    "ref_2": "Yevamot 41a:1",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 514,
+    "line_index_1": 513,
     "line_index_2": 1761,
     "ref_2": "Rashi on Yevamot 41b:3:1",
     "heRef_2": "רש\"י על יבמות מא:, ג, א",
@@ -3360,7 +3360,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 515,
+    "line_index_1": 514,
     "line_index_2": 1362,
     "heRef_2": "יבמות מא:, ח",
     "ref_2": "Yevamot 41b:8",
@@ -3368,7 +3368,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 516,
+    "line_index_1": 515,
     "line_index_2": 527,
     "heRef_2": "תוספות על יבמות מא:, טז, א",
     "ref_2": "Tosafot on Yevamot 41b:16:1",
@@ -3376,7 +3376,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 518,
+    "line_index_1": 517,
     "line_index_2": 1380,
     "heRef_2": "יבמות מב., ו",
     "ref_2": "Yevamot 42a:6",
@@ -3384,7 +3384,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 519,
+    "line_index_1": 518,
     "line_index_2": 1389,
     "heRef_2": "יבמות מב., טו",
     "ref_2": "Yevamot 42a:15",
@@ -3392,7 +3392,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 520,
+    "line_index_1": 519,
     "line_index_2": 1393,
     "heRef_2": "יבמות מב., יט",
     "ref_2": "Yevamot 42a:19",
@@ -3400,7 +3400,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 522,
+    "line_index_1": 521,
     "line_index_2": 1424,
     "heRef_2": "יבמות מג., י",
     "ref_2": "Yevamot 43a:10",
@@ -3408,7 +3408,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 523,
+    "line_index_1": 522,
     "line_index_2": 1425,
     "heRef_2": "יבמות מג., יא",
     "ref_2": "Yevamot 43a:11",
@@ -3416,7 +3416,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 525,
+    "line_index_1": 524,
     "line_index_2": 1453,
     "heRef_2": "יבמות מד., ג",
     "ref_2": "Yevamot 44a:3",
@@ -3424,7 +3424,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 526,
+    "line_index_1": 525,
     "line_index_2": 1456,
     "heRef_2": "יבמות מד., ו",
     "ref_2": "Yevamot 44a:6",
@@ -3432,11 +3432,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 527,
+    "line_index_1": 526,
     "line_index_2": 550,
     "heRef_2": "תוספות על יבמות מד., ח, א",
     "ref_2": "Tosafot on Yevamot 44a:8:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 527,
+    "line_index_2": 1458,
+    "heRef_2": "יבמות מד., ח",
+    "ref_2": "Yevamot 44a:8",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -3449,14 +3457,6 @@
   },
   {
     "line_index_1": 529,
-    "line_index_2": 1458,
-    "heRef_2": "יבמות מד., ח",
-    "ref_2": "Yevamot 44a:8",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 530,
     "line_index_2": 1472,
     "heRef_2": "יבמות מד., כב",
     "ref_2": "Yevamot 44a:22",
@@ -3464,7 +3464,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 531,
+    "line_index_1": 530,
     "line_index_2": 557,
     "heRef_2": "תוספות על יבמות מד., כג, א",
     "ref_2": "Tosafot on Yevamot 44a:23:1",
@@ -3472,7 +3472,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 533,
+    "line_index_1": 532,
     "line_index_2": 561,
     "heRef_2": "תוספות על יבמות מד:, טו, א",
     "ref_2": "Tosafot on Yevamot 44b:15:1",
@@ -3480,10 +3480,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 535,
+    "line_index_1": 534,
     "line_index_2": 1493,
     "heRef_2": "יבמות מה., א",
     "ref_2": "Yevamot 45a:1",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 536,
+    "line_index_2": 1516,
+    "heRef_2": "יבמות מה:, ד",
+    "ref_2": "Yevamot 45b:4",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -3496,7 +3504,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 538,
+    "line_index_1": 539,
     "line_index_2": 1516,
     "heRef_2": "יבמות מה:, ד",
     "ref_2": "Yevamot 45b:4",
@@ -3513,14 +3521,6 @@
   },
   {
     "line_index_1": 541,
-    "line_index_2": 1516,
-    "heRef_2": "יבמות מה:, ד",
-    "ref_2": "Yevamot 45b:4",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 542,
     "line_index_2": 1521,
     "heRef_2": "יבמות מה:, ט",
     "ref_2": "Yevamot 45b:9",
@@ -3528,11 +3528,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 543,
+    "line_index_1": 542,
     "line_index_2": 573,
     "heRef_2": "תוספות על יבמות מה:, יג, א",
     "ref_2": "Tosafot on Yevamot 45b:13:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 543,
+    "line_index_2": 1523,
+    "heRef_2": "יבמות מה:, יא",
+    "ref_2": "Yevamot 45b:11",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -3545,9 +3553,9 @@
   },
   {
     "line_index_1": 545,
-    "line_index_2": 1523,
-    "heRef_2": "יבמות מה:, יא",
-    "ref_2": "Yevamot 45b:11",
+    "line_index_2": 1526,
+    "heRef_2": "יבמות מה:, יד",
+    "ref_2": "Yevamot 45b:14",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -3560,10 +3568,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 547,
-    "line_index_2": 1526,
-    "heRef_2": "יבמות מה:, יד",
-    "ref_2": "Yevamot 45b:14",
+    "line_index_1": 548,
+    "line_index_2": 1531,
+    "heRef_2": "יבמות מו., ד",
+    "ref_2": "Yevamot 46a:4",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -3577,9 +3585,9 @@
   },
   {
     "line_index_1": 550,
-    "line_index_2": 1531,
-    "heRef_2": "יבמות מו., ד",
-    "ref_2": "Yevamot 46a:4",
+    "line_index_2": 1539,
+    "heRef_2": "יבמות מו., יב",
+    "ref_2": "Yevamot 46a:12",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -3633,9 +3641,9 @@
   },
   {
     "line_index_1": 557,
-    "line_index_2": 1539,
-    "heRef_2": "יבמות מו., יב",
-    "ref_2": "Yevamot 46a:12",
+    "line_index_2": 1528,
+    "heRef_2": "יבמות מו., א",
+    "ref_2": "Yevamot 46a:1",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -3649,9 +3657,9 @@
   },
   {
     "line_index_1": 559,
-    "line_index_2": 1528,
-    "heRef_2": "יבמות מו., א",
-    "ref_2": "Yevamot 46a:1",
+    "line_index_2": 1547,
+    "heRef_2": "יבמות מו., כ",
+    "ref_2": "Yevamot 46a:20",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -3712,15 +3720,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 567,
-    "line_index_2": 1547,
-    "heRef_2": "יבמות מו., כ",
-    "ref_2": "Yevamot 46a:20",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 569,
+    "line_index_1": 568,
     "line_index_2": 581,
     "heRef_2": "תוספות על יבמות מו:, א, ב",
     "ref_2": "Tosafot on Yevamot 46b:1:2",
@@ -3728,7 +3728,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 570,
+    "line_index_1": 569,
     "line_index_2": 1553,
     "heRef_2": "יבמות מו:, א",
     "ref_2": "Yevamot 46b:1",
@@ -3736,11 +3736,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 571,
+    "line_index_1": 570,
     "line_index_2": 2000,
     "ref_2": "Rashi on Yevamot 46b:8:3",
     "heRef_2": "רש\"י על יבמות מו:, ח, ג",
     "path_2": "רש\"י על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 571,
+    "line_index_2": 1562,
+    "heRef_2": "יבמות מו:, י",
+    "ref_2": "Yevamot 46b:10",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -3785,14 +3793,6 @@
   },
   {
     "line_index_1": 577,
-    "line_index_2": 1562,
-    "heRef_2": "יבמות מו:, י",
-    "ref_2": "Yevamot 46b:10",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 578,
     "line_index_2": 1559,
     "heRef_2": "יבמות מו:, ז",
     "ref_2": "Yevamot 46b:7",
@@ -3800,7 +3800,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 579,
+    "line_index_1": 578,
     "line_index_2": 2011,
     "ref_2": "Rashi on Yevamot 46b:16:1",
     "heRef_2": "רש\"י על יבמות מו:, טז, א",
@@ -3808,7 +3808,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 580,
+    "line_index_1": 579,
     "line_index_2": 1569,
     "heRef_2": "יבמות מו:, יז",
     "ref_2": "Yevamot 46b:17",
@@ -3816,7 +3816,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 582,
+    "line_index_1": 581,
     "line_index_2": 1571,
     "heRef_2": "יבמות מז., א",
     "ref_2": "Yevamot 47a:1",
@@ -3824,7 +3824,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 583,
+    "line_index_1": 582,
     "line_index_2": 1578,
     "heRef_2": "יבמות מז., ח",
     "ref_2": "Yevamot 47a:8",
@@ -3832,11 +3832,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 584,
+    "line_index_1": 583,
     "line_index_2": 596,
     "heRef_2": "תוספות על יבמות מז., ח, ב",
     "ref_2": "Tosafot on Yevamot 47a:8:2",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 584,
+    "line_index_2": 1578,
+    "heRef_2": "יבמות מז., ח",
+    "ref_2": "Yevamot 47a:8",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -3864,19 +3872,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 588,
-    "line_index_2": 1578,
-    "heRef_2": "יבמות מז., ח",
-    "ref_2": "Yevamot 47a:8",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 590,
+    "line_index_1": 589,
     "line_index_2": 602,
     "heRef_2": "תוספות על יבמות מז:, ב, א",
     "ref_2": "Tosafot on Yevamot 47b:2:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 590,
+    "line_index_2": 1602,
+    "heRef_2": "יבמות מז:, טז",
+    "ref_2": "Yevamot 47b:16",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -3912,18 +3920,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 595,
-    "line_index_2": 1602,
-    "heRef_2": "יבמות מז:, טז",
-    "ref_2": "Yevamot 47b:16",
+    "line_index_1": 597,
+    "line_index_2": 1623,
+    "heRef_2": "יבמות מח:, ד",
+    "ref_2": "Yevamot 48b:4",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
     "line_index_1": 598,
-    "line_index_2": 1623,
-    "heRef_2": "יבמות מח:, ד",
-    "ref_2": "Yevamot 48b:4",
+    "line_index_2": 1624,
+    "heRef_2": "יבמות מח:, ה",
+    "ref_2": "Yevamot 48b:5",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -3960,10 +3968,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 603,
-    "line_index_2": 1624,
-    "heRef_2": "יבמות מח:, ה",
-    "ref_2": "Yevamot 48b:5",
+    "line_index_1": 604,
+    "line_index_2": 1637,
+    "heRef_2": "יבמות מט., א",
+    "ref_2": "Yevamot 49a:1",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -3993,14 +4001,6 @@
   },
   {
     "line_index_1": 608,
-    "line_index_2": 1637,
-    "heRef_2": "יבמות מט., א",
-    "ref_2": "Yevamot 49a:1",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 609,
     "line_index_2": 624,
     "heRef_2": "תוספות על יבמות מט., י, א",
     "ref_2": "Tosafot on Yevamot 49a:10:1",
@@ -4008,7 +4008,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 610,
+    "line_index_1": 609,
     "line_index_2": 1646,
     "heRef_2": "יבמות מט., י",
     "ref_2": "Yevamot 49a:10",
@@ -4016,11 +4016,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 611,
+    "line_index_1": 610,
     "line_index_2": 625,
     "heRef_2": "תוספות על יבמות מט., יא, א",
     "ref_2": "Tosafot on Yevamot 49a:11:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 611,
+    "line_index_2": 1647,
+    "heRef_2": "יבמות מט., יא",
+    "ref_2": "Yevamot 49a:11",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -4048,19 +4056,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 615,
-    "line_index_2": 1647,
-    "heRef_2": "יבמות מט., יא",
-    "ref_2": "Yevamot 49a:11",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 617,
+    "line_index_1": 616,
     "line_index_2": 627,
     "heRef_2": "תוספות על יבמות מט:, ג, א",
     "ref_2": "Tosafot on Yevamot 49b:3:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 617,
+    "line_index_2": 1651,
+    "heRef_2": "יבמות מט:, ג",
+    "ref_2": "Yevamot 49b:3",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -4081,14 +4089,6 @@
   },
   {
     "line_index_1": 620,
-    "line_index_2": 1651,
-    "heRef_2": "יבמות מט:, ג",
-    "ref_2": "Yevamot 49b:3",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 621,
     "line_index_2": 1654,
     "heRef_2": "יבמות מט:, ו",
     "ref_2": "Yevamot 49b:6",
@@ -4096,7 +4096,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 623,
+    "line_index_1": 622,
     "line_index_2": 1662,
     "heRef_2": "יבמות נ., א",
     "ref_2": "Yevamot 50a:1",
@@ -4104,7 +4104,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 624,
+    "line_index_1": 623,
     "line_index_2": 1665,
     "heRef_2": "יבמות נ., ד",
     "ref_2": "Yevamot 50a:4",
@@ -4112,7 +4112,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 627,
+    "line_index_1": 626,
     "line_index_2": 636,
     "heRef_2": "תוספות על יבמות נ., ו, ב",
     "ref_2": "Tosafot on Yevamot 50a:6:2",
@@ -4120,10 +4120,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 629,
+    "line_index_1": 628,
     "line_index_2": 1686,
     "heRef_2": "יבמות נא., א",
     "ref_2": "Yevamot 51a:1",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 629,
+    "line_index_2": 1690,
+    "heRef_2": "יבמות נא., ה",
+    "ref_2": "Yevamot 51a:5",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -4137,18 +4145,18 @@
   },
   {
     "line_index_1": 631,
-    "line_index_2": 1690,
-    "heRef_2": "יבמות נא., ה",
-    "ref_2": "Yevamot 51a:5",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 632,
     "line_index_2": 2207,
     "ref_2": "Rashi on Yevamot 51a:8:1",
     "heRef_2": "רש\"י על יבמות נא., ח, א",
     "path_2": "רש\"י על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 633,
+    "line_index_2": 1700,
+    "heRef_2": "יבמות נא:, א",
+    "ref_2": "Yevamot 51b:1",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -4169,18 +4177,18 @@
   },
   {
     "line_index_1": 636,
-    "line_index_2": 1700,
-    "heRef_2": "יבמות נא:, א",
-    "ref_2": "Yevamot 51b:1",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 637,
     "line_index_2": 652,
     "heRef_2": "תוספות על יבמות נא:, ו, א",
     "ref_2": "Tosafot on Yevamot 51b:6:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 637,
+    "line_index_2": 1705,
+    "heRef_2": "יבמות נא:, ו",
+    "ref_2": "Yevamot 51b:6",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -4201,9 +4209,9 @@
   },
   {
     "line_index_1": 640,
-    "line_index_2": 1705,
-    "heRef_2": "יבמות נא:, ו",
-    "ref_2": "Yevamot 51b:6",
+    "line_index_2": 1706,
+    "heRef_2": "יבמות נא:, ז",
+    "ref_2": "Yevamot 51b:7",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -4216,15 +4224,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 642,
-    "line_index_2": 1706,
-    "heRef_2": "יבמות נא:, ז",
-    "ref_2": "Yevamot 51b:7",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 644,
+    "line_index_1": 643,
     "line_index_2": 656,
     "heRef_2": "תוספות על יבמות נב., ד, א",
     "ref_2": "Tosafot on Yevamot 52a:4:1",
@@ -4232,7 +4232,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 645,
+    "line_index_1": 644,
     "line_index_2": 658,
     "heRef_2": "תוספות על יבמות נב., ו, ב",
     "ref_2": "Tosafot on Yevamot 52a:6:2",
@@ -4240,7 +4240,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 646,
+    "line_index_1": 645,
     "line_index_2": 1718,
     "heRef_2": "יבמות נב., י",
     "ref_2": "Yevamot 52a:10",
@@ -4248,11 +4248,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 647,
+    "line_index_1": 646,
     "line_index_2": 2240,
     "ref_2": "Rashi on Yevamot 52a:11:1",
     "heRef_2": "רש\"י על יבמות נב., יא, א",
     "path_2": "רש\"י על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 648,
+    "line_index_2": 1726,
+    "heRef_2": "יבמות נב:, א",
+    "ref_2": "Yevamot 52b:1",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -4297,9 +4305,9 @@
   },
   {
     "line_index_1": 654,
-    "line_index_2": 1726,
-    "heRef_2": "יבמות נב:, א",
-    "ref_2": "Yevamot 52b:1",
+    "line_index_2": 1735,
+    "heRef_2": "יבמות נב:, י",
+    "ref_2": "Yevamot 52b:10",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -4329,9 +4337,9 @@
   },
   {
     "line_index_1": 658,
-    "line_index_2": 1735,
-    "heRef_2": "יבמות נב:, י",
-    "ref_2": "Yevamot 52b:10",
+    "line_index_2": 1737,
+    "heRef_2": "יבמות נב:, יב",
+    "ref_2": "Yevamot 52b:12",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -4360,18 +4368,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 662,
-    "line_index_2": 1737,
-    "heRef_2": "יבמות נב:, יב",
-    "ref_2": "Yevamot 52b:12",
+    "line_index_1": 663,
+    "line_index_2": 1750,
+    "heRef_2": "יבמות נג., יא",
+    "ref_2": "Yevamot 53a:11",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
     "line_index_1": 664,
-    "line_index_2": 1750,
-    "heRef_2": "יבמות נג., יא",
-    "ref_2": "Yevamot 53a:11",
+    "line_index_2": 1751,
+    "heRef_2": "יבמות נג., יב",
+    "ref_2": "Yevamot 53a:12",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -4392,15 +4400,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 667,
-    "line_index_2": 1751,
-    "heRef_2": "יבמות נג., יב",
-    "ref_2": "Yevamot 53a:12",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 669,
+    "line_index_1": 668,
     "line_index_2": 1756,
     "heRef_2": "יבמות נג:, א",
     "ref_2": "Yevamot 53b:1",
@@ -4408,10 +4408,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 672,
+    "line_index_1": 671,
     "line_index_2": 1763,
     "heRef_2": "יבמות נג:, ח",
     "ref_2": "Yevamot 53b:8",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 673,
+    "line_index_2": 1786,
+    "heRef_2": "יבמות נד., יז",
+    "ref_2": "Yevamot 54a:17",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -4424,15 +4432,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 675,
-    "line_index_2": 1786,
-    "heRef_2": "יבמות נד., יז",
-    "ref_2": "Yevamot 54a:17",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 677,
+    "line_index_1": 676,
     "line_index_2": 692,
     "heRef_2": "תוספות על יבמות נד:, ד, א",
     "ref_2": "Tosafot on Yevamot 54b:4:1",
@@ -4440,7 +4440,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 678,
+    "line_index_1": 677,
     "line_index_2": 2363,
     "ref_2": "Rashi on Yevamot 54b:22:1",
     "heRef_2": "רש\"י על יבמות נד:, כב, א",
@@ -4448,7 +4448,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 681,
+    "line_index_1": 680,
     "line_index_2": 1828,
     "heRef_2": "יבמות נה., יב",
     "ref_2": "Yevamot 55a:12",
@@ -4456,7 +4456,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 682,
+    "line_index_1": 681,
     "line_index_2": 1831,
     "heRef_2": "יבמות נה., טו",
     "ref_2": "Yevamot 55a:15",
@@ -4464,11 +4464,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 683,
+    "line_index_1": 682,
     "line_index_2": 2391,
     "ref_2": "Rashi on Yevamot 55a:23:2",
     "heRef_2": "רש\"י על יבמות נה., כג, ב",
     "path_2": "רש\"י על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 683,
+    "line_index_2": 1831,
+    "heRef_2": "יבמות נה., טו",
+    "ref_2": "Yevamot 55a:15",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -4512,18 +4520,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 689,
-    "line_index_2": 1831,
-    "heRef_2": "יבמות נה., טו",
-    "ref_2": "Yevamot 55a:15",
+    "line_index_1": 690,
+    "line_index_2": 1845,
+    "heRef_2": "יבמות נה:, ב",
+    "ref_2": "Yevamot 55b:2",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
     "line_index_1": 691,
-    "line_index_2": 1845,
-    "heRef_2": "יבמות נה:, ב",
-    "ref_2": "Yevamot 55b:2",
+    "line_index_2": 1846,
+    "heRef_2": "יבמות נה:, ג",
+    "ref_2": "Yevamot 55b:3",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -4585,9 +4593,9 @@
   },
   {
     "line_index_1": 699,
-    "line_index_2": 1846,
-    "heRef_2": "יבמות נה:, ג",
-    "ref_2": "Yevamot 55b:3",
+    "line_index_2": 1850,
+    "heRef_2": "יבמות נה:, ז",
+    "ref_2": "Yevamot 55b:7",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -4601,9 +4609,9 @@
   },
   {
     "line_index_1": 701,
-    "line_index_2": 1850,
-    "heRef_2": "יבמות נה:, ז",
-    "ref_2": "Yevamot 55b:7",
+    "line_index_2": 1855,
+    "heRef_2": "יבמות נה:, יב",
+    "ref_2": "Yevamot 55b:12",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -4640,10 +4648,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 706,
-    "line_index_2": 1855,
-    "heRef_2": "יבמות נה:, יב",
-    "ref_2": "Yevamot 55b:12",
+    "line_index_1": 707,
+    "line_index_2": 1863,
+    "heRef_2": "יבמות נו., ב",
+    "ref_2": "Yevamot 56a:2",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -4665,9 +4673,9 @@
   },
   {
     "line_index_1": 710,
-    "line_index_2": 1863,
-    "heRef_2": "יבמות נו., ב",
-    "ref_2": "Yevamot 56a:2",
+    "line_index_2": 1873,
+    "heRef_2": "יבמות נו., יב",
+    "ref_2": "Yevamot 56a:12",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -4705,14 +4713,6 @@
   },
   {
     "line_index_1": 715,
-    "line_index_2": 1873,
-    "heRef_2": "יבמות נו., יב",
-    "ref_2": "Yevamot 56a:12",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 716,
     "line_index_2": 2453,
     "ref_2": "Rashi on Yevamot 56a:16:3",
     "heRef_2": "רש\"י על יבמות נו., טז, ג",
@@ -4720,7 +4720,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 718,
+    "line_index_1": 717,
     "line_index_2": 1885,
     "heRef_2": "יבמות נו:, ה",
     "ref_2": "Yevamot 56b:5",
@@ -4728,11 +4728,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 719,
+    "line_index_1": 718,
     "line_index_2": 716,
     "heRef_2": "תוספות על יבמות נו:, ב, א",
     "ref_2": "Tosafot on Yevamot 56b:2:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 719,
+    "line_index_2": 1882,
+    "heRef_2": "יבמות נו:, ב",
+    "ref_2": "Yevamot 56b:2",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -4752,18 +4760,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 722,
-    "line_index_2": 1882,
-    "heRef_2": "יבמות נו:, ב",
-    "ref_2": "Yevamot 56b:2",
+    "line_index_1": 723,
+    "line_index_2": 1902,
+    "heRef_2": "יבמות נז., ג",
+    "ref_2": "Yevamot 57a:3",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
     "line_index_1": 724,
-    "line_index_2": 1902,
-    "heRef_2": "יבמות נז., ג",
-    "ref_2": "Yevamot 57a:3",
+    "line_index_2": 1906,
+    "heRef_2": "יבמות נז., ז",
+    "ref_2": "Yevamot 57a:7",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -4785,9 +4793,9 @@
   },
   {
     "line_index_1": 727,
-    "line_index_2": 1906,
-    "heRef_2": "יבמות נז., ז",
-    "ref_2": "Yevamot 57a:7",
+    "line_index_2": 1910,
+    "heRef_2": "יבמות נז., יא",
+    "ref_2": "Yevamot 57a:11",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -4801,14 +4809,6 @@
   },
   {
     "line_index_1": 729,
-    "line_index_2": 1910,
-    "heRef_2": "יבמות נז., יא",
-    "ref_2": "Yevamot 57a:11",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 730,
     "line_index_2": 1901,
     "heRef_2": "יבמות נז., ב",
     "ref_2": "Yevamot 57a:2",
@@ -4816,11 +4816,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 731,
+    "line_index_1": 730,
     "line_index_2": 725,
     "heRef_2": "תוספות על יבמות נז., ט, א",
     "ref_2": "Tosafot on Yevamot 57a:9:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 732,
+    "line_index_2": 1916,
+    "heRef_2": "יבמות נז:, א",
+    "ref_2": "Yevamot 57b:1",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -4896,10 +4904,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 742,
-    "line_index_2": 1916,
-    "heRef_2": "יבמות נז:, א",
-    "ref_2": "Yevamot 57b:1",
+    "line_index_1": 743,
+    "line_index_2": 1926,
+    "heRef_2": "יבמות נח., ד",
+    "ref_2": "Yevamot 58a:4",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -4913,18 +4921,18 @@
   },
   {
     "line_index_1": 745,
-    "line_index_2": 1926,
-    "heRef_2": "יבמות נח., ד",
-    "ref_2": "Yevamot 58a:4",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 746,
     "line_index_2": 737,
     "heRef_2": "תוספות על יבמות נח., יב, ב",
     "ref_2": "Tosafot on Yevamot 58a:12:2",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 746,
+    "line_index_2": 1938,
+    "heRef_2": "יבמות נח., טז",
+    "ref_2": "Yevamot 58a:16",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -4960,11 +4968,11 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 751,
-    "line_index_2": 1938,
-    "heRef_2": "יבמות נח., טז",
-    "ref_2": "Yevamot 58a:16",
-    "path_2": "יבמות.txt",
+    "line_index_1": 752,
+    "line_index_2": 740,
+    "heRef_2": "תוספות על יבמות נח:, א, א",
+    "ref_2": "Tosafot on Yevamot 58b:1:1",
+    "path_2": "תוספות על יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -4993,17 +5001,17 @@
   },
   {
     "line_index_1": 756,
-    "line_index_2": 740,
-    "heRef_2": "תוספות על יבמות נח:, א, א",
-    "ref_2": "Tosafot on Yevamot 58b:1:1",
-    "path_2": "תוספות על יבמות.txt",
+    "line_index_2": 1943,
+    "heRef_2": "יבמות נח:, ד",
+    "ref_2": "Yevamot 58b:4",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
     "line_index_1": 757,
-    "line_index_2": 1943,
-    "heRef_2": "יבמות נח:, ד",
-    "ref_2": "Yevamot 58b:4",
+    "line_index_2": 1945,
+    "heRef_2": "יבמות נח:, ו",
+    "ref_2": "Yevamot 58b:6",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -5032,15 +5040,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 761,
-    "line_index_2": 1945,
-    "heRef_2": "יבמות נח:, ו",
-    "ref_2": "Yevamot 58b:6",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 763,
+    "line_index_1": 762,
     "line_index_2": 1953,
     "heRef_2": "יבמות נט., א",
     "ref_2": "Yevamot 59a:1",
@@ -5048,7 +5048,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 764,
+    "line_index_1": 763,
     "line_index_2": 1958,
     "heRef_2": "יבמות נט., ו",
     "ref_2": "Yevamot 59a:6",
@@ -5056,7 +5056,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 765,
+    "line_index_1": 764,
     "line_index_2": 1961,
     "heRef_2": "יבמות נט., ט",
     "ref_2": "Yevamot 59a:9",
@@ -5064,7 +5064,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 766,
+    "line_index_1": 765,
     "line_index_2": 750,
     "heRef_2": "תוספות על יבמות נט., יא, א",
     "ref_2": "Tosafot on Yevamot 59a:11:1",
@@ -5072,10 +5072,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 767,
+    "line_index_1": 766,
     "line_index_2": 1963,
     "heRef_2": "יבמות נט., יא",
     "ref_2": "Yevamot 59a:11",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 767,
+    "line_index_2": 1966,
+    "heRef_2": "יבמות נט., יד",
+    "ref_2": "Yevamot 59a:14",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -5096,15 +5104,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 770,
-    "line_index_2": 1966,
-    "heRef_2": "יבמות נט., יד",
-    "ref_2": "Yevamot 59a:14",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 772,
+    "line_index_1": 771,
     "line_index_2": 1968,
     "heRef_2": "יבמות נט:, א",
     "ref_2": "Yevamot 59b:1",
@@ -5112,11 +5112,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 773,
+    "line_index_1": 772,
     "line_index_2": 1977,
     "heRef_2": "יבמות נט:, י",
     "ref_2": "Yevamot 59b:10",
     "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 774,
+    "line_index_2": 758,
+    "heRef_2": "תוספות על יבמות ס., א, א",
+    "ref_2": "Tosafot on Yevamot 60a:1:1",
+    "path_2": "תוספות על יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -5129,14 +5137,6 @@
   },
   {
     "line_index_1": 776,
-    "line_index_2": 758,
-    "heRef_2": "תוספות על יבמות ס., א, א",
-    "ref_2": "Tosafot on Yevamot 60a:1:1",
-    "path_2": "תוספות על יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 777,
     "line_index_2": 1982,
     "heRef_2": "יבמות ס., ג",
     "ref_2": "Yevamot 60a:3",
@@ -5144,7 +5144,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 778,
+    "line_index_1": 777,
     "line_index_2": 1986,
     "heRef_2": "יבמות ס., ז",
     "ref_2": "Yevamot 60a:7",
@@ -5152,10 +5152,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 779,
+    "line_index_1": 778,
     "line_index_2": 1988,
     "heRef_2": "יבמות ס., ט",
     "ref_2": "Yevamot 60a:9",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 779,
+    "line_index_2": 1990,
+    "heRef_2": "יבמות ס., יא",
+    "ref_2": "Yevamot 60a:11",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -5184,15 +5192,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 783,
-    "line_index_2": 1990,
-    "heRef_2": "יבמות ס., יא",
-    "ref_2": "Yevamot 60a:11",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 785,
+    "line_index_1": 784,
     "line_index_2": 2002,
     "heRef_2": "יבמות ס:, ו",
     "ref_2": "Yevamot 60b:6",
@@ -5200,7 +5200,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 787,
+    "line_index_1": 786,
     "line_index_2": 2018,
     "heRef_2": "יבמות סא., א",
     "ref_2": "Yevamot 61a:1",
@@ -5208,7 +5208,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 788,
+    "line_index_1": 787,
     "line_index_2": 2029,
     "heRef_2": "יבמות סא., יב",
     "ref_2": "Yevamot 61a:12",
@@ -5216,7 +5216,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 789,
+    "line_index_1": 788,
     "line_index_2": 776,
     "heRef_2": "תוספות על יבמות סא., יב, א",
     "ref_2": "Tosafot on Yevamot 61a:12:1",
@@ -5224,7 +5224,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 790,
+    "line_index_1": 789,
     "line_index_2": 2029,
     "heRef_2": "יבמות סא., יב",
     "ref_2": "Yevamot 61a:12",
@@ -5232,7 +5232,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 792,
+    "line_index_1": 791,
     "line_index_2": 2038,
     "heRef_2": "יבמות סא:, ז",
     "ref_2": "Yevamot 61b:7",
@@ -5240,10 +5240,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 793,
+    "line_index_1": 792,
     "line_index_2": 2043,
     "heRef_2": "יבמות סא:, יב",
     "ref_2": "Yevamot 61b:12",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 793,
+    "line_index_2": 2047,
+    "heRef_2": "יבמות סא:, טז",
+    "ref_2": "Yevamot 61b:16",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -5280,19 +5288,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 798,
-    "line_index_2": 2047,
-    "heRef_2": "יבמות סא:, טז",
-    "ref_2": "Yevamot 61b:16",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 800,
+    "line_index_1": 799,
     "line_index_2": 790,
     "heRef_2": "תוספות על יבמות סב., ב, ב",
     "ref_2": "Tosafot on Yevamot 62a:2:2",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 800,
+    "line_index_2": 2059,
+    "heRef_2": "יבמות סב., ט",
+    "ref_2": "Yevamot 62a:9",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -5304,15 +5312,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 802,
-    "line_index_2": 2059,
-    "heRef_2": "יבמות סב., ט",
-    "ref_2": "Yevamot 62a:9",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 804,
+    "line_index_1": 803,
     "line_index_2": 2072,
     "heRef_2": "יבמות סב:, ג",
     "ref_2": "Yevamot 62b:3",
@@ -5320,7 +5320,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 805,
+    "line_index_1": 804,
     "line_index_2": 2078,
     "heRef_2": "יבמות סב:, ט",
     "ref_2": "Yevamot 62b:9",
@@ -5328,10 +5328,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 806,
+    "line_index_1": 805,
     "line_index_2": 2082,
     "heRef_2": "יבמות סב:, יג",
     "ref_2": "Yevamot 62b:13",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 806,
+    "line_index_2": 2085,
+    "heRef_2": "יבמות סב:, טז",
+    "ref_2": "Yevamot 62b:16",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -5345,14 +5353,6 @@
   },
   {
     "line_index_1": 808,
-    "line_index_2": 2085,
-    "heRef_2": "יבמות סב:, טז",
-    "ref_2": "Yevamot 62b:16",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 809,
     "line_index_2": 2088,
     "heRef_2": "יבמות סב:, יט",
     "ref_2": "Yevamot 62b:19",
@@ -5360,7 +5360,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 811,
+    "line_index_1": 810,
     "line_index_2": 2126,
     "heRef_2": "יבמות סד., א",
     "ref_2": "Yevamot 64a:1",
@@ -5368,7 +5368,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 812,
+    "line_index_1": 811,
     "line_index_2": 2130,
     "heRef_2": "יבמות סד., ה",
     "ref_2": "Yevamot 64a:5",
@@ -5376,7 +5376,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 813,
+    "line_index_1": 812,
     "line_index_2": 811,
     "heRef_2": "תוספות על יבמות סד., ד, א",
     "ref_2": "Tosafot on Yevamot 64a:4:1",
@@ -5384,7 +5384,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 814,
+    "line_index_1": 813,
     "line_index_2": 2130,
     "heRef_2": "יבמות סד., ה",
     "ref_2": "Yevamot 64a:5",
@@ -5392,10 +5392,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 816,
+    "line_index_1": 815,
     "line_index_2": 2136,
     "heRef_2": "יבמות סד:, א",
     "ref_2": "Yevamot 64b:1",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 816,
+    "line_index_2": 2148,
+    "heRef_2": "יבמות סד:, יג",
+    "ref_2": "Yevamot 64b:13",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -5409,14 +5417,6 @@
   },
   {
     "line_index_1": 818,
-    "line_index_2": 2148,
-    "heRef_2": "יבמות סד:, יג",
-    "ref_2": "Yevamot 64b:13",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 819,
     "line_index_2": 2154,
     "heRef_2": "יבמות סד:, יט",
     "ref_2": "Yevamot 64b:19",
@@ -5424,11 +5424,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 821,
+    "line_index_1": 820,
     "line_index_2": 822,
     "heRef_2": "תוספות על יבמות סה., ב, א",
     "ref_2": "Tosafot on Yevamot 65a:2:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 821,
+    "line_index_2": 2161,
+    "heRef_2": "יבמות סה., ב",
+    "ref_2": "Yevamot 65a:2",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -5449,18 +5457,18 @@
   },
   {
     "line_index_1": 824,
-    "line_index_2": 2161,
-    "heRef_2": "יבמות סה., ב",
-    "ref_2": "Yevamot 65a:2",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 825,
     "line_index_2": 825,
     "heRef_2": "תוספות על יבמות סה., ו, א",
     "ref_2": "Tosafot on Yevamot 65a:6:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 826,
+    "line_index_2": 2168,
+    "heRef_2": "יבמות סה:, א",
+    "ref_2": "Yevamot 65b:1",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -5481,14 +5489,6 @@
   },
   {
     "line_index_1": 829,
-    "line_index_2": 2168,
-    "heRef_2": "יבמות סה:, א",
-    "ref_2": "Yevamot 65b:1",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 830,
     "line_index_2": 827,
     "heRef_2": "תוספות על יבמות סה:, ה, א",
     "ref_2": "Tosafot on Yevamot 65b:5:1",
@@ -5496,7 +5496,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 832,
+    "line_index_1": 831,
     "line_index_2": 2188,
     "heRef_2": "יבמות סו., ב",
     "ref_2": "Yevamot 66a:2",
@@ -5504,7 +5504,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 835,
+    "line_index_1": 834,
     "line_index_2": 831,
     "heRef_2": "תוספות על יבמות סו., ד, א",
     "ref_2": "Tosafot on Yevamot 66a:4:1",
@@ -5512,7 +5512,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 836,
+    "line_index_1": 835,
     "line_index_2": 2193,
     "heRef_2": "יבמות סו., ז",
     "ref_2": "Yevamot 66a:7",
@@ -5520,7 +5520,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 837,
+    "line_index_1": 836,
     "line_index_2": 2194,
     "heRef_2": "יבמות סו., ח",
     "ref_2": "Yevamot 66a:8",
@@ -5528,10 +5528,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 838,
+    "line_index_1": 837,
     "line_index_2": 2198,
     "heRef_2": "יבמות סו., יב",
     "ref_2": "Yevamot 66a:12",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 839,
+    "line_index_2": 2207,
+    "heRef_2": "יבמות סו:, ב",
+    "ref_2": "Yevamot 66b:2",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -5553,14 +5561,6 @@
   },
   {
     "line_index_1": 842,
-    "line_index_2": 2207,
-    "heRef_2": "יבמות סו:, ב",
-    "ref_2": "Yevamot 66b:2",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 843,
     "line_index_2": 2209,
     "heRef_2": "יבמות סו:, ד",
     "ref_2": "Yevamot 66b:4",
@@ -5568,11 +5568,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 844,
+    "line_index_1": 843,
     "line_index_2": 844,
     "heRef_2": "תוספות על יבמות סו:, ה, א",
     "ref_2": "Tosafot on Yevamot 66b:5:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 845,
+    "line_index_2": 2220,
+    "heRef_2": "יבמות סז., ד",
+    "ref_2": "Yevamot 67a:4",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -5592,15 +5600,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 848,
-    "line_index_2": 2220,
-    "heRef_2": "יבמות סז., ד",
-    "ref_2": "Yevamot 67a:4",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 850,
+    "line_index_1": 849,
     "line_index_2": 853,
     "heRef_2": "תוספות על יבמות סז:, א, א",
     "ref_2": "Tosafot on Yevamot 67b:1:1",
@@ -5608,11 +5608,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 851,
+    "line_index_1": 850,
     "line_index_2": 2234,
     "heRef_2": "יבמות סז:, א",
     "ref_2": "Yevamot 67b:1",
     "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 851,
+    "line_index_2": 858,
+    "heRef_2": "תוספות על יבמות סז:, יד, א",
+    "ref_2": "Tosafot on Yevamot 67b:14:1",
+    "path_2": "תוספות על יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -5625,14 +5633,6 @@
   },
   {
     "line_index_1": 853,
-    "line_index_2": 858,
-    "heRef_2": "תוספות על יבמות סז:, יד, א",
-    "ref_2": "Tosafot on Yevamot 67b:14:1",
-    "path_2": "תוספות על יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 854,
     "line_index_2": 2247,
     "heRef_2": "יבמות סז:, יד",
     "ref_2": "Yevamot 67b:14",
@@ -5640,7 +5640,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 856,
+    "line_index_1": 855,
     "line_index_2": 2250,
     "heRef_2": "יבמות סח., א",
     "ref_2": "Yevamot 68a:1",
@@ -5648,11 +5648,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 857,
+    "line_index_1": 856,
     "line_index_2": 862,
     "heRef_2": "תוספות על יבמות סח., ז, א",
     "ref_2": "Tosafot on Yevamot 68a:7:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 857,
+    "line_index_2": 2256,
+    "heRef_2": "יבמות סח., ז",
+    "ref_2": "Yevamot 68a:7",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -5665,14 +5673,6 @@
   },
   {
     "line_index_1": 859,
-    "line_index_2": 2256,
-    "heRef_2": "יבמות סח., ז",
-    "ref_2": "Yevamot 68a:7",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 860,
     "line_index_2": 2259,
     "heRef_2": "יבמות סח., י",
     "ref_2": "Yevamot 68a:10",
@@ -5680,7 +5680,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 862,
+    "line_index_1": 861,
     "line_index_2": 2272,
     "heRef_2": "יבמות סח:, ט",
     "ref_2": "Yevamot 68b:9",
@@ -5688,7 +5688,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 863,
+    "line_index_1": 862,
     "line_index_2": 866,
     "heRef_2": "תוספות על יבמות סח:, ו, ב",
     "ref_2": "Tosafot on Yevamot 68b:6:2",
@@ -5696,7 +5696,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 865,
+    "line_index_1": 864,
     "line_index_2": 870,
     "heRef_2": "תוספות על יבמות סט., ד, א",
     "ref_2": "Tosafot on Yevamot 69a:4:1",
@@ -5704,7 +5704,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 866,
+    "line_index_1": 865,
     "line_index_2": 2284,
     "heRef_2": "יבמות סט., ז",
     "ref_2": "Yevamot 69a:7",
@@ -5712,7 +5712,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 867,
+    "line_index_1": 866,
     "line_index_2": 872,
     "heRef_2": "תוספות על יבמות סט., ו, א",
     "ref_2": "Tosafot on Yevamot 69a:6:1",
@@ -5720,7 +5720,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 868,
+    "line_index_1": 867,
     "line_index_2": 2286,
     "heRef_2": "יבמות סט., ט",
     "ref_2": "Yevamot 69a:9",
@@ -5728,7 +5728,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 869,
+    "line_index_1": 868,
     "line_index_2": 2288,
     "heRef_2": "יבמות סט., יא",
     "ref_2": "Yevamot 69a:11",
@@ -5736,11 +5736,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 870,
+    "line_index_1": 869,
     "line_index_2": 876,
     "heRef_2": "תוספות על יבמות סט., יט, ב",
     "ref_2": "Tosafot on Yevamot 69a:19:2",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 871,
+    "line_index_2": 2305,
+    "heRef_2": "יבמות סט:, ח",
+    "ref_2": "Yevamot 69b:8",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -5753,18 +5761,18 @@
   },
   {
     "line_index_1": 873,
-    "line_index_2": 2305,
-    "heRef_2": "יבמות סט:, ח",
-    "ref_2": "Yevamot 69b:8",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 874,
     "line_index_2": 3070,
     "ref_2": "Rashi on Yevamot 69b:11:1",
     "heRef_2": "רש\"י על יבמות סט:, יא, א",
     "path_2": "רש\"י על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 874,
+    "line_index_2": 2309,
+    "heRef_2": "יבמות סט:, יב",
+    "ref_2": "Yevamot 69b:12",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -5792,15 +5800,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 878,
-    "line_index_2": 2309,
-    "heRef_2": "יבמות סט:, יב",
-    "ref_2": "Yevamot 69b:12",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 883,
+    "line_index_1": 882,
     "line_index_2": 2315,
     "heRef_2": "יבמות ע., א",
     "ref_2": "Yevamot 70a:1",
@@ -5808,7 +5808,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 884,
+    "line_index_1": 883,
     "line_index_2": 2336,
     "heRef_2": "יבמות ע., כב",
     "ref_2": "Yevamot 70a:22",
@@ -5816,11 +5816,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 886,
+    "line_index_1": 885,
     "line_index_2": 891,
     "heRef_2": "תוספות על יבמות ע:, א, ב",
     "ref_2": "Tosafot on Yevamot 70b:1:2",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 886,
+    "line_index_2": 2338,
+    "heRef_2": "יבמות ע:, א",
+    "ref_2": "Yevamot 70b:1",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -5841,14 +5849,6 @@
   },
   {
     "line_index_1": 889,
-    "line_index_2": 2338,
-    "heRef_2": "יבמות ע:, א",
-    "ref_2": "Yevamot 70b:1",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 890,
     "line_index_2": 2348,
     "heRef_2": "יבמות ע:, יא",
     "ref_2": "Yevamot 70b:11",
@@ -5856,11 +5856,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 891,
+    "line_index_1": 890,
     "line_index_2": 893,
     "heRef_2": "תוספות על יבמות ע:, ד, א",
     "ref_2": "Tosafot on Yevamot 70b:4:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 892,
+    "line_index_2": 2353,
+    "heRef_2": "יבמות עא., א",
+    "ref_2": "Yevamot 71a:1",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -5873,17 +5881,17 @@
   },
   {
     "line_index_1": 894,
-    "line_index_2": 2353,
-    "heRef_2": "יבמות עא., א",
-    "ref_2": "Yevamot 71a:1",
+    "line_index_2": 2355,
+    "heRef_2": "יבמות עא., ג",
+    "ref_2": "Yevamot 71a:3",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
     "line_index_1": 895,
-    "line_index_2": 2355,
-    "heRef_2": "יבמות עא., ג",
-    "ref_2": "Yevamot 71a:3",
+    "line_index_2": 2357,
+    "heRef_2": "יבמות עא., ה",
+    "ref_2": "Yevamot 71a:5",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -5897,17 +5905,17 @@
   },
   {
     "line_index_1": 897,
-    "line_index_2": 2357,
-    "heRef_2": "יבמות עא., ה",
-    "ref_2": "Yevamot 71a:5",
+    "line_index_2": 2363,
+    "heRef_2": "יבמות עא., יא",
+    "ref_2": "Yevamot 71a:11",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
     "line_index_1": 898,
-    "line_index_2": 2363,
-    "heRef_2": "יבמות עא., יא",
-    "ref_2": "Yevamot 71a:11",
+    "line_index_2": 2364,
+    "heRef_2": "יבמות עא., יב",
+    "ref_2": "Yevamot 71a:12",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -5921,9 +5929,9 @@
   },
   {
     "line_index_1": 900,
-    "line_index_2": 2364,
-    "heRef_2": "יבמות עא., יב",
-    "ref_2": "Yevamot 71a:12",
+    "line_index_2": 2367,
+    "heRef_2": "יבמות עא., טו",
+    "ref_2": "Yevamot 71a:15",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -5944,15 +5952,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 903,
-    "line_index_2": 2367,
-    "heRef_2": "יבמות עא., טו",
-    "ref_2": "Yevamot 71a:15",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 905,
+    "line_index_1": 904,
     "line_index_2": 2378,
     "heRef_2": "יבמות עא:, ה",
     "ref_2": "Yevamot 71b:5",
@@ -5960,7 +5960,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 906,
+    "line_index_1": 905,
     "line_index_2": 2383,
     "heRef_2": "יבמות עא:, י",
     "ref_2": "Yevamot 71b:10",
@@ -5968,7 +5968,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 907,
+    "line_index_1": 906,
     "line_index_2": 913,
     "heRef_2": "תוספות על יבמות עא:, יז, א",
     "ref_2": "Tosafot on Yevamot 71b:17:1",
@@ -5976,11 +5976,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 908,
+    "line_index_1": 907,
     "line_index_2": 915,
     "heRef_2": "תוספות על יבמות עא:, יט, ב",
     "ref_2": "Tosafot on Yevamot 71b:19:2",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 909,
+    "line_index_2": 2398,
+    "heRef_2": "יבמות עב., ה",
+    "ref_2": "Yevamot 72a:5",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -6001,9 +6009,9 @@
   },
   {
     "line_index_1": 912,
-    "line_index_2": 2398,
-    "heRef_2": "יבמות עב., ה",
-    "ref_2": "Yevamot 72a:5",
+    "line_index_2": 2412,
+    "heRef_2": "יבמות עב., יט",
+    "ref_2": "Yevamot 72a:19",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -6017,14 +6025,6 @@
   },
   {
     "line_index_1": 914,
-    "line_index_2": 2412,
-    "heRef_2": "יבמות עב., יט",
-    "ref_2": "Yevamot 72a:19",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 915,
     "line_index_2": 2407,
     "heRef_2": "יבמות עב., יד",
     "ref_2": "Yevamot 72a:14",
@@ -6032,10 +6032,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 917,
+    "line_index_1": 916,
     "line_index_2": 2421,
     "heRef_2": "יבמות עב:, ח",
     "ref_2": "Yevamot 72b:8",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 917,
+    "line_index_2": 2426,
+    "heRef_2": "יבמות עב:, יג",
+    "ref_2": "Yevamot 72b:13",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -6064,11 +6072,11 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 921,
-    "line_index_2": 2426,
-    "heRef_2": "יבמות עב:, יג",
-    "ref_2": "Yevamot 72b:13",
-    "path_2": "יבמות.txt",
+    "line_index_1": 922,
+    "line_index_2": 945,
+    "heRef_2": "תוספות על יבמות עג:, א, א",
+    "ref_2": "Tosafot on Yevamot 73b:1:1",
+    "path_2": "תוספות על יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -6081,10 +6089,10 @@
   },
   {
     "line_index_1": 924,
-    "line_index_2": 945,
-    "heRef_2": "תוספות על יבמות עג:, א, א",
-    "ref_2": "Tosafot on Yevamot 73b:1:1",
-    "path_2": "תוספות על יבמות.txt",
+    "line_index_2": 2446,
+    "heRef_2": "יבמות עג:, ג",
+    "ref_2": "Yevamot 73b:3",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -6097,18 +6105,18 @@
   },
   {
     "line_index_1": 926,
-    "line_index_2": 2446,
-    "heRef_2": "יבמות עג:, ג",
-    "ref_2": "Yevamot 73b:3",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 927,
     "line_index_2": 951,
     "heRef_2": "תוספות על יבמות עג:, ח, א",
     "ref_2": "Tosafot on Yevamot 73b:8:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 928,
+    "line_index_2": 2468,
+    "heRef_2": "יבמות עד., ח",
+    "ref_2": "Yevamot 74a:8",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -6137,14 +6145,6 @@
   },
   {
     "line_index_1": 932,
-    "line_index_2": 2468,
-    "heRef_2": "יבמות עד., ח",
-    "ref_2": "Yevamot 74a:8",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 933,
     "line_index_2": 2476,
     "heRef_2": "יבמות עד., טז",
     "ref_2": "Yevamot 74a:16",
@@ -6152,11 +6152,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 935,
+    "line_index_1": 934,
     "line_index_2": 966,
     "heRef_2": "תוספות על יבמות עד:, יב, א",
     "ref_2": "Tosafot on Yevamot 74b:12:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 936,
+    "line_index_2": 2514,
+    "heRef_2": "יבמות עה., טו",
+    "ref_2": "Yevamot 75a:15",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -6184,19 +6192,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 940,
-    "line_index_2": 2514,
-    "heRef_2": "יבמות עה., טו",
-    "ref_2": "Yevamot 75a:15",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 944,
+    "line_index_1": 943,
     "line_index_2": 981,
     "heRef_2": "תוספות על יבמות עה:, יא, א",
     "ref_2": "Tosafot on Yevamot 75b:11:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 944,
+    "line_index_2": 2530,
+    "heRef_2": "יבמות עה:, יא",
+    "ref_2": "Yevamot 75b:11",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -6208,18 +6216,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 946,
-    "line_index_2": 2530,
-    "heRef_2": "יבמות עה:, יא",
-    "ref_2": "Yevamot 75b:11",
+    "line_index_1": 947,
+    "line_index_2": 2537,
+    "heRef_2": "יבמות עו., א",
+    "ref_2": "Yevamot 76a:1",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
     "line_index_1": 948,
-    "line_index_2": 2537,
-    "heRef_2": "יבמות עו., א",
-    "ref_2": "Yevamot 76a:1",
+    "line_index_2": 2547,
+    "heRef_2": "יבמות עו., יא",
+    "ref_2": "Yevamot 76a:11",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -6240,15 +6248,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 951,
-    "line_index_2": 2547,
-    "heRef_2": "יבמות עו., יא",
-    "ref_2": "Yevamot 76a:11",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 953,
+    "line_index_1": 952,
     "line_index_2": 2574,
     "heRef_2": "יבמות עז., ג",
     "ref_2": "Yevamot 77a:3",
@@ -6256,7 +6256,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 954,
+    "line_index_1": 953,
     "line_index_2": 2579,
     "heRef_2": "יבמות עז., ח",
     "ref_2": "Yevamot 77a:8",
@@ -6264,11 +6264,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 956,
+    "line_index_1": 955,
     "line_index_2": 1000,
     "heRef_2": "תוספות על יבמות עז:, ד, א",
     "ref_2": "Tosafot on Yevamot 77b:4:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 956,
+    "line_index_2": 2602,
+    "heRef_2": "יבמות עז:, יד",
+    "ref_2": "Yevamot 77b:14",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -6296,19 +6304,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 960,
-    "line_index_2": 2602,
-    "heRef_2": "יבמות עז:, יד",
-    "ref_2": "Yevamot 77b:14",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 962,
+    "line_index_1": 961,
     "line_index_2": 1005,
     "heRef_2": "תוספות על יבמות עח., א, א",
     "ref_2": "Tosafot on Yevamot 78a:1:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 962,
+    "line_index_2": 2623,
+    "heRef_2": "יבמות עח., יא",
+    "ref_2": "Yevamot 78a:11",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -6321,9 +6329,9 @@
   },
   {
     "line_index_1": 964,
-    "line_index_2": 2623,
-    "heRef_2": "יבמות עח., יא",
-    "ref_2": "Yevamot 78a:11",
+    "line_index_2": 2618,
+    "heRef_2": "יבמות עח., ו",
+    "ref_2": "Yevamot 78a:6",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -6344,15 +6352,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 967,
-    "line_index_2": 2618,
-    "heRef_2": "יבמות עח., ו",
-    "ref_2": "Yevamot 78a:6",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 969,
+    "line_index_1": 968,
     "line_index_2": 2639,
     "heRef_2": "יבמות עח:, ו",
     "ref_2": "Yevamot 78b:6",
@@ -6360,10 +6360,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 971,
+    "line_index_1": 970,
     "line_index_2": 2658,
     "heRef_2": "יבמות עט., ג",
     "ref_2": "Yevamot 79a:3",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 971,
+    "line_index_2": 2667,
+    "heRef_2": "יבמות עט., יב",
+    "ref_2": "Yevamot 79a:12",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -6376,10 +6384,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 973,
-    "line_index_2": 2667,
-    "heRef_2": "יבמות עט., יב",
-    "ref_2": "Yevamot 79a:12",
+    "line_index_1": 974,
+    "line_index_2": 2670,
+    "heRef_2": "יבמות עט:, א",
+    "ref_2": "Yevamot 79b:1",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -6425,14 +6433,6 @@
   },
   {
     "line_index_1": 980,
-    "line_index_2": 2670,
-    "heRef_2": "יבמות עט:, א",
-    "ref_2": "Yevamot 79b:1",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 981,
     "line_index_2": 2689,
     "heRef_2": "יבמות עט:, כ",
     "ref_2": "Yevamot 79b:20",
@@ -6440,11 +6440,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 983,
+    "line_index_1": 982,
     "line_index_2": 2697,
     "heRef_2": "יבמות פ., ד",
     "ref_2": "Yevamot 80a:4",
     "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 983,
+    "line_index_2": 1026,
+    "heRef_2": "תוספות על יבמות פ., י, ג",
+    "ref_2": "Tosafot on Yevamot 80a:10:3",
+    "path_2": "תוספות על יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -6457,10 +6465,10 @@
   },
   {
     "line_index_1": 985,
-    "line_index_2": 1026,
-    "heRef_2": "תוספות על יבמות פ., י, ג",
-    "ref_2": "Tosafot on Yevamot 80a:10:3",
-    "path_2": "תוספות על יבמות.txt",
+    "line_index_2": 2697,
+    "heRef_2": "יבמות פ., ד",
+    "ref_2": "Yevamot 80a:4",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -6473,9 +6481,9 @@
   },
   {
     "line_index_1": 987,
-    "line_index_2": 2697,
-    "heRef_2": "יבמות פ., ד",
-    "ref_2": "Yevamot 80a:4",
+    "line_index_2": 2707,
+    "heRef_2": "יבמות פ., יד",
+    "ref_2": "Yevamot 80a:14",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -6536,19 +6544,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 995,
-    "line_index_2": 2707,
-    "heRef_2": "יבמות פ., יד",
-    "ref_2": "Yevamot 80a:14",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 997,
+    "line_index_1": 996,
     "line_index_2": 1030,
     "heRef_2": "תוספות על יבמות פ:, ג, א",
     "ref_2": "Tosafot on Yevamot 80b:3:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 997,
+    "line_index_2": 2712,
+    "heRef_2": "יבמות פ:, ג",
+    "ref_2": "Yevamot 80b:3",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -6585,10 +6593,10 @@
   },
   {
     "line_index_1": 1002,
-    "line_index_2": 2712,
-    "heRef_2": "יבמות פ:, ג",
-    "ref_2": "Yevamot 80b:3",
-    "path_2": "יבמות.txt",
+    "line_index_2": 1031,
+    "heRef_2": "תוספות על יבמות פ:, ז, א",
+    "ref_2": "Tosafot on Yevamot 80b:7:1",
+    "path_2": "תוספות על יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -6601,17 +6609,17 @@
   },
   {
     "line_index_1": 1004,
-    "line_index_2": 1031,
-    "heRef_2": "תוספות על יבמות פ:, ז, א",
-    "ref_2": "Tosafot on Yevamot 80b:7:1",
-    "path_2": "תוספות על יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1005,
     "line_index_2": 2712,
     "heRef_2": "יבמות פ:, ג",
     "ref_2": "Yevamot 80b:3",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1006,
+    "line_index_2": 2728,
+    "heRef_2": "יבמות פא., ח",
+    "ref_2": "Yevamot 81a:8",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -6640,15 +6648,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1010,
-    "line_index_2": 2728,
-    "heRef_2": "יבמות פא., ח",
-    "ref_2": "Yevamot 81a:8",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1012,
+    "line_index_1": 1011,
     "line_index_2": 2737,
     "heRef_2": "יבמות פא:, ה",
     "ref_2": "Yevamot 81b:5",
@@ -6656,7 +6656,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1014,
+    "line_index_1": 1013,
     "line_index_2": 2741,
     "heRef_2": "יבמות פב., א",
     "ref_2": "Yevamot 82a:1",
@@ -6664,7 +6664,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1015,
+    "line_index_1": 1014,
     "line_index_2": 2753,
     "heRef_2": "יבמות פב., יג",
     "ref_2": "Yevamot 82a:13",
@@ -6672,11 +6672,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1017,
+    "line_index_1": 1016,
     "line_index_2": 1059,
     "heRef_2": "תוספות על יבמות פב:, ב, א",
     "ref_2": "Tosafot on Yevamot 82b:2:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1017,
+    "line_index_2": 2757,
+    "heRef_2": "יבמות פב:, ב",
+    "ref_2": "Yevamot 82b:2",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -6840,10 +6848,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1038,
-    "line_index_2": 2757,
-    "heRef_2": "יבמות פב:, ב",
-    "ref_2": "Yevamot 82b:2",
+    "line_index_1": 1039,
+    "line_index_2": 2769,
+    "heRef_2": "יבמות פג., א",
+    "ref_2": "Yevamot 83a:1",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -6920,10 +6928,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1049,
-    "line_index_2": 2769,
-    "heRef_2": "יבמות פג., א",
-    "ref_2": "Yevamot 83a:1",
+    "line_index_1": 1050,
+    "line_index_2": 2785,
+    "heRef_2": "יבמות פג:, ז",
+    "ref_2": "Yevamot 83b:7",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -6936,15 +6944,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1052,
-    "line_index_2": 2785,
-    "heRef_2": "יבמות פג:, ז",
-    "ref_2": "Yevamot 83b:7",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1056,
+    "line_index_1": 1055,
     "line_index_2": 2812,
     "heRef_2": "יבמות פד., יז",
     "ref_2": "Yevamot 84a:17",
@@ -6952,7 +6952,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1057,
+    "line_index_1": 1056,
     "line_index_2": 3735,
     "ref_2": "Rashi on Yevamot 84a:14:2",
     "heRef_2": "רש\"י על יבמות פד., יד, ב",
@@ -6960,7 +6960,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1059,
+    "line_index_1": 1058,
     "line_index_2": 2817,
     "heRef_2": "יבמות פד:, ד",
     "ref_2": "Yevamot 84b:4",
@@ -6968,7 +6968,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1060,
+    "line_index_1": 1059,
     "line_index_2": 1090,
     "heRef_2": "תוספות על יבמות פד:, ד, א",
     "ref_2": "Tosafot on Yevamot 84b:4:1",
@@ -6976,7 +6976,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1062,
+    "line_index_1": 1061,
     "line_index_2": 2838,
     "heRef_2": "יבמות פה., ו",
     "ref_2": "Yevamot 85a:6",
@@ -6984,7 +6984,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1063,
+    "line_index_1": 1062,
     "line_index_2": 2839,
     "heRef_2": "יבמות פה., ז",
     "ref_2": "Yevamot 85a:7",
@@ -6992,10 +6992,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1064,
+    "line_index_1": 1063,
     "line_index_2": 2846,
     "heRef_2": "יבמות פה., יד",
     "ref_2": "Yevamot 85a:14",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1065,
+    "line_index_2": 2854,
+    "heRef_2": "יבמות פה:, ה",
+    "ref_2": "Yevamot 85b:5",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -7016,10 +7024,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1068,
-    "line_index_2": 2854,
-    "heRef_2": "יבמות פה:, ה",
-    "ref_2": "Yevamot 85b:5",
+    "line_index_1": 1069,
+    "line_index_2": 2858,
+    "heRef_2": "יבמות פה:, ט",
+    "ref_2": "Yevamot 85b:9",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -7048,10 +7056,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1073,
-    "line_index_2": 2858,
-    "heRef_2": "יבמות פה:, ט",
-    "ref_2": "Yevamot 85b:9",
+    "line_index_1": 1074,
+    "line_index_2": 2866,
+    "heRef_2": "יבמות פו., ג",
+    "ref_2": "Yevamot 86a:3",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -7072,11 +7080,11 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1077,
-    "line_index_2": 2866,
-    "heRef_2": "יבמות פו., ג",
-    "ref_2": "Yevamot 86a:3",
-    "path_2": "יבמות.txt",
+    "line_index_1": 1078,
+    "line_index_2": 1112,
+    "heRef_2": "תוספות על יבמות פו:, ב, א",
+    "ref_2": "Tosafot on Yevamot 86b:2:1",
+    "path_2": "תוספות על יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -7089,14 +7097,6 @@
   },
   {
     "line_index_1": 1080,
-    "line_index_2": 1112,
-    "heRef_2": "תוספות על יבמות פו:, ב, א",
-    "ref_2": "Tosafot on Yevamot 86b:2:1",
-    "path_2": "תוספות על יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1081,
     "line_index_2": 1113,
     "heRef_2": "תוספות על יבמות פו:, ד, א",
     "ref_2": "Tosafot on Yevamot 86b:4:1",
@@ -7104,7 +7104,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1083,
+    "line_index_1": 1082,
     "line_index_2": 2889,
     "heRef_2": "יבמות פז., א",
     "ref_2": "Yevamot 87a:1",
@@ -7112,11 +7112,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1084,
+    "line_index_1": 1083,
     "line_index_2": 1120,
     "heRef_2": "תוספות על יבמות פז., יא, א",
     "ref_2": "Tosafot on Yevamot 87a:11:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1084,
+    "line_index_2": 2889,
+    "heRef_2": "יבמות פז., א",
+    "ref_2": "Yevamot 87a:1",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -7129,14 +7137,6 @@
   },
   {
     "line_index_1": 1086,
-    "line_index_2": 2889,
-    "heRef_2": "יבמות פז., א",
-    "ref_2": "Yevamot 87a:1",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1087,
     "line_index_2": 2901,
     "heRef_2": "יבמות פז., יג",
     "ref_2": "Yevamot 87a:13",
@@ -7144,7 +7144,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1091,
+    "line_index_1": 1090,
     "line_index_2": 2916,
     "heRef_2": "יבמות פז:, יא",
     "ref_2": "Yevamot 87b:11",
@@ -7152,11 +7152,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1092,
+    "line_index_1": 1091,
     "line_index_2": 1124,
     "heRef_2": "תוספות על יבמות פז:, טז, א",
     "ref_2": "Tosafot on Yevamot 87b:16:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1092,
+    "line_index_2": 2924,
+    "heRef_2": "יבמות פז:, יט",
+    "ref_2": "Yevamot 87b:19",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -7185,9 +7193,9 @@
   },
   {
     "line_index_1": 1096,
-    "line_index_2": 2924,
-    "heRef_2": "יבמות פז:, יט",
-    "ref_2": "Yevamot 87b:19",
+    "line_index_2": 2927,
+    "heRef_2": "יבמות פז:, כב",
+    "ref_2": "Yevamot 87b:22",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -7392,18 +7400,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1122,
-    "line_index_2": 2927,
-    "heRef_2": "יבמות פז:, כב",
-    "ref_2": "Yevamot 87b:22",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1124,
+    "line_index_1": 1123,
     "line_index_2": 1136,
     "heRef_2": "תוספות על יבמות פח:, א, א",
     "ref_2": "Tosafot on Yevamot 88b:1:1",
+    "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1125,
+    "line_index_2": 1152,
+    "heRef_2": "תוספות על יבמות פט:, ט, א",
+    "ref_2": "Tosafot on Yevamot 89b:9:1",
     "path_2": "תוספות על יבמות.txt",
     "Conection Type": "source"
   },
@@ -7416,15 +7424,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1127,
-    "line_index_2": 1152,
-    "heRef_2": "תוספות על יבמות פט:, ט, א",
-    "ref_2": "Tosafot on Yevamot 89b:9:1",
-    "path_2": "תוספות על יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1130,
+    "line_index_1": 1129,
     "line_index_2": 3001,
     "heRef_2": "יבמות צ., י",
     "ref_2": "Yevamot 90a:10",
@@ -7432,11 +7432,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1132,
+    "line_index_1": 1131,
     "line_index_2": 1165,
     "heRef_2": "תוספות על יבמות צ:, ד, א",
     "ref_2": "Tosafot on Yevamot 90b:4:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1132,
+    "line_index_2": 3007,
+    "heRef_2": "יבמות צ:, ה",
+    "ref_2": "Yevamot 90b:5",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -7505,14 +7513,6 @@
   },
   {
     "line_index_1": 1141,
-    "line_index_2": 3007,
-    "heRef_2": "יבמות צ:, ה",
-    "ref_2": "Yevamot 90b:5",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1142,
     "line_index_2": 3018,
     "heRef_2": "יבמות צ:, טז",
     "ref_2": "Yevamot 90b:16",
@@ -7520,7 +7520,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1144,
+    "line_index_1": 1143,
     "line_index_2": 1171,
     "heRef_2": "תוספות על יבמות צא., ב, א",
     "ref_2": "Tosafot on Yevamot 91a:2:1",
@@ -7528,11 +7528,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1145,
+    "line_index_1": 1144,
     "line_index_2": 3988,
     "ref_2": "Rashi on Yevamot 91a:6:1",
     "heRef_2": "רש\"י על יבמות צא., ו, א",
     "path_2": "רש\"י על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1147,
+    "line_index_2": 3052,
+    "heRef_2": "יבמות צא:, יא",
+    "ref_2": "Yevamot 91b:11",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -7545,14 +7553,6 @@
   },
   {
     "line_index_1": 1149,
-    "line_index_2": 3052,
-    "heRef_2": "יבמות צא:, יא",
-    "ref_2": "Yevamot 91b:11",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1150,
     "line_index_2": 3054,
     "heRef_2": "יבמות צא:, יג",
     "ref_2": "Yevamot 91b:13",
@@ -7560,7 +7560,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1152,
+    "line_index_1": 1151,
     "line_index_2": 3056,
     "heRef_2": "יבמות צב., א",
     "ref_2": "Yevamot 92a:1",
@@ -7568,10 +7568,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1153,
+    "line_index_1": 1152,
     "line_index_2": 3057,
     "heRef_2": "יבמות צב., ב",
     "ref_2": "Yevamot 92a:2",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1153,
+    "line_index_2": 3059,
+    "heRef_2": "יבמות צב., ד",
+    "ref_2": "Yevamot 92a:4",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -7585,14 +7593,6 @@
   },
   {
     "line_index_1": 1155,
-    "line_index_2": 3059,
-    "heRef_2": "יבמות צב., ד",
-    "ref_2": "Yevamot 92a:4",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1156,
     "line_index_2": 3061,
     "heRef_2": "יבמות צב., ו",
     "ref_2": "Yevamot 92a:6",
@@ -7600,7 +7600,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1157,
+    "line_index_1": 1156,
     "line_index_2": 3063,
     "heRef_2": "יבמות צב., ח",
     "ref_2": "Yevamot 92a:8",
@@ -7608,11 +7608,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1158,
+    "line_index_1": 1157,
     "line_index_2": 1186,
     "heRef_2": "תוספות על יבמות צב., יב, א",
     "ref_2": "Tosafot on Yevamot 92a:12:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1158,
+    "line_index_2": 3072,
+    "heRef_2": "יבמות צב., יז",
+    "ref_2": "Yevamot 92a:17",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -7648,10 +7656,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1163,
-    "line_index_2": 3072,
-    "heRef_2": "יבמות צב., יז",
-    "ref_2": "Yevamot 92a:17",
+    "line_index_1": 1164,
+    "line_index_2": 3075,
+    "heRef_2": "יבמות צב:, א",
+    "ref_2": "Yevamot 92b:1",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -7680,19 +7688,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1168,
-    "line_index_2": 3075,
-    "heRef_2": "יבמות צב:, א",
-    "ref_2": "Yevamot 92b:1",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1170,
+    "line_index_1": 1169,
     "line_index_2": 1200,
     "heRef_2": "תוספות על יבמות צג:, א, א",
     "ref_2": "Tosafot on Yevamot 93b:1:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1170,
+    "line_index_2": 3096,
+    "heRef_2": "יבמות צג:, א",
+    "ref_2": "Yevamot 93b:1",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -7705,17 +7713,17 @@
   },
   {
     "line_index_1": 1172,
-    "line_index_2": 3096,
-    "heRef_2": "יבמות צג:, א",
-    "ref_2": "Yevamot 93b:1",
+    "line_index_2": 3103,
+    "heRef_2": "יבמות צג:, ח",
+    "ref_2": "Yevamot 93b:8",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1173,
-    "line_index_2": 3103,
-    "heRef_2": "יבמות צג:, ח",
-    "ref_2": "Yevamot 93b:8",
+    "line_index_2": 3106,
+    "heRef_2": "יבמות צג:, יא",
+    "ref_2": "Yevamot 93b:11",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -7728,10 +7736,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1175,
-    "line_index_2": 3106,
-    "heRef_2": "יבמות צג:, יא",
-    "ref_2": "Yevamot 93b:11",
+    "line_index_1": 1176,
+    "line_index_2": 3124,
+    "heRef_2": "יבמות צד:, ג",
+    "ref_2": "Yevamot 94b:3",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -7752,15 +7760,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1179,
-    "line_index_2": 3124,
-    "heRef_2": "יבמות צד:, ג",
-    "ref_2": "Yevamot 94b:3",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1189,
+    "line_index_1": 1188,
     "line_index_2": 3133,
     "heRef_2": "יבמות צד:, יב",
     "ref_2": "Yevamot 94b:12",
@@ -7768,11 +7768,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1191,
+    "line_index_1": 1190,
     "line_index_2": 1221,
     "heRef_2": "תוספות על יבמות צה., ו, א",
     "ref_2": "Tosafot on Yevamot 95a:6:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1191,
+    "line_index_2": 3141,
+    "heRef_2": "יבמות צה., ו",
+    "ref_2": "Yevamot 95a:6",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -7785,14 +7793,6 @@
   },
   {
     "line_index_1": 1193,
-    "line_index_2": 3141,
-    "heRef_2": "יבמות צה., ו",
-    "ref_2": "Yevamot 95a:6",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1194,
     "line_index_2": 3144,
     "heRef_2": "יבמות צה., ט",
     "ref_2": "Yevamot 95a:9",
@@ -7800,7 +7800,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1195,
+    "line_index_1": 1194,
     "line_index_2": 1223,
     "heRef_2": "תוספות על יבמות צה., יד, א",
     "ref_2": "Tosafot on Yevamot 95a:14:1",
@@ -7808,7 +7808,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1197,
+    "line_index_1": 1196,
     "line_index_2": 3169,
     "heRef_2": "יבמות צו., א",
     "ref_2": "Yevamot 96a:1",
@@ -7816,7 +7816,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1200,
+    "line_index_1": 1199,
     "line_index_2": 3197,
     "heRef_2": "יבמות צו:, י",
     "ref_2": "Yevamot 96b:10",
@@ -7824,7 +7824,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1204,
+    "line_index_1": 1203,
     "line_index_2": 3217,
     "heRef_2": "יבמות צז., יא",
     "ref_2": "Yevamot 97a:11",
@@ -7832,7 +7832,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1205,
+    "line_index_1": 1204,
     "line_index_2": 3221,
     "heRef_2": "יבמות צז., טו",
     "ref_2": "Yevamot 97a:15",
@@ -7840,11 +7840,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1206,
+    "line_index_1": 1205,
     "line_index_2": 1243,
     "heRef_2": "תוספות על יבמות צז., יז, ב",
     "ref_2": "Tosafot on Yevamot 97a:17:2",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1207,
+    "line_index_2": 3238,
+    "heRef_2": "יבמות צז:, ט",
+    "ref_2": "Yevamot 97b:9",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -7856,15 +7864,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1209,
-    "line_index_2": 3238,
-    "heRef_2": "יבמות צז:, ט",
-    "ref_2": "Yevamot 97b:9",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1211,
+    "line_index_1": 1210,
     "line_index_2": 3280,
     "heRef_2": "יבמות צט., ה",
     "ref_2": "Yevamot 99a:5",
@@ -7872,11 +7872,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1212,
+    "line_index_1": 1211,
     "line_index_2": 3283,
     "heRef_2": "יבמות צט., ח",
     "ref_2": "Yevamot 99a:8",
     "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1213,
+    "line_index_2": 1267,
+    "heRef_2": "תוספות על יבמות צט:, א, א",
+    "ref_2": "Tosafot on Yevamot 99b:1:1",
+    "path_2": "תוספות על יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -7889,14 +7897,6 @@
   },
   {
     "line_index_1": 1215,
-    "line_index_2": 1267,
-    "heRef_2": "תוספות על יבמות צט:, א, א",
-    "ref_2": "Tosafot on Yevamot 99b:1:1",
-    "path_2": "תוספות על יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1216,
     "line_index_2": 3292,
     "heRef_2": "יבמות צט:, ג",
     "ref_2": "Yevamot 99b:3",
@@ -7904,10 +7904,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1218,
+    "line_index_1": 1217,
     "line_index_2": 3305,
     "heRef_2": "יבמות ק., א",
     "ref_2": "Yevamot 100a:1",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1218,
+    "line_index_2": 3313,
+    "heRef_2": "יבמות ק., ט",
+    "ref_2": "Yevamot 100a:9",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -7920,10 +7928,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1220,
-    "line_index_2": 3313,
-    "heRef_2": "יבמות ק., ט",
-    "ref_2": "Yevamot 100a:9",
+    "line_index_1": 1221,
+    "line_index_2": 3323,
+    "heRef_2": "יבמות ק:, ד",
+    "ref_2": "Yevamot 100b:4",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -7944,18 +7952,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1224,
-    "line_index_2": 3323,
-    "heRef_2": "יבמות ק:, ד",
-    "ref_2": "Yevamot 100b:4",
+    "line_index_1": 1225,
+    "line_index_2": 3343,
+    "heRef_2": "יבמות קא., ג",
+    "ref_2": "Yevamot 101a:3",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1226,
-    "line_index_2": 3343,
-    "heRef_2": "יבמות קא., ג",
-    "ref_2": "Yevamot 101a:3",
+    "line_index_1": 1228,
+    "line_index_2": 3354,
+    "heRef_2": "יבמות קא., יד",
+    "ref_2": "Yevamot 101a:14",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -7976,15 +7984,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1231,
-    "line_index_2": 3354,
-    "heRef_2": "יבמות קא., יד",
-    "ref_2": "Yevamot 101a:14",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1233,
+    "line_index_1": 1232,
     "line_index_2": 1294,
     "heRef_2": "תוספות על יבמות קא:, ז, א",
     "ref_2": "Tosafot on Yevamot 101b:7:1",
@@ -7992,7 +7992,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1234,
+    "line_index_1": 1233,
     "line_index_2": 3363,
     "heRef_2": "יבמות קא:, ז",
     "ref_2": "Yevamot 101b:7",
@@ -8000,7 +8000,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1235,
+    "line_index_1": 1234,
     "line_index_2": 1298,
     "heRef_2": "תוספות על יבמות קא:, טז, א",
     "ref_2": "Tosafot on Yevamot 101b:16:1",
@@ -8008,7 +8008,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1236,
+    "line_index_1": 1235,
     "line_index_2": 3372,
     "heRef_2": "יבמות קא:, טז",
     "ref_2": "Yevamot 101b:16",
@@ -8017,14 +8017,6 @@
   },
   {
     "line_index_1": 1237,
-    "line_index_2": 3372,
-    "heRef_2": "יבמות קא:, טז",
-    "ref_2": "Yevamot 101b:16",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1239,
     "line_index_2": 3377,
     "heRef_2": "יבמות קב., ב",
     "ref_2": "Yevamot 102a:2",
@@ -8032,7 +8024,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1240,
+    "line_index_1": 1238,
     "line_index_2": 4442,
     "ref_2": "Rashi on Yevamot 102a:9:1",
     "heRef_2": "רש\"י על יבמות קב., ט, א",
@@ -8040,10 +8032,26 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1242,
+    "line_index_1": 1240,
     "line_index_2": 3400,
     "heRef_2": "יבמות קב:, ד",
     "ref_2": "Yevamot 102b:4",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1241,
+    "line_index_2": 3412,
+    "heRef_2": "יבמות קב:, טז",
+    "ref_2": "Yevamot 102b:16",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1242,
+    "line_index_2": 3412,
+    "heRef_2": "יבמות קב:, טז",
+    "ref_2": "Yevamot 102b:16",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -8080,18 +8088,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1247,
-    "line_index_2": 3412,
-    "heRef_2": "יבמות קב:, טז",
-    "ref_2": "Yevamot 102b:16",
+    "line_index_1": 1248,
+    "line_index_2": 3427,
+    "heRef_2": "יבמות קג., ט",
+    "ref_2": "Yevamot 103a:9",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1248,
-    "line_index_2": 3412,
-    "heRef_2": "יבמות קב:, טז",
-    "ref_2": "Yevamot 102b:16",
+    "line_index_1": 1249,
+    "line_index_2": 3427,
+    "heRef_2": "יבמות קג., ט",
+    "ref_2": "Yevamot 103a:9",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -8120,27 +8128,27 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1253,
-    "line_index_2": 3427,
-    "heRef_2": "יבמות קג., ט",
-    "ref_2": "Yevamot 103a:9",
+    "line_index_1": 1254,
+    "line_index_2": 3443,
+    "heRef_2": "יבמות קג:, ז",
+    "ref_2": "Yevamot 103b:7",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1254,
-    "line_index_2": 3427,
-    "heRef_2": "יבמות קג., ט",
-    "ref_2": "Yevamot 103a:9",
+    "line_index_1": 1255,
+    "line_index_2": 3445,
+    "heRef_2": "יבמות קג:, ט",
+    "ref_2": "Yevamot 103b:9",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1256,
-    "line_index_2": 3443,
-    "heRef_2": "יבמות קג:, ז",
-    "ref_2": "Yevamot 103b:7",
-    "path_2": "יבמות.txt",
+    "line_index_2": 4536,
+    "ref_2": "Rashi on Yevamot 103b:14:5",
+    "heRef_2": "רש\"י על יבמות קג:, יד, ה",
+    "path_2": "רש\"י על יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -8153,25 +8161,25 @@
   },
   {
     "line_index_1": 1258,
-    "line_index_2": 4536,
-    "ref_2": "Rashi on Yevamot 103b:14:5",
-    "heRef_2": "רש\"י על יבמות קג:, יד, ה",
-    "path_2": "רש\"י על יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1259,
-    "line_index_2": 3445,
-    "heRef_2": "יבמות קג:, ט",
-    "ref_2": "Yevamot 103b:9",
+    "line_index_2": 3452,
+    "heRef_2": "יבמות קג:, טז",
+    "ref_2": "Yevamot 103b:16",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1260,
-    "line_index_2": 3452,
-    "heRef_2": "יבמות קג:, טז",
-    "ref_2": "Yevamot 103b:16",
+    "line_index_2": 3461,
+    "heRef_2": "יבמות קד., ה",
+    "ref_2": "Yevamot 104a:5",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1261,
+    "line_index_2": 3461,
+    "heRef_2": "יבמות קד., ה",
+    "ref_2": "Yevamot 104a:5",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -8185,22 +8193,14 @@
   },
   {
     "line_index_1": 1263,
-    "line_index_2": 3461,
-    "heRef_2": "יבמות קד., ה",
-    "ref_2": "Yevamot 104a:5",
+    "line_index_2": 3467,
+    "heRef_2": "יבמות קד., יא",
+    "ref_2": "Yevamot 104a:11",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1264,
-    "line_index_2": 3461,
-    "heRef_2": "יבמות קד., ה",
-    "ref_2": "Yevamot 104a:5",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1265,
     "line_index_2": 3467,
     "heRef_2": "יבמות קד., יא",
     "ref_2": "Yevamot 104a:11",
@@ -8209,9 +8209,17 @@
   },
   {
     "line_index_1": 1266,
-    "line_index_2": 3467,
-    "heRef_2": "יבמות קד., יא",
-    "ref_2": "Yevamot 104a:11",
+    "line_index_2": 3479,
+    "heRef_2": "יבמות קד:, ו",
+    "ref_2": "Yevamot 104b:6",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1267,
+    "line_index_2": 3479,
+    "heRef_2": "יבמות קד:, ו",
+    "ref_2": "Yevamot 104b:6",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -8233,33 +8241,33 @@
   },
   {
     "line_index_1": 1270,
-    "line_index_2": 3479,
-    "heRef_2": "יבמות קד:, ו",
-    "ref_2": "Yevamot 104b:6",
+    "line_index_2": 3481,
+    "heRef_2": "יבמות קד:, ח",
+    "ref_2": "Yevamot 104b:8",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1271,
-    "line_index_2": 3479,
-    "heRef_2": "יבמות קד:, ו",
-    "ref_2": "Yevamot 104b:6",
+    "line_index_2": 3481,
+    "heRef_2": "יבמות קד:, ח",
+    "ref_2": "Yevamot 104b:8",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1272,
-    "line_index_2": 3481,
-    "heRef_2": "יבמות קד:, ח",
-    "ref_2": "Yevamot 104b:8",
+    "line_index_2": 3482,
+    "heRef_2": "יבמות קד:, ט",
+    "ref_2": "Yevamot 104b:9",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1273,
-    "line_index_2": 3481,
-    "heRef_2": "יבמות קד:, ח",
-    "ref_2": "Yevamot 104b:8",
+    "line_index_2": 3482,
+    "heRef_2": "יבמות קד:, ט",
+    "ref_2": "Yevamot 104b:9",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -8288,23 +8296,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1277,
-    "line_index_2": 3482,
-    "heRef_2": "יבמות קד:, ט",
-    "ref_2": "Yevamot 104b:9",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
     "line_index_1": 1278,
-    "line_index_2": 3482,
-    "heRef_2": "יבמות קד:, ט",
-    "ref_2": "Yevamot 104b:9",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1280,
     "line_index_2": 3513,
     "heRef_2": "יבמות קה., כא",
     "ref_2": "Yevamot 105a:21",
@@ -8312,7 +8304,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1282,
+    "line_index_1": 1280,
     "line_index_2": 3519,
     "heRef_2": "יבמות קה:, ד",
     "ref_2": "Yevamot 105b:4",
@@ -8320,23 +8312,31 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1283,
+    "line_index_1": 1281,
     "line_index_2": 3517,
     "heRef_2": "יבמות קה:, ב",
     "ref_2": "Yevamot 105b:2",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1282,
+    "line_index_2": 3517,
+    "heRef_2": "יבמות קה:, ב",
+    "ref_2": "Yevamot 105b:2",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1283,
+    "line_index_2": 3527,
+    "heRef_2": "יבמות קה:, יב",
+    "ref_2": "Yevamot 105b:12",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1284,
-    "line_index_2": 3517,
-    "heRef_2": "יבמות קה:, ב",
-    "ref_2": "Yevamot 105b:2",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1285,
     "line_index_2": 3527,
     "heRef_2": "יבמות קה:, יב",
     "ref_2": "Yevamot 105b:12",
@@ -8345,9 +8345,17 @@
   },
   {
     "line_index_1": 1286,
-    "line_index_2": 3527,
-    "heRef_2": "יבמות קה:, יב",
-    "ref_2": "Yevamot 105b:12",
+    "line_index_2": 3533,
+    "heRef_2": "יבמות קו., א",
+    "ref_2": "Yevamot 106a:1",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1287,
+    "line_index_2": 3533,
+    "heRef_2": "יבמות קו., א",
+    "ref_2": "Yevamot 106a:1",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -8393,22 +8401,6 @@
   },
   {
     "line_index_1": 1293,
-    "line_index_2": 3533,
-    "heRef_2": "יבמות קו., א",
-    "ref_2": "Yevamot 106a:1",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1294,
-    "line_index_2": 3533,
-    "heRef_2": "יבמות קו., א",
-    "ref_2": "Yevamot 106a:1",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1295,
     "line_index_2": 1357,
     "heRef_2": "תוספות על יבמות קו., יז, א",
     "ref_2": "Tosafot on Yevamot 106a:17:1",
@@ -8416,7 +8408,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1297,
+    "line_index_1": 1295,
     "line_index_2": 3551,
     "heRef_2": "יבמות קו:, א",
     "ref_2": "Yevamot 106b:1",
@@ -8424,7 +8416,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1298,
+    "line_index_1": 1296,
     "line_index_2": 3562,
     "heRef_2": "יבמות קו:, יב",
     "ref_2": "Yevamot 106b:12",
@@ -8432,7 +8424,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1302,
+    "line_index_1": 1300,
     "line_index_2": 3566,
     "heRef_2": "יבמות קז., א",
     "ref_2": "Yevamot 107a:1",
@@ -8440,7 +8432,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1303,
+    "line_index_1": 1301,
     "line_index_2": 3567,
     "heRef_2": "יבמות קז., ב",
     "ref_2": "Yevamot 107a:2",
@@ -8448,7 +8440,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1304,
+    "line_index_1": 1302,
     "line_index_2": 3572,
     "heRef_2": "יבמות קז., ז",
     "ref_2": "Yevamot 107a:7",
@@ -8456,7 +8448,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1306,
+    "line_index_1": 1304,
     "line_index_2": 3591,
     "heRef_2": "יבמות קז:, יב",
     "ref_2": "Yevamot 107b:12",
@@ -8464,7 +8456,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1307,
+    "line_index_1": 1305,
     "line_index_2": 3597,
     "heRef_2": "יבמות קז:, יח",
     "ref_2": "Yevamot 107b:18",
@@ -8472,7 +8464,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1309,
+    "line_index_1": 1307,
     "line_index_2": 3605,
     "heRef_2": "יבמות קח., ז",
     "ref_2": "Yevamot 108a:7",
@@ -8480,7 +8472,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1310,
+    "line_index_1": 1308,
     "line_index_2": 3608,
     "heRef_2": "יבמות קח., י",
     "ref_2": "Yevamot 108a:10",
@@ -8488,7 +8480,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1311,
+    "line_index_1": 1309,
     "line_index_2": 3613,
     "heRef_2": "יבמות קח., טו",
     "ref_2": "Yevamot 108a:15",
@@ -8496,7 +8488,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1313,
+    "line_index_1": 1311,
     "line_index_2": 3620,
     "heRef_2": "יבמות קח:, ב",
     "ref_2": "Yevamot 108b:2",
@@ -8504,7 +8496,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1314,
+    "line_index_1": 1312,
     "line_index_2": 3629,
     "heRef_2": "יבמות קח:, יא",
     "ref_2": "Yevamot 108b:11",
@@ -8512,7 +8504,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1315,
+    "line_index_1": 1313,
     "line_index_2": 3632,
     "heRef_2": "יבמות קח:, יד",
     "ref_2": "Yevamot 108b:14",
@@ -8520,7 +8512,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1317,
+    "line_index_1": 1315,
     "line_index_2": 3639,
     "heRef_2": "יבמות קט., א",
     "ref_2": "Yevamot 109a:1",
@@ -8528,23 +8520,23 @@
     "Conection Type": "source"
   },
   {
+    "line_index_1": 1316,
+    "line_index_2": 3649,
+    "heRef_2": "יבמות קט., יא",
+    "ref_2": "Yevamot 109a:11",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1317,
+    "line_index_2": 3649,
+    "heRef_2": "יבמות קט., יא",
+    "ref_2": "Yevamot 109a:11",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
     "line_index_1": 1318,
-    "line_index_2": 3649,
-    "heRef_2": "יבמות קט., יא",
-    "ref_2": "Yevamot 109a:11",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1319,
-    "line_index_2": 3649,
-    "heRef_2": "יבמות קט., יא",
-    "ref_2": "Yevamot 109a:11",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1320,
     "line_index_2": 1387,
     "heRef_2": "תוספות על יבמות קט., יא, א",
     "ref_2": "Tosafot on Yevamot 109a:11:1",
@@ -8552,7 +8544,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1322,
+    "line_index_1": 1320,
     "line_index_2": 3659,
     "heRef_2": "יבמות קט:, א",
     "ref_2": "Yevamot 109b:1",
@@ -8560,7 +8552,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1324,
+    "line_index_1": 1322,
     "line_index_2": 1399,
     "heRef_2": "תוספות על יבמות קי., א, א",
     "ref_2": "Tosafot on Yevamot 110a:1:1",
@@ -8568,7 +8560,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1325,
+    "line_index_1": 1323,
     "line_index_2": 3677,
     "heRef_2": "יבמות קי., ד",
     "ref_2": "Yevamot 110a:4",
@@ -8576,7 +8568,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1326,
+    "line_index_1": 1324,
     "line_index_2": 4833,
     "ref_2": "Rashi on Yevamot 110a:13:2",
     "heRef_2": "רש\"י על יבמות קי., יג, ב",
@@ -8584,23 +8576,23 @@
     "Conection Type": "source"
   },
   {
+    "line_index_1": 1326,
+    "line_index_2": 3699,
+    "heRef_2": "יבמות קי:, יא",
+    "ref_2": "Yevamot 110b:11",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1327,
+    "line_index_2": 3699,
+    "heRef_2": "יבמות קי:, יא",
+    "ref_2": "Yevamot 110b:11",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
     "line_index_1": 1328,
-    "line_index_2": 3699,
-    "heRef_2": "יבמות קי:, יא",
-    "ref_2": "Yevamot 110b:11",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1329,
-    "line_index_2": 3699,
-    "heRef_2": "יבמות קי:, יא",
-    "ref_2": "Yevamot 110b:11",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1330,
     "line_index_2": 3700,
     "heRef_2": "יבמות קי:, יב",
     "ref_2": "Yevamot 110b:12",
@@ -8608,7 +8600,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1332,
+    "line_index_1": 1330,
     "line_index_2": 3720,
     "heRef_2": "יבמות קיא., טו",
     "ref_2": "Yevamot 111a:15",
@@ -8616,7 +8608,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1334,
+    "line_index_1": 1332,
     "line_index_2": 3722,
     "heRef_2": "יבמות קיא:, א",
     "ref_2": "Yevamot 111b:1",
@@ -8624,11 +8616,27 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1335,
+    "line_index_1": 1333,
     "line_index_2": 3722,
     "heRef_2": "יבמות קיא:, א",
     "ref_2": "Yevamot 111b:1",
     "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1336,
+    "line_index_2": 3746,
+    "heRef_2": "יבמות קיב., ב",
+    "ref_2": "Yevamot 112a:2",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1337,
+    "line_index_2": 1424,
+    "heRef_2": "תוספות על יבמות קיב., ד, א",
+    "ref_2": "Tosafot on Yevamot 112a:4:1",
+    "path_2": "תוספות על יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -8641,22 +8649,6 @@
   },
   {
     "line_index_1": 1339,
-    "line_index_2": 1424,
-    "heRef_2": "תוספות על יבמות קיב., ד, א",
-    "ref_2": "Tosafot on Yevamot 112a:4:1",
-    "path_2": "תוספות על יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1340,
-    "line_index_2": 3746,
-    "heRef_2": "יבמות קיב., ב",
-    "ref_2": "Yevamot 112a:2",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1341,
     "line_index_2": 4917,
     "ref_2": "Rashi on Yevamot 112a:13:3",
     "heRef_2": "רש\"י על יבמות קיב., יג, ג",
@@ -8664,7 +8656,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1345,
+    "line_index_1": 1343,
     "line_index_2": 3760,
     "heRef_2": "יבמות קיב:, א",
     "ref_2": "Yevamot 112b:1",
@@ -8672,23 +8664,31 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1347,
+    "line_index_1": 1345,
     "line_index_2": 1437,
     "heRef_2": "תוספות על יבמות קיג., ד, ב",
     "ref_2": "Tosafot on Yevamot 113a:4:2",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1346,
+    "line_index_2": 1437,
+    "heRef_2": "תוספות על יבמות קיג., ד, ב",
+    "ref_2": "Tosafot on Yevamot 113a:4:2",
+    "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1347,
+    "line_index_2": 3795,
+    "heRef_2": "יבמות קיג., יג",
+    "ref_2": "Yevamot 113a:13",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1348,
-    "line_index_2": 1437,
-    "heRef_2": "תוספות על יבמות קיג., ד, ב",
-    "ref_2": "Tosafot on Yevamot 113a:4:2",
-    "path_2": "תוספות על יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1349,
     "line_index_2": 3795,
     "heRef_2": "יבמות קיג., יג",
     "ref_2": "Yevamot 113a:13",
@@ -8697,14 +8697,14 @@
   },
   {
     "line_index_1": 1350,
-    "line_index_2": 3795,
-    "heRef_2": "יבמות קיג., יג",
-    "ref_2": "Yevamot 113a:13",
+    "line_index_2": 3802,
+    "heRef_2": "יבמות קיג:, א",
+    "ref_2": "Yevamot 113b:1",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1352,
+    "line_index_1": 1351,
     "line_index_2": 3802,
     "heRef_2": "יבמות קיג:, א",
     "ref_2": "Yevamot 113b:1",
@@ -8713,9 +8713,17 @@
   },
   {
     "line_index_1": 1353,
-    "line_index_2": 3802,
-    "heRef_2": "יבמות קיג:, א",
-    "ref_2": "Yevamot 113b:1",
+    "line_index_2": 3819,
+    "heRef_2": "יבמות קיד., א",
+    "ref_2": "Yevamot 114a:1",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1354,
+    "line_index_2": 3819,
+    "heRef_2": "יבמות קיד., א",
+    "ref_2": "Yevamot 114a:1",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -8737,22 +8745,14 @@
   },
   {
     "line_index_1": 1357,
-    "line_index_2": 3819,
-    "heRef_2": "יבמות קיד., א",
-    "ref_2": "Yevamot 114a:1",
+    "line_index_2": 3821,
+    "heRef_2": "יבמות קיד., ג",
+    "ref_2": "Yevamot 114a:3",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1358,
-    "line_index_2": 3819,
-    "heRef_2": "יבמות קיד., א",
-    "ref_2": "Yevamot 114a:1",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1359,
     "line_index_2": 3821,
     "heRef_2": "יבמות קיד., ג",
     "ref_2": "Yevamot 114a:3",
@@ -8760,19 +8760,27 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1360,
-    "line_index_2": 3821,
-    "heRef_2": "יבמות קיד., ג",
-    "ref_2": "Yevamot 114a:3",
+    "line_index_1": 1362,
+    "line_index_2": 3836,
+    "heRef_2": "יבמות קיד:, א",
+    "ref_2": "Yevamot 114b:1",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1363,
+    "line_index_2": 3848,
+    "heRef_2": "יבמות קיד:, יג",
+    "ref_2": "Yevamot 114b:13",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1364,
-    "line_index_2": 3836,
-    "heRef_2": "יבמות קיד:, א",
-    "ref_2": "Yevamot 114b:1",
-    "path_2": "יבמות.txt",
+    "line_index_2": 1455,
+    "heRef_2": "תוספות על יבמות קיד:, יט, א",
+    "ref_2": "Tosafot on Yevamot 114b:19:1",
+    "path_2": "תוספות על יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -8785,10 +8793,10 @@
   },
   {
     "line_index_1": 1366,
-    "line_index_2": 1455,
-    "heRef_2": "תוספות על יבמות קיד:, יט, א",
-    "ref_2": "Tosafot on Yevamot 114b:19:1",
-    "path_2": "תוספות על יבמות.txt",
+    "line_index_2": 3848,
+    "heRef_2": "יבמות קיד:, יג",
+    "ref_2": "Yevamot 114b:13",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -8816,19 +8824,19 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1370,
-    "line_index_2": 3848,
-    "heRef_2": "יבמות קיד:, יג",
-    "ref_2": "Yevamot 114b:13",
+    "line_index_1": 1371,
+    "line_index_2": 3930,
+    "heRef_2": "יבמות קיז:, א",
+    "ref_2": "Yevamot 117b:1",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1371,
-    "line_index_2": 3848,
-    "heRef_2": "יבמות קיד:, יג",
-    "ref_2": "Yevamot 114b:13",
-    "path_2": "יבמות.txt",
+    "line_index_1": 1372,
+    "line_index_2": 1494,
+    "heRef_2": "תוספות על יבמות קיז:, ה, א",
+    "ref_2": "Tosafot on Yevamot 117b:5:1",
+    "path_2": "תוספות על יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -8841,17 +8849,17 @@
   },
   {
     "line_index_1": 1374,
-    "line_index_2": 1494,
-    "heRef_2": "תוספות על יבמות קיז:, ה, א",
-    "ref_2": "Tosafot on Yevamot 117b:5:1",
-    "path_2": "תוספות על יבמות.txt",
+    "line_index_2": 3936,
+    "heRef_2": "יבמות קיז:, ז",
+    "ref_2": "Yevamot 117b:7",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1375,
-    "line_index_2": 3930,
-    "heRef_2": "יבמות קיז:, א",
-    "ref_2": "Yevamot 117b:1",
+    "line_index_2": 3936,
+    "heRef_2": "יבמות קיז:, ז",
+    "ref_2": "Yevamot 117b:7",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -8896,39 +8904,23 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1381,
-    "line_index_2": 3936,
-    "heRef_2": "יבמות קיז:, ז",
-    "ref_2": "Yevamot 117b:7",
+    "line_index_1": 1382,
+    "line_index_2": 3955,
+    "heRef_2": "יבמות קיח., יא",
+    "ref_2": "Yevamot 118a:11",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1382,
-    "line_index_2": 3936,
-    "heRef_2": "יבמות קיז:, ז",
-    "ref_2": "Yevamot 117b:7",
+    "line_index_1": 1383,
+    "line_index_2": 3955,
+    "heRef_2": "יבמות קיח., יא",
+    "ref_2": "Yevamot 118a:11",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1384,
-    "line_index_2": 3955,
-    "heRef_2": "יבמות קיח., יא",
-    "ref_2": "Yevamot 118a:11",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1385,
-    "line_index_2": 3955,
-    "heRef_2": "יבמות קיח., יא",
-    "ref_2": "Yevamot 118a:11",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1386,
     "line_index_2": 1504,
     "heRef_2": "תוספות על יבמות קיח., ו, א",
     "ref_2": "Tosafot on Yevamot 118a:6:1",
@@ -8936,7 +8928,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1388,
+    "line_index_1": 1386,
     "line_index_2": 3960,
     "heRef_2": "יבמות קיח:, ג",
     "ref_2": "Yevamot 118b:3",
@@ -8944,7 +8936,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1389,
+    "line_index_1": 1387,
     "line_index_2": 3972,
     "heRef_2": "יבמות קיח:, טו",
     "ref_2": "Yevamot 118b:15",
@@ -8952,19 +8944,35 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1390,
+    "line_index_1": 1388,
     "line_index_2": 3972,
     "heRef_2": "יבמות קיח:, טו",
     "ref_2": "Yevamot 118b:15",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1392,
+    "line_index_2": 1513,
+    "heRef_2": "תוספות על יבמות קיט., ד, א",
+    "ref_2": "Tosafot on Yevamot 119a:4:1",
+    "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1393,
+    "line_index_2": 3981,
+    "heRef_2": "יבמות קיט., ד",
+    "ref_2": "Yevamot 119a:4",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1394,
-    "line_index_2": 1513,
-    "heRef_2": "תוספות על יבמות קיט., ד, א",
-    "ref_2": "Tosafot on Yevamot 119a:4:1",
-    "path_2": "תוספות על יבמות.txt",
+    "line_index_2": 3981,
+    "heRef_2": "יבמות קיט., ד",
+    "ref_2": "Yevamot 119a:4",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -8993,22 +9001,6 @@
   },
   {
     "line_index_1": 1398,
-    "line_index_2": 3981,
-    "heRef_2": "יבמות קיט., ד",
-    "ref_2": "Yevamot 119a:4",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1399,
-    "line_index_2": 3981,
-    "heRef_2": "יבמות קיט., ד",
-    "ref_2": "Yevamot 119a:4",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1400,
     "line_index_2": 5175,
     "ref_2": "Rashi on Yevamot 119a:12:1",
     "heRef_2": "רש\"י על יבמות קיט., יב, א",
@@ -9016,23 +9008,23 @@
     "Conection Type": "source"
   },
   {
+    "line_index_1": 1400,
+    "line_index_2": 3998,
+    "heRef_2": "יבמות קיט:, ח",
+    "ref_2": "Yevamot 119b:8",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1401,
+    "line_index_2": 3998,
+    "heRef_2": "יבמות קיט:, ח",
+    "ref_2": "Yevamot 119b:8",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
     "line_index_1": 1402,
-    "line_index_2": 3998,
-    "heRef_2": "יבמות קיט:, ח",
-    "ref_2": "Yevamot 119b:8",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1403,
-    "line_index_2": 3998,
-    "heRef_2": "יבמות קיט:, ח",
-    "ref_2": "Yevamot 119b:8",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1404,
     "line_index_2": 4000,
     "heRef_2": "יבמות קיט:, י",
     "ref_2": "Yevamot 119b:10",
@@ -9040,10 +9032,26 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1407,
+    "line_index_1": 1405,
     "line_index_2": 4008,
     "heRef_2": "יבמות קכ., א",
     "ref_2": "Yevamot 120a:1",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1406,
+    "line_index_2": 4019,
+    "heRef_2": "יבמות קכ., יב",
+    "ref_2": "Yevamot 120a:12",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1407,
+    "line_index_2": 4019,
+    "heRef_2": "יבמות קכ., יב",
+    "ref_2": "Yevamot 120a:12",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -9096,27 +9104,27 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1414,
-    "line_index_2": 4019,
-    "heRef_2": "יבמות קכ., יב",
-    "ref_2": "Yevamot 120a:12",
-    "path_2": "יבמות.txt",
+    "line_index_1": 1415,
+    "line_index_2": 1531,
+    "heRef_2": "תוספות על יבמות קכ:, ב, א",
+    "ref_2": "Tosafot on Yevamot 120b:2:1",
+    "path_2": "תוספות על יבמות.txt",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1415,
-    "line_index_2": 4019,
-    "heRef_2": "יבמות קכ., יב",
-    "ref_2": "Yevamot 120a:12",
+    "line_index_1": 1416,
+    "line_index_2": 4031,
+    "heRef_2": "יבמות קכ:, ו",
+    "ref_2": "Yevamot 120b:6",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1417,
-    "line_index_2": 1531,
-    "heRef_2": "תוספות על יבמות קכ:, ב, א",
-    "ref_2": "Tosafot on Yevamot 120b:2:1",
-    "path_2": "תוספות על יבמות.txt",
+    "line_index_2": 4031,
+    "heRef_2": "יבמות קכ:, ו",
+    "ref_2": "Yevamot 120b:6",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -9128,23 +9136,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1419,
-    "line_index_2": 4031,
-    "heRef_2": "יבמות קכ:, ו",
-    "ref_2": "Yevamot 120b:6",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
     "line_index_1": 1420,
-    "line_index_2": 4031,
-    "heRef_2": "יבמות קכ:, ו",
-    "ref_2": "Yevamot 120b:6",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1422,
     "line_index_2": 4050,
     "heRef_2": "יבמות קכא., ט",
     "ref_2": "Yevamot 121a:9",
@@ -9152,7 +9144,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1423,
+    "line_index_1": 1421,
     "line_index_2": 4056,
     "heRef_2": "יבמות קכא., טו",
     "ref_2": "Yevamot 121a:15",
@@ -9160,11 +9152,27 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1424,
+    "line_index_1": 1422,
     "line_index_2": 1539,
     "heRef_2": "תוספות על יבמות קכא., יז, א",
     "ref_2": "Tosafot on Yevamot 121a:17:1",
     "path_2": "תוספות על יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1425,
+    "line_index_2": 4072,
+    "heRef_2": "יבמות קכא:, ט",
+    "ref_2": "Yevamot 121b:9",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1426,
+    "line_index_2": 4072,
+    "heRef_2": "יבמות קכא:, ט",
+    "ref_2": "Yevamot 121b:9",
+    "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
@@ -9184,23 +9192,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1429,
-    "line_index_2": 4072,
-    "heRef_2": "יבמות קכא:, ט",
-    "ref_2": "Yevamot 121b:9",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
     "line_index_1": 1430,
-    "line_index_2": 4072,
-    "heRef_2": "יבמות קכא:, ט",
-    "ref_2": "Yevamot 121b:9",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1432,
     "line_index_2": 4087,
     "heRef_2": "יבמות קכב., ה",
     "ref_2": "Yevamot 122a:5",
@@ -9208,7 +9200,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1433,
+    "line_index_1": 1431,
     "line_index_2": 4096,
     "heRef_2": "יבמות קכב., יד",
     "ref_2": "Yevamot 122a:14",
@@ -9216,10 +9208,26 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1434,
+    "line_index_1": 1432,
     "line_index_2": 4099,
     "heRef_2": "יבמות קכב., יז",
     "ref_2": "Yevamot 122a:17",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1434,
+    "line_index_2": 4107,
+    "heRef_2": "יבמות קכב:, ז",
+    "ref_2": "Yevamot 122b:7",
+    "path_2": "יבמות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1435,
+    "line_index_2": 4107,
+    "heRef_2": "יבמות קכב:, ז",
+    "ref_2": "Yevamot 122b:7",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -9241,17 +9249,17 @@
   },
   {
     "line_index_1": 1438,
-    "line_index_2": 4107,
-    "heRef_2": "יבמות קכב:, ז",
-    "ref_2": "Yevamot 122b:7",
+    "line_index_2": 4111,
+    "heRef_2": "יבמות קכב:, יא",
+    "ref_2": "Yevamot 122b:11",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1439,
-    "line_index_2": 4107,
-    "heRef_2": "יבמות קכב:, ז",
-    "ref_2": "Yevamot 122b:7",
+    "line_index_2": 4111,
+    "heRef_2": "יבמות קכב:, יא",
+    "ref_2": "Yevamot 122b:11",
     "path_2": "יבמות.txt",
     "Conection Type": "source"
   },
@@ -9265,22 +9273,6 @@
   },
   {
     "line_index_1": 1441,
-    "line_index_2": 4111,
-    "heRef_2": "יבמות קכב:, יא",
-    "ref_2": "Yevamot 122b:11",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1442,
-    "line_index_2": 4111,
-    "heRef_2": "יבמות קכב:, יא",
-    "ref_2": "Yevamot 122b:11",
-    "path_2": "יבמות.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1443,
     "line_index_2": 4111,
     "heRef_2": "יבמות קכב:, יא",
     "ref_2": "Yevamot 122b:11",

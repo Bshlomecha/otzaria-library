@@ -56,7 +56,7 @@
 `elucidation`, `explication`, `footnotes`.
 
 **הפניות** (פאנל הקישורים): `reference`, `quotation`, `mesorat hashas`, `ein mishpat`,
-`mishnah in talmud`, `related`, `allusion`, `liturgy`, `law`, `summary`, `sifrei mitsvot`,
+`mishnah in talmud`, `related`, `allusion`, `liturgy`, `law`, `summary`, `sifrei mitzvot`,
 `essay`, `linker`, `other`.
 
 - ערך לא מוכר או ריק → `OTHER` (במסלול אוצריא, בלי הסקה).
