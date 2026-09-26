@@ -157,13 +157,17 @@ jobs:
           LIB_TAG=$(gh release list -R Otzaria/SeforimLibrary --exclude-pre-releases \
             --exclude-drafts -L1 --json tagName -q '.[0].tagName')
           echo "Dry-running against SeforimLibrary release $LIB_TAG"
-          gh release download "$LIB_TAG" -R Otzaria/SeforimLibrary -p 'seforim.db.zst' -D dbdir
-          DB_ASSET_DIGEST="$(gh release view "$LIB_TAG" -R Otzaria/SeforimLibrary --json assets \
-            --jq '.assets[] | select(.name=="seforim.db.zst") | .digest')"
-          [[ "$DB_ASSET_DIGEST" =~ ^sha256:[0-9a-f]{64}$ ]]
-          [[ "$(sha256sum dbdir/seforim.db.zst | cut -d' ' -f1)" == "${DB_ASSET_DIGEST#sha256:}" ]]
-          unzstd -f dbdir/seforim.db.zst
-          rm -f dbdir/seforim.db.zst
+          # The buildstate travels with the DB: without it the validator's allocator starts
+          # from zero and every pub_date/pub_place id check fails against the real DB.
+          for asset in seforim.db.zst seforim.db.buildstate.zst; do
+            gh release download "$LIB_TAG" -R Otzaria/SeforimLibrary -p "$asset" -D dbdir
+            ASSET_DIGEST="$(gh release view "$LIB_TAG" -R Otzaria/SeforimLibrary --json assets \
+              --jq ".assets[] | select(.name==\"$asset\") | .digest")"
+            [[ "$ASSET_DIGEST" =~ ^sha256:[0-9a-f]{64}$ ]]
+            [[ "$(sha256sum "dbdir/$asset" | cut -d' ' -f1)" == "${ASSET_DIGEST#sha256:}" ]]
+            unzstd -f "dbdir/$asset"
+            rm -f "dbdir/$asset"
+          done
           CANDIDATE_SHA=$(sha256sum "$GITHUB_WORKSPACE/$ARCHIVE_NAME" | cut -d' ' -f1)
           ( cd seforim-tool && chmod +x gradlew && ./gradlew :sefariasqlite:validateForDbInputs \
               -PseforimDb="$GITHUB_WORKSPACE/dbdir/seforim.db" \
