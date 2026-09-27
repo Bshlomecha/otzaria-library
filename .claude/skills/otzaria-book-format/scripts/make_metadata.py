@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""יצירת רשומת מטא-דאטה לספר חדש, בדיקת התנגשות שם, ומיזוג ל-all_metadata.json.
+"""יצירת רשומת מטא-דאטה לספר חדש, בדיקת התנגשות שם, ומיזוג ל-all_metadata.json; שורת תיאור ל-ForDB/sefaria_metadata_changes.csv.
 
   # יצירת רשומה והדפסתה
   python -X utf8 make_metadata.py --title "שם הספר" --author "שם המחבר" \
-      --he-short-desc "תיאור קצר" --era אחרונים --pub-date 1902 --pub-place ירושלים \
+      --era אחרונים --pub-date 1902 --pub-place ירושלים \
       --source-folder MoreBooks
 
   # בדיקת התנגשות שם מול הקורפוס לפני שמוסיפים
@@ -14,6 +14,13 @@
   python -X utf8 make_metadata.py --title "…" --author "…" \
       --merge D:/otzaria-library/all_metadata.json
 
+  # תיאור → רק ForDB/sefaria_metadata_changes.csv, לא ל-JSON: המחולל (SeforimLibrary) קורא
+  # את metadata.json דרך BookMetadata, שאין בה heDesc (נזרק בשקט), ו-ForDB/all_metadata.json
+  # בלי שדות תיאור בכלל. ה-CSV הוא הדרך היחידה של תיאור ל-DB, לכל ספר (גם מקורות אוצריא).
+  python -X utf8 make_metadata.py --title "…" --author "…" --category-path "…/…" \
+      --he-short-desc "…" --he-desc "…" \
+      --desc-csv D:/otzaria-library/ForDB/sefaria_metadata_changes.csv
+
   # שורת דור ל-ForDB/generations.csv
   python -X utf8 make_metadata.py --title "…" --generation אחרונים --print-fordb
 
@@ -22,6 +29,7 @@
 from __future__ import annotations
 
 import argparse
+import csv
 import json
 import re
 import sys
@@ -46,6 +54,17 @@ def sanitize_filename(name: str) -> str:
     return s.strip()
 
 
+def normalize_hebrew_label(raw: str) -> str:
+    """מראה של normalizeHebrewLabel ב-SeforimLibrary (Generator.kt) — כך ייראה ה-title
+    ב-seforim.db, ולכן זה מפתח ההתאמה בעמודת title של sefaria_metadata_changes.csv."""
+    s = raw.strip()
+    s = s.replace("\u201c", '"').replace("\u201d", '"')
+    s = s.replace("\u2018", "'").replace("\u2019", "'")
+    s = s.replace('"', "\u05f4").replace("''", "\u05f4").replace("\u05f3\u05f3", "\u05f4")
+    s = s.replace("`", "\u05f3")
+    return re.sub(r"\s+", " ", s).strip()
+
+
 def build_record(a: argparse.Namespace) -> dict:
     he_era = a.era or None
     return {
@@ -58,8 +77,8 @@ def build_record(a: argparse.Namespace) -> dict:
         "enTitle": a.en_title or None,
         "enDesc": None,
         "enShortDesc": None,
-        "heDesc": a.he_desc or None,
-        "heShortDesc": a.he_short_desc or None,
+        "heDesc": None,       # תיאור → sefaria_metadata_changes.csv (upsert_description)
+        "heShortDesc": None,
         "publisher": a.publisher or None,
         "categories": None,
         "heCategories": list(a.he_categories) or None,
@@ -140,13 +159,48 @@ def merge(record: dict, path: Path) -> None:
                     encoding="utf-8", newline="\n")
 
 
+DESC_CSV_HEADER = ["categoryPath", "title", "author", "heShortDesc", "heDesc", "heDescNew"]
+
+
+def upsert_description(path: Path, title: str, category_path: str, author: str,
+                       short: str | None, long: str | None) -> None:
+    """שורת תיאור ב-ForDB/sefaria_metadata_changes.csv.
+
+    הצרכן (SeedAllMetadataPostProcess.kt) קורא לפי מיקום: עמ' 2 title (התאמה מדויקת),
+    עמ' 4 heShortDesc → book.heShortDesc, עמ' 6 heDescNew → book.heDesc. עמ' 5 (heDesc
+    המקורי של ספריא) נשארת ריקה בספרים שלנו; categoryPath ו-author לקורא האנושי בלבד.
+    תא ריק = "השאר את הקיים" — לכן ערך ריק לא דורס. שם כפול: האחרונה גוברת.
+    פורמט: UTF-8 בלי BOM, LF, QUOTE_ALL — כתיבה מחדש עושה round-trip זהה בית-בבית.
+    """
+    with path.open(encoding="utf-8", newline="") as f:
+        rows = list(csv.reader(f))
+    if not rows or rows[0] != DESC_CSV_HEADER:
+        raise SystemExit(f"{path}: שורת כותרת לא צפויה (מצופה {','.join(DESC_CSV_HEADER)})")
+    hits = [i for i, r in enumerate(rows) if i and len(r) > 1 and r[1].strip() == title]
+    if hits:
+        row = rows[hits[-1]]
+        row += [""] * (len(DESC_CSV_HEADER) - len(row))
+        for idx, val in ((0, category_path), (2, author), (3, short), (5, long)):
+            if val:
+                row[idx] = val
+        dup = f" (אזהרה: {len(hits)} שורות באותו שם)" if len(hits) > 1 else ""
+        print(f"עודכנה שורת תיאור: {title!r}{dup}")
+    else:
+        rows.append([category_path or "", title, author or "", short or "", "", long or ""])
+        print(f"נוספה שורת תיאור: {title!r}")
+    with path.open("w", encoding="utf-8", newline="") as f:
+        csv.writer(f, quoting=csv.QUOTE_ALL, lineterminator="\n").writerows(rows)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description="מטא-דאטה לספר אוצריא")
     ap.add_argument("--title", required=True, help="שם הספר — מפתח ההתאמה")
     ap.add_argument("--author", action="append", default=[], help="מחבר בעברית (חזרתי)")
     ap.add_argument("--en-title")
-    ap.add_argument("--he-desc")
-    ap.add_argument("--he-short-desc")
+    ap.add_argument("--he-desc", help="תיאור ארוך → עמודת heDescNew ב-CSV (דורש --desc-csv)")
+    ap.add_argument("--he-short-desc", help="תיאור קצר → עמודת heShortDesc ב-CSV (דורש --desc-csv)")
+    ap.add_argument("--desc-csv", help="ForDB/sefaria_metadata_changes.csv — היעד היחיד לתיאור")
+    ap.add_argument("--category-path", default="", help="נתיב הקטגוריה תחת אוצריא/ (לעמודה האינפורמטיבית)")
     ap.add_argument("--he-categories", action="append", default=[])
     ap.add_argument("--era", choices=list(ERAS), help="תקופה")
     ap.add_argument("--pub-date", type=int, help="שנת דפוס (מספר)")
@@ -174,8 +228,19 @@ def main() -> int:
     record = build_record(args)
     if args.merge:
         merge(record, Path(args.merge))
-    else:
+    elif not args.desc_csv:
         print(json.dumps(record, ensure_ascii=False, indent=2))
+
+    if args.he_desc or args.he_short_desc:
+        desc_title = normalize_hebrew_label(sanitize_filename(args.title))
+        if args.desc_csv:
+            upsert_description(Path(args.desc_csv), desc_title, args.category_path,
+                               ", ".join(args.author), args.he_short_desc, args.he_desc)
+            print("ה-title בשורה חייב להיות שם קובץ ה-.txt בלי סיומת (אחרי normalizeHebrewLabel).")
+        else:
+            print("\nתיאור לא נכתב: הוא לא נכנס לרשומת ה-JSON — הוסיפו --desc-csv "
+                  "ForDB/sefaria_metadata_changes.csv", file=sys.stderr)
+            status = status or 2
 
     if args.print_fordb:
         print("\n--- ForDB ---")

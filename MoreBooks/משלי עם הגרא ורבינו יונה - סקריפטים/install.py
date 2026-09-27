@@ -87,6 +87,9 @@ def main():
         for n in (NOTES_PREFIX + t,):
             if n in have or n in all_have or n in gen_have:
                 raise SystemExit('notes companion must not be registered: %s' % n)
+    # תיאור לא נכתב ל־metadata.json (המחולל קורא אותו דרך BookMetadata, שאין בו heDesc) —
+    # השדות נשארים None. הדרך היחידה של תיאור ל־DB היא ForDB/sefaria_metadata_changes.csv;
+    # לספרים אלה אין כאן טקסט תיאור, ולכן גם לא נוספת שם שורה.
     new_meta = [{'title': t, 'author': b['author'], 'pubDate': None, 'pubPlace': None,
                  'compPlace': None, 'compDate': None, 'תיאור_חדש': None,
                  'heShortDesc': None, 'heDesc': None, 'Unnamed: 9': None, 'order': None}

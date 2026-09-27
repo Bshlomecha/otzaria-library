@@ -6,7 +6,7 @@ description: >
   Markdown, DOCX/PDF-OCR, ויקי, אתר, JSON או טקסט גולמי: חלוקה לשורות, כותרות
   ותוכן עניינים, הערות שוליים, ניקוי תגי HTML ו-CSS למה שהקורא מכיר, שם קובץ
   ומיקום בקטגוריה, רשומת מטא-דאטה (`all_metadata.json`, `ForDB/*.csv`, מחבר,
-  תקופה, דור, תיאור), קבצי לוואי (`_links.json`, `_alt_toc.json`, `_headings.json`),
+  תקופה, דור, תיאור ב־`sefaria_metadata_changes.csv`), קבצי לוואי (`_links.json`, `_alt_toc.json`, `_headings.json`),
   וולידציה של התוצאה. גם לשאלות "איך הפורמט עובד", "איזה תגים נתמכים", "למה
   אוצריא קוראת שורה-שורה", "איך לתקן ספר שנראה שבור". Triggers: להמיר ספר לאוצריא,
   להכניס ספר לספרייה, פורמט אוצריא, מבנה ספר, כותרות, הערות שוליים, מטאדאטה,
@@ -72,8 +72,12 @@ python -X utf8 validate_book.py "ספר.txt"
 # 4. מטא-דאטה — בדיקת התנגשות שם, יצירת רשומה, מיזוג
 python -X utf8 make_metadata.py --title "שם הספר" --check-name --repo D:/otzaria-library
 python -X utf8 make_metadata.py --title "שם הספר" --author "מחבר" --era אחרונים \
-       --pub-date 1902 --pub-place ירושלים --he-short-desc "…" \
+       --pub-date 1902 --pub-place ירושלים \
        --merge D:/otzaria-library/all_metadata.json
+#    תיאור → שורה ב־ForDB/sefaria_metadata_changes.csv בלבד (לא ב־JSON: heDesc שם נזרק בשקט)
+python -X utf8 make_metadata.py --title "שם הספר" --author "מחבר" --category-path "…/…" \
+       --he-short-desc "…" --he-desc "…" \
+       --desc-csv D:/otzaria-library/ForDB/sefaria_metadata_changes.csv
 
 # 5. קבצי לוואי (אם יש)
 python -X utf8 validate_sidecars.py --links "…/ספר_links.json" --book "ספר.txt"
@@ -126,7 +130,7 @@ python -X utf8 validate_sidecars.py --links "…/ספר_links.json" --book "ספ
 | `to_otzaria.py` | המרה למבנה אוצריא (HTML/Markdown/טקסט), כולל פיצול הערות ונרמול כותרות |
 | `validate_book.py` | ולידציה של קובץ ספר — exit 1 על שגיאה |
 | `inspect_book.py` | עץ כותרות, מספרי שורות, סטטיסטיקה, חיפוש שורה |
-| `make_metadata.py` | רשומת מטא-דאטה, בדיקת התנגשות שם, מיזוג ל-`all_metadata.json`, שורות ForDB |
+| `make_metadata.py` | רשומת מטא-דאטה, בדיקת התנגשות שם, מיזוג ל-`all_metadata.json`, שורות ForDB, שורת תיאור ל־`sefaria_metadata_changes.csv` |
 | `validate_sidecars.py` | ולידציה של `_links.json` / `_alt_toc.json` / `_headings.json` |
 
 ## References
@@ -136,7 +140,7 @@ python -X utf8 validate_sidecars.py --links "…/ספר_links.json" --book "ספ
 - **`references/book-file.md`** — הפורמט עצמו: כותרות ותוכן עניינים, הערות שוליים,
   קישורי `book://`, התגים ותכונות ה-CSS הנתמכים והלא-נתמכים, מלכודת ההיפוך, מצב
   קריאה רציף, שמות שמורים.
-- **`references/metadata.md`** — שדות `all_metadata.json`, קובצי `ForDB/`, ניקוי
+- **`references/metadata.md`** — שדות `all_metadata.json`, קובצי `ForDB/`, היכן נכתב תיאור (`sefaria_metadata_changes.csv`), ניקוי
   שמות וגרשיים, קטגוריות ומיקום, דורות, רישיונות.
 - **`references/sidecars.md`** — `_links.json` (רגיל, עוגן-מילה, טווח), `_alt_toc.json`,
   `_headings.json`: סכימה, סוגי קשר, כללי ספריא.

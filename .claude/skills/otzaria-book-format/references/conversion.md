@@ -128,6 +128,10 @@ DOCX, EPUB, ODT, RTF, Markdown, Word ישן) מייצרים לפיו את **או
 רשומה ב-`all_metadata.json` (ובמקורות שיש להם `otzaria_metadata.json` משלהם), ולפי
 הצורך שורות ב-`ForDB/generations.csv` וכו׳. הפירוט והשדות: `metadata.md`.
 `scripts/make_metadata.py` מייצר רשומה מלאה, בודק התנגשות שם, וממזג לקובץ.
+**תיאור** (`heShortDesc` / `heDesc`) **לא** נכנס לרשומה הזו: `heDesc` ב־`metadata.json` נזרק
+בשקט (אין לו שדה ב־`BookMetadata` של המחולל), ו־`ForDB/all_metadata.json` בלי שדות תיאור.
+כותבים שורה ב־`ForDB/sefaria_metadata_changes.csv` (`make_metadata.py --desc-csv`) — ר'
+"תיאור הספר" ב־`metadata.md`.
 
 ### שלב 8 — ולידציה
 

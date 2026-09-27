@@ -89,6 +89,39 @@ csv.writer(f, lineterminator='\n').writerows(rows)
 
 לפני כתיבה: ודא round-trip זהה בית־בבית לקובץ הקיים.
 
+**תיאור הספר — לא באף אחד משלושתם.** `heDesc` ב־`metadata.json` נזרק בשקט: המחולל קורא את
+הקובץ דרך `BookMetadata`, שאין בה שדה כזה (`heShortDesc` שם דווקא עובד — אבל שומרים מקור אמת
+אחד). ב־`ForDB/all_metadata.json` אין שדות תיאור בכלל (רק `pubDate` / `pubPlaceStringHe`).
+הדרך היחידה ל־DB, **לכל ספר** (גם של המאגר הזה, למרות השם): `ForDB/sefaria_metadata_changes.csv`
+← `SeedAllMetadataPostProcess.kt`. (ה־`install.py` של הדוגמאות שבסוף עדיין כותבים `heDesc`
+ל־`metadata.json` — לא להעתיק.)
+
+| עמודה | נקראת? | מה לשים |
+| --- | --- | --- |
+| 1 `categoryPath` | לא | נתיב התיקייה תחת `אוצריא/` — לקורא האנושי |
+| 2 `title` | **מפתח ההתאמה** | שם קובץ ה־`.txt` בלי סיומת, אחרי `normalizeHebrewLabel` (למטה) |
+| 3 `author` | לא | המחבר — לקורא האנושי |
+| 4 `heShortDesc` | כן → `book.heShortDesc` | תיאור קצר (דיאלוג פרטי הספר) |
+| 5 `heDesc` | לא | הטקסט המקורי של ספריא — **ריק** בספרים שלנו |
+| 6 `heDescNew` | כן → `book.heDesc` | התיאור הארוך (טולטיפ בספרייה) |
+
+- הצרכן קורא **לפי מיקום**, לא לפי שם העמודה.
+- `title` = השם בדיוק כפי שיהיה ב־`seforim.db`: trim; `“ ”` → `"`, `‘ ’` → `'`; ואז `"` / `''` /
+  `׳׳` → `״` (U+05F4), backtick → `׳` (U+05F3); כיווץ רווחים. גרש ASCII בודד `'` **לא** מומר,
+  ושום ניקוי אחר. אי־התאמה אינה שגיאה — השורה פשוט לא חלה (WARN בבנייה בלבד).
+- שורה אחת לשם (כפילות — האחרונה גוברת). תא ריק = "השאר את הקיים": אי אפשר לרוקן שדה דרך ה־CSV.
+- UTF-8 בלי BOM, **LF**, **כל** שדה במירכאות. רק דרך `csv` של Python, לא ביד/`sed` (או
+  `make_metadata.py --desc-csv` מסקיל `otzaria-book-format`):
+  ```python
+  with open(p, encoding='utf-8', newline='') as f:
+      rows = list(csv.reader(f))
+  # ... [categoryPath, title, author, heShortDesc, '', heDescNew]
+  with open(p, 'w', encoding='utf-8', newline='') as f:
+      csv.writer(f, quoting=csv.QUOTE_ALL, lineterminator='\n').writerows(rows)
+  ```
+- `validate_fordb_book_names.py` בודק את `title` מול הספרייה הארוזה — קובץ הספר חייב להיות
+  תחת שורש נארז (וכמו בסעיף 7 — הוא קורא git).
+
 ## 6. תיקיית בנייה ישנה דורסת ספרים תקינים
 
 `--src` עם ברירת מחדל ל־`/tmp/...` לקח פלט ישן, דרס 5 כרכים ורשם חצי מהכותרים.
@@ -141,7 +174,7 @@ SEFARIA_FETCH=0 python3 .github/scripts/_tmp_v.py; rm .github/scripts/_tmp_v.py
 
 מה לבדוק ב־DB: נתיב הקטגוריה (`category.parentId`), `source.name`,
 `book_author` (שורה אחת, השם הקנוני), וספירת `tocEntry` לפי `level`.
-`heDesc` ריק בבנייה חלקית (`seedAllMetadata` לא רץ) — צפוי.
+`heDesc` ריק בבנייה חלקית (`seedAllMetadata`, שקורא את `ForDB/sefaria_metadata_changes.csv`, לא רץ) — צפוי.
 
 ## 9. אימות קישורים: תוכן, לא ספירה
 
