@@ -405131,5 +405131,30 @@
     "publisher": null,
     "Sourcefolder": "MoreBooks",
     "file_path": "תלמוד בבלי\\אחרונים\\גופי הלכות (פצנובסקי).txt"
+  },
+  {
+    "heAuthors": [
+      "אברהם ישעיהו קרליץ"
+    ],
+    "title": "חזון איש, חושן משפט נזיקין",
+    "enTitle": "Chazon Ish, Choshen Mishpat Nezikin",
+    "authors": [
+      "Avraham Yeshaya Karelitz"
+    ],
+    "pubDate": null,
+    "pubDateHeb": null,
+    "pubPlaceStringEn": null,
+    "pubPlaceStringHe": null,
+    "heCategories": [
+      "הלכה",
+      "אחרונים",
+      "חזון איש"
+    ],
+    "categories": [
+      "Halakhah"
+    ],
+    "publisher": "ים החכמה",
+    "Sourcefolder": "yam-HaHachma",
+    "file_path": "yam-HaHachmaToOtzaria/ספרים/אוצריא/הלכה/אחרונים/חזון איש/חזון איש, חושן משפט נזיקין.txt"
   }
 ]
