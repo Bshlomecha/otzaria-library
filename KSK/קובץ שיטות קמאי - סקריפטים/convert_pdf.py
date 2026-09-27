@@ -31,7 +31,7 @@ WORK = os.environ.get('KSK_WORK', HERE)  # manifest.json, mapping.json, paras/, 
 OLD_ROOT = os.environ.get('KSK_OLD_ROOT', os.path.join(
     REPO, 'KSK', 'ספרים', 'אוצריא', 'תלמוד בבלי', 'ראשונים'))  # reference h1/names: the packaged books by default;
 # point it at an extracted pre-2026 KSK/ tree for real QA (same <root>/קובץ שיטות קמאי/<seder>/ layout)
-AUTHOR = '\u05dc\u05d9\u05e7\u05d5\u05d8 \u05e8\u05d0\u05e9\u05d5\u05e0\u05d9\u05dd'  # line 2 of every book
+AUTHOR = '\u05d4\u05e8\u05d1 \u05e9\u05dc\u05d5\u05dd \u05de\u05d0\u05d9\u05e8 \u05d9\u05d5\u05e0\u05d2\u05e8\u05de\u05df'  # line 2 of every book
 sys.path.insert(0, HERE)
 from kskdec import decode_file
 from copyright_line import COPYRIGHT_LINE  # line 3 of every book

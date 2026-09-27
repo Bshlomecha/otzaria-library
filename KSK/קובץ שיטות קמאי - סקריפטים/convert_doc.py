@@ -7,7 +7,7 @@ Output: out/<i>.txt, out/<i>.stats.json, out/names.json, out/summary.json
 
 Structure produced (mirrors the old KSK files under KSK/<..>/<seder>/):
   line 1  <h1>TITLE</h1>          (identical to the old file's h1)
-  line 2  AUTHOR                   (anthology label, identical in all 38 books)
+  line 2  AUTHOR                   (the compiler, identical in all 38 books)
   line 3  COPYRIGHT_LINE           (publisher's notice in small gray print; text in copyright.txt)
   <h2>DAF X.</h2> / <h2>DAF X:</h2> per amud  (period = amud a, colon = amud b)
   <h3>LABEL</h3> before each passage; LABEL = the trailing "[...]" source label of the
@@ -37,7 +37,7 @@ WORK = os.environ.get('KSK_WORK', HERE)  # manifest.json, mapping.json, paras/, 
 OLD_ROOT = os.environ.get('KSK_OLD_ROOT', os.path.join(
     REPO, 'KSK', 'ספרים', 'אוצריא', 'תלמוד בבלי', 'ראשונים'))  # reference h1/names: the packaged books by default;
 # point it at an extracted pre-2026 KSK/ tree for real QA (same <root>/קובץ שיטות קמאי/<seder>/ layout)
-AUTHOR = '\u05dc\u05d9\u05e7\u05d5\u05d8 \u05e8\u05d0\u05e9\u05d5\u05e0\u05d9\u05dd'  # line 2 of every book
+AUTHOR = '\u05d4\u05e8\u05d1 \u05e9\u05dc\u05d5\u05dd \u05de\u05d0\u05d9\u05e8 \u05d9\u05d5\u05e0\u05d2\u05e8\u05de\u05df'  # line 2 of every book
 OLD_DIR = os.path.join(OLD_ROOT, 'קובץ שיטות קמאי')
 REPLACE_CSV = os.path.join(HERE, 'replace.csv')  # label fixes (from the old KSK/fix and split/)
 OUT = os.path.join(WORK, 'out')
