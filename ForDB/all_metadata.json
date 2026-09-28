@@ -6475,32 +6475,6 @@
   },
   {
     "heAuthors": [
-      "רבי משה בן נחמן"
-    ],
-    "title": "הלכות נדה לרמב”ן",
-    "enTitle": "Hilkhot Niddah (Ramban)",
-    "authors": [
-      "Moses ben Nachman"
-    ],
-    "pubDate": [
-      1911
-    ],
-    "pubDateHeb": [
-      "ה׳תרע״א"
-    ],
-    "pubPlaceStringEn": "Wilna",
-    "pubPlaceStringHe": "ווילנא",
-    "heCategories": [
-      "ספרי הלכה ומנהג"
-    ],
-    "categories": [
-      "Halachah and Minhagim"
-    ],
-    "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
       "רבי אברהם בן מאיר אבן עזרא"
     ],
     "title": "אבן עזרא הקצר על שמות",
@@ -15904,58 +15878,6 @@
     ],
     "pubPlaceStringEn": "Warsaw",
     "pubPlaceStringHe": "ווארשא",
-    "heCategories": [
-      "מפרשי הש\"ס (אחרונים)"
-    ],
-    "categories": [
-      "Acharonim on Talmud Bavli"
-    ],
-    "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
-      "אשר בן יחיאל"
-    ],
-    "title": "תוספות הרא”ש על ברכות",
-    "enTitle": "Tosfot Rosh (Berakhot)",
-    "authors": [
-      "Asher ben Jehiel"
-    ],
-    "pubDate": [
-      1863
-    ],
-    "pubDateHeb": [
-      "ה׳תרכ״ג"
-    ],
-    "pubPlaceStringEn": "Warsaw",
-    "pubPlaceStringHe": "ווארשא",
-    "heCategories": [
-      "מפרשי הש\"ס (אחרונים)"
-    ],
-    "categories": [
-      "Acharonim on Talmud Bavli"
-    ],
-    "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
-      "אשר בן יחיאל"
-    ],
-    "title": "תוספות הרא”ש על קידושין",
-    "enTitle": "Tosfot Rosh (Kiddushin)",
-    "authors": [
-      "Asher ben Jehiel"
-    ],
-    "pubDate": [
-      1952
-    ],
-    "pubDateHeb": [
-      "ה׳תשי״ב"
-    ],
-    "pubPlaceStringEn": "New York",
-    "pubPlaceStringHe": "ניו יורק",
     "heCategories": [
       "מפרשי הש\"ס (אחרונים)"
     ],
