@@ -1,6 +1,6 @@
 import json,os,re,sys,collections
 from common import SRC, mask
-from build import SPEC, SUFFIX, FOLDER, NOTE_RE, HEAD_RE, split_heading
+from build import SPEC, SUFFIX, FOLDER, NOTE_RE, HEAD_RE, split_heading, COPYRIGHT
 out=sys.argv[1]
 src={}
 for x in os.listdir(SRC):
@@ -22,11 +22,13 @@ for vol,specs in SPEC.items():
             p=r['path_2']
             if p not in comps: comps[p]=open(os.path.join(fol,p),encoding='utf-8').read()[:-1].split('\n')
             per[r['line_index_1']].append(comps[p][r['line_index_2']-1])
-        # every companion line linked or heading/h1/blank
+        if base[2]!=COPYRIGHT: bad['copyright line']+=1
+        # every companion line linked or heading/h1/blank/the copyright line
         for p,cl in comps.items():
+            if cl[2]!=COPYRIGHT: bad['copyright line']+=1
             linked={r['line_index_2'] for r in recs if r['path_2']==p}
             for j,l in enumerate(cl):
-                if j+1 not in linked and l.strip() and not re.match(r'<h\d',l): bad['unlinked comp line']+=1
+                if j+1 not in linked and l.strip() and not re.match(r'<h\d',l) and not (j==2 and l==COPYRIGHT): bad['unlinked comp line']+=1
                 if j+1 in linked and ('<i>' in l or '<i ' in l): bad['i in note']+=1
         ren=extra.get('renumber_heb')
         for i,(l,n) in enumerate(zip(base,origin)):

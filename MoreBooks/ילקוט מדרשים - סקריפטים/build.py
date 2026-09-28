@@ -17,6 +17,10 @@ SERIES_NAME = {'dig': 'הערות במספרים על ',
                'heb': 'הערות באותיות על ',
                'ast': 'שינויי נוסחאות על '}
 SERIES_ORDER = ['dig', 'heb', 'ast']
+# line 3 of every book, base and companion alike (form of commit 260d2c1a)
+COPYRIGHT = ('<span style="color:Gray;"><small>© כל הזכויות שמורות למכון '
+             '׳אור עולם׳ - צפת.</small></span>')
+HEADER_LINES = 3   # <h1>, subtitle-or-blank, COPYRIGHT
 
 # (title, subtitle, [(first, last, level_shift), ...], extra)
 # line numbers are 1-based and inclusive, in the source volume
@@ -138,13 +142,14 @@ def build(out_dir):
                 _, sub = split_heading(2, HEAD_RE.match(
                     L[extra['sub_from_line'] - 1]).group(2))
             base = ['<h1>%s</h1>' % title,
-                    '<small>%s</small>' % sub if sub else '']
+                    '<small>%s</small>' % sub if sub else '',
+                    COPYRIGHT]
             comp = {s: [] for s in SERIES_ORDER}   # note lines per series
             comp_links = {s: [] for s in SERIES_ORDER}
             comp_heads = {s: [] for s in SERIES_ORDER}  # emitted chain
             head_stack = []   # [(level, text)] current chain in base
             origin = []       # base line idx -> source line no (or None)
-            origin += [None, None]
+            origin += [None] * HEADER_LINES
             ren = extra.get('renumber_heb')
             ren_count = 0
             if extra.get('intro_note'):
@@ -213,7 +218,7 @@ def build(out_dir):
                 if not comp[s]:
                     continue
                 ctitle = SERIES_NAME[s] + btitle
-                clines = ['<h1>%s</h1>' % ctitle, ''] + comp[s]
+                clines = ['<h1>%s</h1>' % ctitle, '', COPYRIGHT] + comp[s]
                 with open(os.path.join(folder, ctitle + '.txt'), 'w',
                           encoding='utf-8') as f:
                     f.write('\n'.join(clines) + '\n')
@@ -223,7 +228,7 @@ def build(out_dir):
                         'line_index_1': bl,
                         'heRef_2': '%s %s' % (ctitle, mk.group(1) if mk else 'מבוא'),
                         'path_2': ctitle + '.txt',
-                        'line_index_2': cl + 2,
+                        'line_index_2': cl + HEADER_LINES,
                         'Conection Type': 'footnotes',
                     })
                 made.append((s, len(comp_links[s])))
