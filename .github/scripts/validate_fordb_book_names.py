@@ -54,6 +54,12 @@ sefariaToOtzaria/.../otzaria/utils.py):
 סמנטיות אחרות נשארים report-only ומפילים את הריצה, כי הסרתם תאבד כוונה אנושית.
 משיכת ספריא חיה היא תנאי מוקדם ל--fix; כשל API יוצא בקוד 2 לפני כל כתיבה, כדי שכשל
 רשת לעולם לא ימחק שורה תקינה.
+
+שינויי-שם של קבצי ספרים (--rename-base): לפני הסרת היתומים נבדקת ההיסטוריה שטרם
+אומתה (מהבסיס עד HEAD). שורה שהתייתמה כי קובץ הספר שלה *שונה בשמו* בטווח הזה אינה
+נמחקת — שמה מוחלף לשם החדש בכל קובץ שמזהה ספר לפי שם (fordb_book_renames.py). שינוי-
+שם שלא ניתן ליישר בבטחה (עמום, נוגע ב-book_renames, התנגשות קישורים) מפיל את הריצה
+ושומר את השורות.
 """
 
 import argparse
@@ -64,6 +70,8 @@ import re
 import subprocess
 import sys
 import urllib.request
+
+import fordb_book_renames as book_renames_follow
 
 # ---------------------------------------------------------------------------
 # נתיבים
@@ -81,6 +89,12 @@ FORDB_METADATA = os.path.join(FORDB, "all_metadata.json")
 
 # דוח --fix עבור ה-workflow: נכתב רק כאשר הוסר משהו בפועל.
 REMOVED_REPORT = os.path.join(REPO_ROOT, "fordb_removed.json")
+# שינויי-שם שיושרו (--fix), רשימת הנתיבים שה-workflow מוסיף לקומיט (NUL), והודעת הקומיט.
+RENAMED_REPORT = os.path.join(REPO_ROOT, "fordb_renamed.json")
+TOUCHED_LIST = os.path.join(REPO_ROOT, "fordb_touched.txt")
+COMMIT_MESSAGE = os.path.join(REPO_ROOT, "fordb_commit_message.txt")
+FIX_OUTPUTS = (REMOVED_REPORT, RENAMED_REPORT, TOUCHED_LIST, COMMIT_MESSAGE)
+LINKS_SYNC_CONFIG = "manual_links_sync.json"
 
 # API של ספריא: עץ התוכן המלא (TOC) - מכיל את כל שמות הספרים, ללא הטקסטים.
 SEFARIA_INDEX_URL = "https://www.sefaria.org/api/index/"
@@ -129,14 +143,23 @@ def col_index(header, name):
 # ב-DB נגזר מ-normalizeHebrewLabel של Generator.kt (ראו db_title למטה), הממירה
 # מרכאות לגרשיים במקום להסיר אותן. sanitize_title משמש כאן כמפתח *התאמה* בלבד
 # ("איזה קובץ ספר מדובר"), ו-db_title קובע את *האיות המדויק* הנדרש.
+#
+# המפתח חייב להיות יציב תחת db_title: sanitize_title(db_title(x)) == sanitize_title(x).
+# אחרת שם קובץ עם מרכאות מסולסלות (”), גרש כפול (׳׳), backtick או רווח כפול מקבל מפתח
+# שונה מהשורה שנכתבה באיות ה-DB שלו, והשורה נראית יתומה. כך נמחקו ב-3d96022b השורות
+# של 'הגהות הב”ח' ו'השמטות הריטב”א' אחרי ששם הקובץ קיבל ” בלבד. לכן מקפלים קודם את
+# אותן צורות שמקפלת db_title, ורק אז מסירים.
 # ---------------------------------------------------------------------------
 def sanitize_title(name):
     if name is None:
         return None
     s = re.sub("[֑-ׇ]", "", name)            # טעמים וניקוד
+    s = s.replace("“", '"').replace("”", '"').replace("‘", "'").replace("’", "'")
+    # backtick לפני הגרש הכפול: '``' הוא ׳׳ אחרי db_title, וקיפול חוזר הופך אותו ל-״.
+    s = s.replace("`", GERESH).replace(GERESH + GERESH, GERSHAYIM)
     s = re.sub("[\\\\/:*\"״?<>|]", "", s)          # \ / : * " ״ ? < > |
     s = s.replace("_", " ").replace("''", "").replace("'", "")
-    return s.strip()
+    return ASCII_WHITESPACE_RUN.sub(" ", s).strip()
 
 
 # ---------------------------------------------------------------------------
@@ -479,11 +502,13 @@ def load_rename_pairs():
     return pairs
 
 
-def remove_orphans(path, col_name, db_final, srename):
+def remove_orphans(path, col_name, db_final, srename, protected=frozenset()):
     """מסיר שורות CSV ששם ספרן לא יגיע ל-DB, בלי לשכתב שורות תקינות.
 
     הקבצים האלה אינם מכילים שדות מרובי-שורות. שומרים את הטקסט המדויק של כל שורה
     שנשארת כדי ש-auto-fix לא ייצור diff מכני גדול של quoting/סדר.
+    protected: מפתחות מנוקים של שמות ששונו בטווח אך לא ניתן היה ליישרם בבטחה. הם
+    נשארים (ומדווחים ככשל), כי מחיקתם היא בדיוק אובדן המידע שהמעקב נועד למנוע.
     """
     with open(path, "r", encoding="utf-8-sig", newline="") as f:
         physical_lines = f.read().splitlines(keepends=True)
@@ -503,7 +528,7 @@ def remove_orphans(path, col_name, db_final, srename):
         raw_name = row[c_idx] if len(row) > c_idx else ""
         clean = sanitize_title(raw_name)
         final = srename.get(clean, clean)
-        if raw_name and final not in db_final:
+        if raw_name and final not in db_final and clean not in protected:
             removed.append((line_no, raw_name))
         else:
             kept.append(physical)
@@ -512,6 +537,180 @@ def remove_orphans(path, col_name, db_final, srename):
         with open(path, "w", encoding="utf-8", newline="") as f:
             f.writelines(kept)
     return removed
+
+
+# ---------------------------------------------------------------------------
+# מעקב שינויי-שם של קבצי ספרים
+# ---------------------------------------------------------------------------
+def links_roots_at_head():
+    """שורשי ה-links הנארזים (expected_state=present). נקרא מ-HEAD, כי
+    manual_links_sync.json אינו ב-sparse-checkout של ה-workflow."""
+    result = subprocess.run(
+        ["git", "-C", REPO_ROOT, "show", f"HEAD:{LINKS_SYNC_CONFIG}"], capture_output=True
+    )
+    if result.returncode != 0:
+        # אין הגדרת שורשים => אין קישורים נארזים שאפשר ליישר; שאר הקבצים עדיין נעקבים.
+        print(f"::warning::{LINKS_SYNC_CONFIG} אינו ב-HEAD; שינויי-שם לא יושרו בקבצי הקישורים.")
+        return []
+    config = json.loads(result.stdout.decode("utf-8"))
+    return [r["path"] for r in config.get("links_roots", []) if r.get("expected_state") == "present"]
+
+
+def follow_book_renames(bases, db_final, srename, apply):
+    """מזהה שינויי-שם בטווח שטרם אומת ומתכנן (ובמצב apply גם כותב) את יישורם.
+
+    מחזיר (resolution, plan, base, held_referenced). held_referenced = שמות ששונו אך לא
+    ניתן ליישרם בבטחה *והם מוזכרים* בקובץ יעד — אלה מפילים את הריצה. בלי בסיס זמין לא
+    נעקב דבר, וההתנהגות זהה לזו שלפני המעקב (יתומים מוסרים)."""
+    resolution = book_renames_follow.RenameResolution()
+    plan = book_renames_follow.RenamePlan()
+    if not bases:
+        return resolution, plan, None, set()
+    base = book_renames_follow.pick_rename_base(REPO_ROOT, bases)
+    if base is None:
+        print("::warning::אין בסיס זמין למעקב אחרי שינויי-שם; שורות יתומות יוסרו בלי לבדוק אם הספר רק שינה שם.")
+        return resolution, plan, None, set()
+
+    head_paths = {p for p in list_tracked_paths() if p}
+
+    def is_db_path(path):
+        return path.startswith(DB_BOOK_PREFIXES) and path.lower().endswith(DB_BOOK_EXTS)
+
+    def is_live_key(key):
+        return srename.get(key, key) in db_final
+
+    rename_keys = set(srename) | set(srename.values())
+
+    # respell (שינוי איות בלבד) דורש לדעת שהאיות הישן אינו כותרת של ספר חי — כולל
+    # ספריא. בלי הקטלוג החי אין ודאות, ולכן respell כבוי ובדיקת האיות מדווחת כרגיל.
+    is_live_spelling = None
+    live_titles = sefaria_live_titles() if SEFARIA_FETCH else None
+    if live_titles is not None:
+        live_spellings = set(live_titles) | {db_title(t) for t in live_titles}
+        for candidates in packaged_db_titles().values():
+            live_spellings |= candidates
+
+        def is_live_spelling(spelling):
+            return spelling in live_spellings
+
+    events = book_renames_follow.read_path_events(REPO_ROOT, base)
+    resolution = book_renames_follow.resolve_renames(
+        events,
+        lambda: book_renames_follow.read_net_renames(REPO_ROOT, base),
+        head_paths,
+        is_db_path,
+        sanitize_title,
+        is_live_key,
+        rename_keys,
+        db_title=db_title,
+        is_live_spelling=is_live_spelling,
+    )
+    print(
+        f"[renames] בסיס {base[:12]}..HEAD: {len(events)} שינויי קבצי .txt, "
+        f"{len(resolution.renames)} שינויי-שם ליישור, {len(resolution.held_keys)} שלא ניתן ליישר"
+    )
+
+    roots = []
+    if resolution.renames or resolution.held_keys:
+        roots = links_roots_at_head()
+        book_renames_follow.ensure_in_worktree(
+            REPO_ROOT, [t.path for t in book_renames_follow.JSON_TARGETS] + roots
+        )
+    if resolution.renames:
+        plan = book_renames_follow.plan_renames(
+            REPO_ROOT, resolution.renames, db_title, sanitize_title, DB_BOOK_PREFIXES, roots
+        )
+        for key, reason in plan.blocked.items():
+            rename = resolution.renames.pop(key)
+            if rename.respell:
+                # תיקון איות שלא ניתן להחיל נשאר בידי בדיקת האיות (report-only, מפיל).
+                print(f"[renames] תיקון האיות {rename.old_title!r} → {rename.new_title!r} לא הוחל: {reason}")
+            else:
+                resolution.blocked[key] = reason
+    held_referenced = set()
+    if resolution.held_keys:
+        held_referenced = book_renames_follow.find_references(
+            REPO_ROOT, resolution.held_keys, sanitize_title, roots
+        )
+    if apply:
+        book_renames_follow.apply_plan(REPO_ROOT, plan)
+    return resolution, plan, base, held_referenced
+
+
+def print_rename_report(resolution, plan, applied):
+    if not resolution.renames and not resolution.held_keys:
+        return
+    verb = "יושרו" if applied else "ייושרו אוטומטית במיזוג ל-main"
+    if resolution.renames:
+        print(f"\n🔁 {len(resolution.renames)} ספרים ששמם שונה — הרשומות שלהם {verb} לשם החדש:")
+        for key in sorted(resolution.renames):
+            r = resolution.renames[key]
+            note = "  [איות בלבד]" if r.respell else ""
+            print(f"     - {r.old_title!r} → {r.new_title!r}  ({r.commit[:10]}){note}")
+            for change in plan.changes:
+                if change.rename_key == key:
+                    print(f"         · {change.path}: {change.kind} {change.detail}")
+    for key in sorted(resolution.ambiguous):
+        print(f"\n⚠️  השם {key!r} שונה ליותר מיעד אחד: {resolution.ambiguous[key]}")
+    for key in sorted(resolution.blocked):
+        print(f"\n⚠️  השם {key!r} שונה, אך לא יושר: {resolution.blocked[key]}")
+
+
+def write_fix_outputs(removed, resolution, plan):
+    """דוחות --fix ל-workflow. דבר לא נכתב כשלא השתנה דבר."""
+    touched = set(plan.touched) | {file_label for file_label, _name, _reason in removed}
+    if not touched:
+        return
+    changed_keys = {c.rename_key for c in plan.changes}
+    if removed:
+        with open(REMOVED_REPORT, "w", encoding="utf-8") as f:
+            json.dump(
+                [{"file": file_label, "name": name, "reason": reason} for file_label, name, reason in removed],
+                f,
+                ensure_ascii=False,
+                indent=2,
+            )
+            f.write("\n")
+    if plan.changes:
+        with open(RENAMED_REPORT, "w", encoding="utf-8") as f:
+            json.dump(
+                [
+                    {
+                        "old": r.old_title,
+                        "new": r.new_title,
+                        "commit": r.commit,
+                        "changes": [
+                            {"file": c.path, "kind": c.kind, "detail": c.detail}
+                            for c in plan.changes
+                            if c.rename_key == key
+                        ],
+                    }
+                    for key, r in sorted(resolution.renames.items())
+                    if key in changed_keys
+                ],
+                f,
+                ensure_ascii=False,
+                indent=2,
+            )
+            f.write("\n")
+    with open(TOUCHED_LIST, "w", encoding="utf-8") as f:
+        f.write("".join(path + "\0" for path in sorted(touched)))
+
+    if plan.changes and removed:
+        subject = "ci(fordb): follow book renames and remove inputs that cannot be applied"
+    elif plan.changes:
+        subject = "ci(fordb): follow book renames"
+    else:
+        subject = "ci(fordb): remove inputs that cannot be applied"
+    body = []
+    for key, r in sorted(resolution.renames.items()):
+        if key not in changed_keys:
+            continue
+        body.append(f"- {r.old_title} → {r.new_title} (renamed in {r.commit[:10]})")
+    for file_label, name, reason in removed:
+        body.append(f"- removed [{reason}] {file_label}: {name}")
+    with open(COMMIT_MESSAGE, "w", encoding="utf-8") as f:
+        f.write(subject + "\n\n" + "\n".join(body) + "\n")
 
 
 # ---------------------------------------------------------------------------
@@ -524,16 +723,33 @@ def main():
         action="store_true",
         help="הסרת שורות יתומות דטרמיניסטיות מ-generations/book_moves וכפילויות מקור-ספריא",
     )
+    parser.add_argument(
+        "--rename-base",
+        action="append",
+        default=[],
+        metavar="COMMIT",
+        help="קומיט שממנו ואילך ההיסטוריה טרם אומתה (ניתן לחזור; הראשון שהוא אב של HEAD נבחר). "
+        "שינויי-שם של קבצי ספרים בטווח מיושרים במקום שהשורות יימחקו כיתומות.",
+    )
     args = parser.parse_args()
     if args.fix and not SEFARIA_FETCH:
         print("::error::--fix דורש SEFARIA_FETCH=1; מסרבים למחוק מול רשימת ספריא חלקית.")
         return 2
-    if args.fix and os.path.exists(REMOVED_REPORT):
-        os.unlink(REMOVED_REPORT)
+    if args.fix:
+        for stale in FIX_OUTPUTS:
+            if os.path.exists(stale):
+                os.unlink(stale)
 
     rename_pairs = load_rename_pairs()
     srename = build_sanitized_rename(rename_pairs)
     sources, final_canon, db_final, sefaria_final = load_canonical(srename)
+
+    # 0) שינויי-שם של קבצי ספרים בטווח שטרם אומת. חייב לרוץ לפני הסרת היתומים:
+    #    שורה שהתייתמה רק כי הקובץ שונה בשמו מקבלת את השם החדש, בכל הקבצים.
+    #    ב-report-only (PR) רק מדווחים; דבר לא נכתב.
+    resolution, rename_plan, _rename_base, held_referenced = follow_book_renames(
+        args.rename_base, db_final, srename, apply=args.fix
+    )
 
     # failures[file] = list of (line/identifier, raw_name, checked_name)
     failures = {}
@@ -571,9 +787,11 @@ def main():
         if args.fix:
             removed.extend(
                 (file_label, name, "orphan")
-                for _line_no, name in remove_orphans(path, col, db_final, srename)
+                for _line_no, name in remove_orphans(
+                    path, col, db_final, srename, protected=resolution.held_keys
+                )
             )
-            continue
+        # ב--fix נשארו כאן רק שורות מוגנות (שינוי-שם שלא יושר) — והן מדווחות ומפילות.
         header, rows = read_csv_rows(path, has_header=True)
         c_idx = col_index(header, col)
         for line_no, row in enumerate(rows, start=2):
@@ -670,22 +888,24 @@ def main():
         db_raw_titles |= set(live_titles)
     dead_renames = find_dead_renames(rename_pairs, db_raw_titles)
 
+    print_rename_report(resolution, rename_plan, applied=args.fix)
+    if args.fix:
+        write_fix_outputs(removed, resolution, rename_plan)
     if args.fix and removed:
-        with open(REMOVED_REPORT, "w", encoding="utf-8") as f:
-            json.dump(
-                [{"file": file_label, "name": name, "reason": reason} for file_label, name, reason in removed],
-                f,
-                ensure_ascii=False,
-                indent=2,
-            )
-            f.write("\n")
         print(f"\n🧹 הוסרו אוטומטית {len(removed)} רשומות ForDB שלא היו מיושמות בריצה:")
         for file_label, name, reason in removed:
             print(f"     - [{reason}] {file_label}: {name!r}")
 
     # ----- דוח -----
     total = sum(len(v) for v in failures.values())
-    if total == 0 and not duplicates and not source_leaks and not spelling and not dead_renames:
+    if (
+        total == 0
+        and not duplicates
+        and not source_leaks
+        and not spelling
+        and not dead_renames
+        and not held_referenced
+    ):
         print(
             "\n✅ כל שמות הספרים ב-ForDB קיימים ברשימת הספרים הקנונית, מאויתים כפי שייכתבו "
             "ל-book.title, אין כפילויות שם בתיקיות הנארזות, ואין דליפת-מקור."
@@ -739,6 +959,14 @@ def main():
         print("   יש לתקן את שם המקור לאיות האמיתי, או להסיר את השורה אם השינוי כבר לא רצוי:\n")
         for line_no, old, new, actual in dead_renames:
             print(f"     - שורה {line_no}: {old!r} -> {new!r};  הכותרת בפועל: {actual!r}")
+        print()
+
+    if held_referenced:
+        print(f"\n❌ {len(held_referenced)} ספרים שונו בשמם, והרשומות שלהם לא יושרו אוטומטית ולא נמחקו:")
+        print("   יש ליישר ידנית את השם בקבצי ForDB, ב-metadata.json ובקבצי הקישורים:\n")
+        for key in sorted(held_referenced):
+            reason = resolution.blocked.get(key) or f"כמה יעדים: {resolution.ambiguous.get(key)}"
+            print(f"     - {key!r}: {reason}")
         print()
 
     return 1

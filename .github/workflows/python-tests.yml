@@ -9,6 +9,7 @@ name: Python tests
 # מה לא רץ כאן ולמה:
 #   .github/scripts/test_validate_fordb_book_names.py — רץ ב-validate-fordb-book-names.yml,
 #     ה-job היחיד שכבר מושך את ForDB מ-LFS (RepositoryForDbTest קורא את ה-CSV-ים).
+#   .github/scripts/test_fordb_book_renames.py — רץ לצידה, באותו צעד self-test.
 #   .github/scripts/test_validate_manual_links_refs.py — כבר שער PR ב-validate-manual-links-refs.yml.
 #   National-LibraryToOtzaria/סקריפטים/test_*.py — כבר שער PR ב-validate-national-library-normalizers.yml.
 #   linker-eval/matcher_b26/test_dibur_matcher.py — עותק זהה בית-לבית של חבילת ה-linker,
