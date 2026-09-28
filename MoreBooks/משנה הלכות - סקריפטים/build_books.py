@@ -18,6 +18,8 @@ VOLS = ['א', 'ב', 'ג', 'ד', 'ה', 'ו', 'ז', 'ח', 'ט', 'י',
         'יא', 'יב', 'יג', 'יד', 'טו', 'טז', 'יז']
 VOL_NUM = {v: i + 1 for i, v in enumerate(VOLS)}
 AUTHOR_LINE = 'רבי מנשה קליין'
+COPYRIGHT_LINE = ('<span style="color:Gray;"><small>© כל הזכויות שמורות '
+                  'למכון ׳משנה הלכות׳ - אונגוואר</small></span>')
 # lines of the PDF-extracted simanim set in the printed topic font
 # (DWVilna Bold 12.7): the opening topic, plus sub-headings inside 16:137
 MISSING_BOLD = {'12:403': {0}, '16:136': {0, 4},
@@ -126,7 +128,8 @@ def build_volume(vol, src, plan, lost, missing):
     missing_here = {int(k.split(':')[1]): v for k, v in missing.items()
                     if int(k.split(':')[0]) == VOL_NUM[vol]}
 
-    out = ['<h1>שו"ת משנה הלכות חלק %s</h1>' % vol, AUTHOR_LINE]
+    out = ['<h1>שו"ת משנה הלכות חלק %s</h1>' % vol, AUTHOR_LINE,
+           COPYRIGHT_LINE]
     printed_seen = []
     in_section = [False]
 

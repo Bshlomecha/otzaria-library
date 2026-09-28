@@ -20,7 +20,7 @@ for vol in B.VOLS:
     out=open(f"{OUT}/שות משנה הלכות חלק {vol}.txt",encoding='utf-8').read().splitlines()
     insnums={B.gematria(int(k.split(':')[1])) for k in miss if int(k.split(':')[0])==B.VOL_NUM[vol]}
     body=[];skip=False
-    for l in out[2:]:
+    for l in out[3:]:  # h1, author, copyright notice
         m=re.match(r'<h([23])>(?:סימן )?([^<]*)</h',l)
         if m:
             if l.startswith('<h3>') or 'סימן' in l: skip = m.group(2) in insnums
