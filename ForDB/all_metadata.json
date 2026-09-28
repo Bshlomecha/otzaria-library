@@ -30308,14 +30308,14 @@
   {
     "title": "פירוש הראש על מדות",
     "heAuthors": [
-      "ר' אשר בן יחיאל"
+      "רבינו אשר בן יחיאל"
     ],
     "Sourcefolder": "wikiSource"
   },
   {
     "title": "פירוש הראש על קינים",
     "heAuthors": [
-      "ר' אשר בן יחיאל"
+      "רבינו אשר בן יחיאל"
     ],
     "Sourcefolder": "wikiSource"
   },
@@ -31716,5 +31716,12 @@
     ],
     "publisher": "ים החכמה",
     "Sourcefolder": "yam-HaHachma"
+  },
+  {
+    "title": "פירוש הראש על זבים",
+    "heAuthors": [
+      "רבינו אשר בן יחיאל"
+    ],
+    "Sourcefolder": "MoreBooks"
   }
 ]
