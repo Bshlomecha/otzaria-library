@@ -1,0 +1,1826 @@
+[
+ {
+  "key": "אבטיח||עשית צורות מקליפתו|יא טז*",
+  "raw_fixed": "יא טו*",
+  "reason": "watermelon-rind basket is the *-gloss of seif יא טו (line 1210); seif טז = terumot"
+ },
+ {
+  "key": "אבן||הכאה בברזל בה|כב קנט",
+  "raw_fixed": "כב (קנט)",
+  "reason": "no seif קנט; note כב (קנט) says \"מותר להכות בברזל על אבן\""
+ },
+ {
+  "key": "אדמה||פירור גושיה|ו א כו",
+  "unlink": [
+   "כו"
+  ],
+  "reason": "ch ו has no seif כו; note ו (כו) is on bread crumbs; intent unknown"
+ },
+ {
+  "key": "אוויר||ניפוחו באבוב או בכדור|טז ז; לג מט; לד כד",
+  "raw_fixed": "טז ז; לג (מט); לד כד",
+  "reason": "no seif לג מט; note לג (מט) discusses inflating a ball (parallel entries print \"לג (מט)\")"
+ },
+ {
+  "key": "אוכל||עשיתו כבסיס|כ (קצט), רצד); * כא (טו)",
+  "raw_fixed": "כ (קצט), (רצד); * כא (טו)",
+  "reason": "lost \"(\": note כ (רצד) = אוכלין נעשין בסיס (cited by note כא טו)"
+ },
+ {
+  "key": "אור|ראה גם חשמל|הנאה ממנו כשנכרי הדליקו|מבוא ב (נא); ל ז, לז-לח, מז, נח",
+  "unlink": [
+   "מבוא ב (נא)",
+   "מז",
+   "נח"
+  ],
+  "reason": "מבוא ב has notes only to מה; ל מז (cooking) and ל נח (boiled water) do not mention light"
+ },
+ {
+  "key": "איכות|המזון שמבשלים לצורך חולה||לב (צב); עח, (רא)",
+  "raw_fixed": "לב (צב), עה, (רא)",
+  "reason": "ח/ה typo: note רא sits in seif לב עה (quantity cooked for sick); parallel #676 \"לב (צב), עה, (רא)\"; note צב discusses quality"
+ },
+ {
+  "key": "אנשים בתור מחיצה|||כד (קנה)",
+  "raw_fixed": "כד (קכה)",
+  "reason": "ch כד notes end at קמג; note כד (קכה) = people standing as a partition (parallel \"מחיצה ע\"י אנשים — כד (קכה)\"); נ/כ typo"
+ },
+ {
+  "key": "בקבוק־חם||מילויו|א פד; לד סא",
+  "raw_fixed": "א פד; לד (סא)",
+  "reason": "ch לד has no seif סא; note לד (סא) = filling the hot-water bottle"
+ },
+ {
+  "key": "גומות||מקום איסור השוואתן|טז (רא)",
+  "raw_fixed": "טז (כא)",
+  "reason": "no note טז (רא); note טז (כא) = השוואת גומות place; parallel \"השוואת גומות מקום איסורה — טז (כא)\""
+ },
+ {
+  "key": "גרף של רעי||מוקצה מחמת מיאוס, ההבדל בינהם|כב קכב",
+  "raw_fixed": "כב (קכב)",
+  "reason": "no seif; note כב (קכב) = מוקצה מחמת מיאוס vs גרף של רעי (parallel prints \"כב (קכב)\")"
+ },
+ {
+  "key": "הגדרה||נולד|כב קנט",
+  "raw_fixed": "כב (קנט)",
+  "reason": "no seif; note כב (קנט) = the three kinds of נולד"
+ },
+ {
+  "key": "הוצאה (מרל\"ר)||הוראות־טיפול בחולה|מ",
+  "unlink": [
+   "מ"
+  ],
+  "reason": "bare chapter number, no seif"
+ },
+ {
+  "key": "זיתים||סחיטתם|ה (יט), (כב), מא)",
+  "raw_fixed": "ה (יט), (כב), (מא)",
+  "reason": "lost \"(\": note ה (מא) = olives cannot be squeezed by hand"
+ },
+ {
+  "key": "חולה שאין בו סכנה (חושאיב\"ס)||הכנת אוכל־נפש לו|* לג נה, נו",
+  "raw_fixed": "* לג כה, כו",
+  "reason": "ch לג ends at כח; seifim לג כה-כו = YT and אוכל־נפש for חושאיב\"ס (נ/כ typo)"
+ },
+ {
+  "key": "טלטול||גרף של רעי|י (לד); כב מו, (קכג), (קכו *)",
+  "raw_fixed": "י (לד); כב מו, (קכג), (קכו) *",
+  "reason": "print has \"(קכו) *\" (differs-star outside the parens)"
+ },
+ {
+  "key": "כמות||המזון שמבשלים לצורך חולה|כט (צב), עה, (רא)",
+  "raw_fixed": "לב (צב), עה, (רא)",
+  "reason": "ch כט has no seif עה; ch לב seif עה + notes צב, רא are exactly this (parallel #676)"
+ },
+ {
+  "key": "לישה||בהטבלת מאפה במשקין|ה עט, (לו)",
+  "raw_fixed": "ה ט, (לו)",
+  "reason": "no seif ה עט; note לו is in seif ה ט (dipping bread in soup); parallel \"ה ט\""
+ },
+ {
+  "key": "מחיצה (מתקפלת)||שימוש בה|כה מג; מ נב",
+  "raw_fixed": "כד מג; מ נב",
+  "reason": "ch כה ends at יג; seif כד מג = using a folding partition (parallel \"כד מג\")"
+ },
+ {
+  "key": "מכסה||כיסוי עוגה בו והסרתו|יא מט",
+  "raw_fixed": "יא מג",
+  "reason": "no seif יא מט; seif יא מג = covering a cake with a lid and removing it"
+ },
+ {
+  "key": "מלבין קפה|לענין בישול||א קפה*",
+  "raw_fixed": "א (קפה*)",
+  "reason": "no seif; note א (קפה*) mentions מלבין קפה"
+ },
+ {
+  "key": "מנה חמה|הכנתה בשבת||א קפה*",
+  "raw_fixed": "א (קפה*)",
+  "reason": "no seif; note א (קפה*) discusses \"מנה חמה\""
+ },
+ {
+  "key": "מפיות־נייר|קיפולן||יא, ס; טז (סא)",
+  "raw_fixed": "יא מא; טז (סא)",
+  "reason": "no seif יא ס; seif יא מא = folding paper napkins (parallel \"מפית־נייר קיפולה — יא מא; טז (סא)\")"
+ },
+ {
+  "key": "מקרר||שימוש בו|מבוא א קסט; י יב-טז",
+  "raw_fixed": "מבוא א (קסט); י יב-טז",
+  "reason": "no seif; note מבוא א (קסט) = electric refrigerator"
+ },
+ {
+  "key": "נולד|||א מג, צ; י (ג), (ט), (יד), (כד); יא; (מז) (קלד); יב (טז); יג (קמו); * כא (כ); כב (קנז)",
+  "raw_fixed": "א מג, צ; י (ג), (ט), (יד), (כד); יא (מז) (קלד); יב (טז); יג (קמו); * כא (כ); כב (קנט)",
+  "unlink": [
+   "(קלד)"
+  ],
+  "reason": "print \"יא (מז) (קלד)\": note יא מז = נולד (spray); יא (קלד) is measuring on YT -> unlinked; כב (קנז) (tevel) -> (קנט) = the נולד note (ז/ט typo, also in \"לבישה בגדים סינתטיים\")"
+ },
+ {
+  "key": "נייר־כסף|לכיסוי על האש||א (פג*)",
+  "raw_fixed": "א (סג*)",
+  "reason": "no note פג*; note א (סג*) = thin aluminium foil as a cover on the fire"
+ },
+ {
+  "key": "סחיטה||בגד מחומר סינתטי|ט מב, מד; לב (קנט)",
+  "unlink": [
+   "ט מב",
+   "מד"
+  ],
+  "reason": "ch ט ends at כח; no clear target (maybe יב מב, מד)"
+ },
+ {
+  "key": "עירוב תחומין|פרטי דיניו||יז לו-סא",
+  "raw_fixed": "יז לו-ס",
+  "reason": "ch יז ends at seif ס"
+ },
+ {
+  "key": "תחום־שבת||פרטי דיניו|יז לו-סא",
+  "raw_fixed": "יז לו-ס",
+  "reason": "ch יז ends at seif ס"
+ },
+ {
+  "key": "פרעוש|תפישתו||כה (ז) י, לד (קטז)",
+  "raw_fixed": "כה (ז) י; לד (קטז)",
+  "unlink": [
+   "כה (ז)",
+   "י"
+  ],
+  "reason": "note לד (קטז) = catching a flea (new chapter); כה (ז) (wasp) and כה י (broken glass) are not about fleas"
+ },
+ {
+  "key": "ציצית||הפרדת חוטיה כשנסתבכו|טו צד, (רפד)",
+  "unlink": [
+   "(רפד)"
+  ],
+  "reason": "ch טו notes end at רפב"
+ },
+ {
+  "key": "קטן||הוצאתו מרל\"ר|כד (קנה)",
+  "raw_fixed": "כד (קכה)",
+  "reason": "ch כד notes end at קמג; note כד (קכה) ends with a child carrying an item through רה\"ר (same bad ref as #375)"
+ },
+ {
+  "key": "שבת ויו\"ט|השפעתם על תרו\"מ||מבוא ג סד",
+  "raw_fixed": "מבוא ג (סד)",
+  "reason": "no seif; note מבוא ג (סד) = whether YT fixes tithes like Shabbat"
+ },
+ {
+  "key": "תענית||כעונג שבת|מבוא ב (סה)",
+  "unlink": [
+   "מבוא ב (סה)"
+  ],
+  "reason": "מבוא ב notes end at מה; candidates ב (מב)/ג (סה) uncertain"
+ },
+ {
+  "key": "תרופה||(בצורת סירופ) הכנתה בשבת|לד ד*",
+  "raw_fixed": "לג ד*",
+  "reason": "ch לג has starred seif ד* = preparing powdered syrup medicine"
+ },
+ {
+  "key": "ביטול כלי מהיכנו||הגדרה|יג (קלט) כב (מג) (קכח)",
+  "raw_fixed": "יג (קלט); כב (מג), (קכח)",
+  "reason": "missing \";\": כב is a chapter; notes כב מג, קכח define ביטול כלי מהיכנו"
+ },
+ {
+  "key": "ביצים||קיצוצן|י, ג; * ז, ו",
+  "raw_fixed": "ו ג; * ז, ו",
+  "reason": "ch י seif ג is ice; seif ו ג = egg slicer (Shabbat analog of ז ו)"
+ },
+ {
+  "key": "בקבוק־תינוק||גזירת פיטמתו|ט ז; * (כג)",
+  "raw_fixed": "ט ז; * כג",
+  "reason": "note ט (כג) is about cans; YT rule is seif ט כג (parallel \"בקבוק (פלאסטי) גזירת פיטמתו — ט ז; * כג\")"
+ },
+ {
+  "key": "ברירה||פסולת מתוך אוכל|ג י, * ד ג; * כא (ה)",
+  "force": "NC",
+  "reason": "\"* ד ג\" = YT chapter ד seif ג (בורר ביו\"ט), not ch ג seifim ד, ג"
+ },
+ {
+  "key": "הזנה|בע\"ח||כז כא; * כב, כג",
+  "raw_fixed": "כז כא, * כב, כג",
+  "reason": "\"* כב, כג\" are seifim of ch כז (YT feeding animals), not ch כב seif כג"
+ },
+ {
+  "key": "חוט||השחלתו במחט|יא, * (קמז); * יג (פח)",
+  "unlink": [
+   "יא, * (קמז)"
+  ],
+  "reason": "note יא (קמז) is soda water; no note קמז on threading a needle"
+ },
+ {
+  "key": "חולה שיש בו סכנה (חושיב\"ס)||עצירת המכונית המסיעה אותו|מ סד, ע-גד",
+  "raw_fixed": "מ סד, ע-עד",
+  "reason": "unparsable \"ע-גד\" = ע-עד (braking the car carrying the sick)"
+ },
+ {
+  "key": "חלב||גיבונו|ג כא, (קיב), נה; * ד א; * יב",
+  "unlink": [
+   "(קיב)"
+  ],
+  "reason": "note ג (קיב) is about insects on lettuce"
+ },
+ {
+  "key": "יוה\"כ||חובת זכירתו בתפילה|(מ ג (יב)",
+  "raw_fixed": "מבוא ג (יב)",
+  "reason": "note מבוא ג (יב): \"ביוהכ\"פ צריך לכוון לצאת יד\"ח זכירה בתפילה\""
+ },
+ {
+  "key": "כבסים||מסירתם לנכרי לכיבוס|ל כו; לא יב כט",
+  "raw_fixed": "ל כט; לא יב",
+  "reason": "ל כו/לא כט off-topic; ל כט = giving laundry to a gentile; parallel under נכרי prints \"ל כט; לא יב\""
+ },
+ {
+  "key": "מוקצה||טלטולו לצורך מצוה|כ (נג) * כא (ח)",
+  "raw_fixed": "כ (נג); * כא (ח)",
+  "reason": "כא is a (YT) chapter: note כא (ח) \"לענין טלטול מוקצה לצורך מצוה\""
+ },
+ {
+  "key": "\"מרבה בשיעורים\"|||מבוא * ג כב; לב (צב), (קעז), (קפא), *(רא), *(רב), (רד), י יב; לח (כח), יא, (פז); מ (פה), (קסה)",
+  "raw_fixed": "מבוא * ג כב; לב (צב), (קעז), (קפא), *(רא), *(רב), (רד), (רי), (ריב); לח (כח), יא, (פז); מ (פה), (קסה)",
+  "reason": "\"י יב\" (fridge) garbled; ascending ch לב notes רי, ריב are on מרבה בשיעורין (note צב cites both)"
+ },
+ {
+  "key": "רשות־הרבים (דאורייתא)|בזמן הזה||יז (כא) (כג); (כב) (סח)",
+  "unlink": [
+   "(סח)"
+  ],
+  "reason": "note יז (סח) is about a gentile inn, not רה\"ר"
+ },
+ {
+  "key": "ביטול כלי מהיכנו||במקרים שונים|א (רסא), ט (יב), כ (סח), (קי), כב (טז), כה-כח (מו-מח), (נא)",
+  "raw_fixed": "א (רסא); ט (יב); כ (סח), (קי); כב (טז), כה-כח (מו-מח), (נא)",
+  "unlink": [
+   "כ (סח)"
+  ],
+  "reason": "ט, כ, כב are chapters (whole line was parsed as ch א); note כ (סח) does not discuss ביטול כלי מהיכנו"
+ },
+ {
+  "key": "בעל־חיים||האכלתם ישירות לפיהם|כח כה",
+  "raw_fixed": "כז כה",
+  "reason": "seif כז כה = putting food in the animal's mouth; כח כה is about watches"
+ },
+ {
+  "key": "גרף של רעי|||כב לח, כה (מ)",
+  "raw_fixed": "כב לח; כה (מ)",
+  "reason": "כה is a chapter: note כה (מ) = making a גרף של רעי before Shabbat"
+ },
+ {
+  "key": "דליפה ורידית (איטית)|הפסקתה||לה יג",
+  "raw_fixed": "לה יד",
+  "reason": "seif לה יד is verbatim \"דליפה ורידית איטית\""
+ },
+ {
+  "key": "הגדרה||הטמנה|א (רלג), (רמט), פז, כג, (קיא)",
+  "raw_fixed": "א (רלג), (רמט), פז; כג (קיא)",
+  "reason": "כג is a chapter: note כג (קיא) defines הטמנה (parallel \"הטמנה הגדרה — ...; כג (קיא)\")"
+ },
+ {
+  "key": "הנאה||מאור שנכרי הדליקו|ל ז, לז-לח, מד, מז, נא, נב, נח",
+  "raw_fixed": "ל ז, לז-לח, מד, מז, סא, סב, נח",
+  "unlink": [
+   "מז",
+   "נח"
+  ],
+  "reason": "ל נא-נב are food/sorting; stairwell light is ל סא-סב (נ/ס typo, parallel \"אור (בחדר־מדריגות) — ל סא, סב\"); ל מז, נח do not mention light"
+ },
+ {
+  "key": "חדר־מדריגות||הנאה מאור שנכרי הדליקו בו|ל נא, נב",
+  "raw_fixed": "ל סא, סב",
+  "reason": "stairwell light = ל סא, סב (נ/ס typo)"
+ },
+ {
+  "key": "חולה||עלייתו לתורה ביוה\"כ כשאוכל בו|לט לח",
+  "raw_fixed": "לט לט",
+  "reason": "seif לט לט = aliyah of one who eats on YK (לח = general medical rule)"
+ },
+ {
+  "key": "קריאת התורה ביוה\"כ|עלית חולה האוכל בו||לט לח",
+  "raw_fixed": "לט לט",
+  "reason": "as #1964"
+ },
+ {
+  "key": "יוה\"כ||עלייה לתורה של חולה האוכל בו מחמת חוליו|לט לח, (קכב)",
+  "raw_fixed": "לט לט, (קכב)",
+  "reason": "note קכב is in seif לט לט (aliyah of one who eats)"
+ },
+ {
+  "key": "טלטול||גפרורים|כ ט, (מ) *; * כא ה",
+  "raw_fixed": "כ טז, (מ) *; * כא ה",
+  "reason": "note כ (מ) (matches) sits in seif כ טז \"גפרורים (מ)\"; כ ט unrelated"
+ },
+ {
+  "key": "יו\"ט (שני של גלויות)|||* לא כח",
+  "unlink": [
+   "לא כח"
+  ],
+  "reason": "לא כח (fax) unrelated to יו\"ט שני; target unknown"
+ },
+ {
+  "key": "מים||מיהולם ביין אדום או במיץ־פטל|יא לח",
+  "raw_fixed": "יא לט",
+  "reason": "seif יא לט = diluting water with red wine/raspberry juice (parallels print \"יא לט\")"
+ },
+ {
+  "key": "ספק סכנה|הכנסת עצמו בו להצלת חברו||לב (ר), לו (ד)",
+  "raw_fixed": "לב (ר); לו (ד)",
+  "reason": "לו is a chapter: note לו (ד) \"אין אדם חייב להכניס עצמו בספק סכנה להציל אחרים\""
+ },
+ {
+  "key": "עצמות||טלטולן|יב לג, לה; כ כו, כז, (רכד); * כא ב; כב (קנט)",
+  "raw_fixed": "יב לד, לה; כ כו, כז, (רכד); * כא ב; כב (קנט)",
+  "reason": "יב לג is a cross-ref on folding tablecloths; יב לד = removing bones from the table"
+ },
+ {
+  "key": "פסולת||ברירתה מתוך האוכל|ג ז, (יד); * ד ג; י יא",
+  "unlink": [
+   "י יא"
+  ],
+  "reason": "י יא (fridge meltwater) unrelated; target unknown"
+ },
+ {
+  "key": "קטן||עשייה להצלתו|לב ג, טו; מא כח",
+  "raw_fixed": "לב ג, טו; מא כז",
+  "reason": "מא כח = fingerprints; מא כז = lost child (parallel \"פיקוח־נפש אצל קטן — לב טו; מא כז\")"
+ },
+ {
+  "key": "קיפול||מפית־בד|יא מ; טו (קסג)",
+  "raw_fixed": "יא מא; טו (קסג)",
+  "reason": "יא מ = spices/smell; יא מא = folding napkins (parallel \"מפית־בד קיפולה — יא מא\")"
+ },
+ {
+  "key": "קיפול||מפית־נייר|יא מ",
+  "raw_fixed": "יא מא",
+  "reason": "as #6140"
+ },
+ {
+  "key": "קליפות||טלטולן|כ כה, כז, (רכד); * כא ב",
+  "raw_fixed": "כ כו, כז, (רכד); * כא ב",
+  "reason": "כ כה = stones and sand; כ כו = peels (parallel \"עצמות טלטולן — ... כ כו, כז, (רכד)\")"
+ },
+ {
+  "key": "אמבט (מי־סבון)||לפצע|לה ט, טז",
+  "raw_fixed": "לה י, יז",
+  "reason": "לה ט = ointment, טז = nosebleed; soap bath is לה י, יז (parallel \"מי־סבון אמבט בהם לפצע — לה י, יז\")"
+ },
+ {
+  "key": "ריכוך (פצע)|באמבט מי־סבון||לה טז",
+  "raw_fixed": "לה יז",
+  "reason": "as #341"
+ },
+ {
+  "key": "עורק|קשירתו בשל שטף־דם||לה יג",
+  "raw_fixed": "לה יד",
+  "reason": "seif לה יד: serious bleeding, tying an artery (parallel \"קשירה עורק — לה יד\")"
+ },
+ {
+  "key": "גלד|הסרתו מפצע||לה לא",
+  "raw_fixed": "לה לב",
+  "reason": "לה לב = removing a scab (parallel \"פצע הסרת גלדיו — לה לב\")"
+ },
+ {
+  "key": "יבלת|הסרתה||לה לב",
+  "raw_fixed": "לה לג",
+  "reason": "לה לג = cutting a wart (יבלת)"
+ },
+ {
+  "key": "נפיחות|טיפול בה||לה לד",
+  "raw_fixed": "לה לה",
+  "reason": "לה לה = pressing a swelling (נפיחות)"
+ },
+ {
+  "key": "תרופה||לשיכוך כאב|לה לז",
+  "raw_fixed": "לה לח",
+  "reason": "לה לז is a cross-ref on dry lips; לה לח: \"ומותר לקחת תרופות להרגעת הכאב\""
+ },
+ {
+  "key": "יד (חבושה)|נטילתה לסעודה||לה כ",
+  "raw_fixed": "לה כא",
+  "reason": "לה כ = cotton wicks; לה כא covers a bandaged hand and washing (parallel \"נטילת־ידיים כשהיד חבושה — לה כא\")"
+ },
+ {
+  "key": "תפירה||בגוף האדם|לד (סו); לה ד, כד, (סה)",
+  "raw_fixed": "לד (סו); לה ד, כה, (סה)",
+  "reason": "note סה (butterfly closure) sits in לה כה; כד = cutting plaster"
+ },
+ {
+  "key": "זיהום (בפצע)||מניעתו|לה ב, ג, יג, כא, כד",
+  "unlink": [
+   "כד"
+  ],
+  "reason": "לה כד (cutting plaster) is not about infection; target unknown"
+ },
+ {
+  "key": "קוץ|הוצאתו מן הגוף||לה ח, י, יז",
+  "raw_fixed": "לה ח, י, יח",
+  "unlink": [
+   "לה ח",
+   "י"
+  ],
+  "reason": "thorn removal is לה יח (parallel \"רסיס — לה יח\"); ח, י do not mention thorns"
+ },
+ {
+  "key": "פצע (שטחי)||הגדרה|לה י",
+  "raw_fixed": "לה יא",
+  "reason": "definition of superficial wounds is לה יא (parallel \"הגדרה פצע שטחי — לה יא\")"
+ },
+ {
+  "key": "זימון|לברה\"מ ביוה\"כ||לט לב",
+  "raw_fixed": "לט לג",
+  "reason": "לט לב is artificial feeding; zimun/lechem mishne/birkat hamazon/רצה are in לט לג"
+ },
+ {
+  "key": "יוה\"כ||לחם משנה בו|לט לב",
+  "raw_fixed": "לט לג",
+  "reason": "לט לב is artificial feeding; zimun/lechem mishne/birkat hamazon/רצה are in לט לג"
+ },
+ {
+  "key": "לחם־משנה||ביוה\"כ|לט לב",
+  "raw_fixed": "לט לג",
+  "reason": "לט לב is artificial feeding; zimun/lechem mishne/birkat hamazon/רצה are in לט לג"
+ },
+ {
+  "key": "נוסח||ברכת המזון ומעין שלוש ביוה\"כ|לט לב",
+  "raw_fixed": "לט לג",
+  "reason": "לט לב is artificial feeding; zimun/lechem mishne/birkat hamazon/רצה are in לט לג"
+ },
+ {
+  "key": "רְצֵה|בברה\"מ ביוה\"כ||לט לב",
+  "raw_fixed": "לט לג",
+  "reason": "לט לב is artificial feeding; zimun/lechem mishne/birkat hamazon/רצה are in לט לג"
+ },
+ {
+  "key": "קידוש||ביוה\"כ|מבוא ג ז; לט לב",
+  "raw_fixed": "מבוא ג ז; לט לג",
+  "reason": "kiddush on YK for the sick is לט לג"
+ },
+ {
+  "key": "קידוש||חולה שצריך לאכול ביוה\"כ|מבוא ג (יב); לט לב",
+  "raw_fixed": "מבוא ג (יב); לט לג",
+  "reason": "as #6116 (parallel \"חולה קידושו — לט לג\")"
+ },
+ {
+  "key": "יוה\"כ||טיפול בעיניים בו|לט לג",
+  "raw_fixed": "לט לד",
+  "reason": "eye treatment on YK is לט לד (parallel \"עיניים טיפול — לט לד\")"
+ },
+ {
+  "key": "רחיצה||חולה ביוה\"כ|לט לג",
+  "raw_fixed": "לט לד",
+  "reason": "washing the sick on YK is לט לד (parallel \"רחיצה (חולה) — לט לד\")"
+ },
+ {
+  "key": "שתייה||בשיעורים ביוה\"כ|לט כא",
+  "raw_fixed": "לט כב",
+  "reason": "drinking in shiurim is לט כב (לט כא = measuring on YK)"
+ },
+ {
+  "key": "אוכלין|(ראה גם אוכל, מזון)|צירופם זל\"ז לכדי שיעור ביוה\"כ|לט כא",
+  "raw_fixed": "לט כד",
+  "reason": "\"אין אוכלים ומשקים מצטרפים\" is לט כד (parallel \"אוכלין ומשקין צירופם זל\"ז — לט כד\")"
+ },
+ {
+  "key": "משקין||הצטרפותם לשיעור ביוה\"כ|לט כג",
+  "raw_fixed": "לט כד",
+  "reason": "as #144"
+ },
+ {
+  "key": "שאלת־חכם||בדבר הגדרת אוכלין ומשקין ביוה\"כ|לט כג",
+  "raw_fixed": "לט כד",
+  "reason": "parallel \"יוה\"כ שאלת חכם בהגדרת אוכלין ומשקין — לט כד\""
+ },
+ {
+  "key": "אכילה ושתיה בשיעורין||הפסק ביניהן|לט כג",
+  "raw_fixed": "לט כד",
+  "reason": "waiting between eating and drinking is לט כד (parallel \"המתנה בין אכילה ושתיה — לט כד\")"
+ },
+ {
+  "key": "בגד (שעטנז של נכרי)|טלטולו||כב נח",
+  "raw_fixed": "כב נט",
+  "reason": "shaatnez/tevel/forbidden foods of a gentile are in כב נט (parallels print \"כב נט\")"
+ },
+ {
+  "key": "טבל||(של נכרי), טלטולו|כב נח",
+  "raw_fixed": "כב נט",
+  "reason": "shaatnez/tevel/forbidden foods of a gentile are in כב נט (parallels print \"כב נט\")"
+ },
+ {
+  "key": "טלטול||אוכלין אסורים של נכרי|כב נח",
+  "raw_fixed": "כב נט",
+  "reason": "shaatnez/tevel/forbidden foods of a gentile are in כב נט (parallels print \"כב נט\")"
+ },
+ {
+  "key": "בסיס (לדבר אסור)||של נכרי, טלטולו|כב נו",
+  "raw_fixed": "כב נז",
+  "reason": "gentile's table as בסיס = כב נז (parallel \"טלטול בסיס לד\"א של נכרי — כב נז\")"
+ },
+ {
+  "key": "סחורה (שהביאה נכרי מחנותו)|טלטולה||כב נז",
+  "raw_fixed": "כב נח",
+  "reason": "goods a gentile brought from his store = כב נח (parallel \"טלטול סחורה שנכרי הביא — כב נח\")"
+ },
+ {
+  "key": "טלטול||מוקצה, בגופו|כב לה",
+  "raw_fixed": "כב לו",
+  "reason": "\"טלטול בגופו\" is כב לו (parallel \"מוקצה טלטולו בגופו — כב לו\")"
+ },
+ {
+  "key": "לבישה||בגדים מחומר סינתטי|כב (קנז)",
+  "raw_fixed": "כב (קנט)",
+  "reason": "note קנז is gentile eating tevel; note קנט permits wearing synthetic clothes despite sparks (ז/ט typo)"
+ },
+ {
+  "key": "מים||ניעורם מבגד רטוב|טו יט",
+  "raw_fixed": "טו יח",
+  "reason": "\"אל ינער המים מהם\" is in טו יח (parallel \"בגד (רטוב) ניעורו — טו יח\")"
+ },
+ {
+  "key": "לחם־משנה||בפת עירוב תבשילין|ב טז",
+  "raw_fixed": "ב טו",
+  "reason": "לחם משנה with the eruv tavshilin bread is in ב טו (parallel \"פת (עירוב־תבשילין) ללחם־משנה — ב טו\")"
+ },
+ {
+  "key": "רמיזה (לנכרי)||הגדרה|ל ב",
+  "raw_fixed": "ל ג",
+  "reason": "ל ג defines רמיזה (parallel \"הגדרה רמיזה — ל ג\"); ל ב is אמירה"
+ },
+ {
+  "key": "רמיזה (לנכרי)||לעשות מלאכה|ל ב, ה, ז",
+  "raw_fixed": "ל ג, ה, ז",
+  "reason": "as #6414"
+ },
+ {
+  "key": "רופא||החזרתו שפופרת טלפון לעריסתה|לב מב, מז; מ (קעג)",
+  "raw_fixed": "לב מב, מו; מ (קעג)",
+  "reason": "לב מו = doctor answering the phone and returning the handset; מז is a cross-ref"
+ },
+ {
+  "key": "תשלום||בעבור תרופות לחושיב\"ס|לב נד",
+  "raw_fixed": "לב נה",
+  "reason": "paying the pharmacist is לב נה (parallel \"תרופות (לחושיב\"ס) דרך התשלום — לב נה\")"
+ },
+ {
+  "key": "שיעור||תבשיל עירוב תבשילין|* ב יב, (לט)",
+  "unlink": [
+   "(לט)"
+  ],
+  "reason": "note ב (לט) is on the \"בהדין עירובא\" formula, not the shiur (the shiur note is (כח))"
+ },
+ {
+  "key": "השאלה||(כלים או כלי־עבודה), לנכרי|ל לד",
+  "raw_fixed": "ל מא",
+  "reason": "ל לד = hiring a gentile; lending/renting a car or tools to a gentile is ל מא (parallels \"זמן השאלה... — ל מא\", \"נכרי השאלת כלים — ל מא-מב\")"
+ },
+ {
+  "key": "השכרה|כלים או כלי־עבודה לנכרי||ל לד",
+  "raw_fixed": "ל מא",
+  "reason": "ל לד = hiring a gentile; lending/renting a car or tools to a gentile is ל מא (parallels \"זמן השאלה... — ל מא\", \"נכרי השאלת כלים — ל מא-מב\")"
+ },
+ {
+  "key": "מכונית||השאלתה או השכרתה לנכרי|ל לד",
+  "raw_fixed": "ל מא",
+  "reason": "ל לד = hiring a gentile; lending/renting a car or tools to a gentile is ל מא (parallels \"זמן השאלה... — ל מא\", \"נכרי השאלת כלים — ל מא-מב\")"
+ },
+ {
+  "key": "דרמטול|ביזוקו על פצע שטחי||לה יב",
+  "raw_fixed": "לה יג",
+  "reason": "Dermatol powder is in לה יג (parallel \"פצע בזיקת דרמאטול עליו — לה יג\")"
+ },
+ {
+  "key": "תינוק||חום נמוך בו|לב יא, (א)",
+  "unlink": [
+   "(א)"
+  ],
+  "reason": "\"(א)\" is the enumerated sub-item of seif לב יא, not note (א) (which is on שלוחי מצוה)"
+ },
+ {
+  "key": "משחה||הסרתה|לה ל",
+  "raw_fixed": "לה לא",
+  "reason": "לה ל = removing plaster; removing leftover ointment is לה לא"
+ },
+ {
+  "key": "ביצה||הקצפתה|יא לג",
+  "raw_fixed": "יא לב",
+  "reason": "\"אין להקציף בשבת ביצה\" is יא לב (לג = YT mayonnaise); parallel \"הקצפה ביצה או שמנת — יא לב\""
+ },
+ {
+  "key": "החמה||מאכל תינוק|א טז, נ, נו; יא מא",
+  "raw_fixed": "א טז, נ, נו; יא מב",
+  "reason": "יא מא = napkins; יא מב = baby plate and warming its food (parallel \"תינוק החמת מאכל בשבילו — יא מב\")"
+ },
+ {
+  "key": "מיונז||הוספתו על פירורי דג טונה|ח יט",
+  "raw_fixed": "ח כ",
+  "reason": "mayonnaise with tuna pieces is ח כ"
+ },
+ {
+  "key": "מים||שימוש בהם כשנכרי הרתיחם|ל מח",
+  "raw_fixed": "ל נח",
+  "reason": "water a gentile boiled is ל נח (parallel \"נכרי שימוש במים שהרתיח — ל נח\"); ל מח is about light"
+ },
+ {
+  "key": "מפית־בד|קיפולה||יא מא; טו מד",
+  "raw_fixed": "יא מא; טו מז",
+  "reason": "טו מד = sorting clothes; folding cloth is טו מז (cited by יא מא itself)"
+ },
+ {
+  "key": "רופא||שימושו במכשיר רפואי מופעל ע\"י סוללה|מ לה",
+  "raw_fixed": "מ לט",
+  "reason": "battery-operated devices of the doctor = מ לט"
+ },
+ {
+  "key": "תבלינים||שקילתם|* יא ל",
+  "raw_fixed": "* יא לא",
+  "reason": "יא ל = measuring baby food; measuring spices on YT = יא לא"
+ },
+ {
+  "key": "אבטיח||דרך אכילתו|ג יז,לז",
+  "raw_fixed": "ג יז,לח",
+  "reason": "audit M5.1: לז -> ג לח: Seif לז is the melon (מלון) seif. Seif לח is the watermelon one (\"להסיר את הקליפה העבה של האבטיח\"). Seif יז itself refers to לח for watermelon peel."
+ },
+ {
+  "key": "אגרטל||טלטול המים שבו|כו (פו)",
+  "raw_fixed": "כו (צא)",
+  "reason": "audit M56.0: כו (פו) -> כו (צא): Note פו is about fruit a non-Jew picked. Note צא on seif כה (אגרטל) says \"גם המים שבהם הכניסוהו, אינם מוקצה\". Parallel index entry \"אגרטל על המים והפרחים שבו – כו כה\" agrees."
+ },
+ {
+  "key": "אוהל||מוחזק בידיים|טז (מז); כד (כא)",
+  "raw_fixed": "טז (נז); כד (כא)",
+  "reason": "audit M73.0: טז (מז) -> טז (נז): Note מז is about a ladder leaning on a tree. Note נז in the same chapter has \"פריסת טלית... אינו מתקיים אלא ע\"י שאוחזין אותה בידים, אינו חשיב אוהל\" (a מ/נ misprint). The second printed ref כד (כא) is on the same topic."
+ },
+ {
+  "key": "\"אוכלא דאיפרת\"|||א (קכג); י (יד); כב (קנז)",
+  "raw_fixed": "א (קכג); י (יד); כב (קנט)",
+  "reason": "audit M116.2: כב (קנז) -> כב (קנט): Searching the whole book, the phrase appears only in notes א (קכג), י (יד) and כב (קנט), which are the other refs, plus a few unrelated hits. Note קנז is about טבל fruit of a non-Jew. So the printed קנז is a ז/ט misprint."
+ },
+ {
+  "key": "אוכלין|(ראה גם אוכל, מזון)|טלטולם בשביל חולה והם מוקצה|ל (קנה); לב עט",
+  "raw_fixed": "ל (קעח); לב עט",
+  "reason": "audit M132.0: ל (קנה) -> ל (קעח): Note קנה is about a non-Jew lighting a lamp. Note קעח on seif נד says the food cooked by a non-Jew for a patient may be מוקצה, and \"ומותר הישראל לטלטל את האוכל לצורך החולה\". That is exactly moving מוקצה food for a patient, and it pairs with the printed לב עט."
+ },
+ {
+  "key": "אוכלין|(ראה גם אוכל, מזון)|תפירתם|יא * לז",
+  "raw_fixed": "יא * לח",
+  "reason": "audit M147.0: יא * לז -> יא לח: The '*' marks Yom Tov. Seif לז only covers cutting the thread of food that is already sewn. Seif לח is \"ביו\"ט גם מותר לתפור דברי מאכל\"."
+ },
+ {
+  "key": "אונס|לעומת שוגג||מבוא ב (מג)",
+  "raw_fixed": "מבוא א (קנז)",
+  "reason": "audit M172.0: מבוא ב (מג) -> מבוא א (קנז): Note מג in מבוא ב is about Torah study on Shabbat. The only text in the book that compares אונס with שוגג is מבוא א (קנז) (\"דאונס חמור משוגג... שאין לדמות אונס לשוגג\"). The index also cites מבוא א (קנז) for מלאכת מתעסק in the same discussion."
+ },
+ {
+  "key": "אור|ראה גם חשמל|הנאת חושאיב\"ס ממנו כשהודלק בבי\"ח ע\"י ישראל|מ כא",
+  "raw_fixed": "מ כ",
+  "reason": "audit M186.0: מ כא -> מ כ: Seif כא is about kosher food for a dangerously ill patient. Seif כ says \"ואל לו לחולה זה ליהנות מן האור שיהודי הדליק בחדר־החולים\"."
+ },
+ {
+  "key": "אזעקה||של חנות או מכונית המפריעה בשבת|כט סט",
+  "raw_fixed": "כג סט",
+  "reason": "audit M214.0: כט סט -> כג סט: כט סט is about visiting the sick. Chapter כג has the heading \"אזעקה שמפריעה בשבת\" and seif סט covers a car or shop alarm disturbing the neighbours. The chapter is misprinted."
+ },
+ {
+  "key": "איחולי \"שבת שלום\" בשיחת טלפון למען חושב\"ס|||לב מב",
+  "raw_fixed": "לב מא",
+  "reason": "audit M232.0: לב מב -> לב מא: Seif מב is about not hanging up the phone. Seif מא says \"ואף מותר לומר בגמר השיחה - שבת שלום\"."
+ },
+ {
+  "key": "איש־בטחון||טלטולו נשק|מא לא לב",
+  "raw_fixed": "מא לא לג",
+  "reason": "audit M263.1: לב -> מא לג: Seif לב (signing for equipment or a call-up order) has nothing about carrying weapons. Seif לא, where the rifle is carried, says \"ועיין להלן סעיף לג\". Seif לג is about a soldier carrying what the army requires outside the eruv or the תחום. Two other index entries, \"בטלטול נשק – מא לג\" and \"טלטול איש־בטחון נשקו מחוצה לו – מא לג\", point there. So the printed לב is most likely a misprint for לג."
+ },
+ {
+  "key": "אכילה||בריא מבישול לחושיב\"ס|לב (רא)",
+  "raw_fixed": "לב (רד)",
+  "reason": "audit M301.0: לב (רא) -> לב (רד): Note רא is only about cooking extra (מרבה בשיעורין). Note רד, on the same seif עה, says outright \"וממילא אסור לבריא לאכול ממנו, עיין להלן סע' עח\". It is a note, as the printed ref is, and it is more exact than ריג. The index cites לב (רד) for the parallel entry on water heated for a dangerously ill patient."
+ },
+ {
+  "key": "אכילה||חושאיב\"ס מבישול בשביל חושיב\"ס|לב (רא)",
+  "raw_fixed": "לב (רד)",
+  "reason": "audit M307.0: לב (רא) -> לב (רד): Note רא does not deal with it. Note רד (seif עה) says \"ולפ\"ז מה שמבשלין בביה\"ח עבור חושיב\"ס, אסור לחושאיב\"ס לאכול ממנו\", which is the exact entry. Seif עח / ריג is also relevant, but רד is the closest match to a note ref."
+ },
+ {
+  "key": "אכילה ושתייה ביוה\"כ||חייל|מא לט",
+  "raw_fixed": "מא לח",
+  "reason": "audit M330.0: מא לט -> מא לח: Seif לט is the general \"וחי בהם\" principle. Seif לח is the soldier on high alert on Yom Kippur who eats and drinks by שיעורים."
+ },
+ {
+  "key": "אמבט (מי־סבון)||הכנתו|יד ה, טז",
+  "raw_fixed": "יד ה, יח",
+  "reason": "audit M340.1: טז -> יד יח: Seif טז is about adding fragrance to bath water. Seif יח covers preparing liquid soap in hot water. The book itself (לה י) says \"ובענין אופן הכנת מי־הסבון, ראה לעיל פרק יד סעיפים ה ו-יח\"."
+ },
+ {
+  "key": "אמירה לנכרי||בשבות במקום פסידא|ל (יד)",
+  "raw_fixed": "ל (טז)",
+  "reason": "audit M353.0: ל (יד) -> ל (טז): Note יד is about hinting to a non-Jew about the light. Note טז says \"דבמקום פסידא מותרת אמירה לנכרי בשבות\", which is the exact entry, and the parallel index entry \"אמירה לו בשבות במקום הפסד – ל (טז)\" cites it. So this is a ד/ו misprint, and note טז fits better than the proposed seif יד."
+ },
+ {
+  "key": "אמירה לנכרי||לומר לנכרי אחר|ל (מח)",
+  "raw_fixed": "ל (נא)",
+  "reason": "audit M360.0: ל (מח) -> ל (נא): Note מח is about settling ארץ ישראל and a traveller's purse. Note נא is \"אם אומר לנכרי שיאמר לנכרי אחר\", and the parallel index entry \"אמירה לו לומר לנכרי אחר – ל (נא)\" confirms it."
+ },
+ {
+  "key": "אש|ראה גם להבה|החזרת כיסויה עליה כשהוסר|א (סה)",
+  "raw_fixed": "א (סו)",
+  "reason": "audit M422.0: א (סה) -> א (סו): הערה סה עוסקת בהעברת קדרה לגו\"ק, ולא בכיסוי האש. ההגהה (*) שליד (סה) בסעיף כ אומרת 'ומותר לכסות הלהבה (סו) גם בשבת', והערה סו היא המקור לכך (הכיסוי אינו משנה את ההבערה). הערה סד עוסקת בהחזרת הקדרה אחרי שהכיסוי נפל, ולא בהחזרת הכיסוי עצמו."
+ },
+ {
+  "key": "אתרוג||מוקצה מחמת ח\"כ|כב (סא)",
+  "raw_fixed": "כב (סב)",
+  "reason": "audit M453.0: כב (סא) -> כב (סב): הערה סא היא רק ציון מקור (מ\"ב תרנח). הערה סב דנה במפורש בכך שלולב ואתרוג מוקצה מחמת ח\"כ (ערוה\"ש והגרש\"ז)."
+ },
+ {
+  "key": "בגד (רטוב)||\"בישול\" המים הספוגים בו|טו לב",
+  "raw_fixed": "טו (לב)",
+  "reason": "audit M488.0: טו לב -> טו (לב): טו לב עוסק בלכלוך שאינו משאיר כתם ואין בו בישול. הערה לב בפרק טו (סעיף יא) דנה בבישול המים שבבגד ('מדברי הרע\"א משמע דהחיוב הוא מחמת בישול המים'). כנראה חסרים סוגריים במפתח."
+ },
+ {
+  "key": "בגדים||אמירה לעוזרת נכריה לתקן את שלה|ל לג",
+  "raw_fixed": "ל לז",
+  "reason": "audit M500.0: ל לג -> ל לז: ל לג עוסק בתשלום לנכרי. ל לז: 'מותר לומר לעוזרת־בית נכרית לתקן את בגדיה בשבת' (ובאותו סעיף גם לבשל לעצמה, שם הערך המקביל במפתח מפנה אף הוא בטעות לל לג)."
+ },
+ {
+  "key": "בגדים||מיונם|ג סט; טו מד",
+  "raw_fixed": "ג פט; טו מד",
+  "reason": "audit M507.0: ג סט -> ג פט: ג סט עוסק בברירה סמוך לסעודה. ג פט: 'ערימת כביסה, אסור למיינה לסוגיה'. ערך מקביל במפתח (שורה 3491) אכן אומר 'מיונם – ג פט, טו מד'."
+ },
+ {
+  "key": "ביטול||הזמנת שירות רפואי לחושיב\"ס|מ פד",
+  "raw_fixed": "מ פה",
+  "reason": "audit M579.0: מ פד -> מ פה: מ פד עוסק בהזמנת אמבולנס. ביטול ההזמנה נמצא במ פה, ושני ערכים מקבילים במפתח ('ביטול הזמנתו לחושיב\"ס', 'ביטול הזמנת שירות רפואי אליו') מפנים למ פה."
+ },
+ {
+  "key": "ביקור חולים||בימים הנוראים|מ נח",
+  "raw_fixed": "מ נט",
+  "reason": "audit M623.0: מ נח -> מ נט: מ נח עוסק בביקור חולים בשבת/יו\"ט ואין בו ימים נוראים. מ נט: 'בימים־הנוראים, אפילו אם הם חלים בשבת, יתפלל לשלום החולה כרגיל'."
+ },
+ {
+  "key": "בישול||בהוספת מים לדוד|* ב ד; יג (סה); יט (ח)",
+  "raw_fixed": "* ב ד; יג (סה); יט (יד)",
+  "reason": "audit M629.2: יט (ח) -> יט (יד): יט (ח) עוסקת במסירת מפתח ואין בה דוד. אבל באותו פרק, הערה יד כתובה: 'כמו במבשל דאין להוסיף מים לדוד אא\"כ יתכן ויש לו צורך בהם ביו\"ט, עיין לעיל פ\"ב סע' ד ופי\"ג הערה עג'. זה מתאים להפניה המודפסת לפרק יט טוב יותר מיג (עג), שאליה מפנה כבר ב ד."
+ },
+ {
+  "key": "בישול אחר בישול||באפיית עיסה מבושלת|א (יד)",
+  "raw_fixed": "א (רד)",
+  "reason": "audit M666.0: א (יד) -> א (רד): הערה יד היא רק ציון מקור. הערה רד: 'דבעיסה מבושלת שאפאה, חיובא נמי איכא'. ערך מקביל במפתח ('עיסה מבושלת – א (רד)') מאשר את זה."
+ },
+ {
+  "key": "בית־חולים||הבאת אוכל כשר לחושיב\"ס בו|מ יט",
+  "raw_fixed": "מ כא",
+  "reason": "audit M690.0: מ יט -> מ כא: מ יט עוסק בדלת עם עין אלקטרונית. הבאת אוכל כשר לחושיב\"ס בבית חולים נמצאת במ כא, ושלושה ערכים מקבילים במפתח מפנים למ כא."
+ },
+ {
+  "key": "בית־חולים||הדפסת תשובות מעבדה|לב מח",
+  "raw_fixed": "מ לו",
+  "reason": "audit M693.0: לב מח -> מ לו: לב מח עוסק בכתיבת רישומים רפואיים ואינו מזכיר הדפסה. מ לו (כותרת 'הדפסת תוצאות הבדיקות') עוסק בהדפסת תוצאות בדיקות הדם. זה המקום היחיד בספר שמדבר בזה."
+ },
+ {
+  "key": "בכדי שיעשה||המתנה שיעורו|ל לו, לט-מא, מג, מה, נט, ס; לב עח",
+  "raw_fixed": "ל מד, מז-מט, מג, מה, עב, עג; לב עח",
+  "unlink": [
+   "מה"
+  ],
+  "reason": "audit: stale ch. ל numbering (+8..+13): לו→מד, לט-מא→מז-מט, נט→עב, ס→עג; מג kept (note קמב discusses the waiting time); מה ambiguous (נג/נה/נח) → unlinked"
+ },
+ {
+  "key": "בנייה||באוכלין|* יא (מב), (מז)",
+  "raw_fixed": "* יא (מג), (מז)",
+  "reason": "audit M752.0: יא (מב) -> יא (מג): Note (מב) is about letters and shapes (the ktivah issue) only. Note (מג) discusses building with food: 'הרי המגבן ביו\"ט חייב משום בונה', meatballs, and fruit stuck together into a shape."
+ },
+ {
+  "key": "בננה||מעיכתה|מבוא א ו; ו א, ז, ח; ז ב; ח ג",
+  "raw_fixed": "מבוא א י; ו א, ז, ח; ז ב; ח ג",
+  "reason": "audit M759.0: מבוא א ו -> מבוא א י: Mavo א ו defines avot melachot and never mentions a banana. Mavo א י contains 'ולכן מותר למעך בננה בידית של מזלג או בכף, ואין בכך משום מלאכת טוחן (ל)'."
+ },
+ {
+  "key": "ברירה||אוכל מתוך פסולת|מבוא א (לו); ג א, ז, י, כד, סח",
+  "raw_fixed": "מבוא א (לד); ג א, ז, י, כד, סח",
+  "reason": "audit M843.0: מבוא א (לו) -> מבוא א (לד): Mavo note (לו) is about melacha she-eina tzricha legufa, with no borer. Note (לד), whose marker is in seif י, is exactly 'רש\"י ד\"ה אוכל מתוך פסולת, דלאו דרך ברירה היא'."
+ },
+ {
+  "key": "ברירה||הצורך בכוונה בה|ג י",
+  "raw_fixed": "ג ו",
+  "reason": "audit M866.0: ג י -> ג ו: ג י is about picking food from waste versus waste from food, not intent. ג ו says 'אין איסור ברירה אלא אם כן הוא מתכוון לברור', and the printed index's parallel entry 'כוונה, הצורך בה בברירה – ג ו' confirms it."
+ },
+ {
+  "key": "בשמים||טלטולם|כ (שד)",
+  "raw_fixed": "כ (שה)",
+  "reason": "audit M910.0: כ (שד) -> כ (שה): Note (שד) is about garments with no spices. The next note (שה), with its marker in the same seif פג, has 'דה\"ה בשמים שמריח בהם בש\"ק'."
+ },
+ {
+  "key": "בשר (טרף או נבילה)|טלטולו||כ לג, (קנח)",
+  "raw_fixed": "כ לג, (קכח)",
+  "reason": "audit M929.1: (קנח) -> כ (קכח): Note (קנח) is a bare citation in seif מג, which is unrelated. Seif לג (the printed ref) is about treif and nevela meat, and its note (קכח) discusses nevela meat standing for animal food. This is a נ/כ confusion."
+ },
+ {
+  "key": "גבינה||פרוסתה|יא לב",
+  "raw_fixed": "יא (לב)",
+  "reason": "audit M936.0: יא לב -> יא (לב): Seif יא לב is about whipping eggs and cream. Cheese appears in chapter יא only in note (לב): 'והא דשרינן לחתוך גבינה בשבת...'."
+ },
+ {
+  "key": "גזירה||לגזירה|יח (קכג)",
+  "raw_fixed": "יח (קפא)",
+  "reason": "audit M992.0: יח (קכג) -> יח (קפא): Note יח (קכג) is only 'סי' שא סע' לט ובמ\"ב ס\"ק קמז וסי' שג סע' טו'. A search for the phrase finds it in note יח (קפא) (כ/פ confusion)."
+ },
+ {
+  "key": "גינה||ברכת הנכנס בה על ריח פרותיה|כו (עז)",
+  "raw_fixed": "כו (עח)",
+  "reason": "audit M1032.0: כו (עז) -> כו (עח): Note (עז) is only 'וכדלעיל הערה עב'. Note (עח), with its marker in the same seif כב, has 'דהנכנס לגינה בשבת א\"צ לברך על ריח הפירות'."
+ },
+ {
+  "key": "גרם כיבוי|||א (צג) *; * יג יג, (צד), (קה); כב (מד); כג (עה)",
+  "raw_fixed": "א (צג) *; * יג יג, (צה), (קה); כב (מד); כג (עה)",
+  "reason": "audit M1087.2: (צד) -> יג (צה): Note יג (צד) is only about putting a new wick into a lamp. It never mentions גרם כיבוי. Note (צה), on the next seif (כו), says it explicitly: \"ואין לאסור משום גרם כיבוי דשרינן רק במקום פסידא\". The printed צד is most likely a typo for צה."
+ },
+ {
+  "key": "גרף של רעי||מנורת־נפט המעלה עשן|* יג (כ)",
+  "raw_fixed": "* יג (עז)",
+  "reason": "audit M1102.0: יג (כ) -> יג (עז): Note יג (כ) contains only \"שמעתי מהגרש\"ז\" and belongs to seif ד. The smoking kerosene lamp is in seif יג כ, and its note (עז) says \"דהוה גרף של רעי דשרינן\". The index has a parallel entry, 'מנורת־נפט (מעלה עשן), כגרף של רעי – * יג (עז)', which confirms (עז). Seif יג כ itself would also be acceptable."
+ },
+ {
+  "key": "דבר יבש||הגדרתו|א מ",
+  "raw_fixed": "א (מ)",
+  "reason": "audit M1115.0: א מ -> א (מ): Seif א מ is about the ladle used to take food out of the pot and gives no definition of a dry item. Note א (מ), on seif טו, gives the definition: \"דכל שרובו יבש, הוי בכלל יבש\". The printed index wrote a seif where it meant a note."
+ },
+ {
+  "key": "דגים||אכילת צירם שנקרש בשבת|כב (קנז)",
+  "raw_fixed": "כב (קנט)",
+  "reason": "audit M1167.0: כב (קנז) -> כב (קנט): Note כב (קנז) is about טבל fruit belonging to a non-Jew and has no connection to the entry. Note כב (קנט), on נולד, says \"רוטב דגים שנקרש בשבת, מותר לאוכלו\", so the printed קנז was probably meant as קנט. The topic also appears in א מג and א (קכג), but the printed chapter כב points to (קנט)."
+ },
+ {
+  "key": "דגנים|שפיתת משקין עליהם||ח כו",
+  "raw_fixed": "ח כז",
+  "reason": "audit M1172.0: ח כו -> ח כז: Seif ח כו is about pouring hot water onto a cooked dish whose sauce has evaporated, and has nothing about pouring liquid onto grains. Seif ח כז says \"מותר לשפוך חלב או כל משקה אחר על גרגירי חטה... קורנפלקס\". The index has a parallel entry, 'פתיתי־תירס (קורנפלקס) שפיכת משקין עליהן – ח כז', which confirms it."
+ },
+ {
+  "key": "דם||תרומתו|מ כז",
+  "raw_fixed": "מ כט",
+  "reason": "audit M1252.0: מ כז -> מ כט: Seif מ כז is about a doctor's hospital shift and does not mention blood donation. Seif מ כט says \"מותר לבריא לתרום דם בשבת\", so the printed כז is probably a letter confusion for כט."
+ },
+ {
+  "key": "הגדרה||שוגג|מבוא ב (מג)",
+  "raw_fixed": "מבוא א לב",
+  "reason": "audit M1378.0: מבוא ב (מג) -> מבוא א לב: Note מבוא ב (מג) is about Torah study on Shabbat and has no connection to שוגג. Seif מבוא א לב defines שוגג and מזיד. The index has a parallel entry, 'שוגג, הגדרה – מבוא א לב', which confirms it. Note מבוא א (קנז) also discusses what counts as שוגג, but the definition itself is in seif לב."
+ },
+ {
+  "key": "הדבקת מדבקה|לזיהוי חומר מעבדתי||מ לח",
+  "raw_fixed": "מ מב",
+  "reason": "audit M1394.0: מ לח -> מ מב: מ לח covers X-ray, CT and ultrasound tests and has no sticker. The sticker rule is in מ מב (\"בלא להדביק את המדבקה עליה\"), and the parallel index entry \"מדבקה, הדבקתה – מ מב\" confirms it."
+ },
+ {
+  "key": "הולדת ריח|באוכלין ובכלים||כב (קנז)",
+  "raw_fixed": "כב (קנט)",
+  "reason": "audit M1424.0: כב (קנז) -> כב (קנט): Note קנז is only about a non-Jew eating tevel and has nothing on scent. Note קנט is the long note on the kinds of נולד and does discuss מוליד ריח. The printed index's parallel entries (\"הולדת ריח בהם – כב (קנט)\" and \"נתינת ריח בו – כב (קנט)\") point there too."
+ },
+ {
+  "key": "הזמנה||רופא לחושאיב\"ס|מ ט",
+  "raw_fixed": "מ י",
+  "reason": "audit M1464.0: מ ט -> מ י: מ ט is about sorting medicines at night and then only a heading \"הרופא\" with a cross-reference about non-Jewish doctors. Calling a Jewish doctor for a חולה שאין בו סכנה is stated in מ י, and the parallel entry \"הזמנת רופא אליו – מ י\" matches. In this area the printed index sometimes uses older seif numbers (for example \"תרופה שרופא רשמה – מ ט\" is really מ יא), but the content that fits is in מ י."
+ },
+ {
+  "key": "היזק (בגופם של רבים)|כיבוי דליקת קוצים בגין חשש לו||כה ב, י",
+  "raw_fixed": "כה ט, י",
+  "reason": "audit M1521.0: כה ב -> כה ט: כה ב is about scorpions and painful pests and says nothing about harm to the public or fire. כה ט sets the rule that for רבים one may break an איסור דרבנן, and כה י has the thorn fire itself (already in the entry). Parallel entries such as \"היזק (רבים), עבירה על איסור דרבנן בגינו – כה ט\" and \"מוקצה למניעת היזק – כה ט, י\" point to ט, so ב is a misprint for ט."
+ },
+ {
+  "key": "הנאה||חושאיב\"ס בבי\"ח מאור שהודלק ע\"י ישראל|מ יח",
+  "raw_fixed": "מ כ",
+  "reason": "audit M1569.0: מ יח -> מ כ: מ יח only allows lying in a hospital where Shabbat is broken and does not mention light. The ban on using light a Jew lit is in מ כ (\"ואל לו לחולה זה ליהנות מן האור שיהודי הדליק\"). The index's own parallel entries (\"הנאת חולה שאיב\"ס מאור בו שהודלק ע\"י ישראל – מ כ\" and \"הנאה ממנו כשהודלק בבי\"ח – מ כ\") confirm it."
+ },
+ {
+  "key": "הנאה||ממלאכת שבת|מבוא א לד; לז (יא); מ ד (לה), יא",
+  "raw_fixed": "מבוא א לד; לז (יא); מ יא (לה), יא",
+  "reason": "audit M1601.2: מ ד -> מ יא: I checked מ ד and its notes יא and יב: they deal with having a non-Jew record treatment details and say nothing about benefiting from work done on Shabbat. So the target is wrong. The topic is only in מ יא and note לה, and parallel entries (\"הנאה ממנה – מבוא א לד; לז (יא); מ יא\" and \"הנאתו ממלאכת שבת – ... מ יא\") point only to יא. The printed string \"מ ד (לה), יא\" is most likely a corruption of \"מ יא (לה)\". I cannot tell exactly which seif the printer meant, so the \"מ יא\" I put in correct is a best guess. It means the extra ref belongs with מ יא, which the entry already lists."
+ },
+ {
+  "key": "הפסד||טלטול מוקצה בגינו|כ סג, סו, סז; כב לד; כז (קסד), (קעב)",
+  "raw_fixed": "כ סג, סו, סד; כב לד; כז (קסד), (קעב)",
+  "reason": "audit M1659.2: סז -> כ סד: כ סז is about a drawer that has become a בסיס for muktzeh, with no loss element. The parallel entry \"מוקצה, בגין הפסד – כ סג, סד, סו\" names סד, which is about moving a tray of candlesticks so they will not be spoiled or lost. The ref is a ד/ז misprint."
+ },
+ {
+  "key": "התיעצות|(עם מו\"ה ורופא),בדבר צום יולדת ביוה\"כ||לט יב",
+  "raw_fixed": "לט יא",
+  "reason": "audit M1744.0: לט יב -> לט יא: Seif לט יב says nothing about consulting anyone. Seif יא includes 'יש לה לשאול מורה הוראה ורופא'. Three parallel index entries all give לט יא, so the printed יב is a typo."
+ },
+ {
+  "key": "\"ולפני עור\" וגו'|||כט (מג); ל (קכד); לב (קל)",
+  "raw_fixed": "כט (מג); ל (קמב); לב (קל)",
+  "reason": "audit M1766.1: ל (קכד) -> ל (קמב): Note ל (קכד) is about the Jew's water and spices in the non-Jew's cooking, with no ולפני עור. In chapter ל only note (קמב) raises it ('שהישראל לא יעבור על ולפני עור')."
+ },
+ {
+  "key": "זהירות|מפני איסור ייחוד בנסיעה||לו ח *",
+  "raw_fixed": "לו ח*",
+  "reason": "audit: printed \"X *\" here means the separate starred seif ח* (topic only there)"
+ },
+ {
+  "key": "זירוז לידה|||לב (א); לו ד",
+  "raw_fixed": "לב (ק); לו ד",
+  "reason": "audit M1788.0: לב (א) -> לב (ק): Note לב (א) is about pikuach nefesh sources and has no inducing of labour. Note (ק) mentions 'אינפוזיה להחשת הלידה' and points to לו ד. Two parallel entries give 'לב (ק); לו ד'."
+ },
+ {
+  "key": "זכוכית מגדלת|הבערת אש באמצעותה||יג א, * ב, ג",
+  "raw_fixed": "יג א, * ב, (ג)",
+  "reason": "audit M1795.2: ג -> יג (ג): Seif יג ג (passing fire from fire on Yom Tov) never mentions a magnifying glass. Only seifim א and ב do. The parallel entry 'יג א; * ב' leaves out ג. Note (ג), the source of 'ההבערה על ידי זכוכית מגדלת', is the likely meaning."
+ },
+ {
+  "key": "זרייה||בניעור מפת־שולחן מפרורים|יב (צג)",
+  "raw_fixed": "יב (צא)",
+  "reason": "audit M1838.0: יב (צג) -> יב (צא): Note (צג) is about moving muktze while cleaning the table. Note (צא), on seif לב about shaking crumbs off a tablecloth, says 'דן אם יש בו משום זורה'."
+ },
+ {
+  "key": "חדר־אוכל|פינוי פסולת משולחנותיו||כב מ *",
+  "raw_fixed": "כב מ*",
+  "reason": "audit: printed \"X *\" here means the separate starred seif מ* (topic only there)"
+ },
+ {
+  "key": "חולה||אכילתו מצה בליל הסדר|לב עג; מ צג",
+  "raw_fixed": "לב (עג); מ צג",
+  "reason": "audit M1923.0: לב עג -> לב (עג): Seif לב עג (fresh hot food for a dangerously ill person) has no matzah. Note לב (עג) discusses a sick person who wants to eat matzah and maror against the doctor's opinion."
+ },
+ {
+  "key": "חולה||טלטול אוכל מוקצה בשבילו|ל (קנה)",
+  "raw_fixed": "ל (קעח)",
+  "reason": "audit M1950.0: ל (קנה) -> ל (קעח): Note ל (קנה) is about a non-Jew's lamp. Note (קעח) says explicitly 'ומותר הישראל לטלטל את האוכל לצורך החולה', and the parallel 'מוקצה (אוכלין), טלטולו בשביל חולה – ל (קעח)' agrees. Other parallels repeat (קנה), but that note has no connection to the topic."
+ },
+ {
+  "key": "חולה||כמות ואיכות המזון שמבשלים למענו|לב (צג); עה; (רא)",
+  "raw_fixed": "לב (צב); עה; (רא)",
+  "reason": "audit M1954.0: לב (צג) -> לב (צב): Note (צג) is only a citation (סי' שכח סע' יג). Note (צב) discusses the quantity to cook and says 'אין נפק\"מ באשר לאיכות האוכל'. Two parallel entries give 'לב (צב), עה, (רא)'."
+ },
+ {
+  "key": "חולה||שיקולים בענין אכילתו ביוה\"כ|לט י",
+  "raw_fixed": "לט ו",
+  "reason": "audit M1975.0: לט י -> לט ו: Seif לט י is about pregnant and nursing women fasting. Seif ו is the weighing of whether to feed with shiurim or normally. Parallels 'שיקולים בדבר האכלת חולה בו – לט ו' and 'לט ה, ו' agree."
+ },
+ {
+  "key": "חולה שאין בו סכנה (חושאיב\"ס)||איסורי שבות אצלו|לח (נג)",
+  "raw_fixed": "לח (נד)",
+  "reason": "audit M1982.0: לח (נג) -> לח (נד): Note (נג) is only a citation of Maharsham. Note (נד), in the same seif, says 'התירו איסור שבות בשביל חושאיב\"ס'. The parallel 'איסורו אצל חושאיב\"ס – לח (נד)' agrees."
+ },
+ {
+  "key": "חולה שאין בו סכנה (חושאיב\"ס)||אכילתו מבישול לחושיב\"ס|לב (רב)",
+  "raw_fixed": "לב (רד)",
+  "reason": "audit M1985.0: לב (רב) -> לב (רד): Note (רב) is about adding extra when cooking (מרבה בשיעורין). A חושאיב\"ס eating what was cooked for a חושיב\"ס is ruled in seif עח ('ואפילו לחולה אחר, אם אינו בסכנה'). Note (ריג) there gives the Pri Megadim's leniency. Seif לב עח would also be a valid target. || third: Note (רב) is about marbeh beshiurin and does not cover this entry. The explicit statement is in note (רד), on seif עה: 'ולפ\"ז מה שמבשלין בביה\"ח עבור חושיב\"ס, אסור לחושאיב\"ס לאכול ממנו' (also 'אסור לבריא לאכול ממנו'). (רב) to (רד) is a ב/ד misprint and stays next door. Several parallel entries also use (רא)/(רב) for this topic. (ריג) is related (the Pri Megadim's leniency), but it is a farther and less likely intended target."
+ },
+ {
+  "key": "חולה שאין בו סכנה (חושאיב\"ס)||הגדרתו|לג א;לד ג, ו; לה ז",
+  "raw_fixed": "לג א;לד ג, ו; לה ח",
+  "reason": "audit M2003.3: לה ז -> לה ח: Seif לה ז is about a boil being dangerous. Seif ח gives the criteria that make a wounded person 'דינו כחולה שאין בו סכנה', and many index entries give לה ח for this, e.g. 'כחושאיב\"ס – לה ח'. Chapter לה has no numbering shift, since 'חטט – לה ז' matches. The print is a slip here."
+ },
+ {
+  "key": "חולה שאין בו סכנה (חושאיב\"ס)||הנאה ממלאכה שנעשתה בשבילו|לב (מב); לז (יא); לח ה; מ ט, יא (לה), (מז)",
+  "raw_fixed": "לג (מב); לז (יא); לח ה; מ י, יא (לה), (מז)",
+  "reason": "audit M2014.0: לב (מב) -> לג (מב): Note לב (מב) is about delaying a tetanus shot. Note לג (מב) says a חושאיב\"ס may possibly benefit from מעשה שבת and points to פ\"מ הערה לה, which is in the same entry. The parallel 'הנאתו ממלאכת שבת – לג (מב); לז (יא); מ יא' confirms the chapter. | audit M2014.3: מ ט -> מ י: Seif מ ט is about sorting medicines and does not fit. Around here the index's ט seems to stand for what is now seif י: 'רופא לחושאיב\"ס – מ ט' and 'תרופה שרופא רשמה בשבת – מ ט'. Seif י covers a Jewish doctor doing melacha (writing a prescription) for a חושאיב\"ס, and seif יא, already listed, continues it. Seif מ כ (benefiting from light a Jew lit, note נא) is another possible place, but מ י is the closer fit."
+ },
+ {
+  "key": "חולה שאין בו סכנה (חושאיב\"ס)||חיטוי מזרק ומחטים בשבילו|לג ח; * כז",
+  "raw_fixed": "לג ח; * כח",
+  "reason": "audit M2022.1: כז -> לג כח: Seif לג כח is the one about boiling water on Yom Tov to sterilise a syringe and needles. Seif כז only gives the heating method, which כח refers back to. The index tells them apart elsewhere ('החמת מים בשבילו – * לג כז, כח')."
+ },
+ {
+  "key": "חולה שיש בו סכנה (חושיב\"ס)||איכות הבשול בשבילו|לב (צג)",
+  "raw_fixed": "לב (צב)",
+  "reason": "audit M2048.0: לב (צג) -> לב (צב): This is the same topic as M1954.0. Note (צב) deals with the quality of what is cooked for a dangerously ill person, while (צג) is only a source line."
+ },
+ {
+  "key": "חולה שיש בו סכנה (חושיב\"ס)||בדיקת דמו|מ כט, לג-לו",
+  "raw_fixed": "מ לג, לג-לו",
+  "reason": "audit M2057.0: מ כט -> מ לג: מ כט נמצא תחת הכותרת \"תרומת דם\" ועוסק בתורם בריא שנותן דם לעירוי, לא בבדיקת דמו של החולה. הכותרת \"בדיקות דם\" מופיעה בסוף מ לב, והנושא מתחיל במ לג. אזור זה במפתח מוזז בכמה סעיפים (ל במקום לד, מב במקום מד), ולכן כט הוא כנראה לג בחלוקה הישנה. ההפניה כפולה לטווח לג-לו שכבר מופיע ברשימה."
+ },
+ {
+  "key": "חולה שיש בו סכנה (חושיב\"ס)||בדיקת סוכר או ספירת־דם לו|מ ל",
+  "raw_fixed": "מ לד",
+  "reason": "audit M2058.0: מ ל -> מ לד: מ ל עוסק בהכנות בית החולים מבעוד יום, ואין בו בדיקת סוכר או ספירת דם. במ לד כתוב במפורש: \"שעושים לו ספירת־דם או בדיקת סוכר כמה פעמים בשבוע... ידלגו על יום השבת\"."
+ },
+ {
+  "key": "חולה שיש בו סכנה (חושיב\"ס)||הוצאת מפתחות ורשיונות מן המכונית שהסיעוהו בה|מ עג",
+  "raw_fixed": "מ עח",
+  "reason": "audit M2088.0: מ עג -> מ עח: מ עג עוסק בבלימה ליד רמזורים. מ עח: \"אל יוציא ניירות אלה מן המכונית... וכן יעשה במפתחות המכונית\". שלושה ערכים מקבילים במפתח (מפתח ורשיונות ממכונית, טלטול רשיונות, רשיונות רכב ונהיגה) מפנים כולם למ עח."
+ },
+ {
+  "key": "חולה שיש בו סכנה (חושיב\"ס)||הכנת מכונית להסעתו בה|מ עא",
+  "raw_fixed": "מ עו",
+  "reason": "audit M2097.0: מ עא -> מ עו: מ עא עוסק בעצירה בהגעה ליעד. במפתח יש כאן הזזה מאומתת של 5 סעיפים: \"הובלת חפצים... אל מחוץ לתחום – מ עב\" הוא בפועל עז, ו\"הוצאת מפתחות ורשיונות – מ עג\" הוא בפועל עח. לכן עא הוא עו: \"ישתדל להוציא ממכוניתו לפני הנסיעה חפצים כבדים\", וזו הכנת המכונית להסעה."
+ },
+ {
+  "key": "חולה שיש בו סכנה (חושיב\"ס)||ניסויים לטיפול בו|מ מב",
+  "raw_fixed": "מ מד",
+  "reason": "audit M2138.0: מ מב -> מ מד: מ מב עוסק בהצמדת פתק למבחנה. מ מד: \"מותר לו לרופא לנסות צורות טיפול חדשות\". הערך המקביל \"ניסוי, לטיפול בחושיב\"ס\" מפנה למ מד."
+ },
+ {
+  "key": "חולה שיש בו סכנה (חושיב\"ס)||שינוי בעשיית מלאכה בשבילו|לב כח, מז, מט, נד, סו, ע, עו",
+  "raw_fixed": "לב כח, מו, מט, נד, סו, ע, עו",
+  "reason": "audit M2166.1: מז -> לב מו: לב מז הוא הפניה בלבד (תשלום לרופא, נסיעתו). לב מו: \"וטוב יעשה, אם ישנה מן הדרך הרגילה בהרמת השפופרת\". שאר ההפניות ברשימה (כח, מט, נד, סו, ע, עו) כולן עוסקות בשינוי, כך שמז הוא כנראה טעות במקום הסעיף הסמוך מו."
+ },
+ {
+  "key": "חומש|טלטולו בביכ\"נ||יז (פז)",
+  "raw_fixed": "יז (פח)",
+  "reason": "audit M2183.0: יז (פז) -> יז (פח): הערה (פז) היא רק \"שם בשו\"ע הרב סע' ו\". הערה (פח), שהסימון שלה באותו סעיף כ, עוסקת בנושא: \"דמותר לטלטל סידורים וחומשים וכיו\"ב, בתוך ביהכ\"נ\"."
+ },
+ {
+  "key": "חייל||החלפתו תורנות שבת עם אחר|מא לה",
+  "raw_fixed": "מא לד",
+  "reason": "audit M2209.0: מא לה -> מא לד: מא לה עוסק באיש ביטחון שהולך למשמרתו ברגל. מא לד: \"חייל שומר מצוות... אל לו להחליף את התורנות שלו עם חייל שאינו שומר מצוות\"."
+ },
+ {
+  "key": "חלב||(שנכרי חלבו בשבת), שתייתו|ל (צה), מט",
+  "raw_fixed": "ל (קה), נט",
+  "reason": "audit M2259.0: ל (צה) -> ל (קה): הערה (צה) עוסקת בשכר פועל נכרי. הערה (קה), בסעיף לא על חליבה בידי נכרי, עוסקת בשתייה עצמה: \"מותר להשקותו בזה... ועכ\"פ במוצש\"ק מותר לכל יהודי לשתות מיד מן החלב\". ערך מקביל (\"השקייתו חלב שנחלב ע\"י נכרי – ל (קה)\") תומך בכך. | audit M2259.1: מט -> ל נט: ל מט עוסק בנעליים שנכרי תיקן. ל נט: \"נכרי שחלב את בהמתו שלו... הרי אסור ליהודי לשתות חלב זה\". גם הערך המקביל \"שתיית חלב שחלב מבהמתו שלו\" מפנה לל נט."
+ },
+ {
+  "key": "חלב־אם||הוצאתו מן השד|לד (קטז)",
+  "raw_fixed": "לו יט",
+  "reason": "audit M2262.0: לד (קטז) -> לו יט: בלד (קטז) יש רק מפיס מורסא, פרעוש וחיתוך חוט של מכשיר שיניים, ואין בה שום דבר על חלב. המפתח מפנה אליה בצדק בערך \"פרעוש\". המקום הישיר להוצאת חלב מן השד הוא לו יט: \"אסור לה למינקת להוציא חלב משדיה\", ואחריו כ-כב. ההצעה לב (קנח) קשורה לנושא, כי היא דנה בקילוח חלב מאשה בהקשר של דישה, אבל המפתח כבר מפנה אליה בנפרד בערך \"קילוחו\". לכן לו יט מדויק יותר."
+ },
+ {
+  "key": "חלב־אם||שאיבת עודפו|לד (קטז); לו כא",
+  "unlink": [
+   "לד (קטז)"
+  ],
+  "reason": "audit M2268.0: לד (קטז) -> none: בלד (קטז) אין שום דבר על חלב אם. הדין עצמו נמצא בלו כא, שכבר מופיע ברשימה. לב (קנח) דנה בקילוח חלב מאשה ובחליבה על גבי קרקע, ומסיקה ש\"הולך לאיבוד קיל טפי\". זה נוגע לעודף חלב שנשפך לאיבוד, ולכן זו חלופה סבירה להפניה השגויה. || third: Note לד (קטז) has nothing on breast milk, so the current target is wrong. But לב (קנח) is about drawing blood before an injection and only mentions קילוח חלב in passing; the index already cites it separately under 'קילוחו'. The real place for pumping excess milk is לו כא, which the entry already lists. No distinct correct target for this ref."
+ },
+ {
+  "key": "חש\"ו|הנאה ממלאכת שבת שלהם||מבוא א (מט); לד ח",
+  "raw_fixed": "מבוא א (מט), לד",
+  "reason": "audit: \"לד ח\" = מבוא א seif לד, paragraph (ח) (benefit from a minor's melacha), not ch. לד"
+ },
+ {
+  "key": "חשמל||שינוי עוצמת זרמו|לח (לב)",
+  "raw_fixed": "לח (לג)",
+  "reason": "audit M2409.0: לח (לב) -> לח (לג): הערה (לב) עוסקת בטלטול הכר החשמלי (ככלי שמלאכתו לאיסור). הערה (לג), שמסומנת באותו סעיף ז, היא שעוסקת בהגברת הזרם ובהחלשתו."
+ },
+ {
+  "key": "חשמל||תיקון נכרי מערכתו|ל כז, ל",
+  "raw_fixed": "ל כט, ל",
+  "reason": "audit M2412.0: ל כז -> ל כט: ל כז עוסק באמירה לנכרי בבין השמשות ואין בו תיקונים. כנראה זו טעות העתקה בין ז ל־ט (אותה טעות שמופיעה במקום אחר), וההפניה המקורית היא 'ל כט, ל'. סעיף כט מתיר למסור לנכרי תיקון לפני שבת, וסעיף ל פותח ב'לעומת זאת' ואוסר תיקון רשת החשמל בבית. גם ל כח (הכלל) אפשרי, אבל כט-ל הם צמד רציף."
+ },
+ {
+  "key": "טלטול||(בדחיפה), מכונית|מ סא",
+  "raw_fixed": "מ ע",
+  "reason": "audit M2520.0: מ סא -> מ ע: מ סא עוסק בנהג שאינו מנוסה ואין בו דחיפה. מ ע עוסק בדחיפת המכונית למקום חניה, והערה (קמז) שם קובעת שהיא כלי שמלאכתו לאיסור. גם הערך המקביל במפתח 'מכונית, טלטולה (דחיפתה) – מ ע' מאשר זאת."
+ },
+ {
+  "key": "טלטול||במלון של נכרים|יז (קכג)",
+  "raw_fixed": "יז (קכד)",
+  "reason": "audit M2527.0: יז (קכג) -> יז (קכד): הערה (קכג) היא רק מראה מקומות (סי' תטז, תריא) ואין בה מלון. הערה (קכד) עוסקת במפורש בבית מלון של גויים ובטלטול המפתח."
+ },
+ {
+  "key": "טלטול||חלב שנחלב בהיתר|כב נב; כז מח, (קסד); לז ג",
+  "raw_fixed": "כב נה; כז מח, (קסד); לז ג",
+  "reason": "audit M2559.0: כב נב -> כב נה: כב נב עוסק בנדר ובתרומה. כב נה (תחת הכותרת 'חלב שנחלב ופירות שנשרו בשבת') פוסק שחלב שנחלב בשבת, אפילו על ידי נכרי, הוא מוקצה. סביר שזו טעות העתקה בין ב ל־ה, ושאר ההפניות (כז מח, לז ג) עוסקות באותו נושא."
+ },
+ {
+  "key": "טלטול||כלי מדידה ושקילה|יד (קיב), י; כט מה",
+  "unlink": [
+   "י"
+  ],
+  "reason": "audit M2580.1: י -> none: יד י עוסק בחמי טבריה ואין לו שום קשר לכלי מדידה. ההפניה 'י' היא כנראה שארית משובשת. הנושא בפרק יד נמצא בסעיף מב, שבו מסומנת הערה (קיב): 'כלי משקל ומדידה מוקצה הם'. || third: יד י (Tiberias hot springs) is clearly wrong. But seif יד מב itself is about weighing and measuring oneself. The muktzeh of measuring tools is only in its note (קיב), which the entry already lists. The stray 'י' may be a remnant of another ref, such as כ ה, which כט מה cites for this exact rule. I cannot tell which seif was intended."
+ },
+ {
+  "key": "טלטול||מוקצה, לכסות גרף של רעי|כב (קכג)",
+  "raw_fixed": "כב (קכד)",
+  "reason": "audit M2625.0: כב (קכג) -> כב (קכד): הערה (קכג) עוסקת במי מותר להוציא את הגרף. הערה (קכד), באותו סעיף מו, דנה במפורש בטלטול מוקצה כדי לכסות בו גרף של רעי."
+ },
+ {
+  "key": "טלטול||מכשיר לאידוי־מים|לז טו",
+  "raw_fixed": "לז טז",
+  "reason": "audit M2654.0: לז טו -> לז טז: לז טו עוסק בטיפול בקוצר נשימה ובאידוי מים על האש, ואין בו טלטול. לז טז עוסק במכשיר לאידוי מים ומזהיר שלא יפסיק את הזרם בזמן הטלטול. במפתח עצמו 'הפעלת מכשיר לאידוים – לז טו-טז' מכסה את שני הסעיפים."
+ },
+ {
+  "key": "טלטול||עצמות שנתפרקו מבשרן בשבת|כב (קנז)",
+  "raw_fixed": "כב (קנט)",
+  "reason": "audit M2690.0: כב (קנז) -> כב (קנט): הערה (קנז) עוסקת בפירות טבל של נכרי. הערה (קנט) (בדיני נולד), באותו סעיף נט, אומרת 'עצמות שנתפרקו מהבשר שעליהן בשבת... בשבת הן מותרות בטלטול'."
+ },
+ {
+  "key": "טלית||טלטולה בביהכ\"נ|יז (פז)",
+  "raw_fixed": "יז (פח)",
+  "reason": "audit M2735.0: יז (פז) -> יז (פח): Note (פז) is only 'שם בשו\"ע הרב סע' ו'. Note (פח), marker also in seif כ, is the one about carrying a טלית or raincoat brought from home within the shul and to another shul in the same building. The link is off by one note."
+ },
+ {
+  "key": "טלפון||רופא הרמתו את השפופרת בביתו|מ י",
+  "raw_fixed": "מ יב",
+  "reason": "audit M2764.0: מ י -> מ יב: Seif מ י is about choosing a Sabbath-observant doctor over one who is not, with nothing on the phone. Seif מ יב is the case of a doctor whose phone rings at home: 'מותר להרים את השפופרת מעריסתה'. The index's own parallel entry 'בהרמת שפופרת הטלפון בבית הרופא – מ יב' agrees."
+ },
+ {
+  "key": "טעם||איסור הנאה ממלאכת שבת|ל (קכד)",
+  "raw_fixed": "ל (קמב)",
+  "reason": "audit M2784.0: ל (קכד) -> ל (קמב): Note ל (קכד) is about the gentile's cooking water and spices. Note (קמב) gives the reason for the ban (Rashi/Ran versus Tosafot/Rambam). Parallel entries point to ל (קמב): 'טעם איסור הנאה ממנה' and 'ממלאכת נכרי בשבת, טעם איסורה – ל מג, (קמב)'. The index's ל (קכד) references seem to consistently stand for our (קמב), for example 'מומר' and 'ולפני עור', which our (קכד) never mentions."
+ },
+ {
+  "key": "טעם||איסור השלכת גרעינים ושפיכת שיורי כוס בגינה|כו (יט)",
+  "raw_fixed": "כו (כ)",
+  "reason": "audit M2786.0: כו (יט) -> כו (כ): Note (יט) is only the Rema and Mishna Berura source for the ruling. Note (כ), same seif ה, says outright 'דטעם האיסור, דבקושי אפשר להיזהר מהשלכת גלעיני פירות ומשפיכת שיורי הכוס'."
+ },
+ {
+  "key": "טעם||איסור תקיעת שופר בר\"ה שחל בשבת|כב (סז)",
+  "raw_fixed": "כב (סח)",
+  "reason": "audit M2793.0: כב (סז) -> כב (סח): Note (סז) is about the shofar counting as a כלי on Rosh Hashana night, and about medicines. Note (סח) opens with 'והטעם שאסרו לתקוע בשופר בר\"ה שחל להיות בשבת הוא משום...'. The link is off by one note."
+ },
+ {
+  "key": "טעם||גזירת איסור הנאה ממלאכת נכרי בשבת|ל לה",
+  "raw_fixed": "ל מג",
+  "reason": "audit M2796.0: ל לה -> ל מג: Seif ל לה is about a gentile house worker working in her own room, and gives no reason for any decree. Seif ל מג says 'אסרו גם את ההנאה ממלאכת שבת או יו\"ט שעשה הנכרי, גזירה שמא יאמר לנכרי'. The parallel entry 'טעם איסורה – ל מג, (קמב)' agrees."
+ },
+ {
+  "key": "טעם||הצגת לחם עירובי חצרות בביה\"כ|יז (קי)",
+  "raw_fixed": "יז (קיא)",
+  "reason": "audit M2800.0: יז (קי) -> יז (קיא): Note (קי) only lists sources. Note (קיא), same seif כו, says 'המנהג להניח העירוב בבית-הכנסת, ע\"ש הטעם, ועוי\"ל כדי שכולם יראו את העירוב'."
+ },
+ {
+  "key": "ידיים||נטילתן במים המכילים מי־בושם|כב (קנז)",
+  "raw_fixed": "כב (קנט)",
+  "reason": "audit M2813.0: כב (קנז) -> כב (קנט): Note (קנז) is about a gentile's tevel fruit. The full text of note (קנט), about 8,700 characters and cut off by the helper, does state the case explicitly: 'מותר ליטול ידים במים המכילים מי-בושם (סי' קכח במ\"ב ס\"ק כג...)'. So the first reviewer's remark that it is not explicit is mistaken, and the correction is certain."
+ },
+ {
+  "key": "ידיים||ניגובן במגבת־נייר|כב (נג)",
+  "raw_fixed": "כב (נד)",
+  "reason": "audit M2814.0: כב (נג) -> כב (נד): Note (נג) is about ביטול כלי מהיכנו and never mentions paper. Note (נד), same seif כח, says 'ולפיכך מותר לנגב ידים בנייר שהוא לשימוש חד-פעמי'. The parallel index entry agrees."
+ },
+ {
+  "key": "יולדת||עירוי נתינתו לה|לו יב",
+  "raw_fixed": "לו ט",
+  "reason": "audit M2853.0: לו יב -> לו ט: Seif לו יב is about the newborn: ID bracelets, weighing, cord blood. The asterisk in seif לו ט says 'ומותר להכניס ליולדת מחט האינפוזיה'. The index's own parallel entry 'עירוי, ליולדת – לו ט' confirms it."
+ },
+ {
+  "key": "כאב־ראש|טיפול בו||לד א, ג, ו, ז",
+  "raw_fixed": "לד א, ג, ו, טז",
+  "reason": "audit M3052.3: ז -> לד טז: 34:7 covers toothache only. 34:16 covers headache that may turn into migraine (\"החש בראשו וקיימת אצלו נטיה למיגרנה\"). 34:6 sends the reader on with \"וראה להלן סעיף טז\", and the index entry \"כאב (קל), נטילת תרופה בגינו – לד ג, טז\" also lists טז. The printed ז is a typo for טז."
+ },
+ {
+  "key": "\"כבוד הבריות\"|||טו (קג); יח (עא), (קמג), (קצח); כב מח; כג יג, יט, (קכח); כו (כג); לא טו; לב (קכו); מ (כב), כג",
+  "raw_fixed": "טו (קג); יח (עא), (קלז), (קצח); כב מח; כג יג, יט, (קכח); כו (כג); לא טו; לב (קכו); מ (כב), כג",
+  "reason": "audit M3057.2: (קמג) -> יח (קלז): Note 18 (קמג) only gives sources (Biur Halacha ד\"ה ודעתו, 13:1) on going out in a pasul tallit and never mentions kavod habriyot. In chapter 18 the phrase appears only in notes (עא), (קלז) and (קצח). (עא) and (קצח) are already listed in the same entry, so the printed (קמג) must be a typo for (קלז), which says \"והוא מפני כבוד הבריות\"."
+ },
+ {
+  "key": "כיבוי||מכשיר רפואי המופעל ע\"י סוללה|מ לה",
+  "raw_fixed": "מ לט",
+  "reason": "audit M3116.0: מ לה -> מ לט: 40:35 is only about drawing blood for a test. 40:39 covers switching off a battery-powered medical device (\"יכבם בשבת\"). Three parallel entries give מ לט: \"בכיבוי מכשיר רפואי מופעל ע\"י סוללה\", \"שימושו במכשיר רפואי מופעל ע\"י סוללה\" and \"סוללה ריקה\"."
+ },
+ {
+  "key": "כיבוי||נר|ל (כח)",
+  "raw_fixed": "ל (ל)",
+  "reason": "audit M3117.0: ל (כח) -> ל (ל): Note 30 (כח) is only a source line for asking a non-Jew to do things for a sick person, with no mention of a candle. The very next marker in the same seif 30:11 is (ל), on \"לכבות אור כדי שהחולה יוכל לישן\". That note is about putting out the candle: it is better for the non-Jew to carry it out, and a Jew may not put it out. So (ל) is the right place."
+ },
+ {
+  "key": "כיסוי־דם||כששחט בשבת לחולה|מ (צח)",
+  "raw_fixed": "מ (ק)",
+  "reason": "audit M3148.0: מ (צח) -> מ (ק): Note 40 (צח) is a bare reference to Nishmat Avraham. Note 40 (ק) discusses the slaughterer for a sick person having to cover the blood (\"השוחט לחולה בשבת חייב לכסות\"). A parallel index line gives the same place: \"כיסוי דם כששחטו בשבילו – מ (ק)\"."
+ },
+ {
+  "key": "כלי (שמלאכתו לאיסור)|אמירה לנכרי לטלטלו||ל כא",
+  "raw_fixed": "ל כ",
+  "reason": "audit M3209.0: ל כא -> ל כ: 30:20 is exactly the entry: \"מותר לומר לנכרי בשבת לטלטל כלי שמלאכתו לאיסור, כמו פטיש\". 30:21 is the separate case of removing candlesticks, which has its own entry (\"אמירה לנכרי להסירם – ל כא\"). It is only indirectly relevant, as an example that its note (עב) links back to note (סט). The general parallel entry \"אמירה לו לטלטל מוקצה – ל כ-כב\" starts at כ. This is a likely off-by-one error, and ל כ is the better place."
+ },
+ {
+  "key": "כרמלית||טלטול בה|מבוא ב ג; יז ה",
+  "raw_fixed": "מבוא ב ג; יז ח",
+  "reason": "audit M3366.1: יז ה -> יז ח: יז ה מגדיר מקום פטור, וכרמלית מוזכרת בו רק דרך אגב. יז ח: \"והעברת כל חפץ ארבע אמות בכרמלית\". גם במפתח המקביל כתוב \"בכרמלית – מבוא ב ג; יז ח\"."
+ },
+ {
+  "key": "כתיבה||הגדרה|ט (נב)",
+  "raw_fixed": "ט (נא)",
+  "reason": "audit M3376.0: ט (נב) -> ט (נא): ט (נב) היא רק מראה מקום (מ\"ב שמ ס\"ק טז) לדין ציורים. ט (נא) דנה בגדר כתיבה (שתי אותיות בטבריה ובציפורי, ההבדל בין כתיבה למחיקה). במפתח ההגדרות כתוב \"כתיבה – ט (נא)\"."
+ },
+ {
+  "key": "\"לא תעמוד על דם רעך\"|||מא (צט)",
+  "raw_fixed": "מא (ק)",
+  "reason": "audit M3387.0: מא (צט) -> מא (ק): מא (צט) היא רק \"עיין לעיל פל\"ב סע' א\". הביטוי \"לא תעמוד על דם רעך\" מופיע בהערה (ק) הסמוכה, שנמצאת גם היא בסעיף לט."
+ },
+ {
+  "key": "לאלתר|הגדרה||ג (רו), (רז), (רכא), (פ)",
+  "raw_fixed": "ג (רו), (רז), (רכא), עח",
+  "reason": "audit M3388.3: (פ) -> ג עח: ג (פ) עוסקת בברירת שני מינים בסעודה אחת. במפתח ההגדרות המקביל כתוב \"לאלתר – ג (רו), (רז), עח, (רכא)\", כלומר את \"(פ)\" מחליף שם \"עח\". ג עח מגדיר לאלתר: \"שהתועלת תהיה מידית\"."
+ },
+ {
+  "key": "לישה||הגדרה|ח א; יב (כז)",
+  "raw_fixed": "ח א; יב (לב)",
+  "reason": "audit M3479.1: יב (כז) -> יב (לב): יב (כז) שייכת לסעיף ח, שעוסק בקצף של חומרי ניקוי (נולד/ממחק), ואין בה עניין לישה. יב (לב) מגדירה מתי אין בזה משום לישה, ובמפתח ההגדרות כתוב \"לישה – יב (לב)\"."
+ },
+ {
+  "key": "לכלוך|ניגובו במטפחת חשובה||כב (נז)",
+  "raw_fixed": "כב (נד)",
+  "reason": "audit M3482.0: כב (נז) -> כב (נד): כב (נז) עוסקת בנוי סוכה ואין לה קשר לערך. גם ההצעה יד כט אינה המקום המדויק. בהערה כב (נד), הסמוכה ליעד המודפס, נאמר במפורש: \"וצ\"ע אם מותר לנגב לכלוך ממש במטפחת חשובה או בבגד באופן שעי\"ז הבגד ימאס וייעשה מוקצה\". זה בדיוק הערך, והטעות היא נ\"ד/נ\"ז."
+ },
+ {
+  "key": "מוצאי־שבת||הוצאת מפתח בשבת לקראתם|כח פח",
+  "raw_fixed": "כח פט",
+  "reason": "audit M3612.0: כח פח -> כח פט: כח פח עוסק בהדלקת נרות ביו\"ט. כח פט (הערה רי) מתיר לצאת ומפתח ביתו בכיסו כדי להיכנס במוצאי שבת. זו טעות של סעיף אחד."
+ },
+ {
+  "key": "מוקצה||טלטולו למנוע נזק|כב מה; כח ט",
+  "raw_fixed": "כב מה; כה ט",
+  "reason": "audit M3672.1: כח ט -> כה ט: כח ט עוסק במכתבים מסחריים ובתעודת זהות. כב מה עצמו מפנה ל\"פרק כה סעיף ט\", ושם מותר לטלטל מוקצה כשיש חשש היזק. זו טעות ח/ה."
+ },
+ {
+  "key": "מוקצה||טלטולו משום הצלה|מא (יב)",
+  "raw_fixed": "מא (יג)",
+  "reason": "audit M3681.0: מא (יב) -> מא (יג): מא (יב) היא רק מראה מקום. מא (יג) דנה בטלטול מוקצה משום הצלה (\"דאסור לטלטל מוקצה משום הצלה, י\"ל דשאני התם\"). במפתח המקביל כתוב \"מוקצה, בגין הצלה – מא (יג)\"."
+ },
+ {
+  "key": "מוקצה||טלטולו משום צער|מא (יב)",
+  "raw_fixed": "מא (יג)",
+  "reason": "audit M3682.0: מא (יב) -> מא (יג): מא (יג): \"והא דשרינן טלטול מוקצה משום צער... שאני התם דהוה צער הגוף\". במפתח המקביל כתוב \"מוקצה, בגין צער – לד (ז); מא (יג)\"."
+ },
+ {
+  "key": "מוקצה||משום חומרא|טז (ה); כ (יג), יב; טז (ח); כג ג, (עה); כד (נו)",
+  "raw_fixed": "טז (ח); כ (יג), (יב); טז (ח); כג (ג), (עה); כד (נו)",
+  "reason": "audit M3706.0: טז (ה) -> טז (ח): טז (ה) היא רק \"שבת קיח א\" (עונג שבת). טז (ח) דנה בכלי שאין איסור להשמיע בו קול \"אלא מחמת חומרא\", ובערך המקביל כתוב \"טז (ח); כ (יב); כג (עה); כד (נו)\". כנראה ה/ח. טז (ח) מופיע גם בהמשך אותה רשימה, ובכל זאת זה המקום המתאים ביותר. | audit M3706.2: יב -> כ (יב): סעיף כ יב עוסק בטלטול כלי שמלאכתו לאיסור לצורך שמירתו. הערה כ (יב) היא שאומרת \"דכל שאסור מחמת חומרא בעלמא, יש להתיר את הטלטול\". במפתח המקביל כתוב \"שאסור מחמת חומרא בעלמא – כ (יב)\". | audit M3706.4: כג ג -> כג (ג): סעיף כג ג עוסק במשחה והברקת רצפות. הערה כג (ג) היא שאומרת \"שאם האיסור רק מחמת חומרא, מותר לטלטל גם מחמה לצל\", וכד (נו) מפנה ל\"פרק כג הערה ג\"."
+ },
+ {
+  "key": "מוקצה||תרופות|לד ד",
+  "raw_fixed": "לד ג",
+  "reason": "audit M3733.0: לד ד -> לד ג: לד ד והערותיו עוסקים במאכל בריאים לרפואה. בהערה (יח) מוזכר מוקצה, אבל רק לגבי ביצה ולא לגבי תרופה. ההגהה בלד ג אומרת במפורש \"כל תרופה שאסור לקחתה, הרי היא מוקצה ואסור לטלטלה\"."
+ },
+ {
+  "key": "מזון||הכנתו לחושאיב\"ס|* לג כד, כה",
+  "raw_fixed": "* לג כו, כה",
+  "reason": "audit M3779.0: לג כד -> לג כו: לג כד מפנה רק לפרק מ לגבי הוצאת תרופות, ובסופו באה כותרת בלבד. במפתח יש ערך מקביל תחת חולה: \"הכנת אוכל־נפש לו – * לג כה, כו\". לג כו עוסק בבישול התרופה ליד קדירה של תבשיל לצורך החג. מכאן שההפניה זזה באחד."
+ },
+ {
+  "key": "מזון||העברתו למקרר לצורך חול|ט (כח); כח פט; א (קלג)",
+  "raw_fixed": "י (כח); כח פט; י (לג)",
+  "reason": "audit M3782.0: ט (כח) -> י (כח): ט (כח) עוסקת בנקבים בפחית ואין בה קשר לנושא. הערה י (כח), שעל סעיף י ט (החזרת אוכלין למקרר), אומרת \"ואין בזה משום מכין משבת לחול... ועיין להלן פכ\"ח סע' פט\". זה בדיוק הנושא, והיא גם מפנה לכח פט, ההפניה השנייה של הערך. טעות בפרק: ט במקום י. | audit M3782.2: א (קלג) -> י (לג): א (קלג) עוסקת במוקצה של מי בוילר. גם מבוא א (קלג) אינה מתאימה, כי היא ציון לב\"ק בלבד. י (לג) דנה בהכנה משבת לחול במקרר ומשווה לכח פט, ההפניה השנייה של הערך. לכן היא המועמדת הטובה ביותר. חלופה אפשרית היא י ט עם הערה (לא*), העוסקת בהכנסת מאכל למקרר לצורך אחר שבת, אבל ההערה שם היא ציון מקורות בלבד."
+ },
+ {
+  "key": "מחט||השחלת חוט בה|* יא (קמז); * יג (פח)",
+  "raw_fixed": "* יא (קנד); * יג (פח)",
+  "reason": "audit M3803.0: יא (קמז) -> יא (קנד): יא (קמז) עוסקת בהכנסת חמצן לבקבוק מים ואין בה מחט או חוט. יא לח עוסק בחוט המושחל במחט לתפירת מאכל ביו\"ט. הערה (קנד) שם: \"אם השחיל החוט מבעו\"י ושוב הוציאוהו... מותר להחזירו ביו\"ט\"."
+ },
+ {
+  "key": "\"מיגו דאיתקצאי\"|||* יג (סו), (קיד), (קלח); טו (סג); כ (פג), (רכב); * כא (ז), * (כא); כב (נה), מב; כו (נב)",
+  "raw_fixed": "* יג (סו), (קיד), (קלח); טו (סג); כ (פג), (רכב); * כא (ז), * (כא); כב (נה), (מב); כו (נב)",
+  "reason": "audit M3880.9: מב -> כב (מב): בנוסח המודפס \"כב (נה), מב\" כל שאר ההפניות הן הערות, והמנתח קרא את \"מב\" כסעיף. כב מב עוסק בדחיפת מוקצה במטאטא. הערה כב (מב) אומרת במפורש \"ואמרינן ביה מיגו דאיתקצאי\"."
+ },
+ {
+  "key": "מים||החמתם לצורך הדחת כלים|* מבוא ג, (סב); * יב ה",
+  "unlink": [
+   "מבוא ג, (סב)"
+  ],
+  "reason": "audit M3944.0: מבוא ג, (סב) -> none: מבוא ג (סב) עוסקת בהבדל בין כבוד ועונג יו\"ט לבין שמחת יו\"ט, ואינה נוגעת בחימום מים. חיפשתי בכל מבוא ג (הדחה, כלים, מים): המקום הקרוב ביותר הוא (כז), על חימום מים לשתייה ביו\"ט, ואין בו הדחת כלים. בכל הספר רק יב ה עוסק בחימום מים להדחת כלים, והוא כבר ההפניה השנייה של הערך. לכן אין מקום אחר מתאים, וההפניה הזו שגויה."
+ },
+ {
+  "key": "מים (באגרטל)|טלטולם||כו (פו)",
+  "raw_fixed": "כו (צא)",
+  "reason": "audit M3977.0: כו (פו) -> כו (צא): כו (פו) עוסקת בדבר שתלש נכרי ואין בה אגרטל או מים. כו כה: \"אגרטל... אינו מוקצה ומותר לטלטלו (צא)\", והערה (צא): \"גם המים שבהם הכניסוהו, אינם מוקצה\"."
+ },
+ {
+  "key": "מיקרו־גל|בישול בו||מבוא א (כח); א (יא); לב (רז)",
+  "raw_fixed": "מבוא א (כח); א (יב); לב (רז)",
+  "reason": "audit M4057.1: א (יא) -> א (יב): א (יא) היא רק ציון לסי' שיח. הערה א (יב), שעל אותו סעיף א ד, דנה בהרחבה בבישול במיקרו־גל (מנחת שלמה, חזו\"א, אג\"מ)."
+ },
+ {
+  "key": "מכה בפטיש||בתפירה בגוף אדם|לה (כא)",
+  "raw_fixed": "לה (סו)",
+  "reason": "audit M4085.0: לה (כא) -> לה (סו): לה (כא) היא רק \"שאין בו חשש סחיטה\". חיפוש בכל הספר מוצא מקום אחד בלבד שבו תפירה בגוף אדם באה יחד עם מכה בפטיש: לה (סו), \"דתופר ממש שייך גם בגוף האדם... ומכה בפטיש\"."
+ },
+ {
+  "key": "מכונית||בחירתה להסעת חושיב\"ס|מ פ, (קפג)",
+  "raw_fixed": "מ פו, (קפג)",
+  "reason": "audit M4087.0: מ פ -> מ פו: מ פ עוסק בחזרת נהג אמבולנס לתחנתו. מ פו עוסק בבחירת הרכב להעברת החולה (שומר שבת, אמבולנס או מחלל שבת), ולשם מפנים ערכים מקבילים (\"מונית להסעת חושיב\"ס – מ פו\"). ההפניה הנלווית (קפג) עוסקת אף היא בהעדפת הרכב שמצריך הכי מעט הבערות."
+ },
+ {
+  "key": "מכונית||הוצאת רשיונות רכב ונהיגה ומפתחות ממנה כשמסיע חושיב\"ס|מ עו",
+  "raw_fixed": "מ עח",
+  "reason": "audit M4092.0: מ עו -> מ עח: מ עו עוסק בהוצאת חפצים כבדים ורק מפנה \"להלן סעיף עח\". מ עח עוסק ברשיונות ובמפתחות המכונית. כל הערכים המקבילים במפתח מפנים למ עח (למשל \"מפתח ורשיונות ממכונית שהסיע בה חושיב\"ס – מ עח\")."
+ },
+ {
+  "key": "מכשירים רפואיים (חשמליים)|דרך הפעלתם||מ מח",
+  "raw_fixed": "מ מא",
+  "reason": "audit M4142.0: מ מח -> מ מא: מ מח עוסק בסכנה עכשווית ובטיפול מיידי בשבר, ואין בו שום דבר על מכשירים. בדקתי את הטקסט הגולמי ואין בסעיף שורות המשך. מ מא עוסק בדיוק בדרך הפעלתם: לכוון את הכפתורים תחילה ורק אחר כך לחבר לזרם."
+ },
+ {
+  "key": "מכשירי אוכל נפש||שאפשר לעשותן בעיו\"ט|* ב (מ); * (יג)",
+  "reason": "audit: chapter of the second ref missing; note יב (יג) = devices one may prepare on ערב יו\"ט",
+  "raw_fixed": "* ב (מ); * יב (יג)"
+ },
+ {
+  "key": "מלאכה שאצל\"ג||כשכוונתו לבטל המלאכה|מבוא א (לו)",
+  "raw_fixed": "מבוא א (לז)",
+  "reason": "audit M4211.0: מבוא א (לו) -> מבוא א (לז): (לו) עוסקת בגדר משאצל\"ג ובפטור שבו, ולא בכוונה לבטל את המלאכה. (לז) דנה בזה במפורש: \"ואם עושה מלאכה שצריך לגופה אלא דבכוונתו לבטל את המלאכה... מחלוקת המ\"ב - החזו\"א\"."
+ },
+ {
+  "key": "מָלון||דלת הכניסה שיש בה כרטיס|כג סה",
+  "raw_fixed": "כג סח",
+  "reason": "audit M4238.0: כג סה -> כג סח: כג סה עוסק בתאורה שנדלקת כשאדם עובר (גם בטקסט הגולמי). כג סח עוסק בדלת שנפתחת בכרטיס מגנטי בבתי מלון."
+ },
+ {
+  "key": "מָלון||פעולות חשמל שיש לקפיד בהם|כג סה",
+  "raw_fixed": "כג סח",
+  "reason": "audit M4241.0: כג סה -> כג סח: סוף כג סח: \"השוהה במלון יש לו לתת את הדעת לפני שבת על פעולות חשמליות נוספות הנגרמות בפתיחת דלת הכניסה...\". כג סה אינו עוסק במלון."
+ },
+ {
+  "key": "ממתיק|עירוי כ\"ר עליו||א נה, (קפה*)",
+  "raw_fixed": "א נה, (קנח*)",
+  "reason": "audit M4284.1: (קפה*) -> א (קנח*): (קפה*) עוסקת בקפה בטעמים, במלבין ובמטרנה, ולא בממתיקים. הערך הוא \"א נה, (הערה)\", ולכן ההערה צפויה להיות של סעיף נה. בסעיף נה, על עירוי מכלי ראשון על סוכר, מסומנת הערה (קנח*): \"וראה להלן הערה קפב לענין סכרין וכדו'\". לכן (קנח*) מתאימה יותר מ־(קפב), שעוסקת בכלי שני ושלישי ולא בעירוי. (קפב) היא חלופה סבירה בעדיפות שנייה."
+ },
+ {
+  "key": "מנהג||אמירה לנכרי לעשות דבר אסור בגינו|ל (מז)",
+  "raw_fixed": "ל (נ)",
+  "reason": "audit M4287.0: ל (מז) -> ל (נ): (מז) היא ציון מקור לדרכי שלום בלבד. באותו סעיף (ל יד) מסומנת גם הערה (נ): \"וכ\"ש שמותר לומר לנכרי לעשות דבר שאינו אלא מנהג וחומרא בעלמא, וכסי' שז במ\"ב ס\"ק ח...\". זו בדיוק אמירה לנכרי לעשות דבר שאיסורו רק ממנהג."
+ },
+ {
+  "key": "מסרק||מסרק שדללו את שיניו להשתמש בו בשבת|טו (קלג)",
+  "raw_fixed": "יד (קלד)",
+  "reason": "audit M4334.0: טו (קלג) -> יד (קלד): טו (קלג) עוסקת בצביעה ובהברקת נעליים. יד (קלד): \"ויל\"ע אם מותר לייחד מסרק מיוחד לשבת שדלל בו מבעו\"י את שיניו\". כלומר מספר הפרק התחלף."
+ },
+ {
+  "key": "מעות||הרצאתן כנגד נר חנוכה|כב (סד)",
+  "raw_fixed": "כב (סה)",
+  "reason": "audit M4351.0: כב (סד) -> כב (סה): (סד) עוסקת בטלטול הדס בבין השמשות. (סה): \"לדבר רשות דומיא דלהרצות מעות נגד נר חנוכה\"."
+ },
+ {
+  "key": "מעלית||השהיית סגירתה|כג נח",
+  "raw_fixed": "כג נט",
+  "reason": "audit M4367.0: כג נח -> כג נט: כג נח מגדיר מהי מעלית שבת ומביא את המחלוקת על הירידה בה, ואין בו אזהרה על הדלת. כג נט: לא לעבור ולא לגעת בדלת המעלית כשהיא עומדת להיסגר, ובזה מדובר בהשהיית סגירתה."
+ },
+ {
+  "key": "מעלית (מופעלת ע\"י נכרי)|שימוש בה||כג נח; ל סח",
+  "raw_fixed": "כג נט*; ל סד",
+  "reason": "audit M4370.0: כג נח -> כג נט*: כג נח עוסק רק במעלית אוטומטית ואין בו שום דבר על נכרי. כג נט* עוסק בדיוק בזה: מעלית רגילה שנכרי הזמין לעצמו, מותר ליהודי להצטרף. (כג ס רק מפנה משם הלאה.) | audit M4370.1: ל סח -> ל סד: ל סח הוא הכלל הכללי בדבר הנאה עקיפה ממלאכת נכרי, ואין בו מעלית (בדקתי גם בטקסט הגולמי). ל סד: \"מעלית אשר השרת הנכרי מפעילה... מותר לעלות בה\", וכג ס מפנה אליו."
+ },
+ {
+  "key": "מפתח (מכונית)||הוצאתו ממנה כשהסיע בה חושיב\"ס|מ עג",
+  "raw_fixed": "מ עד",
+  "reason": "audit M4410.0: מ עג -> מ עד: מ עג עוסק בבלימה ברמזורים. בטקסט הגולמי, הכותרת שאחריו \"הוצאת המפתח ממקומו אחר כיבוי המנוע\" היא הכותרת של מ עד, ושם נמצא הדין: אסור לסובב את המפתח, אלא אם כן יש חשש שילדים יפעילו את המנוע."
+ },
+ {
+  "key": "מקח וממכר לדבר מצוה|||כט נד",
+  "raw_fixed": "כט נז",
+  "reason": "audit M4481.0: כט נד -> כט נז: כט נד עוסק באמירה לנהג מונית להיות מוכן במוצ\"ש, ואין בו מקח וממכר. בכט נז כתוב \"אבל מקח־וממכר - גם לדבר מצוה - אסור\", והערך המקביל \"מקח וממכר לצורכה – כט נז\" מפנה לאותו מקום."
+ },
+ {
+  "key": "מקרר||הקפאת מים בו|י ג; כב (קנט)",
+  "raw_fixed": "י ד; כב (קנט)",
+  "reason": "audit M4499.0: י ג -> י ד: י ג עוסק בהפשרת קרח בכוס ריקה. רק בהערה (ט) יש אזכור אגבי של מים שנקרשו במקרר. הדין עצמו, מתן מים לתא ההקפאה כדי להפוך אותם לקוביות קרח, נמצא בי ד."
+ },
+ {
+  "key": "משטרה||הודעה לה על חשד לחבלה או חפץ חשוד|מא לז, לח",
+  "raw_fixed": "מא לז, לו",
+  "reason": "audit M4600.1: לח -> מא לו: מא לח עוסק בחייל בכוננות ביוה\"כ. מא לו: \"מותר ומצוה להודיע על כך מיד למשטרה\". הערך המקביל: \"הזעקת משטרה בגין חשד למעשה חבלה – מא לו, לז\"."
+ },
+ {
+  "key": "נאמנות||רופא שאינו שותו\"מ|לט טו",
+  "raw_fixed": "לט (טו)",
+  "reason": "audit M4679.0: לט טו -> לט (טו): לט טו עוסק במעבר בין דיני היולדת ביוה\"כ. הערה (טו) (שהסימון שלה בסעיף ה) דנה ברופאים שאינם שומרי תורה, בשם הביה\"ל. גם הערכים המקבילים במפתח מפנים ללט (טו)."
+ },
+ {
+  "key": "נגיעה||במוקצה|כב (מג), (נא)",
+  "raw_fixed": "כב (מז), מא",
+  "reason": "audit M4683.0: כב (מג) -> כב (מז): הערה (מג) עוסקת כולה בביטול כלי מהיכנו. הערה (מז) עוסקת בנגיעה: \"דכל שמנענע את המוקצה ע\"י נגיעתו - אסור\". הערך המקביל: \"נגיעה בו – כב (מז), לג, מא\". | audit M4683.1: (נא) -> כב מא: הערה (נא) עוסקת בשעווה ובביטול כלי, ואין בה נגיעה. בכב מא כתוב \"אבל לא יגע במוקצה עצמו, אם ינידו אגב נגיעתו בו\", והערך המקביל מפנה ל(מז), לג, מא."
+ },
+ {
+  "key": "נטילת־ידיים||לתוך כלי שבו מים רבים ובגד מלוכלך|כג (קסז)",
+  "raw_fixed": "כג (קסו)",
+  "reason": "audit M4735.0: כג (קסז) -> כג (קסו): כל תוכן הערה (קסז) הוא הפניה ל\"ידיעות המכון\". בהערה (קסו) כתוב במפורש \"מותר לאדם ליטול ידיו לתוך כלי גדול שיש בו הרבה מים אף אם נמצא בו בגד מלוכלך\"."
+ },
+ {
+  "key": "נייר־עטיפה|קריעתו||ט יב, יג, * כג; לג ד; לה כ",
+  "raw_fixed": "ט יב, יג, * כג; לג ד; לה כא",
+  "reason": "audit M4760.4: לה כ -> לה כא: לה כ עוסק בפתילות ובקריעת צמר גפן, ואין בו נייר. בלה כא כתוב \"ומותר לקרוע את הנייר העוטף את התחבשות\" (הערות נד-נה)."
+ },
+ {
+  "key": "ניתוח||בספק הצלה|לב (עט)",
+  "raw_fixed": "לב (ע)",
+  "reason": "audit M4787.0: לב (עט) -> לב (ע): הערה (עט) היא ציון מקורות בלבד, לעניין סעיף כג. בהערה (ע): \"דיל\"ע בניתוח כזה שגם לדעת הרופאים הוא רק ספק הצלה\". הערך המקביל: \"ספק הצלה, ניתוח בו – לב (ע)\"."
+ },
+ {
+  "key": "נכרי||אכילת לחם שאפה בשבת|ל (קצה)",
+  "raw_fixed": "ל (קצח)",
+  "reason": "audit M4809.0: ל (קצה) -> ל (קצח): הערה (קצה) עוסקת באור שהדליק הנכרי. בהערה (קצח): \"ואם יש חשש נולד, כגון לחם שאפה הנכרי, אין להתיר אלא בשעת הדחק\"."
+ },
+ {
+  "key": "נכרי||אמירה לו להעביר חפץ בבנין רב־קומות|ל כג",
+  "raw_fixed": "ל כה",
+  "reason": "audit M4841.0: ל כג -> ל כה: ל כג עוסק בתיקון חוטי עירוב. בל כה: \"מותר לומר לנכרי להעביר חפץ לקומה עליונה של בנין רב קומות\"."
+ },
+ {
+  "key": "נכרי||אמירה לו לעשות דבר אסור בגין מנהג|ל (מז)",
+  "raw_fixed": "ל (נ)",
+  "reason": "audit M4861.0: ל (מז) -> ל (נ): כל תוכן הערה (מז) הוא \"עיין סי' שכה ס\"ב\". בהערה (נ): \"וכ\"ש שמותר לומר לנכרי לעשות דבר שאינו אלא מנהג וחומרא בעלמא\". הערך המקביל: \"לעשות דבר אסור בגין מנהג – ל (נ)\"."
+ },
+ {
+  "key": "נכרי||אמירה לו לעשות כלאח\"י|ל (מו)",
+  "raw_fixed": "ל (מט)",
+  "reason": "audit M4862.0: ל (מו) -> ל (מט): הערה (מו) עוסקת באורחים שהוזמנו. בהערה (מט): \"ויל\"ע אי שרי למימר לנכרי... לעשות איסור דאורייתא כלאח\"י\". הערך המקביל: \"לעשות כלאח\"י – ל (מט)\"."
+ },
+ {
+  "key": "נכרי||אמירה לו לעשות שבות לצורך שבת|ל (מז)",
+  "raw_fixed": "ל (נ)",
+  "reason": "audit M4867.0: ל (מז) -> ל (נ): הערה (מז) היא ציון מקור בלבד. בהערה (נ): \"דמותר לומר לנכרי לעשות שבות לצורך שבת\"."
+ },
+ {
+  "key": "נכרי||בקשה ממנו שלא ירבה אור שהדליק|ל מח",
+  "raw_fixed": "ל נז",
+  "reason": "audit M4883.0: ל מח -> ל נז: ל מח עוסק בנכרי שכיבה את האור והדליק אותו שוב מעצמו, ואין בו בקשה ממנו. בל נז: \"ואף מותר לבקש ממנו שלא לכבות את האור שהדליק בשביל עצמו\" (\"ירבה\" בערך הוא כנראה שיבוש של \"יכבה\"), ובהערה (קצא) שבאותו סעיף מדובר בחשש שהנכרי יוסיף שמן."
+ },
+ {
+  "key": "נכרי||הנאה ממלאכתו|ל ד, ז, (קב), מג-עה; לח ה, (סח), כו; לח (סח)",
+  "raw_fixed": "ל ד, ז, (קב), מג-עה; לח ה, (סה), כו; לח (סה)",
+  "reason": "audit M4910.5: (סח) -> לח (סה): כל תוכן הערה (סח) הוא \"וכדלעיל הערה סג\", והיא מסמנת את איסור האמירה לנכרי לחתוך תחבושת, ואין בה עניין הנאה. בהערה (סה): \"אין זו הנאה מאיסור מלאכת הנכרי\". | audit M4910.7: לח (סח) -> לח (סה): זו הפניה כפולה לאותה הערה (סח), שאין בה עניין הנאה ממלאכת הנכרי. המקום המתאים הוא הערה (סה)."
+ },
+ {
+  "key": "נכרי||רישומו קריאות אליו לעשות מלאכות|ל לד*; לח כח",
+  "unlink": [
+   "לח כח"
+  ],
+  "reason": "audit M4989.1: לח כח -> none: לח כח is about a gentile carrying or driving a sick child and has nothing about recording calls. A full-book search for לרשום/רישום/קריאה finds recording calls only in ל לד*, which the entry already lists. The parallel line 1130 also lists only ל לד*. No other place fits: לח ה is temperature, מ ד is treatment details, and לא כח and ל כח are unrelated. The second locator looks spurious, so drop it."
+ },
+ {
+  "key": "נכרי (מבקר בבית יהודי)|אמירה לו להדליק אור לעצמו||ל לד",
+  "raw_fixed": "ל לח",
+  "reason": "audit M5015.0: ל לד -> ל לח: ל לד is about hiring a gentile for permitted work and does not cover the visiting gentile. ל לח says it outright: a gentile who comes to visit a Jew's home may not be told to turn on the light, even for himself. The parallel index line 248 ('אמירה לנכרי מבקר להדליקו לעצמו') also points to ל לח."
+ },
+ {
+  "key": "נעליים||זמן חליצתן נשים המדליקות נרות בעיו\"כ|מבוא ג ח",
+  "raw_fixed": "מבוא ג (ח)",
+  "reason": "audit M5041.0: מבוא ג ח -> מבוא ג (ח): Seif ח of מבוא ג is only the five things said of Yom Tov. The rule is in note (ח), whose marker is in seif ה: a woman who lights the Yom Kippur candles and says שהחיינו should take off her shoes before lighting. The parallel index lines 358 and 2129 both give מבוא ג (ח)."
+ },
+ {
+  "key": "נרות חנוכה|הרצאת מעות כנגדם||כב (סח)",
+  "raw_fixed": "כב (סה)",
+  "reason": "audit M5098.0: כב (סח) -> כב (סה): (סח) is about not blowing shofar on a Rosh Hashana that falls on Shabbat. A full-book search finds the phrase only in note (סה): 'דומיא דלהרצות מעות נגד נר חנוכה'."
+ },
+ {
+  "key": "נרות חנוכה (בביכ\"נ)|כיבוים והדלקתם ע\"י נכרי||ל (לו)",
+  "raw_fixed": "ל (לח)",
+  "reason": "audit M5099.0: ל (לו) -> ל (לח): (לו) is a bare citation (מסגרת השלחן, א\"א) with nothing about Hanukkah. (לח), whose marker is also in seif יב, says: 'אין נכון לכבות נר חנוכה בליל שבת ע\"י נכרי ולחזור ולהדליקו'. The parallel index lines 861 and 5647 give ל (לח)."
+ },
+ {
+  "key": "סחיטה||מאפה ממים שבהם הוא שרוי|* ה יג",
+  "raw_fixed": "* ה יד",
+  "reason": "audit M5191.0: ה יג -> ה יד: ה יג is about squeezing pomegranates for a baby with diarrhea. ה יד is the Yom Tov rule: one may soak matza or bread in water and squeeze the water out again. The index asterisk marks a Yom Tov item. This looks like an off-by-one seif."
+ },
+ {
+  "key": "סיגריות או סיגרים||טשטוש האותיות שעליהן|* יג ח",
+  "raw_fixed": "* יג ז",
+  "reason": "audit M5209.0: יג ח -> יג ז: The seif יג ח and its gloss are about putting out fire and about ash as muktzeh. Blurring the printed letters on the cigarettes before Yom Tov is in the gloss (*) of יג ז: 'ימחק מבעוד יום את האותיות המודפסות על הסיגריות על ידי טישטושן בדיו'."
+ },
+ {
+  "key": "עיניים||טלטול מנורה משום מיחוש בהן|כב (קכ)",
+  "raw_fixed": "כב (קכא)",
+  "reason": "audit M5412.0: כב (קכ) -> כב (קכא): (קכ) cites מ\"ב סק\"קלא and the מ\"ל that the גרף של רעי rule applies only in one's dwelling. Nothing about a lamp or eyes. (קכא), which is also on seif מו, brings the שע\"ת case: moving a lamp because his eyes hurt is forbidden, with the discussion of the גרש\"ז."
+ },
+ {
+  "key": "עירוב־חצרות|ראה גם לחם עירובי חצרות|במקום שיש שיתופי־מבואות|יז (קיג)",
+  "raw_fixed": "יז (קיד)",
+  "reason": "audit M5420.0: יז (קיג) -> יז (קיד): (קיג) says only \"עיין כל זה סי' שסב\". (קיד), on the same seif כז, explains that shituf mevo'ot joins all the courtyards, and that someone who does not rely on the general eruv should make an eruv chatzerot for himself. That is the topic of the entry."
+ },
+ {
+  "key": "עירוב־חצרות (לעצמו בלבד)||עריכתו|יז (קיג)",
+  "raw_fixed": "יז (קיד)",
+  "reason": "audit M5437.0: יז (קיג) -> יז (קיד): (קיג) is a one-line citation. The rule for making an eruv chatzerot for oneself alone (\"יערב עירוב-חצרות לעצמו... אבל לא יברך\", and whether he may rely on the city's bread) is in (קיד)."
+ },
+ {
+  "key": "עירוב־תבשילין||זמן אכילתו|* ב טו; יא (לז); * כ (סז)",
+  "raw_fixed": "* ב טו; ב (לז); * כ (סז)",
+  "reason": "audit M5446.1: יא (לז) -> ב (לז): פרק יא (לז) belongs to seif ט (a label on baked goods) and cites only קצוה\"ש. פרק ב (לז), on seif טו right after the entry's first ref ב טו, is exactly about when the eruv-tavshilin bread is eaten (לחם משנה, eating it at מנחה, the גרש\"ז). The chapter was misattributed."
+ },
+ {
+  "key": "עלים||תלישתם מענף תלוש|כו (לח); כט (קז)",
+  "raw_fixed": "כו (לח); כו (קז)",
+  "reason": "audit M5480.1: כט (קז) -> כו (קז): פרק כט (קז) belongs to seif מג (measuring spices on Yom Tov). פרק כו (קז), on seif כט (not taking leaves off a detached lulav on Yom Tov), deals with the topic. The companion ref כו (לח) says \"ולענין תלישת עלים מענף תלוש... ולהלן הערה קז\", so כט is a typo for כו."
+ },
+ {
+  "key": "עץ||שימוש בו|טו כב, כג; טז טז, יז; כו יב-יח",
+  "raw_fixed": "טו כג, כג; טז טז, יז; כו יב-יח",
+  "reason": "audit M5510.0: טו כב -> טו כג: טו כב and its notes (סו, סז) deal only with clothes pegs as a כלי שמלאכתו לאיסור. Nothing about using a tree. The tree case is in טו כג (not using the tree itself as a base for the washing line). The printed index uses the same seif numbering for chapter טו (כד = balcony, כה = washing machine), so this is not an edition shift. The printed כב looks like a mistake, and כג, the next ref, is the right place."
+ },
+ {
+  "key": "פיקוח־נפש||דחייתו שבת|לב א; מא כ",
+  "raw_fixed": "לב א; מא יט",
+  "reason": "audit M5618.1: מא כ -> מא יט: מא כ deals only with exposed electric wires in the house. The general rule, that all פיקוח נפש overrides Shabbat, is in מא יט: \"כל פיקוח־נפש... גם הוא דוחה את השבת\". It is off by one seif. The printed index matches this edition's numbering elsewhere (e.g. טו כד/כה), so this is not an edition shift."
+ },
+ {
+  "key": "פיקוח־נפש||עשיית שניים במשותף להצלה ממנו|לב ג, כח",
+  "raw_fixed": "לב (ג), כח",
+  "reason": "audit M5652.0: לב ג -> לב (ג): Seif לב ג only says saving an adult and a child are treated alike, with nothing about two people. Note (ג), whose marker is in seif א, says 'מותר לעשות ע\"י שנים'. The printed parallel entry 'מספר העוסקים בו – לב (ג), כח' gives the same place."
+ },
+ {
+  "key": "פיקוח־נפש||שינוי בעשייה להצלה ממנו|לב כח, מז",
+  "raw_fixed": "לב כח, מו",
+  "reason": "audit M5656.1: מז -> לב מו: Seif מז only refers the reader elsewhere (payment to the doctor, the doctor's travel). Doing it differently from the usual way is in seif מו (the doctor lifting the receiver, 'ישנה מן הדרך הרגילה'). The index cites 'מז' for this phone seif three times (also 'שינויים בהפעלת טלפון' and 'שימושו בטלפון – לב מז'). So its numbering is off by one here, and the phone seif is מו in this text."
+ },
+ {
+  "key": "פיקוח־נפש||שינויים בהפעלת טלפון בו|לב מ, מז",
+  "raw_fixed": "לב מ, מו",
+  "reason": "audit M5657.1: מז -> לב מו: Seif מז does not mention the telephone. Seif מו covers the receiver and the change from the usual way ('וכדלעיל סעיף מ'). The index has the same off-by-one 'מז' for this seif."
+ },
+ {
+  "key": "פירות||אכילתם כשנכרי קטפם|ל מט",
+  "raw_fixed": "ל נד",
+  "reason": "audit M5669.0: ל מט -> ל נד: Seif ל מט is about a gentile repairing shoes. Seif ל נד has 'נכרי שקטף פירות בשביל חולה, אסור לבריא לאוכלם', and the printed parallel entry 'הנאה מהם כשנכרי קטפם לחולה – ל נד' points there too."
+ },
+ {
+  "key": "צורך חול||העברת בשר ודגים למקום קריר לו|כח (פט)",
+  "raw_fixed": "כח (רא)",
+  "reason": "audit M5876.0: כח (פט) -> כח (רא): Note כח (פט) is a short source reference on knocking and making sounds (seif מא). Moving meat and fish to a cool place is stated word for word in note (רא) of seif פט: 'להעביר בשר ודגים סמוך ללילה למקום קריר, אף שזה לצורך חול'."
+ },
+ {
+  "key": "צורך חול||לקיחת בגד בשבת|כח כט",
+  "raw_fixed": "כח פט",
+  "reason": "audit M5879.0: כח כט -> כח פט: Seif כח כט is about a battery or winding a clock for a sick person. Seif כח פט has taking an אפודה on Shabbat afternoon to wear in the evening, which is the weekday-use (צורך חול) case. The print most likely has a כ/פ typo."
+ },
+ {
+  "key": "צחצוח (נעליים)||הנאה ממנו כשנכרי עשאו בשבת|ל נא, ע",
+  "raw_fixed": "ל נ, ע",
+  "reason": "audit M5900.0: ל נא -> ל נ: Seif ל נא is about a gentile carrying food through a public domain. Shoes a gentile polished (צחצוח) are in seif ל נ, which is also cross-referenced from seif ל ע."
+ },
+ {
+  "key": "צמר־גפן||ניקוי פצע שטחי בו|לה יא",
+  "raw_fixed": "לה יב",
+  "reason": "audit M5963.0: לה יא -> לה יב: Seif לה יא only lists what counts as a superficial wound and says nothing about cotton. Cleaning a wound with cotton or a wet wipe is in seif יב."
+ },
+ {
+  "key": "צמר־גפן||שימוש בו|לב נט, לג; לד ח, ט; לה ב, טז, לו; לז ז, ח; מ ב",
+  "raw_fixed": "לב נט; לג י; לד ח, ט; לה ב, טז, לא; לז ז, ח; מ ב",
+  "reason": "audit: bare \"לג\" = ch. לג seif י (disinfecting before an injection with cotton); לה לו→לה לא (dry cotton to wipe ointment)"
+ },
+ {
+  "key": "קטן||דין צרכיו|יא (קיט)",
+  "raw_fixed": "יא (קכו)",
+  "reason": "audit M6094.0: יא (קיט) -> יא (קכו): Note יא קיט is only a Yoreh De'ah citation on challah. Note קכו says 'דצרכי קטן כחושאיב\"ס דמי', which is the law on a child's needs."
+ },
+ {
+  "key": "קטן (חושיב\"ס)|האכלתו בשר נבילה||לב (ריט)",
+  "raw_fixed": "לב (רכב)",
+  "reason": "audit M6108.0: לב (ריט) -> לב (רכב): Note לב ריט is about muktzeh. Note רכב (seif פ) is about feeding a child nevelah rather than slaughtering for him. The parallel printed entries 'האכלתו בשר נבילה – לב פ' agree."
+ },
+ {
+  "key": "קטן (טריפה)|חילול שבת בשבילו||לו (סו)",
+  "raw_fixed": "לו (כו)",
+  "reason": "audit M6109.0: לו (סו) -> לו (כו): Note לו סו is only a cross-reference inside another seif. Note כו says 'דגם על קטן טריפה מחללין'. The parallel printed entries 'ילוד טריפה... – לו (כו)' agree."
+ },
+ {
+  "key": "קידוש||חולה שאינו יכול לשתות יין ולאכול לחם|מ נג",
+  "raw_fixed": "מ נז",
+  "reason": "audit M6123.0: מ נג -> מ נז: Seif מ נג is about discharge from hospital. The patient who can drink neither wine nor eat bread is seif נז. The parallel printed entry 'קידושו כשאינו יכול לשתות יין ולאכול לחם – מ נז (קכו)' agrees."
+ },
+ {
+  "key": "קידוש||יציאה ידי חובתו בתפילת שמונה־עשרה ליל־שבת|מ נה, (קכד)",
+  "raw_fixed": "מ נז, (קכד)",
+  "reason": "audit M6125.0: מ נה -> מ נז: Seif מ נה is about making kiddush before eating in the morning. Having in mind to fulfil kiddush in the Friday-night Shemoneh Esrei is in seif נז, and note קכד (cited by the same entry) is inside seif נז."
+ },
+ {
+  "key": "קידוש (על לחם)|יציאת השומעים יד\"ח בו||מ נב",
+  "raw_fixed": "מ נו",
+  "reason": "audit M6129.0: מ נב -> מ נו: Seif מ נב is about a folding partition. Seif נו ends with kiddush over bread and says the listeners are yotze bedi'eved ('ובדיעבד אף הם יוצאים ידי חובתם בקידוש שלו על הלחם')."
+ },
+ {
+  "key": "קליפת ביצה||הוצאתה מתוך אוכלין|ח כז",
+  "raw_fixed": "ח כח",
+  "reason": "audit M6153.0: ח כז -> ח כח: Seif ח כז is about dipping baked goods in a drink. The eggshell ruling ('קליפת ביצה הנמצאת בתוך הביצה הקצוצה') is at the end of seif כח. The parallel printed entry 'בהוצאת קליפת ביצה מאוכלין – ח כח' agrees."
+ },
+ {
+  "key": "קנייה||תרופה שרופא רשמה בשבת|מ ט",
+  "raw_fixed": "מ יא",
+  "reason": "audit M6168.0: מ ט -> מ יא: Seif מ ט is about sorting pills. Seif יא deals with not taking from the pharmacy medicine a Jewish doctor prescribed on Shabbat."
+ },
+ {
+  "key": "קצירה||מעציץ שאינו נקוב|כו (ג)",
+  "raw_fixed": "כו (ד)",
+  "reason": "audit M6184.0: כו (ג) -> כו (ד): Note כו ג is about a perforated pot. Note ד covers the non-perforated one. The parallel printed entries 'עציץ שאינו נקוב – כו (ד)' agree."
+ },
+ {
+  "key": "קצרת|טיפול בחולה בה||לג כב",
+  "raw_fixed": "לג כג",
+  "reason": "audit M6186.0: לג כב -> לג כג: Seif לג כב is about diabetes. Asthma (קצרת/אסטמה) is seif כג."
+ },
+ {
+  "key": "קרח||שימתו על נפיחות|לה (צ)",
+  "raw_fixed": "לה (צב)",
+  "reason": "audit M6204.0: לה (צ) -> לה (צב): Note לה צ (pressing with a knife) does not mention ice. Note צב permits ice ('ומותר שפיר גם בקרח'). Note צא also discusses ice on a swelling, but only refers on to צב, so צב is the best target."
+ },
+ {
+  "key": "קריאה||הוראות בישול|כט (קצד)",
+  "raw_fixed": "כט (קכד)",
+  "reason": "audit M6211.0: כט (קצד) -> כט (קכד): Note כט קצד is about travel as a permitted thought. Cooking instructions are in seif מח, note קכד. The parallel printed entry 'הוראות בישול, וקריאתן – כט מח, (קכד)' agrees."
+ },
+ {
+  "key": "קריאה||מכתב שנכרי הביא ופתח|ל נז; מ (לה)",
+  "raw_fixed": "ל סט; מ (לה)",
+  "reason": "audit M6215.0: ל נז -> ל סט: Seif ל נז is about light a gentile lit. Seif סט is about a gentile who opened an envelope with a letter ('מותר לו לעיין במכתב'). This fits the entry's second ref, מ (לה), which also discusses such a letter."
+ },
+ {
+  "key": "קשירה||דבר בציצית|כב (נד)",
+  "raw_fixed": "כב (נה)",
+  "reason": "audit M6234.0: כב (נד) -> כב (נה): Note כב נד is about ביטול כלי מהיכנו and has no tzitzit. Note נה discusses 'דאסור לקשור דבר בציציות בזמן שהן קבועות'."
+ },
+ {
+  "key": "רופא||קבלתו שכר שבת|מ יג",
+  "raw_fixed": "מ טו",
+  "reason": "audit M6318.0: מ יג -> מ טו: מ יג is about carrying medical instruments where there is no eruv. Payment is in מ טו (\"ואין תשלום זה נחשב 'שכר שבת'\"). The printed index says the same in parallel entries: \"תשלום שכר רופא בו – מ טו\", \"שכר רופא בשבת – מ טו\" and \"תשלום שכרו בשבת – מ טו\"."
+ },
+ {
+  "key": "רופא||שימושו בטלפון|לב מז; מ טז",
+  "raw_fixed": "לב מו; מ טז",
+  "reason": "audit M6322.0: לב מז -> לב מו: לב מז is only a cross-reference about payment and the doctor's travel. The seif just before it, לב מו, is the one about a doctor answering the phone ringing in his home. The print seems off by one."
+ },
+ {
+  "key": "רטיה (רטובה)||הסרתה|לה (נא)",
+  "raw_fixed": "לה (נב)",
+  "reason": "audit M6365.0: לה (נא) -> לה (נב): Note נא only gives sources for bandaging a wound and says nothing about taking a רטיה off. Note נב, whose marker is in the same seif כא, is about this. It says \"יש להסתפק אם חייב להזדרז בקום ועשה להסיר את הרטיה\" and then \"אם הניח בשבת, מסיק שם שחייב להסירה\"."
+ },
+ {
+  "key": "שאלת־חכם||בדבר בישול|א א",
+  "raw_fixed": "א ד",
+  "reason": "audit M6548.0: א א -> א ד: א א defines cooking and does not mention asking a rabbi. א ד contains \"עשה שלא כהלכה, ישאל שאלת חכם, כי יש שהתבשיל נאסר באכילה\". The printed index agrees: under the cooking entry it has \"שאלת חכם בו – א ד\" (line 790)."
+ },
+ {
+  "key": "שאלת־חכם||בדבר חזרה מבי\"ח מלווית חושיב\"ס|מ עט",
+  "raw_fixed": "מ פג",
+  "reason": "audit M6555.0: מ עט -> מ פג: מ עט is about a male driver returning from outside the תחום and has no שאלת חכם. מ פג is about a nurse or birth companion who escorts the patient or יולדת to hospital and whether she may return. A search of chapter מ shows the \"שאלת חכם\" line inside מ פג."
+ },
+ {
+  "key": "שאלת־חכם||בדבר פרטים טכניים במכונית|מ סה",
+  "raw_fixed": "מ סא",
+  "reason": "audit M6562.0: מ סה -> מ סא: מ סה is about תפילת הדרך. The continuation of מ סא discusses how changes in car design affect the prohibitions and says a rabbi who knows the technical details should be asked in advance. A search places that line in מ סא."
+ },
+ {
+  "key": "שבר (עצם)|טיפול בו||לג יח; לה ה; מ יד",
+  "raw_fixed": "לג יח; לה ה; מ מח",
+  "reason": "audit M6591.2: מ יד -> מ מח: מ יד is about a doctor washing his hands with soap. Fracture treatment in chapter מ is in מ מח (\"מי שאירע לו שבר פתוח בשבת... מטפלים בו מיד\"), and the printed index has \"טיפול בשבר פתוח – מ מח\" under the doctor entry."
+ },
+ {
+  "key": "שבת||שניים שעשו בה מלאכה|מבוא א כב לב (צב)",
+  "reason": "audit: missing \";\" and לב (צב)→לב (פט) (two people doing one melacha)",
+  "raw_fixed": "מבוא א כב; לב (פט)"
+ },
+ {
+  "key": "שומר שבת||העדפתו להסעת חושיב\"ס|מ פ",
+  "raw_fixed": "מ פו",
+  "reason": "audit M6632.0: מ פ -> מ פו: מ פ is about an ambulance driver returning to his station. מ פו reads \"עדיף לנסוע במכונית של שומר שבת... מאשר לנסוע במכונית של מחלל שבת\", which is exactly preferring a Shabbat observer to drive the patient."
+ },
+ {
+  "key": "שחיקת סממנים||בשימת רטיה רטובה|לה (לה)",
+  "raw_fixed": "לה (צב)",
+  "reason": "audit M6652.0: לה (לה) -> לה (צב): Note לה in chapter לה is only a reference to the Rambam and belongs to seif יז (lancing an abscess). The wet compress is in seif לה (\"אסור לשים עליו רטיה רטובה (קומפרס) (צב)\"), and note צב reads \"ואולי אף משום גזירת איסור שחיקת סממנים\". The print put the seif number in note brackets. Seif לה לה would also be acceptable."
+ },
+ {
+  "key": "שטף־דם|טיפול בו||לה יב, יג, טו",
+  "raw_fixed": "לה יג, יג, טו",
+  "reason": "audit M6678.0: לה יב -> לה יג: לה יב is about rinsing and disinfecting a shallow wound and never mentions bleeding. The parallel index entry (line 6334) reads \"שטף־דם – לה יג, יד, טז\", which shows that this entry's print \"לה יב, יג, טו\" is shifted down by one throughout. So the right replacement for יב is יג (\"לעצור בעד שטף הדם\"), not יד as the first reviewer proposed. The target is wrong, but the correction differs from the one proposed."
+ },
+ {
+  "key": "שידוכים ושדכנות|דיבור בהם בשבת||כט נו *",
+  "raw_fixed": "כט נו*",
+  "reason": "audit: printed \"X *\" here means the separate starred seif נו* (topic only there)"
+ },
+ {
+  "key": "שינוי||בעשייה להצלה מפי\"נ|לב כח, מז",
+  "raw_fixed": "לב כח, מו",
+  "reason": "audit M6723.1: מז -> לב מו: לב מז הוא רק הפניות (תשלום, נסיעת רופא) וכותרת 'רישום'. השינוי בהרמת השפופרת מופיע בלב מו ('וטוב יעשה אם ישנה מן הדרך הרגילה'). מז מופיע במפתח גם בערכים מקבילים על טלפון, כנראה משום שמספור הסעיפים במהדורה המודפסת שונה, אבל בטקסט הזה התוכן נמצא במו."
+ },
+ {
+  "key": "שיעור||חום מי־רחצה|יד (ב)",
+  "raw_fixed": "יד (ג)",
+  "reason": "audit M6746.0: יד (ב) -> יד (ג): הערה (ב) היא ציון מקור בלבד. הערה (ג) דנה במפורש בשאלה מה נחשב 'חמין' (יס\"ב, מרגישין חמימות). הערך המקביל 'שיעור חומם – יד (ג)' מפנה לשם."
+ },
+ {
+  "key": "שיעור||יין ששתייתו מחייבת בקידוש|מ (קכא)",
+  "raw_fixed": "מ (קכג)",
+  "reason": "audit M6748.0: מ (קכא) -> מ (קכג): הערה (קכא) עוסקת בשיעור אכילת פת. שיעור שתיית היין (רביעית מלבד הטעימה) נמצא בהערה (קכג), והערך המקביל 'שיעור המחייב בקידוש – מ (קכג)' מפנה לשם."
+ },
+ {
+  "key": "שיעור מלאכה|עשיית חציו||מבוא ב, י",
+  "raw_fixed": "מבוא א כד",
+  "reason": "audit M6753.0: מבוא ב, י -> מבוא א כד: מבוא ב י עוסק בכבוד שבת ועונג שבת. חצי שיעור מבואר במבוא א כד ובהערות צד-צה שם. הערך המקביל במפתח '(מלאכה) עשיית מחצית שיעורה – מבוא א כד' מאשר זאת."
+ },
+ {
+  "key": "שירות רפואי (לחושיב\"ס)|ביטול הזמנתו||מ עט",
+  "raw_fixed": "מ פה",
+  "reason": "audit M6772.0: מ עט -> מ פה: מ עט עוסק בנהג שחוזר מחוץ לתחום. ביטול הזמנת אמבולנס או רופא נמצא במ פה (והכותרת בסוף מ פד), וכל הערכים המקבילים במפתח ('ביטול הזמנתו – מ פה') מפנים לשם."
+ },
+ {
+  "key": "שכר||תשלומו לרופא בשבת|מ יג, טו",
+  "unlink": [
+   "מ יג"
+  ],
+  "reason": "audit M6793.0: מ יג -> none: מ יג עוסק רק בהוצאת מכשירים רפואיים במקום שאין בו עירוב. בבדיקת הפרק (שמספור הסעיפים בו תואם למפתח, למשל מ טז) יוצא שתשלום לרופא מופיע רק במ טו, שכבר רשום בערך. לכן אין מקום נוסף מתאים, ו'יג' הוא כנראה שיבוש של הכותרת שבסוף מ יד."
+ },
+ {
+  "key": "שכר־שבת||לרופא וכדומה|מ יג, טו",
+  "unlink": [
+   "מ יג"
+  ],
+  "reason": "audit M6799.0: מ יג -> none: מ יג אינו עוסק בשכר שבת כלל. אצל הרופא הנושא מופיע רק במ טו ('אין תשלום זה נחשב שכר שבת'), שכבר רשום בערך. אין בפרק מ מקום אחר שמתאים."
+ },
+ {
+  "key": "שלולית מים מסביב לעץ|הוספת מים עליה||כג (קסז)",
+  "raw_fixed": "כג (קסו)",
+  "reason": "audit M6816.0: כג (קסז) -> כג (קסו): הערה (קסז) היא הפניה בלבד. הדוגמה של הוספת מים לאילן שבתוך שלולית נמצאת בהערה (קסו), והערך המקביל 'עץ שבתוך שלולית מים – כג (קסו)' מאשר זאת."
+ },
+ {
+  "key": "שלטים|תלייתם החלפתם בביהכ\"נ||כג מו; כח (רא)",
+  "raw_fixed": "כג מה; כח (רא)",
+  "reason": "audit M6818.0: כג מו -> כג מה: כג מו עוסק בהצמדת מודעה לקיר או ללוח. תליית שלט בבית כנסת מבוארת בכג מה, והערך המקביל 'תליית שלט בו [בביהכ\"נ] – כג מה' מפנה לשם."
+ },
+ {
+  "key": "שמיני־עצרת|טלטול הדס ביה\"ש שלאורו||כב (סג)",
+  "raw_fixed": "כב (סד)",
+  "reason": "audit M6832.0: כב (סג) -> כב (סד): הערה (סג) היא ציון מקור בלבד. הספק בטלטול הדס בבין השמשות של תחילת יום ח' (החזו\"א והגרש\"ז) מופיע בהערה (סד)."
+ },
+ {
+  "key": "שמן־דגים||שאלת־חכם בגינו|מ צג",
+  "raw_fixed": "מ צט",
+  "reason": "audit M6849.0: מ צג -> מ צט: מ צג עוסק באכילת מצה לחולה. מ צט עוסק בויטמינים מחומרים לא כשרים ובשאלת חכם, ולד (פד) על שמן דגים מפנה אליו. גם במפתח 'ויטאמינים... שאינם כשרים – מ צט'."
+ },
+ {
+  "key": "שניים שעשו מלאכה||שניים שעשוה|מבוא א כב, (פו); לב (כט)",
+  "raw_fixed": "מבוא א כב, (פו); לב (פט)",
+  "reason": "audit M6880.2: לב (כט) -> לב (פט): הערה (כט) עוסקת בספק פקו\"נ ואינה נוגעת לשניים שעשו. הערה (פט), על הקטע 'יעשוהו שנים במשותף' בסעיף כח, דנה ב'זה יכול וזה יכול' ומפנה למבוא פ\"א הערה פו. כנראה שיבוש של פט לכט."
+ },
+ {
+  "key": "שקילה||תינוק או מזונו|יא כט; לז ה",
+  "raw_fixed": "יא ל; לז ה",
+  "reason": "audit M6958.0: יא כט -> יא ל: יא כט עוסק בהפרשת חלה בחו\"ל. שקילה ומדידה של אוכל לתינוק נמצאות ביא ל, והערכים המקבילים 'מדידתו ושקילתו לתינוק – יא ל' ו'מדידת מזונו ושקילתו – יא ל' מאשרים זאת."
+ },
+ {
+  "key": "שקית אשפה|טלטולה||כב מ *",
+  "raw_fixed": "כב מ*",
+  "reason": "audit: printed \"X *\" here means the separate starred seif מ* (topic only there)"
+ },
+ {
+  "key": "שתן||איסופו לצורך בדיקה|לג כ",
+  "raw_fixed": "לג כא",
+  "reason": "audit M6994.0: לג כ -> לג כא: לג כ עוסק בבדיקת שתן בקיסמים. איסוף שתן של יממה לבדיקה מבואר בלג כא ובהערה (צג), והערך המקביל 'שתן – לג (צג)' מאשר זאת."
+ },
+ {
+  "key": "תבשיל||אמירה לעוזרת־בית נכריה לבשלו לעצמה|ל לג",
+  "raw_fixed": "ל לז",
+  "reason": "audit M7018.0: ל לג -> ל לז: ל לג עוסק בתשלום לנכרי. 'ואף מותר לומר לה לבשל תבשיל בשביל עצמה' נמצא בל לז, והערך המקביל 'אמירה לה לבשל לעצמה – ל לז' מאשר זאת."
+ },
+ {
+  "key": "תורנות־שבת||החלפתה באחרת|כח סא; מ כז; מא לה",
+  "raw_fixed": "כח סא; מ כז; מא לד",
+  "reason": "audit M7065.2: מא לה -> מא לד: מא לה עוסק רק בנסיעה או הליכה של איש־בטחון למשמרתו. החלפת התורנות נמצאת במא לד ובהערות (פט) ו־(צ) שבו. גם במפתח המודפס כתוב 'החלפתו תורנות שבת עם אחר – מא לה', כלומר אותה טעות של סעיף אחד."
+ },
+ {
+  "key": "תחום־שבת||טלטול איש־בטחון נשקו מחוצה לו|מא לג",
+  "raw_fixed": "מא לא",
+  "reason": "audit M7094.0: מא לג -> מא לא: מא לג עוסק בחפצים אישיים של חייל שנקרא לשירות (טלית, תפילין, סידור). נשיאת נשק על ידי העומד על המשמר, ובכלל זה 'ואפילו מחוץ לתחום שבת', מפורשת במא לא. גם שאר הערכים במפתח שעוסקים בנשק מפנים למא לא ('נשק – מא לא', 'איש־ביטחון נשק ופנס – מא לא', 'טלטולו נשק – מא לא לב')."
+ },
+ {
+  "key": "תיקון||כלי (מנא)|טו (קסח), (ריב), עח, (רסג), (רפא); טז (מג); כ (יח); כג (קלז)",
+  "raw_fixed": "טו (קסט), (ריב), עח, (רסג), (רפא); טז (מג); כ (יח); כג (קלז)",
+  "reason": "audit M7150.0: טו (קסח) -> טו (קסט): הערה (קסח) היא מקור בלבד ('תורת שבת סי' שב סוף הערה יג') להיתר להכניס אימום לנעל. הערה (קסט), על אותו סעיף נא, מנמקת את האיסור להרחיב את הנעל 'משום תיקון מנא'. לכן היא המקום שמתאים לערך."
+ },
+ {
+  "key": "תפילה||חולה שמטפטפין ממנו מ\"ר|מ (רלא)",
+  "raw_fixed": "מ (רמו)",
+  "reason": "audit M7245.0: מ (רלא) -> מ (רמו): הערה (רלא) עוסקת בברכה על תרופה ממותקת. הערה (רמו) עוסקת במפורש ב'חולה שמטפטפין ממנו מ\"ר תמיד'. במפתח עצמו יש ערך מקביל: 'תפילתו כשמנטפין ממנו מ\"ר – מ (רמו)'."
+ },
+ {
+  "key": "תפילה||לרופא|מ פט",
+  "raw_fixed": "מ צה",
+  "reason": "audit M7247.0: מ פט -> מ צה: מ פט עוסק בגלולות מצופות חמץ בפסח. תפילת הרופא נמצאת במ צה. במפתח עצמו יש ערך מקביל תחת רופא: 'תפילתו – מ צה'."
+ },
+ {
+  "key": "תפילין||הנחתן בשבת|כ (לב)",
+  "raw_fixed": "כ (לג)",
+  "reason": "audit M7251.0: כ (לב) -> כ (לג): הערה (לב) עוסקת בדין 'הזמנה לאו מילתא' ובנר שלם, ואין בה תפילין. הערה (לג) אומרת 'מותר להניחן בשבת לנטורי נפשיה', וגם 'לבישת תפילין בשבת חשיב דרך מלבוש'."
+ },
+ {
+  "key": "תקיעת שופר||טיב חובתה|כב (סז)",
+  "raw_fixed": "כב (סח)",
+  "reason": "audit M7265.0: כב (סז) -> כב (סח): הערה (סז) עוסקת בטלטול השופר בליל ר\"ה ובתרופות. הערה (סח), על אותו סעיף לב, מסבירה את טיב החובה: 'כל אדם חייב בתקיעת שופר (משא\"כ קריאת התורה, שבה חייבים רק בציבור)'. נראה שבמפתח יש הזזה של הערה אחת גם בערך המקביל, שמפנה לאיסור התקיעה בשבת אל (סז)."
+ },
+ {
+  "key": "תרופות||איסור חצי שיעור בהן לעניין יוה\"כ|לט כח",
+  "raw_fixed": "לט (כח)",
+  "reason": "audit M7309.0: לט כח -> לט (כח): לט סעיף כח עוסק בכך שחולה האוכל בשיעורים לא יאכל יותר מצורכו, ואין בו תרופות. הערה (כח), שנמצאת בסעיף ח, אומרת 'כיון דלא שייך לומר בתרופות דחזי לאצטרופי, אין איסור בחצי שיעור'. כלומר, במפתח נכתב סעיף במקום הערה."
+ },
+ {
+  "key": "גירוי עור||טיפול בו|לב יב, יג; לד יב",
+  "raw_fixed": "לד יב, יג",
+  "reason": "audit: chapter misprint לב→לד (skin irritation = לד יב-יג; לז ו cites פרק לד סעיף יג); the trailing duplicate \"לד יב\" merged"
+ },
+ {
+  "key": "רופא||ענייתו לטלפון בביתו|מ י, יב",
+  "raw_fixed": "מ יב",
+  "reason": "audit: מ י = preferring a Shabbat-observant doctor; the doctor answering his home phone = מ יב (already listed) → merged"
+ },
+ {
+  "key": "רשות הרבים||הוצאת בגדים אליה|ח ג-ה, ט",
+  "raw_fixed": "יח ג-ה, ט",
+  "reason": "audit: chapter misprint ח→יח (going out to רה\"ר in clothes)"
+ }
+]

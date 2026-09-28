@@ -1,0 +1,258 @@
+[
+ [
+  "סימן רנג",
+  "ג",
+  "מ\"ב פא",
+  "א סג סד עד פב <u>פב*</u> <u>פג</u> קכו",
+  "פב*",
+  "no note פב* in ch א (the same entry already lists פב, which cites סי' רנג מ\"ב ס\"ק פא)"
+ ],
+ [
+  "סימן רסה",
+  "ג",
+  "מ\"ב ו",
+  "יא <u>ע</u>, יג <u>קמב</u> קמד, כ <u>נג</u> <u>נו</u>, כב <u>מג</u> <u>מה</u> <u>מח</u>, כח <u>סו</u>",
+  "נו",
+  "audit: Note כ נו is about paper as מוקצה (סי' שח) and has no link to סי' רסה or to vessels under a lamp. In ch. 20 the only note that cites 'סי' רסה מ\"ב ס\"ק ו' is נג (twice, about the oil dripping from a lamp), and it is already in the list. No other note in the chapter fits."
+ ],
+ [
+  "סימן רסו",
+  "ו",
+  "שו\"ע",
+  "יח רמב, ל יח",
+  "יח",
+  "audit: סי' רסו סע' ו, with the ביה\"ל ד\"ה הג\"ה there, is about the child who carries the wallet (see יח רמב 'סי' רסו סע' ג-ו' and מבוא א קפו). Note ל יח is about hinting to a non-Jew to light another candle (סי' רעו / שז) and has nothing to do with it. No note in ch. 30 cites רסו סע' ו, and I could not find the intended note."
+ ],
+ [
+  "סימן שב",
+  "ט",
+  "מ\"ב לט",
+  "ב מז, יב קט, טו ב ה ז יא יז יח לא, כה סג, כו קד, לג פח, מ יט נט ס",
+  "נט",
+  "content mismatch: note מ נט cites \"סי' שכח במ\"ב ס\"ק לט\" (other siman, same ס\"ק); note מא ס cites exactly \"סי' שב במ\"ב ס\"ק לט\" — probable print error in the chapter; left unlinked"
+ ],
+ [
+  "סימן שב",
+  "ט",
+  "מ\"ב לט",
+  "ב מז, יב קט, טו ב ה ז יא יז יח לא, כה סג, כו קד, לג פח, מ יט נט ס",
+  "ס",
+  "content mismatch: note מ ס continues מ נט (סי' שכח); note מא ס cites exactly \"סי' שב במ\"ב ס\"ק לט\" — probable print error; left unlinked"
+ ],
+ [
+  "סימן שב",
+  "י",
+  "מ\"ב נה",
+  "טו ח יב כח קטז, כג קסו, לה יח",
+  "כח",
+  "audit: Note טו (כח) cites 'סי' שכ במ\"ב סוס\"ק נה'. The real MB 320:55 ends with 'הסוחט שער או עור פטור אבל אסור', which is exactly the note's point (שיער ועור). MB 302:55 is about wetting a cloth soaked in urine and pouring water into a vessel of soaking clothes. That is a different topic, and the note does not cite it. The printed index put this note under שב by mistake. The only other ch. טו notes that cite שב נה are יב and קטז, and both are already listed."
+ ],
+ [
+  "סימן שב",
+  "י",
+  "מ\"ב נה",
+  "טו ח יב כח קטז, כג קסו, לה יח",
+  "יח",
+  "audit: Note לה (יח) is entirely about סי' שכ: sponge with a handle at סע' יז, MB מז, and 'ע\"ש במ\"ב ס\"ק נה'. MB 320:55 is about ברזא squeezing, 'יש שם ודאי סחיטה', which matches 'הכא הוא סוחט ממש בידים'. The index already lists לה יח under שכ סע' יז and שכ מ\"ב מז. Nothing in this note or its neighbours deals with סי' שב סע' י מ\"ב נה, so listing it under שב is an index error."
+ ],
+ [
+  "סימן שג",
+  "כב",
+  "שו\"ע",
+  "טז ל לא",
+  "ל",
+  "audit: Note טז (ל) cites 308:22/27, not 303:22. Only the next note (לא), already in the entry, cites \"סי' שג סע' כב ובמ\"ב ס\"ק עג\", and the whole-book search finds only it (plus chapter 18). The printed 303:22 entry \"טז ל לא\" is word for word the 308:22 entry (\"...טז ל לא...\"), so the token ל was copied from there. The right note, לא, is already listed, so this token should be dropped."
+ ],
+ [
+  "סימן שג",
+  "כז",
+  "שו\"ע",
+  "יד קלב קמג, טז ל",
+  "ל",
+  "audit: Note טז (ל) cites only \"סי' שח סע' כב ו-כז\" (stones for play), not 303:27 (combing hair). In the printed index, 308:27 reads \"טז ל לג\" and 308:22 reads \"טז ל לא\", so the ref was copied from the 308 entry. The whole-book search for 303:27 finds only chapter 14 (קלב, קמג, קמד), and chapter 16 has nothing on combing hair."
+ ],
+ [
+  "סימן שה",
+  "כב",
+  "שו\"ע",
+  "כג <u>קסג</u>, כז מד סח סט",
+  "קסג",
+  "audit: Note כג (קסג) is \"שם\" (338 MB 6) plus Chelkas Yaakov, about a door bell. It has nothing to do with 305:22 (a living being carries itself / animals). No chapter-23 note cites siman 305 at all. The notes citing 305:22 are כז (מד), (סח) and (סט), all already listed. I checked כז (קסג) as a possible misprint of \"כג\", but it cites 305:20. I found no right place."
+ ],
+ [
+  "סימן שז",
+  "יד",
+  "מ\"ב נו",
+  "כ נח, כח <u>כב</u> <u>כו</u>, כט קיד קיט, ל ס, לא סו סט ע פא",
+  "כו",
+  "audit: Note כח (כו), on seif יא, is about opening and closing a ring binder, and cites 340 MB 27 (sewing). It does not touch 307 MB 56 (business papers are muktzeh). In chapter 28 only (כב), on seif ט, already listed, cites 307 MB 56. The other notes near it (כג-כה, כז-כט) do not cite it either, so it may be a misprint for some other note, but I could not find the right one."
+ ],
+ [
+  "סימן שז",
+  "יז",
+  "שו\"ע",
+  "טז <u>מו</u> צח, כח <u>רכ</u>, כט קכז",
+  "מו",
+  "audit: Note טז (מו) reads \"סי' שלו סע' א\" (climbing a tree, use of something attached to the ground), which has nothing to do with 307:17. In chapter 16 only (כח), which is 307:16, and (צח), which is 307:15 and 17 and already listed, cite siman 307. Notes צה-צט nearby do not fit either, so I could not find what \"מו\" was meant to be."
+ ],
+ [
+  "סימן שיד",
+  "א",
+  "שו\"ע",
+  "מבוא א עו, ט <u>י</u> <u>יב</u> <u>כח</u> <u>עו</u>, יא <u>[סעיף מא]</u>, טו ערב, טז <u>נז</u> <u>[סעיף כא]</u> <u>קיז</u>, כב <u>נד</u>, כח <u>יח</u>, רכה, לה <u>נ</u> <u>עז</u>",
+  "רכה",
+  "printed \"כח יח, רכה, לה ...\" — \"רכה\" stands alone between commas with no chapter; ch כח ends at רכג; no candidate cites סי' שיד"
+ ],
+ [
+  "סימן שיד",
+  "ו",
+  "שו\"ע",
+  "ט מב <u>עא</u> <u>עה</u> <u>פב</u>, יג <u>לד</u> <u>קטז*</u> <u>קלג</u> <u>קמו</u>",
+  "קטז*",
+  "no note קטז* in ch יג (קטז exists but does not cite סי' שיד)"
+ ],
+ [
+  "סימן שטו",
+  "ב",
+  "מ\"ב יג",
+  "כד <u>כז</u> <u>לה</u> לו לז <u>ע</u> <u>עא</u>",
+  "עא",
+  "audit: The entry is 315:2 MB יג (לבוד, adding to a tent). Target (עא) is about covering a barrel on all sides (פסיק רישא of making an אוהל) and does not mention MB יג or לבוד. The neighbour that ties back via 'כדלעיל הערה לה' and 'סוף הערה לז' is (ע), which is already printed and linked separately in the same list. Other chapter-כד notes on this topic (לה, לו, לז) are also already listed. No unlisted note is a clear intended target, so the עא link should be dropped."
+ ],
+ [
+  "סימן שטז",
+  "ה",
+  "שעה\"צ כד",
+  "יג סו",
+  "סו",
+  "audit: Note יג (סו) cites only סי' שט שעה\"צ כד and סי' שי/שח/תקיד, and nothing from 316. The printed index lists יג סו correctly under סימן שט שעה\"צ כד, so this line under שטז ה is an index slip. No note in the book cites 316 שעה\"צ כד. A search for שעה\"צ ס\"ק כד across the book turns up hits only in other simanim."
+ ],
+ [
+  "סימן שיז",
+  "א",
+  "מ\"ב יא",
+  "טז <u>לב</u>",
+  "לב",
+  "audit: Note טז (לב) cites only 308 מ\"ב צג (stones set aside for play). The printed index lists it correctly under סימן שח מ\"ב צג (טז לב). No note in the book cites 317 מ\"ב יא, and the topic (muktzeh of stones) has nothing to do with the knots of siman 317, so the line under 317 is an index slip."
+ ],
+ [
+  "סימן שיז",
+  "ב",
+  "מ\"ב טז",
+  "טו <u>ריא</u> <u>ריד</u> <u>רקט</u> <u>ריז</u> <u>[סעיף סו]</u> <u>ריח</u> <u>ריט</u>",
+  "רקט",
+  "not a well-formed numeral (between ריד and ריז, so רטו or רטז; רטו cites סי' שיז מ\"ב ס\"ק יח, ריז cites ס\"ק טז) — ambiguous"
+ ],
+ [
+  "סימן שיח",
+  "יט",
+  "מ\"ב קיח",
+  "א צח <u>[סעיף מו]</u> <u>קלז</u> קלט קצג קצה",
+  "קלז",
+  "audit: Note א(קלז) cites only סי' רנג סע' א and cross-references notes פב, קי, ריט and רמט (the appliance counts as not גרוף וקטום). It does not cite or discuss סי' שיח מ\"ב קיח. The notes that do cite it, קלט (\"סוס\"ק קיח\"), צח, קצג and קצה, are already listed, and so is [סעיף מו]. The neighbouring note קלח (thermostat) does not cite it either. So קלז is a wrong or duplicate listing, and there is no separate correct place to point it to."
+ ],
+ [
+  "סימן שכ",
+  "כ",
+  "מ\"ב נח",
+  "טו <u>קח</u>",
+  "קח",
+  "audit: Note טו(קח) cites \"סי' שב במ\"ב ס\"ק לו\" and ביה\"ל ד\"ה דהוי (removing dirt from a garment), not siman שכ. The index likely misread שב as שכ. A search of the whole book found no note citing סי' שכ מ\"ב נח (only מ\"ב נו and נט, which appear in other entries). The target is wrong, and no correct place could be found."
+ ],
+ [
+  "סימן שכא",
+  "ג",
+  "מ\"ב יח",
+  "כז קסט",
+  "קסט",
+  "audit: Note כז(קסט) cites \"סי' שכ במ\"ב ס\"ק יח ובשעה\"צ ס\"ק כג\", which is siman שכ, not שכא. The printed index lists כז קסט under both שכ מ\"ב יח and שכא מ\"ב יח, so the שכא entry is an index error. The only other note citing the same pair, ה(כב), also cites שכ. No note in the book cites שכא מ\"ב יח."
+ ],
+ [
+  "סימן שכא",
+  "ה",
+  "שעה\"צ כג",
+  "כז קסט",
+  "קסט",
+  "audit: This is the same note כז(קסט), and it cites שעה\"צ כג of siman שכ. The printed index already has כז קסט under שכ שעה\"צ כג. No note cites שכא שעה\"צ כג, so the שכא סע' ה listing is a duplicate pointing at the wrong siman."
+ ],
+ [
+  "סימן שכא",
+  "ח",
+  "שו\"ע",
+  "ו ל לד לח",
+  "לח",
+  "audit: Note ו(לח) only says \"עי' לעיל פ\"א סע' נב ו-נג\" (hot water on dry porridge, in seif יג) and does not deal with crushing salt or spices (שכא סע' ח). There is no systematic note-number offset in chapter ו: notes כט, מג, מד and מה all match their index entries. Note ו(לא) explicitly cites \"דעת תורה סי' שכא סע' ח\" about crumbling salt and is not already listed, so it is a better target. Caveat: the same wrong 'לח' also appears under מ\"ב כח, so the intended note is not certain. Note ו(מ) (crumbling lumps with a spoon in a plate, 'עיין לעיל סע' יא') is a weaker alternative. || third: Note ו (לח) is wrong: it covers pouring hot water on dry porridge. But the printed 'לח' appears after לד in both the שו\"ע line ('ל לד לח') and the MB כח line ('לד לח'). That rules out a one-off typo for לא, which would sort before לד. It points to a note after לד. The best such candidate is ו (מ), in the same seif יג as לח: it covers crumbling the lumps with a spoon and cites 'עיין לעיל סע' יא', the seif built on 321:8. Low confidence."
+ ],
+ [
+  "סימן שכא",
+  "ח",
+  "מ\"ב כח",
+  "ו לד לח",
+  "לח",
+  "audit: The target ו(לח) (hot water on porridge, a cross-reference to chapter א) clearly does not deal with שכא מ\"ב כח (two changes when crushing). Only note ו(לד) cites מ\"ב כח, and it is already listed. The closest loose candidate, ו(מ) (crumbling porridge lumps with a spoon in a plate), does not really concern the two-changes rule. The current link is wrong, and I could not determine a correct replacement."
+ ],
+ [
+  "סימן שכו",
+  "יג",
+  "שו\"ע",
+  "ל קמג, לד <u>רד</u>",
+  "רד",
+  "ch לד has notes only up to קכ (print overprinted here; token from the .I source)"
+ ],
+ [
+  "סימן שכח",
+  "יז",
+  "רמ\"א",
+  "א מא, ד ל, ה נא, ח סז, ט עז, יא קכו, יד מו צה, כג פט, ל קה, לב ריט, לג ד, לז ו יד*, לח מ עח עט פא",
+  "יד*",
+  "no note יד* in ch לז; note לג יד cites \"סי' שכח סע' יז ובמ\"ב ס\"ק מח\" (possible intended target, not linked)"
+ ],
+ [
+  "סימן שלג",
+  "א",
+  "מ\"ב ג",
+  "מבוא א קפד",
+  "קפד",
+  "audit: Note מבוא א קפד cites \"סי' שמג מ\"ב סק\"ג\" (a minor who does not understand). The index's שמג מ\"ב ג line has 'מבוא א קפו, טו ערה, לז ו' but not קפד, so קפד was misfiled under שלג, a one-letter שמג/שלג slip. No note cites שלג מ\"ב ג, so nothing in the book fits the entry as printed."
+ ],
+ [
+  "סימן שלד",
+  "ט",
+  "שעה\"צ יג",
+  "לב נז",
+  "נז",
+  "audit: Note לב נז cites \"סי' של סע' ד ובשעה\"צ ס\"ק יג\", which is siman 330, not 334. The index lists לב נז under של סעיף ד שו\"ע but leaves it out of של שעה\"צ יג, which only has 'לו נב'. So this line was misfiled under שלד. No note cites שלד שעה\"צ יג, so nothing in the book fits the entry as printed. The note's real home is של שעה\"צ יג."
+ ],
+ [
+  "סימן שלד",
+  "יח",
+  "שו\"ע",
+  "ל לג לט, מא <u>לא</u> נד נה",
+  "לא",
+  "audit: Note מא לא sits in seif י (wearing clothes to rescue them from the fire) and cites \"שם סע' ח ו-י\". That is שלד ח, where the index already lists \"מא לא לב\". Seif יח (telling a non-Jew to save holy books) is cited only by מא נד, מא נה, ל לג and ל לט, and all of these are already in the printed list. The helper's hit on note ל is only \"מ\"ב ס\"ק יח\". So 'לא' is a stray and no other place fits."
+ ],
+ [
+  "סימן שלו",
+  "יא",
+  "מ\"ב נא",
+  "מבוא א כא קטו, ח <u>ק</u>, כז יט לא",
+  "לא",
+  "audit: Note כז לא, \"שם ובמ\"ב ס\"ק נא\", continues from כט (סי' שה) and ל (שם סע' טז), so it refers to שה טז מ\"ב נא. The index itself confirms this: under סימן שה it has \"סעיף טז ... מ\"ב נא – כז לא\". The only note that really cites שלו מ\"ב נא in that chapter is כז יט, which is already listed. So 'לא' under שלו is wrong and no other place fits."
+ ],
+ [
+  "סימן שלט",
+  "ב",
+  "שו\"ע",
+  "יא <u>נה</u> <u>[סעיפים יח-כז]</u> <u>קכג</u>, יד לח",
+  "[סעיפים יח-כז]",
+  "audit: Seifim יא יח-כז deal with conditional separation of terumot and maasrot. That is שלט ד: notes יא נה and קכג both read \"סי' שלט סע' ד\", and the seif ד line lists 'יא נה נו קכג'. The printed seif ב line seems to have absorbed seif ד's references. שלט ב (swimming) is cited only in יד לח, which is already in the list, so no place fits the seif range under seif ב."
+ ],
+ [
+  "סימן תקכב",
+  "א",
+  "מ\"ב ב",
+  "יח <u>נה</u>, יט יג",
+  "נה",
+  "audit: יח(נה) is about jewelry (303:18) and has nothing on 522. Among the cane notes on seif יח יג, יח(סב) is the only one tied to 522: a blind person who cannot walk without a cane, 'וכ\"ה בעטרת זקנים על שו\"ע סי' תקכב... וע\"ש בפמ\"ג מ\"ז ס\"ק א'. The index files 522:1 פמ\"ג מ\"ז א under this note. The parallel יט(יג) cites 522:1 מ\"ב ב on the same cane topic. Moderate confidence. יח(נט), on 'מי שאי־אפשר לו בשום אופן ללכת בלא מקל', is a less likely alternative. || third: The current target is wrong: יח (נה) is about jewelry (303:18). But the right replacement is not clear. No ch 18 note cites 522 MB ב. יח (סב) mentions עטרת זקנים on 522 and the פמ\"ג, and the index already lists it under פמ\"ג. יח (סא) deals with 'חולה שקשה לו ללכת בלי מקל', the MB ב topic itself, and is an equally plausible target. Neither is a clear misprint of נה."
+ ]
+]
