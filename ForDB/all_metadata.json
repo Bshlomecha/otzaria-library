@@ -9231,32 +9231,6 @@
   },
   {
     "heAuthors": [
-      "רבי משה חלאווה"
-    ],
-    "title": "מהר”ם חלאווה על פסחים",
-    "enTitle": "Maharam Chalava (Pesachim)",
-    "authors": [
-      "Rabbi Moshe Chalava"
-    ],
-    "pubDate": [
-      1873
-    ],
-    "pubDateHeb": [
-      "ה׳תרל״ג"
-    ],
-    "pubPlaceStringEn": "Jerusalem",
-    "pubPlaceStringHe": "ירושלים",
-    "heCategories": [
-      "מפרשי הש\"ס (אחרונים)"
-    ],
-    "categories": [
-      "Acharonim on Talmud Bavli"
-    ],
-    "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
       "רבי מאיר קצנלנבוגן"
     ],
     "title": "מהרם פדואה",
@@ -9487,32 +9461,6 @@
       "Responsa"
     ],
     "publisher": null,
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
-      "רבי יעקב הלוי בן משה מולין"
-    ],
-    "title": "מהרי”ל (מנהגים)",
-    "enTitle": "Maharil Minhagim",
-    "authors": [
-      "Yaakov ben Moshe Levi Moelin"
-    ],
-    "pubDate": [
-      1874
-    ],
-    "pubDateHeb": [
-      "ה׳תרל״ד"
-    ],
-    "pubPlaceStringEn": "Warsaw",
-    "pubPlaceStringHe": "ווארשא",
-    "heCategories": [
-      "ספרי הלכה ומנהג"
-    ],
-    "categories": [
-      "Halachah and Minhagim"
-    ],
-    "publisher": "ספריית דיקטה",
     "Sourcefolder": "Dicta"
   },
   {
@@ -13377,32 +13325,6 @@
     ],
     "pubDateHeb": [
       "ה׳תרמ״ג"
-    ],
-    "pubPlaceStringEn": "Lamberg",
-    "pubPlaceStringHe": "לעמבערג",
-    "heCategories": [
-      "מפרשי הש\"ס (אחרונים)"
-    ],
-    "categories": [
-      "Acharonim on Talmud Bavli"
-    ],
-    "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
-  },
-  {
-    "heAuthors": [
-      "רבי יוסף בר מאיר תאומים"
-    ],
-    "title": "ראש יוסף על  ברכות",
-    "enTitle": "Rosh Yosef (Berakhot)",
-    "authors": [
-      "Joseph ben Meir Teomim "
-    ],
-    "pubDate": [
-      1863
-    ],
-    "pubDateHeb": [
-      "ה׳תרכ״ג"
     ],
     "pubPlaceStringEn": "Lamberg",
     "pubPlaceStringHe": "לעמבערג",
