@@ -4616,15 +4616,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1456,
-    "heRef_2": "ספר עבודה, הלכות בית הבחירה, פרק א, ג",
-    "path_2": "משנה תורה, הלכות בית הבחירה.txt",
-    "line_index_2": 6,
-    "ref_2": "Mishneh Torah, The Chosen Temple 1:3",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1458,
+    "line_index_1": 1457,
     "heRef_2": "ספר עבודה, הלכות בית הבחירה, פרק א, יח",
     "path_2": "משנה תורה, הלכות בית הבחירה.txt",
     "line_index_2": 21,
@@ -4632,735 +4624,367 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1459,
-    "heRef_2": "ספר עבודה, הלכות בית הבחירה, פרק א, יח",
+    "line_index_1": 1460,
+    "heRef_2": "ספר עבודה, הלכות בית הבחירה, פרק ו, טו",
     "path_2": "משנה תורה, הלכות בית הבחירה.txt",
-    "line_index_2": 21,
-    "ref_2": "Mishneh Torah, The Chosen Temple 1:18",
+    "line_index_2": 109,
+    "ref_2": "Mishneh Torah, The Chosen Temple 6:15",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1462,
-    "heRef_2": "ספר עבודה, הלכות בית הבחירה, פרק ו, טו",
+    "heRef_2": "ספר עבודה, הלכות בית הבחירה, פרק ו, טז",
     "path_2": "משנה תורה, הלכות בית הבחירה.txt",
-    "line_index_2": 109,
-    "ref_2": "Mishneh Torah, The Chosen Temple 6:15",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1463,
-    "heRef_2": "ספר עבודה, הלכות בית הבחירה, פרק ו, טו",
-    "path_2": "משנה תורה, הלכות בית הבחירה.txt",
-    "line_index_2": 109,
-    "ref_2": "Mishneh Torah, The Chosen Temple 6:15",
+    "line_index_2": 110,
+    "ref_2": "Mishneh Torah, The Chosen Temple 6:16",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1465,
-    "heRef_2": "ספר עבודה, הלכות בית הבחירה, פרק ו, טז",
+    "heRef_2": "ספר עבודה, הלכות בית הבחירה, פרק ז, ב",
     "path_2": "משנה תורה, הלכות בית הבחירה.txt",
-    "line_index_2": 110,
-    "ref_2": "Mishneh Torah, The Chosen Temple 6:16",
+    "line_index_2": 113,
+    "ref_2": "Mishneh Torah, The Chosen Temple 7:2",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1466,
-    "heRef_2": "ספר עבודה, הלכות בית הבחירה, פרק ו, טז",
+    "line_index_1": 1467,
+    "heRef_2": "ספר עבודה, הלכות בית הבחירה, פרק ז, ו",
     "path_2": "משנה תורה, הלכות בית הבחירה.txt",
-    "line_index_2": 110,
-    "ref_2": "Mishneh Torah, The Chosen Temple 6:16",
+    "line_index_2": 117,
+    "ref_2": "Mishneh Torah, The Chosen Temple 7:6",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1469,
-    "heRef_2": "ספר עבודה, הלכות בית הבחירה, פרק ז, ב",
+    "heRef_2": "ספר עבודה, הלכות בית הבחירה, פרק ז, יח",
     "path_2": "משנה תורה, הלכות בית הבחירה.txt",
-    "line_index_2": 113,
-    "ref_2": "Mishneh Torah, The Chosen Temple 7:2",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1470,
-    "heRef_2": "ספר עבודה, הלכות בית הבחירה, פרק ז, ב",
-    "path_2": "משנה תורה, הלכות בית הבחירה.txt",
-    "line_index_2": 113,
-    "ref_2": "Mishneh Torah, The Chosen Temple 7:2",
+    "line_index_2": 129,
+    "ref_2": "Mishneh Torah, The Chosen Temple 7:18",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1472,
-    "heRef_2": "ספר עבודה, הלכות בית הבחירה, פרק ז, ו",
+    "heRef_2": "ספר עבודה, הלכות בית הבחירה, פרק ח, יב",
     "path_2": "משנה תורה, הלכות בית הבחירה.txt",
-    "line_index_2": 117,
-    "ref_2": "Mishneh Torah, The Chosen Temple 7:6",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1473,
-    "heRef_2": "ספר עבודה, הלכות בית הבחירה, פרק ז, ו",
-    "path_2": "משנה תורה, הלכות בית הבחירה.txt",
-    "line_index_2": 117,
-    "ref_2": "Mishneh Torah, The Chosen Temple 7:6",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1475,
-    "heRef_2": "ספר עבודה, הלכות בית הבחירה, פרק ז, יח",
-    "path_2": "משנה תורה, הלכות בית הבחירה.txt",
-    "line_index_2": 129,
-    "ref_2": "Mishneh Torah, The Chosen Temple 7:18",
+    "line_index_2": 147,
+    "ref_2": "Mishneh Torah, The Chosen Temple 8:12",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1476,
-    "heRef_2": "ספר עבודה, הלכות בית הבחירה, פרק ז, יח",
-    "path_2": "משנה תורה, הלכות בית הבחירה.txt",
-    "line_index_2": 129,
-    "ref_2": "Mishneh Torah, The Chosen Temple 7:18",
+    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק א, ד",
+    "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
+    "line_index_2": 7,
+    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 1:4",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1479,
-    "heRef_2": "ספר עבודה, הלכות בית הבחירה, פרק ח, יב",
-    "path_2": "משנה תורה, הלכות בית הבחירה.txt",
-    "line_index_2": 147,
-    "ref_2": "Mishneh Torah, The Chosen Temple 8:12",
+    "line_index_1": 1478,
+    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק א, ז",
+    "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
+    "line_index_2": 10,
+    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 1:7",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1480,
-    "heRef_2": "ספר עבודה, הלכות בית הבחירה, פרק ח, יב",
-    "path_2": "משנה תורה, הלכות בית הבחירה.txt",
-    "line_index_2": 147,
-    "ref_2": "Mishneh Torah, The Chosen Temple 8:12",
+    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק א, ט",
+    "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
+    "line_index_2": 12,
+    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 1:9",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1484,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק א, ד",
+    "line_index_1": 1483,
+    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ב, ג",
     "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 7,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 1:4",
+    "line_index_2": 26,
+    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 2:3",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1485,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק א, ד",
+    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ב, יג",
     "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 7,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 1:4",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1487,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק א, ז",
-    "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 10,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 1:7",
+    "line_index_2": 36,
+    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 2:13",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1488,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק א, ז",
+    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ג, ח",
     "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 10,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 1:7",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1490,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק א, ט",
-    "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 12,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 1:9",
+    "line_index_2": 45,
+    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 3:8",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1491,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק א, ט",
+    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ה, ג",
     "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 12,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 1:9",
+    "line_index_2": 75,
+    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 5:3",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1494,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ב, ג",
+    "line_index_1": 1493,
+    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ה, י",
     "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 26,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 2:3",
+    "line_index_2": 82,
+    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 5:10",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1495,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ב, ג",
+    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ה, יז",
     "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 26,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 2:3",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1497,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ב, יג",
-    "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 36,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 2:13",
+    "line_index_2": 89,
+    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 5:17",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1498,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ב, יג",
+    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ו, ט",
     "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 36,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 2:13",
+    "line_index_2": 99,
+    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 6:9",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1501,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ג, ח",
+    "line_index_1": 1500,
+    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ו, י",
     "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 45,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 3:8",
+    "line_index_2": 100,
+    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 6:10",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1502,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ג, ח",
+    "line_index_1": 1503,
+    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ז, ה",
     "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 45,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 3:8",
+    "line_index_2": 107,
+    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 7:5",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1505,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ה, ג",
+    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ז, ו",
     "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 75,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 5:3",
+    "line_index_2": 108,
+    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 7:6",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1506,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ה, ג",
+    "line_index_1": 1507,
+    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ז, ט",
     "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 75,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 5:3",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1508,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ה, י",
-    "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 82,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 5:10",
+    "line_index_2": 111,
+    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 7:9",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1509,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ה, י",
+    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ז, יג",
     "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 82,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 5:10",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1511,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ה, יז",
-    "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 89,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 5:17",
+    "line_index_2": 115,
+    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 7:13",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1512,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ה, יז",
+    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ח, ד",
     "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 89,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 5:17",
+    "line_index_2": 127,
+    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 8:4",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1515,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ו, ט",
+    "line_index_1": 1514,
+    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ח, ו",
     "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 99,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 6:9",
+    "line_index_2": 129,
+    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 8:6",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1516,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ו, ט",
+    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ח, יג",
     "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 99,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 6:9",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1518,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ו, י",
-    "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 100,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 6:10",
+    "line_index_2": 136,
+    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 8:13",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1519,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ו, י",
+    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק י, ג",
     "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 100,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 6:10",
+    "line_index_2": 158,
+    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 10:3",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1522,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ז, ה",
+    "line_index_1": 1521,
+    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק י, ו",
     "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 107,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 7:5",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1523,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ז, ה",
-    "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 107,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 7:5",
+    "line_index_2": 161,
+    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 10:6",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1525,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ז, ו",
-    "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 108,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 7:6",
+    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק א, א",
+    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
+    "line_index_2": 4,
+    "ref_2": "Mishneh Torah, Admission into the Sanctuary 1:1",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1526,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ז, ו",
-    "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 108,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 7:6",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1528,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ז, ט",
-    "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 111,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 7:9",
+    "line_index_1": 1527,
+    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק א, ב",
+    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
+    "line_index_2": 5,
+    "ref_2": "Mishneh Torah, Admission into the Sanctuary 1:2",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1529,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ז, ט",
-    "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 111,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 7:9",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1531,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ז, יג",
-    "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 115,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 7:13",
+    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק א, ו",
+    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
+    "line_index_2": 9,
+    "ref_2": "Mishneh Torah, Admission into the Sanctuary 1:6",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1532,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ז, יג",
-    "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 115,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 7:13",
+    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ב, יא",
+    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
+    "line_index_2": 32,
+    "ref_2": "Mishneh Torah, Admission into the Sanctuary 2:11",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1535,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ח, ד",
-    "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 127,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 8:4",
+    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ג, ג",
+    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
+    "line_index_2": 37,
+    "ref_2": "Mishneh Torah, Admission into the Sanctuary 3:3",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1536,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ח, ד",
-    "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 127,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 8:4",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1538,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ח, ו",
-    "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 129,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 8:6",
+    "line_index_1": 1537,
+    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ג, ו",
+    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
+    "line_index_2": 40,
+    "ref_2": "Mishneh Torah, Admission into the Sanctuary 3:6",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1539,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ח, ו",
-    "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 129,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 8:6",
+    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ג, ח",
+    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
+    "line_index_2": 42,
+    "ref_2": "Mishneh Torah, Admission into the Sanctuary 3:8",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1541,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ח, יג",
-    "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 136,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 8:13",
+    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ג, יב",
+    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
+    "line_index_2": 46,
+    "ref_2": "Mishneh Torah, Admission into the Sanctuary 3:12",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1542,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ח, יג",
-    "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 136,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 8:13",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1545,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק י, ג",
-    "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 158,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 10:3",
+    "line_index_1": 1544,
+    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ד, ד",
+    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
+    "line_index_2": 63,
+    "ref_2": "Mishneh Torah, Admission into the Sanctuary 4:4",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1546,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק י, ג",
-    "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 158,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 10:3",
+    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ד, ז",
+    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
+    "line_index_2": 66,
+    "ref_2": "Mishneh Torah, Admission into the Sanctuary 4:7",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1548,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק י, ו",
-    "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 161,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 10:6",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1549,
-    "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק י, ו",
-    "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
-    "line_index_2": 161,
-    "ref_2": "Mishneh Torah, Vessels of the Sanctuary and Those Who Serve Therein 10:6",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1553,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק א, א",
+    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ד, ח",
     "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 4,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 1:1",
+    "line_index_2": 67,
+    "ref_2": "Mishneh Torah, Admission into the Sanctuary 4:8",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1554,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק א, א",
+    "line_index_1": 1550,
+    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ד, יא",
     "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 4,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 1:1",
+    "line_index_2": 70,
+    "ref_2": "Mishneh Torah, Admission into the Sanctuary 4:11",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1556,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק א, ב",
+    "line_index_1": 1552,
+    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ד, יד",
     "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 5,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 1:2",
+    "line_index_2": 73,
+    "ref_2": "Mishneh Torah, Admission into the Sanctuary 4:14",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1555,
+    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ה, ג",
+    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
+    "line_index_2": 81,
+    "ref_2": "Mishneh Torah, Admission into the Sanctuary 5:3",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1557,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק א, ב",
+    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ה, י",
     "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 5,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 1:2",
+    "line_index_2": 88,
+    "ref_2": "Mishneh Torah, Admission into the Sanctuary 5:10",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1559,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק א, ו",
+    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ה, יא",
     "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 9,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 1:6",
+    "line_index_2": 89,
+    "ref_2": "Mishneh Torah, Admission into the Sanctuary 5:11",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1560,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק א, ו",
+    "line_index_1": 1561,
+    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ה, טז",
     "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 9,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 1:6",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1563,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ב, יא",
-    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 32,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 2:11",
+    "line_index_2": 94,
+    "ref_2": "Mishneh Torah, Admission into the Sanctuary 5:16",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1564,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ב, יא",
+    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ו, ו",
     "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 32,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 2:11",
+    "line_index_2": 104,
+    "ref_2": "Mishneh Torah, Admission into the Sanctuary 6:6",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1567,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ג, ג",
+    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ז, ג",
     "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 37,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 3:3",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1568,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ג, ג",
-    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 37,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 3:3",
+    "line_index_2": 114,
+    "ref_2": "Mishneh Torah, Admission into the Sanctuary 7:3",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1570,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ג, ו",
-    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 40,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 3:6",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1571,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ג, ו",
-    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 40,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 3:6",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1573,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ג, ח",
-    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 42,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 3:8",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1574,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ג, ח",
-    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 42,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 3:8",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1576,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ג, יב",
-    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 46,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 3:12",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1577,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ג, יב",
-    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 46,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 3:12",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1580,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ד, ד",
-    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 63,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 4:4",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1581,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ד, ד",
-    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 63,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 4:4",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1583,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ד, ז",
-    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 66,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 4:7",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1584,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ד, ז",
-    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 66,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 4:7",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1586,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ד, ח",
-    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 67,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 4:8",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1587,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ד, ח",
-    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 67,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 4:8",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1589,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ד, יא",
-    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 70,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 4:11",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1590,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ד, יא",
-    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 70,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 4:11",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1592,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ד, יד",
-    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 73,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 4:14",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1593,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ד, יד",
-    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 73,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 4:14",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1596,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ה, ג",
-    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 81,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 5:3",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1597,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ה, ג",
-    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 81,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 5:3",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1599,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ה, י",
-    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 88,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 5:10",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1600,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ה, י",
-    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 88,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 5:10",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1602,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ה, יא",
-    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 89,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 5:11",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1603,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ה, יא",
-    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 89,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 5:11",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1605,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ה, טז",
-    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 94,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 5:16",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1606,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ה, טז",
-    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 94,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 5:16",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1609,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ו, ו",
-    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 104,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 6:6",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1610,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ו, ו",
-    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 104,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 6:6",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1613,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ז, ג",
-    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 114,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 7:3",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1614,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ז, ג",
-    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 114,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 7:3",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1617,
     "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ט, ב",
     "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
     "line_index_2": 145,
@@ -5368,15 +4992,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1618,
-    "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ט, ב",
-    "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
-    "line_index_2": 145,
-    "ref_2": "Mishneh Torah, Admission into the Sanctuary 9:2",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1620,
+    "line_index_1": 1572,
     "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ט, ג",
     "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
     "line_index_2": 146,
@@ -5384,7 +5000,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1622,
+    "line_index_1": 1574,
     "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ט, ז",
     "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
     "line_index_2": 150,
@@ -5392,7 +5008,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1626,
+    "line_index_1": 1578,
     "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק א, ד",
     "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
     "line_index_2": 7,
@@ -5400,383 +5016,183 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1627,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק א, ד",
+    "line_index_1": 1580,
+    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק א, יב",
     "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 7,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 1:4",
+    "line_index_2": 15,
+    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 1:12",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1583,
+    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ב, ד",
+    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
+    "line_index_2": 20,
+    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 2:4",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1585,
+    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ב, ו",
+    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
+    "line_index_2": 22,
+    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 2:6",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1587,
+    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ב, י",
+    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
+    "line_index_2": 26,
+    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 2:10",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1590,
+    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ג, א",
+    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
+    "line_index_2": 34,
+    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 3:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1592,
+    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ג, ד",
+    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
+    "line_index_2": 37,
+    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 3:4",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1594,
+    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ג, ה",
+    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
+    "line_index_2": 38,
+    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 3:5",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1596,
+    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ג, ו",
+    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
+    "line_index_2": 39,
+    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 3:6",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1598,
+    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ג, יא",
+    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
+    "line_index_2": 44,
+    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 3:11",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1601,
+    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ד, ד",
+    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
+    "line_index_2": 53,
+    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 4:4",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1603,
+    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ד, ו",
+    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
+    "line_index_2": 55,
+    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 4:6",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1605,
+    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ד, ח",
+    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
+    "line_index_2": 57,
+    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 4:8",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1607,
+    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ד, י",
+    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
+    "line_index_2": 59,
+    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 4:10",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1609,
+    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ד, יב",
+    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
+    "line_index_2": 61,
+    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 4:12",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1611,
+    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ד, יד",
+    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
+    "line_index_2": 63,
+    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 4:14",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1613,
+    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ד, טו",
+    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
+    "line_index_2": 64,
+    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 4:15",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1615,
+    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ד, יז",
+    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
+    "line_index_2": 66,
+    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 4:17",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1617,
+    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ד, יח",
+    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
+    "line_index_2": 67,
+    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 4:18",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1620,
+    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ה, א",
+    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
+    "line_index_2": 69,
+    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 5:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1622,
+    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ה, ו",
+    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
+    "line_index_2": 74,
+    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 5:6",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1624,
+    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ה, ט",
+    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
+    "line_index_2": 77,
+    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 5:9",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1626,
+    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ה, י",
+    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
+    "line_index_2": 78,
+    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 5:10",
     "Conection Type": "source"
   },
   {
     "line_index_1": 1629,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק א, יב",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 15,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 1:12",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1630,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק א, יב",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 15,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 1:12",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1633,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ב, ד",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 20,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 2:4",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1634,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ב, ד",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 20,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 2:4",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1636,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ב, ו",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 22,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 2:6",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1637,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ב, ו",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 22,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 2:6",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1639,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ב, י",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 26,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 2:10",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1640,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ב, י",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 26,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 2:10",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1643,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ג, א",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 34,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 3:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1644,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ג, א",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 34,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 3:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1646,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ג, ג",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 36,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 3:3",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1648,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ג, ד",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 37,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 3:4",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1649,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ג, ד",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 37,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 3:4",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1651,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ג, ה",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 38,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 3:5",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1652,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ג, ה",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 38,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 3:5",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1654,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ג, ו",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 39,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 3:6",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1655,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ג, ו",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 39,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 3:6",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1657,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ג, ז",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 40,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 3:7",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1659,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ג, יא",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 44,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 3:11",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1660,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ג, יא",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 44,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 3:11",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1663,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ד, ד",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 53,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 4:4",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1664,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ד, ד",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 53,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 4:4",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1666,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ד, ו",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 55,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 4:6",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1667,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ד, ו",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 55,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 4:6",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1669,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ד, ח",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 57,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 4:8",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1670,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ד, ח",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 57,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 4:8",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1672,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ד, י",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 59,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 4:10",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1673,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ד, י",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 59,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 4:10",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1675,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ד, יב",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 61,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 4:12",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1676,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ד, יב",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 61,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 4:12",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1678,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ד, יד",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 63,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 4:14",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1679,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ד, יד",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 63,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 4:14",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1681,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ד, טו",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 64,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 4:15",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1682,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ד, טו",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 64,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 4:15",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1684,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ד, יז",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 66,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 4:17",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1685,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ד, יז",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 66,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 4:17",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1687,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ד, יח",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 67,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 4:18",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1688,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ד, יח",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 67,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 4:18",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1691,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ה, א",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 69,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 5:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1692,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ה, א",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 69,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 5:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1694,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ה, ו",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 74,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 5:6",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1695,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ה, ו",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 74,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 5:6",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1697,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ה, ט",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 77,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 5:9",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1698,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ה, ט",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 77,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 5:9",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1700,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ה, י",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 78,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 5:10",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1701,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ה, י",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 78,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 5:10",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1704,
     "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ו, ב",
     "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
     "line_index_2": 84,
@@ -5784,15 +5200,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1705,
-    "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ו, ב",
-    "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
-    "line_index_2": 84,
-    "ref_2": "Mishneh Torah, Things Forbidden on the Altar 6:2",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1707,
+    "line_index_1": 1631,
     "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ו, ג",
     "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
     "line_index_2": 85,
@@ -5800,7 +5208,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1709,
+    "line_index_1": 1633,
     "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ו, ה",
     "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
     "line_index_2": 87,
@@ -5808,7 +5216,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1711,
+    "line_index_1": 1635,
     "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ו, ט",
     "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
     "line_index_2": 91,
@@ -5816,7 +5224,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1715,
+    "line_index_1": 1639,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק א, יא",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 14,
@@ -5824,15 +5232,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1716,
-    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק א, יא",
-    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
-    "line_index_2": 14,
-    "ref_2": "Mishneh Torah, Sacrificial Procedure 1:11",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1718,
+    "line_index_1": 1641,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק א, יב",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 15,
@@ -5840,15 +5240,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1719,
-    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק א, יב",
-    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
-    "line_index_2": 15,
-    "ref_2": "Mishneh Torah, Sacrificial Procedure 1:12",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1722,
+    "line_index_1": 1644,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ג, ג",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 42,
@@ -5856,15 +5248,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1723,
-    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ג, ג",
-    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
-    "line_index_2": 42,
-    "ref_2": "Mishneh Torah, Sacrificial Procedure 3:3",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1725,
+    "line_index_1": 1646,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ג, ו",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 45,
@@ -5872,15 +5256,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1726,
-    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ג, ו",
-    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
-    "line_index_2": 45,
-    "ref_2": "Mishneh Torah, Sacrificial Procedure 3:6",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1729,
+    "line_index_1": 1649,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ד, ח",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 63,
@@ -5888,15 +5264,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1730,
-    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ד, ח",
-    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
-    "line_index_2": 63,
-    "ref_2": "Mishneh Torah, Sacrificial Procedure 4:8",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1733,
+    "line_index_1": 1652,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ה, ו",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 73,
@@ -5904,15 +5272,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1734,
-    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ה, ו",
-    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
-    "line_index_2": 73,
-    "ref_2": "Mishneh Torah, Sacrificial Procedure 5:6",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1736,
+    "line_index_1": 1654,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ה, ט",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 76,
@@ -5920,15 +5280,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1737,
-    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ה, ט",
-    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
-    "line_index_2": 76,
-    "ref_2": "Mishneh Torah, Sacrificial Procedure 5:9",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1740,
+    "line_index_1": 1657,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ז, ד",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 117,
@@ -5936,15 +5288,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1741,
-    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ז, ד",
-    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
-    "line_index_2": 117,
-    "ref_2": "Mishneh Torah, Sacrificial Procedure 7:4",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1744,
+    "line_index_1": 1660,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ח, ט",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 135,
@@ -5952,15 +5296,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1745,
-    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ח, ט",
-    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
-    "line_index_2": 135,
-    "ref_2": "Mishneh Torah, Sacrificial Procedure 8:9",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1747,
+    "line_index_1": 1662,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ח, יד",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 140,
@@ -5968,15 +5304,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1748,
-    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ח, יד",
-    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
-    "line_index_2": 140,
-    "ref_2": "Mishneh Torah, Sacrificial Procedure 8:14",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1750,
+    "line_index_1": 1664,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ח, טו",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 141,
@@ -5984,15 +5312,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1751,
-    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ח, טו",
-    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
-    "line_index_2": 141,
-    "ref_2": "Mishneh Torah, Sacrificial Procedure 8:15",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1754,
+    "line_index_1": 1667,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ט, יד",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 162,
@@ -6000,15 +5320,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1755,
-    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ט, יד",
-    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
-    "line_index_2": 162,
-    "ref_2": "Mishneh Torah, Sacrificial Procedure 9:14",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1757,
+    "line_index_1": 1669,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ט, כד",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 172,
@@ -6016,15 +5328,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1758,
-    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ט, כד",
-    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
-    "line_index_2": 172,
-    "ref_2": "Mishneh Torah, Sacrificial Procedure 9:24",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1761,
+    "line_index_1": 1672,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק י, ג",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 177,
@@ -6032,15 +5336,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1762,
-    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק י, ג",
-    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
-    "line_index_2": 177,
-    "ref_2": "Mishneh Torah, Sacrificial Procedure 10:3",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1764,
+    "line_index_1": 1674,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק י, ט",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 183,
@@ -6048,15 +5344,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1765,
-    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק י, ט",
-    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
-    "line_index_2": 183,
-    "ref_2": "Mishneh Torah, Sacrificial Procedure 10:9",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1768,
+    "line_index_1": 1677,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יא, ג",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 201,
@@ -6064,15 +5352,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1769,
-    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יא, ג",
-    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
-    "line_index_2": 201,
-    "ref_2": "Mishneh Torah, Sacrificial Procedure 11:3",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1771,
+    "line_index_1": 1679,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יא, ד",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 202,
@@ -6080,15 +5360,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1772,
-    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יא, ד",
-    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
-    "line_index_2": 202,
-    "ref_2": "Mishneh Torah, Sacrificial Procedure 11:4",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1775,
+    "line_index_1": 1682,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יב, כא",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 229,
@@ -6096,15 +5368,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1776,
-    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יב, כא",
-    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
-    "line_index_2": 229,
-    "ref_2": "Mishneh Torah, Sacrificial Procedure 12:21",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1779,
+    "line_index_1": 1685,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יג, יד",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 246,
@@ -6112,39 +5376,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1780,
-    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יג, יד",
-    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
-    "line_index_2": 246,
-    "ref_2": "Mishneh Torah, Sacrificial Procedure 13:14",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1783,
-    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יד, ג",
-    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
-    "line_index_2": 250,
-    "ref_2": "Mishneh Torah, Sacrificial Procedure 14:3",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1785,
-    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יד, ה",
-    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
-    "line_index_2": 252,
-    "ref_2": "Mishneh Torah, Sacrificial Procedure 14:5",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1787,
-    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יד, ט",
-    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
-    "line_index_2": 256,
-    "ref_2": "Mishneh Torah, Sacrificial Procedure 14:9",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1789,
+    "line_index_1": 1688,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יד, יד",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 261,
@@ -6152,15 +5384,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1790,
-    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יד, יד",
-    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
-    "line_index_2": 261,
-    "ref_2": "Mishneh Torah, Sacrificial Procedure 14:14",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1792,
+    "line_index_1": 1690,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יד, טז",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 263,
@@ -6168,7 +5392,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1794,
+    "line_index_1": 1692,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יד, יז",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 264,
@@ -6176,7 +5400,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1797,
+    "line_index_1": 1695,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק טו, ב",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 267,
@@ -6184,7 +5408,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1800,
+    "line_index_1": 1698,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק טז, יז",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 291,
@@ -6192,7 +5416,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1803,
+    "line_index_1": 1701,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יח, א",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 309,
@@ -6200,7 +5424,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1805,
+    "line_index_1": 1703,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יח, י",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 318,
@@ -6208,7 +5432,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1808,
+    "line_index_1": 1706,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יט, ט",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 336,
@@ -6216,7 +5440,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1810,
+    "line_index_1": 1708,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יט, יא",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 338,
@@ -6224,7 +5448,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1812,
+    "line_index_1": 1710,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יט, טז",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 343,
@@ -6232,7 +5456,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1816,
+    "line_index_1": 1714,
     "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק א, ג",
     "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
     "line_index_2": 6,
@@ -6240,15 +5464,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1817,
-    "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק א, ג",
-    "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
-    "line_index_2": 6,
-    "ref_2": "Mishneh Torah, Daily Offerings and Additional Offerings 1:3",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1819,
+    "line_index_1": 1716,
     "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק א, יב",
     "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
     "line_index_2": 15,
@@ -6256,15 +5472,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1820,
-    "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק א, יב",
-    "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
-    "line_index_2": 15,
-    "ref_2": "Mishneh Torah, Daily Offerings and Additional Offerings 1:12",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1823,
+    "line_index_1": 1719,
     "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק ג, טו",
     "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
     "line_index_2": 47,
@@ -6272,15 +5480,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1824,
-    "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק ג, טו",
-    "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
-    "line_index_2": 47,
-    "ref_2": "Mishneh Torah, Daily Offerings and Additional Offerings 3:15",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1827,
+    "line_index_1": 1722,
     "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק ד, ט",
     "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
     "line_index_2": 64,
@@ -6288,15 +5488,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1828,
-    "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק ד, ט",
-    "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
-    "line_index_2": 64,
-    "ref_2": "Mishneh Torah, Daily Offerings and Additional Offerings 4:9",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1831,
+    "line_index_1": 1725,
     "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק ז, ה",
     "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
     "line_index_2": 104,
@@ -6304,15 +5496,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1832,
-    "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק ז, ה",
-    "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
-    "line_index_2": 104,
-    "ref_2": "Mishneh Torah, Daily Offerings and Additional Offerings 7:5",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1834,
+    "line_index_1": 1727,
     "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק ז, ו",
     "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
     "line_index_2": 105,
@@ -6320,15 +5504,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1835,
-    "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק ז, ו",
-    "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
-    "line_index_2": 105,
-    "ref_2": "Mishneh Torah, Daily Offerings and Additional Offerings 7:6",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1837,
+    "line_index_1": 1729,
     "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק ז, ז",
     "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
     "line_index_2": 106,
@@ -6336,15 +5512,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1838,
-    "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק ז, ז",
-    "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
-    "line_index_2": 106,
-    "ref_2": "Mishneh Torah, Daily Offerings and Additional Offerings 7:7",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1840,
+    "line_index_1": 1731,
     "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק ז, י",
     "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
     "line_index_2": 109,
@@ -6352,15 +5520,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1841,
-    "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק ז, י",
-    "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
-    "line_index_2": 109,
-    "ref_2": "Mishneh Torah, Daily Offerings and Additional Offerings 7:10",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1844,
+    "line_index_1": 1734,
     "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק ח, א",
     "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
     "line_index_2": 126,
@@ -6368,15 +5528,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1845,
-    "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק ח, א",
-    "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
-    "line_index_2": 126,
-    "ref_2": "Mishneh Torah, Daily Offerings and Additional Offerings 8:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1847,
+    "line_index_1": 1736,
     "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק ח, טו",
     "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
     "line_index_2": 140,
@@ -6384,15 +5536,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1848,
-    "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק ח, טו",
-    "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
-    "line_index_2": 140,
-    "ref_2": "Mishneh Torah, Daily Offerings and Additional Offerings 8:15",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1850,
+    "line_index_1": 1738,
     "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק ח, טז",
     "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
     "line_index_2": 141,
@@ -6400,15 +5544,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1851,
-    "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק ח, טז",
-    "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
-    "line_index_2": 141,
-    "ref_2": "Mishneh Torah, Daily Offerings and Additional Offerings 8:16",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1853,
+    "line_index_1": 1740,
     "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק ח, כ",
     "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
     "line_index_2": 145,
@@ -6416,15 +5552,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1854,
-    "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק ח, כ",
-    "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
-    "line_index_2": 145,
-    "ref_2": "Mishneh Torah, Daily Offerings and Additional Offerings 8:20",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1857,
+    "line_index_1": 1743,
     "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק ט, ז",
     "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
     "line_index_2": 153,
@@ -6432,15 +5560,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1858,
-    "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק ט, ז",
-    "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
-    "line_index_2": 153,
-    "ref_2": "Mishneh Torah, Daily Offerings and Additional Offerings 9:7",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1860,
+    "line_index_1": 1745,
     "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק ט, ח",
     "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
     "line_index_2": 154,
@@ -6448,15 +5568,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1861,
-    "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק ט, ח",
-    "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
-    "line_index_2": 154,
-    "ref_2": "Mishneh Torah, Daily Offerings and Additional Offerings 9:8",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1864,
+    "line_index_1": 1748,
     "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק י, ז",
     "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
     "line_index_2": 167,
@@ -6464,15 +5576,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1865,
-    "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק י, ז",
-    "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
-    "line_index_2": 167,
-    "ref_2": "Mishneh Torah, Daily Offerings and Additional Offerings 10:7",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1867,
+    "line_index_1": 1750,
     "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק י, י",
     "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
     "line_index_2": 170,
@@ -6480,31 +5584,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1868,
-    "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק י, י",
-    "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
-    "line_index_2": 170,
-    "ref_2": "Mishneh Torah, Daily Offerings and Additional Offerings 10:10",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1870,
-    "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק י, טז",
-    "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
-    "line_index_2": 176,
-    "ref_2": "Mishneh Torah, Daily Offerings and Additional Offerings 10:16",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1872,
-    "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק י, יז",
-    "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
-    "line_index_2": 177,
-    "ref_2": "Mishneh Torah, Daily Offerings and Additional Offerings 10:17",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1876,
+    "line_index_1": 1754,
     "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק א, א",
     "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
     "line_index_2": 4,
@@ -6512,15 +5592,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1877,
-    "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק א, א",
-    "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
-    "line_index_2": 4,
-    "ref_2": "Mishneh Torah, Sacrifices Rendered Unfit 1:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1879,
+    "line_index_1": 1756,
     "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק א, ג",
     "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
     "line_index_2": 6,
@@ -6528,15 +5600,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1880,
-    "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק א, ג",
-    "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
-    "line_index_2": 6,
-    "ref_2": "Mishneh Torah, Sacrifices Rendered Unfit 1:3",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1882,
+    "line_index_1": 1758,
     "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק א, ה",
     "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
     "line_index_2": 8,
@@ -6544,15 +5608,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1883,
-    "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק א, ה",
-    "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
-    "line_index_2": 8,
-    "ref_2": "Mishneh Torah, Sacrifices Rendered Unfit 1:5",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1886,
+    "line_index_1": 1761,
     "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק ב, יג",
     "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
     "line_index_2": 54,
@@ -6560,15 +5616,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1887,
-    "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק ב, יג",
-    "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
-    "line_index_2": 54,
-    "ref_2": "Mishneh Torah, Sacrifices Rendered Unfit 2:13",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1890,
+    "line_index_1": 1764,
     "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק ג, ז",
     "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
     "line_index_2": 75,
@@ -6576,15 +5624,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1891,
-    "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק ג, ז",
-    "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
-    "line_index_2": 75,
-    "ref_2": "Mishneh Torah, Sacrifices Rendered Unfit 3:7",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1893,
+    "line_index_1": 1766,
     "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק ג, כ",
     "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
     "line_index_2": 88,
@@ -6592,15 +5632,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1894,
-    "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק ג, כ",
-    "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
-    "line_index_2": 88,
-    "ref_2": "Mishneh Torah, Sacrifices Rendered Unfit 3:20",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1897,
+    "line_index_1": 1769,
     "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק ה, ח",
     "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
     "line_index_2": 130,
@@ -6608,15 +5640,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1898,
-    "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק ה, ח",
-    "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
-    "line_index_2": 130,
-    "ref_2": "Mishneh Torah, Sacrifices Rendered Unfit 5:8",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1900,
+    "line_index_1": 1771,
     "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק ה, יג",
     "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
     "line_index_2": 135,
@@ -6624,15 +5648,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1901,
-    "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק ה, יג",
-    "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
-    "line_index_2": 135,
-    "ref_2": "Mishneh Torah, Sacrifices Rendered Unfit 5:13",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1904,
+    "line_index_1": 1774,
     "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק ו, יח",
     "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
     "line_index_2": 154,
@@ -6640,15 +5656,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1905,
-    "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק ו, יח",
-    "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
-    "line_index_2": 154,
-    "ref_2": "Mishneh Torah, Sacrifices Rendered Unfit 6:18",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1908,
+    "line_index_1": 1777,
     "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק יב, יז",
     "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
     "line_index_2": 249,
@@ -6656,15 +5664,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1909,
-    "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק יב, יז",
-    "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
-    "line_index_2": 249,
-    "ref_2": "Mishneh Torah, Sacrifices Rendered Unfit 12:17",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1912,
+    "line_index_1": 1780,
     "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק טז, ז",
     "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
     "line_index_2": 300,
@@ -6672,15 +5672,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1913,
-    "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק טז, ז",
-    "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
-    "line_index_2": 300,
-    "ref_2": "Mishneh Torah, Sacrifices Rendered Unfit 16:7",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1915,
+    "line_index_1": 1782,
     "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק טז, ט",
     "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
     "line_index_2": 302,
@@ -6688,15 +5680,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1916,
-    "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק טז, ט",
-    "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
-    "line_index_2": 302,
-    "ref_2": "Mishneh Torah, Sacrifices Rendered Unfit 16:9",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1919,
+    "line_index_1": 1785,
     "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק יח, ג",
     "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
     "line_index_2": 329,
@@ -6704,15 +5688,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1920,
-    "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק יח, ג",
-    "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
-    "line_index_2": 329,
-    "ref_2": "Mishneh Torah, Sacrifices Rendered Unfit 18:3",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1922,
+    "line_index_1": 1787,
     "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק יח, ד",
     "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
     "line_index_2": 330,
@@ -6720,15 +5696,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1923,
-    "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק יח, ד",
-    "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
-    "line_index_2": 330,
-    "ref_2": "Mishneh Torah, Sacrifices Rendered Unfit 18:4",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1925,
+    "line_index_1": 1789,
     "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק יח, יב",
     "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
     "line_index_2": 338,
@@ -6736,15 +5704,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1926,
-    "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק יח, יב",
-    "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
-    "line_index_2": 338,
-    "ref_2": "Mishneh Torah, Sacrifices Rendered Unfit 18:12",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1928,
+    "line_index_1": 1791,
     "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק יח, יט",
     "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
     "line_index_2": 345,
@@ -6752,15 +5712,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1929,
-    "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק יח, יט",
-    "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
-    "line_index_2": 345,
-    "ref_2": "Mishneh Torah, Sacrifices Rendered Unfit 18:19",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1931,
+    "line_index_1": 1793,
     "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק יח, כב",
     "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
     "line_index_2": 348,
@@ -6768,15 +5720,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1932,
-    "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק יח, כב",
-    "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
-    "line_index_2": 348,
-    "ref_2": "Mishneh Torah, Sacrifices Rendered Unfit 18:22",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1934,
+    "line_index_1": 1795,
     "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק יח, כד",
     "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
     "line_index_2": 350,
@@ -6784,15 +5728,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1935,
-    "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק יח, כד",
-    "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
-    "line_index_2": 350,
-    "ref_2": "Mishneh Torah, Sacrifices Rendered Unfit 18:24",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1938,
+    "line_index_1": 1798,
     "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק יט, ד",
     "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
     "line_index_2": 355,
@@ -6800,15 +5736,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1939,
-    "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק יט, ד",
-    "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
-    "line_index_2": 355,
-    "ref_2": "Mishneh Torah, Sacrifices Rendered Unfit 19:4",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1941,
+    "line_index_1": 1800,
     "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק יט, ח",
     "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
     "line_index_2": 359,
@@ -6816,7 +5744,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1943,
+    "line_index_1": 1802,
     "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק יט, יג",
     "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
     "line_index_2": 364,
@@ -6824,7 +5752,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1947,
+    "line_index_1": 1806,
     "heRef_2": "ספר עבודה, הלכות עבודת יום הכפורים, פרק א, א",
     "path_2": "משנה תורה, הלכות עבודת יום הכפורים.txt",
     "line_index_2": 4,
@@ -6832,15 +5760,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1948,
-    "heRef_2": "ספר עבודה, הלכות עבודת יום הכפורים, פרק א, א",
-    "path_2": "משנה תורה, הלכות עבודת יום הכפורים.txt",
-    "line_index_2": 4,
-    "ref_2": "Mishneh Torah, Service on the Day of Atonement 1:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1950,
+    "line_index_1": 1808,
     "heRef_2": "ספר עבודה, הלכות עבודת יום הכפורים, פרק א, ג",
     "path_2": "משנה תורה, הלכות עבודת יום הכפורים.txt",
     "line_index_2": 6,
@@ -6848,15 +5768,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1951,
-    "heRef_2": "ספר עבודה, הלכות עבודת יום הכפורים, פרק א, ג",
-    "path_2": "משנה תורה, הלכות עבודת יום הכפורים.txt",
-    "line_index_2": 6,
-    "ref_2": "Mishneh Torah, Service on the Day of Atonement 1:3",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1954,
+    "line_index_1": 1811,
     "heRef_2": "ספר עבודה, הלכות עבודת יום הכפורים, פרק ב, ב",
     "path_2": "משנה תורה, הלכות עבודת יום הכפורים.txt",
     "line_index_2": 14,
@@ -6864,15 +5776,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1955,
-    "heRef_2": "ספר עבודה, הלכות עבודת יום הכפורים, פרק ב, ב",
-    "path_2": "משנה תורה, הלכות עבודת יום הכפורים.txt",
-    "line_index_2": 14,
-    "ref_2": "Mishneh Torah, Service on the Day of Atonement 2:2",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1957,
+    "line_index_1": 1813,
     "heRef_2": "ספר עבודה, הלכות עבודת יום הכפורים, פרק ב, ה",
     "path_2": "משנה תורה, הלכות עבודת יום הכפורים.txt",
     "line_index_2": 17,
@@ -6880,15 +5784,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1958,
-    "heRef_2": "ספר עבודה, הלכות עבודת יום הכפורים, פרק ב, ה",
-    "path_2": "משנה תורה, הלכות עבודת יום הכפורים.txt",
-    "line_index_2": 17,
-    "ref_2": "Mishneh Torah, Service on the Day of Atonement 2:5",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1961,
+    "line_index_1": 1816,
     "heRef_2": "ספר עבודה, הלכות עבודת יום הכפורים, פרק ד, א",
     "path_2": "משנה תורה, הלכות עבודת יום הכפורים.txt",
     "line_index_2": 33,
@@ -6896,15 +5792,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1962,
-    "heRef_2": "ספר עבודה, הלכות עבודת יום הכפורים, פרק ד, א",
-    "path_2": "משנה תורה, הלכות עבודת יום הכפורים.txt",
-    "line_index_2": 33,
-    "ref_2": "Mishneh Torah, Service on the Day of Atonement 4:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1965,
+    "line_index_1": 1819,
     "heRef_2": "ספר עבודה, הלכות עבודת יום הכפורים, פרק ה, א",
     "path_2": "משנה תורה, הלכות עבודת יום הכפורים.txt",
     "line_index_2": 36,
@@ -6912,15 +5800,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1966,
-    "heRef_2": "ספר עבודה, הלכות עבודת יום הכפורים, פרק ה, א",
-    "path_2": "משנה תורה, הלכות עבודת יום הכפורים.txt",
-    "line_index_2": 36,
-    "ref_2": "Mishneh Torah, Service on the Day of Atonement 5:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1968,
+    "line_index_1": 1821,
     "heRef_2": "ספר עבודה, הלכות עבודת יום הכפורים, פרק ה, יח",
     "path_2": "משנה תורה, הלכות עבודת יום הכפורים.txt",
     "line_index_2": 53,
@@ -6928,15 +5808,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1969,
-    "heRef_2": "ספר עבודה, הלכות עבודת יום הכפורים, פרק ה, יח",
-    "path_2": "משנה תורה, הלכות עבודת יום הכפורים.txt",
-    "line_index_2": 53,
-    "ref_2": "Mishneh Torah, Service on the Day of Atonement 5:18",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1971,
+    "line_index_1": 1823,
     "heRef_2": "ספר עבודה, הלכות עבודת יום הכפורים, פרק ה, כה",
     "path_2": "משנה תורה, הלכות עבודת יום הכפורים.txt",
     "line_index_2": 60,
@@ -6944,15 +5816,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1972,
-    "heRef_2": "ספר עבודה, הלכות עבודת יום הכפורים, פרק ה, כה",
-    "path_2": "משנה תורה, הלכות עבודת יום הכפורים.txt",
-    "line_index_2": 60,
-    "ref_2": "Mishneh Torah, Service on the Day of Atonement 5:25",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1976,
+    "line_index_1": 1827,
     "heRef_2": "ספר עבודה, הלכות מעילה, פרק א, יג",
     "path_2": "משנה תורה, הלכות מעילה.txt",
     "line_index_2": 16,
@@ -6960,15 +5824,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1977,
-    "heRef_2": "ספר עבודה, הלכות מעילה, פרק א, יג",
-    "path_2": "משנה תורה, הלכות מעילה.txt",
-    "line_index_2": 16,
-    "ref_2": "Mishneh Torah, Trespass 1:13",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1980,
+    "line_index_1": 1830,
     "heRef_2": "ספר עבודה, הלכות מעילה, פרק ב, ו",
     "path_2": "משנה תורה, הלכות מעילה.txt",
     "line_index_2": 23,
@@ -6976,15 +5832,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1981,
-    "heRef_2": "ספר עבודה, הלכות מעילה, פרק ב, ו",
-    "path_2": "משנה תורה, הלכות מעילה.txt",
-    "line_index_2": 23,
-    "ref_2": "Mishneh Torah, Trespass 2:6",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1984,
+    "line_index_1": 1833,
     "heRef_2": "ספר עבודה, הלכות מעילה, פרק ג, א",
     "path_2": "משנה תורה, הלכות מעילה.txt",
     "line_index_2": 35,
@@ -6992,15 +5840,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1985,
-    "heRef_2": "ספר עבודה, הלכות מעילה, פרק ג, א",
-    "path_2": "משנה תורה, הלכות מעילה.txt",
-    "line_index_2": 35,
-    "ref_2": "Mishneh Torah, Trespass 3:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1987,
+    "line_index_1": 1835,
     "heRef_2": "ספר עבודה, הלכות מעילה, פרק ג, ג",
     "path_2": "משנה תורה, הלכות מעילה.txt",
     "line_index_2": 37,
@@ -7008,15 +5848,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1988,
-    "heRef_2": "ספר עבודה, הלכות מעילה, פרק ג, ג",
-    "path_2": "משנה תורה, הלכות מעילה.txt",
-    "line_index_2": 37,
-    "ref_2": "Mishneh Torah, Trespass 3:3",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1991,
+    "line_index_1": 1838,
     "heRef_2": "ספר עבודה, הלכות מעילה, פרק ד, ב",
     "path_2": "משנה תורה, הלכות מעילה.txt",
     "line_index_2": 50,
@@ -7024,15 +5856,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1992,
-    "heRef_2": "ספר עבודה, הלכות מעילה, פרק ד, ב",
-    "path_2": "משנה תורה, הלכות מעילה.txt",
-    "line_index_2": 50,
-    "ref_2": "Mishneh Torah, Trespass 4:2",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1994,
+    "line_index_1": 1840,
     "heRef_2": "ספר עבודה, הלכות מעילה, פרק ד, ט",
     "path_2": "משנה תורה, הלכות מעילה.txt",
     "line_index_2": 57,
@@ -7040,15 +5864,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1995,
-    "heRef_2": "ספר עבודה, הלכות מעילה, פרק ד, ט",
-    "path_2": "משנה תורה, הלכות מעילה.txt",
-    "line_index_2": 57,
-    "ref_2": "Mishneh Torah, Trespass 4:9",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 1998,
+    "line_index_1": 1843,
     "heRef_2": "ספר עבודה, הלכות מעילה, פרק ה, ה",
     "path_2": "משנה תורה, הלכות מעילה.txt",
     "line_index_2": 65,
@@ -7056,15 +5872,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1999,
-    "heRef_2": "ספר עבודה, הלכות מעילה, פרק ה, ה",
-    "path_2": "משנה תורה, הלכות מעילה.txt",
-    "line_index_2": 65,
-    "ref_2": "Mishneh Torah, Trespass 5:5",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 2001,
+    "line_index_1": 1845,
     "heRef_2": "ספר עבודה, הלכות מעילה, פרק ה, ו",
     "path_2": "משנה תורה, הלכות מעילה.txt",
     "line_index_2": 66,
@@ -7072,15 +5880,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2002,
-    "heRef_2": "ספר עבודה, הלכות מעילה, פרק ה, ו",
-    "path_2": "משנה תורה, הלכות מעילה.txt",
-    "line_index_2": 66,
-    "ref_2": "Mishneh Torah, Trespass 5:6",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 2005,
+    "line_index_1": 1848,
     "heRef_2": "ספר עבודה, הלכות מעילה, פרק ו, א",
     "path_2": "משנה תורה, הלכות מעילה.txt",
     "line_index_2": 78,
@@ -7088,23 +5888,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2006,
-    "heRef_2": "ספר עבודה, הלכות מעילה, פרק ו, א",
-    "path_2": "משנה תורה, הלכות מעילה.txt",
-    "line_index_2": 78,
-    "ref_2": "Mishneh Torah, Trespass 6:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 2008,
-    "heRef_2": "ספר עבודה, הלכות מעילה, פרק ו, ח",
-    "path_2": "משנה תורה, הלכות מעילה.txt",
-    "line_index_2": 85,
-    "ref_2": "Mishneh Torah, Trespass 6:8",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 2010,
+    "line_index_1": 1850,
     "heRef_2": "ספר עבודה, הלכות מעילה, פרק ו, יג",
     "path_2": "משנה תורה, הלכות מעילה.txt",
     "line_index_2": 90,
@@ -7112,23 +5896,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2011,
-    "heRef_2": "ספר עבודה, הלכות מעילה, פרק ו, יג",
-    "path_2": "משנה תורה, הלכות מעילה.txt",
-    "line_index_2": 90,
-    "ref_2": "Mishneh Torah, Trespass 6:13",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 2012,
-    "heRef_2": "ספר עבודה, הלכות מעילה, פרק ו, יג",
-    "path_2": "משנה תורה, הלכות מעילה.txt",
-    "line_index_2": 90,
-    "ref_2": "Mishneh Torah, Trespass 6:13",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 2015,
+    "line_index_1": 1853,
     "heRef_2": "ספר עבודה, הלכות מעילה, פרק ז, ו",
     "path_2": "משנה תורה, הלכות מעילה.txt",
     "line_index_2": 97,
@@ -7136,15 +5904,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2016,
-    "heRef_2": "ספר עבודה, הלכות מעילה, פרק ז, ו",
-    "path_2": "משנה תורה, הלכות מעילה.txt",
-    "line_index_2": 97,
-    "ref_2": "Mishneh Torah, Trespass 7:6",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 2018,
+    "line_index_1": 1855,
     "heRef_2": "ספר עבודה, הלכות מעילה, פרק ז, ח",
     "path_2": "משנה תורה, הלכות מעילה.txt",
     "line_index_2": 99,
@@ -7152,15 +5912,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2019,
-    "heRef_2": "ספר עבודה, הלכות מעילה, פרק ז, ח",
-    "path_2": "משנה תורה, הלכות מעילה.txt",
-    "line_index_2": 99,
-    "ref_2": "Mishneh Torah, Trespass 7:8",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 2022,
+    "line_index_1": 1858,
     "heRef_2": "ספר עבודה, הלכות מעילה, פרק ח, ה",
     "path_2": "משנה תורה, הלכות מעילה.txt",
     "line_index_2": 108,
@@ -7168,15 +5920,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2023,
-    "heRef_2": "ספר עבודה, הלכות מעילה, פרק ח, ה",
-    "path_2": "משנה תורה, הלכות מעילה.txt",
-    "line_index_2": 108,
-    "ref_2": "Mishneh Torah, Trespass 8:5",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 2028,
+    "line_index_1": 1863,
     "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק א, א",
     "path_2": "משנה תורה, הלכות קרבן פסח.txt",
     "line_index_2": 4,
@@ -7184,7 +5928,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2030,
+    "line_index_1": 1865,
     "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק א, ג",
     "path_2": "משנה תורה, הלכות קרבן פסח.txt",
     "line_index_2": 6,
@@ -7192,7 +5936,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2032,
+    "line_index_1": 1867,
     "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק א, ה",
     "path_2": "משנה תורה, הלכות קרבן פסח.txt",
     "line_index_2": 8,
@@ -7200,7 +5944,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2034,
+    "line_index_1": 1869,
     "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק א, יא",
     "path_2": "משנה תורה, הלכות קרבן פסח.txt",
     "line_index_2": 14,
@@ -7208,7 +5952,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2036,
+    "line_index_1": 1871,
     "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק א, יד",
     "path_2": "משנה תורה, הלכות קרבן פסח.txt",
     "line_index_2": 17,
@@ -7216,7 +5960,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2038,
+    "line_index_1": 1873,
     "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק א, טז",
     "path_2": "משנה תורה, הלכות קרבן פסח.txt",
     "line_index_2": 19,
@@ -7224,7 +5968,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2040,
+    "line_index_1": 1875,
     "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק א, יח",
     "path_2": "משנה תורה, הלכות קרבן פסח.txt",
     "line_index_2": 21,
@@ -7232,7 +5976,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2043,
+    "line_index_1": 1878,
     "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק ב, ב",
     "path_2": "משנה תורה, הלכות קרבן פסח.txt",
     "line_index_2": 26,
@@ -7240,7 +5984,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2045,
+    "line_index_1": 1880,
     "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק ב, יג",
     "path_2": "משנה תורה, הלכות קרבן פסח.txt",
     "line_index_2": 37,
@@ -7248,7 +5992,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2048,
+    "line_index_1": 1883,
     "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק ג, ד",
     "path_2": "משנה תורה, הלכות קרבן פסח.txt",
     "line_index_2": 44,
@@ -7256,7 +6000,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2051,
+    "line_index_1": 1886,
     "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק ד, ב",
     "path_2": "משנה תורה, הלכות קרבן פסח.txt",
     "line_index_2": 52,
@@ -7264,7 +6008,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2053,
+    "line_index_1": 1888,
     "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק ד, ג",
     "path_2": "משנה תורה, הלכות קרבן פסח.txt",
     "line_index_2": 53,
@@ -7272,7 +6016,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2056,
+    "line_index_1": 1891,
     "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק ה, א",
     "path_2": "משנה תורה, הלכות קרבן פסח.txt",
     "line_index_2": 63,
@@ -7280,7 +6024,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2058,
+    "line_index_1": 1893,
     "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק ה, ב",
     "path_2": "משנה תורה, הלכות קרבן פסח.txt",
     "line_index_2": 64,
@@ -7288,7 +6032,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2060,
+    "line_index_1": 1895,
     "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק ה, ו",
     "path_2": "משנה תורה, הלכות קרבן פסח.txt",
     "line_index_2": 68,
@@ -7296,7 +6040,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2063,
+    "line_index_1": 1898,
     "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק ו, ז",
     "path_2": "משנה תורה, הלכות קרבן פסח.txt",
     "line_index_2": 79,
@@ -7304,7 +6048,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2065,
+    "line_index_1": 1900,
     "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק ו, ח",
     "path_2": "משנה תורה, הלכות קרבן פסח.txt",
     "line_index_2": 80,
@@ -7312,7 +6056,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2067,
+    "line_index_1": 1902,
     "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק ו, ט",
     "path_2": "משנה תורה, הלכות קרבן פסח.txt",
     "line_index_2": 81,
@@ -7320,7 +6064,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2070,
+    "line_index_1": 1905,
     "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק ח, ד",
     "path_2": "משנה תורה, הלכות קרבן פסח.txt",
     "line_index_2": 100,
@@ -7328,7 +6072,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2072,
+    "line_index_1": 1907,
     "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק ח, ז",
     "path_2": "משנה תורה, הלכות קרבן פסח.txt",
     "line_index_2": 103,
@@ -7336,7 +6080,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2074,
+    "line_index_1": 1909,
     "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק ח, ח",
     "path_2": "משנה תורה, הלכות קרבן פסח.txt",
     "line_index_2": 104,
@@ -7344,7 +6088,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2077,
+    "line_index_1": 1912,
     "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק ט, ז",
     "path_2": "משנה תורה, הלכות קרבן פסח.txt",
     "line_index_2": 119,
@@ -7352,7 +6096,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2080,
+    "line_index_1": 1915,
     "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק י, יא",
     "path_2": "משנה תורה, הלכות קרבן פסח.txt",
     "line_index_2": 133,
@@ -7360,7 +6104,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2082,
+    "line_index_1": 1917,
     "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק י, יב",
     "path_2": "משנה תורה, הלכות קרבן פסח.txt",
     "line_index_2": 134,
@@ -7368,7 +6112,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2084,
+    "line_index_1": 1919,
     "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק י, יד",
     "path_2": "משנה תורה, הלכות קרבן פסח.txt",
     "line_index_2": 136,
@@ -7376,7 +6120,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2086,
+    "line_index_1": 1921,
     "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק י, טו",
     "path_2": "משנה תורה, הלכות קרבן פסח.txt",
     "line_index_2": 137,
@@ -7384,7 +6128,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2090,
+    "line_index_1": 1925,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק א, א",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 4,
@@ -7392,7 +6136,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2092,
+    "line_index_1": 1927,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק א, ד",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 7,
@@ -7400,7 +6144,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2094,
+    "line_index_1": 1929,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק א, ח",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 11,
@@ -7408,7 +6152,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2096,
+    "line_index_1": 1931,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק א, י",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 13,
@@ -7416,7 +6160,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2099,
+    "line_index_1": 1934,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק ב, א",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 16,
@@ -7424,7 +6168,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2101,
+    "line_index_1": 1936,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק ב, ב",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 17,
@@ -7432,7 +6176,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2103,
+    "line_index_1": 1938,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק ב, ג",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 18,
@@ -7440,7 +6184,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2105,
+    "line_index_1": 1940,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק ב, ד",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 19,
@@ -7448,7 +6192,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2107,
+    "line_index_1": 1942,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק ב, יג",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 28,
@@ -7456,7 +6200,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2110,
+    "line_index_1": 1945,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק ג, ז",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 37,
@@ -7464,7 +6208,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2114,
+    "line_index_1": 1949,
     "heRef_2": "ספר קורבנות, הלכות בכורות, פרק א, ד",
     "path_2": "משנה תורה, הלכות בכורות.txt",
     "line_index_2": 7,
@@ -7472,7 +6216,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2116,
+    "line_index_1": 1951,
     "heRef_2": "ספר קורבנות, הלכות בכורות, פרק א, ה",
     "path_2": "משנה תורה, הלכות בכורות.txt",
     "line_index_2": 8,
@@ -7480,7 +6224,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2118,
+    "line_index_1": 1953,
     "heRef_2": "ספר קורבנות, הלכות בכורות, פרק א, יב",
     "path_2": "משנה תורה, הלכות בכורות.txt",
     "line_index_2": 15,
@@ -7488,7 +6232,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2120,
+    "line_index_1": 1955,
     "heRef_2": "ספר קורבנות, הלכות בכורות, פרק א, טו",
     "path_2": "משנה תורה, הלכות בכורות.txt",
     "line_index_2": 18,
@@ -7496,7 +6240,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2122,
+    "line_index_1": 1957,
     "heRef_2": "ספר קורבנות, הלכות בכורות, פרק א, טז",
     "path_2": "משנה תורה, הלכות בכורות.txt",
     "line_index_2": 19,
@@ -7504,7 +6248,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2125,
+    "line_index_1": 1960,
     "heRef_2": "ספר קורבנות, הלכות בכורות, פרק ב, טז",
     "path_2": "משנה תורה, הלכות בכורות.txt",
     "line_index_2": 39,
@@ -7512,7 +6256,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2128,
+    "line_index_1": 1963,
     "heRef_2": "ספר קורבנות, הלכות בכורות, פרק ג, ט",
     "path_2": "משנה תורה, הלכות בכורות.txt",
     "line_index_2": 52,
@@ -7520,7 +6264,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2131,
+    "line_index_1": 1966,
     "heRef_2": "ספר קורבנות, הלכות בכורות, פרק ד, טו",
     "path_2": "משנה תורה, הלכות בכורות.txt",
     "line_index_2": 72,
@@ -7528,7 +6272,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2134,
+    "line_index_1": 1969,
     "heRef_2": "ספר קורבנות, הלכות בכורות, פרק ה, ט",
     "path_2": "משנה תורה, הלכות בכורות.txt",
     "line_index_2": 88,
@@ -7536,7 +6280,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2137,
+    "line_index_1": 1972,
     "heRef_2": "ספר קורבנות, הלכות בכורות, פרק ו, ב",
     "path_2": "משנה תורה, הלכות בכורות.txt",
     "line_index_2": 93,
@@ -7544,7 +6288,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2139,
+    "line_index_1": 1974,
     "heRef_2": "ספר קורבנות, הלכות בכורות, פרק ו, ה",
     "path_2": "משנה תורה, הלכות בכורות.txt",
     "line_index_2": 96,
@@ -7552,7 +6296,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2142,
+    "line_index_1": 1977,
     "heRef_2": "ספר קורבנות, הלכות בכורות, פרק ז, ה",
     "path_2": "משנה תורה, הלכות בכורות.txt",
     "line_index_2": 113,
@@ -7560,7 +6304,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2145,
+    "line_index_1": 1980,
     "heRef_2": "ספר קורבנות, הלכות בכורות, פרק ח, ז",
     "path_2": "משנה תורה, הלכות בכורות.txt",
     "line_index_2": 125,
@@ -7568,7 +6312,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2149,
+    "line_index_1": 1984,
     "heRef_2": "ספר קורבנות, הלכות שגגות, פרק א, א",
     "path_2": "משנה תורה, הלכות שגגות.txt",
     "line_index_2": 4,
@@ -7576,7 +6320,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2151,
+    "line_index_1": 1986,
     "heRef_2": "ספר קורבנות, הלכות שגגות, פרק א, ב",
     "path_2": "משנה תורה, הלכות שגגות.txt",
     "line_index_2": 5,
@@ -7584,7 +6328,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2154,
+    "line_index_1": 1989,
     "heRef_2": "ספר קורבנות, הלכות שגגות, פרק ב, ב",
     "path_2": "משנה תורה, הלכות שגגות.txt",
     "line_index_2": 11,
@@ -7592,7 +6336,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2156,
+    "line_index_1": 1991,
     "heRef_2": "ספר קורבנות, הלכות שגגות, פרק ב, ו",
     "path_2": "משנה תורה, הלכות שגגות.txt",
     "line_index_2": 15,
@@ -7600,7 +6344,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2159,
+    "line_index_1": 1994,
     "heRef_2": "ספר קורבנות, הלכות שגגות, פרק ד, א",
     "path_2": "משנה תורה, הלכות שגגות.txt",
     "line_index_2": 40,
@@ -7608,7 +6352,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2162,
+    "line_index_1": 1997,
     "heRef_2": "ספר קורבנות, הלכות שגגות, פרק ה, ה",
     "path_2": "משנה תורה, הלכות שגגות.txt",
     "line_index_2": 50,
@@ -7616,7 +6360,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2165,
+    "line_index_1": 2000,
     "heRef_2": "ספר קורבנות, הלכות שגגות, פרק ז, ב",
     "path_2": "משנה תורה, הלכות שגגות.txt",
     "line_index_2": 68,
@@ -7624,7 +6368,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2168,
+    "line_index_1": 2003,
     "heRef_2": "ספר קורבנות, הלכות שגגות, פרק ט, י",
     "path_2": "משנה תורה, הלכות שגגות.txt",
     "line_index_2": 100,
@@ -7632,7 +6376,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2171,
+    "line_index_1": 2006,
     "heRef_2": "ספר קורבנות, הלכות שגגות, פרק יא, א",
     "path_2": "משנה תורה, הלכות שגגות.txt",
     "line_index_2": 119,
@@ -7640,7 +6384,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2173,
+    "line_index_1": 2008,
     "heRef_2": "ספר קורבנות, הלכות שגגות, פרק יא, ד",
     "path_2": "משנה תורה, הלכות שגגות.txt",
     "line_index_2": 122,
@@ -7648,7 +6392,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2176,
+    "line_index_1": 2011,
     "heRef_2": "ספר קורבנות, הלכות שגגות, פרק יב, א",
     "path_2": "משנה תורה, הלכות שגגות.txt",
     "line_index_2": 129,
@@ -7656,7 +6400,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2179,
+    "line_index_1": 2014,
     "heRef_2": "ספר קורבנות, הלכות שגגות, פרק יג, א",
     "path_2": "משנה תורה, הלכות שגגות.txt",
     "line_index_2": 132,
@@ -7664,7 +6408,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2181,
+    "line_index_1": 2016,
     "heRef_2": "ספר קורבנות, הלכות שגגות, פרק יג, ה",
     "path_2": "משנה תורה, הלכות שגגות.txt",
     "line_index_2": 136,
@@ -7672,7 +6416,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2184,
+    "line_index_1": 2019,
     "heRef_2": "ספר קורבנות, הלכות שגגות, פרק יד, ב",
     "path_2": "משנה תורה, הלכות שגגות.txt",
     "line_index_2": 140,
@@ -7680,7 +6424,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2187,
+    "line_index_1": 2022,
     "heRef_2": "ספר קורבנות, הלכות שגגות, פרק טו, ה",
     "path_2": "משנה תורה, הלכות שגגות.txt",
     "line_index_2": 149,
@@ -7688,7 +6432,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2189,
+    "line_index_1": 2024,
     "heRef_2": "ספר קורבנות, הלכות שגגות, פרק טו, ז",
     "path_2": "משנה תורה, הלכות שגגות.txt",
     "line_index_2": 151,
@@ -7696,7 +6440,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2191,
+    "line_index_1": 2026,
     "heRef_2": "ספר קורבנות, הלכות שגגות, פרק טו, ט",
     "path_2": "משנה תורה, הלכות שגגות.txt",
     "line_index_2": 153,
@@ -7704,7 +6448,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2195,
+    "line_index_1": 2030,
     "heRef_2": "ספר קורבנות, הלכות מחוסרי כפרה, פרק ג, ו",
     "path_2": "משנה תורה, הלכות מחוסרי כפרה.txt",
     "line_index_2": 38,
@@ -7712,7 +6456,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2198,
+    "line_index_1": 2033,
     "heRef_2": "ספר קורבנות, הלכות מחוסרי כפרה, פרק ד, ב",
     "path_2": "משנה תורה, הלכות מחוסרי כפרה.txt",
     "line_index_2": 42,
@@ -7720,7 +6464,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2202,
+    "line_index_1": 2037,
     "heRef_2": "ספר קורבנות, הלכות תמורה, פרק א, א",
     "path_2": "משנה תורה, הלכות תמורה.txt",
     "line_index_2": 4,
@@ -7728,7 +6472,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2204,
+    "line_index_1": 2039,
     "heRef_2": "ספר קורבנות, הלכות תמורה, פרק א, ב",
     "path_2": "משנה תורה, הלכות תמורה.txt",
     "line_index_2": 5,
@@ -7736,7 +6480,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2206,
+    "line_index_1": 2041,
     "heRef_2": "ספר קורבנות, הלכות תמורה, פרק א, ד",
     "path_2": "משנה תורה, הלכות תמורה.txt",
     "line_index_2": 7,
@@ -7744,7 +6488,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2208,
+    "line_index_1": 2043,
     "heRef_2": "ספר קורבנות, הלכות תמורה, פרק א, ו",
     "path_2": "משנה תורה, הלכות תמורה.txt",
     "line_index_2": 9,
@@ -7752,7 +6496,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2210,
+    "line_index_1": 2045,
     "heRef_2": "ספר קורבנות, הלכות תמורה, פרק א, ח",
     "path_2": "משנה תורה, הלכות תמורה.txt",
     "line_index_2": 11,
@@ -7760,7 +6504,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2212,
+    "line_index_1": 2047,
     "heRef_2": "ספר קורבנות, הלכות תמורה, פרק א, יב",
     "path_2": "משנה תורה, הלכות תמורה.txt",
     "line_index_2": 15,
@@ -7768,7 +6512,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2214,
+    "line_index_1": 2049,
     "heRef_2": "ספר קורבנות, הלכות תמורה, פרק א, יד",
     "path_2": "משנה תורה, הלכות תמורה.txt",
     "line_index_2": 17,
@@ -7776,7 +6520,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2217,
+    "line_index_1": 2052,
     "heRef_2": "ספר קורבנות, הלכות תמורה, פרק ג, א",
     "path_2": "משנה תורה, הלכות תמורה.txt",
     "line_index_2": 31,
@@ -7784,7 +6528,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2219,
+    "line_index_1": 2054,
     "heRef_2": "ספר קורבנות, הלכות תמורה, פרק ג, ב",
     "path_2": "משנה תורה, הלכות תמורה.txt",
     "line_index_2": 32,
@@ -7792,7 +6536,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2221,
+    "line_index_1": 2056,
     "heRef_2": "ספר קורבנות, הלכות תמורה, פרק ג, ד",
     "path_2": "משנה תורה, הלכות תמורה.txt",
     "line_index_2": 34,
@@ -7800,7 +6544,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2224,
+    "line_index_1": 2059,
     "heRef_2": "ספר קורבנות, הלכות תמורה, פרק ד, א",
     "path_2": "משנה תורה, הלכות תמורה.txt",
     "line_index_2": 39,
@@ -7808,7 +6552,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2226,
+    "line_index_1": 2061,
     "heRef_2": "ספר קורבנות, הלכות תמורה, פרק ד, ג",
     "path_2": "משנה תורה, הלכות תמורה.txt",
     "line_index_2": 41,
@@ -7816,7 +6560,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2228,
+    "line_index_1": 2063,
     "heRef_2": "ספר קורבנות, הלכות תמורה, פרק ד, ו",
     "path_2": "משנה תורה, הלכות תמורה.txt",
     "line_index_2": 44,
@@ -7824,7 +6568,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2230,
+    "line_index_1": 2065,
     "heRef_2": "ספר קורבנות, הלכות תמורה, פרק ד, ח",
     "path_2": "משנה תורה, הלכות תמורה.txt",
     "line_index_2": 46,
@@ -7832,7 +6576,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2232,
+    "line_index_1": 2067,
     "heRef_2": "ספר קורבנות, הלכות תמורה, פרק ד, י",
     "path_2": "משנה תורה, הלכות תמורה.txt",
     "line_index_2": 48,
@@ -7840,7 +6584,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2234,
+    "line_index_1": 2069,
     "heRef_2": "ספר קורבנות, הלכות תמורה, פרק ד, יא",
     "path_2": "משנה תורה, הלכות תמורה.txt",
     "line_index_2": 49,
@@ -7848,7 +6592,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2239,
+    "line_index_1": 2074,
     "heRef_2": "ספר טהרה, הלכות טומאת מת, פרק א, יב",
     "path_2": "משנה תורה, הלכות טומאת מת.txt",
     "line_index_2": 15,
@@ -7856,7 +6600,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2241,
+    "line_index_1": 2076,
     "heRef_2": "ספר טהרה, הלכות טומאת מת, פרק א, יג",
     "path_2": "משנה תורה, הלכות טומאת מת.txt",
     "line_index_2": 16,
@@ -7864,7 +6608,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2244,
+    "line_index_1": 2079,
     "heRef_2": "ספר טהרה, הלכות טומאת מת, פרק ב, ו",
     "path_2": "משנה תורה, הלכות טומאת מת.txt",
     "line_index_2": 25,
@@ -7872,7 +6616,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2247,
+    "line_index_1": 2082,
     "heRef_2": "ספר טהרה, הלכות טומאת מת, פרק ג, י",
     "path_2": "משנה תורה, הלכות טומאת מת.txt",
     "line_index_2": 46,
@@ -7880,7 +6624,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2250,
+    "line_index_1": 2085,
     "heRef_2": "ספר טהרה, הלכות טומאת מת, פרק ז, ב",
     "path_2": "משנה תורה, הלכות טומאת מת.txt",
     "line_index_2": 94,
@@ -7888,7 +6632,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2253,
+    "line_index_1": 2088,
     "heRef_2": "ספר טהרה, הלכות טומאת מת, פרק י, ה",
     "path_2": "משנה תורה, הלכות טומאת מת.txt",
     "line_index_2": 130,
@@ -7896,7 +6640,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2256,
+    "line_index_1": 2091,
     "heRef_2": "ספר טהרה, הלכות טומאת מת, פרק יג, ד",
     "path_2": "משנה תורה, הלכות טומאת מת.txt",
     "line_index_2": 164,
@@ -7904,7 +6648,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2260,
+    "line_index_1": 2095,
     "heRef_2": "ספר טהרה, הלכות פרה אדומה, פרק א, ז",
     "path_2": "משנה תורה, הלכות פרה אדומה.txt",
     "line_index_2": 10,
@@ -7912,7 +6656,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2262,
+    "line_index_1": 2097,
     "heRef_2": "ספר טהרה, הלכות פרה אדומה, פרק א, יב",
     "path_2": "משנה תורה, הלכות פרה אדומה.txt",
     "line_index_2": 15,
@@ -7920,7 +6664,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2265,
+    "line_index_1": 2100,
     "heRef_2": "ספר טהרה, הלכות פרה אדומה, פרק ג, א",
     "path_2": "משנה תורה, הלכות פרה אדומה.txt",
     "line_index_2": 29,
@@ -7928,7 +6672,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2267,
+    "line_index_1": 2102,
     "heRef_2": "ספר טהרה, הלכות פרה אדומה, פרק ג, ב",
     "path_2": "משנה תורה, הלכות פרה אדומה.txt",
     "line_index_2": 30,
@@ -7936,7 +6680,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2270,
+    "line_index_1": 2105,
     "heRef_2": "ספר טהרה, הלכות פרה אדומה, פרק ד, ב",
     "path_2": "משנה תורה, הלכות פרה אדומה.txt",
     "line_index_2": 35,
@@ -7944,7 +6688,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2273,
+    "line_index_1": 2108,
     "heRef_2": "ספר טהרה, הלכות פרה אדומה, פרק ה, ד",
     "path_2": "משנה תורה, הלכות פרה אדומה.txt",
     "line_index_2": 56,
@@ -7952,7 +6696,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2275,
+    "line_index_1": 2110,
     "heRef_2": "ספר טהרה, הלכות פרה אדומה, פרק ה, ז",
     "path_2": "משנה תורה, הלכות פרה אדומה.txt",
     "line_index_2": 59,
@@ -7960,7 +6704,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2278,
+    "line_index_1": 2113,
     "heRef_2": "ספר טהרה, הלכות פרה אדומה, פרק ט, ב",
     "path_2": "משנה תורה, הלכות פרה אדומה.txt",
     "line_index_2": 100,
@@ -7968,7 +6712,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2280,
+    "line_index_1": 2115,
     "heRef_2": "ספר טהרה, הלכות פרה אדומה, פרק ט, יב",
     "path_2": "משנה תורה, הלכות פרה אדומה.txt",
     "line_index_2": 110,
@@ -7976,7 +6720,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2283,
+    "line_index_1": 2118,
     "heRef_2": "ספר טהרה, הלכות פרה אדומה, פרק י, ה",
     "path_2": "משנה תורה, הלכות פרה אדומה.txt",
     "line_index_2": 122,
@@ -7984,7 +6728,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2286,
+    "line_index_1": 2121,
     "heRef_2": "ספר טהרה, הלכות פרה אדומה, פרק יא, ב",
     "path_2": "משנה תורה, הלכות פרה אדומה.txt",
     "line_index_2": 130,
@@ -7992,7 +6736,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2289,
+    "line_index_1": 2124,
     "heRef_2": "ספר טהרה, הלכות פרה אדומה, פרק יב, ג",
     "path_2": "משנה תורה, הלכות פרה אדומה.txt",
     "line_index_2": 139,
@@ -8000,7 +6744,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2292,
+    "line_index_1": 2127,
     "heRef_2": "ספר טהרה, הלכות פרה אדומה, פרק יד, א",
     "path_2": "משנה תורה, הלכות פרה אדומה.txt",
     "line_index_2": 163,
@@ -8008,7 +6752,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2294,
+    "line_index_1": 2129,
     "heRef_2": "ספר טהרה, הלכות פרה אדומה, פרק יד, ד",
     "path_2": "משנה תורה, הלכות פרה אדומה.txt",
     "line_index_2": 166,
@@ -8016,7 +6760,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2298,
+    "line_index_1": 2133,
     "heRef_2": "ספר טהרה, הלכות טומאת צרעת, פרק א, ו",
     "path_2": "משנה תורה, הלכות טומאת צרעת.txt",
     "line_index_2": 9,
@@ -8024,7 +6768,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2301,
+    "line_index_1": 2136,
     "heRef_2": "ספר טהרה, הלכות טומאת צרעת, פרק ב, ט",
     "path_2": "משנה תורה, הלכות טומאת צרעת.txt",
     "line_index_2": 24,
@@ -8032,7 +6776,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2304,
+    "line_index_1": 2139,
     "heRef_2": "ספר טהרה, הלכות טומאת צרעת, פרק ה, ב",
     "path_2": "משנה תורה, הלכות טומאת צרעת.txt",
     "line_index_2": 49,
@@ -8040,7 +6784,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2307,
+    "line_index_1": 2142,
     "heRef_2": "ספר טהרה, הלכות טומאת צרעת, פרק י, ו",
     "path_2": "משנה תורה, הלכות טומאת צרעת.txt",
     "line_index_2": 109,
@@ -8048,7 +6792,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2309,
+    "line_index_1": 2144,
     "heRef_2": "ספר טהרה, הלכות טומאת צרעת, פרק י, יא",
     "path_2": "משנה תורה, הלכות טומאת צרעת.txt",
     "line_index_2": 114,
@@ -8056,7 +6800,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2311,
+    "line_index_1": 2146,
     "heRef_2": "ספר טהרה, הלכות טומאת צרעת, פרק י, יב",
     "path_2": "משנה תורה, הלכות טומאת צרעת.txt",
     "line_index_2": 115,
@@ -8064,7 +6808,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2314,
+    "line_index_1": 2149,
     "heRef_2": "ספר טהרה, הלכות טומאת צרעת, פרק יא, ג",
     "path_2": "משנה תורה, הלכות טומאת צרעת.txt",
     "line_index_2": 119,
@@ -8072,7 +6816,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2316,
+    "line_index_1": 2151,
     "heRef_2": "ספר טהרה, הלכות טומאת צרעת, פרק יא, ד",
     "path_2": "משנה תורה, הלכות טומאת צרעת.txt",
     "line_index_2": 120,
@@ -8080,7 +6824,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2318,
+    "line_index_1": 2153,
     "heRef_2": "ספר טהרה, הלכות טומאת צרעת, פרק יא, ו",
     "path_2": "משנה תורה, הלכות טומאת צרעת.txt",
     "line_index_2": 122,
@@ -8088,7 +6832,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2321,
+    "line_index_1": 2156,
     "heRef_2": "ספר טהרה, הלכות טומאת צרעת, פרק יג, ד",
     "path_2": "משנה תורה, הלכות טומאת צרעת.txt",
     "line_index_2": 145,
@@ -8096,7 +6840,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2324,
+    "line_index_1": 2159,
     "heRef_2": "ספר טהרה, הלכות טומאת צרעת, פרק יד, ה",
     "path_2": "משנה תורה, הלכות טומאת צרעת.txt",
     "line_index_2": 162,
@@ -8104,7 +6848,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2326,
+    "line_index_1": 2161,
     "heRef_2": "ספר טהרה, הלכות טומאת צרעת, פרק יד, יג",
     "path_2": "משנה תורה, הלכות טומאת צרעת.txt",
     "line_index_2": 170,
@@ -8112,7 +6856,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2330,
+    "line_index_1": 2165,
     "heRef_2": "ספר טהרה, הלכות מטמאי משכב ומושב, פרק א, יד",
     "path_2": "משנה תורה, הלכות מטמאי משכב ומושב.txt",
     "line_index_2": 17,
@@ -8120,7 +6864,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2333,
+    "line_index_1": 2168,
     "heRef_2": "ספר טהרה, הלכות מטמאי משכב ומושב, פרק ב, א",
     "path_2": "משנה תורה, הלכות מטמאי משכב ומושב.txt",
     "line_index_2": 21,
@@ -8128,7 +6872,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2336,
+    "line_index_1": 2171,
     "heRef_2": "ספר טהרה, הלכות מטמאי משכב ומושב, פרק ג, ד",
     "path_2": "משנה תורה, הלכות מטמאי משכב ומושב.txt",
     "line_index_2": 35,
@@ -8136,7 +6880,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2338,
+    "line_index_1": 2173,
     "heRef_2": "ספר טהרה, הלכות מטמאי משכב ומושב, פרק ג, ז",
     "path_2": "משנה תורה, הלכות מטמאי משכב ומושב.txt",
     "line_index_2": 38,
@@ -8144,7 +6888,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2341,
+    "line_index_1": 2176,
     "heRef_2": "ספר טהרה, הלכות מטמאי משכב ומושב, פרק ד, ה",
     "path_2": "משנה תורה, הלכות מטמאי משכב ומושב.txt",
     "line_index_2": 46,
@@ -8152,7 +6896,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2343,
+    "line_index_1": 2178,
     "heRef_2": "ספר טהרה, הלכות מטמאי משכב ומושב, פרק ד, ו",
     "path_2": "משנה תורה, הלכות מטמאי משכב ומושב.txt",
     "line_index_2": 47,
@@ -8160,7 +6904,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2346,
+    "line_index_1": 2181,
     "heRef_2": "ספר טהרה, הלכות מטמאי משכב ומושב, פרק ח, ג",
     "path_2": "משנה תורה, הלכות מטמאי משכב ומושב.txt",
     "line_index_2": 86,
@@ -8168,7 +6912,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2348,
+    "line_index_1": 2183,
     "heRef_2": "ספר טהרה, הלכות מטמאי משכב ומושב, פרק ח, ט",
     "path_2": "משנה תורה, הלכות מטמאי משכב ומושב.txt",
     "line_index_2": 92,
@@ -8176,7 +6920,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2351,
+    "line_index_1": 2186,
     "heRef_2": "ספר טהרה, הלכות מטמאי משכב ומושב, פרק יא, ב",
     "path_2": "משנה תורה, הלכות מטמאי משכב ומושב.txt",
     "line_index_2": 115,
@@ -8184,7 +6928,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2353,
+    "line_index_1": 2188,
     "heRef_2": "ספר טהרה, הלכות מטמאי משכב ומושב, פרק יא, יא",
     "path_2": "משנה תורה, הלכות מטמאי משכב ומושב.txt",
     "line_index_2": 124,
@@ -8192,7 +6936,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2356,
+    "line_index_1": 2191,
     "heRef_2": "ספר טהרה, הלכות מטמאי משכב ומושב, פרק יג, ג",
     "path_2": "משנה תורה, הלכות מטמאי משכב ומושב.txt",
     "line_index_2": 153,
@@ -8200,7 +6944,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2360,
+    "line_index_1": 2195,
     "heRef_2": "ספר טהרה, הלכות שאר אבות הטומאות, פרק א, ה",
     "path_2": "משנה תורה, הלכות שאר אבות הטומאות.txt",
     "line_index_2": 8,
@@ -8208,7 +6952,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2362,
+    "line_index_1": 2197,
     "heRef_2": "ספר טהרה, הלכות שאר אבות הטומאות, פרק א, יג",
     "path_2": "משנה תורה, הלכות שאר אבות הטומאות.txt",
     "line_index_2": 16,
@@ -8216,7 +6960,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2365,
+    "line_index_1": 2200,
     "heRef_2": "ספר טהרה, הלכות שאר אבות הטומאות, פרק ב, ה",
     "path_2": "משנה תורה, הלכות שאר אבות הטומאות.txt",
     "line_index_2": 26,
@@ -8224,7 +6968,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2368,
+    "line_index_1": 2203,
     "heRef_2": "ספר טהרה, הלכות שאר אבות הטומאות, פרק ד, יב",
     "path_2": "משנה תורה, הלכות שאר אבות הטומאות.txt",
     "line_index_2": 63,
@@ -8232,7 +6976,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2371,
+    "line_index_1": 2206,
     "heRef_2": "ספר טהרה, הלכות שאר אבות הטומאות, פרק ו, ב",
     "path_2": "משנה תורה, הלכות שאר אבות הטומאות.txt",
     "line_index_2": 88,
@@ -8240,7 +6984,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2373,
+    "line_index_1": 2208,
     "heRef_2": "ספר טהרה, הלכות שאר אבות הטומאות, פרק ו, ז",
     "path_2": "משנה תורה, הלכות שאר אבות הטומאות.txt",
     "line_index_2": 93,
@@ -8248,7 +6992,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2376,
+    "line_index_1": 2211,
     "heRef_2": "ספר טהרה, הלכות שאר אבות הטומאות, פרק יא, ד",
     "path_2": "משנה תורה, הלכות שאר אבות הטומאות.txt",
     "line_index_2": 151,
@@ -8256,7 +7000,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2379,
+    "line_index_1": 2214,
     "heRef_2": "ספר טהרה, הלכות שאר אבות הטומאות, פרק יב, ג",
     "path_2": "משנה תורה, הלכות שאר אבות הטומאות.txt",
     "line_index_2": 167,
@@ -8264,7 +7008,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2381,
+    "line_index_1": 2216,
     "heRef_2": "ספר טהרה, הלכות שאר אבות הטומאות, פרק יב, ז",
     "path_2": "משנה תורה, הלכות שאר אבות הטומאות.txt",
     "line_index_2": 171,
@@ -8272,7 +7016,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2384,
+    "line_index_1": 2219,
     "heRef_2": "ספר טהרה, הלכות שאר אבות הטומאות, פרק יג, ב",
     "path_2": "משנה תורה, הלכות שאר אבות הטומאות.txt",
     "line_index_2": 183,
@@ -8280,7 +7024,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2387,
+    "line_index_1": 2222,
     "heRef_2": "ספר טהרה, הלכות שאר אבות הטומאות, פרק טז, ב",
     "path_2": "משנה תורה, הלכות שאר אבות הטומאות.txt",
     "line_index_2": 222,
@@ -8288,7 +7032,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2390,
+    "line_index_1": 2225,
     "heRef_2": "ספר טהרה, הלכות שאר אבות הטומאות, פרק יט, א",
     "path_2": "משנה תורה, הלכות שאר אבות הטומאות.txt",
     "line_index_2": 259,
@@ -8296,7 +7040,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2394,
+    "line_index_1": 2229,
     "heRef_2": "ספר טהרה, הלכות טומאת אוכלים, פרק ב, ו",
     "path_2": "משנה תורה, הלכות טומאת אוכלים.txt",
     "line_index_2": 35,
@@ -8304,7 +7048,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2397,
+    "line_index_1": 2232,
     "heRef_2": "ספר טהרה, הלכות טומאת אוכלים, פרק ד, ב",
     "path_2": "משנה תורה, הלכות טומאת אוכלים.txt",
     "line_index_2": 71,
@@ -8312,7 +7056,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2400,
+    "line_index_1": 2235,
     "heRef_2": "ספר טהרה, הלכות טומאת אוכלים, פרק ה, טז",
     "path_2": "משנה תורה, הלכות טומאת אוכלים.txt",
     "line_index_2": 102,
@@ -8320,7 +7064,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2403,
+    "line_index_1": 2238,
     "heRef_2": "ספר טהרה, הלכות טומאת אוכלים, פרק ח, יז",
     "path_2": "משנה תורה, הלכות טומאת אוכלים.txt",
     "line_index_2": 156,
@@ -8328,7 +7072,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2406,
+    "line_index_1": 2241,
     "heRef_2": "ספר טהרה, הלכות טומאת אוכלים, פרק ט, ב",
     "path_2": "משנה תורה, הלכות טומאת אוכלים.txt",
     "line_index_2": 161,
@@ -8336,7 +7080,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2409,
+    "line_index_1": 2244,
     "heRef_2": "ספר טהרה, הלכות טומאת אוכלים, פרק י, ג",
     "path_2": "משנה תורה, הלכות טומאת אוכלים.txt",
     "line_index_2": 174,
@@ -8344,7 +7088,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2412,
+    "line_index_1": 2247,
     "heRef_2": "ספר טהרה, הלכות טומאת אוכלים, פרק יב, א",
     "path_2": "משנה תורה, הלכות טומאת אוכלים.txt",
     "line_index_2": 208,
@@ -8352,7 +7096,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2415,
+    "line_index_1": 2250,
     "heRef_2": "ספר טהרה, הלכות טומאת אוכלים, פרק טו, ז",
     "path_2": "משנה תורה, הלכות טומאת אוכלים.txt",
     "line_index_2": 263,
@@ -8360,7 +7104,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2418,
+    "line_index_1": 2253,
     "heRef_2": "ספר טהרה, הלכות טומאת אוכלים, פרק טז, א",
     "path_2": "משנה תורה, הלכות טומאת אוכלים.txt",
     "line_index_2": 266,
@@ -8368,7 +7112,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2420,
+    "line_index_1": 2255,
     "heRef_2": "ספר טהרה, הלכות טומאת אוכלים, פרק טז, י",
     "path_2": "משנה תורה, הלכות טומאת אוכלים.txt",
     "line_index_2": 275,
@@ -8376,7 +7120,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2424,
+    "line_index_1": 2259,
     "heRef_2": "ספר טהרה, הלכות כלים, פרק א, יא",
     "path_2": "משנה תורה, הלכות כלים.txt",
     "line_index_2": 14,
@@ -8384,7 +7128,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2427,
+    "line_index_1": 2262,
     "heRef_2": "ספר טהרה, הלכות כלים, פרק ב, ז",
     "path_2": "משנה תורה, הלכות כלים.txt",
     "line_index_2": 24,
@@ -8392,7 +7136,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2430,
+    "line_index_1": 2265,
     "heRef_2": "ספר טהרה, הלכות כלים, פרק יא, טז",
     "path_2": "משנה תורה, הלכות כלים.txt",
     "line_index_2": 158,
@@ -8400,7 +7144,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2433,
+    "line_index_1": 2268,
     "heRef_2": "ספר טהרה, הלכות כלים, פרק יב, א",
     "path_2": "משנה תורה, הלכות כלים.txt",
     "line_index_2": 168,
@@ -8408,7 +7152,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2435,
+    "line_index_1": 2270,
     "heRef_2": "ספר טהרה, הלכות כלים, פרק יב, ב",
     "path_2": "משנה תורה, הלכות כלים.txt",
     "line_index_2": 169,
@@ -8416,7 +7160,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2438,
+    "line_index_1": 2273,
     "heRef_2": "ספר טהרה, הלכות כלים, פרק כה, יח",
     "path_2": "משנה תורה, הלכות כלים.txt",
     "line_index_2": 394,
@@ -8424,7 +7168,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2442,
+    "line_index_1": 2277,
     "heRef_2": "ספר טהרה, הלכות מקואות, פרק א, יב",
     "path_2": "משנה תורה, הלכות מקואות.txt",
     "line_index_2": 15,
@@ -8432,7 +7176,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2445,
+    "line_index_1": 2280,
     "heRef_2": "ספר טהרה, הלכות מקואות, פרק ד, ז",
     "path_2": "משנה תורה, הלכות מקואות.txt",
     "line_index_2": 74,
@@ -8440,7 +7184,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2448,
+    "line_index_1": 2283,
     "heRef_2": "ספר טהרה, הלכות מקואות, פרק ו, י",
     "path_2": "משנה תורה, הלכות מקואות.txt",
     "line_index_2": 98,
@@ -8448,7 +7192,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2451,
+    "line_index_1": 2286,
     "heRef_2": "ספר טהרה, הלכות מקואות, פרק י, ו",
     "path_2": "משנה תורה, הלכות מקואות.txt",
     "line_index_2": 155,
@@ -8456,7 +7200,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2456,
+    "line_index_1": 2291,
     "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק א, ח",
     "path_2": "משנה תורה, הלכות נזקי ממון.txt",
     "line_index_2": 11,
@@ -8464,7 +7208,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2459,
+    "line_index_1": 2294,
     "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ב, ב",
     "path_2": "משנה תורה, הלכות נזקי ממון.txt",
     "line_index_2": 17,
@@ -8472,7 +7216,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2462,
+    "line_index_1": 2297,
     "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ו, ג",
     "path_2": "משנה תורה, הלכות נזקי ממון.txt",
     "line_index_2": 81,
@@ -8480,7 +7224,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2465,
+    "line_index_1": 2300,
     "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ז, א",
     "path_2": "משנה תורה, הלכות נזקי ממון.txt",
     "line_index_2": 93,
@@ -8488,7 +7232,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2468,
+    "line_index_1": 2303,
     "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ח, א",
     "path_2": "משנה תורה, הלכות נזקי ממון.txt",
     "line_index_2": 107,
@@ -8496,7 +7240,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2470,
+    "line_index_1": 2305,
     "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ח, ב",
     "path_2": "משנה תורה, הלכות נזקי ממון.txt",
     "line_index_2": 108,
@@ -8504,7 +7248,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2472,
+    "line_index_1": 2307,
     "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ח, ד",
     "path_2": "משנה תורה, הלכות נזקי ממון.txt",
     "line_index_2": 110,
@@ -8512,7 +7256,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2474,
+    "line_index_1": 2309,
     "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ח, יג",
     "path_2": "משנה תורה, הלכות נזקי ממון.txt",
     "line_index_2": 119,
@@ -8520,7 +7264,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2477,
+    "line_index_1": 2312,
     "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק י, י",
     "path_2": "משנה תורה, הלכות נזקי ממון.txt",
     "line_index_2": 146,
@@ -8528,7 +7272,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2480,
+    "line_index_1": 2315,
     "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק יא, י",
     "path_2": "משנה תורה, הלכות נזקי ממון.txt",
     "line_index_2": 161,
@@ -8536,7 +7280,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2482,
+    "line_index_1": 2317,
     "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק יא, יא",
     "path_2": "משנה תורה, הלכות נזקי ממון.txt",
     "line_index_2": 162,
@@ -8544,7 +7288,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2484,
+    "line_index_1": 2319,
     "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק יא, יב",
     "path_2": "משנה תורה, הלכות נזקי ממון.txt",
     "line_index_2": 163,
@@ -8552,7 +7296,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2487,
+    "line_index_1": 2322,
     "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק יד, י",
     "path_2": "משנה תורה, הלכות נזקי ממון.txt",
     "line_index_2": 226,
@@ -8560,7 +7304,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2491,
+    "line_index_1": 2326,
     "heRef_2": "ספר נזיקין, הלכות גניבה, פרק ב, יא",
     "path_2": "משנה תורה, הלכות גניבה.txt",
     "line_index_2": 33,
@@ -8568,7 +7312,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2494,
+    "line_index_1": 2329,
     "heRef_2": "ספר נזיקין, הלכות גניבה, פרק ג, יג",
     "path_2": "משנה תורה, הלכות גניבה.txt",
     "line_index_2": 54,
@@ -8576,7 +7320,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2498,
+    "line_index_1": 2333,
     "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק א, ב",
     "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
     "line_index_2": 5,
@@ -8584,7 +7328,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2501,
+    "line_index_1": 2336,
     "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק ג, ט",
     "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
     "line_index_2": 43,
@@ -8592,7 +7336,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2504,
+    "line_index_1": 2339,
     "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק ה, ט",
     "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
     "line_index_2": 78,
@@ -8600,7 +7344,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2507,
+    "line_index_1": 2342,
     "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק ו, יג",
     "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
     "line_index_2": 101,
@@ -8608,7 +7352,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2510,
+    "line_index_1": 2345,
     "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק ז, ז",
     "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
     "line_index_2": 112,
@@ -8616,7 +7360,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2513,
+    "line_index_1": 2348,
     "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק ח, ו",
     "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
     "line_index_2": 125,
@@ -8624,7 +7368,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2516,
+    "line_index_1": 2351,
     "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק י, ג",
     "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
     "line_index_2": 154,
@@ -8632,7 +7376,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2520,
+    "line_index_1": 2355,
     "heRef_2": "ספר נזיקין, הלכות חובל ומזיק, פרק ד, א",
     "path_2": "משנה תורה, הלכות חובל ומזיק.txt",
     "line_index_2": 57,
@@ -8640,7 +7384,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2522,
+    "line_index_1": 2357,
     "heRef_2": "ספר נזיקין, הלכות חובל ומזיק, פרק ד, ט",
     "path_2": "משנה תורה, הלכות חובל ומזיק.txt",
     "line_index_2": 65,
@@ -8648,7 +7392,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2525,
+    "line_index_1": 2360,
     "heRef_2": "ספר נזיקין, הלכות חובל ומזיק, פרק ו, יב",
     "path_2": "משנה תורה, הלכות חובל ומזיק.txt",
     "line_index_2": 105,
@@ -8656,7 +7400,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2528,
+    "line_index_1": 2363,
     "heRef_2": "ספר נזיקין, הלכות חובל ומזיק, פרק ח, ו",
     "path_2": "משנה תורה, הלכות חובל ומזיק.txt",
     "line_index_2": 136,
@@ -8664,7 +7408,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2532,
+    "line_index_1": 2367,
     "heRef_2": "ספר נזיקין, הלכות רוצח ושמירת נפש, פרק א, ב",
     "path_2": "משנה תורה, הלכות רוצח ושמירת נפש.txt",
     "line_index_2": 5,
@@ -8672,7 +7416,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2534,
+    "line_index_1": 2369,
     "heRef_2": "ספר נזיקין, הלכות רוצח ושמירת נפש, פרק א, טו",
     "path_2": "משנה תורה, הלכות רוצח ושמירת נפש.txt",
     "line_index_2": 18,
@@ -8680,7 +7424,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2537,
+    "line_index_1": 2372,
     "heRef_2": "ספר נזיקין, הלכות רוצח ושמירת נפש, פרק ג, יא",
     "path_2": "משנה תורה, הלכות רוצח ושמירת נפש.txt",
     "line_index_2": 48,
@@ -8688,7 +7432,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2540,
+    "line_index_1": 2375,
     "heRef_2": "ספר נזיקין, הלכות רוצח ושמירת נפש, פרק ד, ח",
     "path_2": "משנה תורה, הלכות רוצח ושמירת נפש.txt",
     "line_index_2": 59,
@@ -8696,7 +7440,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2542,
+    "line_index_1": 2377,
     "heRef_2": "ספר נזיקין, הלכות רוצח ושמירת נפש, פרק ד, ט",
     "path_2": "משנה תורה, הלכות רוצח ושמירת נפש.txt",
     "line_index_2": 60,
@@ -8704,7 +7448,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2545,
+    "line_index_1": 2380,
     "heRef_2": "ספר נזיקין, הלכות רוצח ושמירת נפש, פרק ה, ו",
     "path_2": "משנה תורה, הלכות רוצח ושמירת נפש.txt",
     "line_index_2": 70,
@@ -8712,7 +7456,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2547,
+    "line_index_1": 2382,
     "heRef_2": "ספר נזיקין, הלכות רוצח ושמירת נפש, פרק ה, יא",
     "path_2": "משנה תורה, הלכות רוצח ושמירת נפש.txt",
     "line_index_2": 75,
@@ -8720,7 +7464,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2550,
+    "line_index_1": 2385,
     "heRef_2": "ספר נזיקין, הלכות רוצח ושמירת נפש, פרק ו, י",
     "path_2": "משנה תורה, הלכות רוצח ושמירת נפש.txt",
     "line_index_2": 89,
@@ -8728,7 +7472,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2552,
+    "line_index_1": 2387,
     "heRef_2": "ספר נזיקין, הלכות רוצח ושמירת נפש, פרק ו, יב",
     "path_2": "משנה תורה, הלכות רוצח ושמירת נפש.txt",
     "line_index_2": 91,
@@ -8736,7 +7480,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2555,
+    "line_index_1": 2390,
     "heRef_2": "ספר נזיקין, הלכות רוצח ושמירת נפש, פרק ז, ט",
     "path_2": "משנה תורה, הלכות רוצח ושמירת נפש.txt",
     "line_index_2": 104,
@@ -8744,7 +7488,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2557,
+    "line_index_1": 2392,
     "heRef_2": "ספר נזיקין, הלכות רוצח ושמירת נפש, פרק ז, יב",
     "path_2": "משנה תורה, הלכות רוצח ושמירת נפש.txt",
     "line_index_2": 107,
@@ -8752,7 +7496,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2559,
+    "line_index_1": 2394,
     "heRef_2": "ספר נזיקין, הלכות רוצח ושמירת נפש, פרק ז, טו",
     "path_2": "משנה תורה, הלכות רוצח ושמירת נפש.txt",
     "line_index_2": 110,
@@ -8760,7 +7504,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2562,
+    "line_index_1": 2397,
     "heRef_2": "ספר נזיקין, הלכות רוצח ושמירת נפש, פרק ט, ג",
     "path_2": "משנה תורה, הלכות רוצח ושמירת נפש.txt",
     "line_index_2": 126,
@@ -8768,7 +7512,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2564,
+    "line_index_1": 2399,
     "heRef_2": "ספר נזיקין, הלכות רוצח ושמירת נפש, פרק ט, יב",
     "path_2": "משנה תורה, הלכות רוצח ושמירת נפש.txt",
     "line_index_2": 135,
@@ -8776,7 +7520,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2567,
+    "line_index_1": 2402,
     "heRef_2": "ספר נזיקין, הלכות רוצח ושמירת נפש, פרק י, ב",
     "path_2": "משנה תורה, הלכות רוצח ושמירת נפש.txt",
     "line_index_2": 143,
@@ -8784,7 +7528,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2569,
+    "line_index_1": 2404,
     "heRef_2": "ספר נזיקין, הלכות רוצח ושמירת נפש, פרק י, ו",
     "path_2": "משנה תורה, הלכות רוצח ושמירת נפש.txt",
     "line_index_2": 147,
@@ -8792,7 +7536,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2571,
+    "line_index_1": 2406,
     "heRef_2": "ספר נזיקין, הלכות רוצח ושמירת נפש, פרק י, ז",
     "path_2": "משנה תורה, הלכות רוצח ושמירת נפש.txt",
     "line_index_2": 148,
@@ -8800,7 +7544,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2574,
+    "line_index_1": 2409,
     "heRef_2": "ספר נזיקין, הלכות רוצח ושמירת נפש, פרק יג, יד",
     "path_2": "משנה תורה, הלכות רוצח ושמירת נפש.txt",
     "line_index_2": 199,
@@ -8808,7 +7552,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2579,
+    "line_index_1": 2414,
     "heRef_2": "ספר קניין, הלכות מכירה, פרק א, ז",
     "path_2": "משנה תורה, הלכות מכירה.txt",
     "line_index_2": 10,
@@ -8816,7 +7560,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2582,
+    "line_index_1": 2417,
     "heRef_2": "ספר קניין, הלכות מכירה, פרק ו, ח",
     "path_2": "משנה תורה, הלכות מכירה.txt",
     "line_index_2": 93,
@@ -8824,7 +7568,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2585,
+    "line_index_1": 2420,
     "heRef_2": "ספר קניין, הלכות מכירה, פרק יב, ח",
     "path_2": "משנה תורה, הלכות מכירה.txt",
     "line_index_2": 170,
@@ -8832,7 +7576,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2587,
+    "line_index_1": 2422,
     "heRef_2": "ספר קניין, הלכות מכירה, פרק יב, ט",
     "path_2": "משנה תורה, הלכות מכירה.txt",
     "line_index_2": 171,
@@ -8840,7 +7584,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2590,
+    "line_index_1": 2425,
     "heRef_2": "ספר קניין, הלכות מכירה, פרק כא, י",
     "path_2": "משנה תורה, הלכות מכירה.txt",
     "line_index_2": 307,
@@ -8848,7 +7592,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2593,
+    "line_index_1": 2428,
     "heRef_2": "ספר קניין, הלכות מכירה, פרק כד, א",
     "path_2": "משנה תורה, הלכות מכירה.txt",
     "line_index_2": 356,
@@ -8856,7 +7600,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2596,
+    "line_index_1": 2431,
     "heRef_2": "ספר קניין, הלכות מכירה, פרק כה, ב",
     "path_2": "משנה תורה, הלכות מכירה.txt",
     "line_index_2": 375,
@@ -8864,7 +7608,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2600,
+    "line_index_1": 2435,
     "heRef_2": "ספר קניין, הלכות זכייה ומתנה, פרק א, יא",
     "path_2": "משנה תורה, הלכות זכייה ומתנה.txt",
     "line_index_2": 14,
@@ -8872,7 +7616,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2602,
+    "line_index_1": 2437,
     "heRef_2": "ספר קניין, הלכות זכייה ומתנה, פרק א, יב",
     "path_2": "משנה תורה, הלכות זכייה ומתנה.txt",
     "line_index_2": 15,
@@ -8880,7 +7624,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2604,
+    "line_index_1": 2439,
     "heRef_2": "ספר קניין, הלכות זכייה ומתנה, פרק א, יד",
     "path_2": "משנה תורה, הלכות זכייה ומתנה.txt",
     "line_index_2": 17,
@@ -8888,7 +7632,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2607,
+    "line_index_1": 2442,
     "heRef_2": "ספר קניין, הלכות זכייה ומתנה, פרק ג, יא",
     "path_2": "משנה תורה, הלכות זכייה ומתנה.txt",
     "line_index_2": 49,
@@ -8896,7 +7640,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2610,
+    "line_index_1": 2445,
     "heRef_2": "ספר קניין, הלכות זכייה ומתנה, פרק ד, ז",
     "path_2": "משנה תורה, הלכות זכייה ומתנה.txt",
     "line_index_2": 61,
@@ -8904,7 +7648,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2613,
+    "line_index_1": 2448,
     "heRef_2": "ספר קניין, הלכות זכייה ומתנה, פרק ו, כ",
     "path_2": "משנה תורה, הלכות זכייה ומתנה.txt",
     "line_index_2": 99,
@@ -8912,7 +7656,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2616,
+    "line_index_1": 2451,
     "heRef_2": "ספר קניין, הלכות זכייה ומתנה, פרק ט, כב",
     "path_2": "משנה תורה, הלכות זכייה ומתנה.txt",
     "line_index_2": 170,
@@ -8920,7 +7664,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2619,
+    "line_index_1": 2454,
     "heRef_2": "ספר קניין, הלכות זכייה ומתנה, פרק יא, י",
     "path_2": "משנה תורה, הלכות זכייה ומתנה.txt",
     "line_index_2": 201,
@@ -8928,7 +7672,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2623,
+    "line_index_1": 2458,
     "heRef_2": "ספר קניין, הלכות עבדים, פרק ב, ז",
     "path_2": "משנה תורה, הלכות עבדים.txt",
     "line_index_2": 21,
@@ -8936,7 +7680,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2626,
+    "line_index_1": 2461,
     "heRef_2": "ספר קניין, הלכות עבדים, פרק ג, ד",
     "path_2": "משנה תורה, הלכות עבדים.txt",
     "line_index_2": 31,
@@ -8944,7 +7688,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2628,
+    "line_index_1": 2463,
     "heRef_2": "ספר קניין, הלכות עבדים, פרק ג, ט",
     "path_2": "משנה תורה, הלכות עבדים.txt",
     "line_index_2": 36,
@@ -8952,7 +7696,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2630,
+    "line_index_1": 2465,
     "heRef_2": "ספר קניין, הלכות עבדים, פרק ג, יא",
     "path_2": "משנה תורה, הלכות עבדים.txt",
     "line_index_2": 38,
@@ -8960,7 +7704,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2632,
+    "line_index_1": 2467,
     "heRef_2": "ספר קניין, הלכות עבדים, פרק ג, יד",
     "path_2": "משנה תורה, הלכות עבדים.txt",
     "line_index_2": 41,
@@ -8968,7 +7712,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2635,
+    "line_index_1": 2470,
     "heRef_2": "ספר קניין, הלכות עבדים, פרק ד, ג",
     "path_2": "משנה תורה, הלכות עבדים.txt",
     "line_index_2": 46,
@@ -8976,7 +7720,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2637,
+    "line_index_1": 2472,
     "heRef_2": "ספר קניין, הלכות עבדים, פרק ד, יא",
     "path_2": "משנה תורה, הלכות עבדים.txt",
     "line_index_2": 54,
@@ -8984,7 +7728,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2640,
+    "line_index_1": 2475,
     "heRef_2": "ספר קניין, הלכות עבדים, פרק ה, ד",
     "path_2": "משנה תורה, הלכות עבדים.txt",
     "line_index_2": 64,
@@ -8992,7 +7736,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2643,
+    "line_index_1": 2478,
     "heRef_2": "ספר קניין, הלכות עבדים, פרק ו, ג",
     "path_2": "משנה תורה, הלכות עבדים.txt",
     "line_index_2": 81,
@@ -9000,7 +7744,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2645,
+    "line_index_1": 2480,
     "heRef_2": "ספר קניין, הלכות עבדים, פרק ו, ה",
     "path_2": "משנה תורה, הלכות עבדים.txt",
     "line_index_2": 83,
@@ -9008,7 +7752,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2647,
+    "line_index_1": 2482,
     "heRef_2": "ספר קניין, הלכות עבדים, פרק ו, ו",
     "path_2": "משנה תורה, הלכות עבדים.txt",
     "line_index_2": 84,
@@ -9016,7 +7760,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2649,
+    "line_index_1": 2484,
     "heRef_2": "ספר קניין, הלכות עבדים, פרק ו, ז",
     "path_2": "משנה תורה, הלכות עבדים.txt",
     "line_index_2": 85,
@@ -9024,7 +7768,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2654,
+    "line_index_1": 2489,
     "heRef_2": "ספר משפטים, הלכות שכירות, פרק ח, ה",
     "path_2": "משנה תורה, הלכות שכירות.txt",
     "line_index_2": 78,
@@ -9032,7 +7776,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2658,
+    "line_index_1": 2493,
     "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ז, א",
     "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
     "line_index_2": 56,
@@ -9040,7 +7784,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2661,
+    "line_index_1": 2496,
     "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ח, ו",
     "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
     "line_index_2": 74,
@@ -9048,7 +7792,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2665,
+    "line_index_1": 2500,
     "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק ב, ז",
     "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
     "line_index_2": 19,
@@ -9056,7 +7800,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2668,
+    "line_index_1": 2503,
     "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק ה, ב",
     "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
     "line_index_2": 47,
@@ -9064,7 +7808,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2671,
+    "line_index_1": 2506,
     "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק כ, ב",
     "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
     "line_index_2": 221,
@@ -9072,7 +7816,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2675,
+    "line_index_1": 2510,
     "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק ט, ז",
     "path_2": "משנה תורה, הלכות טוען ונטען.txt",
     "line_index_2": 110,
@@ -9080,7 +7824,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2677,
+    "line_index_1": 2512,
     "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק ט, ט",
     "path_2": "משנה תורה, הלכות טוען ונטען.txt",
     "line_index_2": 112,
@@ -9088,7 +7832,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2680,
+    "line_index_1": 2515,
     "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק יד, יב",
     "path_2": "משנה תורה, הלכות טוען ונטען.txt",
     "line_index_2": 180,
@@ -9096,7 +7840,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2684,
+    "line_index_1": 2519,
     "heRef_2": "ספר משפטים, הלכות נחלות, פרק ג, א",
     "path_2": "משנה תורה, הלכות נחלות.txt",
     "line_index_2": 36,
@@ -9104,7 +7848,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2686,
+    "line_index_1": 2521,
     "heRef_2": "ספר משפטים, הלכות נחלות, פרק ג, ו",
     "path_2": "משנה תורה, הלכות נחלות.txt",
     "line_index_2": 41,
@@ -9112,7 +7856,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2688,
+    "line_index_1": 2523,
     "heRef_2": "ספר משפטים, הלכות נחלות, פרק ג, ז",
     "path_2": "משנה תורה, הלכות נחלות.txt",
     "line_index_2": 42,
@@ -9120,7 +7864,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2691,
+    "line_index_1": 2526,
     "heRef_2": "ספר משפטים, הלכות נחלות, פרק ד, ו",
     "path_2": "משנה תורה, הלכות נחלות.txt",
     "line_index_2": 51,
@@ -9128,7 +7872,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2696,
+    "line_index_1": 2531,
     "heRef_2": "ספר שופטים, הלכות סנהדרין והעונשין המסורין להם, פרק ג, ג",
     "path_2": "משנה תורה, הלכות סנהדרין והעונשין המסורין להם.txt",
     "line_index_2": 32,
@@ -9136,7 +7880,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2698,
+    "line_index_1": 2533,
     "heRef_2": "ספר שופטים, הלכות סנהדרין והעונשין המסורין להם, פרק ג, ח",
     "path_2": "משנה תורה, הלכות סנהדרין והעונשין המסורין להם.txt",
     "line_index_2": 37,
@@ -9144,7 +7888,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2701,
+    "line_index_1": 2536,
     "heRef_2": "ספר שופטים, הלכות סנהדרין והעונשין המסורין להם, פרק ה, א",
     "path_2": "משנה תורה, הלכות סנהדרין והעונשין המסורין להם.txt",
     "line_index_2": 57,
@@ -9152,7 +7896,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2704,
+    "line_index_1": 2539,
     "heRef_2": "ספר שופטים, הלכות סנהדרין והעונשין המסורין להם, פרק יג, ה",
     "path_2": "משנה תורה, הלכות סנהדרין והעונשין המסורין להם.txt",
     "line_index_2": 137,
@@ -9160,7 +7904,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2707,
+    "line_index_1": 2542,
     "heRef_2": "ספר שופטים, הלכות סנהדרין והעונשין המסורין להם, פרק טו, א",
     "path_2": "משנה תורה, הלכות סנהדרין והעונשין המסורין להם.txt",
     "line_index_2": 157,
@@ -9168,7 +7912,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2709,
+    "line_index_1": 2544,
     "heRef_2": "ספר שופטים, הלכות סנהדרין והעונשין המסורין להם, פרק טו, ו",
     "path_2": "משנה תורה, הלכות סנהדרין והעונשין המסורין להם.txt",
     "line_index_2": 162,
@@ -9176,7 +7920,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2712,
+    "line_index_1": 2547,
     "heRef_2": "ספר שופטים, הלכות סנהדרין והעונשין המסורין להם, פרק טז, יב",
     "path_2": "משנה תורה, הלכות סנהדרין והעונשין המסורין להם.txt",
     "line_index_2": 182,
@@ -9184,7 +7928,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2715,
+    "line_index_1": 2550,
     "heRef_2": "ספר שופטים, הלכות סנהדרין והעונשין המסורין להם, פרק יז, א",
     "path_2": "משנה תורה, הלכות סנהדרין והעונשין המסורין להם.txt",
     "line_index_2": 184,
@@ -9192,7 +7936,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2717,
+    "line_index_1": 2552,
     "heRef_2": "ספר שופטים, הלכות סנהדרין והעונשין המסורין להם, פרק יז, ז",
     "path_2": "משנה תורה, הלכות סנהדרין והעונשין המסורין להם.txt",
     "line_index_2": 190,
@@ -9200,7 +7944,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2720,
+    "line_index_1": 2555,
     "heRef_2": "ספר שופטים, הלכות סנהדרין והעונשין המסורין להם, פרק יח, ב",
     "path_2": "משנה תורה, הלכות סנהדרין והעונשין המסורין להם.txt",
     "line_index_2": 195,
@@ -9208,7 +7952,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2722,
+    "line_index_1": 2557,
     "heRef_2": "ספר שופטים, הלכות סנהדרין והעונשין המסורין להם, פרק יח, ה",
     "path_2": "משנה תורה, הלכות סנהדרין והעונשין המסורין להם.txt",
     "line_index_2": 198,
@@ -9216,7 +7960,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2725,
+    "line_index_1": 2560,
     "heRef_2": "ספר שופטים, הלכות סנהדרין והעונשין המסורין להם, פרק יט, א",
     "path_2": "משנה תורה, הלכות סנהדרין והעונשין המסורין להם.txt",
     "line_index_2": 201,
@@ -9224,7 +7968,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2727,
+    "line_index_1": 2562,
     "heRef_2": "ספר שופטים, הלכות סנהדרין והעונשין המסורין להם, פרק יט, ב",
     "path_2": "משנה תורה, הלכות סנהדרין והעונשין המסורין להם.txt",
     "line_index_2": 202,
@@ -9232,7 +7976,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2729,
+    "line_index_1": 2564,
     "heRef_2": "ספר שופטים, הלכות סנהדרין והעונשין המסורין להם, פרק יט, ד",
     "path_2": "משנה תורה, הלכות סנהדרין והעונשין המסורין להם.txt",
     "line_index_2": 204,
@@ -9240,7 +7984,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2732,
+    "line_index_1": 2567,
     "heRef_2": "ספר שופטים, הלכות סנהדרין והעונשין המסורין להם, פרק כו, ב",
     "path_2": "משנה תורה, הלכות סנהדרין והעונשין המסורין להם.txt",
     "line_index_2": 277,
@@ -9248,7 +7992,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2736,
+    "line_index_1": 2571,
     "heRef_2": "ספר שופטים, הלכות עדות, פרק ג, ד",
     "path_2": "משנה תורה, הלכות עדות.txt",
     "line_index_2": 20,
@@ -9256,7 +8000,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2738,
+    "line_index_1": 2573,
     "heRef_2": "ספר שופטים, הלכות עדות, פרק ג, ה",
     "path_2": "משנה תורה, הלכות עדות.txt",
     "line_index_2": 21,
@@ -9264,7 +8008,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2741,
+    "line_index_1": 2576,
     "heRef_2": "ספר שופטים, הלכות עדות, פרק ד, א",
     "path_2": "משנה תורה, הלכות עדות.txt",
     "line_index_2": 30,
@@ -9272,7 +8016,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2744,
+    "line_index_1": 2579,
     "heRef_2": "ספר שופטים, הלכות עדות, פרק ה, ג",
     "path_2": "משנה תורה, הלכות עדות.txt",
     "line_index_2": 40,
@@ -9280,7 +8024,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2746,
+    "line_index_1": 2581,
     "heRef_2": "ספר שופטים, הלכות עדות, פרק ה, ח",
     "path_2": "משנה תורה, הלכות עדות.txt",
     "line_index_2": 45,
@@ -9288,7 +8032,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2749,
+    "line_index_1": 2584,
     "heRef_2": "ספר שופטים, הלכות עדות, פרק ו, ח",
     "path_2": "משנה תורה, הלכות עדות.txt",
     "line_index_2": 55,
@@ -9296,7 +8040,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2752,
+    "line_index_1": 2587,
     "heRef_2": "ספר שופטים, הלכות עדות, פרק ט, יב",
     "path_2": "משנה תורה, הלכות עדות.txt",
     "line_index_2": 82,
@@ -9304,7 +8048,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2755,
+    "line_index_1": 2590,
     "heRef_2": "ספר שופטים, הלכות עדות, פרק י, א",
     "path_2": "משנה תורה, הלכות עדות.txt",
     "line_index_2": 84,
@@ -9312,7 +8056,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2758,
+    "line_index_1": 2593,
     "heRef_2": "ספר שופטים, הלכות עדות, פרק יד, ז",
     "path_2": "משנה תורה, הלכות עדות.txt",
     "line_index_2": 134,
@@ -9320,7 +8064,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2761,
+    "line_index_1": 2596,
     "heRef_2": "ספר שופטים, הלכות עדות, פרק יז, ד",
     "path_2": "משנה תורה, הלכות עדות.txt",
     "line_index_2": 153,
@@ -9328,7 +8072,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2764,
+    "line_index_1": 2599,
     "heRef_2": "ספר שופטים, הלכות עדות, פרק יח, א",
     "path_2": "משנה תורה, הלכות עדות.txt",
     "line_index_2": 158,
@@ -9336,7 +8080,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2766,
+    "line_index_1": 2601,
     "heRef_2": "ספר שופטים, הלכות עדות, פרק יח, ב",
     "path_2": "משנה תורה, הלכות עדות.txt",
     "line_index_2": 159,
@@ -9344,7 +8088,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2769,
+    "line_index_1": 2604,
     "heRef_2": "ספר שופטים, הלכות עדות, פרק כא, ז",
     "path_2": "משנה תורה, הלכות עדות.txt",
     "line_index_2": 188,
@@ -9352,7 +8096,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2771,
+    "line_index_1": 2606,
     "heRef_2": "ספר שופטים, הלכות עדות, פרק כא, ח",
     "path_2": "משנה תורה, הלכות עדות.txt",
     "line_index_2": 189,
@@ -9360,7 +8104,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2775,
+    "line_index_1": 2610,
     "heRef_2": "ספר שופטים, הלכות ממרים, פרק ב, א",
     "path_2": "משנה תורה, הלכות ממרים.txt",
     "line_index_2": 10,
@@ -9368,7 +8112,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2778,
+    "line_index_1": 2613,
     "heRef_2": "ספר שופטים, הלכות ממרים, פרק ג, ח",
     "path_2": "משנה תורה, הלכות ממרים.txt",
     "line_index_2": 27,
@@ -9376,7 +8120,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2781,
+    "line_index_1": 2616,
     "heRef_2": "ספר שופטים, הלכות ממרים, פרק ד, ב",
     "path_2": "משנה תורה, הלכות ממרים.txt",
     "line_index_2": 30,
@@ -9384,7 +8128,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2783,
+    "line_index_1": 2618,
     "heRef_2": "ספר שופטים, הלכות ממרים, פרק ד, ג",
     "path_2": "משנה תורה, הלכות ממרים.txt",
     "line_index_2": 31,
@@ -9392,7 +8136,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2786,
+    "line_index_1": 2621,
     "heRef_2": "ספר שופטים, הלכות ממרים, פרק ה, ג",
     "path_2": "משנה תורה, הלכות ממרים.txt",
     "line_index_2": 35,
@@ -9400,7 +8144,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2788,
+    "line_index_1": 2623,
     "heRef_2": "ספר שופטים, הלכות ממרים, פרק ה, ט",
     "path_2": "משנה תורה, הלכות ממרים.txt",
     "line_index_2": 41,
@@ -9408,7 +8152,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2790,
+    "line_index_1": 2625,
     "heRef_2": "ספר שופטים, הלכות ממרים, פרק ה, י",
     "path_2": "משנה תורה, הלכות ממרים.txt",
     "line_index_2": 42,
@@ -9416,7 +8160,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2792,
+    "line_index_1": 2627,
     "heRef_2": "ספר שופטים, הלכות ממרים, פרק ה, יד",
     "path_2": "משנה תורה, הלכות ממרים.txt",
     "line_index_2": 46,
@@ -9424,7 +8168,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2795,
+    "line_index_1": 2630,
     "heRef_2": "ספר שופטים, הלכות ממרים, פרק ו, יא",
     "path_2": "משנה תורה, הלכות ממרים.txt",
     "line_index_2": 59,
@@ -9432,7 +8176,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2798,
+    "line_index_1": 2633,
     "heRef_2": "ספר שופטים, הלכות ממרים, פרק ז, ב",
     "path_2": "משנה תורה, הלכות ממרים.txt",
     "line_index_2": 66,
@@ -9440,7 +8184,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2800,
+    "line_index_1": 2635,
     "heRef_2": "ספר שופטים, הלכות ממרים, פרק ז, ד",
     "path_2": "משנה תורה, הלכות ממרים.txt",
     "line_index_2": 68,
@@ -9448,7 +8192,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2802,
+    "line_index_1": 2637,
     "heRef_2": "ספר שופטים, הלכות ממרים, פרק ז, ז",
     "path_2": "משנה תורה, הלכות ממרים.txt",
     "line_index_2": 71,
@@ -9456,7 +8200,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2806,
+    "line_index_1": 2641,
     "heRef_2": "ספר שופטים, הלכות אבל, פרק א, ב",
     "path_2": "משנה תורה, הלכות אבל.txt",
     "line_index_2": 5,
@@ -9464,7 +8208,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2808,
+    "line_index_1": 2643,
     "heRef_2": "ספר שופטים, הלכות אבל, פרק א, ח",
     "path_2": "משנה תורה, הלכות אבל.txt",
     "line_index_2": 11,
@@ -9472,7 +8216,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2810,
+    "line_index_1": 2645,
     "heRef_2": "ספר שופטים, הלכות אבל, פרק א, ט",
     "path_2": "משנה תורה, הלכות אבל.txt",
     "line_index_2": 12,
@@ -9480,7 +8224,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2813,
+    "line_index_1": 2648,
     "heRef_2": "ספר שופטים, הלכות אבל, פרק ב, א",
     "path_2": "משנה תורה, הלכות אבל.txt",
     "line_index_2": 16,
@@ -9488,7 +8232,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2815,
+    "line_index_1": 2650,
     "heRef_2": "ספר שופטים, הלכות אבל, פרק ב, ו",
     "path_2": "משנה תורה, הלכות אבל.txt",
     "line_index_2": 21,
@@ -9496,7 +8240,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2817,
+    "line_index_1": 2652,
     "heRef_2": "ספר שופטים, הלכות אבל, פרק ב, ז",
     "path_2": "משנה תורה, הלכות אבל.txt",
     "line_index_2": 22,
@@ -9504,7 +8248,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2819,
+    "line_index_1": 2654,
     "heRef_2": "ספר שופטים, הלכות אבל, פרק ב, יד",
     "path_2": "משנה תורה, הלכות אבל.txt",
     "line_index_2": 29,
@@ -9512,7 +8256,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2822,
+    "line_index_1": 2657,
     "heRef_2": "ספר שופטים, הלכות אבל, פרק ג, י",
     "path_2": "משנה תורה, הלכות אבל.txt",
     "line_index_2": 41,
@@ -9520,7 +8264,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2825,
+    "line_index_1": 2660,
     "heRef_2": "ספר שופטים, הלכות אבל, פרק ו, ד",
     "path_2": "משנה תורה, הלכות אבל.txt",
     "line_index_2": 81,
@@ -9528,7 +8272,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2828,
+    "line_index_1": 2663,
     "heRef_2": "ספר שופטים, הלכות אבל, פרק ז, ב",
     "path_2": "משנה תורה, הלכות אבל.txt",
     "line_index_2": 93,
@@ -9536,7 +8280,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2831,
+    "line_index_1": 2666,
     "heRef_2": "ספר שופטים, הלכות אבל, פרק ט, א",
     "path_2": "משנה תורה, הלכות אבל.txt",
     "line_index_2": 112,
@@ -9544,7 +8288,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2834,
+    "line_index_1": 2669,
     "heRef_2": "ספר שופטים, הלכות אבל, פרק יב, ט",
     "path_2": "משנה תורה, הלכות אבל.txt",
     "line_index_2": 156,
@@ -9552,7 +8296,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2836,
+    "line_index_1": 2671,
     "heRef_2": "ספר שופטים, הלכות אבל, פרק יב, יב",
     "path_2": "משנה תורה, הלכות אבל.txt",
     "line_index_2": 159,
@@ -9560,7 +8304,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2840,
+    "line_index_1": 2675,
     "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק א, ג",
     "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
     "line_index_2": 6,
@@ -9568,7 +8312,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2842,
+    "line_index_1": 2677,
     "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק א, ד",
     "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
     "line_index_2": 7,
@@ -9576,7 +8320,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2845,
+    "line_index_1": 2680,
     "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק ג, א",
     "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
     "line_index_2": 24,
@@ -9584,7 +8328,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2848,
+    "line_index_1": 2683,
     "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק ו, ו",
     "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
     "line_index_2": 64,
@@ -9592,7 +8336,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2850,
+    "line_index_1": 2685,
     "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק ו, ח",
     "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
     "line_index_2": 66,
@@ -9600,7 +8344,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2852,
+    "line_index_1": 2687,
     "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק ו, יג",
     "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
     "line_index_2": 71,
@@ -9608,7 +8352,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2855,
+    "line_index_1": 2690,
     "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק ז, ה",
     "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
     "line_index_2": 79,
@@ -9616,7 +8360,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2857,
+    "line_index_1": 2692,
     "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק ז, ו",
     "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
     "line_index_2": 80,
@@ -9624,7 +8368,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2859,
+    "line_index_1": 2694,
     "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק ז, ז",
     "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
     "line_index_2": 81,
@@ -9632,7 +8376,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2861,
+    "line_index_1": 2696,
     "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק ז, ח",
     "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
     "line_index_2": 82,
@@ -9640,7 +8384,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2863,
+    "line_index_1": 2698,
     "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק ז, יד",
     "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
     "line_index_2": 88,
@@ -9648,7 +8392,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2866,
+    "line_index_1": 2701,
     "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק ח, ב",
     "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
     "line_index_2": 92,
@@ -9656,7 +8400,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2869,
+    "line_index_1": 2704,
     "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק ט, א",
     "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
     "line_index_2": 103,
@@ -9664,7 +8408,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2871,
+    "line_index_1": 2706,
     "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק ט, ג",
     "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
     "line_index_2": 105,
@@ -9672,7 +8416,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2873,
+    "line_index_1": 2708,
     "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק ט, יא",
     "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
     "line_index_2": 113,
@@ -9680,7 +8424,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2876,
+    "line_index_1": 2711,
     "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק י, ב",
     "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
     "line_index_2": 119,
@@ -9688,7 +8432,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2878,
+    "line_index_1": 2713,
     "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק י, ז",
     "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
     "line_index_2": 124,
@@ -9696,7 +8440,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2880,
+    "line_index_1": 2715,
     "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק י, ט",
     "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
     "line_index_2": 126,
@@ -9704,7 +8448,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2883,
+    "line_index_1": 2718,
     "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק יב, ב",
     "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
     "line_index_2": 142,
@@ -9712,7 +8456,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 2885,
+    "line_index_1": 2720,
     "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק יב, ג",
     "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
     "line_index_2": 143,
