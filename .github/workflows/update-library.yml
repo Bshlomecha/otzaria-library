@@ -92,13 +92,8 @@ jobs:
         with:
           python-version: '3.12.10'
       - name: Update forum-controlled sources
-        env:
-          USER_NAME: ${{ secrets.USER_NAME }}
-          PASSWORD: ${{ secrets.PASSWORD }}
-          TOKEN_YEMOT: ${{ secrets.TOKEN_YEMOT }}
-          GOOGLE_CHAT_URL: ${{ secrets.GOOGLE_CHAT_URL }}
         run: |
-          python3 -m pip install --quiet bs4 requests pyluach tzdata
+          python3 -m pip install --quiet pyluach tzdata
           python3 send_update/main.py
       - name: Sync files and folders
         run: python3 sync_and_merge_folders.py

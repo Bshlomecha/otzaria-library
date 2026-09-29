@@ -1,10 +1,11 @@
-"""Self-test for the published library announcement (`send_update/main.py`).
+"""Self-test for the library changelog (`send_update/main.py`).
 
-`main.py` runs its whole job at import time, so the announcement is exercised the
+`main.py` runs its whole job at import time, so the changelog is exercised the
 way the workflow runs it: a throwaway git repository holding the exact shape that
-produced the duplicated delete list in version 168, with `requests`, the forum
-client, Yemot and `zoneinfo` replaced by stubs on the script's own sys.path.  No
-network call is made and nothing outside the temporary directory is touched.
+produced the duplicated delete list in version 168, with `zoneinfo` and `pyluach`
+stubbed on the script's own sys.path.  `requests`, the forum client and Yemot are
+stubbed too, only to prove that no channel is contacted.  No network call is made
+and nothing outside the temporary directory is touched.
 """
 
 import ast
@@ -32,35 +33,17 @@ MOVED_IN = "מדרש/ספר שחזר פנימה.txt"
 MODIFIED = "מדרש/ספר קיים.txt"
 ADDED = "מדרש/ספר חדש.txt"
 
+# Channel stubs: any import or call of them prints "STUB-", which the no-channel test forbids.
 REQUESTS_STUB = '''\
-import os
-
-
-class HTTPError(Exception):
-    pass
-
-
-class _Response:
-    def __init__(self, status_code):
-        self.status_code = status_code
-
-    def raise_for_status(self):
-        if self.status_code >= 400:
-            raise HTTPError(f"{self.status_code} Server Error for the stub webhook")
+print("STUB-REQUESTS imported")
 
 
 def post(url, json=None, timeout=None, **kwargs):
-    print(f"STUB-CHAT post timeout={timeout} chars={len(json['text'])}")
-    mode = os.getenv("STUB_CHAT_MODE", "ok")
-    if mode == "raise":
-        raise ConnectionError("google chat webhook unreachable")
-    if mode == "status":
-        return _Response(503)
-    return _Response(200)
+    print(f"STUB-CHAT post url={url}")
 '''
 
 FORUM_STUB = '''\
-import os
+print("STUB-FORUM imported")
 
 
 class OtzariaForumClient:
@@ -68,8 +51,7 @@ class OtzariaForumClient:
         print(f"STUB-FORUM client user={username}")
 
     def login(self):
-        if os.getenv("STUB_FORUM_MODE") == "raise":
-            raise RuntimeError("forum login refused")
+        print("STUB-FORUM login")
 
     def send_post(self, content, topic_id):
         print(f"STUB-FORUM post topic={topic_id} chars={len(content)}")
@@ -79,16 +61,14 @@ class OtzariaForumClient:
 '''
 
 YEMOT_STUB = '''\
-import os
+print("STUB-YEMOT imported")
 
 
 def split_and_send(content, date, token, path, name):
-    if os.getenv("STUB_YEMOT_MODE") == "raise":
-        raise RuntimeError("yemot upload failed")
     print(f"STUB-YEMOT sections={len(content)}")
 '''
 
-# Asia/Jerusalem needs the tzdata package on Windows, which the announcement only
+# Asia/Jerusalem needs the tzdata package on Windows, which the changelog only
 # uses to stamp a Hebrew date.  Stub it so the test is identical on every host.
 ZONEINFO_STUB = '''\
 from datetime import timedelta, timezone
@@ -111,7 +91,7 @@ class HebrewDate:
 
 def load_function(name):
     """Import one pure helper out of main.py without running the module: the
-    module resolves BEFORE_SHA from git and posts to three services at import."""
+    module resolves BEFORE_SHA from git and rewrites the changelog at import."""
     source = MAIN.read_text(encoding="utf-8")
     start = source.index(f"def {name}")
     end = source.index("\ndef ", start + 1)
@@ -150,7 +130,7 @@ def write(root, relative, text):
 
 
 class AnnouncementTest(unittest.TestCase):
-    """One fixture, several deliveries: building the repository is the slow part
+    """One fixture, several runs: building the repository is the slow part
     and no run mutates anything the next run reads."""
 
     @classmethod
@@ -199,20 +179,12 @@ class AnnouncementTest(unittest.TestCase):
     def tearDownClass(cls):
         cls._tmp.cleanup()
 
-    def announce(self, **modes):
+    def announce(self):
         env = dict(
             os.environ,
             PYTHONUTF8="1",
             PYTHONIOENCODING="utf-8",
-            USER_NAME="selftest user",
-            PASSWORD="selftest password",
-            TOKEN_YEMOT="selftest token",
-            GOOGLE_CHAT_URL="https://chat.invalid/hook",
         )
-        env.pop("STUB_CHAT_MODE", None)
-        env.pop("STUB_FORUM_MODE", None)
-        env.pop("STUB_YEMOT_MODE", None)
-        env.update(modes)
         return subprocess.run(
             [sys.executable, "send_update/main.py"],
             cwd=self.root,
@@ -223,7 +195,7 @@ class AnnouncementTest(unittest.TestCase):
         )
 
     def section(self, stdout, label):
-        """Return the bullets published under one announcement heading."""
+        """Return the bullets published under one changelog heading."""
         body = stdout.split(f"## {label}\n", 1)[1]
         bullets = []
         for line in body.split("\n"):
@@ -266,53 +238,12 @@ class AnnouncementTest(unittest.TestCase):
         for label in ("added", "modified", "deleted", "renamed"):
             self.assertIn(f"{label}: [", result.stdout)
 
-    def test_a_healthy_run_reports_every_channel_delivered(self):
+    def test_the_library_update_contacts_no_channel(self):
+        """Announcements come from SeforimLibrary once a release is really published."""
         result = self.announce()
         self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertIn("notifications: chat=ok forum=ok yemot=ok", result.stdout)
-        self.assertNotIn("::warning::", result.stdout)
-        self.assertIn("STUB-CHAT post timeout=30", result.stdout)
-
-    def test_a_chat_outage_no_longer_fails_the_step_or_the_weekly_head(self):
-        """`requests.post` had no timeout, no status check and no guard, and it ran
-        before the two guarded sends."""
-        result = self.announce(STUB_CHAT_MODE="raise")
-        self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertIn("::warning::chat notification failed:", result.stdout)
-        self.assertIn("google chat webhook unreachable", result.stdout)
-        self.assertIn("STUB-FORUM post", result.stdout)
-        self.assertIn("STUB-YEMOT", result.stdout)
-        self.assertIn("notifications: chat=FAILED forum=ok yemot=ok", result.stdout)
-
-    def test_a_chat_error_response_is_a_failed_delivery_not_a_silent_success(self):
-        result = self.announce(STUB_CHAT_MODE="status")
-        self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertIn("::warning::chat notification failed:", result.stdout)
-        self.assertIn("503", result.stdout)
-        self.assertIn("notifications: chat=FAILED forum=ok yemot=ok", result.stdout)
-
-    def test_a_forum_failure_is_annotated_instead_of_printed_to_bare_stdout(self):
-        result = self.announce(STUB_FORUM_MODE="raise")
-        self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertIn("::warning::forum notification failed:", result.stdout)
-        self.assertIn("forum login refused", result.stdout)
-        self.assertIn("STUB-FORUM logout", result.stdout)
-        self.assertIn("notifications: chat=ok forum=FAILED yemot=ok", result.stdout)
-
-    def test_a_yemot_failure_is_annotated_and_still_exits_zero(self):
-        """A red build here makes the saga reconciler re-run the whole cycle."""
-        result = self.announce(STUB_YEMOT_MODE="raise")
-        self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertIn("::warning::yemot notification failed:", result.stdout)
-        self.assertIn("notifications: chat=ok forum=ok yemot=FAILED", result.stdout)
-
-    def test_every_channel_down_is_still_a_green_library_update(self):
-        result = self.announce(
-            STUB_CHAT_MODE="raise", STUB_FORUM_MODE="raise", STUB_YEMOT_MODE="raise"
-        )
-        self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertEqual(result.stdout.count("::warning::"), 3, result.stdout)
-        self.assertIn("notifications: chat=FAILED forum=FAILED yemot=FAILED", result.stdout)
+        self.assertNotIn("STUB-", result.stdout)
+        self.assertNotIn("notifications:", result.stdout)
 
 
 class DeepenTest(unittest.TestCase):
