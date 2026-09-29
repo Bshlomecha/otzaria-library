@@ -199,20 +199,12 @@ class AnnouncementTest(unittest.TestCase):
     def tearDownClass(cls):
         cls._tmp.cleanup()
 
-    def announce(self, **modes):
+    def announce(self):
         env = dict(
             os.environ,
             PYTHONUTF8="1",
             PYTHONIOENCODING="utf-8",
-            USER_NAME="selftest user",
-            PASSWORD="selftest password",
-            TOKEN_YEMOT="selftest token",
-            GOOGLE_CHAT_URL="https://chat.invalid/hook",
         )
-        env.pop("STUB_CHAT_MODE", None)
-        env.pop("STUB_FORUM_MODE", None)
-        env.pop("STUB_YEMOT_MODE", None)
-        env.update(modes)
         return subprocess.run(
             [sys.executable, "send_update/main.py"],
             cwd=self.root,
@@ -266,53 +258,12 @@ class AnnouncementTest(unittest.TestCase):
         for label in ("added", "modified", "deleted", "renamed"):
             self.assertIn(f"{label}: [", result.stdout)
 
-    def test_a_healthy_run_reports_every_channel_delivered(self):
+    def test_the_library_update_contacts_no_channel(self):
+        """Announcements come from SeforimLibrary once a release is really published."""
         result = self.announce()
         self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertIn("notifications: chat=ok forum=ok yemot=ok", result.stdout)
-        self.assertNotIn("::warning::", result.stdout)
-        self.assertIn("STUB-CHAT post timeout=30", result.stdout)
-
-    def test_a_chat_outage_no_longer_fails_the_step_or_the_weekly_head(self):
-        """`requests.post` had no timeout, no status check and no guard, and it ran
-        before the two guarded sends."""
-        result = self.announce(STUB_CHAT_MODE="raise")
-        self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertIn("::warning::chat notification failed:", result.stdout)
-        self.assertIn("google chat webhook unreachable", result.stdout)
-        self.assertIn("STUB-FORUM post", result.stdout)
-        self.assertIn("STUB-YEMOT", result.stdout)
-        self.assertIn("notifications: chat=FAILED forum=ok yemot=ok", result.stdout)
-
-    def test_a_chat_error_response_is_a_failed_delivery_not_a_silent_success(self):
-        result = self.announce(STUB_CHAT_MODE="status")
-        self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertIn("::warning::chat notification failed:", result.stdout)
-        self.assertIn("503", result.stdout)
-        self.assertIn("notifications: chat=FAILED forum=ok yemot=ok", result.stdout)
-
-    def test_a_forum_failure_is_annotated_instead_of_printed_to_bare_stdout(self):
-        result = self.announce(STUB_FORUM_MODE="raise")
-        self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertIn("::warning::forum notification failed:", result.stdout)
-        self.assertIn("forum login refused", result.stdout)
-        self.assertIn("STUB-FORUM logout", result.stdout)
-        self.assertIn("notifications: chat=ok forum=FAILED yemot=ok", result.stdout)
-
-    def test_a_yemot_failure_is_annotated_and_still_exits_zero(self):
-        """A red build here makes the saga reconciler re-run the whole cycle."""
-        result = self.announce(STUB_YEMOT_MODE="raise")
-        self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertIn("::warning::yemot notification failed:", result.stdout)
-        self.assertIn("notifications: chat=ok forum=ok yemot=FAILED", result.stdout)
-
-    def test_every_channel_down_is_still_a_green_library_update(self):
-        result = self.announce(
-            STUB_CHAT_MODE="raise", STUB_FORUM_MODE="raise", STUB_YEMOT_MODE="raise"
-        )
-        self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertEqual(result.stdout.count("::warning::"), 3, result.stdout)
-        self.assertIn("notifications: chat=FAILED forum=FAILED yemot=FAILED", result.stdout)
+        self.assertNotIn("STUB-", result.stdout)
+        self.assertNotIn("notifications:", result.stdout)
 
 
 class DeepenTest(unittest.TestCase):

@@ -1,5 +1,4 @@
 import codecs
-import os
 import subprocess
 import time
 from collections.abc import Sequence
@@ -7,10 +6,7 @@ from datetime import datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-import requests
-from otzaria_forum import OtzariaForumClient
 from pyluach import dates
-from yemot import split_and_send
 
 TZ = ZoneInfo("Asia/Jerusalem")
 VERSION_FILE = "MoreBooks/ספרים/אוצריא/אודות התוכנה/גירסת ספריה.txt"
@@ -213,84 +209,23 @@ with ver_file_path.open("r", encoding="utf-8") as f:
     library_ver = int(f.read()) + 1
 
 if any([added_files, modified_files, deleted_files, renamed_files]):
-    content_forum = ""
-    date_yemot = f"עדכון {date}\n"
-    content_yemot = {}
+    content = ""
     if added_files:
         separator = "\n* "
-        newline = "\n"
-        content_forum += f"\n## התווספו הקבצים הבאים:\n* {separator.join(added_files)}\n"
-        content_yemot["התווספו הקבצים הבאים:"] = f"{newline.join([i.split('/')[-1].split('.')[0] for i in added_files])}"
+        content += f"\n## התווספו הקבצים הבאים:\n* {separator.join(added_files)}\n"
     if modified_files:
         separator = "\n* "
-        newline = "\n"
-        content_forum += f"\n## השתנו הקבצים הבאים:\n* {separator.join(modified_files)}\n"
-        content_yemot["השתנו הקבצים הבאים:"] = f"{newline.join([i.split('/')[-1].split('.')[0] for i in modified_files])}"
+        content += f"\n## השתנו הקבצים הבאים:\n* {separator.join(modified_files)}\n"
     if renamed_files:
         separator = "\n* "
-        newline = "\n"
-        content_forum += f"\n## שונה מיקום/שם של הקבצים הבאים:\n* {separator.join(renamed_files)}\n"
-        content_yemot["שונה מיקום/שם של הקבצים הבאים:"] = f"{newline.join([i.split('/')[-1].split('.')[0] for i in renamed_files])}"
+        content += f"\n## שונה מיקום/שם של הקבצים הבאים:\n* {separator.join(renamed_files)}\n"
     if deleted_files:
         separator = "\n* "
-        newline = "\n"
-        content_forum += f"\n## נמחקו הקבצים הבאים:\n* {separator.join(deleted_files)}\n"
-        content_yemot["נמחקו הקבצים הבאים:"] = f"{newline.join([i.split('/')[-1].split('.')[0] for i in deleted_files])}"
-    print(content_forum)
-    username = os.getenv("USER_NAME")
-    password = os.getenv("PASSWORD")
-    yemot_token = os.getenv("TOKEN_YEMOT")
-    google_chat_url = os.getenv("GOOGLE_CHAT_URL")
-    yemot_path = "ivr2:/1"
-    tzintuk_list_name = "books update"
-
-    content_text = f"# גירסת ספרייה {library_ver} \n" + f"\n**עדכון {date}**\n" + content_forum
-    content_forum = f"# גירסת ספרייה {library_ver} \n" + f"\n**עדכון {date}**\n" + content_forum
+        content += f"\n## נמחקו הקבצים הבאים:\n* {separator.join(deleted_files)}\n"
+    print(content)
+    content_text = f"# גירסת ספרייה {library_ver} \n" + f"\n**עדכון {date}**\n" + content
     md_file_path = info_folder_path / "עדכוני ספריה.md"
     existing_text = ""
     if md_file_path.exists():
         existing_text = md_file_path.read_text(encoding="utf-8").lstrip("\ufeff")
     md_file_path.write_text(f"{content_text}\n---\n" + existing_text, encoding="utf-8")
-
-    # By the time these run the library update itself has already succeeded, and the
-    # commit is pushed one step later.  So no channel may fail the step: a red prepare
-    # child makes the saga reconciler re-run the whole cycle, which is far worse than a
-    # missed notification.  But nothing may be swallowed either — the previous version
-    # printed forum and Yemot exceptions to bare stdout on a green step and posted to
-    # Google Chat with no timeout, no status check and no guard at all, so a Chat outage
-    # took down the prepare child and the weekly head with it.
-    delivery = {}
-
-    def notify(channel: str, send) -> None:
-        try:
-            send()
-        except Exception as exc:
-            delivery[channel] = "FAILED"
-            print(f"::warning::{channel} notification failed: {exc!r}")
-        else:
-            delivery[channel] = "ok"
-
-    def send_chat() -> None:
-        response = requests.post(google_chat_url, json={"text": content_forum}, timeout=30)
-        response.raise_for_status()
-
-    def send_forum() -> None:
-        client = OtzariaForumClient(username.strip().replace(" ", "+"), password.strip())
-        topic_id = 20
-        try:
-            client.login()
-            client.send_post(content_forum, topic_id)
-        finally:
-            # A logout that fails after the post landed is not a failed delivery.
-            try:
-                client.logout()
-            except Exception as exc:
-                print(f"::warning::forum logout failed: {exc!r}")
-
-    def send_yemot() -> None:
-        split_and_send(content_yemot, date_yemot, yemot_token, yemot_path, tzintuk_list_name)
-
-    notify("chat", send_chat)
-    notify("forum", send_forum)
-    notify("yemot", send_yemot)
-    print("notifications: " + " ".join(f"{name}={state}" for name, state in delivery.items()))
