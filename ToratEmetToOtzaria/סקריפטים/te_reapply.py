@@ -385,6 +385,9 @@ def merge_book(new_lines, cur_lines, report=None, heading_levels='cur'):
         if b < 2 and c.lstrip().startswith('<h1') or (b == 1):
             continue                                   # title and author lines: as edited
         hm = HEAD_RE.match(c)
+        if not hm and re.match(r'\s*<h[1-6]', c, re.I):
+            report['unaligned_cur'].append(b)          # heading with text glued after it:
+            continue                                   # would lose the heading, leave it
         if n['kind'] == 'h' and hm:
             inner = merge_line(n['html'], hm.group(3), report)
             inner = re.sub(r'</?(b|i|u|big|small)>', '', inner).strip()
