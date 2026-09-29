@@ -417,7 +417,7 @@
   },
   {
     "heAuthors": [
-      "וואלפיש, ירוחם יהודה ליב בן אהרן"
+      "ירוחם יהודה ליב וולפיש"
     ],
     "title": "עשירית האיפה חלק א",
     "enTitle": "Asirit ha-efah part 1",
@@ -989,7 +989,7 @@
   },
   {
     "heAuthors": [
-      "ר' אבהרם הכהן"
+      "ר' אברהם הכהן אב\"ד תוניס (תק\"ע בערך-ת\"ר)"
     ],
     "title": "אברהם יגל (על השולחן ערוך)",
     "enTitle": "Avraham Yagel (shulchan aruch)",
@@ -1015,7 +1015,7 @@
   },
   {
     "heAuthors": [
-      "ר' אבהרם הכהן"
+      "ר' אברהם הכהן אב\"ד תוניס (תק\"ע בערך-ת\"ר)"
     ],
     "title": "אברהם יגל (על התנך)",
     "enTitle": "Avraham Yagel (tanch)",
@@ -1899,9 +1899,9 @@
   },
   {
     "heAuthors": [
-      "ר' אריה ליב נתנזון"
+      "אריה ליביש סג\"ל נתנזון (תקמ\"ד-תרל\"ג)"
     ],
-    "title": "בית א-ל א ",
+    "title": "בית א-ל א",
     "enTitle": "Beit el part 1",
     "authors": [
       "Aryeh Leibush bar Yitzhak haLevi Natanson"
@@ -2291,6 +2291,32 @@
     "heAuthors": [
       "רבי עמרם בלום"
     ],
+    "title": "בית שערים יורה דעה חלק א",
+    "enTitle": "Beit She'arim Yoreh Deah part 1",
+    "authors": [
+      "Amram Blum"
+    ],
+    "pubDate": [
+      1941
+    ],
+    "pubDateHeb": [
+      "ה׳תש״א"
+    ],
+    "pubPlaceStringEn": "Oradea M",
+    "pubPlaceStringHe": "אורדיאה מרה",
+    "heCategories": [
+      "שו\"ת"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "רבי עמרם בלום"
+    ],
     "title": "בית שערים יורה דעה חלק ב",
     "enTitle": "Beit She'arim Yoreh Deah part 2",
     "authors": [
@@ -2523,9 +2549,9 @@
   },
   {
     "heAuthors": [
-      "ר' אליהו אלמליח"
+      "ר' אליהו אלמאליח (תקצ\"ז-תרס\"ח)"
     ],
-    "title": "בקע לגולגלת (שס)",
+    "title": "בקע לגולגולת (שס)",
     "enTitle": "Beka Legulgole (shas)",
     "authors": [
       "Rabbi Eliyahu Elmaleh"
@@ -2549,9 +2575,9 @@
   },
   {
     "heAuthors": [
-      "ר' אליהו אלמליח"
+      "ר' אליהו אלמאליח (תקצ\"ז-תרס\"ח)"
     ],
-    "title": "בקע לגולגלת (ליקוטים)",
+    "title": "בקע לגולגולת (ליקוטים)",
     "enTitle": "Beka Legulgole (likutim)",
     "authors": [
       "Rabbi Eliyahu Elmaleh"
@@ -2575,7 +2601,7 @@
   },
   {
     "heAuthors": [
-      "ר' אליהו אלמליח"
+      "ר' אליהו אלמאליח (תקצ\"ז-תרס\"ח)"
     ],
     "title": "בקע לגולגולת (שוך)",
     "enTitle": "Beka Legulgolet (Shulchan Aruch)",
@@ -2601,9 +2627,9 @@
   },
   {
     "heAuthors": [
-      "ר' אליהו אלמליח"
+      "ר' אליהו אלמאליח (תקצ\"ז-תרס\"ח)"
     ],
-    "title": "בקע לגולגלת )התנך)",
+    "title": "בקע לגולגולת (התנך)",
     "enTitle": "Beka Legulgolet (tanach)",
     "authors": [
       "Rabbi Eliyahu Elmaleh"
@@ -5929,7 +5955,7 @@
   },
   {
     "heAuthors": [
-      "ר' אליהו פיינשטיין"
+      "ר' אליהו ב\"ר מהר\"א הלוי פיינשטיין (נלב\"ע תרפ\"ט)"
     ],
     "title": "הליכות אליהו על השולחן ערוך",
     "enTitle": "Hilchot Eliyahu Shulchan Aruch",
@@ -6891,7 +6917,7 @@
   },
   {
     "heAuthors": [
-      "ר' שלמה קלמן איזנבוד"
+      "שמואל קלונימוס אייזינבוד"
     ],
     "title": "אמרי שמואל א",
     "enTitle": "Imrei Shmuel part 1",
@@ -6917,7 +6943,7 @@
   },
   {
     "heAuthors": [
-      "ר' שלמה קלמן איזנבוד"
+      "שמואל קלונימוס אייזינבוד"
     ],
     "title": "אמרי שמואל ב",
     "enTitle": "Imrei Shmuel part 2",
@@ -9933,7 +9959,7 @@
   },
   {
     "heAuthors": [
-      "אייזנשטאט, מאיר בן יצחק"
+      "מאיר איזנשטאט"
     ],
     "title": "מאורי אש",
     "enTitle": "Meorei Eish",
@@ -11935,7 +11961,7 @@
   },
   {
     "heAuthors": [
-      "לונטשיץ, שלמה אפרים בן אהרן"
+      "שלמה אפרים מלונטשיץ"
     ],
     "title": "אורח לחיים (לונטשיץ)",
     "enTitle": "Orach leChayim (lontshitz)",
@@ -15577,7 +15603,7 @@
   },
   {
     "heAuthors": [
-      "ר' מנחם מנדל שפרניק"
+      "ר' מנחם מענדיל ב\"ר גבריאל שפרניק (נלב\"ע תר\"ל בערך)"
     ],
     "title": "תפארת מנחם על שס",
     "enTitle": "Tiferet Menahem (Shas)",
@@ -16643,9 +16669,9 @@
   },
   {
     "heAuthors": [
-      "ר' יצחק צבי ארונובסקי"
+      "ר' יצחק צבי ב\"ר יעקב קאפיל הכהן מקאוונא (נלב\"ע תרפ\"א)"
     ],
-    "title": "יד יצחק - ב ",
+    "title": "יד יצחק - ב",
     "enTitle": "yad yitzhak part 2",
     "authors": [
       "Arnovski, Yitzhak Tzvi haCohen"
@@ -16747,7 +16773,7 @@
   },
   {
     "heAuthors": [
-      "רבי אברהם רפפורט"
+      "אברהם הכהן רפפורט אב\"ד באהסלאב"
     ],
     "title": "ירח האיתנים",
     "enTitle": "Yerech Ha-Eitanim",
@@ -17241,7 +17267,7 @@
   },
   {
     "heAuthors": [
-      "גאלאנטי, משה בן יהונתן"
+      "ר' משה גאלאנטי (נלב\"ע תמ\"ט)"
     ],
     "title": "זבח השלמים",
     "enTitle": "Zevach Hashlamim",
@@ -17605,7 +17631,7 @@
   },
   {
     "heAuthors": [
-      "ר' ישראל איסרלין"
+      "ישראל איסרלן"
     ],
     "title": "באורי מהראי",
     "enTitle": "Biurei Maharai",
@@ -17683,9 +17709,9 @@
   },
   {
     "heAuthors": [
-      "רבי עקיבא בן משה איגר"
+      "עקיבא איגר"
     ],
-    "title": "דרוש וחידוש א",
+    "title": "דרוש וחידוש על השס חלק שני מערכות",
     "enTitle": "Derush vChidush part 1",
     "authors": [
       "Akiva Eger"
@@ -17709,9 +17735,9 @@
   },
   {
     "heAuthors": [
-      "רבי עקיבא בן משה איגר"
+      "עקיבא איגר"
     ],
-    "title": "דרוש וחידוש ב",
+    "title": "דרוש וחידוש על השס חלק שני",
     "enTitle": "Derush vChidush part 2",
     "authors": [
       "Akiva Eger"
@@ -17865,7 +17891,7 @@
   },
   {
     "heAuthors": [
-      "ר' יעקב עמדן"
+      "יעקב עמדין"
     ],
     "title": "הקשורים ליעקב ד - פסח גדול",
     "enTitle": "Hakshurim leYaakov Drush Pesach Gadol",
@@ -17995,7 +18021,7 @@
   },
   {
     "heAuthors": [
-      "אמרי בינה דרושים"
+      "מאיר אוירבך"
     ],
     "title": "אמרי בינה דרושים",
     "enTitle": "Imrei Binah Drushim",
@@ -27623,7 +27649,7 @@
   },
   {
     "heAuthors": [
-      "ר' אריה ליב נתנזון"
+      "אריה ליביש סג\"ל נתנזון (תקמ\"ד-תרל\"ג)"
     ],
     "title": "בית א-ל א",
     "enTitle": "Beit el part 1",
@@ -27649,7 +27675,7 @@
   },
   {
     "heAuthors": [
-      "ר' יצחק צבי ארונובסקי"
+      "ר' יצחק צבי ב\"ר יעקב קאפיל הכהן מקאוונא (נלב\"ע תרפ\"א)"
     ],
     "title": "יד יצחק - ב",
     "enTitle": "yad yitzhak part 2",
