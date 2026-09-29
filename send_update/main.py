@@ -60,8 +60,8 @@ def get_last_version_commit_sha() -> str:
     # The checkout is a fixed shallow window (update-library.yml fetch-depth), and inside
     # one every path looks created by the boundary commit — so the VERSION_FILE fallback
     # would answer with the boundary instead of the real previous version. Deepen until
-    # the commit is genuinely in view; a wrong BEFORE_SHA publishes a wrong diff to
-    # Google Chat, the forum and Yemot on a green build.
+    # the commit is genuinely in view; a wrong BEFORE_SHA writes a wrong diff into
+    # "עדכוני ספריה.md" on a green build.
     depth = DEEPEN_STEP
     while depth < DEEPEN_MAX and is_shallow_repository():
         deepen = deepen_history()
