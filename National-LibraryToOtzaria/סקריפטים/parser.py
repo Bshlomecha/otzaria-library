@@ -137,6 +137,16 @@ with rename_books_path.open("r", encoding="utf-8") as f:
 with extra_books_path.open("r", encoding="utf-8") as f:
     extra_books = set(json.load(f))
 
+# באתר, הטקסט של רשומה אחת מוצמד לפרטי המחבר/הדפוס/התיאור של רשומה אחרת
+# (למשל "יד המלך" מכיל את חיבורו של ר' אלעזר לנדא, אבל רשום על שם ר' אליה
+# פאלומבו, ו"יד המלך 2" להפך). המפתח הוא שם הרשומה באתר (לפני rename_books),
+# והערך הוא הרשומה שממנה לוקחים את פרטי המטא-דאטה. שם הקובץ נקבע ב-rename_books
+# לפי התוכן.
+metadata_swaps_path = Path(__file__).parent / "metadata_swaps.json"
+with metadata_swaps_path.open("r", encoding="utf-8") as f:
+    metadata_swaps = json.load(f)
+SWAPPED_FIELDS = ("AuthorName", "PrintYear", "PrintYearDesc", "MefareshTypeDesc")
+
 
 def sanitize_filename(filename: str) -> str:
     return re.sub(r'[\\/:*"?<>|\u200E\u200F\u202A\u202B\u202C\u202D\u202E]', '', filename).replace('_', ' ')
@@ -224,6 +234,34 @@ otzaria_metadata = []
 otzaria_metadata_extra = []
 all_mef = defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: defaultdict(list)))))
 
+
+def iter_site_mefarshim(data):
+    for book in data:
+        for halachot in book.get("sub_levels", []):
+            for perek in halachot.get("sub_levels", []):
+                for ot in perek.get("sub_levels", []):
+                    for mef in ot.get("mefarshim", []):
+                        yield mef
+                        yield from mef.get("List_Alltexts", [])
+
+
+site_metadata = {}
+for mef in iter_site_mefarshim(data):
+    desc = clean_hidden_chars(mef.get("MefareshDesc"))
+    if desc in metadata_swaps or desc in metadata_swaps.values():
+        fields = {k: mef.get(k) for k in SWAPPED_FIELDS}
+        fields["AuthorName"] = clean_hidden_chars(fields["AuthorName"])
+        assert site_metadata.setdefault(desc, fields) == fields, f"Inconsistent site metadata for {desc}"
+for src, dst in metadata_swaps.items():
+    assert src in site_metadata and dst in site_metadata, f"metadata_swaps: {src} / {dst} not found in site data"
+
+
+def swap_site_metadata(entry: dict, site_desc: str) -> dict:
+    if site_desc in metadata_swaps:
+        entry.update(site_metadata[metadata_swaps[site_desc]])
+    return entry
+
+
 for book in data:
     sub_levels = book.get("sub_levels", [])
     for halachot in book.get("sub_levels", []):
@@ -257,6 +295,7 @@ for book in data:
                         "IsNosseKelim": is_nosse_kelim,
                         "MefareshTypeDesc": mefaresh_type_desc,
                     }
+                    swap_site_metadata(mef_entry, clean_hidden_chars(mef.get("MefareshDesc")))
                     list_alltexts = mef.get("List_Alltexts", [])
                     for text in list_alltexts:
                         all_sub_keys.update(text.keys())
@@ -284,6 +323,7 @@ for book in data:
                             "IsNosseKelim": text_is_nosse_kelim,
                             "MefareshTypeDesc": text_mefaresh_type_desc,
                         }
+                        swap_site_metadata(text_entry, clean_hidden_chars(text.get("MefareshDesc")))
                         assert mef_entry == text_entry, f"Mismatch between mef and list_alltexts entry for CodeMefareshId {code_mefaresh_id}"
                         order_by = text.get("OrderBy")
                         # FileContent מכיל את הטקסט המלא. MHLogicalUnitText הוא

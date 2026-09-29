@@ -1,6 +1,78 @@
 [
   {
-    "line_index_1": 7,
+    "line_index_1": 20,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק א, א",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 4,
+    "ref_2": "Mishneh Torah, Foundations of the Torah 1:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 22,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק א, ד",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 7,
+    "ref_2": "Mishneh Torah, Foundations of the Torah 1:4",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 24,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק א, ו",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 9,
+    "ref_2": "Mishneh Torah, Foundations of the Torah 1:6",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 27,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ב, א",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 17,
+    "ref_2": "Mishneh Torah, Foundations of the Torah 2:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 29,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ב, ב",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 18,
+    "ref_2": "Mishneh Torah, Foundations of the Torah 2:2",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 32,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ג, א",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 30,
+    "ref_2": "Mishneh Torah, Foundations of the Torah 3:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 35,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ד, ח",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 49,
+    "ref_2": "Mishneh Torah, Foundations of the Torah 4:8",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 37,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ד, ט",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 50,
+    "ref_2": "Mishneh Torah, Foundations of the Torah 4:9",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 40,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ה, א",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 56,
+    "ref_2": "Mishneh Torah, Foundations of the Torah 5:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 40,
     "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ה, ב",
     "path_2": "משנה תורה, הלכות יסודי התורה.txt",
     "line_index_2": 57,
@@ -8,23 +80,279 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 11,
-    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ד, ב",
+    "line_index_1": 42,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ה, ו",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 61,
+    "ref_2": "Mishneh Torah, Foundations of the Torah 5:6",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 44,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ה, ז",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 62,
+    "ref_2": "Mishneh Torah, Foundations of the Torah 5:7",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 46,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ה, ח",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 63,
+    "ref_2": "Mishneh Torah, Foundations of the Torah 5:8",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 48,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ה, יא",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 66,
+    "ref_2": "Mishneh Torah, Foundations of the Torah 5:11",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 51,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ו, א",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 68,
+    "ref_2": "Mishneh Torah, Foundations of the Torah 6:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 54,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ז, ד",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 81,
+    "ref_2": "Mishneh Torah, Foundations of the Torah 7:4",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 57,
+    "heRef_2": "ספר מדע, הלכות יסודי התורה, פרק ח, ג",
+    "path_2": "משנה תורה, הלכות יסודי התורה.txt",
+    "line_index_2": 88,
+    "ref_2": "Mishneh Torah, Foundations of the Torah 8:3",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 65,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק א, ד",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 7,
+    "ref_2": "Mishneh Torah, Human Dispositions 1:4",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 69,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק א, ה",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 8,
+    "ref_2": "Mishneh Torah, Human Dispositions 1:5",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 72,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ב, ג",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 14,
+    "ref_2": "Mishneh Torah, Human Dispositions 2:3",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 74,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ב, ד",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 15,
+    "ref_2": "Mishneh Torah, Human Dispositions 2:4",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 76,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ב, ו",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 17,
+    "ref_2": "Mishneh Torah, Human Dispositions 2:6",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 87,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ב, ז",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 18,
+    "ref_2": "Mishneh Torah, Human Dispositions 2:7",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 90,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ג, א",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 20,
+    "ref_2": "Mishneh Torah, Human Dispositions 3:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 93,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ד, א",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 24,
+    "ref_2": "Mishneh Torah, Human Dispositions 4:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 96,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ה, ו",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 53,
+    "ref_2": "Mishneh Torah, Human Dispositions 5:6",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 98,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ה, יא",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 58,
+    "ref_2": "Mishneh Torah, Human Dispositions 5:11",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 101,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ו, ג",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 64,
+    "ref_2": "Mishneh Torah, Human Dispositions 6:3",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 103,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ו, ה",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 66,
+    "ref_2": "Mishneh Torah, Human Dispositions 6:5",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 106,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ז, ג",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 75,
+    "ref_2": "Mishneh Torah, Human Dispositions 7:3",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 108,
+    "heRef_2": "ספר מדע, הלכות דעות, פרק ז, ז",
+    "path_2": "משנה תורה, הלכות דעות.txt",
+    "line_index_2": 79,
+    "ref_2": "Mishneh Torah, Human Dispositions 7:7",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 112,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק א, ג",
     "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
-    "line_index_2": 41,
-    "ref_2": "Mishneh Torah, Torah Study 4:2",
+    "line_index_2": 6,
+    "ref_2": "Mishneh Torah, Torah Study 1:3",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 15,
-    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ג, יא",
+    "line_index_1": 115,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ה, ו",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 55,
+    "ref_2": "Mishneh Torah, Torah Study 5:6",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 118,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ו, ח",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 71,
+    "ref_2": "Mishneh Torah, Torah Study 6:8",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 120,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ו, י",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 73,
+    "ref_2": "Mishneh Torah, Torah Study 6:10",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 123,
+    "heRef_2": "ספר מדע, הלכות תלמוד תורה, פרק ז, ד",
+    "path_2": "משנה תורה, הלכות תלמוד תורה.txt",
+    "line_index_2": 82,
+    "ref_2": "Mishneh Torah, Torah Study 7:4",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 127,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק א, א",
     "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
-    "line_index_2": 29,
-    "ref_2": "Mishneh Torah, Foreign Worship and Customs of the Nations 3:11",
+    "line_index_2": 4,
+    "ref_2": "Mishneh Torah, Foreign Worship and Customs of the Nations 1:1",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 18,
+    "line_index_1": 130,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ב, ג",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 10,
+    "ref_2": "Mishneh Torah, Foreign Worship and Customs of the Nations 2:3",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 135,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ב, ה",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 12,
+    "ref_2": "Mishneh Torah, Foreign Worship and Customs of the Nations 2:5",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 137,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ב, ט",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 16,
+    "ref_2": "Mishneh Torah, Foreign Worship and Customs of the Nations 2:9",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 140,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ג, ט",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 27,
+    "ref_2": "Mishneh Torah, Foreign Worship and Customs of the Nations 3:9",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 143,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ד, ד",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 34,
+    "ref_2": "Mishneh Torah, Foreign Worship and Customs of the Nations 4:4",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 145,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ד, יא",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 41,
+    "ref_2": "Mishneh Torah, Foreign Worship and Customs of the Nations 4:11",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 148,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ז, ב",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 72,
+    "ref_2": "Mishneh Torah, Foreign Worship and Customs of the Nations 7:2",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 150,
     "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ז, י",
     "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
     "line_index_2": 80,
@@ -32,23 +360,135 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 21,
-    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ט, יח",
+    "line_index_1": 153,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק ט, ז",
     "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
-    "line_index_2": 121,
-    "ref_2": "Mishneh Torah, Foreign Worship and Customs of the Nations 9:18",
+    "line_index_2": 110,
+    "ref_2": "Mishneh Torah, Foreign Worship and Customs of the Nations 9:7",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 24,
-    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק יב, ג",
+    "line_index_1": 156,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק יא, יב",
     "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
-    "line_index_2": 149,
-    "ref_2": "Mishneh Torah, Foreign Worship and Customs of the Nations 12:3",
+    "line_index_2": 141,
+    "ref_2": "Mishneh Torah, Foreign Worship and Customs of the Nations 11:12",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 29,
+    "line_index_1": 159,
+    "heRef_2": "ספר מדע, הלכות עבודה זרה וחוקות הגויים, פרק יב, א",
+    "path_2": "משנה תורה, הלכות עבודה זרה וחוקות הגויים.txt",
+    "line_index_2": 147,
+    "ref_2": "Mishneh Torah, Foreign Worship and Customs of the Nations 12:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 163,
+    "heRef_2": "ספר מדע, הלכות תשובה, פרק א, ב",
+    "path_2": "משנה תורה, הלכות תשובה.txt",
+    "line_index_2": 5,
+    "ref_2": "Mishneh Torah, Repentance 1:2",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 165,
+    "heRef_2": "ספר מדע, הלכות תשובה, פרק א, ג",
+    "path_2": "משנה תורה, הלכות תשובה.txt",
+    "line_index_2": 6,
+    "ref_2": "Mishneh Torah, Repentance 1:3",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 171,
+    "heRef_2": "ספר מדע, הלכות תשובה, פרק ג, ו",
+    "path_2": "משנה תורה, הלכות תשובה.txt",
+    "line_index_2": 26,
+    "ref_2": "Mishneh Torah, Repentance 3:6",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 173,
+    "heRef_2": "ספר מדע, הלכות תשובה, פרק ג, ח",
+    "path_2": "משנה תורה, הלכות תשובה.txt",
+    "line_index_2": 28,
+    "ref_2": "Mishneh Torah, Repentance 3:8",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 176,
+    "heRef_2": "ספר מדע, הלכות תשובה, פרק ד, א",
+    "path_2": "משנה תורה, הלכות תשובה.txt",
+    "line_index_2": 36,
+    "ref_2": "Mishneh Torah, Repentance 4:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 179,
+    "heRef_2": "ספר מדע, הלכות תשובה, פרק ה, ב",
+    "path_2": "משנה תורה, הלכות תשובה.txt",
+    "line_index_2": 44,
+    "ref_2": "Mishneh Torah, Repentance 5:2",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 181,
+    "heRef_2": "ספר מדע, הלכות תשובה, פרק ה, ה",
+    "path_2": "משנה תורה, הלכות תשובה.txt",
+    "line_index_2": 47,
+    "ref_2": "Mishneh Torah, Repentance 5:5",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 184,
+    "heRef_2": "ספר מדע, הלכות תשובה, פרק ח, א",
+    "path_2": "משנה תורה, הלכות תשובה.txt",
+    "line_index_2": 64,
+    "ref_2": "Mishneh Torah, Repentance 8:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 184,
+    "heRef_2": "ספר מדע, הלכות תשובה, פרק ח, ב",
+    "path_2": "משנה תורה, הלכות תשובה.txt",
+    "line_index_2": 65,
+    "ref_2": "Mishneh Torah, Repentance 8:2",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 186,
+    "heRef_2": "ספר מדע, הלכות תשובה, פרק ח, ב",
+    "path_2": "משנה תורה, הלכות תשובה.txt",
+    "line_index_2": 65,
+    "ref_2": "Mishneh Torah, Repentance 8:2",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 189,
+    "heRef_2": "ספר מדע, הלכות תשובה, פרק י, א",
+    "path_2": "משנה תורה, הלכות תשובה.txt",
+    "line_index_2": 76,
+    "ref_2": "Mishneh Torah, Repentance 10:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 191,
+    "heRef_2": "ספר מדע, הלכות תשובה, פרק י, ד",
+    "path_2": "משנה תורה, הלכות תשובה.txt",
+    "line_index_2": 79,
+    "ref_2": "Mishneh Torah, Repentance 10:4",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 201,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק א, ג",
+    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
+    "line_index_2": 6,
+    "ref_2": "Mishneh Torah, Reading the Shema 1:3",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 204,
     "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ב, י",
     "path_2": "משנה תורה, הלכות קריאת שמע.txt",
     "line_index_2": 27,
@@ -56,127 +496,175 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 32,
-    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ג, ג",
+    "line_index_1": 206,
+    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ב, יג",
     "path_2": "משנה תורה, הלכות קריאת שמע.txt",
-    "line_index_2": 38,
-    "ref_2": "Mishneh Torah, Reading the Shema 3:3",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 35,
-    "heRef_2": "ספר אהבה, הלכות קריאת שמע, פרק ד, ג",
-    "path_2": "משנה תורה, הלכות קריאת שמע.txt",
-    "line_index_2": 58,
-    "ref_2": "Mishneh Torah, Reading the Shema 4:3",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 39,
-    "heRef_2": "ספר אהבה, הלכות תפילה וברכת כהנים, פרק א, ח",
-    "path_2": "משנה תורה, הלכות תפילה וברכת כהנים.txt",
-    "line_index_2": 11,
-    "ref_2": "Mishneh Torah, Prayer and the Priestly Blessing 1:8",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 42,
-    "heRef_2": "ספר אהבה, הלכות תפילה וברכת כהנים, פרק ג, ה",
-    "path_2": "משנה תורה, הלכות תפילה וברכת כהנים.txt",
-    "line_index_2": 39,
-    "ref_2": "Mishneh Torah, Prayer and the Priestly Blessing 3:5",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 45,
-    "heRef_2": "ספר אהבה, הלכות תפילה וברכת כהנים, פרק י, טו",
-    "path_2": "משנה תורה, הלכות תפילה וברכת כהנים.txt",
-    "line_index_2": 155,
-    "ref_2": "Mishneh Torah, Prayer and the Priestly Blessing 10:15",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 48,
-    "heRef_2": "ספר אהבה, הלכות תפילה וברכת כהנים, פרק יב, טז",
-    "path_2": "משנה תורה, הלכות תפילה וברכת כהנים.txt",
-    "line_index_2": 195,
-    "ref_2": "Mishneh Torah, Prayer and the Priestly Blessing 12:16",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 52,
-    "heRef_2": "ספר אהבה, הלכות תפילין ומזוזה וספר תורה, פרק א, יט",
-    "path_2": "משנה תורה, הלכות תפילין ומזוזה וספר תורה.txt",
-    "line_index_2": 22,
-    "ref_2": "Mishneh Torah, Tefillin, Mezuzah and the Torah Scroll 1:19",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 55,
-    "heRef_2": "ספר אהבה, הלכות תפילין ומזוזה וספר תורה, פרק ד, יג",
-    "path_2": "משנה תורה, הלכות תפילין ומזוזה וספר תורה.txt",
-    "line_index_2": 69,
-    "ref_2": "Mishneh Torah, Tefillin, Mezuzah and the Torah Scroll 4:13",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 58,
-    "heRef_2": "ספר אהבה, הלכות תפילין ומזוזה וספר תורה, פרק ז, טז",
-    "path_2": "משנה תורה, הלכות תפילין ומזוזה וספר תורה.txt",
-    "line_index_2": 125,
-    "ref_2": "Mishneh Torah, Tefillin, Mezuzah and the Torah Scroll 7:16",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 62,
-    "heRef_2": "ספר אהבה, הלכות ברכות, פרק ב, ו",
-    "path_2": "משנה תורה, הלכות ברכות.txt",
     "line_index_2": 30,
-    "ref_2": "Mishneh Torah, Blessings 2:6",
+    "ref_2": "Mishneh Torah, Reading the Shema 2:13",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 65,
-    "heRef_2": "ספר אהבה, הלכות ברכות, פרק ג, ח",
+    "line_index_1": 210,
+    "heRef_2": "ספר אהבה, הלכות תפילה וברכת כהנים, פרק א, א",
+    "path_2": "משנה תורה, הלכות תפילה וברכת כהנים.txt",
+    "line_index_2": 4,
+    "ref_2": "Mishneh Torah, Prayer and the Priestly Blessing 1:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 213,
+    "heRef_2": "ספר אהבה, הלכות תפילה וברכת כהנים, פרק ב, יט",
+    "path_2": "משנה תורה, הלכות תפילה וברכת כהנים.txt",
+    "line_index_2": 33,
+    "ref_2": "Mishneh Torah, Prayer and the Priestly Blessing 2:19",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 216,
+    "heRef_2": "ספר אהבה, הלכות תפילה וברכת כהנים, פרק ד, ו",
+    "path_2": "משנה תורה, הלכות תפילה וברכת כהנים.txt",
+    "line_index_2": 52,
+    "ref_2": "Mishneh Torah, Prayer and the Priestly Blessing 4:6",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 219,
+    "heRef_2": "ספר אהבה, הלכות תפילה וברכת כהנים, פרק ו, א",
+    "path_2": "משנה תורה, הלכות תפילה וברכת כהנים.txt",
+    "line_index_2": 83,
+    "ref_2": "Mishneh Torah, Prayer and the Priestly Blessing 6:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 222,
+    "heRef_2": "ספר אהבה, הלכות תפילה וברכת כהנים, פרק ט, ז",
+    "path_2": "משנה תורה, הלכות תפילה וברכת כהנים.txt",
+    "line_index_2": 132,
+    "ref_2": "Mishneh Torah, Prayer and the Priestly Blessing 9:7",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 227,
+    "heRef_2": "ספר אהבה, הלכות תפילה וברכת כהנים, פרק יב, ה",
+    "path_2": "משנה תורה, הלכות תפילה וברכת כהנים.txt",
+    "line_index_2": 184,
+    "ref_2": "Mishneh Torah, Prayer and the Priestly Blessing 12:5",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 229,
+    "heRef_2": "ספר אהבה, הלכות תפילה וברכת כהנים, פרק יב, כג",
+    "path_2": "משנה תורה, הלכות תפילה וברכת כהנים.txt",
+    "line_index_2": 202,
+    "ref_2": "Mishneh Torah, Prayer and the Priestly Blessing 12:23",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 232,
+    "heRef_2": "ספר אהבה, הלכות תפילה וברכת כהנים, פרק יג, ו",
+    "path_2": "משנה תורה, הלכות תפילה וברכת כהנים.txt",
+    "line_index_2": 210,
+    "ref_2": "Mishneh Torah, Prayer and the Priestly Blessing 13:6",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 235,
+    "heRef_2": "ספר אהבה, הלכות תפילה וברכת כהנים, פרק יד, ט",
+    "path_2": "משנה תורה, הלכות תפילה וברכת כהנים.txt",
+    "line_index_2": 239,
+    "ref_2": "Mishneh Torah, Prayer and the Priestly Blessing 14:9",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 237,
+    "heRef_2": "ספר אהבה, הלכות תפילה וברכת כהנים, פרק יד, י",
+    "path_2": "משנה תורה, הלכות תפילה וברכת כהנים.txt",
+    "line_index_2": 240,
+    "ref_2": "Mishneh Torah, Prayer and the Priestly Blessing 14:10",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 239,
+    "heRef_2": "ספר אהבה, הלכות תפילה וברכת כהנים, פרק יד, יא",
+    "path_2": "משנה תורה, הלכות תפילה וברכת כהנים.txt",
+    "line_index_2": 241,
+    "ref_2": "Mishneh Torah, Prayer and the Priestly Blessing 14:11",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 241,
+    "heRef_2": "ספר אהבה, הלכות תפילה וברכת כהנים, פרק יד, יב",
+    "path_2": "משנה תורה, הלכות תפילה וברכת כהנים.txt",
+    "line_index_2": 242,
+    "ref_2": "Mishneh Torah, Prayer and the Priestly Blessing 14:12",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 244,
+    "heRef_2": "ספר אהבה, הלכות תפילה וברכת כהנים, פרק טו, ב",
+    "path_2": "משנה תורה, הלכות תפילה וברכת כהנים.txt",
+    "line_index_2": 247,
+    "ref_2": "Mishneh Torah, Prayer and the Priestly Blessing 15:2",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 248,
+    "heRef_2": "ספר אהבה, הלכות תפילין ומזוזה וספר תורה, פרק ג, יז",
+    "path_2": "משנה תורה, הלכות תפילין ומזוזה וספר תורה.txt",
+    "line_index_2": 53,
+    "ref_2": "Mishneh Torah, Tefillin, Mezuzah and the Torah Scroll 3:17",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 251,
+    "heRef_2": "ספר אהבה, הלכות תפילין ומזוזה וספר תורה, פרק ד, ו",
+    "path_2": "משנה תורה, הלכות תפילין ומזוזה וספר תורה.txt",
+    "line_index_2": 62,
+    "ref_2": "Mishneh Torah, Tefillin, Mezuzah and the Torah Scroll 4:6",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 253,
+    "heRef_2": "ספר אהבה, הלכות תפילין ומזוזה וספר תורה, פרק ד, כה",
+    "path_2": "משנה תורה, הלכות תפילין ומזוזה וספר תורה.txt",
+    "line_index_2": 81,
+    "ref_2": "Mishneh Torah, Tefillin, Mezuzah and the Torah Scroll 4:25",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 257,
+    "heRef_2": "ספר אהבה, הלכות תפילין ומזוזה וספר תורה, פרק י, ט",
+    "path_2": "משנה תורה, הלכות תפילין ומזוזה וספר תורה.txt",
+    "line_index_2": 156,
+    "ref_2": "Mishneh Torah, Tefillin, Mezuzah and the Torah Scroll 10:9",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 281,
+    "heRef_2": "ספר אהבה, הלכות ברכות, פרק א, יט",
     "path_2": "משנה תורה, הלכות ברכות.txt",
-    "line_index_2": 47,
-    "ref_2": "Mishneh Torah, Blessings 3:8",
+    "line_index_2": 22,
+    "ref_2": "Mishneh Torah, Blessings 1:19",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 68,
-    "heRef_2": "ספר אהבה, הלכות ברכות, פרק ד, יב",
+    "line_index_1": 284,
+    "heRef_2": "ספר אהבה, הלכות ברכות, פרק ו, יט",
     "path_2": "משנה תורה, הלכות ברכות.txt",
-    "line_index_2": 65,
-    "ref_2": "Mishneh Torah, Blessings 4:12",
+    "line_index_2": 103,
+    "ref_2": "Mishneh Torah, Blessings 6:19",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 71,
-    "heRef_2": "ספר אהבה, הלכות ברכות, פרק ה, ו",
+    "line_index_1": 287,
+    "heRef_2": "ספר אהבה, הלכות ברכות, פרק ט, ט",
     "path_2": "משנה תורה, הלכות ברכות.txt",
-    "line_index_2": 72,
-    "ref_2": "Mishneh Torah, Blessings 5:6",
+    "line_index_2": 147,
+    "ref_2": "Mishneh Torah, Blessings 9:9",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 74,
-    "heRef_2": "ספר אהבה, הלכות ברכות, פרק ז, ג",
-    "path_2": "משנה תורה, הלכות ברכות.txt",
-    "line_index_2": 108,
-    "ref_2": "Mishneh Torah, Blessings 7:3",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 77,
-    "heRef_2": "ספר אהבה, הלכות ברכות, פרק ח, א",
-    "path_2": "משנה תורה, הלכות ברכות.txt",
-    "line_index_2": 122,
-    "ref_2": "Mishneh Torah, Blessings 8:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 80,
+    "line_index_1": 290,
     "heRef_2": "ספר אהבה, הלכות ברכות, פרק י, ח",
     "path_2": "משנה תורה, הלכות ברכות.txt",
     "line_index_2": 156,
@@ -184,63 +672,191 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 83,
-    "heRef_2": "ספר אהבה, הלכות ברכות, פרק יא, יא",
+    "line_index_1": 292,
+    "heRef_2": "ספר אהבה, הלכות ברכות, פרק י, טז",
     "path_2": "משנה תורה, הלכות ברכות.txt",
-    "line_index_2": 186,
-    "ref_2": "Mishneh Torah, Blessings 11:11",
+    "line_index_2": 164,
+    "ref_2": "Mishneh Torah, Blessings 10:16",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 87,
-    "heRef_2": "ספר אהבה, הלכות מילה, פרק ב, ו",
+    "line_index_1": 294,
+    "heRef_2": "ספר אהבה, הלכות ברכות, פרק י, יז",
+    "path_2": "משנה תורה, הלכות ברכות.txt",
+    "line_index_2": 165,
+    "ref_2": "Mishneh Torah, Blessings 10:17",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 298,
+    "heRef_2": "ספר אהבה, הלכות מילה, פרק א, ב",
     "path_2": "משנה תורה, הלכות מילה.txt",
-    "line_index_2": 28,
-    "ref_2": "Mishneh Torah, Circumcision 2:6",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 92,
-    "heRef_2": "ספר זמנים, הלכות שביתת עשור, פרק א, ב",
-    "path_2": "משנה תורה, הלכות שביתת עשור.txt",
     "line_index_2": 5,
-    "ref_2": "Mishneh Torah, Rest on the Tenth of Tishrei 1:2",
+    "ref_2": "Mishneh Torah, Circumcision 1:2",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 96,
-    "heRef_2": "ספר זמנים, הלכות שביתת יום טוב, פרק ב, ט",
-    "path_2": "משנה תורה, הלכות שביתת יום טוב.txt",
-    "line_index_2": 37,
-    "ref_2": "Mishneh Torah, Rest on a Holiday 2:9",
+    "line_index_1": 303,
+    "heRef_2": "ספר זמנים, הלכות שבת, פרק א, טו",
+    "path_2": "משנה תורה, הלכות שבת.txt",
+    "line_index_2": 18,
+    "ref_2": "Mishneh Torah, Sabbath 1:15",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 99,
-    "heRef_2": "ספר זמנים, הלכות שביתת יום טוב, פרק ג, ח",
-    "path_2": "משנה תורה, הלכות שביתת יום טוב.txt",
-    "line_index_2": 55,
-    "ref_2": "Mishneh Torah, Rest on a Holiday 3:8",
+    "line_index_1": 303,
+    "heRef_2": "ספר זמנים, הלכות שבת, פרק א, טז",
+    "path_2": "משנה תורה, הלכות שבת.txt",
+    "line_index_2": 19,
+    "ref_2": "Mishneh Torah, Sabbath 1:16",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 102,
-    "heRef_2": "ספר זמנים, הלכות שביתת יום טוב, פרק ז, ג",
-    "path_2": "משנה תורה, הלכות שביתת יום טוב.txt",
-    "line_index_2": 141,
-    "ref_2": "Mishneh Torah, Rest on a Holiday 7:3",
+    "line_index_1": 306,
+    "heRef_2": "ספר זמנים, הלכות שבת, פרק ב, ג",
+    "path_2": "משנה תורה, הלכות שבת.txt",
+    "line_index_2": 26,
+    "ref_2": "Mishneh Torah, Sabbath 2:3",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 105,
-    "heRef_2": "ספר זמנים, הלכות שביתת יום טוב, פרק ח, יג",
-    "path_2": "משנה תורה, הלכות שביתת יום טוב.txt",
-    "line_index_2": 177,
-    "ref_2": "Mishneh Torah, Rest on a Holiday 8:13",
+    "line_index_1": 308,
+    "heRef_2": "ספר זמנים, הלכות שבת, פרק ב, יח",
+    "path_2": "משנה תורה, הלכות שבת.txt",
+    "line_index_2": 41,
+    "ref_2": "Mishneh Torah, Sabbath 2:18",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 109,
+    "line_index_1": 310,
+    "heRef_2": "ספר זמנים, הלכות שבת, פרק ב, כ",
+    "path_2": "משנה תורה, הלכות שבת.txt",
+    "line_index_2": 43,
+    "ref_2": "Mishneh Torah, Sabbath 2:20",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 310,
+    "heRef_2": "ספר זמנים, הלכות שבת, פרק ב, כא",
+    "path_2": "משנה תורה, הלכות שבת.txt",
+    "line_index_2": 44,
+    "ref_2": "Mishneh Torah, Sabbath 2:21",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 313,
+    "heRef_2": "ספר זמנים, הלכות שבת, פרק ו, כג",
+    "path_2": "משנה תורה, הלכות שבת.txt",
+    "line_index_2": 124,
+    "ref_2": "Mishneh Torah, Sabbath 6:23",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 316,
+    "heRef_2": "ספר זמנים, הלכות שבת, פרק י, כה",
+    "path_2": "משנה תורה, הלכות שבת.txt",
+    "line_index_2": 200,
+    "ref_2": "Mishneh Torah, Sabbath 10:25",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 319,
+    "heRef_2": "ספר זמנים, הלכות שבת, פרק יא, יג",
+    "path_2": "משנה תורה, הלכות שבת.txt",
+    "line_index_2": 214,
+    "ref_2": "Mishneh Torah, Sabbath 11:13",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 322,
+    "heRef_2": "ספר זמנים, הלכות שבת, פרק יב, טו",
+    "path_2": "משנה תורה, הלכות שבת.txt",
+    "line_index_2": 234,
+    "ref_2": "Mishneh Torah, Sabbath 12:15",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 325,
+    "heRef_2": "ספר זמנים, הלכות שבת, פרק כ, ג",
+    "path_2": "משנה תורה, הלכות שבת.txt",
+    "line_index_2": 431,
+    "ref_2": "Mishneh Torah, Sabbath 20:3",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 328,
+    "heRef_2": "ספר זמנים, הלכות שבת, פרק כב, כ",
+    "path_2": "משנה תורה, הלכות שבת.txt",
+    "line_index_2": 500,
+    "ref_2": "Mishneh Torah, Sabbath 22:20",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 331,
+    "heRef_2": "ספר זמנים, הלכות שבת, פרק כד, ז",
+    "path_2": "משנה תורה, הלכות שבת.txt",
+    "line_index_2": 550,
+    "ref_2": "Mishneh Torah, Sabbath 24:7",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 334,
+    "heRef_2": "ספר זמנים, הלכות שבת, פרק כה, י",
+    "path_2": "משנה תורה, הלכות שבת.txt",
+    "line_index_2": 567,
+    "ref_2": "Mishneh Torah, Sabbath 25:10",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 337,
+    "heRef_2": "ספר זמנים, הלכות שבת, פרק ל, ו",
+    "path_2": "משנה תורה, הלכות שבת.txt",
+    "line_index_2": 682,
+    "ref_2": "Mishneh Torah, Sabbath 30:6",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 341,
+    "heRef_2": "ספר זמנים, הלכות שביתת עשור, פרק ב, ה",
+    "path_2": "משנה תורה, הלכות שביתת עשור.txt",
+    "line_index_2": 16,
+    "ref_2": "Mishneh Torah, Rest on the Tenth of Tishrei 2:5",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 343,
+    "heRef_2": "ספר זמנים, הלכות שביתת עשור, פרק ב, ט",
+    "path_2": "משנה תורה, הלכות שביתת עשור.txt",
+    "line_index_2": 20,
+    "ref_2": "Mishneh Torah, Rest on the Tenth of Tishrei 2:9",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 381,
+    "heRef_2": "ספר זמנים, הלכות חמץ ומצה, פרק א, ג",
+    "path_2": "משנה תורה, הלכות חמץ ומצה.txt",
+    "line_index_2": 6,
+    "ref_2": "Mishneh Torah, Leavened and Unleavened Bread 1:3",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 388,
+    "heRef_2": "ספר זמנים, הלכות חמץ ומצה, פרק א, ד",
+    "path_2": "משנה תורה, הלכות חמץ ומצה.txt",
+    "line_index_2": 7,
+    "ref_2": "Mishneh Torah, Leavened and Unleavened Bread 1:4",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 397,
+    "heRef_2": "ספר זמנים, הלכות חמץ ומצה, פרק א, ה",
+    "path_2": "משנה תורה, הלכות חמץ ומצה.txt",
+    "line_index_2": 8,
+    "ref_2": "Mishneh Torah, Leavened and Unleavened Bread 1:5",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 399,
     "heRef_2": "ספר זמנים, הלכות חמץ ומצה, פרק א, ו",
     "path_2": "משנה תורה, הלכות חמץ ומצה.txt",
     "line_index_2": 9,
@@ -248,55 +864,95 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 112,
-    "heRef_2": "ספר זמנים, הלכות חמץ ומצה, פרק ב, ד",
+    "line_index_1": 401,
+    "heRef_2": "ספר זמנים, הלכות חמץ ומצה, פרק א, ז",
     "path_2": "משנה תורה, הלכות חמץ ומצה.txt",
-    "line_index_2": 18,
-    "ref_2": "Mishneh Torah, Leavened and Unleavened Bread 2:4",
+    "line_index_2": 10,
+    "ref_2": "Mishneh Torah, Leavened and Unleavened Bread 1:7",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 115,
-    "heRef_2": "ספר זמנים, הלכות חמץ ומצה, פרק ג, ח",
+    "line_index_1": 404,
+    "heRef_2": "ספר זמנים, הלכות חמץ ומצה, פרק ב, ב",
     "path_2": "משנה תורה, הלכות חמץ ומצה.txt",
-    "line_index_2": 42,
-    "ref_2": "Mishneh Torah, Leavened and Unleavened Bread 3:8",
+    "line_index_2": 16,
+    "ref_2": "Mishneh Torah, Leavened and Unleavened Bread 2:2",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 118,
-    "heRef_2": "ספר זמנים, הלכות חמץ ומצה, פרק ד, ח",
+    "line_index_1": 406,
+    "heRef_2": "ספר זמנים, הלכות חמץ ומצה, פרק ב, ז",
     "path_2": "משנה תורה, הלכות חמץ ומצה.txt",
-    "line_index_2": 54,
-    "ref_2": "Mishneh Torah, Leavened and Unleavened Bread 4:8",
+    "line_index_2": 21,
+    "ref_2": "Mishneh Torah, Leavened and Unleavened Bread 2:7",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 121,
-    "heRef_2": "ספר זמנים, הלכות חמץ ומצה, פרק ה, ד",
+    "line_index_1": 408,
+    "heRef_2": "ספר זמנים, הלכות חמץ ומצה, פרק ב, יא",
     "path_2": "משנה תורה, הלכות חמץ ומצה.txt",
-    "line_index_2": 63,
-    "ref_2": "Mishneh Torah, Leavened and Unleavened Bread 5:4",
+    "line_index_2": 25,
+    "ref_2": "Mishneh Torah, Leavened and Unleavened Bread 2:11",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 124,
-    "heRef_2": "ספר זמנים, הלכות חמץ ומצה, פרק ו, ח",
+    "line_index_1": 411,
+    "heRef_2": "ספר זמנים, הלכות חמץ ומצה, פרק ד, ג",
     "path_2": "משנה תורה, הלכות חמץ ומצה.txt",
-    "line_index_2": 94,
-    "ref_2": "Mishneh Torah, Leavened and Unleavened Bread 6:8",
+    "line_index_2": 49,
+    "ref_2": "Mishneh Torah, Leavened and Unleavened Bread 4:3",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 127,
-    "heRef_2": "ספר זמנים, הלכות חמץ ומצה, פרק ח, יא",
+    "line_index_1": 413,
+    "heRef_2": "ספר זמנים, הלכות חמץ ומצה, פרק ד, ה",
     "path_2": "משנה תורה, הלכות חמץ ומצה.txt",
-    "line_index_2": 124,
-    "ref_2": "Mishneh Torah, Leavened and Unleavened Bread 8:11",
+    "line_index_2": 51,
+    "ref_2": "Mishneh Torah, Leavened and Unleavened Bread 4:5",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 131,
+    "line_index_1": 416,
+    "heRef_2": "ספר זמנים, הלכות חמץ ומצה, פרק ו, א",
+    "path_2": "משנה תורה, הלכות חמץ ומצה.txt",
+    "line_index_2": 87,
+    "ref_2": "Mishneh Torah, Leavened and Unleavened Bread 6:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 418,
+    "heRef_2": "ספר זמנים, הלכות חמץ ומצה, פרק ו, ה",
+    "path_2": "משנה תורה, הלכות חמץ ומצה.txt",
+    "line_index_2": 91,
+    "ref_2": "Mishneh Torah, Leavened and Unleavened Bread 6:5",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 420,
+    "heRef_2": "ספר זמנים, הלכות חמץ ומצה, פרק ו, ז",
+    "path_2": "משנה תורה, הלכות חמץ ומצה.txt",
+    "line_index_2": 93,
+    "ref_2": "Mishneh Torah, Leavened and Unleavened Bread 6:7",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 422,
+    "heRef_2": "ספר זמנים, הלכות חמץ ומצה, פרק ו, יב",
+    "path_2": "משנה תורה, הלכות חמץ ומצה.txt",
+    "line_index_2": 98,
+    "ref_2": "Mishneh Torah, Leavened and Unleavened Bread 6:12",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 426,
+    "heRef_2": "ספר זמנים, הלכות שופר וסוכה ולולב, פרק א, ג",
+    "path_2": "משנה תורה, הלכות שופר וסוכה ולולב.txt",
+    "line_index_2": 6,
+    "ref_2": "Mishneh Torah, Shofar, Sukkah and Lulav 1:3",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 444,
     "heRef_2": "ספר זמנים, הלכות שופר וסוכה ולולב, פרק ב, ב",
     "path_2": "משנה תורה, הלכות שופר וסוכה ולולב.txt",
     "line_index_2": 14,
@@ -304,7 +960,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 134,
+    "line_index_1": 447,
     "heRef_2": "ספר זמנים, הלכות שופר וסוכה ולולב, פרק ה, יג",
     "path_2": "משנה תורה, הלכות שופר וסוכה ולולב.txt",
     "line_index_2": 67,
@@ -312,47 +968,55 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 137,
-    "heRef_2": "ספר זמנים, הלכות שופר וסוכה ולולב, פרק ז, ג",
+    "line_index_1": 450,
+    "heRef_2": "ספר זמנים, הלכות שופר וסוכה ולולב, פרק ז, יג",
     "path_2": "משנה תורה, הלכות שופר וסוכה ולולב.txt",
-    "line_index_2": 100,
-    "ref_2": "Mishneh Torah, Shofar, Sukkah and Lulav 7:3",
+    "line_index_2": 110,
+    "ref_2": "Mishneh Torah, Shofar, Sukkah and Lulav 7:13",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 140,
-    "heRef_2": "ספר זמנים, הלכות שופר וסוכה ולולב, פרק ח, א",
+    "line_index_1": 453,
+    "heRef_2": "ספר זמנים, הלכות שופר וסוכה ולולב, פרק ח, ז",
     "path_2": "משנה תורה, הלכות שופר וסוכה ולולב.txt",
-    "line_index_2": 126,
-    "ref_2": "Mishneh Torah, Shofar, Sukkah and Lulav 8:1",
+    "line_index_2": 132,
+    "ref_2": "Mishneh Torah, Shofar, Sukkah and Lulav 8:7",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 144,
-    "heRef_2": "ספר זמנים, הלכות תעניות, פרק ה, ה",
-    "path_2": "משנה תורה, הלכות תעניות.txt",
-    "line_index_2": 77,
-    "ref_2": "Mishneh Torah, Fasts 5:5",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 148,
-    "heRef_2": "ספר זמנים, הלכות מגילה וחנוכה, פרק א, א",
+    "line_index_1": 457,
+    "heRef_2": "ספר זמנים, הלכות מגילה וחנוכה, פרק א, ז",
     "path_2": "משנה תורה, הלכות מגילה וחנוכה.txt",
-    "line_index_2": 4,
-    "ref_2": "Mishneh Torah, Scroll of Esther and Hanukkah 1:1",
+    "line_index_2": 10,
+    "ref_2": "Mishneh Torah, Scroll of Esther and Hanukkah 1:7",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 151,
-    "heRef_2": "ספר זמנים, הלכות מגילה וחנוכה, פרק ב, ג",
+    "line_index_1": 459,
+    "heRef_2": "ספר זמנים, הלכות מגילה וחנוכה, פרק א, יא",
     "path_2": "משנה תורה, הלכות מגילה וחנוכה.txt",
-    "line_index_2": 21,
-    "ref_2": "Mishneh Torah, Scroll of Esther and Hanukkah 2:3",
+    "line_index_2": 14,
+    "ref_2": "Mishneh Torah, Scroll of Esther and Hanukkah 1:11",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 156,
+    "line_index_1": 462,
+    "heRef_2": "ספר זמנים, הלכות מגילה וחנוכה, פרק ג, ה",
+    "path_2": "משנה תורה, הלכות מגילה וחנוכה.txt",
+    "line_index_2": 42,
+    "ref_2": "Mishneh Torah, Scroll of Esther and Hanukkah 3:5",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 465,
+    "heRef_2": "ספר זמנים, הלכות מגילה וחנוכה, פרק ד, ט",
+    "path_2": "משנה תורה, הלכות מגילה וחנוכה.txt",
+    "line_index_2": 61,
+    "ref_2": "Mishneh Torah, Scroll of Esther and Hanukkah 4:9",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 470,
     "heRef_2": "ספר נשים, הלכות אישות, פרק א, ב",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 5,
@@ -360,15 +1024,15 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 159,
-    "heRef_2": "ספר נשים, הלכות אישות, פרק ב, יא",
+    "line_index_1": 472,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק א, ד",
     "path_2": "משנה תורה, הלכות אישות.txt",
-    "line_index_2": 23,
-    "ref_2": "Mishneh Torah, Marriage 2:11",
+    "line_index_2": 7,
+    "ref_2": "Mishneh Torah, Marriage 1:4",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 162,
+    "line_index_1": 475,
     "heRef_2": "ספר נשים, הלכות אישות, פרק ג, א",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 41,
@@ -376,7 +1040,71 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 165,
+    "line_index_1": 477,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ג, ח",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 48,
+    "ref_2": "Mishneh Torah, Marriage 3:8",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 479,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ג, יד",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 54,
+    "ref_2": "Mishneh Torah, Marriage 3:14",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 481,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ג, טו",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 55,
+    "ref_2": "Mishneh Torah, Marriage 3:15",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 483,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ג, טז",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 56,
+    "ref_2": "Mishneh Torah, Marriage 3:16",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 485,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ג, כג",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 63,
+    "ref_2": "Mishneh Torah, Marriage 3:23",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 488,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ד, א",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 66,
+    "ref_2": "Mishneh Torah, Marriage 4:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 490,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ד, ד",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 69,
+    "ref_2": "Mishneh Torah, Marriage 4:4",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 492,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ד, ו",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 71,
+    "ref_2": "Mishneh Torah, Marriage 4:6",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 494,
     "heRef_2": "ספר נשים, הלכות אישות, פרק ד, ז",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 72,
@@ -384,15 +1112,183 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 168,
-    "heRef_2": "ספר נשים, הלכות אישות, פרק ו, ב",
+    "line_index_1": 496,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ד, ט",
     "path_2": "משנה תורה, הלכות אישות.txt",
-    "line_index_2": 120,
-    "ref_2": "Mishneh Torah, Marriage 6:2",
+    "line_index_2": 74,
+    "ref_2": "Mishneh Torah, Marriage 4:9",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 171,
+    "line_index_1": 498,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ד, יב",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 77,
+    "ref_2": "Mishneh Torah, Marriage 4:12",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 500,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ד, יג",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 78,
+    "ref_2": "Mishneh Torah, Marriage 4:13",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 502,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ד, טז",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 81,
+    "ref_2": "Mishneh Torah, Marriage 4:16",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 504,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ד, יט",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 84,
+    "ref_2": "Mishneh Torah, Marriage 4:19",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 506,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ד, כא",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 86,
+    "ref_2": "Mishneh Torah, Marriage 4:21",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 509,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ה, א",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 89,
+    "ref_2": "Mishneh Torah, Marriage 5:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 511,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ה, ב",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 90,
+    "ref_2": "Mishneh Torah, Marriage 5:2",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 513,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ה, ז",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 95,
+    "ref_2": "Mishneh Torah, Marriage 5:7",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 515,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ה, ט",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 97,
+    "ref_2": "Mishneh Torah, Marriage 5:9",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 517,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ה, י",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 98,
+    "ref_2": "Mishneh Torah, Marriage 5:10",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 519,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ה, יג",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 101,
+    "ref_2": "Mishneh Torah, Marriage 5:13",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 521,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ה, טו",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 103,
+    "ref_2": "Mishneh Torah, Marriage 5:15",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 523,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ה, טז",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 104,
+    "ref_2": "Mishneh Torah, Marriage 5:16",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 525,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ה, יז",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 105,
+    "ref_2": "Mishneh Torah, Marriage 5:17",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 527,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ה, כ",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 108,
+    "ref_2": "Mishneh Torah, Marriage 5:20",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 530,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ו, א",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 119,
+    "ref_2": "Mishneh Torah, Marriage 6:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 532,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ו, ט",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 127,
+    "ref_2": "Mishneh Torah, Marriage 6:9",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 534,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ו, יג",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 131,
+    "ref_2": "Mishneh Torah, Marriage 6:13",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 536,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ו, יז",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 135,
+    "ref_2": "Mishneh Torah, Marriage 6:17",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 539,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ז, א",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 138,
+    "ref_2": "Mishneh Torah, Marriage 7:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 541,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ז, ב",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 139,
+    "ref_2": "Mishneh Torah, Marriage 7:2",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 543,
     "heRef_2": "ספר נשים, הלכות אישות, פרק ז, ז",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 144,
@@ -400,7 +1296,63 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 174,
+    "line_index_1": 545,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ז, י",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 147,
+    "ref_2": "Mishneh Torah, Marriage 7:10",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 547,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ז, יב",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 149,
+    "ref_2": "Mishneh Torah, Marriage 7:12",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 549,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ז, טו",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 152,
+    "ref_2": "Mishneh Torah, Marriage 7:15",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 551,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ז, יח",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 155,
+    "ref_2": "Mishneh Torah, Marriage 7:18",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 553,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ז, כ",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 157,
+    "ref_2": "Mishneh Torah, Marriage 7:20",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 556,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ח, א",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 162,
+    "ref_2": "Mishneh Torah, Marriage 8:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 556,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ח, ב",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 163,
+    "ref_2": "Mishneh Torah, Marriage 8:2",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 559,
     "heRef_2": "ספר נשים, הלכות אישות, פרק ט, ו",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 174,
@@ -408,39 +1360,175 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 177,
-    "heRef_2": "ספר נשים, הלכות אישות, פרק י, א",
+    "line_index_1": 561,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ט, טו",
     "path_2": "משנה תורה, הלכות אישות.txt",
-    "line_index_2": 201,
-    "ref_2": "Mishneh Torah, Marriage 10:1",
+    "line_index_2": 183,
+    "ref_2": "Mishneh Torah, Marriage 9:15",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 180,
-    "heRef_2": "ספר נשים, הלכות אישות, פרק יב, טז",
+    "line_index_1": 563,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק ט, לא",
     "path_2": "משנה תורה, הלכות אישות.txt",
-    "line_index_2": 254,
-    "ref_2": "Mishneh Torah, Marriage 12:16",
+    "line_index_2": 199,
+    "ref_2": "Mishneh Torah, Marriage 9:31",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 183,
-    "heRef_2": "ספר נשים, הלכות אישות, פרק יג, א",
+    "line_index_1": 566,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק י, ב",
     "path_2": "משנה תורה, הלכות אישות.txt",
-    "line_index_2": 264,
-    "ref_2": "Mishneh Torah, Marriage 13:1",
+    "line_index_2": 202,
+    "ref_2": "Mishneh Torah, Marriage 10:2",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 186,
-    "heRef_2": "ספר נשים, הלכות אישות, פרק יד, א",
+    "line_index_1": 568,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק י, ה",
     "path_2": "משנה תורה, הלכות אישות.txt",
-    "line_index_2": 285,
-    "ref_2": "Mishneh Torah, Marriage 14:1",
+    "line_index_2": 205,
+    "ref_2": "Mishneh Torah, Marriage 10:5",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 189,
+    "line_index_1": 570,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק י, יד",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 214,
+    "ref_2": "Mishneh Torah, Marriage 10:14",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 572,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק י, טו",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 215,
+    "ref_2": "Mishneh Torah, Marriage 10:15",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 575,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק יא, יא",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 231,
+    "ref_2": "Mishneh Torah, Marriage 11:11",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 577,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק יא, יד",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 234,
+    "ref_2": "Mishneh Torah, Marriage 11:14",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 580,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק יב, ח",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 246,
+    "ref_2": "Mishneh Torah, Marriage 12:8",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 582,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק יב, ט",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 247,
+    "ref_2": "Mishneh Torah, Marriage 12:9",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 584,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק יב, יט",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 257,
+    "ref_2": "Mishneh Torah, Marriage 12:19",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 586,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק יב, כג",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 261,
+    "ref_2": "Mishneh Torah, Marriage 12:23",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 589,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק יג, טז",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 279,
+    "ref_2": "Mishneh Torah, Marriage 13:16",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 589,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק יג, יז",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 280,
+    "ref_2": "Mishneh Torah, Marriage 13:17",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 592,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק יד, ו",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 290,
+    "ref_2": "Mishneh Torah, Marriage 14:6",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 594,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק יד, כד",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 308,
+    "ref_2": "Mishneh Torah, Marriage 14:24",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 597,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק טו, ז",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 316,
+    "ref_2": "Mishneh Torah, Marriage 15:7",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 599,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק טו, ח",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 317,
+    "ref_2": "Mishneh Torah, Marriage 15:8",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 601,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק טו, ט",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 318,
+    "ref_2": "Mishneh Torah, Marriage 15:9",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 603,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק טו, י",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 319,
+    "ref_2": "Mishneh Torah, Marriage 15:10",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 605,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק טו, יד",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 323,
+    "ref_2": "Mishneh Torah, Marriage 15:14",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 608,
     "heRef_2": "ספר נשים, הלכות אישות, פרק טז, א",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 331,
@@ -448,63 +1536,247 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 192,
-    "heRef_2": "ספר נשים, הלכות אישות, פרק יז, א",
+    "line_index_1": 610,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק טז, ה",
     "path_2": "משנה תורה, הלכות אישות.txt",
-    "line_index_2": 363,
-    "ref_2": "Mishneh Torah, Marriage 17:1",
+    "line_index_2": 335,
+    "ref_2": "Mishneh Torah, Marriage 16:5",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 195,
-    "heRef_2": "ספר נשים, הלכות אישות, פרק יח, א",
+    "line_index_1": 612,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק טז, יג",
     "path_2": "משנה תורה, הלכות אישות.txt",
-    "line_index_2": 383,
-    "ref_2": "Mishneh Torah, Marriage 18:1",
+    "line_index_2": 343,
+    "ref_2": "Mishneh Torah, Marriage 16:13",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 198,
-    "heRef_2": "ספר נשים, הלכות אישות, פרק יט, א",
+    "line_index_1": 614,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק טז, יז",
     "path_2": "משנה תורה, הלכות אישות.txt",
-    "line_index_2": 412,
-    "ref_2": "Mishneh Torah, Marriage 19:1",
+    "line_index_2": 347,
+    "ref_2": "Mishneh Torah, Marriage 16:17",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 201,
-    "heRef_2": "ספר נשים, הלכות אישות, פרק כא, יב",
+    "line_index_1": 616,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק טז, כ",
     "path_2": "משנה תורה, הלכות אישות.txt",
-    "line_index_2": 461,
-    "ref_2": "Mishneh Torah, Marriage 21:12",
+    "line_index_2": 350,
+    "ref_2": "Mishneh Torah, Marriage 16:20",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 204,
-    "heRef_2": "ספר נשים, הלכות אישות, פרק כב, א",
+    "line_index_1": 618,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק טז, כה",
     "path_2": "משנה תורה, הלכות אישות.txt",
-    "line_index_2": 469,
-    "ref_2": "Mishneh Torah, Marriage 22:1",
+    "line_index_2": 355,
+    "ref_2": "Mishneh Torah, Marriage 16:25",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 207,
-    "heRef_2": "ספר נשים, הלכות אישות, פרק כג, ה",
+    "line_index_1": 620,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק טז, כו",
     "path_2": "משנה תורה, הלכות אישות.txt",
-    "line_index_2": 509,
-    "ref_2": "Mishneh Torah, Marriage 23:5",
+    "line_index_2": 356,
+    "ref_2": "Mishneh Torah, Marriage 16:26",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 211,
-    "heRef_2": "ספר נשים, הלכות גירושין, פרק א, א",
+    "line_index_1": 622,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק טז, לא",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 361,
+    "ref_2": "Mishneh Torah, Marriage 16:31",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 625,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק יז, ב",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 364,
+    "ref_2": "Mishneh Torah, Marriage 17:2",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 627,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק יז, ט",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 371,
+    "ref_2": "Mishneh Torah, Marriage 17:9",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 629,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק יז, יד",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 376,
+    "ref_2": "Mishneh Torah, Marriage 17:14",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 631,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק יז, יט",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 381,
+    "ref_2": "Mishneh Torah, Marriage 17:19",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 634,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק יח, ו",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 388,
+    "ref_2": "Mishneh Torah, Marriage 18:6",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 637,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק יט, ה",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 416,
+    "ref_2": "Mishneh Torah, Marriage 19:5",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 639,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק יט, יב",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 423,
+    "ref_2": "Mishneh Torah, Marriage 19:12",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 642,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק כא, ט",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 458,
+    "ref_2": "Mishneh Torah, Marriage 21:9",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 645,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק כב, ד",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 472,
+    "ref_2": "Mishneh Torah, Marriage 22:4",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 647,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק כב, טז",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 484,
+    "ref_2": "Mishneh Torah, Marriage 22:16",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 649,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק כב, יט",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 487,
+    "ref_2": "Mishneh Torah, Marriage 22:19",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 651,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק כב, לה",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 503,
+    "ref_2": "Mishneh Torah, Marriage 22:35",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 654,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק כג, א",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 505,
+    "ref_2": "Mishneh Torah, Marriage 23:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 656,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק כג, ז",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 511,
+    "ref_2": "Mishneh Torah, Marriage 23:7",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 658,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק כג, יג",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 517,
+    "ref_2": "Mishneh Torah, Marriage 23:13",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 661,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק כד, יד",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 537,
+    "ref_2": "Mishneh Torah, Marriage 24:14",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 663,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק כד, יט",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 542,
+    "ref_2": "Mishneh Torah, Marriage 24:19",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 665,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק כד, כד",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 547,
+    "ref_2": "Mishneh Torah, Marriage 24:24",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 668,
+    "heRef_2": "ספר נשים, הלכות אישות, פרק כה, ד",
+    "path_2": "משנה תורה, הלכות אישות.txt",
+    "line_index_2": 553,
+    "ref_2": "Mishneh Torah, Marriage 25:4",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 672,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק א, יג",
     "path_2": "משנה תורה, הלכות גירושין.txt",
-    "line_index_2": 4,
-    "ref_2": "Mishneh Torah, Divorce 1:1",
+    "line_index_2": 16,
+    "ref_2": "Mishneh Torah, Divorce 1:13",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 214,
+    "line_index_1": 674,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק א, טו",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 18,
+    "ref_2": "Mishneh Torah, Divorce 1:15",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 676,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק א, כא",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 24,
+    "ref_2": "Mishneh Torah, Divorce 1:21",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 678,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק א, כה",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 28,
+    "ref_2": "Mishneh Torah, Divorce 1:25",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 681,
     "heRef_2": "ספר נשים, הלכות גירושין, פרק ב, ח",
     "path_2": "משנה תורה, הלכות גירושין.txt",
     "line_index_2": 40,
@@ -512,31 +1784,95 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 217,
-    "heRef_2": "ספר נשים, הלכות גירושין, פרק ג, א",
+    "line_index_1": 683,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק ב, יב",
     "path_2": "משנה תורה, הלכות גירושין.txt",
-    "line_index_2": 54,
-    "ref_2": "Mishneh Torah, Divorce 3:1",
+    "line_index_2": 44,
+    "ref_2": "Mishneh Torah, Divorce 2:12",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 220,
-    "heRef_2": "ספר נשים, הלכות גירושין, פרק ד, א",
+    "line_index_1": 685,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק ב, יח",
     "path_2": "משנה תורה, הלכות גירושין.txt",
-    "line_index_2": 74,
-    "ref_2": "Mishneh Torah, Divorce 4:1",
+    "line_index_2": 50,
+    "ref_2": "Mishneh Torah, Divorce 2:18",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 223,
-    "heRef_2": "ספר נשים, הלכות גירושין, פרק ה, א",
+    "line_index_1": 687,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק ב, כ",
     "path_2": "משנה תורה, הלכות גירושין.txt",
-    "line_index_2": 100,
-    "ref_2": "Mishneh Torah, Divorce 5:1",
+    "line_index_2": 52,
+    "ref_2": "Mishneh Torah, Divorce 2:20",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 226,
+    "line_index_1": 690,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק ג, ד",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 57,
+    "ref_2": "Mishneh Torah, Divorce 3:4",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 692,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק ג, יב",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 65,
+    "ref_2": "Mishneh Torah, Divorce 3:12",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 694,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק ג, טו",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 68,
+    "ref_2": "Mishneh Torah, Divorce 3:15",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 697,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק ד, ו",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 79,
+    "ref_2": "Mishneh Torah, Divorce 4:6",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 699,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק ד, ז",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 80,
+    "ref_2": "Mishneh Torah, Divorce 4:7",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 701,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק ד, יב",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 85,
+    "ref_2": "Mishneh Torah, Divorce 4:12",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 704,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק ה, ב",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 101,
+    "ref_2": "Mishneh Torah, Divorce 5:2",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 706,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק ה, י",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 109,
+    "ref_2": "Mishneh Torah, Divorce 5:10",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 709,
     "heRef_2": "ספר נשים, הלכות גירושין, פרק ו, א",
     "path_2": "משנה תורה, הלכות גירושין.txt",
     "line_index_2": 119,
@@ -544,7 +1880,55 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 229,
+    "line_index_1": 711,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק ו, ו",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 124,
+    "ref_2": "Mishneh Torah, Divorce 6:6",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 713,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק ו, ט",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 127,
+    "ref_2": "Mishneh Torah, Divorce 6:9",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 715,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק ו, י",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 128,
+    "ref_2": "Mishneh Torah, Divorce 6:10",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 717,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק ו, טז",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 134,
+    "ref_2": "Mishneh Torah, Divorce 6:16",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 719,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק ו, כט",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 147,
+    "ref_2": "Mishneh Torah, Divorce 6:29",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 722,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק ז, א",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 150,
+    "ref_2": "Mishneh Torah, Divorce 7:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 724,
     "heRef_2": "ספר נשים, הלכות גירושין, פרק ז, ה",
     "path_2": "משנה תורה, הלכות גירושין.txt",
     "line_index_2": 154,
@@ -552,7 +1936,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 232,
+    "line_index_1": 727,
     "heRef_2": "ספר נשים, הלכות גירושין, פרק ח, א",
     "path_2": "משנה תורה, הלכות גירושין.txt",
     "line_index_2": 175,
@@ -560,23 +1944,87 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 235,
-    "heRef_2": "ספר נשים, הלכות גירושין, פרק ט, יט",
+    "line_index_1": 729,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק ח, י",
     "path_2": "משנה תורה, הלכות גירושין.txt",
-    "line_index_2": 218,
-    "ref_2": "Mishneh Torah, Divorce 9:19",
+    "line_index_2": 184,
+    "ref_2": "Mishneh Torah, Divorce 8:10",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 238,
-    "heRef_2": "ספר נשים, הלכות גירושין, פרק י, יח",
+    "line_index_1": 731,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק ח, יב",
     "path_2": "משנה תורה, הלכות גירושין.txt",
-    "line_index_2": 259,
-    "ref_2": "Mishneh Torah, Divorce 10:18",
+    "line_index_2": 186,
+    "ref_2": "Mishneh Torah, Divorce 8:12",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 241,
+    "line_index_1": 733,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק ח, יג",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 187,
+    "ref_2": "Mishneh Torah, Divorce 8:13",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 735,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק ח, כא",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 195,
+    "ref_2": "Mishneh Torah, Divorce 8:21",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 737,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק ח, כב",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 196,
+    "ref_2": "Mishneh Torah, Divorce 8:22",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 740,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק ט, ט",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 208,
+    "ref_2": "Mishneh Torah, Divorce 9:9",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 742,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק ט, כא",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 220,
+    "ref_2": "Mishneh Torah, Divorce 9:21",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 744,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק ט, כה",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 224,
+    "ref_2": "Mishneh Torah, Divorce 9:25",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 746,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק ט, כז",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 226,
+    "ref_2": "Mishneh Torah, Divorce 9:27",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 749,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק י, א",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 242,
+    "ref_2": "Mishneh Torah, Divorce 10:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 752,
     "heRef_2": "ספר נשים, הלכות גירושין, פרק יא, כה",
     "path_2": "משנה תורה, הלכות גירושין.txt",
     "line_index_2": 290,
@@ -584,7 +2032,15 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 244,
+    "line_index_1": 755,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק יב, א",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 295,
+    "ref_2": "Mishneh Torah, Divorce 12:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 757,
     "heRef_2": "ספר נשים, הלכות גירושין, פרק יב, ד",
     "path_2": "משנה תורה, הלכות גירושין.txt",
     "line_index_2": 298,
@@ -592,119 +2048,479 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 248,
-    "heRef_2": "ספר נשים, הלכות יבום וחליצה, פרק ג, ג",
-    "path_2": "משנה תורה, הלכות יבום וחליצה.txt",
-    "line_index_2": 52,
-    "ref_2": "Mishneh Torah, Levirate Marriage and Release 3:3",
+    "line_index_1": 759,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק יב, ה",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 299,
+    "ref_2": "Mishneh Torah, Divorce 12:5",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 251,
-    "heRef_2": "ספר נשים, הלכות יבום וחליצה, פרק ד, לד",
-    "path_2": "משנה תורה, הלכות יבום וחליצה.txt",
-    "line_index_2": 103,
-    "ref_2": "Mishneh Torah, Levirate Marriage and Release 4:34",
+    "line_index_1": 761,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק יב, י",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 304,
+    "ref_2": "Mishneh Torah, Divorce 12:10",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 254,
-    "heRef_2": "ספר נשים, הלכות יבום וחליצה, פרק ה, יח",
-    "path_2": "משנה תורה, הלכות יבום וחליצה.txt",
-    "line_index_2": 123,
-    "ref_2": "Mishneh Torah, Levirate Marriage and Release 5:18",
+    "line_index_1": 763,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק יב, טו",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 309,
+    "ref_2": "Mishneh Torah, Divorce 12:15",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 257,
-    "heRef_2": "ספר נשים, הלכות יבום וחליצה, פרק ו, כה",
-    "path_2": "משנה תורה, הלכות יבום וחליצה.txt",
-    "line_index_2": 161,
-    "ref_2": "Mishneh Torah, Levirate Marriage and Release 6:25",
+    "line_index_1": 765,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק יב, טז",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 310,
+    "ref_2": "Mishneh Torah, Divorce 12:16",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 261,
-    "heRef_2": "ספר נשים, הלכות נערה בתולה, פרק א, ג",
-    "path_2": "משנה תורה, הלכות נערה בתולה.txt",
+    "line_index_1": 767,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק יב, כד",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 318,
+    "ref_2": "Mishneh Torah, Divorce 12:24",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 770,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק יג, א",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 320,
+    "ref_2": "Mishneh Torah, Divorce 13:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 772,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק יג, ב",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 321,
+    "ref_2": "Mishneh Torah, Divorce 13:2",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 774,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק יג, ג",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 322,
+    "ref_2": "Mishneh Torah, Divorce 13:3",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 776,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק יג, ד",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 323,
+    "ref_2": "Mishneh Torah, Divorce 13:4",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 778,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק יג, ה",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 324,
+    "ref_2": "Mishneh Torah, Divorce 13:5",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 780,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק יג, ח",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 327,
+    "ref_2": "Mishneh Torah, Divorce 13:8",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 782,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק יג, י",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 329,
+    "ref_2": "Mishneh Torah, Divorce 13:10",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 784,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק יג, יא",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 330,
+    "ref_2": "Mishneh Torah, Divorce 13:11",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 786,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק יג, יח",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 337,
+    "ref_2": "Mishneh Torah, Divorce 13:18",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 788,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק יג, יט",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 338,
+    "ref_2": "Mishneh Torah, Divorce 13:19",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 790,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק יג, כ",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 339,
+    "ref_2": "Mishneh Torah, Divorce 13:20",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 792,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק יג, כא",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 340,
+    "ref_2": "Mishneh Torah, Divorce 13:21",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 794,
+    "heRef_2": "ספר נשים, הלכות גירושין, פרק יג, כב",
+    "path_2": "משנה תורה, הלכות גירושין.txt",
+    "line_index_2": 341,
+    "ref_2": "Mishneh Torah, Divorce 13:22",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 798,
+    "heRef_2": "ספר נשים, הלכות יבום וחליצה, פרק א, א",
+    "path_2": "משנה תורה, הלכות יבום וחליצה.txt",
+    "line_index_2": 4,
+    "ref_2": "Mishneh Torah, Levirate Marriage and Release 1:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 800,
+    "heRef_2": "ספר נשים, הלכות יבום וחליצה, פרק א, ג",
+    "path_2": "משנה תורה, הלכות יבום וחליצה.txt",
     "line_index_2": 6,
-    "ref_2": "Mishneh Torah, Virgin Maiden 1:3",
+    "ref_2": "Mishneh Torah, Levirate Marriage and Release 1:3",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 264,
-    "heRef_2": "ספר נשים, הלכות נערה בתולה, פרק ג, ב",
+    "line_index_1": 802,
+    "heRef_2": "ספר נשים, הלכות יבום וחליצה, פרק א, ה",
+    "path_2": "משנה תורה, הלכות יבום וחליצה.txt",
+    "line_index_2": 8,
+    "ref_2": "Mishneh Torah, Levirate Marriage and Release 1:5",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 805,
+    "heRef_2": "ספר נשים, הלכות יבום וחליצה, פרק ב, ג",
+    "path_2": "משנה תורה, הלכות יבום וחליצה.txt",
+    "line_index_2": 30,
+    "ref_2": "Mishneh Torah, Levirate Marriage and Release 2:3",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 808,
+    "heRef_2": "ספר נשים, הלכות יבום וחליצה, פרק ג, א",
+    "path_2": "משנה תורה, הלכות יבום וחליצה.txt",
+    "line_index_2": 50,
+    "ref_2": "Mishneh Torah, Levirate Marriage and Release 3:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 810,
+    "heRef_2": "ספר נשים, הלכות יבום וחליצה, פרק ג, ד",
+    "path_2": "משנה תורה, הלכות יבום וחליצה.txt",
+    "line_index_2": 53,
+    "ref_2": "Mishneh Torah, Levirate Marriage and Release 3:4",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 812,
+    "heRef_2": "ספר נשים, הלכות יבום וחליצה, פרק ג, יג",
+    "path_2": "משנה תורה, הלכות יבום וחליצה.txt",
+    "line_index_2": 62,
+    "ref_2": "Mishneh Torah, Levirate Marriage and Release 3:13",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 814,
+    "heRef_2": "ספר נשים, הלכות יבום וחליצה, פרק ג, יט",
+    "path_2": "משנה תורה, הלכות יבום וחליצה.txt",
+    "line_index_2": 68,
+    "ref_2": "Mishneh Torah, Levirate Marriage and Release 3:19",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 817,
+    "heRef_2": "ספר נשים, הלכות יבום וחליצה, פרק ד, יז",
+    "path_2": "משנה תורה, הלכות יבום וחליצה.txt",
+    "line_index_2": 86,
+    "ref_2": "Mishneh Torah, Levirate Marriage and Release 4:17",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 819,
+    "heRef_2": "ספר נשים, הלכות יבום וחליצה, פרק ד, כ",
+    "path_2": "משנה תורה, הלכות יבום וחליצה.txt",
+    "line_index_2": 89,
+    "ref_2": "Mishneh Torah, Levirate Marriage and Release 4:20",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 821,
+    "heRef_2": "ספר נשים, הלכות יבום וחליצה, פרק ד, כד",
+    "path_2": "משנה תורה, הלכות יבום וחליצה.txt",
+    "line_index_2": 93,
+    "ref_2": "Mishneh Torah, Levirate Marriage and Release 4:24",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 824,
+    "heRef_2": "ספר נשים, הלכות יבום וחליצה, פרק ו, ח",
+    "path_2": "משנה תורה, הלכות יבום וחליצה.txt",
+    "line_index_2": 144,
+    "ref_2": "Mishneh Torah, Levirate Marriage and Release 6:8",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 828,
+    "heRef_2": "ספר נשים, הלכות נערה בתולה, פרק א, יא",
     "path_2": "משנה תורה, הלכות נערה בתולה.txt",
-    "line_index_2": 39,
-    "ref_2": "Mishneh Torah, Virgin Maiden 3:2",
+    "line_index_2": 14,
+    "ref_2": "Mishneh Torah, Virgin Maiden 1:11",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 268,
-    "heRef_2": "ספר נשים, הלכות סוטה, פרק ב, יב",
-    "path_2": "משנה תורה, הלכות סוטה.txt",
+    "line_index_1": 831,
+    "heRef_2": "ספר נשים, הלכות נערה בתולה, פרק ב, יז",
+    "path_2": "משנה תורה, הלכות נערה בתולה.txt",
     "line_index_2": 36,
-    "ref_2": "Mishneh Torah, Woman Suspected of Infidelity 2:12",
+    "ref_2": "Mishneh Torah, Virgin Maiden 2:17",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 273,
-    "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק ג, ב",
-    "path_2": "משנה תורה, הלכות איסורי ביאה.txt",
+    "line_index_1": 835,
+    "heRef_2": "ספר נשים, הלכות סוטה, פרק א, א",
+    "path_2": "משנה תורה, הלכות סוטה.txt",
+    "line_index_2": 4,
+    "ref_2": "Mishneh Torah, Woman Suspected of Infidelity 1:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 837,
+    "heRef_2": "ספר נשים, הלכות סוטה, פרק א, ו",
+    "path_2": "משנה תורה, הלכות סוטה.txt",
+    "line_index_2": 9,
+    "ref_2": "Mishneh Torah, Woman Suspected of Infidelity 1:6",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 839,
+    "heRef_2": "ספר נשים, הלכות סוטה, פרק א, ח",
+    "path_2": "משנה תורה, הלכות סוטה.txt",
+    "line_index_2": 11,
+    "ref_2": "Mishneh Torah, Woman Suspected of Infidelity 1:8",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 841,
+    "heRef_2": "ספר נשים, הלכות סוטה, פרק א, יד",
+    "path_2": "משנה תורה, הלכות סוטה.txt",
+    "line_index_2": 17,
+    "ref_2": "Mishneh Torah, Woman Suspected of Infidelity 1:14",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 843,
+    "heRef_2": "ספר נשים, הלכות סוטה, פרק א, טו",
+    "path_2": "משנה תורה, הלכות סוטה.txt",
+    "line_index_2": 18,
+    "ref_2": "Mishneh Torah, Woman Suspected of Infidelity 1:15",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 846,
+    "heRef_2": "ספר נשים, הלכות סוטה, פרק ב, א",
+    "path_2": "משנה תורה, הלכות סוטה.txt",
+    "line_index_2": 25,
+    "ref_2": "Mishneh Torah, Woman Suspected of Infidelity 2:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 848,
+    "heRef_2": "ספר נשים, הלכות סוטה, פרק ב, ד",
+    "path_2": "משנה תורה, הלכות סוטה.txt",
+    "line_index_2": 28,
+    "ref_2": "Mishneh Torah, Woman Suspected of Infidelity 2:4",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 851,
+    "heRef_2": "ספר נשים, הלכות סוטה, פרק ג, ג",
+    "path_2": "משנה תורה, הלכות סוטה.txt",
     "line_index_2": 44,
-    "ref_2": "Mishneh Torah, Forbidden Intercourse 3:2",
+    "ref_2": "Mishneh Torah, Woman Suspected of Infidelity 3:3",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 276,
-    "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק ד, ג",
+    "line_index_1": 853,
+    "heRef_2": "ספר נשים, הלכות סוטה, פרק ג, י",
+    "path_2": "משנה תורה, הלכות סוטה.txt",
+    "line_index_2": 51,
+    "ref_2": "Mishneh Torah, Woman Suspected of Infidelity 3:10",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 855,
+    "heRef_2": "ספר נשים, הלכות סוטה, פרק ג, כד",
+    "path_2": "משנה תורה, הלכות סוטה.txt",
+    "line_index_2": 65,
+    "ref_2": "Mishneh Torah, Woman Suspected of Infidelity 3:24",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 858,
+    "heRef_2": "ספר נשים, הלכות סוטה, פרק ד, ב",
+    "path_2": "משנה תורה, הלכות סוטה.txt",
+    "line_index_2": 68,
+    "ref_2": "Mishneh Torah, Woman Suspected of Infidelity 4:2",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 860,
+    "heRef_2": "ספר נשים, הלכות סוטה, פרק ד, יד",
+    "path_2": "משנה תורה, הלכות סוטה.txt",
+    "line_index_2": 80,
+    "ref_2": "Mishneh Torah, Woman Suspected of Infidelity 4:14",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 865,
+    "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק א, כ",
     "path_2": "משנה תורה, הלכות איסורי ביאה.txt",
-    "line_index_2": 63,
-    "ref_2": "Mishneh Torah, Forbidden Intercourse 4:3",
+    "line_index_2": 23,
+    "ref_2": "Mishneh Torah, Forbidden Intercourse 1:20",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 279,
-    "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק י, יד",
+    "line_index_1": 867,
+    "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק א, כא",
     "path_2": "משנה תורה, הלכות איסורי ביאה.txt",
-    "line_index_2": 235,
-    "ref_2": "Mishneh Torah, Forbidden Intercourse 10:14",
+    "line_index_2": 24,
+    "ref_2": "Mishneh Torah, Forbidden Intercourse 1:21",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 282,
-    "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק יא, ט",
+    "line_index_1": 869,
+    "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק א, כב",
     "path_2": "משנה תורה, הלכות איסורי ביאה.txt",
-    "line_index_2": 252,
-    "ref_2": "Mishneh Torah, Forbidden Intercourse 11:9",
+    "line_index_2": 25,
+    "ref_2": "Mishneh Torah, Forbidden Intercourse 1:22",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 285,
-    "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק טו, כה",
+    "line_index_1": 871,
+    "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק א, כג",
     "path_2": "משנה תורה, הלכות איסורי ביאה.txt",
-    "line_index_2": 353,
-    "ref_2": "Mishneh Torah, Forbidden Intercourse 15:25",
+    "line_index_2": 26,
+    "ref_2": "Mishneh Torah, Forbidden Intercourse 1:23",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 288,
-    "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק יח, ב",
+    "line_index_1": 874,
+    "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק ב, ב",
     "path_2": "משנה תורה, הלכות איסורי ביאה.txt",
-    "line_index_2": 400,
-    "ref_2": "Mishneh Torah, Forbidden Intercourse 18:2",
+    "line_index_2": 29,
+    "ref_2": "Mishneh Torah, Forbidden Intercourse 2:2",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 291,
-    "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק כא, לא",
+    "line_index_1": 877,
+    "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק ג, א",
     "path_2": "משנה תורה, הלכות איסורי ביאה.txt",
-    "line_index_2": 505,
-    "ref_2": "Mishneh Torah, Forbidden Intercourse 21:31",
+    "line_index_2": 43,
+    "ref_2": "Mishneh Torah, Forbidden Intercourse 3:1",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 295,
+    "line_index_1": 879,
+    "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק ג, יז",
+    "path_2": "משנה תורה, הלכות איסורי ביאה.txt",
+    "line_index_2": 59,
+    "ref_2": "Mishneh Torah, Forbidden Intercourse 3:17",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 882,
+    "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק יב, י",
+    "path_2": "משנה תורה, הלכות איסורי ביאה.txt",
+    "line_index_2": 273,
+    "ref_2": "Mishneh Torah, Forbidden Intercourse 12:10",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 884,
+    "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק יב, כה",
+    "path_2": "משנה תורה, הלכות איסורי ביאה.txt",
+    "line_index_2": 288,
+    "ref_2": "Mishneh Torah, Forbidden Intercourse 12:25",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 887,
+    "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק יג, ח",
+    "path_2": "משנה תורה, הלכות איסורי ביאה.txt",
+    "line_index_2": 297,
+    "ref_2": "Mishneh Torah, Forbidden Intercourse 13:8",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 890,
+    "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק יח, א",
+    "path_2": "משנה תורה, הלכות איסורי ביאה.txt",
+    "line_index_2": 399,
+    "ref_2": "Mishneh Torah, Forbidden Intercourse 18:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 892,
+    "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק יח, ח",
+    "path_2": "משנה תורה, הלכות איסורי ביאה.txt",
+    "line_index_2": 406,
+    "ref_2": "Mishneh Torah, Forbidden Intercourse 18:8",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 895,
+    "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק יט, א",
+    "path_2": "משנה תורה, הלכות איסורי ביאה.txt",
+    "line_index_2": 430,
+    "ref_2": "Mishneh Torah, Forbidden Intercourse 19:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 898,
+    "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק כ, יג",
+    "path_2": "משנה תורה, הלכות איסורי ביאה.txt",
+    "line_index_2": 466,
+    "ref_2": "Mishneh Torah, Forbidden Intercourse 20:13",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 901,
+    "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק כא, לב",
+    "path_2": "משנה תורה, הלכות איסורי ביאה.txt",
+    "line_index_2": 506,
+    "ref_2": "Mishneh Torah, Forbidden Intercourse 21:32",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 905,
     "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק א, א",
     "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
     "line_index_2": 4,
@@ -712,39 +2528,55 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 298,
-    "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק ב, א",
+    "line_index_1": 907,
+    "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק א, ד",
     "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
-    "line_index_2": 29,
-    "ref_2": "Mishneh Torah, Forbidden Foods 2:1",
+    "line_index_2": 7,
+    "ref_2": "Mishneh Torah, Forbidden Foods 1:4",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 301,
-    "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק ג, ה",
+    "line_index_1": 909,
+    "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק א, ה",
     "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
-    "line_index_2": 58,
-    "ref_2": "Mishneh Torah, Forbidden Foods 3:5",
+    "line_index_2": 8,
+    "ref_2": "Mishneh Torah, Forbidden Foods 1:5",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 304,
-    "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק ד, יט",
+    "line_index_1": 912,
+    "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק ג, ח",
     "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
-    "line_index_2": 97,
-    "ref_2": "Mishneh Torah, Forbidden Foods 4:19",
+    "line_index_2": 61,
+    "ref_2": "Mishneh Torah, Forbidden Foods 3:8",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 307,
-    "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק ו, ד",
+    "line_index_1": 915,
+    "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק ו, ה",
     "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
-    "line_index_2": 121,
-    "ref_2": "Mishneh Torah, Forbidden Foods 6:4",
+    "line_index_2": 122,
+    "ref_2": "Mishneh Torah, Forbidden Foods 6:5",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 310,
+    "line_index_1": 917,
+    "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק ו, יב",
+    "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
+    "line_index_2": 129,
+    "ref_2": "Mishneh Torah, Forbidden Foods 6:12",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 920,
+    "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק ז, ג",
+    "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
+    "line_index_2": 142,
+    "ref_2": "Mishneh Torah, Forbidden Foods 7:3",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 923,
     "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק ח, יא",
     "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
     "line_index_2": 172,
@@ -752,55 +2584,63 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 313,
-    "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק ט, כא",
+    "line_index_1": 925,
+    "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק ח, טז",
     "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
-    "line_index_2": 201,
-    "ref_2": "Mishneh Torah, Forbidden Foods 9:21",
+    "line_index_2": 177,
+    "ref_2": "Mishneh Torah, Forbidden Foods 8:16",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 316,
-    "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק י, ב",
+    "line_index_1": 928,
+    "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק ט, ט",
     "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
-    "line_index_2": 211,
-    "ref_2": "Mishneh Torah, Forbidden Foods 10:2",
+    "line_index_2": 189,
+    "ref_2": "Mishneh Torah, Forbidden Foods 9:9",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 319,
-    "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק יא, ג",
+    "line_index_1": 930,
+    "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק ט, י",
     "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
-    "line_index_2": 237,
-    "ref_2": "Mishneh Torah, Forbidden Foods 11:3",
+    "line_index_2": 190,
+    "ref_2": "Mishneh Torah, Forbidden Foods 9:10",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 322,
-    "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק יב, יב",
+    "line_index_1": 933,
+    "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק יג, יד",
     "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
-    "line_index_2": 273,
-    "ref_2": "Mishneh Torah, Forbidden Foods 12:12",
+    "line_index_2": 305,
+    "ref_2": "Mishneh Torah, Forbidden Foods 13:14",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 325,
-    "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק יג, י",
+    "line_index_1": 936,
+    "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק יד, ב",
     "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
-    "line_index_2": 301,
-    "ref_2": "Mishneh Torah, Forbidden Foods 13:10",
+    "line_index_2": 322,
+    "ref_2": "Mishneh Torah, Forbidden Foods 14:2",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 328,
-    "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק יד, יח",
+    "line_index_1": 938,
+    "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק יד, י",
     "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
-    "line_index_2": 338,
-    "ref_2": "Mishneh Torah, Forbidden Foods 14:18",
+    "line_index_2": 330,
+    "ref_2": "Mishneh Torah, Forbidden Foods 14:10",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 331,
+    "line_index_1": 941,
+    "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק טו, א",
+    "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
+    "line_index_2": 341,
+    "ref_2": "Mishneh Torah, Forbidden Foods 15:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 941,
     "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק טו, ב",
     "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
     "line_index_2": 342,
@@ -808,535 +2648,167 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 334,
-    "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק יז, ב",
+    "line_index_1": 943,
+    "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק טו, ב",
     "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
-    "line_index_2": 413,
-    "ref_2": "Mishneh Torah, Forbidden Foods 17:2",
+    "line_index_2": 342,
+    "ref_2": "Mishneh Torah, Forbidden Foods 15:2",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 339,
-    "heRef_2": "ספר הפלאה, הלכות שבועות, פרק א, ב",
-    "path_2": "משנה תורה, הלכות שבועות.txt",
-    "line_index_2": 5,
-    "ref_2": "Mishneh Torah, Oaths 1:2",
+    "line_index_1": 941,
+    "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק טו, ג",
+    "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
+    "line_index_2": 343,
+    "ref_2": "Mishneh Torah, Forbidden Foods 15:3",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 342,
-    "heRef_2": "ספר הפלאה, הלכות שבועות, פרק ב, א",
-    "path_2": "משנה תורה, הלכות שבועות.txt",
-    "line_index_2": 18,
-    "ref_2": "Mishneh Torah, Oaths 2:1",
+    "line_index_1": 945,
+    "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק טו, ו",
+    "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
+    "line_index_2": 346,
+    "ref_2": "Mishneh Torah, Forbidden Foods 15:6",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 345,
-    "heRef_2": "ספר הפלאה, הלכות שבועות, פרק ג, א",
-    "path_2": "משנה תורה, הלכות שבועות.txt",
-    "line_index_2": 38,
-    "ref_2": "Mishneh Torah, Oaths 3:1",
+    "line_index_1": 947,
+    "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק טו, כב",
+    "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
+    "line_index_2": 362,
+    "ref_2": "Mishneh Torah, Forbidden Foods 15:22",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 348,
-    "heRef_2": "ספר הפלאה, הלכות שבועות, פרק ד, א",
-    "path_2": "משנה תורה, הלכות שבועות.txt",
-    "line_index_2": 50,
-    "ref_2": "Mishneh Torah, Oaths 4:1",
+    "line_index_1": 949,
+    "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק טו, כה",
+    "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
+    "line_index_2": 365,
+    "ref_2": "Mishneh Torah, Forbidden Foods 15:25",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 351,
-    "heRef_2": "ספר הפלאה, הלכות שבועות, פרק ה, א",
-    "path_2": "משנה תורה, הלכות שבועות.txt",
-    "line_index_2": 73,
-    "ref_2": "Mishneh Torah, Oaths 5:1",
+    "line_index_1": 951,
+    "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק טו, כח",
+    "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
+    "line_index_2": 368,
+    "ref_2": "Mishneh Torah, Forbidden Foods 15:28",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 354,
-    "heRef_2": "ספר הפלאה, הלכות שבועות, פרק ו, יז",
-    "path_2": "משנה תורה, הלכות שבועות.txt",
-    "line_index_2": 112,
-    "ref_2": "Mishneh Torah, Oaths 6:17",
+    "line_index_1": 954,
+    "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק טז, א",
+    "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
+    "line_index_2": 376,
+    "ref_2": "Mishneh Torah, Forbidden Foods 16:1",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 357,
-    "heRef_2": "ספר הפלאה, הלכות שבועות, פרק ז, א",
-    "path_2": "משנה תורה, הלכות שבועות.txt",
-    "line_index_2": 115,
-    "ref_2": "Mishneh Torah, Oaths 7:1",
+    "line_index_1": 956,
+    "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק טז, ו",
+    "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
+    "line_index_2": 381,
+    "ref_2": "Mishneh Torah, Forbidden Foods 16:6",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 360,
-    "heRef_2": "ספר הפלאה, הלכות שבועות, פרק ט, א",
-    "path_2": "משנה תורה, הלכות שבועות.txt",
-    "line_index_2": 147,
-    "ref_2": "Mishneh Torah, Oaths 9:1",
+    "line_index_1": 960,
+    "heRef_2": "ספר קדושה, הלכות שחיטה, פרק א, יג",
+    "path_2": "משנה תורה, הלכות שחיטה.txt",
+    "line_index_2": 16,
+    "ref_2": "Mishneh Torah, Ritual Slaughter 1:13",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 363,
-    "heRef_2": "ספר הפלאה, הלכות שבועות, פרק י, א",
-    "path_2": "משנה תורה, הלכות שבועות.txt",
-    "line_index_2": 167,
-    "ref_2": "Mishneh Torah, Oaths 10:1",
+    "line_index_1": 963,
+    "heRef_2": "ספר קדושה, הלכות שחיטה, פרק ב, א",
+    "path_2": "משנה תורה, הלכות שחיטה.txt",
+    "line_index_2": 34,
+    "ref_2": "Mishneh Torah, Ritual Slaughter 2:1",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 366,
-    "heRef_2": "ספר הפלאה, הלכות שבועות, פרק יא, יא",
-    "path_2": "משנה תורה, הלכות שבועות.txt",
-    "line_index_2": 197,
-    "ref_2": "Mishneh Torah, Oaths 11:11",
+    "line_index_1": 965,
+    "heRef_2": "ספר קדושה, הלכות שחיטה, פרק ב, ט",
+    "path_2": "משנה תורה, הלכות שחיטה.txt",
+    "line_index_2": 42,
+    "ref_2": "Mishneh Torah, Ritual Slaughter 2:9",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 369,
-    "heRef_2": "ספר הפלאה, הלכות שבועות, פרק יב, ג",
-    "path_2": "משנה תורה, הלכות שבועות.txt",
-    "line_index_2": 210,
-    "ref_2": "Mishneh Torah, Oaths 12:3",
+    "line_index_1": 968,
+    "heRef_2": "ספר קדושה, הלכות שחיטה, פרק ד, יג",
+    "path_2": "משנה תורה, הלכות שחיטה.txt",
+    "line_index_2": 95,
+    "ref_2": "Mishneh Torah, Ritual Slaughter 4:13",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 373,
-    "heRef_2": "ספר הפלאה, הלכות נדרים, פרק א, א",
-    "path_2": "משנה תורה, הלכות נדרים.txt",
-    "line_index_2": 4,
-    "ref_2": "Mishneh Torah, Vows 1:1",
+    "line_index_1": 971,
+    "heRef_2": "ספר קדושה, הלכות שחיטה, פרק ו, כ",
+    "path_2": "משנה תורה, הלכות שחיטה.txt",
+    "line_index_2": 134,
+    "ref_2": "Mishneh Torah, Ritual Slaughter 6:20",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 376,
-    "heRef_2": "ספר הפלאה, הלכות נדרים, פרק ב, א",
-    "path_2": "משנה תורה, הלכות נדרים.txt",
-    "line_index_2": 35,
-    "ref_2": "Mishneh Torah, Vows 2:1",
+    "line_index_1": 974,
+    "heRef_2": "ספר קדושה, הלכות שחיטה, פרק ח, ח",
+    "path_2": "משנה תורה, הלכות שחיטה.txt",
+    "line_index_2": 166,
+    "ref_2": "Mishneh Torah, Ritual Slaughter 8:8",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 379,
-    "heRef_2": "ספר הפלאה, הלכות נדרים, פרק ג, א",
-    "path_2": "משנה תורה, הלכות נדרים.txt",
-    "line_index_2": 55,
-    "ref_2": "Mishneh Torah, Vows 3:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 382,
-    "heRef_2": "ספר הפלאה, הלכות נדרים, פרק ח, א",
-    "path_2": "משנה תורה, הלכות נדרים.txt",
-    "line_index_2": 139,
-    "ref_2": "Mishneh Torah, Vows 8:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 385,
-    "heRef_2": "ספר הפלאה, הלכות נדרים, פרק יב, יא",
-    "path_2": "משנה תורה, הלכות נדרים.txt",
-    "line_index_2": 229,
-    "ref_2": "Mishneh Torah, Vows 12:11",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 388,
-    "heRef_2": "ספר הפלאה, הלכות נדרים, פרק יג, ו",
-    "path_2": "משנה תורה, הלכות נדרים.txt",
-    "line_index_2": 246,
-    "ref_2": "Mishneh Torah, Vows 13:6",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 392,
-    "heRef_2": "ספר הפלאה, הלכות ערכים וחרמין, פרק ו, כח",
-    "path_2": "משנה תורה, הלכות ערכים וחרמין.txt",
-    "line_index_2": 139,
-    "ref_2": "Mishneh Torah, Appraisals and Devoted Property 6:28",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 395,
-    "heRef_2": "ספר הפלאה, הלכות ערכים וחרמין, פרק ז, יז",
-    "path_2": "משנה תורה, הלכות ערכים וחרמין.txt",
-    "line_index_2": 163,
-    "ref_2": "Mishneh Torah, Appraisals and Devoted Property 7:17",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 400,
-    "heRef_2": "ספר זרעים, הלכות כלאים, פרק י, ב",
-    "path_2": "משנה תורה, הלכות כלאים.txt",
-    "line_index_2": 164,
-    "ref_2": "Mishneh Torah, Diverse Species 10:2",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 404,
-    "heRef_2": "ספר זרעים, הלכות מתנות עניים, פרק ב, יח",
-    "path_2": "משנה תורה, הלכות מתנות עניים.txt",
+    "line_index_1": 995,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ג, א",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
     "line_index_2": 37,
-    "ref_2": "Mishneh Torah, Gifts to the Poor 2:18",
+    "ref_2": "Mishneh Torah, Damages to Property 3:1",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 408,
-    "heRef_2": "ספר זרעים, הלכות תרומות, פרק א, י",
-    "path_2": "משנה תורה, הלכות תרומות.txt",
-    "line_index_2": 13,
-    "ref_2": "Mishneh Torah, Heave Offerings 1:10",
+    "line_index_1": 998,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק יד, ה",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 221,
+    "ref_2": "Mishneh Torah, Damages to Property 14:5",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 411,
-    "heRef_2": "ספר זרעים, הלכות תרומות, פרק ב, א",
-    "path_2": "משנה תורה, הלכות תרומות.txt",
-    "line_index_2": 31,
-    "ref_2": "Mishneh Torah, Heave Offerings 2:1",
+    "line_index_1": 1000,
+    "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק יד, ו",
+    "path_2": "משנה תורה, הלכות נזקי ממון.txt",
+    "line_index_2": 222,
+    "ref_2": "Mishneh Torah, Damages to Property 14:6",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 414,
-    "heRef_2": "ספר זרעים, הלכות תרומות, פרק ו, ג",
-    "path_2": "משנה תורה, הלכות תרומות.txt",
-    "line_index_2": 125,
-    "ref_2": "Mishneh Torah, Heave Offerings 6:3",
+    "line_index_1": 1004,
+    "heRef_2": "ספר נזיקין, הלכות גניבה, פרק א, ב",
+    "path_2": "משנה תורה, הלכות גניבה.txt",
+    "line_index_2": 5,
+    "ref_2": "Mishneh Torah, Theft 1:2",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 417,
-    "heRef_2": "ספר זרעים, הלכות תרומות, פרק ז, ח",
-    "path_2": "משנה תורה, הלכות תרומות.txt",
-    "line_index_2": 150,
-    "ref_2": "Mishneh Torah, Heave Offerings 7:8",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 420,
-    "heRef_2": "ספר זרעים, הלכות תרומות, פרק יב, כ",
-    "path_2": "משנה תורה, הלכות תרומות.txt",
-    "line_index_2": 270,
-    "ref_2": "Mishneh Torah, Heave Offerings 12:20",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 423,
-    "heRef_2": "ספר זרעים, הלכות תרומות, פרק יג, יא",
-    "path_2": "משנה תורה, הלכות תרומות.txt",
-    "line_index_2": 284,
-    "ref_2": "Mishneh Torah, Heave Offerings 13:11",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 426,
-    "heRef_2": "ספר זרעים, הלכות תרומות, פרק יד, יג",
-    "path_2": "משנה תורה, הלכות תרומות.txt",
-    "line_index_2": 303,
-    "ref_2": "Mishneh Torah, Heave Offerings 14:13",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 430,
-    "heRef_2": "ספר זרעים, הלכות מעשרות, פרק ג, יד",
-    "path_2": "משנה תורה, הלכות מעשרות.txt",
-    "line_index_2": 43,
-    "ref_2": "Mishneh Torah, Tithes 3:14",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 433,
-    "heRef_2": "ספר זרעים, הלכות מעשרות, פרק ו, יט",
-    "path_2": "משנה תורה, הלכות מעשרות.txt",
-    "line_index_2": 117,
-    "ref_2": "Mishneh Torah, Tithes 6:19",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 436,
-    "heRef_2": "ספר זרעים, הלכות מעשרות, פרק י, ב",
-    "path_2": "משנה תורה, הלכות מעשרות.txt",
-    "line_index_2": 161,
-    "ref_2": "Mishneh Torah, Tithes 10:2",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 440,
-    "heRef_2": "ספר זרעים, הלכות מעשר שני ונטע רבעי, פרק ב, ו",
-    "path_2": "משנה תורה, הלכות מעשר שני ונטע רבעי.txt",
-    "line_index_2": 24,
-    "ref_2": "Mishneh Torah, Second Tithes and Fourth Year's Fruit 2:6",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 443,
-    "heRef_2": "ספר זרעים, הלכות מעשר שני ונטע רבעי, פרק ו, טו",
-    "path_2": "משנה תורה, הלכות מעשר שני ונטע רבעי.txt",
-    "line_index_2": 115,
-    "ref_2": "Mishneh Torah, Second Tithes and Fourth Year's Fruit 6:15",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 446,
-    "heRef_2": "ספר זרעים, הלכות מעשר שני ונטע רבעי, פרק ט, יג",
-    "path_2": "משנה תורה, הלכות מעשר שני ונטע רבעי.txt",
-    "line_index_2": 167,
-    "ref_2": "Mishneh Torah, Second Tithes and Fourth Year's Fruit 9:13",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 449,
-    "heRef_2": "ספר זרעים, הלכות מעשר שני ונטע רבעי, פרק יא, יז",
-    "path_2": "משנה תורה, הלכות מעשר שני ונטע רבעי.txt",
-    "line_index_2": 207,
-    "ref_2": "Mishneh Torah, Second Tithes and Fourth Year's Fruit 11:17",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 453,
-    "heRef_2": "ספר זרעים, הלכות ביכורים ושאר מתנות כהונה שבגבולין, פרק ד, ג",
-    "path_2": "משנה תורה, הלכות ביכורים ושאר מתנות כהונה שבגבולין.txt",
-    "line_index_2": 60,
-    "ref_2": "Mishneh Torah, First Fruits and other Gifts to Priests Outside the Sanctuary 4:3",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 456,
-    "heRef_2": "ספר זרעים, הלכות ביכורים ושאר מתנות כהונה שבגבולין, פרק ה, ח",
-    "path_2": "משנה תורה, הלכות ביכורים ושאר מתנות כהונה שבגבולין.txt",
-    "line_index_2": 83,
-    "ref_2": "Mishneh Torah, First Fruits and other Gifts to Priests Outside the Sanctuary 5:8",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 459,
-    "heRef_2": "ספר זרעים, הלכות ביכורים ושאר מתנות כהונה שבגבולין, פרק ו, יא",
-    "path_2": "משנה תורה, הלכות ביכורים ושאר מתנות כהונה שבגבולין.txt",
-    "line_index_2": 102,
-    "ref_2": "Mishneh Torah, First Fruits and other Gifts to Priests Outside the Sanctuary 6:11",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 462,
-    "heRef_2": "ספר זרעים, הלכות ביכורים ושאר מתנות כהונה שבגבולין, פרק יא, יד",
-    "path_2": "משנה תורה, הלכות ביכורים ושאר מתנות כהונה שבגבולין.txt",
-    "line_index_2": 197,
-    "ref_2": "Mishneh Torah, First Fruits and other Gifts to Priests Outside the Sanctuary 11:14",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 467,
-    "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יד, יג",
-    "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
-    "line_index_2": 260,
-    "ref_2": "Mishneh Torah, Sacrificial Procedure 14:13",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 471,
-    "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק א, א",
-    "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
-    "line_index_2": 4,
-    "ref_2": "Mishneh Torah, Daily Offerings and Additional Offerings 1:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 474,
-    "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק ז, יג",
-    "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
-    "line_index_2": 112,
-    "ref_2": "Mishneh Torah, Daily Offerings and Additional Offerings 7:13",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 478,
-    "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק ו, כ",
-    "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
-    "line_index_2": 156,
-    "ref_2": "Mishneh Torah, Sacrifices Rendered Unfit 6:20",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 482,
-    "heRef_2": "ספר עבודה, הלכות עבודת יום הכפורים, פרק ב, ב",
-    "path_2": "משנה תורה, הלכות עבודת יום הכפורים.txt",
-    "line_index_2": 14,
-    "ref_2": "Mishneh Torah, Service on the Day of Atonement 2:2",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 485,
-    "heRef_2": "ספר עבודה, הלכות עבודת יום הכפורים, פרק ג, ג",
-    "path_2": "משנה תורה, הלכות עבודת יום הכפורים.txt",
+    "line_index_1": 1007,
+    "heRef_2": "ספר נזיקין, הלכות גניבה, פרק ב, א",
+    "path_2": "משנה תורה, הלכות גניבה.txt",
     "line_index_2": 23,
-    "ref_2": "Mishneh Torah, Service on the Day of Atonement 3:3",
+    "ref_2": "Mishneh Torah, Theft 2:1",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 489,
-    "heRef_2": "ספר עבודה, הלכות מעילה, פרק ג, א",
-    "path_2": "משנה תורה, הלכות מעילה.txt",
-    "line_index_2": 35,
-    "ref_2": "Mishneh Torah, Trespass 3:1",
+    "line_index_1": 1009,
+    "heRef_2": "ספר נזיקין, הלכות גניבה, פרק ב, טז",
+    "path_2": "משנה תורה, הלכות גניבה.txt",
+    "line_index_2": 38,
+    "ref_2": "Mishneh Torah, Theft 2:16",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 492,
-    "heRef_2": "ספר עבודה, הלכות מעילה, פרק ז, א",
-    "path_2": "משנה תורה, הלכות מעילה.txt",
-    "line_index_2": 92,
-    "ref_2": "Mishneh Torah, Trespass 7:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 497,
-    "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק א, טז",
-    "path_2": "משנה תורה, הלכות קרבן פסח.txt",
-    "line_index_2": 19,
-    "ref_2": "Mishneh Torah, Paschal Offering 1:16",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 500,
-    "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק ג, א",
-    "path_2": "משנה תורה, הלכות קרבן פסח.txt",
-    "line_index_2": 41,
-    "ref_2": "Mishneh Torah, Paschal Offering 3:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 504,
-    "heRef_2": "ספר קורבנות, הלכות בכורות, פרק א, ח",
-    "path_2": "משנה תורה, הלכות בכורות.txt",
-    "line_index_2": 11,
-    "ref_2": "Mishneh Torah, Firstlings 1:8",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 507,
-    "heRef_2": "ספר קורבנות, הלכות בכורות, פרק ב, ו",
-    "path_2": "משנה תורה, הלכות בכורות.txt",
-    "line_index_2": 29,
-    "ref_2": "Mishneh Torah, Firstlings 2:6",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 510,
-    "heRef_2": "ספר קורבנות, הלכות בכורות, פרק ג, ד",
-    "path_2": "משנה תורה, הלכות בכורות.txt",
-    "line_index_2": 47,
-    "ref_2": "Mishneh Torah, Firstlings 3:4",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 513,
-    "heRef_2": "ספר קורבנות, הלכות בכורות, פרק ד, ד",
-    "path_2": "משנה תורה, הלכות בכורות.txt",
-    "line_index_2": 61,
-    "ref_2": "Mishneh Torah, Firstlings 4:4",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 516,
-    "heRef_2": "ספר קורבנות, הלכות בכורות, פרק ה, ב",
-    "path_2": "משנה תורה, הלכות בכורות.txt",
-    "line_index_2": 81,
-    "ref_2": "Mishneh Torah, Firstlings 5:2",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 521,
-    "heRef_2": "ספר טהרה, הלכות טומאת מת, פרק כה, ט",
-    "path_2": "משנה תורה, הלכות טומאת מת.txt",
-    "line_index_2": 270,
-    "ref_2": "Mishneh Torah, Defilement by a Corpse 25:9",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 525,
-    "heRef_2": "ספר טהרה, הלכות פרה אדומה, פרק טו, א",
-    "path_2": "משנה תורה, הלכות פרה אדומה.txt",
-    "line_index_2": 174,
-    "ref_2": "Mishneh Torah, Red Heifer 15:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 529,
-    "heRef_2": "ספר טהרה, הלכות שאר אבות הטומאות, פרק א, טז",
-    "path_2": "משנה תורה, הלכות שאר אבות הטומאות.txt",
-    "line_index_2": 19,
-    "ref_2": "Mishneh Torah, Other Sources of Defilement 1:16",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 531,
-    "heRef_2": "ספר טהרה, הלכות שאר אבות הטומאות, פרק א, יז",
-    "path_2": "משנה תורה, הלכות שאר אבות הטומאות.txt",
-    "line_index_2": 20,
-    "ref_2": "Mishneh Torah, Other Sources of Defilement 1:17",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 535,
-    "heRef_2": "ספר טהרה, הלכות טומאת אוכלים, פרק טז, ה",
-    "path_2": "משנה תורה, הלכות טומאת אוכלים.txt",
-    "line_index_2": 270,
-    "ref_2": "Mishneh Torah, Defilement of Foods 16:5",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 539,
-    "heRef_2": "ספר טהרה, הלכות מקואות, פרק א, יא",
-    "path_2": "משנה תורה, הלכות מקואות.txt",
-    "line_index_2": 14,
-    "ref_2": "Mishneh Torah, Immersion Pools 1:11",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 542,
-    "heRef_2": "ספר טהרה, הלכות מקואות, פרק ב, א",
-    "path_2": "משנה תורה, הלכות מקואות.txt",
-    "line_index_2": 17,
-    "ref_2": "Mishneh Torah, Immersion Pools 2:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 545,
-    "heRef_2": "ספר טהרה, הלכות מקואות, פרק ד, א",
-    "path_2": "משנה תורה, הלכות מקואות.txt",
-    "line_index_2": 68,
-    "ref_2": "Mishneh Torah, Immersion Pools 4:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 548,
-    "heRef_2": "ספר טהרה, הלכות מקואות, פרק ה, ה",
-    "path_2": "משנה תורה, הלכות מקואות.txt",
-    "line_index_2": 83,
-    "ref_2": "Mishneh Torah, Immersion Pools 5:5",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 551,
-    "heRef_2": "ספר טהרה, הלכות מקואות, פרק ו, ג",
-    "path_2": "משנה תורה, הלכות מקואות.txt",
-    "line_index_2": 91,
-    "ref_2": "Mishneh Torah, Immersion Pools 6:3",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 554,
-    "heRef_2": "ספר טהרה, הלכות מקואות, פרק ט, ו",
-    "path_2": "משנה תורה, הלכות מקואות.txt",
-    "line_index_2": 136,
-    "ref_2": "Mishneh Torah, Immersion Pools 9:6",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 559,
+    "line_index_1": 1012,
     "heRef_2": "ספר נזיקין, הלכות גניבה, פרק ג, ח",
     "path_2": "משנה תורה, הלכות גניבה.txt",
     "line_index_2": 49,
@@ -1344,7 +2816,95 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 563,
+    "line_index_1": 1012,
+    "heRef_2": "ספר נזיקין, הלכות גניבה, פרק ג, ט",
+    "path_2": "משנה תורה, הלכות גניבה.txt",
+    "line_index_2": 50,
+    "ref_2": "Mishneh Torah, Theft 3:9",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1014,
+    "heRef_2": "ספר נזיקין, הלכות גניבה, פרק ג, י",
+    "path_2": "משנה תורה, הלכות גניבה.txt",
+    "line_index_2": 51,
+    "ref_2": "Mishneh Torah, Theft 3:10",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1017,
+    "heRef_2": "ספר נזיקין, הלכות גניבה, פרק ה, ג",
+    "path_2": "משנה תורה, הלכות גניבה.txt",
+    "line_index_2": 75,
+    "ref_2": "Mishneh Torah, Theft 5:3",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1021,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק א, ה",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 8,
+    "ref_2": "Mishneh Torah, Robbery and Lost Property 1:5",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1023,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק א, ו",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 9,
+    "ref_2": "Mishneh Torah, Robbery and Lost Property 1:6",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1029,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק א, ט",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 12,
+    "ref_2": "Mishneh Torah, Robbery and Lost Property 1:9",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1036,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק א, י",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 13,
+    "ref_2": "Mishneh Torah, Robbery and Lost Property 1:10",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1039,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק ב, ב",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 19,
+    "ref_2": "Mishneh Torah, Robbery and Lost Property 2:2",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1041,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק ב, ז",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 24,
+    "ref_2": "Mishneh Torah, Robbery and Lost Property 2:7",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1044,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק ג, ד",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 38,
+    "ref_2": "Mishneh Torah, Robbery and Lost Property 3:4",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1046,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק ג, ה",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 39,
+    "ref_2": "Mishneh Torah, Robbery and Lost Property 3:5",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1058,
     "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק ג, ט",
     "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
     "line_index_2": 43,
@@ -1352,207 +2912,407 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 566,
-    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק ד, י",
+    "line_index_1": 1060,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק ג, יא",
     "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
-    "line_index_2": 61,
-    "ref_2": "Mishneh Torah, Robbery and Lost Property 4:10",
+    "line_index_2": 45,
+    "ref_2": "Mishneh Torah, Robbery and Lost Property 3:11",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 569,
-    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק ט, ח",
+    "line_index_1": 1062,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק ג, טו",
     "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
-    "line_index_2": 142,
-    "ref_2": "Mishneh Torah, Robbery and Lost Property 9:8",
+    "line_index_2": 49,
+    "ref_2": "Mishneh Torah, Robbery and Lost Property 3:15",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 572,
-    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק י, ד",
+    "line_index_1": 1064,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק ג, טז",
     "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
-    "line_index_2": 155,
-    "ref_2": "Mishneh Torah, Robbery and Lost Property 10:4",
+    "line_index_2": 50,
+    "ref_2": "Mishneh Torah, Robbery and Lost Property 3:16",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 575,
-    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק טו, יח",
+    "line_index_1": 1067,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק ד, א",
     "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
-    "line_index_2": 254,
-    "ref_2": "Mishneh Torah, Robbery and Lost Property 15:18",
+    "line_index_2": 52,
+    "ref_2": "Mishneh Torah, Robbery and Lost Property 4:1",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 578,
-    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יז, א",
+    "line_index_1": 1069,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק ד, ה",
     "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
-    "line_index_2": 268,
-    "ref_2": "Mishneh Torah, Robbery and Lost Property 17:1",
+    "line_index_2": 56,
+    "ref_2": "Mishneh Torah, Robbery and Lost Property 4:5",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 581,
-    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יח, ט",
+    "line_index_1": 1071,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק ד, ז",
     "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
-    "line_index_2": 290,
-    "ref_2": "Mishneh Torah, Robbery and Lost Property 18:9",
+    "line_index_2": 58,
+    "ref_2": "Mishneh Torah, Robbery and Lost Property 4:7",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 585,
-    "heRef_2": "ספר נזיקין, הלכות חובל ומזיק, פרק א, יח",
+    "line_index_1": 1073,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק ד, ח",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 59,
+    "ref_2": "Mishneh Torah, Robbery and Lost Property 4:8",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1076,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק ט, יג",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 147,
+    "ref_2": "Mishneh Torah, Robbery and Lost Property 9:13",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1079,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יא, א",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 165,
+    "ref_2": "Mishneh Torah, Robbery and Lost Property 11:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1081,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יא, יא",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 175,
+    "ref_2": "Mishneh Torah, Robbery and Lost Property 11:11",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1083,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יא, יח",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 182,
+    "ref_2": "Mishneh Torah, Robbery and Lost Property 11:18",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1085,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יא, יט",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 183,
+    "ref_2": "Mishneh Torah, Robbery and Lost Property 11:19",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1087,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יא, כ",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 184,
+    "ref_2": "Mishneh Torah, Robbery and Lost Property 11:20",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1090,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יב, ה",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 190,
+    "ref_2": "Mishneh Torah, Robbery and Lost Property 12:5",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1092,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יב, ז",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 192,
+    "ref_2": "Mishneh Torah, Robbery and Lost Property 12:7",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1094,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יב, יא",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 196,
+    "ref_2": "Mishneh Torah, Robbery and Lost Property 12:11",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1097,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יג, ה",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 206,
+    "ref_2": "Mishneh Torah, Robbery and Lost Property 13:5",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1099,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יג, כ",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 221,
+    "ref_2": "Mishneh Torah, Robbery and Lost Property 13:20",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1102,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יד, ו",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 228,
+    "ref_2": "Mishneh Torah, Robbery and Lost Property 14:6",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1105,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק טו, א",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 237,
+    "ref_2": "Mishneh Torah, Robbery and Lost Property 15:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1108,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק טז, ד",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 259,
+    "ref_2": "Mishneh Torah, Robbery and Lost Property 16:4",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1111,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יז, ג",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 270,
+    "ref_2": "Mishneh Torah, Robbery and Lost Property 17:3",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1113,
+    "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יז, ח",
+    "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
+    "line_index_2": 275,
+    "ref_2": "Mishneh Torah, Robbery and Lost Property 17:8",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1117,
+    "heRef_2": "ספר נזיקין, הלכות חובל ומזיק, פרק א, יא",
     "path_2": "משנה תורה, הלכות חובל ומזיק.txt",
-    "line_index_2": 21,
-    "ref_2": "Mishneh Torah, One Who Injures a Person or Property 1:18",
+    "line_index_2": 14,
+    "ref_2": "Mishneh Torah, One Who Injures a Person or Property 1:11",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 590,
-    "heRef_2": "ספר קניין, הלכות מכירה, פרק א, ד",
-    "path_2": "משנה תורה, הלכות מכירה.txt",
-    "line_index_2": 7,
-    "ref_2": "Mishneh Torah, Sales 1:4",
+    "line_index_1": 1120,
+    "heRef_2": "ספר נזיקין, הלכות חובל ומזיק, פרק ה, ג",
+    "path_2": "משנה תורה, הלכות חובל ומזיק.txt",
+    "line_index_2": 82,
+    "ref_2": "Mishneh Torah, One Who Injures a Person or Property 5:3",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 593,
-    "heRef_2": "ספר קניין, הלכות מכירה, פרק ו, יב",
-    "path_2": "משנה תורה, הלכות מכירה.txt",
-    "line_index_2": 97,
-    "ref_2": "Mishneh Torah, Sales 6:12",
+    "line_index_1": 1123,
+    "heRef_2": "ספר נזיקין, הלכות חובל ומזיק, פרק ז, א",
+    "path_2": "משנה תורה, הלכות חובל ומזיק.txt",
+    "line_index_2": 111,
+    "ref_2": "Mishneh Torah, One Who Injures a Person or Property 7:1",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 596,
-    "heRef_2": "ספר קניין, הלכות מכירה, פרק יא, טז",
-    "path_2": "משנה תורה, הלכות מכירה.txt",
-    "line_index_2": 159,
-    "ref_2": "Mishneh Torah, Sales 11:16",
+    "line_index_1": 1123,
+    "heRef_2": "ספר נזיקין, הלכות חובל ומזיק, פרק ז, ב",
+    "path_2": "משנה תורה, הלכות חובל ומזיק.txt",
+    "line_index_2": 112,
+    "ref_2": "Mishneh Torah, One Who Injures a Person or Property 7:2",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 599,
-    "heRef_2": "ספר קניין, הלכות מכירה, פרק יט, ב",
-    "path_2": "משנה תורה, הלכות מכירה.txt",
-    "line_index_2": 272,
-    "ref_2": "Mishneh Torah, Sales 19:2",
+    "line_index_1": 1123,
+    "heRef_2": "ספר נזיקין, הלכות חובל ומזיק, פרק ז, ג",
+    "path_2": "משנה תורה, הלכות חובל ומזיק.txt",
+    "line_index_2": 113,
+    "ref_2": "Mishneh Torah, One Who Injures a Person or Property 7:3",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 602,
-    "heRef_2": "ספר קניין, הלכות מכירה, פרק כ, ז",
-    "path_2": "משנה תורה, הלכות מכירה.txt",
-    "line_index_2": 288,
-    "ref_2": "Mishneh Torah, Sales 20:7",
+    "line_index_1": 1123,
+    "heRef_2": "ספר נזיקין, הלכות חובל ומזיק, פרק ז, ד",
+    "path_2": "משנה תורה, הלכות חובל ומזיק.txt",
+    "line_index_2": 114,
+    "ref_2": "Mishneh Torah, One Who Injures a Person or Property 7:4",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 605,
-    "heRef_2": "ספר קניין, הלכות מכירה, פרק כב, א",
-    "path_2": "משנה תורה, הלכות מכירה.txt",
-    "line_index_2": 322,
-    "ref_2": "Mishneh Torah, Sales 22:1",
+    "line_index_1": 1123,
+    "heRef_2": "ספר נזיקין, הלכות חובל ומזיק, פרק ז, ה",
+    "path_2": "משנה תורה, הלכות חובל ומזיק.txt",
+    "line_index_2": 115,
+    "ref_2": "Mishneh Torah, One Who Injures a Person or Property 7:5",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 608,
-    "heRef_2": "ספר קניין, הלכות מכירה, פרק כט, יד",
-    "path_2": "משנה תורה, הלכות מכירה.txt",
-    "line_index_2": 434,
-    "ref_2": "Mishneh Torah, Sales 29:14",
+    "line_index_1": 1125,
+    "heRef_2": "ספר נזיקין, הלכות חובל ומזיק, פרק ז, ו",
+    "path_2": "משנה תורה, הלכות חובל ומזיק.txt",
+    "line_index_2": 116,
+    "ref_2": "Mishneh Torah, One Who Injures a Person or Property 7:6",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 612,
-    "heRef_2": "ספר קניין, הלכות זכייה ומתנה, פרק א, ד",
-    "path_2": "משנה תורה, הלכות זכייה ומתנה.txt",
-    "line_index_2": 7,
-    "ref_2": "Mishneh Torah, Ownerless Property and Gifts 1:4",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 615,
-    "heRef_2": "ספר קניין, הלכות זכייה ומתנה, פרק ג, א",
-    "path_2": "משנה תורה, הלכות זכייה ומתנה.txt",
-    "line_index_2": 39,
-    "ref_2": "Mishneh Torah, Ownerless Property and Gifts 3:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 618,
-    "heRef_2": "ספר קניין, הלכות זכייה ומתנה, פרק ד, ז",
-    "path_2": "משנה תורה, הלכות זכייה ומתנה.txt",
-    "line_index_2": 61,
-    "ref_2": "Mishneh Torah, Ownerless Property and Gifts 4:7",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 621,
-    "heRef_2": "ספר קניין, הלכות זכייה ומתנה, פרק ה, ו",
-    "path_2": "משנה תורה, הלכות זכייה ומתנה.txt",
-    "line_index_2": 75,
-    "ref_2": "Mishneh Torah, Ownerless Property and Gifts 5:6",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 624,
-    "heRef_2": "ספר קניין, הלכות זכייה ומתנה, פרק ו, א",
-    "path_2": "משנה תורה, הלכות זכייה ומתנה.txt",
-    "line_index_2": 80,
-    "ref_2": "Mishneh Torah, Ownerless Property and Gifts 6:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 627,
-    "heRef_2": "ספר קניין, הלכות זכייה ומתנה, פרק ח, ב",
-    "path_2": "משנה תורה, הלכות זכייה ומתנה.txt",
-    "line_index_2": 122,
-    "ref_2": "Mishneh Torah, Ownerless Property and Gifts 8:2",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 630,
-    "heRef_2": "ספר קניין, הלכות זכייה ומתנה, פרק ט, כב",
-    "path_2": "משנה תורה, הלכות זכייה ומתנה.txt",
-    "line_index_2": 170,
-    "ref_2": "Mishneh Torah, Ownerless Property and Gifts 9:22",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 633,
-    "heRef_2": "ספר קניין, הלכות זכייה ומתנה, פרק יא, ב",
-    "path_2": "משנה תורה, הלכות זכייה ומתנה.txt",
-    "line_index_2": 193,
-    "ref_2": "Mishneh Torah, Ownerless Property and Gifts 11:2",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 637,
-    "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק א, ה",
-    "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
+    "line_index_1": 1129,
+    "heRef_2": "ספר נזיקין, הלכות רוצח ושמירת נפש, פרק א, ה",
+    "path_2": "משנה תורה, הלכות רוצח ושמירת נפש.txt",
     "line_index_2": 8,
-    "ref_2": "Mishneh Torah, Agents and Partners 1:5",
+    "ref_2": "Mishneh Torah, Murderer and the Preservation of Life 1:5",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 640,
-    "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק ב, ב",
+    "line_index_1": 1131,
+    "heRef_2": "ספר נזיקין, הלכות רוצח ושמירת נפש, פרק א, יג",
+    "path_2": "משנה תורה, הלכות רוצח ושמירת נפש.txt",
+    "line_index_2": 16,
+    "ref_2": "Mishneh Torah, Murderer and the Preservation of Life 1:13",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1134,
+    "heRef_2": "ספר נזיקין, הלכות רוצח ושמירת נפש, פרק ה, ט",
+    "path_2": "משנה תורה, הלכות רוצח ושמירת נפש.txt",
+    "line_index_2": 73,
+    "ref_2": "Mishneh Torah, Murderer and the Preservation of Life 5:9",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1134,
+    "heRef_2": "ספר נזיקין, הלכות רוצח ושמירת נפש, פרק ה, י",
+    "path_2": "משנה תורה, הלכות רוצח ושמירת נפש.txt",
+    "line_index_2": 74,
+    "ref_2": "Mishneh Torah, Murderer and the Preservation of Life 5:10",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1139,
+    "heRef_2": "ספר קניין, הלכות מכירה, פרק א, ב",
+    "path_2": "משנה תורה, הלכות מכירה.txt",
+    "line_index_2": 5,
+    "ref_2": "Mishneh Torah, Sales 1:2",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1142,
+    "heRef_2": "ספר קניין, הלכות מכירה, פרק ג, א",
+    "path_2": "משנה תורה, הלכות מכירה.txt",
+    "line_index_2": 36,
+    "ref_2": "Mishneh Torah, Sales 3:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1145,
+    "heRef_2": "ספר קניין, הלכות מכירה, פרק ו, טו",
+    "path_2": "משנה תורה, הלכות מכירה.txt",
+    "line_index_2": 100,
+    "ref_2": "Mishneh Torah, Sales 6:15",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1145,
+    "heRef_2": "ספר קניין, הלכות מכירה, פרק ו, טז",
+    "path_2": "משנה תורה, הלכות מכירה.txt",
+    "line_index_2": 101,
+    "ref_2": "Mishneh Torah, Sales 6:16",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1148,
+    "heRef_2": "ספר קניין, הלכות מכירה, פרק ט, ב",
+    "path_2": "משנה תורה, הלכות מכירה.txt",
+    "line_index_2": 128,
+    "ref_2": "Mishneh Torah, Sales 9:2",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1153,
+    "heRef_2": "ספר קניין, הלכות מכירה, פרק י, א",
+    "path_2": "משנה תורה, הלכות מכירה.txt",
+    "line_index_2": 135,
+    "ref_2": "Mishneh Torah, Sales 10:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1156,
+    "heRef_2": "ספר קניין, הלכות מכירה, פרק יא, ו",
+    "path_2": "משנה תורה, הלכות מכירה.txt",
+    "line_index_2": 149,
+    "ref_2": "Mishneh Torah, Sales 11:6",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1159,
+    "heRef_2": "ספר קניין, הלכות מכירה, פרק יג, ח",
+    "path_2": "משנה תורה, הלכות מכירה.txt",
+    "line_index_2": 186,
+    "ref_2": "Mishneh Torah, Sales 13:8",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1162,
+    "heRef_2": "ספר קניין, הלכות מכירה, פרק טו, ג",
+    "path_2": "משנה תורה, הלכות מכירה.txt",
+    "line_index_2": 219,
+    "ref_2": "Mishneh Torah, Sales 15:3",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1165,
+    "heRef_2": "ספר קניין, הלכות מכירה, פרק כב, טו",
+    "path_2": "משנה תורה, הלכות מכירה.txt",
+    "line_index_2": 336,
+    "ref_2": "Mishneh Torah, Sales 22:15",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1168,
+    "heRef_2": "ספר קניין, הלכות מכירה, פרק ל, א",
+    "path_2": "משנה תורה, הלכות מכירה.txt",
+    "line_index_2": 440,
+    "ref_2": "Mishneh Torah, Sales 30:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1170,
+    "heRef_2": "ספר קניין, הלכות מכירה, פרק ל, ז",
+    "path_2": "משנה תורה, הלכות מכירה.txt",
+    "line_index_2": 446,
+    "ref_2": "Mishneh Torah, Sales 30:7",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1174,
+    "heRef_2": "ספר קניין, הלכות זכייה ומתנה, פרק ג, ו",
+    "path_2": "משנה תורה, הלכות זכייה ומתנה.txt",
+    "line_index_2": 44,
+    "ref_2": "Mishneh Torah, Ownerless Property and Gifts 3:6",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1176,
+    "heRef_2": "ספר קניין, הלכות זכייה ומתנה, פרק ג, ט",
+    "path_2": "משנה תורה, הלכות זכייה ומתנה.txt",
+    "line_index_2": 47,
+    "ref_2": "Mishneh Torah, Ownerless Property and Gifts 3:9",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1180,
+    "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק א, א",
     "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
-    "line_index_2": 15,
-    "ref_2": "Mishneh Torah, Agents and Partners 2:2",
+    "line_index_2": 4,
+    "ref_2": "Mishneh Torah, Agents and Partners 1:1",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 643,
-    "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק ג, א",
-    "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
-    "line_index_2": 24,
-    "ref_2": "Mishneh Torah, Agents and Partners 3:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 646,
+    "line_index_1": 1189,
     "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק ד, ב",
     "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
     "line_index_2": 37,
@@ -1560,55 +3320,39 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 649,
-    "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק ה, ז",
-    "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
-    "line_index_2": 48,
-    "ref_2": "Mishneh Torah, Agents and Partners 5:7",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 652,
-    "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק ז, א",
-    "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
-    "line_index_2": 60,
-    "ref_2": "Mishneh Torah, Agents and Partners 7:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 655,
-    "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק ח, ה",
-    "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
-    "line_index_2": 72,
-    "ref_2": "Mishneh Torah, Agents and Partners 8:5",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 658,
-    "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק ט, א",
-    "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
-    "line_index_2": 76,
-    "ref_2": "Mishneh Torah, Agents and Partners 9:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 662,
-    "heRef_2": "ספר קניין, הלכות עבדים, פרק ג, ד",
+    "line_index_1": 1193,
+    "heRef_2": "ספר קניין, הלכות עבדים, פרק ד, י",
     "path_2": "משנה תורה, הלכות עבדים.txt",
-    "line_index_2": 31,
-    "ref_2": "Mishneh Torah, Slaves 3:4",
+    "line_index_2": 53,
+    "ref_2": "Mishneh Torah, Slaves 4:10",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 665,
-    "heRef_2": "ספר קניין, הלכות עבדים, פרק ה, ב",
+    "line_index_1": 1196,
+    "heRef_2": "ספר קניין, הלכות עבדים, פרק ו, א",
     "path_2": "משנה תורה, הלכות עבדים.txt",
-    "line_index_2": 62,
-    "ref_2": "Mishneh Torah, Slaves 5:2",
+    "line_index_2": 79,
+    "ref_2": "Mishneh Torah, Slaves 6:1",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 670,
+    "line_index_1": 1213,
+    "heRef_2": "ספר קניין, הלכות עבדים, פרק ז, ח",
+    "path_2": "משנה תורה, הלכות עבדים.txt",
+    "line_index_2": 95,
+    "ref_2": "Mishneh Torah, Slaves 7:8",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1216,
+    "heRef_2": "ספר קניין, הלכות עבדים, פרק ח, ד",
+    "path_2": "משנה תורה, הלכות עבדים.txt",
+    "line_index_2": 101,
+    "ref_2": "Mishneh Torah, Slaves 8:4",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1221,
     "heRef_2": "ספר משפטים, הלכות שכירות, פרק א, ג",
     "path_2": "משנה תורה, הלכות שכירות.txt",
     "line_index_2": 6,
@@ -1616,7 +3360,23 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 673,
+    "line_index_1": 1223,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק א, ד",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 7,
+    "ref_2": "Mishneh Torah, Hiring 1:4",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1226,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ב, ב",
+    "path_2": "משנה תורה, הלכות שכירות.txt",
+    "line_index_2": 12,
+    "ref_2": "Mishneh Torah, Hiring 2:2",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1228,
     "heRef_2": "ספר משפטים, הלכות שכירות, פרק ב, ג",
     "path_2": "משנה תורה, הלכות שכירות.txt",
     "line_index_2": 13,
@@ -1624,127 +3384,23 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 676,
-    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ג, ז",
+    "line_index_1": 1230,
+    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ב, ח",
     "path_2": "משנה תורה, הלכות שכירות.txt",
-    "line_index_2": 30,
-    "ref_2": "Mishneh Torah, Hiring 3:7",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 679,
-    "heRef_2": "ספר משפטים, הלכות שכירות, פרק ט, ב",
-    "path_2": "משנה תורה, הלכות שכירות.txt",
-    "line_index_2": 90,
-    "ref_2": "Mishneh Torah, Hiring 9:2",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 682,
-    "heRef_2": "ספר משפטים, הלכות שכירות, פרק י, ג",
-    "path_2": "משנה תורה, הלכות שכירות.txt",
-    "line_index_2": 103,
-    "ref_2": "Mishneh Torah, Hiring 10:3",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 685,
-    "heRef_2": "ספר משפטים, הלכות שכירות, פרק יא, א",
-    "path_2": "משנה תורה, הלכות שכירות.txt",
-    "line_index_2": 109,
-    "ref_2": "Mishneh Torah, Hiring 11:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 688,
-    "heRef_2": "ספר משפטים, הלכות שכירות, פרק יב, יג",
-    "path_2": "משנה תורה, הלכות שכירות.txt",
-    "line_index_2": 131,
-    "ref_2": "Mishneh Torah, Hiring 12:13",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 691,
-    "heRef_2": "ספר משפטים, הלכות שכירות, פרק יג, ב",
-    "path_2": "משנה תורה, הלכות שכירות.txt",
-    "line_index_2": 135,
-    "ref_2": "Mishneh Torah, Hiring 13:2",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 695,
-    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק א, ז",
-    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
-    "line_index_2": 10,
-    "ref_2": "Mishneh Torah, Borrowing and Deposit 1:7",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 698,
-    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ב, ו",
-    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
-    "line_index_2": 20,
-    "ref_2": "Mishneh Torah, Borrowing and Deposit 2:6",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 701,
-    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ג, ב",
-    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
-    "line_index_2": 28,
-    "ref_2": "Mishneh Torah, Borrowing and Deposit 3:2",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 704,
-    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ד, ו",
-    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
-    "line_index_2": 37,
-    "ref_2": "Mishneh Torah, Borrowing and Deposit 4:6",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 707,
-    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ה, א",
-    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
-    "line_index_2": 42,
-    "ref_2": "Mishneh Torah, Borrowing and Deposit 5:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 710,
-    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ז, א",
-    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
-    "line_index_2": 56,
-    "ref_2": "Mishneh Torah, Borrowing and Deposit 7:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 713,
-    "heRef_2": "ספר משפטים, הלכות שאלה ופיקדון, פרק ח, א",
-    "path_2": "משנה תורה, הלכות שאלה ופיקדון.txt",
-    "line_index_2": 69,
-    "ref_2": "Mishneh Torah, Borrowing and Deposit 8:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 717,
-    "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק א, ה",
-    "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
-    "line_index_2": 8,
-    "ref_2": "Mishneh Torah, Creditor and Debtor 1:5",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 720,
-    "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק ב, ו",
-    "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
     "line_index_2": 18,
-    "ref_2": "Mishneh Torah, Creditor and Debtor 2:6",
+    "ref_2": "Mishneh Torah, Hiring 2:8",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 723,
+    "line_index_1": 1234,
+    "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק א, ג",
+    "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
+    "line_index_2": 6,
+    "ref_2": "Mishneh Torah, Creditor and Debtor 1:3",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1237,
     "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק ד, א",
     "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
     "line_index_2": 31,
@@ -1752,39 +3408,71 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 726,
-    "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק ה, א",
+    "line_index_1": 1247,
+    "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק ד, ב",
     "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
-    "line_index_2": 46,
-    "ref_2": "Mishneh Torah, Creditor and Debtor 5:1",
+    "line_index_2": 32,
+    "ref_2": "Mishneh Torah, Creditor and Debtor 4:2",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 729,
-    "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק ו, א",
+    "line_index_1": 1249,
+    "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק ד, יא",
     "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
-    "line_index_2": 64,
-    "ref_2": "Mishneh Torah, Creditor and Debtor 6:1",
+    "line_index_2": 41,
+    "ref_2": "Mishneh Torah, Creditor and Debtor 4:11",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 732,
-    "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק ח, יב",
+    "line_index_1": 1251,
+    "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק ד, יג",
     "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
-    "line_index_2": 97,
-    "ref_2": "Mishneh Torah, Creditor and Debtor 8:12",
+    "line_index_2": 43,
+    "ref_2": "Mishneh Torah, Creditor and Debtor 4:13",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 735,
-    "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק ט, א",
+    "line_index_1": 1254,
+    "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק ו, ב",
     "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
-    "line_index_2": 102,
-    "ref_2": "Mishneh Torah, Creditor and Debtor 9:1",
+    "line_index_2": 65,
+    "ref_2": "Mishneh Torah, Creditor and Debtor 6:2",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 738,
+    "line_index_1": 1256,
+    "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק ו, ג",
+    "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
+    "line_index_2": 66,
+    "ref_2": "Mishneh Torah, Creditor and Debtor 6:3",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1258,
+    "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק ו, ז",
+    "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
+    "line_index_2": 70,
+    "ref_2": "Mishneh Torah, Creditor and Debtor 6:7",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1261,
+    "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק ח, י",
+    "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
+    "line_index_2": 95,
+    "ref_2": "Mishneh Torah, Creditor and Debtor 8:10",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1271,
+    "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק י, א",
+    "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
+    "line_index_2": 113,
+    "ref_2": "Mishneh Torah, Creditor and Debtor 10:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1277,
     "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק י, ב",
     "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
     "line_index_2": 114,
@@ -1792,71 +3480,39 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 741,
-    "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק יא, ז",
+    "line_index_1": 1280,
+    "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק יח, ז",
     "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
-    "line_index_2": 126,
-    "ref_2": "Mishneh Torah, Creditor and Debtor 11:7",
+    "line_index_2": 206,
+    "ref_2": "Mishneh Torah, Creditor and Debtor 18:7",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 744,
-    "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק יד, ב",
+    "line_index_1": 1283,
+    "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק כג, א",
     "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
-    "line_index_2": 154,
-    "ref_2": "Mishneh Torah, Creditor and Debtor 14:2",
+    "line_index_2": 252,
+    "ref_2": "Mishneh Torah, Creditor and Debtor 23:1",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 747,
-    "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק טו, א",
+    "line_index_1": 1285,
+    "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק כג, ח",
     "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
-    "line_index_2": 169,
-    "ref_2": "Mishneh Torah, Creditor and Debtor 15:1",
+    "line_index_2": 259,
+    "ref_2": "Mishneh Torah, Creditor and Debtor 23:8",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 750,
-    "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק טז, ב",
-    "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
-    "line_index_2": 178,
-    "ref_2": "Mishneh Torah, Creditor and Debtor 16:2",
+    "line_index_1": 1289,
+    "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק א, א",
+    "path_2": "משנה תורה, הלכות טוען ונטען.txt",
+    "line_index_2": 4,
+    "ref_2": "Mishneh Torah, Plaintiff and Defendant 1:1",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 753,
-    "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק יז, א",
-    "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
-    "line_index_2": 190,
-    "ref_2": "Mishneh Torah, Creditor and Debtor 17:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 756,
-    "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק יח, ב",
-    "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
-    "line_index_2": 201,
-    "ref_2": "Mishneh Torah, Creditor and Debtor 18:2",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 759,
-    "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק כ, א",
-    "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
-    "line_index_2": 220,
-    "ref_2": "Mishneh Torah, Creditor and Debtor 20:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 762,
-    "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק כה, א",
-    "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
-    "line_index_2": 283,
-    "ref_2": "Mishneh Torah, Creditor and Debtor 25:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 766,
+    "line_index_1": 1299,
     "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק א, ג",
     "path_2": "משנה תורה, הלכות טוען ונטען.txt",
     "line_index_2": 6,
@@ -1864,7 +3520,95 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 769,
+    "line_index_1": 1301,
+    "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק א, ד",
+    "path_2": "משנה תורה, הלכות טוען ונטען.txt",
+    "line_index_2": 7,
+    "ref_2": "Mishneh Torah, Plaintiff and Defendant 1:4",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1301,
+    "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק א, ה",
+    "path_2": "משנה תורה, הלכות טוען ונטען.txt",
+    "line_index_2": 8,
+    "ref_2": "Mishneh Torah, Plaintiff and Defendant 1:5",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1303,
+    "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק א, ו",
+    "path_2": "משנה תורה, הלכות טוען ונטען.txt",
+    "line_index_2": 9,
+    "ref_2": "Mishneh Torah, Plaintiff and Defendant 1:6",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1305,
+    "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק א, ז",
+    "path_2": "משנה תורה, הלכות טוען ונטען.txt",
+    "line_index_2": 10,
+    "ref_2": "Mishneh Torah, Plaintiff and Defendant 1:7",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1307,
+    "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק א, ח",
+    "path_2": "משנה תורה, הלכות טוען ונטען.txt",
+    "line_index_2": 11,
+    "ref_2": "Mishneh Torah, Plaintiff and Defendant 1:8",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1307,
+    "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק א, ט",
+    "path_2": "משנה תורה, הלכות טוען ונטען.txt",
+    "line_index_2": 12,
+    "ref_2": "Mishneh Torah, Plaintiff and Defendant 1:9",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1310,
+    "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק ב, ב",
+    "path_2": "משנה תורה, הלכות טוען ונטען.txt",
+    "line_index_2": 23,
+    "ref_2": "Mishneh Torah, Plaintiff and Defendant 2:2",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1312,
+    "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק ב, ג",
+    "path_2": "משנה תורה, הלכות טוען ונטען.txt",
+    "line_index_2": 24,
+    "ref_2": "Mishneh Torah, Plaintiff and Defendant 2:3",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1314,
+    "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק ב, ד",
+    "path_2": "משנה תורה, הלכות טוען ונטען.txt",
+    "line_index_2": 25,
+    "ref_2": "Mishneh Torah, Plaintiff and Defendant 2:4",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1316,
+    "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק ב, ה",
+    "path_2": "משנה תורה, הלכות טוען ונטען.txt",
+    "line_index_2": 26,
+    "ref_2": "Mishneh Torah, Plaintiff and Defendant 2:5",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1318,
+    "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק ב, ז",
+    "path_2": "משנה תורה, הלכות טוען ונטען.txt",
+    "line_index_2": 28,
+    "ref_2": "Mishneh Torah, Plaintiff and Defendant 2:7",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1320,
     "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק ב, יא",
     "path_2": "משנה תורה, הלכות טוען ונטען.txt",
     "line_index_2": 32,
@@ -1872,135 +3616,47 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 772,
-    "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק ג, א",
+    "line_index_1": 1323,
+    "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק ד, ה",
     "path_2": "משנה תורה, הלכות טוען ונטען.txt",
-    "line_index_2": 35,
-    "ref_2": "Mishneh Torah, Plaintiff and Defendant 3:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 774,
-    "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק ג, יא",
-    "path_2": "משנה תורה, הלכות טוען ונטען.txt",
-    "line_index_2": 45,
-    "ref_2": "Mishneh Torah, Plaintiff and Defendant 3:11",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 777,
-    "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק ה, ד",
-    "path_2": "משנה תורה, הלכות טוען ונטען.txt",
-    "line_index_2": 65,
-    "ref_2": "Mishneh Torah, Plaintiff and Defendant 5:4",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 780,
-    "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק ו, ב",
-    "path_2": "משנה תורה, הלכות טוען ונטען.txt",
-    "line_index_2": 76,
-    "ref_2": "Mishneh Torah, Plaintiff and Defendant 6:2",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 783,
-    "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק יד, ז",
-    "path_2": "משנה תורה, הלכות טוען ונטען.txt",
-    "line_index_2": 175,
-    "ref_2": "Mishneh Torah, Plaintiff and Defendant 14:7",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 786,
-    "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק טו, יא",
-    "path_2": "משנה תורה, הלכות טוען ונטען.txt",
-    "line_index_2": 194,
-    "ref_2": "Mishneh Torah, Plaintiff and Defendant 15:11",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 789,
-    "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק טז, א",
-    "path_2": "משנה תורה, הלכות טוען ונטען.txt",
-    "line_index_2": 196,
-    "ref_2": "Mishneh Torah, Plaintiff and Defendant 16:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 793,
-    "heRef_2": "ספר משפטים, הלכות נחלות, פרק א, יא",
-    "path_2": "משנה תורה, הלכות נחלות.txt",
-    "line_index_2": 14,
-    "ref_2": "Mishneh Torah, Inheritances 1:11",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 796,
-    "heRef_2": "ספר משפטים, הלכות נחלות, פרק ב, י",
-    "path_2": "משנה תורה, הלכות נחלות.txt",
-    "line_index_2": 27,
-    "ref_2": "Mishneh Torah, Inheritances 2:10",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 799,
-    "heRef_2": "ספר משפטים, הלכות נחלות, פרק ה, א",
-    "path_2": "משנה תורה, הלכות נחלות.txt",
     "line_index_2": 55,
-    "ref_2": "Mishneh Torah, Inheritances 5:1",
+    "ref_2": "Mishneh Torah, Plaintiff and Defendant 4:5",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 802,
-    "heRef_2": "ספר משפטים, הלכות נחלות, פרק ו, ב",
-    "path_2": "משנה תורה, הלכות נחלות.txt",
-    "line_index_2": 66,
-    "ref_2": "Mishneh Torah, Inheritances 6:2",
+    "line_index_1": 1325,
+    "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק ד, ח",
+    "path_2": "משנה תורה, הלכות טוען ונטען.txt",
+    "line_index_2": 58,
+    "ref_2": "Mishneh Torah, Plaintiff and Defendant 4:8",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 805,
-    "heRef_2": "ספר משפטים, הלכות נחלות, פרק ז, ד",
-    "path_2": "משנה תורה, הלכות נחלות.txt",
-    "line_index_2": 82,
-    "ref_2": "Mishneh Torah, Inheritances 7:4",
+    "line_index_1": 1332,
+    "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק ה, א",
+    "path_2": "משנה תורה, הלכות טוען ונטען.txt",
+    "line_index_2": 62,
+    "ref_2": "Mishneh Torah, Plaintiff and Defendant 5:1",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 808,
-    "heRef_2": "ספר משפטים, הלכות נחלות, פרק ט, ב",
-    "path_2": "משנה תורה, הלכות נחלות.txt",
-    "line_index_2": 94,
-    "ref_2": "Mishneh Torah, Inheritances 9:2",
+    "line_index_1": 1335,
+    "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק יב, ד",
+    "path_2": "משנה תורה, הלכות טוען ונטען.txt",
+    "line_index_2": 139,
+    "ref_2": "Mishneh Torah, Plaintiff and Defendant 12:4",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 811,
-    "heRef_2": "ספר משפטים, הלכות נחלות, פרק י, א",
-    "path_2": "משנה תורה, הלכות נחלות.txt",
-    "line_index_2": 109,
-    "ref_2": "Mishneh Torah, Inheritances 10:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 814,
-    "heRef_2": "ספר משפטים, הלכות נחלות, פרק יא, ה",
-    "path_2": "משנה תורה, הלכות נחלות.txt",
-    "line_index_2": 122,
-    "ref_2": "Mishneh Torah, Inheritances 11:5",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 819,
-    "heRef_2": "ספר שופטים, הלכות סנהדרין והעונשין המסורין להם, פרק ה, יג",
+    "line_index_1": 1340,
+    "heRef_2": "ספר שופטים, הלכות סנהדרין והעונשין המסורין להם, פרק ב, יא",
     "path_2": "משנה תורה, הלכות סנהדרין והעונשין המסורין להם.txt",
-    "line_index_2": 69,
-    "ref_2": "Mishneh Torah, The Sanhedrin and the Penalties within Their Jurisdiction 5:13",
+    "line_index_2": 25,
+    "ref_2": "Mishneh Torah, The Sanhedrin and the Penalties within Their Jurisdiction 2:11",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 822,
+    "line_index_1": 1343,
     "heRef_2": "ספר שופטים, הלכות סנהדרין והעונשין המסורין להם, פרק ו, א",
     "path_2": "משנה תורה, הלכות סנהדרין והעונשין המסורין להם.txt",
     "line_index_2": 76,
@@ -2008,111 +3664,183 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 825,
-    "heRef_2": "ספר שופטים, הלכות סנהדרין והעונשין המסורין להם, פרק ז, ג",
+    "line_index_1": 1346,
+    "heRef_2": "ספר שופטים, הלכות סנהדרין והעונשין המסורין להם, פרק יא, ה",
     "path_2": "משנה תורה, הלכות סנהדרין והעונשין המסורין להם.txt",
-    "line_index_2": 88,
-    "ref_2": "Mishneh Torah, The Sanhedrin and the Penalties within Their Jurisdiction 7:3",
+    "line_index_2": 119,
+    "ref_2": "Mishneh Torah, The Sanhedrin and the Penalties within Their Jurisdiction 11:5",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 828,
-    "heRef_2": "ספר שופטים, הלכות סנהדרין והעונשין המסורין להם, פרק יז, ז",
+    "line_index_1": 1349,
+    "heRef_2": "ספר שופטים, הלכות סנהדרין והעונשין המסורין להם, פרק טו, ב",
     "path_2": "משנה תורה, הלכות סנהדרין והעונשין המסורין להם.txt",
-    "line_index_2": 190,
-    "ref_2": "Mishneh Torah, The Sanhedrin and the Penalties within Their Jurisdiction 17:7",
+    "line_index_2": 158,
+    "ref_2": "Mishneh Torah, The Sanhedrin and the Penalties within Their Jurisdiction 15:2",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 832,
-    "heRef_2": "ספר שופטים, הלכות עדות, פרק א, ב",
+    "line_index_1": 1352,
+    "heRef_2": "ספר שופטים, הלכות סנהדרין והעונשין המסורין להם, פרק טז, ד",
+    "path_2": "משנה תורה, הלכות סנהדרין והעונשין המסורין להם.txt",
+    "line_index_2": 174,
+    "ref_2": "Mishneh Torah, The Sanhedrin and the Penalties within Their Jurisdiction 16:4",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1354,
+    "heRef_2": "ספר שופטים, הלכות סנהדרין והעונשין המסורין להם, פרק טז, יב",
+    "path_2": "משנה תורה, הלכות סנהדרין והעונשין המסורין להם.txt",
+    "line_index_2": 182,
+    "ref_2": "Mishneh Torah, The Sanhedrin and the Penalties within Their Jurisdiction 16:12",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1357,
+    "heRef_2": "ספר שופטים, הלכות סנהדרין והעונשין המסורין להם, פרק כד, ו",
+    "path_2": "משנה תורה, הלכות סנהדרין והעונשין המסורין להם.txt",
+    "line_index_2": 258,
+    "ref_2": "Mishneh Torah, The Sanhedrin and the Penalties within Their Jurisdiction 24:6",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1361,
+    "heRef_2": "ספר שופטים, הלכות עדות, פרק ג, ה",
     "path_2": "משנה תורה, הלכות עדות.txt",
+    "line_index_2": 21,
+    "ref_2": "Mishneh Torah, Testimony 3:5",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1364,
+    "heRef_2": "ספר שופטים, הלכות עדות, פרק ה, ג",
+    "path_2": "משנה תורה, הלכות עדות.txt",
+    "line_index_2": 40,
+    "ref_2": "Mishneh Torah, Testimony 5:3",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1364,
+    "heRef_2": "ספר שופטים, הלכות עדות, פרק ה, ד",
+    "path_2": "משנה תורה, הלכות עדות.txt",
+    "line_index_2": 41,
+    "ref_2": "Mishneh Torah, Testimony 5:4",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1364,
+    "heRef_2": "ספר שופטים, הלכות עדות, פרק ה, ה",
+    "path_2": "משנה תורה, הלכות עדות.txt",
+    "line_index_2": 42,
+    "ref_2": "Mishneh Torah, Testimony 5:5",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1377,
+    "heRef_2": "ספר שופטים, הלכות עדות, פרק יא, ט",
+    "path_2": "משנה תורה, הלכות עדות.txt",
+    "line_index_2": 98,
+    "ref_2": "Mishneh Torah, Testimony 11:9",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1380,
+    "heRef_2": "ספר שופטים, הלכות עדות, פרק יב, ד",
+    "path_2": "משנה תורה, הלכות עדות.txt",
+    "line_index_2": 104,
+    "ref_2": "Mishneh Torah, Testimony 12:4",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1383,
+    "heRef_2": "ספר שופטים, הלכות עדות, פרק יג, טו",
+    "path_2": "משנה תורה, הלכות עדות.txt",
+    "line_index_2": 126,
+    "ref_2": "Mishneh Torah, Testimony 13:15",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1386,
+    "heRef_2": "ספר שופטים, הלכות עדות, פרק טו, א",
+    "path_2": "משנה תורה, הלכות עדות.txt",
+    "line_index_2": 136,
+    "ref_2": "Mishneh Torah, Testimony 15:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1389,
+    "heRef_2": "ספר שופטים, הלכות עדות, פרק יח, א",
+    "path_2": "משנה תורה, הלכות עדות.txt",
+    "line_index_2": 158,
+    "ref_2": "Mishneh Torah, Testimony 18:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1392,
+    "heRef_2": "ספר שופטים, הלכות עדות, פרק כ, ב",
+    "path_2": "משנה תורה, הלכות עדות.txt",
+    "line_index_2": 172,
+    "ref_2": "Mishneh Torah, Testimony 20:2",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1396,
+    "heRef_2": "ספר שופטים, הלכות ממרים, פרק א, ב",
+    "path_2": "משנה תורה, הלכות ממרים.txt",
     "line_index_2": 5,
-    "ref_2": "Mishneh Torah, Testimony 1:2",
+    "ref_2": "Mishneh Torah, Rebels 1:2",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 835,
-    "heRef_2": "ספר שופטים, הלכות עדות, פרק ג, ג",
-    "path_2": "משנה תורה, הלכות עדות.txt",
-    "line_index_2": 19,
-    "ref_2": "Mishneh Torah, Testimony 3:3",
+    "line_index_1": 1399,
+    "heRef_2": "ספר שופטים, הלכות ממרים, פרק ו, יא",
+    "path_2": "משנה תורה, הלכות ממרים.txt",
+    "line_index_2": 59,
+    "ref_2": "Mishneh Torah, Rebels 6:11",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 838,
-    "heRef_2": "ספר שופטים, הלכות עדות, פרק ט, יא",
-    "path_2": "משנה תורה, הלכות עדות.txt",
-    "line_index_2": 81,
-    "ref_2": "Mishneh Torah, Testimony 9:11",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 841,
-    "heRef_2": "ספר שופטים, הלכות עדות, פרק י, ג",
-    "path_2": "משנה תורה, הלכות עדות.txt",
-    "line_index_2": 86,
-    "ref_2": "Mishneh Torah, Testimony 10:3",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 844,
-    "heRef_2": "ספר שופטים, הלכות עדות, פרק יב, א",
-    "path_2": "משנה תורה, הלכות עדות.txt",
-    "line_index_2": 101,
-    "ref_2": "Mishneh Torah, Testimony 12:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 847,
-    "heRef_2": "ספר שופטים, הלכות עדות, פרק יח, ה",
-    "path_2": "משנה תורה, הלכות עדות.txt",
-    "line_index_2": 162,
-    "ref_2": "Mishneh Torah, Testimony 18:5",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 850,
-    "heRef_2": "ספר שופטים, הלכות עדות, פרק כא, י",
-    "path_2": "משנה תורה, הלכות עדות.txt",
-    "line_index_2": 191,
-    "ref_2": "Mishneh Torah, Testimony 21:10",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 853,
-    "heRef_2": "ספר שופטים, הלכות עדות, פרק כב, א",
-    "path_2": "משנה תורה, הלכות עדות.txt",
-    "line_index_2": 193,
-    "ref_2": "Mishneh Torah, Testimony 22:1",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 857,
-    "heRef_2": "ספר שופטים, הלכות אבל, פרק ד, ו",
+    "line_index_1": 1403,
+    "heRef_2": "ספר שופטים, הלכות אבל, פרק א, יא",
     "path_2": "משנה תורה, הלכות אבל.txt",
-    "line_index_2": 52,
-    "ref_2": "Mishneh Torah, Mourning 4:6",
+    "line_index_2": 14,
+    "ref_2": "Mishneh Torah, Mourning 1:11",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 860,
-    "heRef_2": "ספר שופטים, הלכות אבל, פרק ה, ז",
+    "line_index_1": 1406,
+    "heRef_2": "ספר שופטים, הלכות אבל, פרק ב, ו",
     "path_2": "משנה תורה, הלכות אבל.txt",
-    "line_index_2": 63,
-    "ref_2": "Mishneh Torah, Mourning 5:7",
+    "line_index_2": 21,
+    "ref_2": "Mishneh Torah, Mourning 2:6",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 863,
-    "heRef_2": "ספר שופטים, הלכות אבל, פרק ו, א",
+    "line_index_1": 1408,
+    "heRef_2": "ספר שופטים, הלכות אבל, פרק ב, ח",
     "path_2": "משנה תורה, הלכות אבל.txt",
-    "line_index_2": 78,
-    "ref_2": "Mishneh Torah, Mourning 6:1",
+    "line_index_2": 23,
+    "ref_2": "Mishneh Torah, Mourning 2:8",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 866,
+    "line_index_1": 1410,
+    "heRef_2": "ספר שופטים, הלכות אבל, פרק ב, יד",
+    "path_2": "משנה תורה, הלכות אבל.txt",
+    "line_index_2": 29,
+    "ref_2": "Mishneh Torah, Mourning 2:14",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1413,
+    "heRef_2": "ספר שופטים, הלכות אבל, פרק ד, ט",
+    "path_2": "משנה תורה, הלכות אבל.txt",
+    "line_index_2": 55,
+    "ref_2": "Mishneh Torah, Mourning 4:9",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1416,
     "heRef_2": "ספר שופטים, הלכות אבל, פרק ז, א",
     "path_2": "משנה תורה, הלכות אבל.txt",
     "line_index_2": 92,
@@ -2120,11 +3848,115 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 870,
-    "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק ה, ד",
+    "line_index_1": 1419,
+    "heRef_2": "ספר שופטים, הלכות אבל, פרק יב, ג",
+    "path_2": "משנה תורה, הלכות אבל.txt",
+    "line_index_2": 150,
+    "ref_2": "Mishneh Torah, Mourning 12:3",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1422,
+    "heRef_2": "ספר שופטים, הלכות אבל, פרק יד, א",
+    "path_2": "משנה תורה, הלכות אבל.txt",
+    "line_index_2": 174,
+    "ref_2": "Mishneh Torah, Mourning 14:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1426,
+    "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק ב, ד",
     "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
-    "line_index_2": 49,
-    "ref_2": "Mishneh Torah, Kings and Wars 5:4",
+    "line_index_2": 20,
+    "ref_2": "Mishneh Torah, Kings and Wars 2:4",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1429,
+    "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק ג, ז",
+    "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
+    "line_index_2": 30,
+    "ref_2": "Mishneh Torah, Kings and Wars 3:7",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1432,
+    "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק ה, ב",
+    "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
+    "line_index_2": 47,
+    "ref_2": "Mishneh Torah, Kings and Wars 5:2",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1434,
+    "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק ה, ח",
+    "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
+    "line_index_2": 53,
+    "ref_2": "Mishneh Torah, Kings and Wars 5:8",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1436,
+    "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק ה, יא",
+    "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
+    "line_index_2": 56,
+    "ref_2": "Mishneh Torah, Kings and Wars 5:11",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1439,
+    "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק ו, ט",
+    "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
+    "line_index_2": 67,
+    "ref_2": "Mishneh Torah, Kings and Wars 6:9",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1442,
+    "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק ז, טו",
+    "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
+    "line_index_2": 89,
+    "ref_2": "Mishneh Torah, Kings and Wars 7:15",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1447,
+    "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק ח, א",
+    "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
+    "line_index_2": 91,
+    "ref_2": "Mishneh Torah, Kings and Wars 8:1",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1450,
+    "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק ט, י",
+    "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
+    "line_index_2": 112,
+    "ref_2": "Mishneh Torah, Kings and Wars 9:10",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1450,
+    "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק ט, יא",
+    "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
+    "line_index_2": 113,
+    "ref_2": "Mishneh Torah, Kings and Wars 9:11",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1453,
+    "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק יב, ב",
+    "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
+    "line_index_2": 142,
+    "ref_2": "Mishneh Torah, Kings and Wars 12:2",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 1455,
+    "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק יב, ה",
+    "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
+    "line_index_2": 145,
+    "ref_2": "Mishneh Torah, Kings and Wars 12:5",
     "Conection Type": "source"
   }
 ]
