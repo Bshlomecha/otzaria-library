@@ -39,9 +39,7 @@ jobs:
       #   run: python ben_y.py
       #   working-directory: Ben-YehudaToOtzaria/סקריפטים
 
-      - name: Run script dicta  
-        run: python "all in one.py"
-        working-directory: DictaToOtzaria/סקריפטים
+      # ייבוא דיקטה עבר ל-dicta-import.yml (מצב לפי fileName, שער איכות, PR לספרייה).
 
       - name: Run script sefaria-update
         run: python main.py

@@ -126,7 +126,10 @@ def sefaria_new(file_path: str) -> list[dict[str, str | None]]:
 
 def dicta_metadata(file_path: str) -> list[dict[str, str | None]]:
     new_data = []
-    for entry in json_read(file_path):
+    data = json_read(file_path)
+    if isinstance(data, dict) and "books" in data:  # DictaToOtzaria/סקריפטים/dicta_state.json
+        data = [v["dicta"] for v in data["books"].values()]
+    for entry in data:
         new_entry = {
             "title": sanitize_filename(entry.get("displayName")),
             "author": entry.get("author"),
@@ -162,7 +165,7 @@ def main():
     dif_metadata = []
     base_folder = "אוצריא"
     new_sefaria_metadata_path = "sefariaToOtzaria/סקריפטים/metadata.json"
-    dicta_metadata_path = "DictaToOtzaria/סקריפטים/old books.json"
+    dicta_metadata_path = "DictaToOtzaria/סקריפטים/dicta_state.json"
     old_metadata_path = "metadata/new_metadata.json"
     files, folders = files_list(base_folder)
     new_sefaria = sefaria_new(new_sefaria_metadata_path)

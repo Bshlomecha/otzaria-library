@@ -49,6 +49,8 @@ jobs:
             /.claude/skills/otzaria-db-ingestion-audit/scripts/
             /.claude/skills/otzaria-commentary-linker-qa/scripts/
             /.claude/skills/otzaria-book-format/scripts/
+            /DictaToOtzaria/סקריפטים/
+            /manual_links_sync.json
             /_insert_sfat_emet_links.py
             /manual_links_packaging.py
             /pipeline_result_contract.py
@@ -91,6 +93,15 @@ jobs:
           (cd .claude/skills/otzaria-book-format/scripts && python3 -m unittest -v test_connection_types)
           (cd .claude/skills/otzaria-db-linker/scripts && python3 -m unittest -v test_insert_commentary_link)
           (cd .claude/skills/otzaria-db-ingestion-audit/scripts && python3 -m unittest -v test_audit_ingestion)
+
+      # ממיר דיקטה, כלי העריכה, וזרימת הייבוא החודשית (dicta_sync / dicta-import.yml).
+      # offline; קוראת את manual_links_sync.json ואת רשימות השורשים הנארזים.
+      - name: Dicta import suites
+        env:
+          PYTHONIOENCODING: utf-8
+        run: |
+          set -euo pipefail
+          python3 -m unittest discover -v -s "DictaToOtzaria/סקריפטים/tests"
 
       # רשימה מפורשת ולא discover: test_validate_fordb_book_names ו-
       # test_validate_manual_links_refs יושבות באותה תיקייה ורצות ב-workflows אחרים.

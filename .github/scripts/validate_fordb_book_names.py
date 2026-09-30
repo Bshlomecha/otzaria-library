@@ -316,15 +316,20 @@ def find_dead_renames(rename_pairs, db_raw_titles):
     return dead
 
 
+# העץ שממנו נמנים הספרים הנארזים. ברירת המחדל HEAD; `--tree <commit>` מאפשר לאמת
+# commit זמני (git commit-tree על ה-index, ר' ADDING_BOOKS §7) בלי להעתיק את הסקריפט.
+TREE_REF = "HEAD"
+
+
 def list_tracked_paths():
     """
-    מחזיר את רשימת הנתיבים העקובים ב-HEAD דרך `git ls-tree -r HEAD` (קורא את עץ
+    מחזיר את רשימת הנתיבים העקובים ב-TREE_REF (ברירת מחדל HEAD) דרך `git ls-tree -r` (קורא את עץ
     הקומיט בלבד - אין צורך בהורדת תוכן הקבצים; עובד עם partial-clone + sparse).
     אם git אינו זמין, נופל ל-os.walk על עץ העבודה.
     """
     try:
         result = subprocess.run(
-            ["git", "-C", REPO_ROOT, "ls-tree", "-r", "HEAD", "--name-only", "-z"],
+            ["git", "-C", REPO_ROOT, "ls-tree", "-r", TREE_REF, "--name-only", "-z"],
             capture_output=True,
             check=True,
         )
@@ -731,7 +736,19 @@ def main():
         help="קומיט שממנו ואילך ההיסטוריה טרם אומתה (ניתן לחזור; הראשון שהוא אב של HEAD נבחר). "
         "שינויי-שם של קבצי ספרים בטווח מיושרים במקום שהשורות יימחקו כיתומות.",
     )
+    parser.add_argument(
+        "--tree",
+        default="HEAD",
+        metavar="COMMIT",
+        help="העץ שממנו נמנים קבצי הספרים הנארזים (ברירת מחדל HEAD). מיועד לאימות commit זמני "
+        "שנבנה מה-index; לא משולב עם --fix.",
+    )
     args = parser.parse_args()
+    global TREE_REF
+    TREE_REF = args.tree
+    if args.fix and args.tree != "HEAD":
+        print("::error::--fix פועל רק על HEAD.")
+        return 2
     if args.fix and not SEFARIA_FETCH:
         print("::error::--fix דורש SEFARIA_FETCH=1; מסרבים למחוק מול רשימת ספריא חלקית.")
         return 2
