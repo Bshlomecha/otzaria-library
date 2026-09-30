@@ -524,6 +524,7 @@ _S_RATIO = 10
 _S_KNOWN_ABS = 20        # מילה עם ≥20 מופעים במילון נחשבת מוכרת
 _S_KNOWN_RATIO = 1000    # …או ≥ 1/1000 משכיחות המועמד
 _word_freq_cache: dict | None = None
+_LFS_POINTER_MAGIC = b"version https://git-lfs"
 
 
 def load_word_freq(path: Path | None = None) -> dict:
@@ -535,6 +536,13 @@ def load_word_freq(path: Path | None = None) -> dict:
     p = Path(path) if path else WORD_FREQ_FILE
     d: dict = {}
     if p.exists():
+        with open(p, "rb") as raw:
+            if raw.read(len(_LFS_POINTER_MAGIC)) == _LFS_POINTER_MAGIC:
+                # checkout עם lfs: false מביא את קובץ המצביע במקום המילון; מילון ריק היה
+                # מכבה את כלל S בשקט ומשנה את פלט ההמרה — עדיף להיכשל בקול.
+                raise RuntimeError(
+                    f"{p} הוא קובץ מצביע של git-lfs ולא מילון gzip "
+                    "(ר' .gitattributes — הקובץ אמור להישמר כ-blob רגיל)")
         with gzip.open(p, "rt", encoding="utf-8") as f:
             for ln in f:
                 w, _, c = ln.rstrip("\n").partition("\t")
