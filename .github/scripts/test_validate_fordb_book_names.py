@@ -129,6 +129,31 @@ class DeadRenameTest(unittest.TestCase):
         self.assertEqual(validator.find_dead_renames([(2, self.STALE_SOURCE, "x")], set()), [])
 
 
+class PendingRenameMapTest(unittest.TestCase):
+    """A PR that renames a book file must be checked as it will be after merge."""
+
+    def resolution(self, old, new):
+        rename = validator.book_renames_follow.BookRename(
+            old_title=old, new_title=new, old_path=old + ".txt",
+            new_path=new + ".txt", commit="0" * 40,
+        )
+        return validator.book_renames_follow.RenameResolution(renames={old: rename})
+
+    def test_report_only_maps_the_old_name_to_the_new_one(self):
+        mapping = validator.pending_rename_map(
+            self.resolution("הזוהר המתורגם - בראשית", "הזהר המתורגם - בראשית"), applied=False
+        )
+        self.assertEqual(mapping["הזוהר המתורגם - בראשית"], "הזהר המתורגם - בראשית")
+
+    def test_the_db_spelling_of_the_old_name_is_mapped_too(self):
+        mapping = validator.pending_rename_map(self.resolution('הב"ח', 'ב"ח'), applied=False)
+        old_db = validator.sanitize_title(validator.db_title('הב"ח'))
+        self.assertEqual(mapping[old_db], validator.sanitize_title(validator.db_title('ב"ח')))
+
+    def test_nothing_is_mapped_once_the_fix_applied_the_renames(self):
+        self.assertEqual(validator.pending_rename_map(self.resolution("א", "ב"), applied=True), {})
+
+
 class RepositoryForDbTest(unittest.TestCase):
     """The committed ForDB inputs, against the committed book tree."""
 

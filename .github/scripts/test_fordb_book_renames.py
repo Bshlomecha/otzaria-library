@@ -331,8 +331,16 @@ class ReportOnlyTest(FixtureTestCase):
     def test_a_pull_request_reports_the_plan_and_writes_nothing(self):
         rename_incident(self.repo)
         code, output = self.repo.run_validator("--rename-base", self.repo.base)
-        self.assertEqual(code, 1, output)  # the orphan row still fails a PR, as before
+        # The row is checked under its new name, as it will be after the merge.
+        self.assertEqual(code, 0, output)
         self.assertIn("ייושרו אוטומטית במיזוג ל-main", output)
+        self.assertEqual(self.repo.git("status", "--porcelain"), "")
+
+    def test_a_real_orphan_still_fails_a_pull_request(self):
+        self.repo.move(f"{RISHONIM}/{LEAVES}.txt", f"extraBooks/ישנים/{LEAVES} (ישן).txt")
+        self.repo.commit("העברה ל-extraBooks")
+        code, output = self.repo.run_validator("--rename-base", self.repo.base)
+        self.assertEqual(code, 1, output)
         self.assertEqual(self.repo.git("status", "--porcelain"), "")
 
 

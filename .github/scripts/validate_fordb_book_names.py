@@ -642,6 +642,20 @@ def follow_book_renames(bases, db_final, srename, apply):
     return resolution, plan, base, held_referenced
 
 
+def pending_rename_map(resolution, applied):
+    """שם ישן (מנוקה) -> שם חדש (מנוקה) לשינויי-שם שעוד לא הוחלו.
+
+    ב-PR השורות עדיין נושאות את השם הישן, וה-auto-fix ב-main יחליף אותן — לכן
+    בודקים אותן בשם החדש, כמו שיהיו אחרי המיזוג. ב--fix הן כבר הוחלפו."""
+    if applied:
+        return {}
+    return {
+        sanitize_title(spelling): sanitize_title(db_title(r.new_title))
+        for r in resolution.renames.values()
+        for spelling in (r.old_title, db_title(r.old_title))
+    }
+
+
 def print_rename_report(resolution, plan, applied):
     if not resolution.renames and not resolution.held_keys:
         return
@@ -771,6 +785,8 @@ def main():
     # failures[file] = list of (line/identifier, raw_name, checked_name)
     failures = {}
 
+    pending_renames = pending_rename_map(resolution, applied=args.fix)
+
     def check_db_name(file_label, identifier, raw_name, canon):
         """
         בודק שם 'כפי שיהיה ב-DB': מנקה (sanitize), מחיל את שינוי-השם (srename),
@@ -779,6 +795,7 @@ def main():
         if raw_name is None or raw_name == "":
             return
         clean = sanitize_title(raw_name)
+        clean = pending_renames.get(clean, clean)
         final = srename.get(clean, clean)
         if final not in canon:
             failures.setdefault(file_label, []).append((identifier, raw_name, final))
