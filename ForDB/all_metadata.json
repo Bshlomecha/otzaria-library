@@ -14121,7 +14121,7 @@
   },
   {
     "heAuthors": [
-      "יצחק בן אליעזר ממונקאץ'"
+      "יצחק בן אליעזר"
     ],
     "title": "ספר הגן ודרך משה",
     "enTitle": "Sefer HaGan Ve Derech Moshe",
@@ -14137,10 +14137,10 @@
     "pubPlaceStringEn": "Mukacheve",
     "pubPlaceStringHe": "מונקאטש",
     "heCategories": [
-      "ספרי הלכה ומנהג"
+      "מחשבה ומוסר"
     ],
     "categories": [
-      "seferhaganvederechmoshe"
+      "Mussar and Jewish Thought"
     ],
     "publisher": "ספריית דיקטה",
     "Sourcefolder": "Dicta"
@@ -16565,7 +16565,7 @@
   },
   {
     "heAuthors": [
-      "ניצברג, אליעזר בן דוד יהודה"
+      "אליעזר בן דוד יהודה ניצברג"
     ],
     "title": "יד אליעזר חלק א",
     "enTitle": "Yad Eliezer part 1",
@@ -16591,7 +16591,7 @@
   },
   {
     "heAuthors": [
-      "ניצברג, אליעזר בן דוד יהודה"
+      "אליעזר בן דוד יהודה ניצברג"
     ],
     "title": "יד אליעזר חלק ב",
     "enTitle": "Yad Eliezer part 2",
@@ -18405,6 +18405,32 @@
     ],
     "categories": [
       "Sifrei Mitzvot"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "רבי משה שיק"
+    ],
+    "title": "מהרם שיק על התורה",
+    "enTitle": "Maharam Shik Torah",
+    "authors": [
+      "rabbi Moshe Schick"
+    ],
+    "pubDate": [
+      1905
+    ],
+    "pubDateHeb": [
+      "ה׳תרס״ה"
+    ],
+    "pubPlaceStringEn": "Munkatch",
+    "pubPlaceStringHe": "מונקטש",
+    "heCategories": [
+      "מפרשי התנ\"ך"
+    ],
+    "categories": [
+      "Bible Commentaries"
     ],
     "publisher": "ספריית דיקטה",
     "Sourcefolder": "Dicta"
@@ -21219,6 +21245,32 @@
   },
   {
     "heAuthors": [
+      "רבי שמחה בונים סופר"
+    ],
+    "title": "שות שבט סופר חלק ב",
+    "enTitle": "Shevet Sofer part 2",
+    "authors": [
+      "rabbi Śimhah Bunem Sofer"
+    ],
+    "pubDate": [
+      1919
+    ],
+    "pubDateHeb": [
+      "ה׳תרע״ט"
+    ],
+    "pubPlaceStringEn": "Budapest",
+    "pubPlaceStringHe": "בודפסט",
+    "heCategories": [
+      "שו\"ת"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
       "רבי כלפון משה הכהן"
     ],
     "title": "שות שואל ונשאל חלק א",
@@ -22548,6 +22600,32 @@
       "ר' שמואל יצחק הילמן"
     ],
     "title": "אור הישר על מסכת ציצית",
+    "enTitle": "Ohr Hayashar Nezikin part 1",
+    "authors": [
+      "Shmuel Yitzchak Hillman"
+    ],
+    "pubDate": [
+      1942
+    ],
+    "pubDateHeb": [
+      "ה׳תש״ב"
+    ],
+    "pubPlaceStringEn": "Jerusalem",
+    "pubPlaceStringHe": "ירושלים",
+    "heCategories": [
+      "מפרשי הש\"ס (אחרונים)"
+    ],
+    "categories": [
+      "Acharonim on Talmud Bavli"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ר' שמואל יצחק הילמן"
+    ],
+    "title": "אור הישר על מסכת מזוזה",
     "enTitle": "Ohr Hayashar Nezikin part 1",
     "authors": [
       "Shmuel Yitzchak Hillman"
@@ -30395,7 +30473,7 @@
     ],
     "enTitle": null,
     "heAuthors": [
-      "רבי יצחק אייזיק חבר"
+      "יצחק אייזק חבר"
     ],
     "heCategories": [
       "שו\"ת"
@@ -30455,7 +30533,7 @@
     ],
     "enTitle": null,
     "heAuthors": [
-      "רבי ישראל בן פתחיה איסרלן"
+      "ישראל איסרלן"
     ],
     "heCategories": [
       "שו\"ת"
@@ -30515,7 +30593,7 @@
     ],
     "enTitle": null,
     "heAuthors": [
-      "רבי אליהו קלצקין"
+      "אליהו קלצ'קין"
     ],
     "heCategories": [
       "שו\"ת"
@@ -30675,7 +30753,7 @@
     ],
     "enTitle": null,
     "heAuthors": [
-      "רבי יצחק יהודה שמלקיש"
+      "יצחק שמלקיש"
     ],
     "heCategories": [
       "שו\"ת"
@@ -30695,7 +30773,7 @@
     ],
     "enTitle": null,
     "heAuthors": [
-      "רבי רחמים חיים יהודה, ישראל"
+      "רחמים חיים יהודה ישראל"
     ],
     "heCategories": [
       "שו\"ת"
@@ -30875,7 +30953,7 @@
     ],
     "enTitle": null,
     "heAuthors": [
-      "רבי זכריה ישעיה יאללעש"
+      "ר' זכריה ישעיה יאללעש ממינסק (תקע\"ד-תרי\"ב)"
     ],
     "heCategories": [
       "שו\"ת"
@@ -31075,7 +31153,7 @@
     ],
     "enTitle": null,
     "heAuthors": [
-      "רבי הלל דוד בן עוזר טריבוש"
+      "טריווש, הילל דוד בן עוזר הכהן"
     ],
     "heCategories": [
       "שו\"ת"
@@ -31095,7 +31173,7 @@
     ],
     "enTitle": null,
     "heAuthors": [
-      "רבי יעקב יצחק הלוי רודרמן"
+      "יעקב יצחק רודרמן"
     ],
     "heCategories": [
       "שו\"ת"
@@ -31115,7 +31193,7 @@
     ],
     "enTitle": null,
     "heAuthors": [
-      "רבי יעקב מפדואה"
+      "יעקב מאיר פדואה"
     ],
     "heCategories": [
       "שו\"ת"
@@ -31155,7 +31233,7 @@
     ],
     "enTitle": null,
     "heAuthors": [
-      "רבי ישראל אייזינשטיין"
+      "ישראל איזנשטיין"
     ],
     "heCategories": [
       "שו\"ת"
@@ -31215,7 +31293,7 @@
     ],
     "enTitle": null,
     "heAuthors": [
-      "רבי יעקב שאול אלישר"
+      "אלישר, יעקב שאול בן אליעזר ירוחם"
     ],
     "heCategories": [
       "שו\"ת"
@@ -31757,5 +31835,161 @@
       "רבינו אשר בן יחיאל"
     ],
     "Sourcefolder": "MoreBooks"
+  },
+  {
+    "heAuthors": [
+      "יום טוב ליפמן הלפרין"
+    ],
+    "title": "קדושת יום טוב (ליפמן)",
+    "enTitle": "Kedushat Yom Tov (Lipman)",
+    "authors": [
+      "Halperin, Yom Tov Lipman"
+    ],
+    "pubDate": [
+      1866
+    ],
+    "pubDateHeb": [
+      "ה׳תרכ״ו"
+    ],
+    "pubPlaceStringEn": "Vilna",
+    "pubPlaceStringHe": "וילנה",
+    "heCategories": [
+      "מפרשים וחיבורים על הרמב\"ם"
+    ],
+    "categories": [
+      "Commentaries on the Rambam"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "מרדכי ליב וינקלר"
+    ],
+    "title": "לבושי מרדכי על חושן משפט מהדורא תנינא",
+    "enTitle": "Levushe Mordekhai Choshen Mishpat tanina",
+    "authors": [
+      "Mordechai Leib Winkler"
+    ],
+    "pubDate": [
+      1912
+    ],
+    "pubDateHeb": [
+      "ה׳תרע״ב"
+    ],
+    "pubPlaceStringEn": "Tulcea",
+    "pubPlaceStringHe": "טולצ'ה",
+    "heCategories": [
+      "שו\"ת"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "ישועה ב\"ר יצחק הלוי (נלב\"ע תרס\"ו)"
+    ],
+    "title": "לי לישועה (על התנך)",
+    "enTitle": "Li Li-Yeshu’ah (Tanach)",
+    "authors": [
+      "Yeshua Halevi"
+    ],
+    "pubDate": [
+      1883
+    ],
+    "pubDateHeb": [
+      "ה׳תרמ״ג"
+    ],
+    "pubPlaceStringEn": "Jerusalem",
+    "pubPlaceStringHe": "ירושלים",
+    "heCategories": [
+      "מפרשי התנ\"ך"
+    ],
+    "categories": [
+      "Bible Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אריה ליב ברודא"
+    ],
+    "title": "מצפה אריה",
+    "enTitle": "Metzapeh Aryeh",
+    "authors": [
+      "Broda, Aryeh Leib"
+    ],
+    "pubDate": [
+      1880
+    ],
+    "pubDateHeb": [
+      "ה׳תר״מ"
+    ],
+    "pubPlaceStringEn": "Lemberg",
+    "pubPlaceStringHe": "למברג",
+    "heCategories": [
+      "שו\"ת"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "יעקב חי זריהן"
+    ],
+    "title": "אהל יעקב (זריהן)",
+    "enTitle": "Ohel Yaakov",
+    "authors": [
+      "Yaakov Hay Zrihan"
+    ],
+    "pubDate": [
+      1931
+    ],
+    "pubDateHeb": [
+      "ה׳תרצ״א"
+    ],
+    "pubPlaceStringEn": "Jerusalem",
+    "pubPlaceStringHe": "ירושלים",
+    "heCategories": [
+      "מפרשי התנ\"ך"
+    ],
+    "categories": [
+      "Bible Commentaries"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
+  },
+  {
+    "heAuthors": [
+      "אברהם הכהן יצחקי"
+    ],
+    "title": "שלחנו של אברהם",
+    "enTitle": "Shulchano shel Avraham",
+    "authors": [
+      "Yitzhaki, Avraham"
+    ],
+    "pubDate": [
+      1865
+    ],
+    "pubDateHeb": [
+      "ה׳תרכ״ה"
+    ],
+    "pubPlaceStringEn": "Livorno",
+    "pubPlaceStringHe": "ליוורנו",
+    "heCategories": [
+      "מפרשים וחיבורים סביב שולחן ערוך"
+    ],
+    "categories": [
+      "Commentaries on Shulchan Aruch"
+    ],
+    "publisher": "ספריית דיקטה",
+    "Sourcefolder": "Dicta"
   }
 ]
