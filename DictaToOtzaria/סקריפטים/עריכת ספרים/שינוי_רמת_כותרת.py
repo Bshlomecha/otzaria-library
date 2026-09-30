@@ -1,26 +1,22 @@
 import tkinter as tk
 from tkinter import filedialog, messagebox
 from tkinter.ttk import Combobox
-import re
+import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import dicta_edit_core as core  # noqa: E402  (הלוגיקה והבדיקות — שם)
 
 def change_heading_level(file_path, current_level, new_level):
-    # פתיחת הקובץ לקריאה
-    with open(file_path, 'r', encoding='utf-8') as file:
-        content = file.read()
-
-    # החלפת רמת הכותרת
-    current_tag = f"h{current_level}"
-    new_tag = f"h{new_level}"
-    updated_content = re.sub(f"<{current_tag}>(.*?)</{current_tag}>", f"<{new_tag}>\\1</{new_tag}>", content, flags=re.DOTALL)
-
-    # בדיקה אם היו שינויים
-    if content == updated_content:
-        messagebox.showinfo("!שים לב", "לא נמצא מה להחליף")
+    content = core.read_file(file_path)
+    updated, n = core.change_heading_level(content, int(current_level), int(new_level))
+    if n == 0:
+        messagebox.showinfo("!שים לב", "לא נמצאו כותרות ברמה הזו")
     else:
-        # שמירת התוכן המעודכן חזרה לקובץ
-        with open(file_path, 'w', encoding='utf-8') as file:
-            file.write(updated_content)
-        messagebox.showinfo("!מזל טוב", "רמות הכותרות עודכנו בהצלחה")
+        core.write_file(file_path, updated)
+        messagebox.showinfo("!מזל טוב", f"שונו {n} כותרות")
+
+
 
 def browse_file():
     # פתיחת חלון לבחירת קובץ טקסט

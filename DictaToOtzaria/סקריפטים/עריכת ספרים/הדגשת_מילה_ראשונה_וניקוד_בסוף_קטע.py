@@ -1,59 +1,38 @@
 import tkinter as tk
 from tkinter import filedialog, messagebox
+import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import dicta_edit_core as core  # noqa: E402  (הלוגיקה והבדיקות — שם)
 
 def process_file(file_path, add_ending, emphasize_start):
+    """ר' core.emphasize_and_punctuate. מתחיל אחרי שורת <h1> ושורת המחבר
+    (הגרסה הקודמת דילגה גם על השורה השלישית), ושתי הפעולות יחד כבר לא
+    מאבדות את סימן הסוף."""
     try:
-        with open(file_path, 'r', encoding='utf-8') as file:
-            lines = file.readlines()
-
-        changed = False
-        for i in range(3, len(lines)):  # מתחיל מהשורה הרביעית (אינדקס 3)
-            line = lines[i].rstrip()
-            words = line.split()
-
-            # בדיקה אם יש יותר מעשר מילים ושאין סימן כותרת בהתחלה
-            if len(words) > 10 and not any(line.startswith(f'<h{n}>') for n in range(2, 10)):
-                # הסרת רווחים ותווים מיותרים בסוף השורה לפני בדיקה
-                stripped_line = line.rstrip(" .,;:!?)</small></big></b>")  # מסיר תווים מיותרים מסוף השורה
-
-                # מחיקת רווחים לפני נקודה או נקודתיים קיימים בסוף השורה
-                if line.endswith(('.', ':')):
-                    line = line.rstrip()  # הסרת רווחים מיותרים לפני הסימן
-
-                # הוספת נקודה או נקודתיים בסוף השורה
-                if add_ending:
-                    if line.endswith(','):
-                        line = line.rstrip()  # הסרת רווחים מיותרים לפני הוספת הסימן
-                        if add_ending == "נקודה":
-                            lines[i] = line[:-1] + '.\n'
-                        elif add_ending == "נקודתיים":
-                            lines[i] = line[:-1] + ':\n'
-                        changed = True
-                    elif not line.endswith(('.', ':', '!', '?')) and not any(line.endswith(tag) for tag in ['</small>', '</big>', '</b>']):
-                        line = line.rstrip()  # הסרת רווחים מיותרים לפני הוספת הסימן
-                        if add_ending == "נקודה":
-                            lines[i] = line.rstrip() + '.\n'
-                        elif add_ending == "נקודתיים":
-                            lines[i] = line.rstrip() + ':\n'
-                        changed = True
-
-                # הדגשת המילה הראשונה אם אין סימנים מיוחדים
-                if emphasize_start:
-                    first_word = words[0]
-                    if not any(tag in first_word for tag in ['<b>', '<small>', '<big>', '<h2>', '<h3>', '<h4>', '<h5>', '<h6>', '<h7>', '<h8>', '<h9>']):
-                        if not (first_word.startswith('<') and first_word.endswith('>')):
-                            lines[i] = '<b>' + first_word + '</b> ' + ' '.join(words[1:]) + (('.' if line == stripped_line and add_ending == "נקודה" else '') or (':' if line == stripped_line and add_ending == "נקודתיים" else '')) + '\n'
-                            changed = True
-
-        if changed:
-            with open(file_path, 'w', encoding='utf-8') as file:
-                file.writelines(lines)
-            messagebox.showinfo("!מזל טוב", "השינויים נשמרו בהצלחה")
+        text = core.read_file(file_path)
+        ending = {"נקודה": ".", "נקודתיים": ":"}.get(add_ending or "")
+        new, changes = core.emphasize_and_punctuate(text, ending=ending,
+                                                    emphasize=bool(emphasize_start))
+        if changes:
+            core.write_file(file_path, new)
+            messagebox.showinfo("!מזל טוב", f"השינויים נשמרו בהצלחה ({changes} שורות)")
         else:
             messagebox.showinfo("!שים לב", "אין מה לשנות")
-
     except Exception as e:
         messagebox.showerror("!שגיאה", f"שגיאה בעיבוד הקובץ: {str(e)}")
+
+
+def run_processing():
+    # תוקן: selected_file_path לא התעדכן אף פעם (update_file_path לא חובר)
+    path = file_path_entry.get().strip() or selected_file_path
+    if path:
+        process_file(path, ending_var.get(), emphasize_var.get())
+    else:
+        messagebox.showinfo("קלט לא תקין", "אנא בחר קובץ תחילה")
+
+
 
 def select_file():
     file_path = filedialog.askopenfilename(title="בחר קובץ", filetypes=[("Text Files", "*.txt"), ("All Files", "*.*")])
@@ -65,13 +44,6 @@ def update_file_path():
     global selected_file_path
     selected_file_path = file_path_entry.get()
 
-def run_processing():
-    if selected_file_path:
-        add_ending = ending_var.get()
-        emphasize_start = emphasize_var.get()
-        process_file(selected_file_path, add_ending, emphasize_start)
-    else:
-        messagebox.showinfo("קלט לא תקין", "אנא בחר קובץ תחילה")
 
 # יצירת הממשק הגרפי
 root = tk.Tk()

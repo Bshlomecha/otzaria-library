@@ -1,4 +1,3 @@
-requests
-bs4
+# dicta_sync / dicta_convert / dicta_clean / dicta_* ובדיקות tests/ — ספרייה סטנדרטית בלבד
+# (הורדות דרך curl). pyluach אופציונלי: pubDateHeb במטא־דאטה של ספר שנכנס לספרייה.
 pyluach
-lxml

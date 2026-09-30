@@ -5,7 +5,7 @@ description: Use when the user asks to process a Dicta book — identify heading
 
 # Dicta Book Processing Pipeline
 
-You are running a multi-stage pipeline that bridges Step 5.3 of [dicta-automation-plan.md](../../../../dicta-automation-plan.md). The deterministic prefix (5.1, 5.2) is already implemented as CLIs. **Your job is the AI-judgment passes**: header identification, OCR comparison, and final QA.
+You are running a multi-stage pipeline on top of the deterministic Dicta import described in [DictaToOtzaria/סקריפטים/README.md](../../../DictaToOtzaria/סקריפטים/README.md) (conversion `dicta_convert.py` + cleaning `dicta_clean.py`, already implemented as CLIs). **Your job is the AI-judgment passes**: header identification, OCR comparison, and final QA.
 
 ## שפת התגובה (חובה)
 

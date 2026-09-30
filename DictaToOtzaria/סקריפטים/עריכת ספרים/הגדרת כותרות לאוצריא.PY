@@ -1,7 +1,21 @@
 import tkinter as tk
 from tkinter import filedialog
 from tkinter.ttk import Combobox
-from pyluach import gematria
+import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import dicta_edit_core as core  # noqa: E402  (הלוגיקה והבדיקות — שם)
+
+def main(book_file, finde, end, level_num):
+    """ר' core.create_headers. לכותרת "דף" נשמר העמוד (דף ב. / דף ב:),
+    והפניה כמו "פרק ב דברכות" אינה הופכת לכותרת."""
+    text = core.read_file(book_file)
+    new, count = core.create_headers(text, finde, level=level_num, max_num=end - 1)
+    if count:
+        core.write_file(book_file, new)
+    return count > 0, count
+
 
 # פונקציית תצוגת הודעה מותאמת אישית
 def show_custom_message(title, message_parts, window_size="560x330"):
@@ -18,54 +32,8 @@ def show_custom_message(title, message_parts, window_size="560x330"):
     close_button = tk.Button(popup, text="סגור", command=popup.destroy, relief="groove", bd=2)
     close_button.pack(pady=10)
 
-def ot(text, end):
-    remove = ["<b>", "</b>", "<big>", "</big>", ":", '"', ",", ";", "[", "]", "(", ")", "'", ".", "״", "‚", "”", "’"]
-    aa = ["ק", "ר", "ש", "ת", "תק", "תר", "תש", "תת", "תתק"]
-    bb = ["ם", "ן", "ץ", "ף", "ך"]
-    cc = ["ראשון", "שני", "שלישי", "רביעי", "חמישי", "שישי", "ששי", "שביעי", "שמיני", "תשיעי", "עשירי", "דש", "שדמ", "ער", "שדם", "תשדם", "תשדמ", "ערב", "ערה"]
-    append_list = []
-    for i in aa:
-        for ot_sofit in bb:
-            append_list.append(i + ot_sofit)
-            
-    for tage in remove:
-        text = text.replace(tage, "")
-    withaute_gershayim = [gematria._num_to_str(i, thousands=False, withgershayim=False) for i in range(1, end)] + bb + cc + append_list
-    return text in withaute_gershayim
 
-def strip_html_tages(text):
-    html_tages = ["<b>", "</b>", "<big>", "</big>", ":", '"', ",", ";", "[", "]", "(", ")", "'", "״", ".", "‚", "”", "’"]
-    for tage in html_tages:
-        text = text.replace(tage, "")
-    return text
 
-def main(book_file, finde, end, level_num):
-    found = False
-    count_headings = 0
-    finde_cleaned = strip_html_tages(finde).strip()  # ניקוי המילה מהתפריט הנפתח
-    with open(book_file, "r", encoding="utf-8") as file_input:
-        content = file_input.read().splitlines()
-        all_lines = content[0:2]
-        for line in content[2:]:
-            words = line.split()
-            try:
-                if strip_html_tages(words[0]) == finde and ot(words[1], end):
-                    found = True
-                    count_headings += 1
-                    heading_line = f"<h{level_num}>{strip_html_tages(words[0])} {strip_html_tages(words[1])}</h{level_num}>"
-                    all_lines.append(heading_line)
-                    if words[2:]:
-                        fix_2 = " ".join(words[2:])
-                        all_lines.append(fix_2)
-                else:
-                    all_lines.append(line)
-            except IndexError:
-                all_lines.append(line)
-    join_lines = "\n".join(all_lines)
-    with open(book_file, "w", encoding="utf-8") as autpoot:
-        autpoot.write(join_lines)
-
-    return found, count_headings
 
 def browse_file():
     filename = filedialog.askopenfilename(filetypes=[("קבצי טקסט", "*.txt"), ("כל הפורמטים", "*.*")])

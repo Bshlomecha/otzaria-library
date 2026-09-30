@@ -1,50 +1,35 @@
 import tkinter as tk
 from tkinter import filedialog, messagebox
 from tkinter import ttk  
-from pyluach import gematria
+import os
+import sys
 
-def ot(text, end):
-    remove = ["<b>", "</b>", "<big>", "</big>", ":", '"', ",", ";", "[", "]", "(", ")", "'", ".", "״", "‚", "”", "’"]
-    aa = ["ק", "ר", "ש", "ת", "תק", "תר", "תש", "תת", "תתק"]
-    bb = ["ם", "ן", "ץ", "ף", "ך"]
-    cc = ["ראשון", "שני", "שלישי", "רביעי", "חמישי", "שישי", "שביעי", "שמיני", "תשיעי", "עשירי", "דש", "שדמ", "ער", "שדם", "תשדם", "תשדמ", "ערה"]
-    append_list = []
-    for i in aa:
-        for ot_sofit in bb:
-            append_list.append(i + ot_sofit)
-            
-    for tage in remove:
-        text = text.replace(tage, "")
-    withaute_gershayim = [gematria._num_to_str(i, thousands=False, withgershayim=False) for i in range(1, end)] + bb + cc + append_list
-    return text in withaute_gershayim
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import dicta_edit_core as core  # noqa: E402  (הלוגיקה והבדיקות — שם)
+
+def main(book_file, finde, end, level_num, ignore, start, remove, is_bold_checked,
+         sequential=True):
+    """ר' core.single_letter_headers (כמה סיומות/פתיחות בבת אחת).
+
+    תוקן: במצב "מודגש" התנאי הישן דרש שהמילה תתחיל גם ב־<b> וגם ב־</b> —
+    כלומר לעולם לא התקיים.
+    """
+    ign = [t for t in ignore if t not in ("<b>", "</b>")]
+    rem = [t for t in remove if t not in ("<b>", "</b>")]
+    text = core.read_file(book_file)
+    new, count = core.single_letter_headers(text, suffixes=list(finde) or [""],
+                                            prefixes=list(start) or [""],
+                                            level=level_num, max_num=end - 1,
+                                            bold_only=bool(is_bold_checked),
+                                            ignore=ign or None, remove_chars=rem,
+                                            sequential=bool(sequential))
+    if count:
+        core.write_file(book_file, new)
+    return count
+
+
     
-def strip_html_tages(text, ignore):
-    for tage in ignore:
-        text = text.replace(tage, "")
-    return text
     
-def main(book_file, finde, end, level_num, ignore, start, remove, is_bold_checked):
-    with open(book_file, "r", encoding="utf-8") as file_input:
-        content = file_input.read().splitlines()
-        all_lines = content[0:1]
-        for line in content[1:]:
-            words = line.split()
-            try:
-                is_finde_end = [strip_html_tages(words[0], ignore).endswith(i) for i in finde]
-                is_finde_start = [strip_html_tages(words[0], ignore).startswith(i) for i in start]
-                if any(is_finde_end) and any(is_finde_start) and ot(words[0], end) and ((is_bold_checked and strip_html_tages(words[0], ignore).startswith("<b>") and strip_html_tages(words[0], ignore).startswith("</b>")) or (not is_bold_checked and "<b>" not in words[0] and "</b>" not in words[0])):
-                    heading_line = f"<h{level_num}>{strip_html_tages(words[0], remove)}</h{level_num}>"
-                    all_lines.append(heading_line)
-                    if words[1:]:
-                        fix_2 = " ".join(words[1:])
-                        all_lines.append(fix_2)
-                else:
-                    all_lines.append(line)
-            except IndexError:
-                all_lines.append(line)
-    join_lines = "\n".join(all_lines)
-    with open(book_file, "w", encoding="utf-8") as autpoot:
-        autpoot.write(join_lines)
         
 def browse_file():
     filename = filedialog.askopenfilename(filetypes=[("קבצי טקסט", "*.txt"), ("כל הפורמטים", "*.*")])
@@ -59,6 +44,7 @@ def run_script():
     ignore = ignore_entry.get().split()
     start = start_entry.get().split()
     is_bold_checked = bold_var.get()
+    sequential = seq_var.get()
     	
     try:
         end = int(end_var.get())
@@ -72,7 +58,8 @@ def run_script():
         return
         
     try:
-        main(book_file, finde, end + 1, level_num , ignore, start, remove, is_bold_checked)
+        main(book_file, finde, end + 1, level_num , ignore, start, remove, is_bold_checked,
+             sequential)
         messagebox.showinfo("מזל טוב!", "הסקריפט רץ בהצלחה!")
     except Exception as e:
         messagebox.showerror("שגיאה", f"אירעה שגיאה: {e}")
@@ -132,8 +119,14 @@ bold_var.set(True)  # Set the checkbox to be checked by default
 bold_check = tk.Checkbutton(root, text="לחפש עם תווי הדגשה בלבד", variable=bold_var)
 bold_check.grid(row=7, column=1, pady=20)
 
+# רק מספרים שממשיכים רצף (א, ב, ג…) — בלי זה "שם." / "ר'" / "ה'" הופכים לכותרות
+seq_var = tk.BooleanVar()
+seq_var.set(True)
+seq_check = tk.Checkbutton(root, text="רק ברצף (א, ב, ג…)", variable=seq_var)
+seq_check.grid(row=8, column=1, pady=5)
+
 # Run button
 run_button = tk.Button(root, text="הפעל", command=run_script)
-run_button.grid(row=8, column=1, pady=20)
+run_button.grid(row=9, column=1, pady=20)
 
 root.mainloop()

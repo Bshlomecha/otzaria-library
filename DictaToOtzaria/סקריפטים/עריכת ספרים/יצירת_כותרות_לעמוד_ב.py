@@ -1,77 +1,28 @@
 import tkinter as tk
 from tkinter import filedialog, messagebox
 from tkinter.ttk import Combobox
-import re
+import os
+import sys
 
-# פונקציה שמסירה תגים מסביב ל"עמוד ב" ומחליפה אותם בתגי כותרת
-def strip_and_replace(text, header_level, counter):
-    # ביטוי רגולרי שמזהה את "עמוד ב" ומסיר תגים מסביב, תוך זיהוי המילים עם או בלי תגים מסביב
-    match_pattern = re.compile(
-        r"^\s*(?!<h\d>)(?:<[^>]+>\s*)*(?:שם\s*)?(?:<[^>]+>\s*)*(בגמרא|גמרא|גמ\'|בגמ\')?\s*(?:<[^>]+>\s*)*(עמוד|ע)(?:<[^>]+>\s*)*[\"'’]?\s*[\"'’]?(?:<[^>]+>\s*)*ב(?:<[^>]+>\s*)*(.*)", re.IGNORECASE)
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import dicta_edit_core as core  # noqa: E402  (הלוגיקה והבדיקות — שם)
 
-    # פונקציה מחליפה שתיצור את תגי הכותרת
-    def replace_function(match):
-        # יצירת תג הכותרת "עמוד ב"
-        header = f"<h{header_level}>עמוד ב</h{header_level}>"
-        rest_of_line = match.group(3).strip()  # הטקסט אחרי "עמוד ב"
-
-        # שמירה על תגים אם קיימים סביב "גמרא", "בגמרא", "גמ'", "בגמ'"
-        gmarah_text = match.group(1).strip() if match.group(1) else ""
-        gmarah_tags_match = re.search(r'(<[^>]+>)?\s*(בגמרא|גמרא|גמ\'|בגמ\')\s*(</[^>]+>)?', match.group(0))
-
-        # בדיקה אם נמצאו תגים סביב "גמרא"
-        if gmarah_tags_match:
-            gmarah_prefix = gmarah_tags_match.group(1) if gmarah_tags_match.group(1) else ""
-            gmarah_suffix = gmarah_tags_match.group(3) if gmarah_tags_match.group(3) else ""
-            gmarah_text = f"{gmarah_prefix}{gmarah_tags_match.group(2)}{gmarah_suffix}"
-
-        # הסרת תווים לא רצויים (כגון ' . , : ) ]) אחרי הכותרת יחד עם התגים שלהם
-        rest_of_line = re.sub(r"(?:<[^>]+>\s*)*['.,:\)\]]+(?:<[^>]+>\s*)*", "", rest_of_line)
-
-        # אם יש "גמרא" או המילים האחרות - נשאיר אותם באותה שורה עם שאר הטקסט
-        if gmarah_text:
-            counter[0] += 1  # עדכון המונה
-            return f"{header}\n{gmarah_text} {rest_of_line}\n" if rest_of_line else f"{header}\n{gmarah_text}\n"
-        
-        # אם אין "גמרא", יוצרים את הכותרת עם שאר השורה אחרי "עמוד ב"
-        counter[0] += 1  # עדכון המונה
-        return f"{header}\n{rest_of_line}\n" if rest_of_line else f"{header}\n"
-
-    # ביטוי שמזהה אם כבר יש תג כותרת
-    header_tag_pattern = re.compile(r"<h\d>.*?</h\d>", re.IGNORECASE)
-
-    # אם כבר יש תג כותרת, לא נבצע שום החלפה
-    if header_tag_pattern.search(text):
-        return text
-
-    # ביצוע ההחלפה של הכותרת "עמוד ב"
-    new_text = match_pattern.sub(replace_function, text)
-
-    # הסרת שורות ריקות כפולות
-    new_text = re.sub(r'\n\s*\n', '\n', new_text)
-
-    return new_text
-
-# פונקציה שמעבדת את הקובץ ומבצעת את השינויים
 def process_file(file_path, header_level):
-    with open(file_path, 'r', encoding='utf-8') as file:
-        lines = file.readlines()
+    """כותרת 'עמוד ב' לכל שורה שמתחילה ב'עמוד ב' / ע"ב (ר' core.create_page_b_headers).
 
-    new_lines = []
-    counter = [0]  # מונה כותרות
-
-    for line in lines:
-        new_line = strip_and_replace(line, header_level, counter)
-        new_lines.append(new_line)
-
-    with open(file_path, 'w', encoding='utf-8') as file:
-        file.writelines(new_lines)
-
-    # הצגת הודעה מתאימה לפי כמות הכותרות שנוצרו
-    if counter[0] == 0:
+    "עבודה" / "עב" אינם ע"ב, ושום פיסוק בשורה אינו נמחק (באגים שתוקנו).
+    """
+    text = core.read_file(file_path)
+    new, count = core.create_page_b_headers(text, header_level)
+    if count:
+        core.write_file(file_path, new)
+    if count == 0:
         messagebox.showinfo("!שים לב", "לא נמצא מה להחליף")
     else:
-        messagebox.showinfo("!מזל טוב", f"נוספו {counter[0]} כותרות לקובץ.")
+        messagebox.showinfo("!מזל טוב", f"נוספו {count} כותרות לקובץ.")
+
+
+
 
 # פונקציה לבחירת קובץ
 def select_file():

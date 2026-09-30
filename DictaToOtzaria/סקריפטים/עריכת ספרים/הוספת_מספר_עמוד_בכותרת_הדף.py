@@ -1,68 +1,27 @@
 import tkinter as tk
 from tkinter import filedialog, messagebox
-import re
+import os
+import sys
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import dicta_edit_core as core  # noqa: E402  (הלוגיקה והבדיקות — שם)
 
 def process_file(filename, replace_with):
+    """ר' core.add_page_number — ע"א/ע"ב דורש גרש/גרשיים ("עבודה" אינה ע"ב)."""
     try:
-        with open(filename, 'r', encoding='utf-8') as file:
-            content = file.readlines()
+        text = core.read_file(filename)
     except FileNotFoundError:
         messagebox.showerror("קלט לא תקין", "הקובץ לא נמצא")
         return
-
-    updated_content = []
-    changes_made = False
-
-    i = 0
-    while i < len(content):
-        line = content[i]
-        match = re.match(r'<h([2-9])>(דף \S+)</h\1>', line)
-        if match:
-            level = match.group(1)
-            title = match.group(2)
-            next_line_index = i + 1
-            if next_line_index < len(content):
-                next_line = content[next_line_index].strip()
-
-                # תבנית שמזהה את המילים והתגיות השונות
-                pattern = r'(<[a-z]+>)?(ע"?[א-ב]|עמוד [א-ב])[.,:()\[\]\'"״׳]?(</[a-z]+>)?\s?'
-                match_next_line = re.match(pattern, next_line)
-
-                if match_next_line:
-                    changes_made = True
-
-                    # קביעה האם להחליף לנקודה או לנקודותיים
-                    if replace_with == 'נקודה ונקודותיים':
-                        if "א" in match_next_line.group(2):
-                            new_title = f'<h{level}>{title}.</h{level}>\n'
-                        else:
-                            new_title = f'<h{level}>{title}:</h{level}>\n'
-                    elif replace_with == 'ע"א וע"ב':
-                        suffix = "ע\"א" if "א" in match_next_line.group(2) else "ע\"ב"
-                        new_title = f'<h{level}>{title} {suffix}</h{level}>\n'
-
-                    updated_content.append(new_title)
-
-                    # מחיקת המילים והסימנים בשורה הבאה והשארת התוכן הנותר
-                    modified_next_line = re.sub(pattern, '', next_line).strip()
-                    if modified_next_line != '':
-                        updated_content.append(modified_next_line + '\n')
-
-                    i += 1  # דילוג על השורה הבאה כיוון שהיא טופלה כבר
-                else:
-                    updated_content.append(line)
-            else:
-                updated_content.append(line)
-        else:
-            updated_content.append(line)
-        i += 1
-
-    if changes_made:
-        with open(filename, 'w', encoding='utf-8') as file:
-            file.writelines(updated_content)
-        messagebox.showinfo("!מזל טוב", "החלפה הושלמה בהצלחה")
+    style = "ayin" if replace_with == 'ע"א וע"ב' else "dot-colon"
+    new, changes = core.add_page_number(text, style)
+    if changes:
+        core.write_file(filename, new)
+        messagebox.showinfo("!מזל טוב", f"החלפה הושלמה בהצלחה ({changes} כותרות)")
     else:
         messagebox.showinfo("!שים לב", "אין מה להחליף בקובץ זה")
+
+
 
 def browse_file():
     file_path = filedialog.askopenfilename(filetypes=[("Text files", "*.txt"), ("HTML files", "*.html")])
