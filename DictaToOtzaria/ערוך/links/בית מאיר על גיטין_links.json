@@ -2,6 +2,7 @@
   {
     "line_index_1": 4,
     "line_index_2": 17,
+    "ref_2": "Gittin 2b:8",
     "heRef_2": "גיטין ב:, ח",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
@@ -9,6 +10,7 @@
   {
     "line_index_1": 5,
     "line_index_2": 17,
+    "ref_2": "Tosafot on Gittin 2b:5:3",
     "heRef_2": "תוספות על גיטין ב:, ה, ג",
     "path_2": "תוספות על גיטין.txt",
     "Conection Type": "source"
@@ -16,6 +18,7 @@
   {
     "line_index_1": 6,
     "line_index_2": 17,
+    "ref_2": "Tosafot on Gittin 2b:5:3",
     "heRef_2": "תוספות על גיטין ב:, ה, ג",
     "path_2": "תוספות על גיטין.txt",
     "Conection Type": "source"
@@ -23,6 +26,7 @@
   {
     "line_index_1": 8,
     "line_index_2": 204,
+    "ref_2": "Gittin 8b:6",
     "heRef_2": "גיטין ח:, ו",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
@@ -30,6 +34,7 @@
   {
     "line_index_1": 10,
     "line_index_2": 1662,
+    "ref_2": "Gittin 53a:14",
     "heRef_2": "גיטין נג., יד",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
@@ -37,6 +42,7 @@
   {
     "line_index_1": 12,
     "line_index_2": 722,
+    "ref_2": "Tosafot on Gittin 55a:16:1",
     "heRef_2": "תוספות על גיטין נה., טז, א",
     "path_2": "תוספות על גיטין.txt",
     "Conection Type": "source"
@@ -44,6 +50,7 @@
   {
     "line_index_1": 14,
     "line_index_2": 740,
+    "ref_2": "Tosafot on Gittin 58a:10:1",
     "heRef_2": "תוספות על גיטין נח., י, א",
     "path_2": "תוספות על גיטין.txt",
     "Conection Type": "source"
@@ -51,6 +58,7 @@
   {
     "line_index_1": 16,
     "line_index_2": 1990,
+    "ref_2": "Gittin 61b:10",
     "heRef_2": "גיטין סא:, י",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
@@ -58,6 +66,7 @@
   {
     "line_index_1": 18,
     "line_index_2": 2345,
+    "ref_2": "Gittin 71a:9",
     "heRef_2": "גיטין עא., ט",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
@@ -65,6 +74,7 @@
   {
     "line_index_1": 20,
     "line_index_2": 2482,
+    "ref_2": "Gittin 74b:7",
     "heRef_2": "גיטין עד:, ז",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
@@ -72,6 +82,7 @@
   {
     "line_index_1": 21,
     "line_index_2": 2482,
+    "ref_2": "Gittin 74b:7",
     "heRef_2": "גיטין עד:, ז",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
@@ -79,6 +90,7 @@
   {
     "line_index_1": 23,
     "line_index_2": 977,
+    "ref_2": "Tosafot on Gittin 78b:19:1",
     "heRef_2": "תוספות על גיטין עח:, יט, א",
     "path_2": "תוספות על גיטין.txt",
     "Conection Type": "source"

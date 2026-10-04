@@ -2,6 +2,7 @@
   {
     "line_index_1": 4,
     "line_index_2": 105,
+    "ref_2": "Yoma 6a:5",
     "heRef_2": "יומא ו., ה",
     "path_2": "יומא.txt",
     "Conection Type": "source"
@@ -9,6 +10,7 @@
   {
     "line_index_1": 6,
     "line_index_2": 120,
+    "ref_2": "Yoma 6b:4",
     "heRef_2": "יומא ו:, ד",
     "path_2": "יומא.txt",
     "Conection Type": "source"
@@ -16,6 +18,7 @@
   {
     "line_index_1": 8,
     "line_index_2": 303,
+    "ref_2": "Yoma 14a:1",
     "heRef_2": "יומא יד., א",
     "path_2": "יומא.txt",
     "Conection Type": "source"
@@ -23,6 +26,7 @@
   {
     "line_index_1": 10,
     "line_index_2": 156,
+    "ref_2": "Tosafot on Yoma 19b:1:1",
     "heRef_2": "תוספות על יומא יט:, א, א",
     "path_2": "תוספות על יומא.txt",
     "Conection Type": "source"
@@ -30,6 +34,7 @@
   {
     "line_index_1": 12,
     "line_index_2": 560,
+    "ref_2": "Yoma 24b:2",
     "heRef_2": "יומא כד:, ב",
     "path_2": "יומא.txt",
     "Conection Type": "source"
@@ -37,6 +42,7 @@
   {
     "line_index_1": 14,
     "line_index_2": 628,
+    "ref_2": "Yoma 26b:5",
     "heRef_2": "יומא כו:, ה",
     "path_2": "יומא.txt",
     "Conection Type": "source"
@@ -44,6 +50,7 @@
   {
     "line_index_1": 16,
     "line_index_2": 648,
+    "ref_2": "Yoma 27a:8",
     "heRef_2": "יומא כז., ח",
     "path_2": "יומא.txt",
     "Conection Type": "source"
@@ -51,6 +58,7 @@
   {
     "line_index_1": 18,
     "line_index_2": 656,
+    "ref_2": "Yoma 27b:2",
     "heRef_2": "יומא כז:, ב",
     "path_2": "יומא.txt",
     "Conection Type": "source"
@@ -58,6 +66,7 @@
   {
     "line_index_1": 20,
     "line_index_2": 707,
+    "ref_2": "Yoma 29b:2",
     "heRef_2": "יומא כט:, ב",
     "path_2": "יומא.txt",
     "Conection Type": "source"
@@ -65,6 +74,7 @@
   {
     "line_index_1": 22,
     "line_index_2": 263,
+    "ref_2": "Tosafot on Yoma 32b:14:1",
     "heRef_2": "תוספות על יומא לב:, יד, א",
     "path_2": "תוספות על יומא.txt",
     "Conection Type": "source"
@@ -72,6 +82,7 @@
   {
     "line_index_1": 24,
     "line_index_2": 837,
+    "ref_2": "Yoma 35b:3",
     "heRef_2": "יומא לה:, ג",
     "path_2": "יומא.txt",
     "Conection Type": "source"
@@ -79,6 +90,7 @@
   {
     "line_index_1": 26,
     "line_index_2": 332,
+    "ref_2": "Tosafot on Yoma 42a:8:1",
     "heRef_2": "תוספות על יומא מב., ח, א",
     "path_2": "תוספות על יומא.txt",
     "Conection Type": "source"
@@ -86,6 +98,7 @@
   {
     "line_index_1": 28,
     "line_index_2": 372,
+    "ref_2": "Tosafot on Yoma 46a:4:1",
     "heRef_2": "תוספות על יומא מו., ד, א",
     "path_2": "תוספות על יומא.txt",
     "Conection Type": "source"
@@ -93,6 +106,7 @@
   {
     "line_index_1": 30,
     "line_index_2": 1310,
+    "ref_2": "Yoma 51a:6",
     "heRef_2": "יומא נא., ו",
     "path_2": "יומא.txt",
     "Conection Type": "source"
@@ -100,6 +114,7 @@
   {
     "line_index_1": 32,
     "line_index_2": 1350,
+    "ref_2": "Yoma 52b:16",
     "heRef_2": "יומא נב:, טז",
     "path_2": "יומא.txt",
     "Conection Type": "source"
@@ -107,6 +122,7 @@
   {
     "line_index_1": 34,
     "line_index_2": 465,
+    "ref_2": "Tosafot on Yoma 57b:1:1",
     "heRef_2": "תוספות על יומא נז:, א, א",
     "path_2": "תוספות על יומא.txt",
     "Conection Type": "source"
@@ -114,6 +130,7 @@
   {
     "line_index_1": 36,
     "line_index_2": 476,
+    "ref_2": "Tosafot on Yoma 59b:1:1",
     "heRef_2": "תוספות על יומא נט:, א, א",
     "path_2": "תוספות על יומא.txt",
     "Conection Type": "source"
@@ -121,6 +138,7 @@
   {
     "line_index_1": 37,
     "line_index_2": 478,
+    "ref_2": "Tosafot on Yoma 59b:4:1",
     "heRef_2": "תוספות על יומא נט:, ד, א",
     "path_2": "תוספות על יומא.txt",
     "Conection Type": "source"
@@ -128,6 +146,7 @@
   {
     "line_index_1": 39,
     "line_index_2": 1571,
+    "ref_2": "Yoma 60b:3",
     "heRef_2": "יומא ס:, ג",
     "path_2": "יומא.txt",
     "Conection Type": "source"
@@ -135,6 +154,7 @@
   {
     "line_index_1": 41,
     "line_index_2": 1712,
+    "ref_2": "Yoma 65a:14",
     "heRef_2": "יומא סה., יד",
     "path_2": "יומא.txt",
     "Conection Type": "source"
@@ -142,6 +162,7 @@
   {
     "line_index_1": 43,
     "line_index_2": 1732,
+    "ref_2": "Yoma 66a:9",
     "heRef_2": "יומא סו., ט",
     "path_2": "יומא.txt",
     "Conection Type": "source"
@@ -149,6 +170,7 @@
   {
     "line_index_1": 45,
     "line_index_2": 1865,
+    "ref_2": "Yoma 70a:4",
     "heRef_2": "יומא ע., ד",
     "path_2": "יומא.txt",
     "Conection Type": "source"
@@ -156,6 +178,7 @@
   {
     "line_index_1": 47,
     "line_index_2": 583,
+    "ref_2": "Tosafot on Yoma 74a:7:1",
     "heRef_2": "תוספות על יומא עד., ז, א",
     "path_2": "תוספות על יומא.txt",
     "Conection Type": "source"

@@ -2,6 +2,7 @@
   {
     "line_index_1": 4,
     "line_index_2": 114,
+    "ref_2": "Bava Metzia 5a:14",
     "heRef_2": "בבא מציעא ה., יד",
     "path_2": "בבא מציעא.txt",
     "Conection Type": "source"
@@ -9,6 +10,7 @@
   {
     "line_index_1": 6,
     "line_index_2": 61,
+    "ref_2": "Tosafot on Bava Metzia 5b:10:1",
     "heRef_2": "תוספות על בבא מציעא ה:, י, א",
     "path_2": "תוספות על בבא מציעא.txt",
     "Conection Type": "source"
@@ -16,6 +18,7 @@
   {
     "line_index_1": 8,
     "line_index_2": 76,
+    "ref_2": "Tosafot on Bava Metzia 6b:8:1",
     "heRef_2": "תוספות על בבא מציעא ו:, ח, א",
     "path_2": "תוספות על בבא מציעא.txt",
     "Conection Type": "source"
@@ -23,6 +26,7 @@
   {
     "line_index_1": 9,
     "line_index_2": 72,
+    "ref_2": "Tosafot on Bava Metzia 6a:18:1",
     "heRef_2": "תוספות על בבא מציעא ו., יח, א",
     "path_2": "תוספות על בבא מציעא.txt",
     "Conection Type": "source"
@@ -30,6 +34,7 @@
   {
     "line_index_1": 13,
     "line_index_2": 515,
+    "ref_2": "Bava Metzia 16a:6",
     "heRef_2": "בבא מציעא טז., ו",
     "path_2": "בבא מציעא.txt",
     "Conection Type": "source"
@@ -37,6 +42,7 @@
   {
     "line_index_1": 15,
     "line_index_2": 220,
+    "ref_2": "Tosafot on Bava Metzia 18a:9:1",
     "heRef_2": "תוספות על בבא מציעא יח., ט, א",
     "path_2": "תוספות על בבא מציעא.txt",
     "Conection Type": "source"
@@ -44,6 +50,7 @@
   {
     "line_index_1": 17,
     "line_index_2": 465,
+    "ref_2": "Tosafot on Bava Metzia 39b:8:1",
     "heRef_2": "תוספות על בבא מציעא לט:, ח, א",
     "path_2": "תוספות על בבא מציעא.txt",
     "Conection Type": "source"
@@ -51,6 +58,7 @@
   {
     "line_index_1": 18,
     "line_index_2": 465,
+    "ref_2": "Tosafot on Bava Metzia 39b:8:1",
     "heRef_2": "תוספות על בבא מציעא לט:, ח, א",
     "path_2": "תוספות על בבא מציעא.txt",
     "Conection Type": "source"
@@ -58,6 +66,7 @@
   {
     "line_index_1": 20,
     "line_index_2": 2188,
+    "ref_2": "Bava Metzia 67b:8",
     "heRef_2": "בבא מציעא סז:, ח",
     "path_2": "בבא מציעא.txt",
     "Conection Type": "source"
@@ -65,6 +74,7 @@
   {
     "line_index_1": 22,
     "line_index_2": 571,
+    "ref_2": "Tosafot on Bava Metzia 48a:13:1",
     "heRef_2": "תוספות על בבא מציעא מח., יג, א",
     "path_2": "תוספות על בבא מציעא.txt",
     "Conection Type": "source"
@@ -72,6 +82,7 @@
   {
     "line_index_1": 24,
     "line_index_2": 1629,
+    "ref_2": "Bava Metzia 49a:3",
     "heRef_2": "בבא מציעא מט., ג",
     "path_2": "בבא מציעא.txt",
     "Conection Type": "source"
@@ -79,6 +90,7 @@
   {
     "line_index_1": 26,
     "line_index_2": 648,
+    "ref_2": "Tosafot on Bava Metzia 54b:10:3",
     "heRef_2": "תוספות על בבא מציעא נד:, י, ג",
     "path_2": "תוספות על בבא מציעא.txt",
     "Conection Type": "source"
@@ -86,6 +98,7 @@
   {
     "line_index_1": 28,
     "line_index_2": 663,
+    "ref_2": "Tosafot on Bava Metzia 55b:7:1",
     "heRef_2": "תוספות על בבא מציעא נה:, ז, א",
     "path_2": "תוספות על בבא מציעא.txt",
     "Conection Type": "source"
@@ -93,6 +106,7 @@
   {
     "line_index_1": 30,
     "line_index_2": 1884,
+    "ref_2": "Bava Metzia 57b:18",
     "heRef_2": "בבא מציעא נז:, יח",
     "path_2": "בבא מציעא.txt",
     "Conection Type": "source"
@@ -100,6 +114,7 @@
   {
     "line_index_1": 32,
     "line_index_2": 744,
+    "ref_2": "Tosafot on Bava Metzia 62b:5:2",
     "heRef_2": "תוספות על בבא מציעא סב:, ה, ב",
     "path_2": "תוספות על בבא מציעא.txt",
     "Conection Type": "source"
@@ -107,6 +122,7 @@
   {
     "line_index_1": 34,
     "line_index_2": 2057,
+    "ref_2": "Bava Metzia 63a:6",
     "heRef_2": "בבא מציעא סג., ו",
     "path_2": "בבא מציעא.txt",
     "Conection Type": "source"
@@ -114,6 +130,7 @@
   {
     "line_index_1": 36,
     "line_index_2": 782,
+    "ref_2": "Tosafot on Bava Metzia 66b:19:1",
     "heRef_2": "תוספות על בבא מציעא סו:, יט, א",
     "path_2": "תוספות על בבא מציעא.txt",
     "Conection Type": "source"
@@ -121,6 +138,7 @@
   {
     "line_index_1": 38,
     "line_index_2": 2325,
+    "ref_2": "Bava Metzia 72a:9",
     "heRef_2": "בבא מציעא עב., ט",
     "path_2": "בבא מציעא.txt",
     "Conection Type": "source"
@@ -128,6 +146,7 @@
   {
     "line_index_1": 40,
     "line_index_2": 3030,
+    "ref_2": "Bava Metzia 94a:2",
     "heRef_2": "בבא מציעא צד., ב",
     "path_2": "בבא מציעא.txt",
     "Conection Type": "source"
@@ -135,6 +154,7 @@
   {
     "line_index_1": 42,
     "line_index_2": 3801,
+    "ref_2": "Bava Metzia 116b:4",
     "heRef_2": "בבא מציעא קטז:, ד",
     "path_2": "בבא מציעא.txt",
     "Conection Type": "source"
@@ -142,6 +162,7 @@
   {
     "line_index_1": 43,
     "line_index_2": 3801,
+    "ref_2": "Bava Metzia 116b:4",
     "heRef_2": "בבא מציעא קטז:, ד",
     "path_2": "בבא מציעא.txt",
     "Conection Type": "source"
@@ -149,6 +170,7 @@
   {
     "line_index_1": 44,
     "line_index_2": 3802,
+    "ref_2": "Bava Metzia 116b:5",
     "heRef_2": "בבא מציעא קטז:, ה",
     "path_2": "בבא מציעא.txt",
     "Conection Type": "source"
@@ -156,6 +178,7 @@
   {
     "line_index_1": 46,
     "line_index_2": 3866,
+    "ref_2": "Bava Metzia 118a:14",
     "heRef_2": "בבא מציעא קיח., יד",
     "path_2": "בבא מציעא.txt",
     "Conection Type": "source"

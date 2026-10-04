@@ -2,6 +2,7 @@
   {
     "line_index_1": 4,
     "line_index_2": 12,
+    "ref_2": "Tosafot on Shevuot 3a:1:1",
     "heRef_2": "תוספות על שבועות ג., א, א",
     "path_2": "תוספות על שבועות.txt",
     "Conection Type": "source"
@@ -9,6 +10,7 @@
   {
     "line_index_1": 6,
     "line_index_2": 188,
+    "ref_2": "Shevuot 8a:13",
     "heRef_2": "שבועות ח., יג",
     "path_2": "שבועות.txt",
     "Conection Type": "source"
@@ -16,6 +18,7 @@
   {
     "line_index_1": 8,
     "line_index_2": 109,
+    "ref_2": "Tosafot on Shevuot 8b:10:1",
     "heRef_2": "תוספות על שבועות ח:, י, א",
     "path_2": "תוספות על שבועות.txt",
     "Conection Type": "source"
@@ -23,6 +26,7 @@
   {
     "line_index_1": 10,
     "line_index_2": 90,
+    "ref_2": "Tosafot on Shevuot 7b:14:1",
     "heRef_2": "תוספות על שבועות ז:, יד, א",
     "path_2": "תוספות על שבועות.txt",
     "Conection Type": "source"
@@ -30,6 +34,7 @@
   {
     "line_index_1": 11,
     "line_index_2": 90,
+    "ref_2": "Tosafot on Shevuot 7b:14:1",
     "heRef_2": "תוספות על שבועות ז:, יד, א",
     "path_2": "תוספות על שבועות.txt",
     "Conection Type": "source"
@@ -37,6 +42,7 @@
   {
     "line_index_1": 13,
     "line_index_2": 299,
+    "ref_2": "Rashi on Shevuot 10a:10:1",
     "heRef_2": "רש\"י על שבועות י., י, א",
     "path_2": "רש\"י על שבועות.txt",
     "Conection Type": "source"
@@ -44,6 +50,7 @@
   {
     "line_index_1": 15,
     "line_index_2": 148,
+    "ref_2": "Tosafot on Shevuot 11a:5:1",
     "heRef_2": "תוספות על שבועות יא., ה, א",
     "path_2": "תוספות על שבועות.txt",
     "Conection Type": "source"
@@ -51,6 +58,7 @@
   {
     "line_index_1": 17,
     "line_index_2": 298,
+    "ref_2": "Shevuot 12a:9",
     "heRef_2": "שבועות יב., ט",
     "path_2": "שבועות.txt",
     "Conection Type": "source"
@@ -58,6 +66,7 @@
   {
     "line_index_1": 19,
     "line_index_2": 323,
+    "ref_2": "Shevuot 13a:4",
     "heRef_2": "שבועות יג., ד",
     "path_2": "שבועות.txt",
     "Conection Type": "source"
@@ -65,6 +74,7 @@
   {
     "line_index_1": 21,
     "line_index_2": 186,
+    "ref_2": "Tosafot on Shevuot 14a:3:1",
     "heRef_2": "תוספות על שבועות יד., ג, א",
     "path_2": "תוספות על שבועות.txt",
     "Conection Type": "source"
@@ -72,6 +82,7 @@
   {
     "line_index_1": 23,
     "line_index_2": 217,
+    "ref_2": "Tosafot on Shevuot 16a:12:1",
     "heRef_2": "תוספות על שבועות טז., יב, א",
     "path_2": "תוספות על שבועות.txt",
     "Conection Type": "source"
@@ -79,6 +90,7 @@
   {
     "line_index_1": 25,
     "line_index_2": 266,
+    "ref_2": "Tosafot on Shevuot 20a:3:2",
     "heRef_2": "תוספות על שבועות כ., ג, ב",
     "path_2": "תוספות על שבועות.txt",
     "Conection Type": "source"
@@ -86,6 +98,7 @@
   {
     "line_index_1": 27,
     "line_index_2": 316,
+    "ref_2": "Tosafot on Shevuot 24a:1:1",
     "heRef_2": "תוספות על שבועות כד., א, א",
     "path_2": "תוספות על שבועות.txt",
     "Conection Type": "source"
@@ -93,6 +106,7 @@
   {
     "line_index_1": 29,
     "line_index_2": 322,
+    "ref_2": "Tosafot on Shevuot 24b:8:1",
     "heRef_2": "תוספות על שבועות כד:, ח, א",
     "path_2": "תוספות על שבועות.txt",
     "Conection Type": "source"
@@ -100,6 +114,7 @@
   {
     "line_index_1": 30,
     "line_index_2": 690,
+    "ref_2": "Shevuot 24b:14",
     "heRef_2": "שבועות כד:, יד",
     "path_2": "שבועות.txt",
     "Conection Type": "source"
@@ -107,6 +122,7 @@
   {
     "line_index_1": 32,
     "line_index_2": 967,
+    "ref_2": "Rashi on Shevuot 26a:6:1",
     "heRef_2": "רש\"י על שבועות כו., ו, א",
     "path_2": "רש\"י על שבועות.txt",
     "Conection Type": "source"
@@ -114,6 +130,7 @@
   {
     "line_index_1": 34,
     "line_index_2": 848,
+    "ref_2": "Shevuot 28a:10",
     "heRef_2": "שבועות כח., י",
     "path_2": "שבועות.txt",
     "Conection Type": "source"
@@ -121,6 +138,7 @@
   {
     "line_index_1": 36,
     "line_index_2": 381,
+    "ref_2": "Tosafot on Shevuot 29a:8:1",
     "heRef_2": "תוספות על שבועות כט., ח, א",
     "path_2": "תוספות על שבועות.txt",
     "Conection Type": "source"
@@ -128,6 +146,7 @@
   {
     "line_index_1": 38,
     "line_index_2": 930,
+    "ref_2": "Shevuot 31a:3",
     "heRef_2": "שבועות לא., ג",
     "path_2": "שבועות.txt",
     "Conection Type": "source"
@@ -135,6 +154,7 @@
   {
     "line_index_1": 39,
     "line_index_2": 930,
+    "ref_2": "Shevuot 31a:3",
     "heRef_2": "שבועות לא., ג",
     "path_2": "שבועות.txt",
     "Conection Type": "source"
@@ -142,6 +162,7 @@
   {
     "line_index_1": 40,
     "line_index_2": 1179,
+    "ref_2": "Rashi on Shevuot 31a:15:1",
     "heRef_2": "רש\"י על שבועות לא., טו, א",
     "path_2": "רש\"י על שבועות.txt",
     "Conection Type": "source"
@@ -149,6 +170,7 @@
   {
     "line_index_1": 42,
     "line_index_2": 996,
+    "ref_2": "Shevuot 32b:7",
     "heRef_2": "שבועות לב:, ז",
     "path_2": "שבועות.txt",
     "Conection Type": "source"
@@ -156,6 +178,7 @@
   {
     "line_index_1": 44,
     "line_index_2": 1030,
+    "ref_2": "Shevuot 33b:4",
     "heRef_2": "שבועות לג:, ד",
     "path_2": "שבועות.txt",
     "Conection Type": "source"
@@ -163,6 +186,7 @@
   {
     "line_index_1": 46,
     "line_index_2": 1255,
+    "ref_2": "Shevuot 38a:15",
     "heRef_2": "שבועות לח., טו",
     "path_2": "שבועות.txt",
     "Conection Type": "source"
@@ -170,6 +194,7 @@
   {
     "line_index_1": 48,
     "line_index_2": 1204,
+    "ref_2": "Shevuot 37a:1",
     "heRef_2": "שבועות לז., א",
     "path_2": "שבועות.txt",
     "Conection Type": "source"
