@@ -31640,6 +31640,30 @@
     "Sourcefolder": "yam-HaHachma"
   },
   {
+    "heAuthors": [
+      "חיים חזקיהו מדיני"
+    ],
+    "title": "שדי חמד כללים מערכת ע",
+    "enTitle": "Sdei Chemed Kelalim Maarechet Ayin",
+    "authors": [
+      "Chaim Hezekiah Medini"
+    ],
+    "pubDate": null,
+    "pubDateHeb": null,
+    "pubPlaceStringEn": null,
+    "pubPlaceStringHe": null,
+    "heCategories": [
+      "ספרות עזר",
+      "אנציקלופדיות",
+      "שדי חמד"
+    ],
+    "categories": [
+      "Reference"
+    ],
+    "publisher": "ים החכמה",
+    "Sourcefolder": "yam-HaHachma"
+  },
+  {
     "title": "פירוש הראש על זבים",
     "heAuthors": [
       "רבינו אשר בן יחיאל"
