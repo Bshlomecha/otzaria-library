@@ -1,0 +1,30 @@
+[
+  {
+    "line_index_1": 4,
+    "line_index_2": 16,
+    "heRef_2": "תוספות על חגיגה ב:, ב, א",
+    "path_2": "תוספות על חגיגה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6,
+    "line_index_2": 180,
+    "heRef_2": "תוספות על חגיגה יד:, י, ב",
+    "path_2": "תוספות על חגיגה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 8,
+    "line_index_2": 279,
+    "heRef_2": "תוספות על חגיגה כג., יא, א",
+    "path_2": "תוספות על חגיגה.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 10,
+    "line_index_2": 290,
+    "heRef_2": "תוספות על חגיגה כד., ז, א",
+    "path_2": "תוספות על חגיגה.txt",
+    "Conection Type": "source"
+  }
+]

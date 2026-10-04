@@ -1,0 +1,30 @@
+[
+  {
+    "line_index_1": 4,
+    "line_index_2": 131,
+    "heRef_2": "תוספות על תענית יג., ט, א",
+    "path_2": "תוספות על תענית.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 5,
+    "line_index_2": 356,
+    "heRef_2": "תענית יג., ב",
+    "path_2": "תענית.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7,
+    "line_index_2": 823,
+    "heRef_2": "תענית כז., ו",
+    "path_2": "תענית.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 9,
+    "line_index_2": 850,
+    "heRef_2": "תענית כח., ד",
+    "path_2": "תענית.txt",
+    "Conection Type": "source"
+  }
+]

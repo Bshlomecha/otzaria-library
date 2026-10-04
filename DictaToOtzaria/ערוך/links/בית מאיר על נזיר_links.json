@@ -1,0 +1,79 @@
+[
+  {
+    "line_index_1": 4,
+    "line_index_2": 136,
+    "heRef_2": "תוספות על נזיר ח., ו, א",
+    "path_2": "תוספות על נזיר.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6,
+    "line_index_2": 193,
+    "heRef_2": "נזיר ט., ה",
+    "path_2": "נזיר.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 8,
+    "line_index_2": 345,
+    "heRef_2": "נזיר יז., ט",
+    "path_2": "נזיר.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 9,
+    "line_index_2": 345,
+    "heRef_2": "נזיר יז., ט",
+    "path_2": "נזיר.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 10,
+    "line_index_2": 345,
+    "heRef_2": "נזיר יז., ט",
+    "path_2": "נזיר.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 11,
+    "line_index_2": 345,
+    "heRef_2": "נזיר יז., ט",
+    "path_2": "נזיר.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 13,
+    "line_index_2": 541,
+    "heRef_2": "נזיר כו., ו",
+    "path_2": "נזיר.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 15,
+    "line_index_2": 543,
+    "heRef_2": "נזיר כו:, א",
+    "path_2": "נזיר.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 16,
+    "line_index_2": 543,
+    "heRef_2": "נזיר כו:, א",
+    "path_2": "נזיר.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 18,
+    "line_index_2": 793,
+    "heRef_2": "נזיר לח., ב",
+    "path_2": "נזיר.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 20,
+    "line_index_2": 1383,
+    "heRef_2": "נזיר סד:, יא",
+    "path_2": "נזיר.txt",
+    "Conection Type": "source"
+  }
+]
