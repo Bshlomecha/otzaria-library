@@ -58,5 +58,13 @@
   * `שדי חמד כללים מערכת ע` — `כלל X)` בתחילת שורה במקום `<h3>`. תיקון:
     [scripts/shdei_chemed_raw_kelalim.py](scripts/shdei_chemed_raw_kelalim.py)
     (`<h1>`/`<h2>`/`<h3>` כמו במערכות נ ו-ס, מספרי כללים מנורמלים בכותרת בלבד).
+  * `פחד יצחק חלק ט` — OCR בשורות דפוס, בלי סימון פסקה. תיקון:
+    [scripts/pachad_yitzchak_reflow.py](scripts/pachad_yitzchak_reflow.py)
+    (7,414 שורות → 1,319 פסקאות, עם בדיקת שימור טקסט). אין כותרות לערכים, כי גבול
+    המילה הראשית אינו מסומן בטקסט. לפניו
+    [scripts/pachad_yitzchak_ocr_fix.py](scripts/pachad_yitzchak_ocr_fix.py) מתקן מול
+    הסריקה (HebrewBooks 20343) 910 טעויות OCR (בעיקר ר→ד, ב→כ, ם→ס) ו־46 שורות סיום
+    שהוצבו אחרי תחילת הערך הבא, ומסיר ניקוד שהוא כתמי דיו. הרצה:
+    `pachad_yitzchak_ocr_fix.py RAW.txt OUT.txt` (מריץ את ה־reflow בעצמו).
 
 </div>

@@ -405317,6 +405317,31 @@
   },
   {
     "heAuthors": [
+      "יצחק חזקיה לאמפרונטי"
+    ],
+    "title": "פחד יצחק חלק ט",
+    "enTitle": "Pachad Yitzchak Part 9",
+    "authors": [
+      "Isaac Lampronti"
+    ],
+    "pubDate": null,
+    "pubDateHeb": null,
+    "pubPlaceStringEn": null,
+    "pubPlaceStringHe": null,
+    "heCategories": [
+      "ספרות עזר",
+      "אנציקלופדיות",
+      "פחד יצחק"
+    ],
+    "categories": [
+      "Reference"
+    ],
+    "publisher": "ים החכמה",
+    "Sourcefolder": "yam-HaHachma",
+    "file_path": "yam-HaHachmaToOtzaria/ספרים/אוצריא/ספרות עזר/אנציקלופדיות/פחד יצחק/פחד יצחק חלק ט.txt"
+  },
+  {
+    "heAuthors": [
       "יום טוב ליפמן הלפרין"
     ],
     "title": "קדושת יום טוב (ליפמן)",
