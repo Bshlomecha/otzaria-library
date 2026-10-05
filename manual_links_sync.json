@@ -15,7 +15,8 @@
     { "path": "wikisourceToOtzaria/links", "expected_state": "absent" },
     { "path": "ToratEmetToOtzaria/links", "expected_state": "present" },
     { "path": "pninimToOtzaria/links", "expected_state": "present" },
-    { "path": "National-LibraryToOtzaria/links", "expected_state": "present" }
+    { "path": "National-LibraryToOtzaria/links", "expected_state": "present" },
+    { "path": "BeitAharonVeYisraelToOtzaria/links", "expected_state": "present" }
   ],
   "bootstrap_adapters": {
     "National-LibraryToOtzaria/links": "national_library_mishneh_torah_v1",

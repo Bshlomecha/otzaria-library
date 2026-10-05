@@ -47,6 +47,7 @@ BOOK_ROOTS = (
     "pninimToOtzaria/ספרים/אוצריא",
     "National-LibraryToOtzaria/ספרים/אוצריא",
     "yam-HaHachmaToOtzaria/ספרים/אוצריא",
+    "BeitAharonVeYisraelToOtzaria/ספרים/אוצריא",
 )
 
 

@@ -118,6 +118,7 @@ folders = [
     "pninimToOtzaria/ספרים/אוצריא",
     "yam-HaHachmaToOtzaria/ספרים/אוצריא",
     "National-LibraryToOtzaria/ספרים/אוצריא",
+    "BeitAharonVeYisraelToOtzaria/ספרים/אוצריא",
 ]
 
 

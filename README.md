@@ -203,6 +203,19 @@ the library for [otzaria](https://github.com/Otzaria/otzaria) app, with the scri
 
 ---
 
+#### מכון בית אהרן וישראל - תיקיית `BeitAharonVeYisraelToOtzaria`
+
+**טקסטים:** באישור מכון בית אהרן וישראל  
+**סקריפטים ועיבודים שלנו:** Personal Use License 1.0 (שימוש אישי בלבד)
+
+[אתר המכון](https://machon.co.il)
+
+**קרדיט:** הספרים שבתיקייה זו פורסמו להורדה חופשית באתר **מכון בית אהרן וישראל**,
+והוכנסו לספרייה באישור המכון. נלקחו רק ספרים שיש להם כפתור הורדה באתר.
+[פרטים נוספים](BeitAharonVeYisraelToOtzaria/README.md)
+
+---
+
 #### ספרים נוספים - תיקיית `MoreBooks`
 
 **טקסטים וסקריפטים:** Personal Use License 1.0 (שימוש אישי בלבד)

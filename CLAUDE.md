@@ -42,6 +42,7 @@ ToratEmetToOtzaria/ספרים/אוצריא
 pninimToOtzaria/ספרים/אוצריא
 National-LibraryToOtzaria/ספרים/אוצריא
 yam-HaHachmaToOtzaria/ספרים/אוצריא
+BeitAharonVeYisraelToOtzaria/ספרים/אוצריא
 ```
 
 אותה רשימה משוכפלת כ־`PACKAGED_PREFIXES` ב־[validate_fordb_book_names.py:186](.github/scripts/validate_fordb_book_names.py#L186)
@@ -60,6 +61,7 @@ yam-HaHachmaToOtzaria/ספרים/אוצריא
 - `KSK/` שאינו תחת `ספרים/אוצריא/` — תיקיית הסקריפטים של קובץ שיטות קמאי
 - כל `<source>/ספרים/<משהו שאינו אוצריא>/` — למשל `OraytaToOtzaria/ספרים/לא רלוונטי/`
 - `DictaToOtzaria/לא ערוך/` — נכנס רק ל־`otzaria_dicta_latest.zip`, לא לספרייה
+- `BeitAharonVeYisraelToOtzaria/ספרים/בהמתנה/` — ספרים ממתינים של מכון בית אהרן וישראל (לא רשומים במטא־דאטה)
 - כלי עבודה: `linker/`, `linker-eval/`, `metadata/`, `library_csv/`, `send_update/`, `סקריפטים שונות/`
 
 ## הקישורים: `links_roots`
@@ -75,7 +77,7 @@ yam-HaHachmaToOtzaria/ספרים/אוצריא
 
 - **ספר של המאגר הזה** (Dicta / MoreBooks / OnYourWay / Orayta / ToratEmet /
   pninim / Ben-Yehuda / wikisource / tashma / wikiJewishBooks / National-Library /
-  yam-HaHachma / KSK):
+  yam-HaHachma / KSK / BeitAharonVeYisrael):
   הקטגוריה נגזרת מ**נתיב התיקייה הפיזי בתוך `BOOK_ROOTS`**. מזיזים את הקובץ ב־git.
   `ForDB/book_moves.csv` **לא** מיועד לספרים אלה.
 - **ספר של ספריא** (`source.name='Sefaria'`): אין קובץ מקומי, הוא נוצר בזמן הבנייה

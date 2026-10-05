@@ -399384,5 +399384,245 @@
     ],
     "publisher": "ים החכמה",
     "Sourcefolder": "yam-HaHachma"
+  },
+  {
+    "heAuthors": [
+      "נפתלי הירץ מלעכוויטש"
+    ],
+    "title": "בית אבות על מסכת אבות",
+    "authors": [],
+    "pubDate": [
+      2019
+    ],
+    "pubDateHeb": null,
+    "pubPlaceStringEn": null,
+    "pubPlaceStringHe": "ירושלים",
+    "heCategories": [
+      "משנה",
+      "אחרונים"
+    ],
+    "categories": [],
+    "publisher": "מכון בית אהרן וישראל",
+    "Sourcefolder": "Beit-Aharon-VeYisrael"
+  },
+  {
+    "heAuthors": [
+      "תלמיד הרא\"ש"
+    ],
+    "title": "דרשות תלמיד הראש",
+    "authors": [],
+    "pubDate": [
+      2022
+    ],
+    "pubDateHeb": null,
+    "pubPlaceStringEn": null,
+    "pubPlaceStringHe": "ירושלים",
+    "heCategories": [
+      "תנך",
+      "דרשות ודרושים"
+    ],
+    "categories": [],
+    "publisher": "מכון בית אהרן וישראל",
+    "Sourcefolder": "Beit-Aharon-VeYisrael"
+  },
+  {
+    "heAuthors": [
+      "זרחיה גוטה"
+    ],
+    "title": "חידושי רבי זרחיה גוטה",
+    "authors": [],
+    "pubDate": [
+      2023
+    ],
+    "pubDateHeb": null,
+    "pubPlaceStringEn": null,
+    "pubPlaceStringHe": "ירושלים",
+    "heCategories": [
+      "תלמוד בבלי",
+      "אחרונים"
+    ],
+    "categories": [],
+    "publisher": "מכון בית אהרן וישראל",
+    "Sourcefolder": "Beit-Aharon-VeYisrael"
+  },
+  {
+    "heAuthors": [
+      "עזרא צורף"
+    ],
+    "title": "טופסי גיטין",
+    "authors": [],
+    "pubDate": [
+      2015
+    ],
+    "pubDateHeb": null,
+    "pubPlaceStringEn": null,
+    "pubPlaceStringHe": "ירושלים",
+    "heCategories": [
+      "תלמוד בבלי",
+      "אחרונים"
+    ],
+    "categories": [],
+    "publisher": "מכון בית אהרן וישראל",
+    "Sourcefolder": "Beit-Aharon-VeYisrael"
+  },
+  {
+    "heAuthors": [
+      "דוד אופנהיים"
+    ],
+    "title": "יד דוד - רבי דוד אופנהיים",
+    "authors": [],
+    "pubDate": [
+      2013
+    ],
+    "pubDateHeb": null,
+    "pubPlaceStringEn": null,
+    "pubPlaceStringHe": "ירושלים",
+    "heCategories": [
+      "תנך",
+      "דרשות ודרושים"
+    ],
+    "categories": [],
+    "publisher": "מכון בית אהרן וישראל",
+    "Sourcefolder": "Beit-Aharon-VeYisrael"
+  },
+  {
+    "heAuthors": [
+      "יצחק אייזנשטאט"
+    ],
+    "title": "ילקוט דרושים",
+    "authors": [],
+    "pubDate": [
+      2013
+    ],
+    "pubDateHeb": null,
+    "pubPlaceStringEn": null,
+    "pubPlaceStringHe": "ירושלים",
+    "heCategories": [
+      "תנך",
+      "דרשות ודרושים"
+    ],
+    "categories": [],
+    "publisher": "מכון בית אהרן וישראל",
+    "Sourcefolder": "Beit-Aharon-VeYisrael"
+  },
+  {
+    "heAuthors": [
+      "יעקב בן זקן"
+    ],
+    "title": "מקל יעקב",
+    "authors": [],
+    "pubDate": [
+      2022
+    ],
+    "pubDateHeb": null,
+    "pubPlaceStringEn": null,
+    "pubPlaceStringHe": "ירושלים",
+    "heCategories": [
+      "תלמוד בבלי",
+      "אחרונים"
+    ],
+    "categories": [],
+    "publisher": "מכון בית אהרן וישראל",
+    "Sourcefolder": "Beit-Aharon-VeYisrael"
+  },
+  {
+    "heAuthors": [
+      "חיים צבי מאנהיימר"
+    ],
+    "title": "עין הבדלח תנינא",
+    "authors": [],
+    "pubDate": [
+      2015
+    ],
+    "pubDateHeb": null,
+    "pubPlaceStringEn": null,
+    "pubPlaceStringHe": "ירושלים",
+    "heCategories": [
+      "הלכה",
+      "אחרונים"
+    ],
+    "categories": [],
+    "publisher": "מכון בית אהרן וישראל",
+    "Sourcefolder": "Beit-Aharon-VeYisrael"
+  },
+  {
+    "heAuthors": [
+      "זרחיה גוטה"
+    ],
+    "title": "שות זרח השלום",
+    "authors": [],
+    "pubDate": [
+      2017
+    ],
+    "pubDateHeb": null,
+    "pubPlaceStringEn": null,
+    "pubPlaceStringHe": "ירושלים",
+    "heCategories": [
+      "שות",
+      "אחרונים"
+    ],
+    "categories": [],
+    "publisher": "מכון בית אהרן וישראל",
+    "Sourcefolder": "Beit-Aharon-VeYisrael"
+  },
+  {
+    "heAuthors": [
+      "יצחק הלוי מקושטא"
+    ],
+    "title": "שות רבי יצחק הלוי מקושטא",
+    "authors": [],
+    "pubDate": [
+      2011
+    ],
+    "pubDateHeb": null,
+    "pubPlaceStringEn": null,
+    "pubPlaceStringHe": "ירושלים",
+    "heCategories": [
+      "שות",
+      "אחרונים"
+    ],
+    "categories": [],
+    "publisher": "מכון בית אהרן וישראל",
+    "Sourcefolder": "Beit-Aharon-VeYisrael"
+  },
+  {
+    "heAuthors": [
+      "שלמה ברוך"
+    ],
+    "title": "שות רבי שלמה ברוך",
+    "authors": [],
+    "pubDate": [
+      2022
+    ],
+    "pubDateHeb": null,
+    "pubPlaceStringEn": null,
+    "pubPlaceStringHe": "ירושלים",
+    "heCategories": [
+      "שות",
+      "אחרונים"
+    ],
+    "categories": [],
+    "publisher": "מכון בית אהרן וישראל",
+    "Sourcefolder": "Beit-Aharon-VeYisrael"
+  },
+  {
+    "heAuthors": [
+      "תוספות"
+    ],
+    "title": "עטרת זקנים - בעלי התוספות על התורה ומגילות",
+    "authors": [],
+    "pubDate": [
+      2009
+    ],
+    "pubDateHeb": null,
+    "pubPlaceStringEn": null,
+    "pubPlaceStringHe": "ירושלים",
+    "heCategories": [
+      "תנך",
+      "ראשונים"
+    ],
+    "categories": [],
+    "publisher": "מכון בית אהרן וישראל",
+    "Sourcefolder": "Beit-Aharon-VeYisrael"
   }
 ]
