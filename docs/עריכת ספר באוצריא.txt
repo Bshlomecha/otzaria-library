@@ -57,7 +57,7 @@
 <span style="font-size:14pt;">נקודות - גודל מוחלט, 14pt (כמו בוורד)</span>
 <b>המלצה חשובה:</b> עדיף להשתמש ב<b>אחוזים</b> או ב-em, ולא ב-px או pt. אחוזים מתאימים את עצמם לגודל הגופן שהמשתמש בחר בהגדרות התוכנה, ואילו px ו-pt קובעים גודל קבוע שלא יגדל כשהמשתמש מגדיל את הכתב - וכך הטקסט שלכם ייראה זעיר אצל מי שקורא בכתב גדול.
 קיימות גם מילות מפתח מוכנות, גם הן יחסיות לגודל שהמשתמש בחר:
-<span style="font-size:xx-small;">xx-small</span> <span style="font-size:x-small;">x-small</span> <span style="font-size:small;">small</span> <span style="font-size:medium;">medium (רגיל)</span> <span style="font-size:large;">large</span> <span style="font-size:x-large;">x-large</span> <span style="font-size:xx-large;">xx-large</span>
+<span style="font-size:xx-small;">xx-small</span> <span style="font-size:x-small;">x-small</span> <span style="font-size:small;">small</span> <span style="font-size:medium;">medium (רגיל)</span> <span style="font-size:large;">large</span> <span style="font-size:x-large;">x-large</span> <span style="font-size:xx-large;">xx-large</span> <span style="font-size:xxx-large;">xxx-large</span>
 <span style="font-size:larger;">larger - גדול מהסובב</span> <span style="font-size:smaller;">smaller - קטן מהסובב</span>
 הערה: היחידה rem אינה נתמכת, ותתעלמו ממנה. יש להשתמש ב-em או באחוזים.
 <h2>כתב נטוי</h2>
@@ -127,8 +127,8 @@
 <span style="background-color:Yellow;">רקע צהוב על מילים אלו בלבד</span>
 <span style="background-color:#F0E68C;">רקע בקוד HEX</span>
 <span style="background-color:#FF000033;">רקע אדום שקוף - נעים יותר לעין ומאפשר לקרוא את הטקסט. שתי הספרות האחרונות הן דרגת השקיפות</span>
+<span style="background-color:rgba(255,0,0,0.2);">רקע אדום שקוף - בקוד RGBA</span>
 <mark>התג mark - סימון בצהוב, בקצרה</mark>
-<span style="background-color:rgba(255,0,0,0.2);">רקע אדום שקוף - נעים יותר לעין ומאפשר לקרוא את הטקסט</span>
 לצביעת <b>כל השורה</b> ולא רק מילים בודדות, יש להשתמש ב-div במקום ב-span:
 <div style="background-color:#FFF9C4;">רקע על כל רוחב השורה</div>
 הערה: התג &lt;div&gt; שובר שורה לפניו ואחריו, ולכן אינו מתאים לסימון מילה בתוך משפט.
@@ -174,30 +174,41 @@
 זו המגבלה החשובה ביותר להכיר, והיא מקור לתקלות מבלבלות.
 מנוע התצוגה של אוצריא (וכך גם של פלאטר שעליו היא בנויה) מטפל בעיצובים מסוימים לא כטקסט אלא כ'תיבה' נפרדת המשובצת בתוך השורה. בטקסט מימין לשמאל, כמה תיבות כאלו באותה פסקה מסודרות <b>בסדר הפוך</b> - מהשמאלית לימנית - ולכן הטקסט מוצג הפוך, והרווחים בין המילים נעים ממקומם.
 <b>העיצובים שהופכים לתיבה, ולכן מותר להם להופיע פעם אחת בלבד בשורה:</b>
-1. &lt;sup&gt; ו-&lt;sub&gt; שתוכנם אינו מספר (למשל אותיות).
-2. display:inline-block - כולל תיבות ממוסגרות ו-direction:ltr.
-3. תמונות &lt;img&gt; בתוך שורת טקסט.
+1. display:inline-block - כולל תיבות ממוסגרות ו-direction:ltr.
+2. תמונות &lt;img&gt; בתוך שורת טקסט.
+3. התג &lt;ruby&gt; - פירוש קטן מעל מילה.
+4. vertical-align:super ו-vertical-align:sub (הרמה/הנמכה ב-CSS).
+5. &lt;sup&gt; <b>שנכתב עם תכונות או עם תגים בתוכו</b> - למשל &lt;sup style="color:red"&gt; או &lt;sup&gt;&lt;b&gt;א&lt;/b&gt;&lt;/sup&gt;. כזה נשאר תג אמיתי, ולכן הוא תיבה. &lt;sup&gt; פשוט אינו תיבה - ראו להלן.
 <b>הכלל המעשי:</b> בכל שורה בקובץ, מותר להשתמש בעיצוב אחד בלבד מהרשימה הזו, ופעם אחת בלבד. שני עיצובים כאלו באותה שורה - והטקסט ביניהם יוצג הפוך. אם צריך שניים, יש לפצל לשתי שורות בקובץ.
-<b>למה זה לא קורה במספרי הערות:</b> משום שאוצריא מזהה &lt;sup&gt; שתוכנו מספר וממירה אותו לתו יוניקוד עילי - טקסט רגיל ולא תיבה. לכן כמה מספרי הערות בשורה אחת עובדים ללא בעיה.
-<b>עיצובים שאינם הופכים לתיבה, וניתן להשתמש בהם בחופשיות:</b> הדגשה, נטייה, גודל כתב, גופן, צבע, רקע, כל סוגי הקווים, &lt;big&gt;, &lt;small&gt;, &lt;mark&gt;, קישורים, וכן &lt;sup&gt; מספרי.
+<b>למה זה לא קורה בסימוני הערות:</b> משום שאוצריא ממירה כל &lt;sup&gt; פשוט (וכן &lt;sub&gt;) לטקסט רגיל, ומרימה אותו בציור ולא בפריסה. טקסט רגיל אינו תיבה, ולכן סדרו מובטח. כך כמה סימוני הערות באותה שורה עובדים ללא בעיה - בין אם סימנם מספר ובין אם אות.
+<b>עיצובים שאינם הופכים לתיבה, וניתן להשתמש בהם בחופשיות:</b> הדגשה, נטייה, גודל כתב, גופן, צבע, רקע, כל סוגי הקווים, &lt;big&gt;, &lt;small&gt;, &lt;mark&gt;, קישורים, וכן &lt;sup&gt; ו-&lt;sub&gt; פשוטים.
 <h2>נקודות הדגשה מעל האותיות - אינו שמיש בעברית</h2>
 בתקן ה-HTML קיימת התכונה text-emphasis, שמציבה נקודה או גרש מעל כל אות - דרך מקובלת בספרי קודש להדגשה. <b>אין להשתמש בה באוצריא.</b>
 הסיבה: כדי להציב סימן מעל כל אות, המנוע הופך <b>כל אות ואות</b> לתיבה נפרדת. לפי מגבלת ההיפוך שלמעלה, המילה כולה מוצגת הפוכה - אות אחר אות משמאל לימין - והרווחים בין המילים נעים ממקומם. הסימנים אמנם מופיעים, אבל המילה בלתי קריאה.
 להדגשה חזקה יש להשתמש בהדגשה, בנטייה, בקו תחתון או בצבע.
 <h2>פירוש קטן מעל מילה</h2>
 התג &lt;ruby&gt; מציב טקסט קטן מעל מילה - שימושי לתרגום, לניקוד או להסבר קצר. המבנה: המילה, ואחריה &lt;rt&gt; ובו ההסבר.
-<ruby>אנפין<rt>פנים</rt></ruby> - מילה עם תרגום מעליה, המשך משפט, <ruby>בסתמא<rt>בסתם</rt></ruby>, ועוד המשך.
-כל התג חייב להיות בשורה אחת. ניתן להציב כמה תגי ruby באותה שורה.
+<ruby>אנפין<rt>פנים</rt></ruby> - מילה עם תרגום מעליה, והמשך המשפט.
+כל התג חייב להיות בשורה אחת.
+<b>אזהרה:</b> תג ruby הוא 'תיבה' - מותר <b>אחד בלבד בכל שורה</b>. שני תגי ruby באותה שורה יציגו את תוכנם בסדר הפוך (ראו האזהרה המרכזית למעלה). אם צריך שניים, יש לפצל לשתי שורות בקובץ.
 <h2>כתב עילי ותחתי</h2>
 טקסט רגיל <sup>עילי</sup> טקסט רגיל
 טקסט רגיל <sub>תחתי</sub> טקסט רגיל
 בשני המקרים הכתב קטן בכ-17% ומורם או מונמך.
-<b>התנהגות מיוחדת באוצריא:</b> תג &lt;sup&gt; (עילי) שמכיל <b>מספרים בלבד</b> מומר אוטומטית לספרות-עיליות של יוניקוד. כלומר &lt;sup&gt;1&lt;/sup&gt; יוצג כך: <sup>1</sup> - כתו טקסט אמיתי ולא כתג. הדבר נעשה כדי לפתור בעיית סדר בטקסט עברי: כששני מספרים עיליים מופיעים באותה פסקה, מנוע התצוגה היה מציג אותם בסדר הפוך. תג &lt;sup&gt; שמכיל טקסט (למשל אותיות) נשאר תג רגיל.
-משמעות מעשית: מספרי הערות עיליים אינם ניתנים להגדלה או לצביעה, כי הם הופכים לתו יוניקוד. זה תקין ומכוון.
-נתמכת גם ההרמה ע"י CSS, אך <b>בלי</b> הקטנת הכתב.
-טקסט רגיל <span style="vertical-align:super;">מורם בגודל מלא</span> טקסט רגיל <span style="vertical-align:sub;">מונמך בגודל מלא</span>
-<span style="vertical-align:top;">מונמך לתחתית השורה</span> טקסט רגיל <span style="vertical-align:bottom;">מורם לראש השורה</span>
+<b>התנהגות מיוחדת באוצריא - חשוב להכיר:</b> תג &lt;sup&gt; <b>פשוט</b> (בלי תכונות ובלי תגים בתוכו) אינו נשאר תג. אוצריא ממירה אותו ל<b>טקסט רגיל</b> מוקטן, ומרימה אותו מעל השורה בשכבת ציור נפרדת. כך זה עובד בין אם תוכנו מספר ובין אם אות או מילה.
+הסיבה: תג &lt;sup&gt; אמיתי הוא 'תיבה', ושתי תיבות באותה שורה מוצגות בסדר הפוך בעברית (ראו האזהרה המרכזית למעלה). טקסט רגיל אינו תיבה, ולכן סדרו מובטח.
+משמעות מעשית:
+1. ניתן להציב כמה סימונים עיליים באותה שורה, בלי חשש להיפוך - גם כשסימנם אות.
+2. הסימון הוא טקסט אמיתי: ניתן לבחור אותו, להעתיק אותו, והחיפוש מוצא אותו.
+3. הסימון אינו ניתן לצביעה או להגדלה - הציור המורם משתמש בצבע הטקסט ובגודל הקבוע. זה תקין ומכוון.
+4. אם בכל זאת נדרש &lt;sup&gt; מעוצב - כותבים לו תכונת style. אז הוא נשאר תג אמיתי, וניתן לצבוע אותו - אבל הוא הופך ל'תיבה', ומותר אחד כזה בלבד בשורה.
+<b>וכך גם בכתב תחתי:</b> תג &lt;sub&gt; שמכיל <b>מספרים בלבד</b> מומר לספרות-תחתיות של יוניקוד (<sub>123</sub>). &lt;sub&gt; שמכיל טקסט אחר מומר לטקסט מוקטן רגיל - אין גליפים תחתיים לאותיות עבריות. בשני המקרים התוצאה היא טקסט ולא תיבה.
+נתמכת גם ההרמה ע"י CSS, אך <b>בלי</b> הקטנת הכתב. <b>שימו לב:</b> בשונה מ-&lt;sup&gt; הפשוט, vertical-align הוא 'תיבה' - מותר אחד בלבד בכל שורה, אחרת הטקסט יתהפך. למספרי הערות ולסימוני הפניה עדיף תמיד &lt;sup&gt;.
+טקסט רגיל <span style="vertical-align:super;">מורם בגודל מלא</span> וטקסט רגיל ממשיך
+טקסט רגיל <span style="vertical-align:top;">מורם לראש השורה</span> והמשך
+טקסט רגיל <span style="vertical-align:bottom;">מונמך לתחתית השורה</span> והמשך
 <span style="vertical-align:middle;">ביטול שינוי גובה שנקבע בחוץ</span>
+כל אחד מהם נכתב כאן בשורה נפרדת - בכוונה. שניים באותה שורה היו מתהפכים.
 <h2>הערות שוליים - הדרך הנכונה</h2>
 לאוצריא יש מנגנון הערות שוליים אמיתי, בתוך אותו קובץ. אין צורך בקבצים נוספים.
 המבנה: בסוף המילה שאליה מתייחסת ההערה כותבים סימן הפניה בתג sup עם התכונה class="footnote-marker", ומיד לאחריו - <b>בלי רווח</b> - את גוף ההערה בתג i עם התכונה class="footnote".
@@ -209,7 +220,7 @@
 2. ההערות מוצגות כ'מפרש' וירטואלי בחלונית הצד, ליד הטקסט.
 3. בריחוף העכבר על סימן ההפניה מוצגת ההערה בחלונית קטנה מעל הטקסט.
 4. גוף ההערה אינו מזהם את תוצאות החיפוש בגוף הספר.
-סימן ההפניה יכול להיות מספר או אות. מספר יוצג כספרה עילית, ואות תוצג קטנה, נטויה ומורמת:
+סימן ההפניה יכול להיות מספר או אות. בשני המקרים הוא יוצג קטן, נטוי ומורם מעל השורה - ובסדר הנכון, גם כשיש כמה סימונים באותה שורה:
 מילה ראשונה<sup class="footnote-marker">2</sup><i class="footnote">הערה שסימנה מספר.</i> ומילה שניה<sup class="footnote-marker">א</sup><i class="footnote">הערה שסימנה אות עברית.</i> וסוף המשפט.
 בתוך גוף ההערה מותר להשתמש בכל תגי העיצוב: <b>הדגשה</b>, נטייה, צבע וכדומה.
 <h2>קישורים</h2>
@@ -219,7 +230,7 @@
 <a href="mailto:info@otzaria.1.org">קישור לשליחת דואר אלקטרוני</a>
 קישורים מוצגים בצבע בסיס התוכנה ועם קו תחתון, ובלחיצה נפתחים בדפדפן ברירת המחדל.
 <h3>קישור לספר אחר בתוך אוצריא</h3>
-זו האפשרות החזקה והשימושית ביותר. הכתובת מתחילה ב-book:// ואחריה שם הספר <b>בדיוק</b> כפי שהוא מופיע בספריה:
+הכתובת מתחילה ב-book:// ואחריה שם הספר <b>בדיוק</b> כפי שהוא מופיע בספריה:
 <a href="book://שולחן ערוך, אורח חיים">קישור לשולחן ערוך אורח חיים</a>
 להגעה לכותרת מסוימת בתוך הספר, מוסיפים סולמית ואחריה את הכותרת:
 <a href="book://שולחן ערוך, אורח חיים#סימן ט">קישור לסימן ט בשו"ע או"ח</a>
@@ -234,25 +245,44 @@
 <b>כשרמה אינה נמצאת</b> - התוכנה נוחתת על הרמה העמוקה שכן נמצאה, ומודיעה במדויק איזו רמה חסרה. כך אפשר לתקן את הקישור בקלות. אם אף רמה לא נמצאה, הספר נפתח בתחילתו וההודעה אומרת זאת במפורש.
 <b>איך למצוא את טקסט הכותרת המדויק:</b> לפתוח את הספר באוצריא, לפתוח את תוכן העניינים בסרגל הצד, ולהעתיק את הכותרת בדיוק כפי שהיא כתובה שם - כולל גרשיים, אותיות סופיות ופסיקים. רווחים מיותרים אינם מפריעים, אבל כל תו אחר חייב להיות זהה.
 הספר ייפתח בלשונית חדשה. אם הספר לא נמצא בספריה, תוצג הודעה מתאימה.
+<b>פתיחה ברקע:</b> לחיצה על <b>גלגל העכבר</b> (לחצן אמצעי) על קישור book:// פותחת את הספר בלשונית חדשה ברקע, בלי לעזוב את מקום הקריאה הנוכחי.
+<h3>קישור לספר לפי מזהה - //:otzaria</h3>
+לכל ספר בספריה יש מזהה מספרי, ויש כתובת ישירה אליו, לדוגמא: otzaria://open/book/6121
+<b>איך משיגים את הכתובת:</b> פותחים את הספר בעיון, ולוחצים על לחצן "העתק קישור ישיר לספר זה" שבסרגל הכלים. לחיצה ימנית בתוך הספר מציעה גם קישור למקטע מסוים ולהדגשה. יש לכך גם קיצורי מקלדת בהגדרות.
+פרמטרים אפשריים, אחרי סימן שאלה ומופרדים ב-&amp;:
+?index=<b>n</b> - קפיצה למקטע (שורה) מספר n, החל מאפס. למשל otzaria://open/book/6121?index=0
+?q=<b>טקסט</b> - פתיחת לשונית חיפוש עם המחרוזת הזו.
+?mark - הדגשת כל המקטע שב-index (דגל, בלי ערך).
+?m=<b>טקסט</b> - הדגשת טקסט מסוים בתוך המקטע.
+?source=user - ספר אישי במקום ספר רשמי. ל-otzaria://open/pdf/<b>id</b>?index=<b>n</b> נפתח ספר PDF בעמוד מסוים.
+סדר העדיפות להדגשה הוא m, ואז mark, ואז q.
+הכתובות האלו עובדות משני הכיוונים: גם מחוץ לתוכנה (קישור מאתר, קיצור דרך בשולחן העבודה, תוכנה אחרת), וגם כקישור רגיל <b>בתוך קובץ ספר</b>.
+<a href="otzaria://open/book/6121?index=0">דוגמה - פתיחת ספר מספר 6121</a>
+<a href="otzaria://open/calendar">דוגמה - פתיחת לוח השנה</a>
+<b>באיזה סוג קישור מומלץ להשתמש, ב book:// או ב otzaria:// ?</b> המזהה המספרי שייך למסד הנתונים, ואם מדובר בספר אישי הוא לא אמור להיות זהה בין משתמשים. בשונה מקישור book:// שהוא עובד לפי <b>שם</b> הספר, ולכן הוא יותר אקטואלי בשיתוף בין משתמשים שונים בספרים אישיים. 
+<b>לסיכום:</b> לקישור לספר אישי - מומלץ להשתמש בקישור מסוג book://. ולקישור שאתם מייצרים לעצמכם, או לשיתוף נקודתי של מקום ספציפי בתוך הספר - מומלץ להשתמש בקישור מסוג otzaria://. הוא היחיד שיודע לקפוץ למקטע מדויק ולהדגיש בו טקסט.
 <h3>קישור פנימי בתוך אותו ספר</h3>
 לניווט למקום אחר באותו ספר, כותבים סולמית ואחריה את <b>הטקסט של הכותרת</b> שאליה רוצים להגיע:
 <a href="#כותרות">לחץ כאן למעבר לפרק 'כותרות' שבתחילת הקובץ</a>
 <a href="#קישורים">לחץ כאן למעבר לתחילת פרק 'קישורים'</a>
-<b>שימו לב היטב:</b> הקישור הפנימי באוצריא עובד לפי <b>טקסט הכותרת</b>, ולא לפי מזהה ID. התוכנה מחפשת שורה שהטקסט שלה זהה במדויק לכתוב אחרי הסולמית (רווחים מיותרים אינם מפריעים). לכן:
+<b>שימו לב היטב:</b> התוכנה מחפשת שורה שהטקסט שלה זהה במדויק לכתוב אחרי הסולמית (רווחים מיותרים אינם מפריעים). לכן:
 1. הכתיבה חייבת להיות מדויקת, כולל אותיות סופיות וגרשיים.
 2. הכותרת שאליה מקשרים צריכה להיות שורה שלמה, בדרך כלל תגית &lt;h2&gt; עד &lt;h6&gt;.
 3. אם התוכנה לא מוצאת התאמה מדויקת - היא לא תנווט לשום מקום ותציג הודעה. אין ניחושים חלקיים.
-4. התכונה id="..." אינה משמשת לקישורים באוצריא. אין בה צורך.
+<b>גם קישור לפי מזהה (id) נתמך</b> - והוא נבדק <b>לפני</b> חיפוש הכותרת. מסמנים את שורת היעד בתכונה id, ומקשרים אליה באותו שם:
+&lt;div id="מקור-ראשון"&gt;זו שורת היעד&lt;/div&gt;
+&lt;a href="#מקור-ראשון"&gt;קישור אליה&lt;/a&gt;
+התוכנה מחפשת את השורה הראשונה שיש בה id="מקור-ראשון" ומנווטת אליה. אם אין שורה כזו - הקישור ממשיך למסלול הכותרות שלמעלה. לכן שתי השיטות חיות זו לצד זו: מזהה למקומות שאינם כותרת, וטקסט כותרת לשאר.
+<b>נתיב של כמה רמות גם בקישור פנימי:</b> בדיוק כמו בקישורי book://, אפשר לרדת רמה אחר רמה - &lt;a href="#אורח חיים#סימן ט"&gt;.
 <h3>קישור לקובץ במחשב</h3>
-שימו לב: קישורים אלו ייפתחו רק אם הקובץ קיים בדיוק בנתיב שנכתב. אם הקורא התקין את התוכנה במקום אחר, הקישור לא יעבוד. לכן עדיף להעדיף קישורי book:// על קישורי קבצים.
-
-לבחור קבצים רלוונטיים!!
-להוסיף אפשרות של קישור לפי מזהה ספר, ע"י לחצן ימני בעכבר
-
-<a href="file:///C:/otzaria-library/MoreBooks/ספרים/אוצריא/אודות התוכנה/עריכת ספר באוצריא.txt">קישור לקובץ זה עצמו</a> - ייפתח בפנקס רשימות או בתוכנה שהוגדרה לקבצי טקסט.
-<a href="file:///C:/otzaria-library/MoreBooks/ספרים/אוצריא/אודות התוכנה/הוראות הפעלה לתוכנת אוצריא.pdf">קישור לקובץ PDF</a> - ייפתח בקורא ה-PDF שהוגדר במחשב.
-כל סוג קובץ נפתח בתוכנה שהוגדרה במערכת ההפעלה כברירת מחדל עבורו. יש להתחיל ב-///:file ולהשתמש בקו נטוי רגיל [/] בנתיב.
-
+קישור file:// פותח קובץ או תיקייה מהמחשב, בתוכנה שמערכת ההפעלה הגדירה כברירת מחדל עבורו. יש להתחיל ב-///:file ולהשתמש בקו נטוי רגיל [/] בנתיב, גם בווינדוס.
+<a href="file:///C:/Windows/notepad.exe">הפעלת פנקס רשימות</a> - קישור לקובץ הרצה.
+<a href="file:///C:/">פתיחת כונן C בסייר הקבצים</a> - קישור לתיקייה.
+כל סוג קובץ נפתח בתוכנה המתאימה לו: PDF בקורא ה-PDF, מסמך בוורד, וכן הלאה.
+<b>אזהרה כפולה - חשוב לקרוא:</b>
+1. <b>הקישור תלוי בנתיב מדויק.</b> אם הקורא התקין את התוכנה או את הספריה במקום אחר, או שהוא על מערכת הפעלה אחרת, הקישור פשוט לא יעבוד. לכן בספר שמופץ לאחרים - עדיף תמיד book:// על קישור קובץ.
+2. <b>הקישור מפעיל תוכנה במחשב הקורא.</b> אין לכתוב קישורי file:// לקובצי הרצה בספר שמיועד להפצה. מי שפותח ספר שקיבל ממקור לא מוכר - כדאי שיבדוק את יעדי הקישורים שבו לפני שהוא לוחץ.
+<b>הערה טכנית:</b> התוכנה עצמה מטפלת ישירות ב-book://, בעוגן פנימי, ובכתובות http, https ו-mailto. כל סכימה אחרת - file://, otzaria:// וכל סכימה שרשומה במערכת ההפעלה - מועברת למערכת ההפעלה, והיא שפותחת אותה. לכן בפועל כמעט כל קישור תקני יעבוד.
 <h3>מראה של קישור, בלי קישור</h3>
 לפעמים רוצים רק את המראה - צבע וקו תחתון - בלי שהלחיצה תעשה דבר. כותבים href בלי ערך:
 זהו טקסט<a href><sup>1</sup></a> עם מספר הערה שנראה כקישור.
@@ -287,6 +317,10 @@
 <ul><li>תבליט ראשון</li><li>תבליט שני</li></ul>
 <b>מספור באותיות עבריות</b> - שימושי מאוד בספרי קודש, ע"י list-style-type: hebrew:
 <ol style="list-style-type:hebrew;"><li>פריט ראשון - יקבל את האות א</li><li>פריט שני - יקבל את האות ב</li></ol>
+המספור ממשיך כסדרו לאותיות כפולות ומעלה: יא, יב, יג... ואחרי כן ק, קא וכן הלאה.
+<ol style="list-style-type:hebrew;" start="10"><li>י</li><li>יא</li><li>יב</li><li>יג</li><li>יד</li></ol>
+<b>מלכוד אחד שחובה להכיר:</b> הפריט החמישה-עשר והשישה-עשר מקבלים <b>יה</b> ו<b>יו</b>, ולא טו וטז כמקובל. אין דרך לשנות זאת מתוך התגית. אם המקומות האלו חשובים בספר שלכם - יש לוותר על המספור האוטומטי, לכתוב list-style-type:none, ולכתוב את האותיות ידנית בתוך הפריטים.
+<ol style="list-style-type:none;"><li>יד. פריט ארבעה-עשר</li><li>טו. פריט חמישה-עשר - האות נכתבה ידנית</li><li>טז. פריט שישה-עשר - האות נכתבה ידנית</li></ol>
 סוגי מספור נוספים:
 <ol style="list-style-type:decimal;"><li>decimal - ספרות רגילות (זה הברירת מחדל, אין צורך להגדיר את זה ידנית)</li></ol>
 <ol style="list-style-type:decimal-leading-zero;"><li>decimal-leading-zero - עם אפס מוביל</li></ol>
@@ -294,7 +328,9 @@
 <ol style="list-style-type:upper-alpha;"><li>upper-alpha - אותיות לטיניות גדולות</li></ol>
 <ol style="list-style-type:lower-roman;"><li>lower-roman - ספרות רומיות קטנות</li></ol>
 <ol style="list-style-type:upper-roman;"><li>upper-roman - ספרות רומיות גדולות</li></ol>
-<ol style="list-style-type:lower-greek;"><li>lower-greek - אותיות יווניות</li></ol><h2>רשימות ממוספרות ורשימות תבליטים</h2>
+<ol style="list-style-type:lower-greek;"><li>lower-greek - אותיות יווניות</li></ol>
+<ol style="list-style-type:lower-hexadecimal;"><li>lower-hexadecimal - ספירה הקסדצימלית (יש גם upper-hexadecimal)</li></ol>
+נתמכים גם סוגי מספור של שפות נוספות, למי שצריך: armenian, georgian, persian, thai, devanagari, arabic-indic, hiragana, katakana, cjk-decimal ו-cjk-ideographic. אין להם שימוש רגיל בספרי קודש, והם מובאים כאן רק לידיעה.
 סוגי תבליטים:
 <ul style="list-style-type:disc;"><li>disc - עיגול מלא (זה הברירת מחדל, אין צורך להגדיר את זה ידנית)</li></ul>
 <ul style="list-style-type:circle;"><li>circle - עיגול ריק</li></ul>
@@ -334,8 +370,14 @@ margin - ריווח חיצוני, בין המסגרת לסביבה.
 סוגי מסגרת: solid (רצוף), double (כפול), dashed (מקווקו), dotted (מנוקד).
 ניתן לקבוע מסגרת בצד אחד בלבד - שימושי מאוד להבלטת ציטוט:
 <div style="border-right:4px solid #B8860B; padding-right:12px;">קטע עם קו עבה בצד ימין - כמו ציטוט בספר</div>
+ניתן גם לפרק את המסגרת לתכונות נפרדות, במקום לכתוב הכל בתכונת border אחת:
+<div style="border-style:double; border-width:3px; border-color:#00008B; padding:10px;">מסגרת שהוגדרה בשלוש תכונות נפרדות - border-style, border-width ו-border-color</div>
+<b>פינות מעוגלות</b> - התכונה border-radius. הערך הוא רדיוס העיגול:
+<div style="border:2px solid #8B0000; border-radius:12px; padding:10px;">תיבה עם פינות מעוגלות</div>
+<div style="background-color:#FFF9C4; border-radius:6px; padding:8px;">רקע עם פינות מעוגלות, בלי מסגרת כלל</div>
+ניתן גם לעגל פינה אחת בלבד: border-top-right-radius, border-top-left-radius, border-bottom-right-radius, border-bottom-left-radius.
 לקביעת ריווח בצד אחד: padding-top, padding-bottom, padding-right, padding-left. וכן במרג'ין.
-לריווח בכמה צדדים בכתיבה מקוצרת: padding: 10px 20px [עליון-תחתון, ואז ימין-שמאל], או padding: 5px 10px 15px 20px [עליון, ימין, תחתון, שמאל].
+לריווח בכמה צדדים בכתיבה מקוצרת: padding: 10px 20px [עליון-תחתון, ואז ימין-שמאל], padding: 5px 10px 15px [עליון, ימין-שמאל, תחתון], או padding: 5px 10px 15px 20px [עליון, ימין, תחתון, שמאל].
 <b>תיבה בתוך שורה</b> - כל התיבות שלמעלה שוברות שורה. להצבת תיבה קטנה <b>בתוך</b> משפט, יש להוסיף display:inline-block:
 זהו משפט ובאמצעו <span style="display:inline-block; border:1px solid #8B0000; padding:2px 6px;">תיבה ממוסגרת</span> וההמשך באותה שורה.
 <b>שימו לב:</b> תיבה כזו נחשבת ל'תיבה' לכל דבר - מותרת אחת בלבד בכל שורה, אחרת הטקסט יתהפך (ראו האזהרה המרכזית למעלה).
@@ -363,8 +405,12 @@ margin - ריווח חיצוני, בין המסגרת לסביבה.
 &lt;img src="data:image/png;base64,........." &gt;
 <b>קביעת גודל התמונה</b> - התכונות width ו-height, בפיקסלים:
 <img src="data:image/png;base64,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" width="24" height="24" >
-נתמכות גם התכונות alt ו-title, שמציגות טקסט חלופי אם התמונה לא נטענה.
-נתמכות גם כתובות אינטרנט: &lt;img src="https://..." &gt; - אך אלו דורשות חיבור לרשת ותלויות באתר חיצוני. וכן קבצים במחשב: &lt;img src="file:///C:/..." &gt; - אך אלו תלויים בנתיב מדויק. לכן להטמעה יש עדיפות ברורה.
+נתמכות גם התכונות alt ו-title. התכונה title מציגה <b>טולטיפ</b> - כיתוב קטן שקופץ בריחוף העכבר על התמונה:
+<img src="data:image/gif;base64,R0lGODlhCgAKAIABAIgAAP///yH5BAEAAAEALAAAAAAKAAoAAAIUjI+py+0Po5y02ouz3rz7D4biWAAAOw==" width="14" height="14" title="זהו טולטיפ - נסו לרחף על התמונה">
+<b>שימו לב:</b> טולטיפ עובד על <b>תמונה בלבד</b>. התכונה title על טקסט, על קישור או על תג abbr אינה עושה דבר באוצריא. להסבר על מילה - יש להשתמש בהערת שוליים (שגם היא מוצגת בריחוף) או בתג ruby.
+נתמכות גם כתובות אינטרנט: &lt;img src="https://..." &gt; - אך אלו דורשות חיבור לרשת ותלויות באתר חיצוני, ואינן נשמרות במטמון (כל גלילה תוריד אותן מחדש). וכן קבצים במחשב: &lt;img src="file:///C:/..." &gt; - אך אלו תלויים בנתיב מדויק. לכן להטמעה יש עדיפות ברורה.
+<b>תמונות SVG</b> - נתמכות, גם מוטמעות (data:image/svg+xml) וגם כקובץ שסיומתו svg. שימושי לציורים ולסכמות, כי הן נשארות חדות בכל גודל.
+<b>שימו לב:</b> תמונה בתוך שורת טקסט היא 'תיבה' - מותרת אחת בלבד בכל שורה (ראו האזהרה המרכזית למעלה). תמונה בשורה משלה אינה בעיה.
 <h2>רווחים, ירידות שורה וסימנים מיוחדים</h2>
 <b>ירידת שורה בתוך שורת קובץ</b> - התג &lt;br&gt;, שאין לו תג סוגר:
 שורה ראשונה<br>שורה שניה - שתיהן באותה שורת קובץ
@@ -405,22 +451,26 @@ margin - ריווח חיצוני, בין המסגרת לסביבה.
 6. <b>text-decoration-thickness בפיקסלים</b> - נתמך באחוזים בלבד.
 7. <b>text-shadow עם חמישה ערכים ומעלה</b> - מותרים 2 עד 4 ערכים בכל צל.
 8. <b>text-align על &lt;span&gt;</b> - יישור עובד רק על תגי בלוק: div, p, כותרות.
-9. <b>התכונה id ומזהי עוגן</b> - קישור פנימי באוצריא עובד לפי טקסט הכותרת, לא לפי id.
+9. <b>התכונה title על טקסט</b> - טולטיפ עובד על תמונה בלבד, לא על טקסט, לא על קישור ולא על abbr.
 10. <b>הצבע rebeccapurple</b> ושמות צבעים חדשים - יש להשתמש בקוד HEX.
 11. <b>שם גופן מרובה מילים בלי מרכאות</b> - חייב מרכאות בודדות.
 12. <b>text-emphasis - נקודות מעל האותיות</b> - הופך את סדר האותיות בעברית ואינו שמיש.
-13. <b>יותר מ'תיבה' אחת בשורה</b> - inline-block, תמונה בשורה, sup לא-מספרי. שניים באותה שורה = היפוך הטקסט.
-14. <b>עיצובים מתקדמים</b> - אנימציה, transform, position, float, opacity, border-radius, סרגלי גלילה ומדיה-קוורי אינם נתמכים.
-15. <b>שדות טופס, כפתורים, וידאו וסרטונים מוטמעים</b> - אינם רלוונטיים לספרים ואינם נתמכים.
-16. <b>תגים לא מוכרים</b> - כל תג שאינו מופיע בהדרכה זו יתעלם, והטקסט שבתוכו יוצג רגיל.
+13. <b>יותר מ'תיבה' אחת בשורה</b> - inline-block, תמונה בשורה, ruby, vertical-align, ו-sup שנכתב עם תכונות. שניים באותה שורה = היפוך הטקסט.
+14. <b>מספור עברי של 15 ו-16</b> ב-list-style-type:hebrew - יוצא יה ויו במקום טו וטז.
+15. <b>עיצובים מתקדמים</b> - אנימציה, transform, position (ולכן גם top/bottom), float, opacity, סרגלי גלילה ומדיה-קוורי אינם נתמכים.
+16. <b>שדות טופס וכפתורים</b> - &lt;input&gt;, &lt;button&gt;, &lt;select&gt;: התג מתעלם והתוכן שבתוכו מוצג כטקסט פשוט. אין שדה ואין כפתור לחיץ.
+17. <b>וידאו, אודיו ומסגרת מוטמעת</b> - &lt;video&gt;, &lt;audio&gt;, &lt;iframe&gt;: חבילות אלו נותקו מהתוכנה לגמרי ואינן מוצגות כלל.
+18. <b>תגים לא מוכרים</b> - כל תג שאינו מופיע בהדרכה זו יתעלם, והטקסט שבתוכו יוצג רגיל.
+<b>אזהרה בעניין תגים בעברית:</b> שם תג חייב להתחיל באות <b>לטינית</b>. תג ששמו בעברית, למשל &lt;כותרת-מומצאת&gt;, אינו נחשב תג כלל - ולכן התג <b>הפותח יוצג לקורא כטקסט</b>, בעוד התג הסוגר ייעלם. התוצאה מכוערת ומבלבלת. אם צריך לכתוב סוגריים משולשים בגוף הספר, יש להשתמש בקודים &amp;lt; ו-&amp;gt; (ראו בפרק הסימנים המיוחדים).
 <h2>אזהרה: מצב קריאה רציף</h2>
 לאוצריא יש 'מצב קריאה רציף', שבו שורות עוקבות מתמזגות לפסקה אחת רצופה (כותרת שוברת פסקה). במצב זה התוכנה משתמשת במעבד טקסט פשוט ומהיר יותר, ולכן <b>חלק מהעיצובים אינם מוצגים</b>.
-במצב קריאה רציף נתמכים: הדגשה (b, strong), נטייה (i, em), &lt;big&gt; ו-&lt;small&gt;, &lt;sup&gt;, &lt;br&gt;, קישורים, הערות שוליים, וכן התכונות font-size, color, background-color, text-decoration:underline ו-font-style:italic.
-במצב קריאה רציף <b>אינם</b> מוצגים: קו חוצה, קו עליון, &lt;mark&gt;, &lt;u&gt;, טקסט מוסתר, רשימות, טבלאות, תמונות, מסגרות, יישור, גופן מותאם, גובה שורה, צל, vertical-align נקודות הדגשה ו-ruby.
-הערה: מצב זה חל על ספרי תנ"ך ותלמוד בלבד. בשאר הספרים כל העיצובים מוצגים תמיד.
+במצב קריאה רציף נתמכים: הדגשה (b, strong), נטייה (i, em), &lt;big&gt; ו-&lt;small&gt;, &lt;sup&gt; ו-&lt;sub&gt;, &lt;br&gt;, קישורים, הערות שוליים וסימוניהן המורמים, וכן התכונות font-size (ב-em, אחוזים ופיקסלים), color, background-color, font-style:italic, text-decoration:underline - ובכלל זה text-decoration-color ו-text-decoration-thickness. הצבעים נקראים בכל הצורות הרגילות: שם צבע בסיסי, קוד HEX (3, 6 או 8 ספרות) ו-rgba.
+במצב קריאה רציף <b>אינם</b> מוצגים: קו חוצה, קו עליון, &lt;mark&gt;, התג &lt;u&gt; (אבל text-decoration:underline כן עובד), טקסט מוסתר, רשימות, טבלאות, תמונות, מסגרות ופינות מעוגלות, יישור, גופן מותאם, גובה שורה, צל, vertical-align, נקודות הדגשה ו-ruby.
+הערה: מצב קריאה רציף קיים רק בתנ"ך ובתלמוד בלבד. בשאר הספרים אין אפשרות תצוגה זו, ולכן כל העיצובים מוצגים תמיד.
 <b>המשמעות המעשית:</b> אין להסתמך על עיצוב מורכב כדי להעביר תוכן חיוני. עיצוב שנועד להבחין בין שני חלקי טקסט - עדיף שיהיה מבוסס על הדגשה, נטייה, גודל או צבע, שנתמכים בכל מצבי התצוגה.
 <h2>שמות שמורים - אין להשתמש בהם</h2>
-אוצריא משתמשת בשמות class מסוימים למנגנונים פנימיים. שימוש בהם בקובץ ספר יבלבל את התוכנה. אין להשתמש ב: footnote (אלא במבנה הערות השוליים שלמעלה בדיוק), footnote-marker (כנ"ל), footnote-marker-number, book-note-marker, numbered-note-marker, link-anchor, link-anchor-active, link-anchor-range.
+אוצריא משתמשת בשמות class מסוימים למנגנונים פנימיים. שימוש בהם בקובץ ספר יבלבל את התוכנה. אין להשתמש ב: footnote (אלא במבנה הערות השוליים שלמעלה בדיוק), footnote-marker (כנ"ל), footnote-marker-number, raised-sup, subscript-text, book-note-marker, numbered-note-marker, link-anchor, link-anchor-active, link-anchor-range, link-anchor ואחריו מספר (link-anchor-1 וכדומה), section-heading, md-block, וכל שם שמתחיל ב-mam- (סימוני מקרא על פי המסורה).
+שלושת הראשונים שברשימה - footnote-marker-number, raised-sup ו-subscript-text - הם השמות שהתוכנה עצמה מייצרת כשהיא ממירה &lt;sup&gt; ו-&lt;sub&gt; לטקסט. הטקסט שבתוכם נצבע שקוף ומצויר מחדש בשכבה נפרדת, ולכן שימוש בהם בקובץ יגרום לטקסט <b>להיעלם</b>.
 כמו כן, הכתובות המתחילות ב-//:otzaria שמורות לשימוש פנימי של התוכנה, ואין ליצור קישורים כאלו בקובץ.
 <h2>המלצות מסכמות</h2>
 1. <b>מעט עיצוב עדיף על הרבה.</b> ספר קודש נקרא לאורך שעות. עיצוב עשיר מדי מעייף ומסיח.
@@ -429,5 +479,6 @@ margin - ריווח חיצוני, בין המסגרת לסביבה.
 4. <b>סגרו כל תג שפתחתם</b>, גם כשהתוכנה סולחת.
 5. <b>כותרות הן הכלי החשוב ביותר</b> - הן בונות את תוכן העניינים ואת הניווט. השקיעו בהיררכיה נכונה.
 6. <b>להערות שוליים - השתמשו במנגנון האמיתי</b> ולא בחיקוי בעזרת כתב קטן.
-7. <b>לקישורים בין ספרים - השתמשו ב-//:book</b> ולא בנתיבי קבצים, כדי שיעבדו בכל מחשב.
-8. <b>בדקו את התוצאה באוצריא עצמה</b>, ובכמה גדלי כתב, לפני שמפיצים את הספר.
+7. <b>לקישורים בין ספרים - השתמשו ב-//:book</b>, לפי שם הספר. נתיבי קבצים ומזהים מספריים עובדים, אך תלויים במחשב מסוים ועלולים להישבר אצל קורא אחר.
+8. <b>זכרו את כלל התיבה האחת</b> - תמונה בשורה, תיבה ממוסגרת, ruby או vertical-align: רק אחד מהם בכל שורה. זו התקלה הנפוצה ביותר בעריכת ספרים בעברית.
+9. <b>בדקו את התוצאה באוצריא עצמה</b>, ובכמה גדלי כתב, לפני שמפיצים את הספר.
