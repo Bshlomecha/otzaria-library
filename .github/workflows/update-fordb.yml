@@ -161,13 +161,16 @@ jobs:
           echo "Dry-running against SeforimLibrary release $LIB_TAG"
           # The buildstate travels with the DB: without it the validator's allocator starts
           # from zero and every pub_date/pub_place id check fails against the real DB.
-          for asset in seforim.db.zst seforim.db.buildstate.zst; do
+          for asset in seforim-schema6.db.zst seforim.db.buildstate.zst; do
             gh release download "$LIB_TAG" -R Otzaria/SeforimLibrary -p "$asset" -D dbdir
             ASSET_DIGEST="$(gh release view "$LIB_TAG" -R Otzaria/SeforimLibrary --json assets \
               --jq ".assets[] | select(.name==\"$asset\") | .digest")"
             [[ "$ASSET_DIGEST" =~ ^sha256:[0-9a-f]{64}$ ]]
             [[ "$(sha256sum "dbdir/$asset" | cut -d' ' -f1)" == "${ASSET_DIGEST#sha256:}" ]]
-            unzstd -f "dbdir/$asset"
+            # Schema-6 releases name the DB seforim-schema6.db; extract it as seforim.db so the
+            # validator still finds its buildstate at "<db>.buildstate".
+            out="${asset%.zst}"
+            unzstd -f "dbdir/$asset" -o "dbdir/${out/seforim-schema6.db/seforim.db}"
             rm -f "dbdir/$asset"
           done
           CANDIDATE_SHA=$(sha256sum "$GITHUB_WORKSPACE/$ARCHIVE_NAME" | cut -d' ' -f1)
