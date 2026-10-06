@@ -12,8 +12,6 @@ name: Python tests
 #   .github/scripts/test_fordb_book_renames.py — רץ לצידה, באותו צעד self-test.
 #   .github/scripts/test_validate_manual_links_refs.py — כבר שער PR ב-validate-manual-links-refs.yml.
 #   National-LibraryToOtzaria/סקריפטים/test_*.py — כבר שער PR ב-validate-national-library-normalizers.yml.
-#   linker-eval/matcher_b26/test_dibur_matcher.py — עותק זהה בית-לבית של חבילת ה-linker,
-#     שמייבא את linker.dibur_matcher החי; אינו מוסיף כיסוי.
 
 on:
   pull_request:
@@ -33,7 +31,7 @@ jobs:
     timeout-minutes: 10
     steps:
       # blobless + sparse: החבילות קוראות את ה-workflows, את .github/scripts,
-      # את send_update/main.py, את linker ואת מודולי השורש שהן מייבאות בלבד —
+      # את send_update/main.py ואת מודולי השורש שהן מייבאות בלבד —
       # תוכן הספרים (~10GiB) לא נדרש לאף אחת מהן.
       - name: Checkout the tested sources (sparse, blobless)
         uses: actions/checkout@v6
@@ -44,7 +42,6 @@ jobs:
           sparse-checkout: |
             /.github/
             /send_update/
-            /linker/
             /.claude/skills/otzaria-db-linker/scripts/
             /.claude/skills/otzaria-db-ingestion-audit/scripts/
             /.claude/skills/otzaria-commentary-linker-qa/scripts/
@@ -77,14 +74,13 @@ jobs:
           python-version: "3.12"
 
       # discover מוצא רק את test_*.py בשורש: אין __init__.py בשום תיקייה, ולכן
-      # הוא אינו נכנס ל-linker/ ול-.github/ — אלה מורצות במפורש.
-      - name: Repository-root and linker suites
+      # הוא אינו נכנס ל-.github/ — אלה מורצות במפורש.
+      - name: Repository-root suites
         env:
           PYTHONIOENCODING: utf-8
         run: |
           set -euo pipefail
           python3 -m unittest discover -v -s . -t . -p 'test_*.py'
-          python3 -m unittest -v linker.tests.test_dibur_matcher
 
       # Skill-script suites. Each one is self-contained (synthetic fixtures, a
       # throw-away sqlite DB); anything that needs a SeforimLibrary checkout or a
