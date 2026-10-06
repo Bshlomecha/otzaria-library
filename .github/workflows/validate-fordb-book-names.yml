@@ -59,9 +59,9 @@ jobs:
             /ForDB/
             /.github/scripts/
             /.github/workflows/update-fordb.yml
-            /MoreBooks/אוצר ההלכה - סקריפטים/install.py
-            /MoreBooks/משנה הלכות - סקריפטים/install.py
-            /MoreBooks/משלי עם הגרא ורבינו יונה - סקריפטים/install.py
+            /MoreBooks/סקריפטים/אוצר ההלכה - סקריפטים/install.py
+            /MoreBooks/סקריפטים/משנה הלכות - סקריפטים/install.py
+            /MoreBooks/סקריפטים/משלי עם הגרא ורבינו יונה - סקריפטים/install.py
             /.claude/skills/otzaria-book-format/scripts/make_metadata.py
             /all_metadata_with_file_paths.json
             /manual_links_packaging.py

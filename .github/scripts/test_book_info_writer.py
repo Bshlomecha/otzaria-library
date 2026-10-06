@@ -13,9 +13,9 @@ from unittest.mock import patch
 from book_info_writer import HEADER, encode_rows, plan_registration, apply_registration
 
 ROOT = Path(__file__).resolve().parents[2]
-INSTALLERS = ['MoreBooks/אוצר ההלכה - סקריפטים/install.py',
-              'MoreBooks/משנה הלכות - סקריפטים/install.py',
-              'MoreBooks/משלי עם הגרא ורבינו יונה - סקריפטים/install.py']
+INSTALLERS = ['MoreBooks/סקריפטים/אוצר ההלכה - סקריפטים/install.py',
+              'MoreBooks/סקריפטים/משנה הלכות - סקריפטים/install.py',
+              'MoreBooks/סקריפטים/משלי עם הגרא ורבינו יונה - סקריפטים/install.py']
 
 
 def load_script(relative):
