@@ -31,6 +31,7 @@ def check_line(line):
 def process_body_xml(xml_content):
     title = None
     first_chap = False
+    promoted = set()  # כותרות p בתוך פרק שדולג עולות רמה, כדי שלא יקפצו מ-h1 ל-h3
     carector_list = ['<?xml version="1.0" ?>', "<![CDATA[", "]]>", '<?xml version="1.0" encoding="utf-8"?>']
     for i in carector_list:
         xml_content = xml_content.replace(i, " ")
@@ -93,9 +94,10 @@ def process_body_xml(xml_content):
                         first_chap = True
                     # פרק ראשון ששמו כשם הספר היה יוצר כותרת h2 כפולה ל-h1
                     elif tag.name == "chap" and first_chap and name.strip() == title:
-                        pass
+                        promoted.update(id(p) for p in tag.find_all("p"))
                     elif name.strip() not in ("-", ".", "_"):
-                        tag.insert_before(f"\n<h{h_dict.get(tag.name)}>{name.strip()}</h{h_dict.get(tag.name)}>\n")
+                        level = h_dict.get(tag.name) - (id(tag) in promoted)
+                        tag.insert_before(f"\n<h{level}>{name.strip()}</h{level}>\n")
                     if tag.name == "chap":
                         first_chap = False
                 elif tag.name == "p":
