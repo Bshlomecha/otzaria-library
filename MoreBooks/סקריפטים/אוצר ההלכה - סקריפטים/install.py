@@ -8,11 +8,13 @@ import shutil
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[2] / ".github" / "scripts"))
+# MoreBooks/סקריפטים/<ספר>/install.py: שורש הריפו נמצא שלוש תיקיות מעל
+REPO_ROOT = Path(__file__).resolve().parents[3]
+sys.path.insert(0, str(REPO_ROOT / ".github" / "scripts"))
 from book_info_writer import plan_registration, apply_registration
 from validate_fordb_book_names import db_title as normalize_book_title
 
-REPO = '/Users/david/Documents/otzaria-books/otzaria-library'
+REPO = str(REPO_ROOT)
 BOOK_DIR = os.path.join(
     REPO, 'MoreBooks/ספרים/אוצריא/הלכה/'
     'שולחן ערוך/מפרשים/אוצר ההלכה')

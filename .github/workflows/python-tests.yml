@@ -47,6 +47,7 @@ jobs:
             /.claude/skills/otzaria-commentary-linker-qa/scripts/
             /.claude/skills/otzaria-book-format/scripts/
             /DictaToOtzaria/סקריפטים/
+            /MoreBooks/סקריפטים/
             /ToratEmetToOtzaria/סקריפטים/te_convert.py
             /ToratEmetToOtzaria/סקריפטים/te_reapply.py
             /ToratEmetToOtzaria/סקריפטים/test_te_reapply.py
@@ -103,6 +104,13 @@ jobs:
         run: |
           set -euo pipefail
           python3 -m unittest discover -v -s "DictaToOtzaria/סקריפטים/tests"
+
+      # install.py של MoreBooks נטענים לבד ומוצאים את שורש הריפו (נתיבים לפי מיקום הקובץ).
+      - name: MoreBooks install scripts
+        working-directory: MoreBooks/סקריפטים
+        env:
+          PYTHONIOENCODING: utf-8
+        run: python3 -m unittest -v test_install_paths
 
       # כלי ההמרה של תורת אמת (te_convert / te_reapply): שורות ומקורות סינתטיים,
       # בלי קובצי המקור של תורת אמת.
