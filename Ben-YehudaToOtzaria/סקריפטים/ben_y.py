@@ -1,11 +1,16 @@
+import argparse
 import csv
-import html
 import re
 import unicodedata
 from pathlib import Path
 
 import requests
 from bs4 import BeautifulSoup
+
+from otzaria_markup import convert_block_lines, convert_line, escape_text
+from split_footnotes import write_book
+
+FOOTER_PATTERN = r'את הטקסט(?:ים|\[ים\])?\s+לעיל\s+הפיקו\s+מתנדבי\s+<a href="https://benyehuda\.org/">פרויקט בן־יהודה באינטרנט</a>\.\s*<br\s*/?>\s*הכל\s+זמין\s+תמיד\s+בכתובת\s+הבאה:\s*<br\s*/?>\s*<a href="https://benyehuda\.org/read/\d+">https://benyehuda\.org/read/\d+</a>'
 
 
 def sanitize_filename(filename: str) -> str:
@@ -51,6 +56,7 @@ def extract_html_info(html: str) -> tuple:
 
 
 def process_body_html(body_html: str) -> str:
+    """Split the body into block lines: one line per top-level element (still raw HTML)."""
     body_html = body_html.replace("\n", " ")
     supported_tags = {
         "a", "abbr", "acronym", "address", "article", "aside", "audio", "b", "bdi", "bdo", "big",
@@ -112,6 +118,19 @@ def process_body_html(body_html: str) -> str:
     return text
 
 
+def convert_html(html_content: str, fallback_title: str, fallback_author: str) -> tuple[list[str], list[str], list[tuple[int, int]]]:
+    """Ben-Yehuda HTML -> (Otzaria lines, footnote bodies, (line, note) references)."""
+    html_content = re.sub(FOOTER_PATTERN, '', html_content)
+    title, author, body = extract_html_info(html_content)
+    title = title or fallback_title
+    block_lines = [adjust_html_tag_spaces(line).strip() for line in process_body_html(body).splitlines()]
+    block_lines = [line for line in block_lines if line and line != "<!DOCTYPE html>"]
+    if block_lines and re.sub(r"<[^>]+>", "", convert_line(block_lines[0])).strip() == title.strip():
+        block_lines.pop(0)
+    header = [f"<h1>{escape_text(title)}</h1>", escape_text(author or fallback_author or "")]
+    return convert_block_lines(header + block_lines)
+
+
 def get_updated_csv(url: str) -> list[list[str]]:
     content = requests.get(url)
     content.raise_for_status()
@@ -163,7 +182,7 @@ def genre_folder_name(genre: str) -> str:
     return genre_map.get(genre, sanitize_filename(genre))
 
 
-def main(url: str, kosher_file: Path, base_url: str, not_kosher_file: Path, need_to_check_file: Path, csv_path: Path, destination_path: Path) -> None:
+def main(url: str, kosher_file: Path, base_url: str, not_kosher_file: Path, need_to_check_file: Path, csv_path: Path, destination_path: Path, links_dir: Path) -> None:
     updated_csv = get_updated_csv(url)
     old_csv = read_old_csv_file(csv_path)
     kosher_list = author_list(kosher_file)
@@ -185,14 +204,7 @@ def main(url: str, kosher_file: Path, base_url: str, not_kosher_file: Path, need
             continue
         html_content = get_book(line[1], base_url)
         if html_content:
-            pattern = r'את הטקסט(?:ים|\[ים\])?\s+לעיל\s+הפיקו\s+מתנדבי\s+<a href="https://benyehuda\.org/">פרויקט בן־יהודה באינטרנט</a>\.\s*<br\s*/?>\s*הכל\s+זמין\s+תמיד\s+בכתובת\s+הבאה:\s*<br\s*/?>\s*<a href="https://benyehuda\.org/read/\d+">https://benyehuda\.org/read/\d+</a>'
-            html_content = re.sub(pattern, '', html_content)
-            title, author, body = extract_html_info(html_content)
-            processed_text = process_body_html(body).splitlines()
-            output_text = [f"<h1>{title}</h1>" if title else f"<h1>{line[2]}</h1>", author if author else (line[3] if line[3] else "")] + [adjust_html_tag_spaces(line).strip() for line in processed_text if line.strip() and line.strip() != "<!DOCTYPE html>"]
-            if output_text[2] == title:
-                output_text.pop(2)
-            join_lines = html.unescape("\n".join(output_text))
+            lines, notes, refs = convert_html(html_content, line[2], line[3])
             target_path = destination_path / genre_folder_name(line[8]) / sanitize_filename(line[3])
             target_path.mkdir(parents=True, exist_ok=True)
             target_file = target_path / f"{sanitize_filename(line[2])}.txt"
@@ -200,8 +212,7 @@ def main(url: str, kosher_file: Path, base_url: str, not_kosher_file: Path, need
             while target_file.exists():
                 num += 1
                 target_file = target_path / f"{sanitize_filename(line[2])}_{num}.txt"
-            with target_file.open("w", encoding="utf-8") as output:
-                output.write(join_lines)
+            write_book(target_file, lines, notes, refs, links_dir)
             write_to_csv(csv_path, line)
 
 
@@ -212,5 +223,19 @@ need_to_check_file = Path(__file__).parent / "need_to_check.txt"
 base_url = "https://raw.githubusercontent.com/projectbenyehuda/public_domain_dump/refs/heads/master/html"
 csv_path = Path(__file__).parent / "list.csv"
 destination_path = Path(__file__).parent.parent / "ספרים" / "לא ממויין"
+links_dir = Path(__file__).parent.parent / "links"
 
-main(url, kosher_file, base_url, not_kosher_file, need_to_check_file, csv_path, destination_path)
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Ben-Yehuda public-domain dump -> Otzaria books")
+    parser.add_argument("--html", type=Path, help="convert one local HTML file instead of syncing the catalogue")
+    parser.add_argument("--out", type=Path, help="output book path (with --html)")
+    parser.add_argument("--title", default="", help="title when the HTML has none (with --html)")
+    parser.add_argument("--author", default="", help="author when the HTML has none (with --html)")
+    parser.add_argument("--links-dir", type=Path, default=links_dir)
+    args = parser.parse_args()
+    if args.html:
+        if not args.out:
+            parser.error("--out is required with --html")
+        write_book(args.out, *convert_html(args.html.read_text(encoding="utf-8"), args.title, args.author), args.links_dir)
+    else:
+        main(url, kosher_file, base_url, not_kosher_file, need_to_check_file, csv_path, destination_path, args.links_dir)
