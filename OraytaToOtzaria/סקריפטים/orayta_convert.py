@@ -431,27 +431,68 @@ EDITOR_MARK = "{}"
 EDITOR_MARK_RE = re.compile("(\\d+)")
 
 
-def editor_comment(m, editor_notes):
+SIGNATURE_RE = re.compile(r"^בברכה\b|הולנדר")
+PUNCT_SEG_RE = re.compile(r"[\s).,;:!?\]'\"]+")
+
+
+def unmatched_close_tail(t):
+    """")" בסוף הטקסט שאין לו "(" פותח בתוכו."""
+    depth = 0
+    for ch in t:
+        if ch == "(":
+            depth += 1
+        elif ch == ")":
+            depth = max(depth - 1, 0) if depth else -1
+    return t.endswith(")") and depth == -1
+
+
+def editor_comment(m, editor_notes, before):
     """הערת Word של העורך: הכותרת (שם + חותמת זמן) נמחקת, הגוף נשמר להערה נלווית
-    ובמקומו סמן; ")" שסוגר את הפירוש שלפניה נשאר בטקסט."""
+    ובמקומו סמן; ")" שסוגר סוגריים פתוחים בפסקה שלפניה ([before]) נשאר בטקסט."""
     body = m.group(1)
-    before = m.string[m.string.rfind("<span", 0, m.start()):m.start()]
     tail = re.search(r"[\s.;,?!:]*\)\s*$", body)
     keep = ""
     if tail and before.count("(") > before.count(")"):
-        keep, body = tail.group().strip(), body[:tail.start()]
-    segs = [s.strip() for s in body.split("\r") if s.strip() and not english_or_contact(s)]
+        keep, body = re.sub(r"\s+", "", tail.group()), body[:tail.start()]
+    segs = []
+    for s in body.split("\r"):
+        s = s.strip()
+        if not s or english_or_contact(s) or SIGNATURE_RE.search(s):
+            continue
+        if PUNCT_SEG_RE.fullmatch(s):
+            if segs:
+                segs[-1] += s  # ")" שסוגר קטע עברי שלפני האנגלית שנמחקה
+            continue
+        # שארית אנגלית מ־Kollel: "Yevamot 93b", "ANSWERS:", "6:19).", חותמת זמן של הערה מקוננת
+        s = re.sub(r"^[^א-ת]*[A-Za-z0-9][^א-ת]*(?=[א-ת])", "", s)
+        if hebrew_count(s):
+            segs.append(s)
+    if segs and unmatched_close_tail(" ".join(segs)):
+        segs[-1] = segs[-1][:-1].rstrip()
     if hebrew_count(" ".join(segs)) < 2:
         return keep
     editor_notes.append(segs)
     return EDITOR_MARK.format(len(editor_notes) - 1) + keep
 
 
+def replace_editor_comments(text, editor_notes):
+    """פסקת ההקשר של כל הערה נמדדת על הטקסט אחרי החלפת ההערות שלפניה."""
+    out, pos = [], 0
+    for m in WORD_COMMENT_RE.finditer(text):
+        out.append(text[pos:m.start()])
+        done = "".join(out)
+        start = max(done.rfind("\n\n"), done.rfind("<p"), len(done) - 3000)
+        out.append(editor_comment(m, editor_notes, re.sub(r"<[^<>]*>", "", done[start:])))
+        pos = m.end()
+    out.append(text[pos:])
+    return "".join(out)
+
+
 def preprocess_word_html(text):
     """הערות Word של העורך עוברות לספר הערות נלווה, הערות הסיום הופכות להערות שוליים
     פנימיות, קטעי אנגלית שהועתקו (Kollel Iyun Hadaf) נמחקים, ו־\\r בודד הוא שבירת שורה."""
     editor_notes = []
-    text = WORD_COMMENT_RE.sub(lambda m: editor_comment(m, editor_notes), text)
+    text = replace_editor_comments(text, editor_notes)
 
     titles = {m.group(1): m.group(2) for m in
               re.finditer(r'<a href="#footnote-(\d+)"[^>]*?title="([^"]*)', text)}
@@ -722,7 +763,8 @@ def convert(obk_path, gmara_daf_level=None):
     for idx in sorted(order, key=lambda k: order[k][0]):
         k, n = order[idx]
         body = render_section(["<br>".join(fix_text(s) for s in editor_notes[idx])])[0]
-        editor_lines.append((n, f"<b>({gematria(k)})</b> {body}"))
+        # אותו סמן כמו בגוף: בבניית המסד ההערה נשתלת במקום <sup>(א)</sup> שבשורה
+        editor_lines.append((n, f"<sup>({gematria(k)})</sup> {body}"))
     return title, out, conf, editor_lines
 
 
@@ -746,7 +788,8 @@ def write_editor_notes(out_path, editor_lines, links_dir):
     notes_title = f"הערות על {stem}"
     with open(os.path.join(os.path.dirname(out_path), notes_title + ".txt"), "w", encoding="utf-8", newline="\n") as f:
         f.write("\n".join([f"<h1>{html.escape(notes_title, quote=False)}</h1>"] + [b for _, b in editor_lines]))
-    links = [{"line_index_1": n, "line_index_2": k, "heRef_2": notes_title, "path_2": notes_title + ".txt",
+    # בספר הסופי נוספת שורת מחבר אחרי ה־h1, ולכן כל שורה זזה באחת
+    links = [{"line_index_1": n + 1, "line_index_2": k, "heRef_2": notes_title, "path_2": notes_title + ".txt",
               "Conection Type": "footnotes"} for k, (n, _) in enumerate(editor_lines, start=2)]
     os.makedirs(links_dir, exist_ok=True)
     with open(os.path.join(links_dir, stem + "_links.json"), "w", encoding="utf-8", newline="\n") as f:
