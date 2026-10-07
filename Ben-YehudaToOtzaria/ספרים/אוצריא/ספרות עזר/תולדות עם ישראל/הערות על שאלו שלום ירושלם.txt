@@ -1,71 +1,71 @@
 <h1>הערות על שאלו שלום ירושלם</h1>
-<sup style="color: #2563eb; font-weight: bold;">1</sup> <strong>ע"ז</strong> – על זה. הערת פב"י </p>
-<sup style="color: #2563eb; font-weight: bold;">2</sup> <strong>ת"ו</strong> – תבנה ותכונן. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">3</sup> <strong>עה"ק</strong> – עיר הקודש. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">4</sup> <strong>אחב"י</strong> – אחינו בני ישראל. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">5</sup> <strong>ת"ל</strong> – תהילה לאל. הערת פב"י </p>
-<sup style="color: #2563eb; font-weight: bold;">6</sup> <strong>אה"ק</strong> – ארץ הקודש, ארצנו הקדושה. הערת פב"י </p>
-<sup style="color: #2563eb; font-weight: bold;">7</sup> <strong>רו"כ</strong> – רובל כסף. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">8</sup> <strong>בהמ"ק</strong> – בית המקדש. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">9</sup> <strong>עה"ח</strong> – עץ החיים. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">10</sup> <strong>גפ"ת</strong> – גמרא, פרוש רש"י, תוספות. הערת פב”י. </p>
-<sup style="color: #2563eb; font-weight: bold;">11</sup> <strong>ת"ח</strong> – תלמידי חכמים. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">12</sup> <strong>מה"ג</strong> – מאור הגולה. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">13</sup> כך במקור. כנראה צריך להיות ‘בהמ"ד’ במשמעות בית המדרש. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">14</sup> כך במקור. כנראה צריך להיות ‘בהמ"ד’ במשמעות בית המדרש. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">15</sup> <strong>עוה"ב</strong> – עולם הבא. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">16</sup> <strong>פעה"ק</strong> – פה עיר הקודש. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">17</sup> <strong>תו"ע</strong> – תורה ועבודה. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">18</sup> <strong>לאוי"וש</strong> – לאורך ימים ושנים. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">19</sup> <strong>שא"ד</strong> – שאר דברים. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">20</sup> <strong>פק"נ</strong> – פיקוח נפש. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">21</sup> <strong>שד"ר</strong> – שליח דרבנן. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">22</sup> <strong>וכמאז"ל</strong> <strong>(עיין ס"ח)</strong> – וכמאמר זכרונם לברכה (עיין ספר החינוך). הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">23</sup> <strong>מו"שק</strong> – מוצאי שבת קודש. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">24</sup> <strong>תומ"י</strong> – תיכף ומיד. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">25</sup> <strong>חה"פ</strong> – חג הפסח. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">26</sup> <strong>כה"פ</strong> – כל הפחות. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">27</sup> <strong>לכאו"א מב”ב</strong> – לכל אחד ואחד מבני ביתו. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">28</sup> <strong>ית"ש</strong> – יתברך שמו. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">29</sup> <strong>בעו"ה</strong> – בעונותינו הרבים. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">30</sup> כל המקחים המה כמו שהיו בשנת תרכ"ז, אמנם ישתנו הדברים כפי ברכות השנים </p>
-<sup style="color: #2563eb; font-weight: bold;">31</sup> <strong>עד"ז</strong> – על דרך זה. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">32</sup> <strong>אה״ק</strong> – ארץ הקודש. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">33</sup> <strong>עע"ג</strong> – עובד עבודת גילולים. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">34</sup> <strong>עכ"ז</strong> – עם כל זה. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">35</sup> <strong>עי"ז</strong> – על ידי זה. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">36</sup> <strong>אי"ה</strong> – אם ירצה השם. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">37</sup> <strong>ת"ח</strong> – תלמידי חכמים. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">38</sup> <strong>למה"ד</strong> – למה הדבר דומה. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">39</sup> <strong>ית"ש</strong> – יתברך שמו. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">40</sup> <strong>בו"ד</strong> – בשר ודם. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">41</sup> <strong>בלא"ה</strong> – בלאו הכי. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">42</sup> <strong>ד"ץ</strong> – דין צדק. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">43</sup> <strong>זל"ז</strong> – זה לזה. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">44</sup> <strong>הנז"ל</strong> – הנזכר לעיל. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">45</sup> <strong>בתו"ע</strong> – בתורה ועבודה. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">46</sup> <strong>כמ"ש</strong> – כמו שנאמר. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">47</sup> <strong>עד"ז</strong> – על דבר זה. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">48</sup> <strong>כה"ג</strong> – כְּהַאי גַּוְנָא (כגון זה). הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">49</sup> וראיה לזה ממה שמובא בס‘ שם הגדולים שהעובר לפני שער א’ הסמוך למגדל קאללע שומע קול המון מים רבים מתחת לארץ כו', והמגדל הזה הוא אצל שער יפו ויש קורין אותו מגדל דוד: </p>
-<sup style="color: #2563eb; font-weight: bold;">50</sup> <strong>מו"ה</strong> – מורנו הרב. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">51</sup> <strong>בזמה"ז</strong> – בזמן הזה. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">52</sup> כך במקור. כנראה הכוונה לסולטן סליימאן. הערת פב״י. </p>
-<sup style="color: #2563eb; font-weight: bold;">53</sup> <strong>יצ"ו</strong> – ישמרהו צורו ויחיהו. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">54</sup> <strong>רדב"ז</strong> – רבי דוד בן זכאי או רבי דוד בן זימרא. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">55</sup> <strong>בעוה"ר</strong> – בעונותינו הרבים. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">56</sup> <strong>בזוה"ק</strong> – בזוהר הקדוש. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">57</sup> <strong>זללה"ה</strong> – זכרונו לברכה לחיי העולם הבא. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">58</sup> <strong>הרע"ב</strong> – הרב רבי עובדיה ברטנורא. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">59</sup> <strong>ק"ץ</strong> – קבר צדיק. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">60</sup> <strong>זלה"ה</strong> – זכרונו לחיי העולם הבא. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">61</sup> <strong>עכ"פ</strong> – על כל פנים. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">62</sup> <strong>בזוה"ק</strong> – בזוהר הקדוש. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">63</sup> <strong>ית"ש</strong> – יתברך שמו. הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">64</sup> המקור לא זמין (הדף קרוע). הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">65</sup> המקור לא זמין (הדף קרוע). הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">66</sup> המקור לא זמין (הדף קרוע). הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">67</sup> המקור לא זמין (הדף קרוע). הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">68</sup> המקור לא זמין (הדף קרוע). הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">69</sup> המקור לא זמין (הדף קרוע). הערת פב"י. </p>
-<sup style="color: #2563eb; font-weight: bold;">70</sup> המקור לא זמין (הדף קרוע). הערת פב"י. </p>
+<sup>1</sup> <b>ע"ז</b> – על זה. הערת פב"י
+<sup>2</sup> <b>ת"ו</b> – תבנה ותכונן. הערת פב"י.
+<sup>3</sup> <b>עה"ק</b> – עיר הקודש. הערת פב"י.
+<sup>4</sup> <b>אחב"י</b> – אחינו בני ישראל. הערת פב"י.
+<sup>5</sup> <b>ת"ל</b> – תהילה לאל. הערת פב"י
+<sup>6</sup> <b>אה"ק</b> – ארץ הקודש, ארצנו הקדושה. הערת פב"י
+<sup>7</sup> <b>רו"כ</b> – רובל כסף. הערת פב"י.
+<sup>8</sup> <b>בהמ"ק</b> – בית המקדש. הערת פב"י.
+<sup>9</sup> <b>עה"ח</b> – עץ החיים. הערת פב"י.
+<sup>10</sup> <b>גפ"ת</b> – גמרא, פרוש רש"י, תוספות. הערת פב”י.
+<sup>11</sup> <b>ת"ח</b> – תלמידי חכמים. הערת פב"י.
+<sup>12</sup> <b>מה"ג</b> – מאור הגולה. הערת פב"י.
+<sup>13</sup> כך במקור. כנראה צריך להיות ‘בהמ"ד’ במשמעות בית המדרש. הערת פב"י.
+<sup>14</sup> כך במקור. כנראה צריך להיות ‘בהמ"ד’ במשמעות בית המדרש. הערת פב"י.
+<sup>15</sup> <b>עוה"ב</b> – עולם הבא. הערת פב"י.
+<sup>16</sup> <b>פעה"ק</b> – פה עיר הקודש. הערת פב"י.
+<sup>17</sup> <b>תו"ע</b> – תורה ועבודה. הערת פב"י.
+<sup>18</sup> <b>לאוי"וש</b> – לאורך ימים ושנים. הערת פב"י.
+<sup>19</sup> <b>שא"ד</b> – שאר דברים. הערת פב"י.
+<sup>20</sup> <b>פק"נ</b> – פיקוח נפש. הערת פב"י.
+<sup>21</sup> <b>שד"ר</b> – שליח דרבנן. הערת פב"י.
+<sup>22</sup> <b>וכמאז"ל</b> <b>(עיין ס"ח)</b> – וכמאמר זכרונם לברכה (עיין ספר החינוך). הערת פב"י.
+<sup>23</sup> <b>מו"שק</b> – מוצאי שבת קודש. הערת פב"י.
+<sup>24</sup> <b>תומ"י</b> – תיכף ומיד. הערת פב"י.
+<sup>25</sup> <b>חה"פ</b> – חג הפסח. הערת פב"י.
+<sup>26</sup> <b>כה"פ</b> – כל הפחות. הערת פב"י.
+<sup>27</sup> <b>לכאו"א מב”ב</b> – לכל אחד ואחד מבני ביתו. הערת פב"י.
+<sup>28</sup> <b>ית"ש</b> – יתברך שמו. הערת פב"י.
+<sup>29</sup> <b>בעו"ה</b> – בעונותינו הרבים. הערת פב"י.
+<sup>30</sup> כל המקחים המה כמו שהיו בשנת תרכ"ז, אמנם ישתנו הדברים כפי ברכות השנים
+<sup>31</sup> <b>עד"ז</b> – על דרך זה. הערת פב"י.
+<sup>32</sup> <b>אה״ק</b> – ארץ הקודש. הערת פב"י.
+<sup>33</sup> <b>עע"ג</b> – עובד עבודת גילולים. הערת פב"י.
+<sup>34</sup> <b>עכ"ז</b> – עם כל זה. הערת פב"י.
+<sup>35</sup> <b>עי"ז</b> – על ידי זה. הערת פב"י.
+<sup>36</sup> <b>אי"ה</b> – אם ירצה השם. הערת פב"י.
+<sup>37</sup> <b>ת"ח</b> – תלמידי חכמים. הערת פב"י.
+<sup>38</sup> <b>למה"ד</b> – למה הדבר דומה. הערת פב"י.
+<sup>39</sup> <b>ית"ש</b> – יתברך שמו. הערת פב"י.
+<sup>40</sup> <b>בו"ד</b> – בשר ודם. הערת פב"י.
+<sup>41</sup> <b>בלא"ה</b> – בלאו הכי. הערת פב"י.
+<sup>42</sup> <b>ד"ץ</b> – דין צדק. הערת פב"י.
+<sup>43</sup> <b>זל"ז</b> – זה לזה. הערת פב"י.
+<sup>44</sup> <b>הנז"ל</b> – הנזכר לעיל. הערת פב"י.
+<sup>45</sup> <b>בתו"ע</b> – בתורה ועבודה. הערת פב"י.
+<sup>46</sup> <b>כמ"ש</b> – כמו שנאמר. הערת פב"י.
+<sup>47</sup> <b>עד"ז</b> – על דבר זה. הערת פב"י.
+<sup>48</sup> <b>כה"ג</b> – כְּהַאי גַּוְנָא (כגון זה). הערת פב"י.
+<sup>49</sup> וראיה לזה ממה שמובא בס‘ שם הגדולים שהעובר לפני שער א’ הסמוך למגדל קאללע שומע קול המון מים רבים מתחת לארץ כו', והמגדל הזה הוא אצל שער יפו ויש קורין אותו מגדל דוד:
+<sup>50</sup> <b>מו"ה</b> – מורנו הרב. הערת פב"י.
+<sup>51</sup> <b>בזמה"ז</b> – בזמן הזה. הערת פב"י.
+<sup>52</sup> כך במקור. כנראה הכוונה לסולטן סליימאן. הערת פב״י.
+<sup>53</sup> <b>יצ"ו</b> – ישמרהו צורו ויחיהו. הערת פב"י.
+<sup>54</sup> <b>רדב"ז</b> – רבי דוד בן זכאי או רבי דוד בן זימרא. הערת פב"י.
+<sup>55</sup> <b>בעוה"ר</b> – בעונותינו הרבים. הערת פב"י.
+<sup>56</sup> <b>בזוה"ק</b> – בזוהר הקדוש. הערת פב"י.
+<sup>57</sup> <b>זללה"ה</b> – זכרונו לברכה לחיי העולם הבא. הערת פב"י.
+<sup>58</sup> <b>הרע"ב</b> – הרב רבי עובדיה ברטנורא. הערת פב"י.
+<sup>59</sup> <b>ק"ץ</b> – קבר צדיק. הערת פב"י.
+<sup>60</sup> <b>זלה"ה</b> – זכרונו לחיי העולם הבא. הערת פב"י.
+<sup>61</sup> <b>עכ"פ</b> – על כל פנים. הערת פב"י.
+<sup>62</sup> <b>בזוה"ק</b> – בזוהר הקדוש. הערת פב"י.
+<sup>63</sup> <b>ית"ש</b> – יתברך שמו. הערת פב"י.
+<sup>64</sup> המקור לא זמין (הדף קרוע). הערת פב"י.
+<sup>65</sup> המקור לא זמין (הדף קרוע). הערת פב"י.
+<sup>66</sup> המקור לא זמין (הדף קרוע). הערת פב"י.
+<sup>67</sup> המקור לא זמין (הדף קרוע). הערת פב"י.
+<sup>68</sup> המקור לא זמין (הדף קרוע). הערת פב"י.
+<sup>69</sup> המקור לא זמין (הדף קרוע). הערת פב"י.
+<sup>70</sup> המקור לא זמין (הדף קרוע). הערת פב"י.
