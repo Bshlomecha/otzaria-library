@@ -8,6 +8,8 @@ t_dict = {1:"אונקלוס",2:'תרגום ירושלמי',3:'רש"י',4:'רמב
 8:'אור החיים',9:'תורה תמימה',10:'מצודת דוד',11:'מצודת ציון',12:'רלב"ג',14:'רע"ב',15:'תוי"ט',17:'רש"י',
 18:'תוס',20:'משנ"ב',21:'ביאור הלכה',23:'תרגום זוהר',28:'כלי יקר ',29:'מלבי"ם תוכן',30:'מלבי"ם פירוש המילות',31:'מלבי"ם ביאור המילות'}
 
+TEXT_LT = "\ue000"
+
 def adjust_html_tag_spaces(html):
     start_pattern = r'(<[^/<>]+?>)([ ]+)' 
     end_pattern = r'([ ]+)(</[^<>]+?>)' 
@@ -28,18 +30,22 @@ def check_line(line):
 
 def process_body_xml(xml_content):
     title = None
+    first_chap = False
     carector_list = ['<?xml version="1.0" ?>', "<![CDATA[", "]]>", '<?xml version="1.0" encoding="utf-8"?>']
     for i in carector_list:
         xml_content = xml_content.replace(i, " ")
     xml_content = re.sub(r"<!--[^א-ת]+?-->","", xml_content)
     xml_content = re.sub(r"<\?xml.+?\?>","", xml_content)
     soup = BeautifulSoup(xml_content, "lxml")
+    # '<' של טקסט מסומן לפני הוספת הכותרות, כדי שלא יפוענח בסוף לתג גולמי
+    for text in soup.find_all(string=lambda t: "<" in t):
+        text.replace_with(text.replace("<", TEXT_LT))
     for tag in soup.find_all():
         if tag.name:
-            if tag.name.lower() in ('html', "body", "d" , "iri", "pid", "qm", "rb", "sp", "tf", "col3", "f"):
+            if tag.name.lower() in ('html', "body", "d" , "iri", "pid", "qm", "rb", "sp", "tf", "col3", "f", "a"):
                 tag.unwrap()
             elif tag.name.lower() in ("center", "sid1", "sid2", "sid3", "sid4", "sidcom1", "sidcom2", "sidcom4",
-                                    "tos", "e", "c", "m", "bl"):
+                                    "tos", "e", "c", "m", "bl", "ps"):
                 tag_replace = ""
                 if tag.name.lower() == "center":
                     tag_replace += "text-align: center;"
@@ -68,22 +74,33 @@ def process_body_xml(xml_content):
                 elif tag.name.lower() == "n":
                     tag_replace += "color:#888888; font-size:80%;"
                 elif tag.name.lower() == "m":
-                    tag_replace += "color:#444444; font-size:80%; display:none;"
+                    tag_replace += "color:#444444; font-size:80%;"
+                elif tag.name.lower() == "ps":
+                    tag_replace += "font-weight:bold; color:#0000ff;"
                 if tag.attrs.get("style"):
                     tag.attrs["style"] += tag_replace
                 elif tag_replace:
                     tag.attrs["style"] = tag_replace
                 tag.name = 'span'
                 
-            elif tag.name.lower() in ("script", "style", "pid", "a", "input", "ps"):
+            elif tag.name.lower() in ("script", "style", "pid", "input"):
                 tag.decompose()
             elif tag.name.lower() in ("book","chap","p"):
                 name = tag.attrs.get("n")
                 if name:
                     if h_dict.get(tag.name) == 1:
                         title = name.strip()
+                        first_chap = True
+                    # פרק ראשון ששמו כשם הספר היה יוצר כותרת h2 כפולה ל-h1
+                    elif tag.name == "chap" and first_chap and name.strip() == title:
+                        pass
                     elif name.strip() not in ("-", ".", "_"):
                         tag.insert_before(f"\n<h{h_dict.get(tag.name)}>{name.strip()}</h{h_dict.get(tag.name)}>\n")
+                    if tag.name == "chap":
+                        first_chap = False
+                elif tag.name == "p":
+                    tag.insert_before("\n")
+                    tag.insert_after("\n")
                 tag.unwrap()
             elif tag.name.lower() == "t":
                 name = tag.attrs.get("i").strip()
@@ -103,7 +120,7 @@ def process_body_xml(xml_content):
                     if tag_class == ["ot"]:
                         pass
                     elif tag_class == ["answer"]:
-                        class_replace += "padding:3px;background-color:#CCCCCC;display:none;"
+                        class_replace += "padding:3px;background-color:#CCCCCC;"
                     elif tag_class == ["tfilaq"]:
                         class_replace += "border-bottom: 2px dotted blue; margin: 20px 0;"
                     elif tag_class == ["bothq"]:
@@ -143,7 +160,7 @@ def main(file_path, target_file, file_name):
     fix_xml, title = process_body_xml(content)
     fix_spaces = adjust_html_tag_spaces(fix_xml).splitlines()
     output_text = [f"<h1>{title}</h1>" if title else f"<h1>{file_name}</h1>", ""] + [line.strip() for line in fix_spaces if check_line(line)]
-    join_lines = html_module.unescape("\n".join(output_text))
+    join_lines = html_module.unescape("\n".join(output_text)).replace(TEXT_LT, "&lt;")
     with open(target_file, "w", encoding = "utf-8") as output:
         output.write(join_lines)
 

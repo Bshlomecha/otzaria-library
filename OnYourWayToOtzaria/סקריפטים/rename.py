@@ -17,6 +17,10 @@ def process_node(node, base_folder=""):
         nid = node.get("nid")
         # Sanitize the filename and rename the file
         new_filename = os.path.join(base_folder, sanitize_filename(node_name) + ".txt")
+        # שני צמתים שמתנקים לאותו שם היו דורסים זה את זה
+        if new_filename in written_files:
+            new_filename = os.path.join(base_folder, f"{sanitize_filename(node_name)} ({nid}).txt")
+        written_files.add(new_filename)
         old_filename = os.path.join(book_folder, nid + ".xml")
         if os.path.exists(old_filename):
             print(new_filename)
@@ -38,6 +42,7 @@ def process_node(node, base_folder=""):
 xml_file = r"fix_tnc.xml"
 tree = ET.parse(xml_file)
 book_folder = "xml"
+written_files = set()
 root = tree.getroot()
 # Process the root node
 process_node(root)
