@@ -99,3 +99,58 @@ def left_align(template: Template) -> str:
 
 def ver_fix(template: Template) -> str:
     return f"({template.params[0]}) [{template.params[1]}]"
+
+
+def line_break(*args) -> str:
+    return "<br>"
+
+
+def positional(template: Template) -> list[str]:
+    return [str(p.value) for p in template.params if not p.showkey or str(p.name).strip().isdigit()]
+
+
+def join_positional(template: Template) -> str:
+    return " ".join(positional(template))
+
+
+def last_positional(template: Template) -> str:
+    """ברירת מחדל לתבנית לא ממופה: הטקסט המוצג הוא בדרך כלל הפרמטר האחרון.
+    שאר הפרמטרים (גודל גופן, צבע, מזהה עוגן) אינם טקסט."""
+    params = [p for p in positional(template) if p.strip()]
+    return params[-1] if params else ""
+
+
+def keep_param_or_first(template: Template, index: int) -> str:
+    params = positional(template)
+    if len(params) > index:
+        return params[index]
+    return params[0] if params else ""
+
+
+def anchor(template: Template) -> str:
+    params = positional(template)
+    return params[1] if len(params) > 1 else ""
+
+
+def mm(template: Template) -> str:
+    params = positional(template)
+    return f"({params[0]})" if params and params[0].strip() else ""
+
+
+def square_brackets(template: Template) -> str:
+    return f"[{' '.join(positional(template))}]"
+
+
+def mmq(template: Template) -> str:
+    params = positional(template)
+    return params[2] if len(params) > 2 else (params[0] if params else "")
+
+
+def note_text(template: Template, index: int = 0) -> str:
+    params = positional(template)
+    return params[index] if len(params) > index else ""
+
+
+def margin_note(template: Template, index: int = 0) -> str:
+    text = note_text(template, index).strip()
+    return f"<small>[{text}]</small>" if text else ""

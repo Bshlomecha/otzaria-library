@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import re
+from collections import Counter
 from collections.abc import Callable
 from functools import partial
 
@@ -24,7 +25,7 @@ wikisource_replacement_dict: dict[str, Callable[[Template], str] | None] = {
     "קישור למחבר": template_funcs.remove,
     "כו": template_funcs.remove,
     "טקסט מושלם": template_funcs.remove,
-    "ש": template_funcs.new_line,
+    "ש": template_funcs.line_break,
     "עמוד": template_funcs.remove,
     "ק": template_funcs.parenthesize_one,
     "ג": template_funcs.big,
@@ -44,7 +45,8 @@ wikisource_replacement_dict: dict[str, Callable[[Template], str] | None] = {
     "מיזמים": template_funcs.remove,
     "יצירה": template_funcs.remove,
     "היברובוקס": template_funcs.remove,
-    "עוגן": template_funcs.remove,
+    "עוגן": template_funcs.anchor,
+    "עוגן1": partial(template_funcs.keep_some_params, params_to_keep=[0]),
     "קט": partial(template_funcs.keep_some_params, params_to_keep=[0]),
     "ציטוטון": template_funcs.gersim_and_parenthesize,
     "מצ": template_funcs.mz,
@@ -57,12 +59,14 @@ wikisource_replacement_dict: dict[str, Callable[[Template], str] | None] = {
     "ממורכז": template_funcs.save_all,
     "דף שער": template_funcs.remove,
     "הפניה-גמ": partial(template_funcs.keep_some_params, params_to_keep=[0, 1, 2]),
-    "ממ": template_funcs.parenthesize_only,
+    "ממ": template_funcs.mm,
+    "ממר": template_funcs.square_brackets,
+    "ממק": template_funcs.mmq,
     "צבע גופן": partial(template_funcs.keep_some_params, params_to_keep=[1]),
     "*": lambda *_: "•",
     "ב": None,
     "גדול": template_funcs.bold,
-    "גופן": partial(template_funcs.keep_some_params, params_to_keep=[2]),
+    "גופן": partial(template_funcs.keep_param_or_first, index=2),
     "גמט": partial(template_funcs.keep_some_params, params_to_keep=[-1]),
     "גמט גדש": None,
     "דה מפרש": template_funcs.bold_and_colon,
@@ -85,7 +89,7 @@ wikisource_replacement_dict: dict[str, Callable[[Template], str] | None] = {
     "מפרשים למסכת נדרים": None,
     "מפרשים למסכת נזיר": None,
     "מר": None,
-    "מרכז": None,
+    "מרכז": template_funcs.join_positional,
     "ניווט ספר": None,
     "ספר התגין": None,
     "ספר חול": None,
@@ -108,10 +112,35 @@ wikisource_replacement_dict: dict[str, Callable[[Template], str] | None] = {
     "תיקון גירסה": template_funcs.ver_fix,
     "M": template_funcs.remove,
     "ניווט קבא דקשייתא": template_funcs.remove,
-    "ססס": template_funcs.remove
+    "ססס": template_funcs.remove,
+    "שולי הגליון": template_funcs.remove,
+    "ביאורים": template_funcs.remove,
+    "דיקטה": template_funcs.remove,
+    "ניווט כללי עליון": template_funcs.remove,
+    "ניווט כללי תחתון": template_funcs.remove,
+    "הועלה אוטומטית": template_funcs.remove,
+    "OCR": template_funcs.remove,
+    "-": template_funcs.remove,
+    "כאן": template_funcs.remove,
+    "כ": template_funcs.remove,
+    "תמונה להוספה": template_funcs.remove,
+    "אצבע מורה": template_funcs.remove,
+    "יישור לשמאל": partial(template_funcs.keep_some_params, params_to_keep=[0]),
+    "אישים": partial(template_funcs.keep_some_params, params_to_keep=[0]),
+    "אישי ישראל": partial(template_funcs.keep_some_params, params_to_keep=[0]),
+    "כניסה משני צדדים": partial(template_funcs.keep_some_params, params_to_keep=[0]),
+    "מידע": partial(template_funcs.keep_some_params, params_to_keep=[0]),
+    'הג"ה': partial(template_funcs.keep_some_params, params_to_keep=[0]),
+    "ביאור": partial(template_funcs.margin_note, index=0),
+    "תוספת": partial(template_funcs.margin_note, index=1),
 }
 
+# הערות גליון מוצגות בגוף הטקסט, מסומנות ומוקטנות כדי שלא יתערבבו בו
+footnote_templates: dict[str, int] = {"הערה": 0}
+
 replacement_dict: dict[str, TemplateAction] = {}
+# תבניות שלא מופו בהרצה - כדאי להוסיף להן מיפוי
+unmapped_templates: Counter[str] = Counter()
 
 
 def filter_templates(string: str, all_templates: list[str] | None = None, template_dict: TemplateDict | None = None) -> list[list[str]] | bool:
@@ -127,10 +156,13 @@ def filter_templates(string: str, all_templates: list[str] | None = None, templa
                 template_name = template_name.split(":", 1)[0].strip()
             if all_templates and template_dict and template_name in all_templates:
                 template_str = convert_templates(str(template), template_dict)
-            elif template_name in replacement_dict:
+            elif template_name in footnote_templates:
+                template_str = template_funcs.note_text(template, footnote_templates[template_name])
+            elif replacement_dict.get(template_name):
                 template_str = replacement_dict[template_name](template)
             else:
-                template_str = " ".join([str(param) for param in template.params])
+                template_str = template_funcs.last_positional(template)
+                unmapped_templates[template_name] += 1
             string_2.append([str(template), template.name, template_str])
         return string_2
     return False
@@ -163,7 +195,7 @@ def remove_templates(wikitext: str, template_dict=None) -> tuple[str, dict]:
     dict_comments = {}
     sup = 0
     remove_templates_dict = {
-        "ש": "\n",
+        "ש": "<br>",
         "חלקי": "",
         # "גופן": "",
     }
@@ -172,7 +204,7 @@ def remove_templates(wikitext: str, template_dict=None) -> tuple[str, dict]:
         if replace is False:
             break
         for i in replace:
-            if i[1].strip() == "הערה":
+            if i[1].strip() in footnote_templates:
                 sup += 1
                 dict_comments[sup] = clean_comment(i[2], all_templates, template_dict)
                 rp = f'<sup style="color: gray;">{sup}</sup>'

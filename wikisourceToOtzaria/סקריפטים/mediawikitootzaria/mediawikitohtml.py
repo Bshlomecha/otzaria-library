@@ -18,21 +18,30 @@ import wikitextparser as wtp
 
 
 def media_wiki_list_to_html(string: str) -> str:
-    def convert_list_to_html(wikilist: wtp._wikilist.WikiList, list_type: str) -> str:
+    def list_type_of(pattern: str) -> str | None:
+        # ':' ו-';' הם הזחה ולא רשימה - כל פריט נשאר פסקה משלו
+        return {"*": "ul", "#": "ol"}.get(pattern[-1])
+
+    def convert_list_to_html(wikilist: wtp._wikilist.WikiList, list_type: str | None) -> str:
+        if list_type is None:
+            parts = []
+            for index, item in enumerate(wikilist.items):
+                parts.append(item.strip())
+                for sublist in wikilist.sublists(index):
+                    parts.append(convert_list_to_html(sublist, list_type_of(sublist.pattern)).strip())
+            return "\n\n" + "\n\n".join(parts) + "\n\n"
         html = f"<{list_type}>\n"
         for index, item in enumerate(wikilist.items):
             html += f"  <li>{item.strip()}</li>\n"
             sublists = wikilist.sublists(index)
             for sublist in sublists:
-                sublist_type = "ul" if sublist.pattern[-1] == ("*") else "ol"
-                html += convert_list_to_html(sublist, sublist_type)
+                html += convert_list_to_html(sublist, list_type_of(sublist.pattern))
         html += f"</{list_type}>\n"
         return html
 
     parsed = wtp.parse(string)
     for wikilist in parsed.get_lists():
-        list_type = "ul" if wikilist.pattern[-1] == ("*") else "ol"
-        html_ordered_list = convert_list_to_html(wikilist, list_type)
+        html_ordered_list = convert_list_to_html(wikilist, list_type_of(wikilist.pattern))
         string = string.replace(str(wikilist), html_ordered_list)
     return string
 
@@ -69,8 +78,9 @@ def wikitext_to_html(wikitext: str, start_heading_level: int = 2) -> str:
 
     # המרת קישורים פנימיים
     protected_text = re.sub(r'\[\[קטגוריה:.*?\]\]', '', protected_text)
-    protected_text = re.sub(r'\[\[(.*?)\|(.*?)\]\]', r'\2', protected_text)
-    protected_text = re.sub(r'\[\[(.*?)\]\]', r'\1', protected_text)  # במקרה של לינק בלי |
+    # היעד לא יכול להכיל סוגריים, אחרת ההתאמה חוצה קישור בלי | ומוחקת טקסט עד ה-| הבא
+    protected_text = re.sub(r'\[\[([^\[\]|]*)\|(.*?)\]\]', r'\2', protected_text)
+    protected_text = re.sub(r'\[\[([^\[\]]*?)\]\]', r'\1', protected_text)  # במקרה של לינק בלי |
     # to do: re.dotall
     # המרת טקסט מודגש ('''text''' -> <b>text</b>)
     protected_text = re.sub(r"'''''(.*?)'''''", r'<b><i>\1</i></b>', protected_text)
@@ -101,4 +111,5 @@ def fix_new_lines(text: str) -> str:
     """מתקן שורות חדשות בטקסט"""
     text = re.sub(r'([^\n])\n([^\n])', r'\1 \2', text)  # מחליף שורות חדשות במרווח
     text = re.sub(r'\n{2,}', r'\n', text)  # מחליף שורות חדשות מרובות בשורה חדשה אחת
+    text = re.sub(r'^(?:[ \t]*<br>)+|(?:<br>[ \t]*)+$', '', text, flags=re.MULTILINE)
     return text
