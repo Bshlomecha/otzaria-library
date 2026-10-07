@@ -169,5 +169,49 @@ class Checks(unittest.TestCase):
         self.assertEqual(probs, ['line 1: a second run would change it again'])
 
 
+class GeneratedText(unittest.TestCase):
+    RULES = ("#rep=<<<=<span style='font-size:90%;'><span style='font-size:120%;'>_nbsp; "
+             "<b> נפש יהודה </b>_nbsp; </span> _nbsp;")
+
+    def new(self, body):
+        text = source('$ שם\nמחבר\n~ ראש\n' + body + '\n', self.RULES)
+        return E.convert('x.txt', text=text, markers=True, report={})[1][-1]['html']
+
+    def test_label_is_not_glued_to_the_next_word(self):
+        # מנורת המאור: a1f39803 wrote 'נפש<span> יהודה' and then the first word, glued
+        new = self.new('<<<אמר רבי. ועוד')
+        cur = "<span style='font-size:92%'> <b>אמר רבי.</b> ועוד"
+        out = merge(new, cur)
+        self.assertEqual(out, "<big><b>נפש יהודה</b></big><span style='font-size:92%'> <b>אמר רבי.</b> ועוד")
+        self.assertEqual(merge(new, out), out)
+        self.assertEqual(merge(new, 'אמר רבי. ועוד'), '<big><b>נפש יהודה</b></big> אמר רבי. ועוד')
+
+    def test_letter_next_to_a_consumed_token_stays(self):
+        # source '{ע}ד': the amud token '{ע}' takes the first letter of the word
+        new = 'הוי <tex d="%s">ד זומם' % '{ע}'.encode().hex()
+        self.assertEqual(R.merge_line(new, 'הוי <b>ע</b>ד זומם', R.new_report()), 'הוי <b>ע</b>ד זומם')
+        self.assertEqual(R.merge_line(new, 'הוי {ע}ד זומם', R.new_report()), 'הוי ד זומם')
+
+    def test_letters_a_rule_regenerates_are_still_debris(self):
+        # Chavruta token 'עעע' (bold 'ע' in the rules) the old conversion kept as text
+        new = '[<tex d="%s"><b><teg>ע</teg></b>ין, ' % 'עעע'.encode().hex()
+        self.assertEqual(R.merge_line(new, '[עעעין, ', R.new_report()), '[<b>ע</b>ין,')
+
+
+class GluedHeadings(unittest.TestCase):
+    def test_heading_glued_to_a_paragraph_gets_its_own_line(self):
+        body = '~ ראש\nטקסט.\n@ סימן א\n# הלכה\nעוד\n'
+        cur = ['<h2>ראש</h2>', 'טקסט.<h3></h3><h2>סימן א</h2>', '<h3>הלכה</h3>', 'עוד']
+        _, new = E.convert('x.txt', text=source('$ שם\nמחבר\n' + body), markers=True, report={})
+        lines, linemap = R.split_glued_headings(['<h1>שם</h1>', 'מחבר'] + cur, new)
+        self.assertEqual(lines[3:5], ['טקסט.', '<h2>סימן א</h2>'])
+        self.assertEqual(linemap, [0, 1, 2, 3, 5, 6])
+
+    def test_heading_the_source_does_not_have_stays_glued(self):
+        _, new = E.convert('x.txt', text=source('$ שם\nמחבר\nטקסט. מקור\n'), markers=True, report={})
+        line = 'טקסט. <b><h4></b> מקור <b>.</b></h4>'
+        self.assertEqual(R.split_glued_headings([line], new)[0], [line])
+
+
 if __name__ == '__main__':
     unittest.main()

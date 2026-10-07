@@ -92,7 +92,13 @@ def rep_rules(ct):
             frm, to = item.split('=', 1)
             if frm:
                 rules.append((frm, to))
-    return rules
+    defined = {f for f, _ in rules}
+    return rules + [(f, t) for f, t in FALLBACK_RULES if f not in defined]
+
+
+# Tokens some books use without a rule of their own: the notes on Chavruta
+# (HavTempNotes, CosmeticsType==2454) write '(' and ')' as SB and SE like HavAll does.
+FALLBACK_RULES = [('SB', '('), ('SE', ')')]
 
 
 # ---------------------------------------------------------------- replacements

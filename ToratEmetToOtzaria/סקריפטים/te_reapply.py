@@ -191,8 +191,9 @@ def align(a, b):
     return ops
 
 
-def consumed_near(nitems_pos, markers, i, run):
-    """Is the cur-only text `run`, inserted at new-char index i, made of consumed tokens?"""
+def consumed_near(gen_near, markers, i, run):
+    """Is the cur-only text `run`, inserted at new-char index i, made of consumed tokens?
+    gen_near: the rule-generated text of the conversion around i."""
     core = run.strip()
     if not core:
         return False
@@ -204,6 +205,11 @@ def consumed_near(nitems_pos, markers, i, run):
     # every piece of the run must be a piece of some nearby consumed token
     joined = ''.join(window)
     pieces = core.split()
+    # Hebrew letters are text unless a rule regenerates them right here ('{ע}' -> bold
+    # 'ע'): the real 'ע' of '{ע}ד' (Chavruta on Bava Metzia) is not debris of the token
+    if any(re.fullmatch(r'[\u05d0-\u05ea\u0591-\u05c7]+', pc) and not set(pc) <= set(gen_near)
+           for pc in pieces):
+        return False
     return all(pc in joined or any(pc in f for f in window) for pc in pieces)
 
 
@@ -307,6 +313,11 @@ def merge_line(new_html, cur_html, report):
     for op, i1, i2, j1, j2 in ops:
         if op == 'equal':
             present.update(nch[i].gen for i in range(i1, i2) if nch[i].gen and not nch[i].c.isspace())
+    groups = collections.defaultdict(list)     # generated group -> its new-char indices
+    for i, c in enumerate(nch):
+        if c.gen and c.gen not in present:
+            groups[c.gen].append(i)
+    done = set()
     pending = []               # generated text that opens the next aligned source text
     for op, i1, i2, j1, j2 in ops:
         if op == 'equal':
@@ -321,25 +332,35 @@ def merge_line(new_html, cur_html, report):
                 out.append(Ch(cch[j].c, merged(nch[i].eff, j)))
             continue
         # new-only chars: keep rule-generated text, drop the rest (cur wins)
-        gen = ''.join(nch[i].c for i in range(i1, i2) if nch[i].gen and nch[i].gen not in present)
         run = ''.join(cch[j].c for j in range(j1, j2))
         if op in ('delete', 'replace'):
-            genrun = [nch[i] for i in range(i1, i2) if nch[i].gen and nch[i].gen not in present]
-            while genrun and genrun[0].c.isspace():
-                genrun.pop(0)
-            while genrun and genrun[-1].c.isspace():
-                genrun.pop()
-            if genrun and genrun[0].c in ',.?:;!':
-                while out and isinstance(out[-1], Ch) and out[-1].c == ' ':
-                    out.pop()        # punctuation a rule inserts hugs the preceding word
-            nxt = nch[i2] if i2 < len(nch) else None
-            opening = nxt is not None and not nxt.gen and not nxt.c.isspace()
-            for g in genrun:
-                (pending if opening else out).append(Ch(g.c, g.eff, True))
-            if gen.strip():
-                report['generated'][gen.strip()] = report['generated'].get(gen.strip(), 0) + 1
+            # A generated group goes in whole, where its first char is: a space of it
+            # matched to a space of the current file must not split it.
+            for g in sorted({nch[i].gen for i in range(i1, i2) if nch[i].gen in groups} - done):
+                done.add(g)
+                idx = groups[g]
+                genrun = [nch[i] for i in idx]
+                gen = ''.join(c.c for c in genrun)
+                while genrun and genrun[0].c.isspace():
+                    genrun.pop(0)
+                while genrun and genrun[-1].c.isspace():
+                    genrun.pop()
+                if genrun and genrun[0].c in ',.?:;!':
+                    while out and isinstance(out[-1], Ch) and out[-1].c == ' ':
+                        out.pop()        # punctuation a rule inserts hugs the preceding word
+                after = max(i2, idx[-1] + 1)
+                nxt = nch[after] if after < len(nch) else None
+                opening = nxt is not None and not nxt.gen and not nxt.c.isspace()
+                dst = pending if opening else out
+                for c in genrun:
+                    dst.append(Ch(c.c, c.eff, True))
+                if genrun and idx[-1] + 1 < len(nch) and nch[idx[-1] + 1].c.isspace():
+                    dst.append(SpaceAfterGen(' ', nch[idx[-1] + 1].eff, True))
+                if gen.strip():
+                    report['generated'][gen.strip()] = report['generated'].get(gen.strip(), 0) + 1
         if op in ('insert', 'replace'):
-            if consumed_near(None, markers, i1, run):
+            gen_near = ''.join(c.c for c in nch[max(0, i1 - 3):i2 + 3] if c.gen)
+            if consumed_near(gen_near, markers, i1, run):
                 report['consumed'][run.strip()] = report['consumed'].get(run.strip(), 0) + 1
                 for j in range(j1, j2):
                     emit_anchors(j)
@@ -366,7 +387,24 @@ def merge_line(new_html, cur_html, report):
                     report['kept_cur'][key] = report['kept_cur'].get(key, 0) + 1
     out.extend(pending)
     emit_anchors(len(cch))
-    return serialize(collapse_spaces(out))
+    return serialize(collapse_spaces(spare_spaces(out)))
+
+
+class SpaceAfterGen(Ch):
+    """The space the conversion has after generated text ('נפש יהודה' + text)."""
+
+
+def spare_spaces(items):
+    """Drop the space put after generated text where the current file already has a
+    space next (maybe behind a tag), and at the end of the line."""
+    out = []
+    for k, it in enumerate(items):
+        if isinstance(it, SpaceAfterGen):
+            nxt = next((x for x in items[k + 1:] if isinstance(x, Ch)), None)
+            if nxt is None or nxt.c.isspace():
+                continue
+        out.append(it)
+    return out
 
 
 def collapse_spaces(items):
@@ -461,6 +499,39 @@ def key(s):
 def new_report():
     return {'generated': {}, 'consumed': {}, 'kept_cur': {}, 'unaligned_cur': [],
             'heading_level': {}, 'kind_mismatch': [], 'pairs': {}, 'unstable': []}
+
+
+GLUED_HEAD_RE = re.compile(r'<h([1-6])([^<>]*)>(.*?)</h\1>', re.S | re.I)
+
+
+def split_glued_headings(cur_lines, new_lines):
+    """The first import glued some headings to the end of the paragraph before them
+    ('...text.<h3></h3><h2>title</h2>'). A heading the source has on a line of its own
+    goes back to its own line; an empty one is dropped. -> (lines, map), where map[i]
+    is the new 0-based index of current line i."""
+    heads = {key(l['html']) for l in new_lines if l['kind'] == 'h'}
+    out, linemap = [], []
+    for line in cur_lines:
+        linemap.append(len(out))
+        m0 = re.search(r'<h[1-6]', line, re.I)
+        if not m0 or HEAD_RE.match(line) or not key(line[:m0.start()]):
+            out.append(line)
+            continue
+        found, pos = [], m0.start()
+        for m in GLUED_HEAD_RE.finditer(line, m0.start()):
+            if key(line[pos:m.start()]):
+                break
+            found.append(m)
+            pos = m.end()
+        titled = [m for m in found if key(m.group(3))]
+        if (not found or key(line[pos:]) or not titled
+                or not all(key(m.group(3)) in heads for m in titled)):
+            out.append(line)
+            continue
+        out.append(line[:m0.start()].rstrip())
+        for m in titled:
+            out.append(f'<h{m.group(1)}{m.group(2)}>{m.group(3).strip()}</h{m.group(1)}>')
+    return out, linemap
 
 
 def merge_pair(n, c, report, heading_levels):
@@ -746,6 +817,7 @@ def process(rel, spec, max_carry=10):
         cur = cur[:-1]
     conv = {}
     _, new = E.convert(spec['src'], markers=True, report=conv)
+    cur, linemap = split_glued_headings(cur, new)
     out, rep = merge_book(new, cur, heading_levels=spec.get('headings', 'cur'),
                           keep=[l for l, _ in allowlist(spec, 'keep', 2)])
     assert len(out) == len(cur)
@@ -753,6 +825,8 @@ def process(rel, spec, max_carry=10):
     bad = [(i + 1, d, a) for i, (x, y) in enumerate(zip(cur, out))
            for d, a in textdiff(plain(x), plain(y)) if not allowed(d, a, froms, tos)]
     rep['format'] = format_problems(conv, out, spec, max_carry, cur, new, rep['pairs'], rep['unstable'])
+    rep['linemap'] = linemap
+    rep['added_lines'] = sorted(set(range(len(cur))) - set(linemap))
     rep['unbalanced_known'] = conv['unbalanced'] if spec.get('unbalanced') else []
     text = ('\ufeff' if bom else '') + '\n'.join(out) + ('\n' if trail else '')
     return path, text, raw, rep, bad, sum(1 for x, y in zip(cur, out) if x != y)
@@ -781,6 +855,8 @@ def main():
         con = sum(rep['consumed'].values())
         print(f'{rel}: {changed} lines changed, {con} tokens removed, {gen} rule texts added'
               + (f', {len(rep["unaligned_cur"])} lines left as is' if rep['unaligned_cur'] else '')
+              + (f', {len(rep["added_lines"])} glued headings moved to their own line'
+                 ' (shift the links)' if rep['added_lines'] else '')
               + (f', {len(rep["unbalanced_known"])} known unbalanced source tags left literal'
                  if rep['unbalanced_known'] else ''))
         for k, v in list(rep['consumed'].items()) + list(rep['generated'].items()):
