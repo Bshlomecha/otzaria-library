@@ -1,0 +1,13 @@
+diff --git a/src/dar_inline.ts b/src/dar_inline.ts
+index 1bba6c6..d1b2dda 100644
+--- a/src/dar_inline.ts
++++ b/src/dar_inline.ts
+@@ -114,7 +114,7 @@ const pattSingleDollar = pattern("\\$");
+ const pattBackslash = pattern("\\\\");
+ const pattRawAttribute = pattern("\\{=[^\\s{}`]+\\}");
+ const pattNoteReference = pattern("\\^([^\\]]+)\\]");
+-const pattInsertPattern = pattern("\\{.*\\}");
++const pattInsertPattern = pattern("\\{[^}]*\\}");
+ const pattStrike = pattern("\\~.*\\~");
+ 
+ // const pattNoteReference = pattern("@?\\^([^\\]]+)\\]");

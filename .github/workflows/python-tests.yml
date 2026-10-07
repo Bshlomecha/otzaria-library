@@ -51,6 +51,7 @@ jobs:
             /ToratEmetToOtzaria/סקריפטים/te_convert.py
             /ToratEmetToOtzaria/סקריפטים/te_reapply.py
             /ToratEmetToOtzaria/סקריפטים/test_te_reapply.py
+            /pninimToOtzaria/סקריפטים/
             /manual_links_sync.json
             /_insert_sfat_emet_links.py
             /manual_links_packaging.py
@@ -119,6 +120,16 @@ jobs:
         env:
           PYTHONIOENCODING: utf-8
         run: python3 -m unittest -v test_te_reapply
+
+      # ממירי פנינים (merge_books / manipulate / to_otzaria): קבצים סינתטיים בלבד.
+      - name: Pninim converters suite
+        working-directory: pninimToOtzaria/סקריפטים
+        env:
+          PYTHONIOENCODING: utf-8
+        run: |
+          set -euo pipefail
+          python3 -m pip install --quiet beautifulsoup4
+          python3 -m unittest -v test_pninim_converters test_to_otzaria
 
       # רשימה מפורשת ולא discover: test_validate_fordb_book_names ו-
       # test_validate_manual_links_refs יושבות באותה תיקייה ורצות ב-workflows אחרים.
