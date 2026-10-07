@@ -1,4 +1,5 @@
 import json
+import os
 import re
 import unicodedata
 from collections import defaultdict
@@ -11,6 +12,7 @@ from pyluach import dates
 
 import fix_marker_breaks
 import fix_missing_spaces
+import normalize_source
 
 
 @dataclass
@@ -84,11 +86,14 @@ def clean_hidden_chars(text: str | None) -> str:
         return ""
 
     text = re.sub(r'\s+', ' ', text).strip()
-    text = "".join(ch for ch in text if unicodedata.category(ch)[0] != "C")
+    # אחרי כיווץ הרווחים, isprintable() אומר שאין תווי בקרה/פורמט/פרטיים (קטגוריה C)
+    # — המקרה הרגיל — ואפשר לדלג על המעבר תו-תו
+    if not text.isprintable():
+        text = "".join(ch for ch in text if unicodedata.category(ch)[0] != "C")
 
-    # 2. החלפת רווחים מיוחדים (כמו רווח בלתי פסיק או רווח ברוחב אפס) ברווח רגיל
-    # הפונקציה normalize תהפוך סוגי רווחים שונים לפורמט סטנדרטי
-    text = unicodedata.normalize('NFKC', text)
+    # NFKC על טקסט ASCII הוא זהות
+    if not text.isascii():
+        text = unicodedata.normalize('NFKC', text)
     return text
 
 
@@ -152,13 +157,8 @@ def sanitize_filename(filename: str) -> str:
     return re.sub(r'[\\/:*"?<>|\u200E\u200F\u202A\u202B\u202C\u202D\u202E]', '', filename).replace('_', ' ')
 
 
-def get_all_span_classes(html: str) -> set:
-    soup = BeautifulSoup(html, "html.parser")
-    return {
-        cls
-        for span in soup.find_all("span")
-        for cls in span.get("class", [])
-    }
+# כל מחלקות ה-span שנראו בפועל (לדיווח בסוף הריצה); apply_span_styles ממלא אותה
+all_span_classes = set()
 
 
 CLASS_STYLE = {
@@ -200,6 +200,7 @@ def apply_span_styles(html: str) -> str:
     soup = BeautifulSoup(html, "html.parser")
     for span in soup.find_all("span"):
         classes = span.get("class") or []
+        all_span_classes.update(classes)
         seen = {c for c in classes if c in CLASS_STYLE}
         if not seen:
             span.unwrap()
@@ -222,7 +223,7 @@ def apply_span_styles(html: str) -> str:
     return fix_missing_spaces.fix_text(result)[0]
 
 
-input_path = Path(r"C:\Users\Otzaria\Desktop\rambam\output.json")
+input_path = Path(os.environ.get("RAMBAM_OUTPUT_JSON", r"C:\Users\Otzaria\Desktop\rambam\output.json"))
 with input_path.open("r", encoding="utf-8") as f:
     data = json.load(f)
 
@@ -331,7 +332,7 @@ for book in data:
                         # חושף את FileContent). מעדיפים את המלא, ונופלים לתצוגה
                         # המקדימה רק כשהשרת לא צירף עותק מלא (טקסטים קצרים).
                         raw_text = text.get("FileContent") or text.get("MHLogicalUnitText")
-                        mh_logical_unit_text = clean_hidden_chars(raw_text)
+                        mh_logical_unit_text = clean_hidden_chars(normalize_source.normalize_source_html(raw_text))
                         file_name = text.get("FileName")
                         division_detail_id = text.get("DivisionDetailId")
                         all_mef[code_mefaresh_id][book["Desc"]][halachot["Desc"]][perek["Desc"]][ot["Desc"]].append(mh_logical_unit_text)
@@ -366,7 +367,6 @@ otzaria_metadata_extra_output_path = extra_books_base_path / "otzaria_metadata_e
 with otzaria_metadata_extra_output_path.open("w", encoding="utf-8") as f:
     json.dump([to_otzaria_metadata(book) for book in dict_all_extra.values()], f, ensure_ascii=False, indent=2)
 
-all_span_classes = set()
 rambam_links = defaultdict(list)
 rambam_extra_books_links = defaultdict(list)
 
@@ -414,7 +414,6 @@ for code_mefaresh_id, mef_entry in all_mef.items():
                         f.write(f"<h5>{ot.strip()}</h5>\n")
                         lines += 1
                         for text in texts:
-                            all_span_classes.update(get_all_span_classes(text))
                             f.write(f"{apply_span_styles(text).strip()}\n")
                             lines += 1
                             otzaria_line = otzaria_hierarchy[otzaria_book_name][otzaria_halachot][otzaria_perek].get(otzaria_ot)
