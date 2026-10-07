@@ -5,7 +5,7 @@
     { "path": "Ben-YehudaToOtzaria/links", "expected_state": "present" },
     { "path": "DictaToOtzaria/ערוך/links", "expected_state": "present" },
     { "path": "OnYourWayToOtzaria/links", "expected_state": "absent" },
-    { "path": "OraytaToOtzaria/links", "expected_state": "absent" },
+    { "path": "OraytaToOtzaria/links", "expected_state": "present" },
     { "path": "tashmaToOtzaria/links", "expected_state": "present" },
     { "path": "sefariaToOtzaria/sefaria_export/links", "expected_state": "absent" },
     { "path": "sefariaToOtzaria/sefaria_api/links", "expected_state": "absent" },
