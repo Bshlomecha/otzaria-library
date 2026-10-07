@@ -15,8 +15,9 @@
 * כותרות: היררכיה רציפה לפי הקינון בפועל; שורת רמה ארוכה (פסקה) היא טקסט מודגש.
 * זהר מתורגם: {…} (תרגום) → <small>, {{…}} → (…) קטן, [[…]] → […] קטן, <<…>> מודגש,
   כותרות דף → "דף קיז." / "דף קיז:".
-* גמרא נוחה (HTML של Word): הערות Word פרטיות של העורך, חומר Kollel Iyun Hadaf באנגלית,
-  פרטי קשר והקדשה — נמחקים; הערות הסיום → הערות שוליים פנימיות; כותרות "דף ב." / "דף ב:".
+* גמרא נוחה (HTML של Word): הערות Word של העורך (בלי השם וחותמת הזמן) → ספר נלווה
+  "הערות על <ספר>" + links מסוג footnotes, וסמן <sup>(א)</sup> בגוף; חומר Kollel Iyun Hadaf
+  באנגלית, פרטי קשר והקדשה — נמחקים; הערות הסיום → הערות שוליים פנימיות; כותרות "דף ב." / "דף ב:".
 * טקסט: '' → ", … → ...,  <QM> → ?, תווי צורות מצגת (U+FB1D–FB4F) מפורקים, תווים בלתי נראים
   נמחקים, מילים מנוקדות שהודבקו מופרדות אחרי אות סופית.
 * תמונות (<img src="../Pics/…">): מוטמעות כ־data: base64 מתוך books/Pics, בשורה משלהן.
@@ -24,6 +25,7 @@
 
 שימוש (גמרא נוחה: עם --gmara):
     python3 orayta_convert.py books/100_kblh/002_zohr_mtorgm/000023_ZOHAR-VETARGUM-3.obk out.txt
+    python3 orayta_convert.py books/032_gmara_nocha/14_msct_ibmot.obk "<ספר>.txt" --gmara --links-dir ../links
 """
 
 import base64
@@ -322,6 +324,7 @@ def clean_line(s):
     while prev != s:
         prev = s
         s = EMPTY_TAG_RE.sub(r"\2", s)
+    s = re.sub("( +)(\\d+)", r"\2\1", s)  # סמן הערת העורך צמוד למילה שלפניו
     # רווחים צמודים לתג → מחוצה לו
     while True:
         n = re.sub(r"(<(?!/|br)[^<>]+>)( +)", r"\2\1", s)
@@ -424,20 +427,31 @@ def is_english(t):
     return latin_count(t) > len(re.findall(r"[א-ת]", re.sub(r"<[^<>]*>", "", t)))
 
 
-def strip_comment(m):
-    """הערת Word נמחקת עד ה־</span>; ")" שסוגר את הפירוש שלפניה נשאר."""
+EDITOR_MARK = "{}"
+EDITOR_MARK_RE = re.compile("(\\d+)")
+
+
+def editor_comment(m, editor_notes):
+    """הערת Word של העורך: הכותרת (שם + חותמת זמן) נמחקת, הגוף נשמר להערה נלווית
+    ובמקומו סמן; ")" שסוגר את הפירוש שלפניה נשאר בטקסט."""
     body = m.group(1)
     before = m.string[m.string.rfind("<span", 0, m.start()):m.start()]
     tail = re.search(r"[\s.;,?!:]*\)\s*$", body)
+    keep = ""
     if tail and before.count("(") > before.count(")"):
-        return tail.group().strip()
-    return ""
+        keep, body = tail.group().strip(), body[:tail.start()]
+    segs = [s.strip() for s in body.split("\r") if s.strip() and not english_or_contact(s)]
+    if hebrew_count(" ".join(segs)) < 2:
+        return keep
+    editor_notes.append(segs)
+    return EDITOR_MARK.format(len(editor_notes) - 1) + keep
 
 
 def preprocess_word_html(text):
-    """הערות Word של העורך נמחקות, הערות הסיום הופכות להערות שוליים פנימיות,
-    קטעי אנגלית שהועתקו (Kollel Iyun Hadaf) נמחקים, ו־\\r בודד הוא שבירת שורה."""
-    text = WORD_COMMENT_RE.sub(strip_comment, text)
+    """הערות Word של העורך עוברות לספר הערות נלווה, הערות הסיום הופכות להערות שוליים
+    פנימיות, קטעי אנגלית שהועתקו (Kollel Iyun Hadaf) נמחקים, ו־\\r בודד הוא שבירת שורה."""
+    editor_notes = []
+    text = WORD_COMMENT_RE.sub(lambda m: editor_comment(m, editor_notes), text)
 
     titles = {m.group(1): m.group(2) for m in
               re.finditer(r'<a href="#footnote-(\d+)"[^>]*?title="([^"]*)', text)}
@@ -487,7 +501,7 @@ def preprocess_word_html(text):
         text = INNER_SPAN_RE.sub(english_span, text)
     text = ENGLISH_NOTE_REF_RE.sub("", text)
     text = text.replace("\r", "\n").replace("\t", " ")
-    return text, notes
+    return text, notes, editor_notes
 
 
 # ---------------------------------------------------------------- כותרות
@@ -533,10 +547,10 @@ def convert(obk_path, gmara_daf_level=None):
     new_lines_as_is = conf.get("PutNewLinesAsIs", "1").strip() != "0"
 
     text = text.replace("\r\n", "\n")
-    notes = []
+    notes, editor_notes = [], []
     notes_mode = "#noteref-" in text or bool(WORD_COMMENT_RE.search(text))
     if notes_mode:
-        text, notes = preprocess_word_html(text)
+        text, notes, editor_notes = preprocess_word_html(text)
     else:
         text = text.replace("\r", "\n")
     lines = [norm_chars(l) for l in text.split("\n")]
@@ -560,6 +574,7 @@ def convert(obk_path, gmara_daf_level=None):
         return any(l[:1] and l[0] in LEVEL_SIGNS and rank_of(l[0]) < rank_of(gmara_daf_level) and is_level_line(l)
                    for l in body[i + 1:i + 7])
     section = []
+    pending_marks = []  # סמני הערות עורך שנפלו בשורת כותרת עוברים לשורת הטקסט הבאה
 
     def flush():
         if section:
@@ -569,6 +584,8 @@ def convert(obk_path, gmara_daf_level=None):
     for bi, l in enumerate(body):
         sign = l[:1]
         if sign and sign in LEVEL_SIGNS and is_level_line(l):
+            pending_marks += [m.group() for m in EDITOR_MARK_RE.finditer(l)]
+            l = EDITOR_MARK_RE.sub("", l)
             t = heading_text(l[1:])
             if not t:
                 continue
@@ -599,7 +616,10 @@ def convert(obk_path, gmara_daf_level=None):
                 hstack.pop()
             lvl = hstack[-1][1] + 1 if hstack else 2
             hstack.append((rank, lvl))
-            items.append(("h", f"<h{lvl}>{html.escape(t, quote=False)}</h{lvl}>"))
+            heading = ("h", f"<h{lvl}>{html.escape(t, quote=False)}</h{lvl}>")
+            if items and items[-1] == heading:
+                continue  # שורת רמה שהוכפלה במקור בלי טקסט ביניהן
+            items.append(heading)
             items_since_daf = False
             if perek_daf:
                 items.append(("h", f"<h{lvl + 1}>{perek_daf}</h{lvl + 1}>"))
@@ -614,6 +634,9 @@ def convert(obk_path, gmara_daf_level=None):
         l = apply_reps(fix_text(l), reps)
         # שבירת <br> היא שורה חדשה: באוצריא שורה היא יחידת התוכן (קישור, חיפוש, סימנייה)
         parts = [p for p in BR_RE.split(l) if p.strip()]
+        if parts and pending_marks:
+            parts[0] = "".join(pending_marks) + parts[0]
+            pending_marks.clear()
         section.extend(parts)
         if parts and re.sub(r"<[^<>]*>", "", "".join(parts)).strip():
             items_since_daf = True
@@ -639,10 +662,14 @@ def convert(obk_path, gmara_daf_level=None):
             marked.append((v, "keep"))
             continue
         for _ in v:
-            l = re.sub("\ue000(\\d+)\ue001", fn, next(rendered))
+            full = re.sub("\ue000(\\d+)\ue001", fn, next(rendered))
+            l = EDITOR_MARK_RE.sub("", full)
             text = html.unescape(oc_text(l))
             if not text.strip() and "<img" not in l:
+                if full != l:
+                    marked.append((full, "marks"))
                 continue
+            l = full
             status = "keep"
             if word_html:
                 if ((is_english(l) and latin_count(l) >= 5) or (hebrew_count(l) == 0 and latin_count(l) >= 2)
@@ -664,18 +691,75 @@ def convert(obk_path, gmara_daf_level=None):
         return marked[i][1] if 0 <= i < len(marked) else "keep"
 
     # שורה בלי עברית שצמודה לחומר אנגלי שנמחק היא חלק ממנו (קווי טבלה, "-----", "1:10:5)")
+    orphan_marks = []  # סמני הערות עורך משורה שנמחקה — נצמדים לשורת הטקסט הקודמת
     for i, (l, st) in enumerate(marked):
         if st == "keep" or (st == "cond" and neighbor(i, -1) != "drop" and neighbor(i, 1) != "drop"):
-            if (re.fullmatch(r"\s*[).,;:!?\]'\"]+\s*", html.unescape(oc_text(l)))
+            if orphan_marks and (len(out) == 1 or out[-1].startswith("<h")):
+                l, orphan_marks = "".join(orphan_marks) + l, []
+            if (re.fullmatch(r"\s*[).,;:!?\]'\"]+\s*", html.unescape(oc_text(EDITOR_MARK_RE.sub("", l))))
                     and len(out) > 1 and not out[-1].startswith("<h")):
                 out[-1] += l  # ")." שנשאר לבד אחרי שהערת Word שלפניו נמחקה
             else:
                 out.append(l)
-    return title, out, conf
+        else:
+            orphan_marks += [m.group() for m in EDITOR_MARK_RE.finditer(l)]
+        if orphan_marks and len(out) > 1 and not out[-1].startswith("<h"):
+            out[-1] += "".join(orphan_marks)
+            orphan_marks = []
+
+    # הערות העורך → ספר הערות נלווה: השורה N בו היא ההערה ה־N, והסמן בגוף מפנה אליה
+    editor_lines, order = [], {}
+    for n, line in enumerate(out, start=1):
+        for m in EDITOR_MARK_RE.finditer(line):
+            order[int(m.group(1))] = (len(order) + 1, n)
+    if len(order) != len(editor_notes) or orphan_marks or pending_marks:
+        raise ValueError(f"{obk_path}: {len(editor_notes) - len(order)} הערות עורך אבדו")
+
+    def sup(m):
+        return f"<sup>({gematria(order[int(m.group(1))][0])})</sup>"
+
+    out = [EDITOR_MARK_RE.sub(sup, line) for line in out]
+    for idx in sorted(order, key=lambda k: order[k][0]):
+        k, n = order[idx]
+        body = render_section(["<br>".join(fix_text(s) for s in editor_notes[idx])])[0]
+        editor_lines.append((n, f"<b>({gematria(k)})</b> {body}"))
+    return title, out, conf, editor_lines
+
+
+GEMATRIA = [(400, "ת"), (300, "ש"), (200, "ר"), (100, "ק"), (90, "צ"), (80, "פ"), (70, "ע"), (60, "ס"),
+            (50, "נ"), (40, "מ"), (30, "ל"), (20, "כ"), (10, "י"), (9, "ט"), (8, "ח"), (7, "ז"), (6, "ו"),
+            (5, "ה"), (4, "ד"), (3, "ג"), (2, "ב"), (1, "א")]
+
+
+def gematria(n):
+    s = ""
+    for v, ch in GEMATRIA:
+        while n >= v:
+            s, n = s + ch, n - v
+    return s.replace("יה", "טו").replace("יו", "טז")
+
+
+def write_editor_notes(out_path, editor_lines, links_dir):
+    """'הערות על <ספר>.txt' ליד הספר + links/<ספר>_links.json מסוג footnotes."""
+    import json
+    stem = os.path.splitext(os.path.basename(out_path))[0]
+    notes_title = f"הערות על {stem}"
+    with open(os.path.join(os.path.dirname(out_path), notes_title + ".txt"), "w", encoding="utf-8", newline="\n") as f:
+        f.write("\n".join([f"<h1>{html.escape(notes_title, quote=False)}</h1>"] + [b for _, b in editor_lines]))
+    links = [{"line_index_1": n, "line_index_2": k, "heRef_2": notes_title, "path_2": notes_title + ".txt",
+              "Conection Type": "footnotes"} for k, (n, _) in enumerate(editor_lines, start=2)]
+    os.makedirs(links_dir, exist_ok=True)
+    with open(os.path.join(links_dir, stem + "_links.json"), "w", encoding="utf-8", newline="\n") as f:
+        f.write(json.dumps(links, ensure_ascii=False, indent=2) + "\n")
 
 
 if __name__ == "__main__":
+    # python orayta_convert.py <obk> <out.txt> [--gmara] [--links-dir <links>]
     daf_level = "~" if "--gmara" in sys.argv[3:] else None
-    title, out, _ = convert(sys.argv[1], gmara_daf_level=daf_level)
+    title, out, _, editor_lines = convert(sys.argv[1], gmara_daf_level=daf_level)
     with open(sys.argv[2], "w", encoding="utf-8") as f:
         f.write("\n".join(out))
+    if editor_lines:
+        links_dir = sys.argv[sys.argv.index("--links-dir") + 1] if "--links-dir" in sys.argv else \
+            os.path.dirname(os.path.abspath(sys.argv[2]))
+        write_editor_notes(sys.argv[2], editor_lines, links_dir)
