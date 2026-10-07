@@ -685,11 +685,32 @@ def _is_daf_reference(prev_words: list[str], next_word: str = "") -> bool:
     return False
 
 
-def colon_newline(text: str, skip_lines: int = 2) -> tuple[str, int]:
-    """`: ` בתוך שורת גוף → `:` + ירידת שורה (סוף עניין בספרים הישנים).
+def colon_ends_matter(before: str, after: str) -> bool:
+    """האם `:` שבין before (עד הנקודותיים, בלעדיהן) ל־after היא סוף עניין שמותר לשבור אחריה.
 
-    לא בכותרות, לא בתוך תג פתוח (<b>…: …</b>), ולא אחרי מבוא לציטוט (וז"ל:).
+    לא בתוך תג פתוח (<b>…: …</b>), לא בתוך סוגריים קצרים, לא אחרי מבוא לציטוט (וז"ל:),
+    ולא בהפניה לעמוד ב ("שבת קיט: ובגמ'"). משמש גם את dicta_convert וגם את איחוד השורות.
     """
+    depth = len(re.findall(r"<(?:b|big|small|i)>", before)) - \
+        len(re.findall(r"</(?:b|big|small|i)>", before))
+    if depth > 0:
+        return False
+    plain = re.sub(r"<[^>]+>", "", before)
+    prev_words = plain.split()
+    op = plain.rfind("(")
+    if op > max(plain.rfind(")"), plain.rfind("]")) and len(plain) - op <= 40:
+        return False  # בתוך סוגריים קצרים — "(שבת קיט: ד"ה …)" הוא הפניה
+    if prev_words and (prev_words[-1] in _QUOTE_INTRO or
+                       " ".join(prev_words[-2:]) in _QUOTE_INTRO):
+        return False
+    nxt = re.sub(r"<[^>]+>", "", after).split()
+    if _is_daf_reference(prev_words, nxt[0] if nxt else ""):
+        return False  # "שבת קיט: ובגמ'" — הנקודותיים הן עמוד ב, לא סוף עניין
+    return True
+
+
+def colon_newline(text: str, skip_lines: int = 2) -> tuple[str, int]:
+    """`: ` בתוך שורת גוף → `:` + ירידת שורה (סוף עניין בספרים הישנים), לפי colon_ends_matter."""
     lines = text.split("\n")
     out = lines[:skip_lines]
     count = 0
@@ -701,23 +722,9 @@ def colon_newline(text: str, skip_lines: int = 2) -> tuple[str, int]:
         pieces = []
         start = 0
         for m in re.finditer(r": +", line):
-            before = line[:m.start()]
-            depth = len(re.findall(r"<(?:b|big|small|i)>", before)) - \
-                len(re.findall(r"</(?:b|big|small|i)>", before))
-            if depth > 0:
-                continue
-            plain = re.sub(r"<[^>]+>", "", before)
-            prev_words = plain.split()
-            op = plain.rfind("(")
-            if op > max(plain.rfind(")"), plain.rfind("]")) and len(plain) - op <= 40:
-                continue  # בתוך סוגריים קצרים — "(שבת קיט: ד"ה …)" הוא הפניה
-            if prev_words and (prev_words[-1] in _QUOTE_INTRO or
-                               " ".join(prev_words[-2:]) in _QUOTE_INTRO):
-                continue
-            nxt = re.sub(r"<[^>]+>", "", line[m.end():]).split()
-            if _is_daf_reference(prev_words, nxt[0] if nxt else ""):
-                continue  # "שבת קיט: ובגמ'" — הנקודותיים הן עמוד ב, לא סוף עניין
             if not line[m.end():].strip():
+                continue
+            if not colon_ends_matter(line[:m.start()], line[m.end():]):
                 continue
             pieces.append(line[start:m.start()] + ":")
             start = m.end()

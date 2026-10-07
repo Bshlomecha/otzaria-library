@@ -8,8 +8,10 @@
 שורה DBS עומדים באותה שורה - השבירה מלאכותית.
 
 שימוש:
-  dbs_breaks.py scan  [--commit b9ce756e] [--out report.json]
-  dbs_breaks.py fix   [--commit b9ce756e] [--out report.json]    (כותב לקבצים!)
+  dbs_breaks.py scan  [--commit b9ce756e 0e63b8bb] [--out report.json]
+  dbs_breaks.py fix   [--commit b9ce756e 0e63b8bb] [--out report.json]    (כותב לקבצים!)
+ברירת המחדל: שני קומיטי ההעתקה של DBS - b9ce756e ("הוספת ספרים מדיקטה") ו-0e63b8bb
+("תיקון ספרים מ'דיקטה>לא ערוך'"). שניהם שומרים את שבירות הדפוס.
 
 תיקונים אוטומטיים (בטוחים בלבד):
   1. איחוד שורות: שורה A שלא מסתיימת בפיסוק סוף + שורה B, כשבגולמי רצף המילים
@@ -17,19 +19,27 @@
   2. כותרת ש"נחתכה": כשהגולמי מראה שהכותרת (עד מילה חלקית) היא תחילת רצף שורות
      הגולמי, וגוף ה-DBS שאחריה מתחיל בדיוק בתחילת שורה בגולמי - משלימים מהגולמי.
   3. סוגריים הפוכים בכותרת (`]אות א[`, `)נוסח(`): מחליפים כשההיפוך מאזן את הכותרת.
-  איחוד שורות מזיז מספרי שורות, ולכן ספר שיש לו קובץ links (בשורשי ה-links שארוזים)
-  לא מאוחד - הסקריפט מדווח עליו בלבד.
+  איחוד שורות מזיז מספרי שורות: ב-fix מוזזים line_index_1 בקובץ ה-links של הספר ו-line_index_2
+  בכל קובץ links ששדה path_2 שלו מצביע עליו (בשורשי ה-links שארוזים). שתי שורות שלכל אחת
+  קישור תלוי-טקסט משלה (line_index_1) לא מאוחדות - אחרת ייווצר קישור כפול לאותה שורה.
+  ספרים שכותרותיהם תוקנו ביד (HAND_HEADINGS) מקבלים איחוד שורות בלבד, בלי תיקוני כותרות.
 
 מה לא מתוקן (רק מדווח): כותרות שהמשכן בגוף בלי עד בגולמי, כותרת שנוצרה מחתיכת שורת גוף,
 שורות לא-מסתיימות שאין להן עד בגולמי, אובדן מילה ראשונה בכותרות, `&amp;`.
 """
 import argparse, collections, html, json, os, re, subprocess, sys
+from json.decoder import scanstring
 
 REPO = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../..'))
-DEFAULT_EXCLUDE = ['אורח משפט', 'עט סופר', 'משמרת אלעזר', 'אלפי מנשה', 'כתר המלך',
-                   'נתיב מאיר', 'תבואות השדה', 'העיטור']
+DEFAULT_COMMITS = ['b9ce756e', '0e63b8bb']
+# כותרות הספרים האלה תוקנו ביד ב-08f86912; תיקוני הכותרות האוטומטיים עלולים לדרוס אותן
+HAND_HEADINGS = ['אורח משפט', 'עט סופר', 'משמרת אלעזר', 'אלפי מנשה', 'תבואות השדה', 'העיטור']
 RAW_DIRS = ['extraBooks/דיקטה', 'DictaToOtzaria/לא ערוך']
 EDITED_PREFIX = 'DictaToOtzaria/ערוך/ספרים/'
+OWN_LINKS_ROOT = 'DictaToOtzaria/ערוך/links'
+DEPENDENT_TYPES = {'source', 'commentary', 'super_commentary', 'supercommentary', 'targum',
+                   'midrash', 'parshanut', 'dibur_hamatchil', 'elucidation', 'ellucidation',
+                   'explication', 'footnotes', 'footnote'}
 
 TAG = re.compile(r'<[^>]+>')
 HRE = re.compile(r'^<h([1-6])>(.*)</h\1>$')
@@ -154,12 +164,23 @@ def git(*a):
                           capture_output=True, text=True, check=True).stdout
 
 
-def books_of_commit(commit, exclude):
-    out = git('show', '--name-only', '--diff-filter=A', '--format=', commit).split('\n')
+def books_of_commits(commits, exclude):
+    """הקבצים שהקומיטים הוסיפו ל-ערוך, לפי הנתיב הנוכחי (ספר שהועבר מאז נמצא לפי git log --follow)."""
+    current = {}
+    for p in git('ls-files', '--', EDITED_PREFIX).split('\n'):
+        if p.endswith('.txt'):
+            current.setdefault(os.path.basename(p), []).append(p)
     res = []
-    for p in out:
-        if p.startswith(EDITED_PREFIX) and p.endswith('.txt') and os.path.exists(os.path.join(REPO, p)):
-            if not any(e in p for e in exclude):
+    for commit in commits:
+        for p in git('show', '--name-only', '--diff-filter=A', '--format=', commit).split('\n'):
+            if not (p.startswith(EDITED_PREFIX) and p.endswith('.txt')):
+                continue
+            if not os.path.exists(os.path.join(REPO, p)):
+                moved = current.get(os.path.basename(p), [])
+                if len(moved) != 1:
+                    continue
+                p = moved[0]
+            if p not in res and not any(e in p for e in exclude):
                 res.append(p)
     return res
 
@@ -197,7 +218,7 @@ def find_raw_by_content(path, allraw, cache):
 
 def links_index():
     """שם ספר -> קבצי links (שורשים שארוזים) שבהם הוא מצטט או מצוטט."""
-    conf = json.load(open(os.path.join(REPO, 'manual_links_sync.json')))
+    conf = json.load(open(os.path.join(REPO, 'manual_links_sync.json'), encoding='utf-8'))
     idx = collections.defaultdict(list)
     for r in conf['links_roots']:
         if r['expected_state'] != 'present':
@@ -205,18 +226,140 @@ def links_index():
         d = os.path.join(REPO, r['path'])
         if not os.path.isdir(d):
             continue
-        for f in os.listdir(d):
+        for f in sorted(os.listdir(d)):
             if not f.endswith('_links.json'):
                 continue
-            fp = os.path.join(r['path'], f)
+            fp = r['path'] + '/' + f
             idx[f[:-len('_links.json')]].append(fp)
             try:
-                data = json.load(open(os.path.join(REPO, fp), encoding='utf-8'))
+                data = json.load(open(os.path.join(REPO, fp), encoding='utf-8-sig'))
             except Exception:
                 continue
-            for t in {os.path.splitext(os.path.basename(x.get('path_2', '')))[0] for x in data}:
-                idx[t].append(fp)
+            for t in sorted({os.path.splitext(os.path.basename(x.get('path_2', '').replace('\\', '/')))[0]
+                             for x in data}):
+                if fp not in idx[t]:
+                    idx[t].append(fp)
     return idx
+
+
+def packaged_title_counts():
+    """כמה ספרים ארוזים נושאים כל שם - path_2 מזהה ספר לפי שם בלבד."""
+    sys.path.insert(0, REPO)
+    from manual_links_packaging import BOOK_ROOTS
+    n = collections.Counter()
+    for p in git('ls-tree', '-r', '--name-only', 'HEAD', '--', *BOOK_ROOTS).split('\n'):
+        if p.endswith('.txt'):
+            n[os.path.basename(p)[:-4]] += 1
+    return n
+
+
+def ctype(rec):
+    return str(rec.get('Conection Type', '')).strip().lower().replace(' ', '_')
+
+
+def pinned_lines(title):
+    """שורות (0-based) של הספר שיש להן קישור תלוי-טקסט משלהן בקובץ ה-links שלו."""
+    fp = os.path.join(REPO, OWN_LINKS_ROOT, title + '_links.json')
+    if not os.path.exists(fp):
+        return set()
+    return {r['line_index_1'] - 1 for r in json.load(open(fp, encoding='utf-8-sig'))
+            if isinstance(r.get('line_index_1'), int) and ctype(r) in DEPENDENT_TYPES}
+
+
+# ------------------------------------------------------------- links shift
+_NUM = re.compile(r'-?(?:0|[1-9]\d*)(?:\.\d+)?(?:[eE][+-]?\d+)?')
+_WS = re.compile(r'[ \t\n\r]*')
+
+
+def _parse(s, i):
+    """(value, end, spans): spans = מפתח -> (start, end) של ערך מספרי שלם, לשינוי בלי לגעת בעיצוב."""
+    i = _WS.match(s, i).end()
+    c = s[i]
+    if c == '{':
+        obj, spans = {}, {}
+        i = _WS.match(s, i + 1).end()
+        if s[i] == '}':
+            return obj, i + 1, spans
+        while True:
+            i = _WS.match(s, i).end()
+            key, i = scanstring(s, i + 1)
+            i = _WS.match(s, i).end()
+            vstart = _WS.match(s, i + 1).end()
+            val, i, _ = _parse(s, vstart)
+            obj[key] = val
+            if isinstance(val, int) and not isinstance(val, bool):
+                spans[key] = (vstart, i)
+            i = _WS.match(s, i).end()
+            if s[i] == ',':
+                i += 1
+                continue
+            return obj, i + 1, spans
+    if c == '[':
+        arr = []
+        i = _WS.match(s, i + 1).end()
+        if s[i] == ']':
+            return arr, i + 1, {}
+        while True:
+            val, i, sp = _parse(s, i)
+            arr.append((val, sp))
+            i = _WS.match(s, i).end()
+            if s[i] == ',':
+                i += 1
+                continue
+            return arr, i + 1, {}
+    if c == '"':
+        v, end = scanstring(s, i + 1)
+        return v, end, {}
+    m = _NUM.match(s, i)
+    if m:
+        t = m.group(0)
+        return (float(t) if any(ch in t for ch in '.eE') else int(t)), m.end(), {}
+    for lit, v in (('true', True), ('false', False), ('null', None)):
+        if s.startswith(lit, i):
+            return v, i + len(lit), {}
+    raise ValueError('bad json at %d' % i)
+
+
+def shift_links_text(text, linemap, keys, stem=None):
+    """ממפה מספרי שורה (1-based) לפי linemap (0-based ישן -> 0-based חדש).
+    keys: line_index_1 בקובץ של הספר עצמו, או line_index_2 ברשומות שה-path_2 שלהן הוא stem."""
+    head = 1 if text.startswith('﻿') else 0
+    val, _, _ = _parse(text, head)
+    edits = []
+    for rec, sp in val:
+        if not isinstance(rec, dict):
+            continue
+        if stem is not None:
+            p2 = str(rec.get('path_2', '')).replace('\\', '/')
+            if not p2.endswith('.txt') or p2.rsplit('/', 1)[-1][:-4] != stem:
+                continue
+        for k in keys:
+            if k in sp and 1 <= rec[k] <= len(linemap):
+                nv = linemap[rec[k] - 1] + 1
+                if nv != rec[k]:
+                    edits.append((sp[k], str(nv)))
+    for (s, e), rep in sorted(edits, reverse=True):
+        text = text[:s] + rep + text[e:]
+    return text, len(edits)
+
+
+def shift_links(title, files, linemap):
+    """מזיז את כל קבצי ה-links של הספר לפי linemap. מחזיר {קובץ: מספר ערכים שהשתנו}."""
+    changed = {}
+    for fp in files:
+        full = os.path.join(REPO, fp)
+        raw = open(full, 'rb').read()
+        text = raw.decode('utf-8')
+        n = 0
+        if fp == OWN_LINKS_ROOT + '/' + title + '_links.json':
+            text, k = shift_links_text(text, linemap, ('line_index_1', 'line_index_1_end'))
+            n += k
+        text, k = shift_links_text(text, linemap, ('line_index_2', 'line_index_2_end'), title)
+        n += k
+        if n:
+            open(full, 'wb').write(text.encode('utf-8'))
+            changed[fp] = n
+    return changed
 
 
 def fix_brackets(t):
@@ -243,7 +386,8 @@ def fix_brackets(t):
 
 
 # --------------------------------------------------------------- main logic
-def process(path, ri, apply, block_merge):
+def process(path, ri, apply, pinned=frozenset(), block_merge=False, fix_headings=True):
+    """pinned: שורות (0-based) עם קישור תלוי-טקסט משלהן; block_merge: לא לאחד כלל (שם ספר לא חד-ערכי)."""
     full = os.path.join(REPO, path)
     src = open(full, encoding='utf-8', newline='').read()
     L = src.split('\n')
@@ -291,7 +435,7 @@ def process(path, ri, apply, block_merge):
             note('h_trailing_joiner', i, t)
         if t != fix_brackets(t):
             note('h_reversed_brackets', i, t)
-            if apply:
+            if apply and fix_headings:
                 L[i] = '<h%s>%s</h%s>' % (lv, fix_brackets(t), lv)
                 fixes_h += 1
                 t = fix_brackets(t)
@@ -313,14 +457,14 @@ def process(path, ri, apply, block_merge):
                     new = ' '.join(plain(ri.lines[n]).strip() for n in range(ri.lineno[q], ri.lineno[k - 1] + 1))
                     new = re.sub(r'\s+', ' ', new).strip().rstrip(':').strip()
                     note('h_truncated_fixable', i, '%s => %s' % (t, new))
-                    if apply:
+                    if apply and fix_headings:
                         L[i] = '<h%s>%s</h%s>' % (lv, new, lv)
                         fixes_h += 1
                 else:
                     note('h_truncated_manual', i, t)
             elif ri.heading_midline(toks(t)) and len(t) >= 40:
                 note('h_from_body_fragment', i, t)
-    if apply and lost_systematic:
+    if apply and fix_headings and lost_systematic:
         h1 = None
         for i, l in enumerate(L):
             m = HRE.match(l)
@@ -335,9 +479,12 @@ def process(path, ri, apply, block_merge):
     merged = 0
     n_body_pairs = 0
     out = []
+    linemap = []
     i = 0
     while i < len(L):
         cur = L[i]
+        cur_pinned = i in pinned
+        linemap.append(len(out))
         i += 1
         while is_body(cur) and i < len(L) and is_body(L[i]):
             nxt = L[i]
@@ -345,14 +492,17 @@ def process(path, ri, apply, block_merge):
             if terminated(cur):
                 break
             j = ri.joined(toks(cur), toks(nxt)) if ri else 'noraw'
-            if j == 'join' and not re.search(r'\S[-־]$', cur.rstrip()) and not block_merge:
+            blocked = block_merge or (cur_pinned and i in pinned)
+            if j == 'join' and not re.search(r'\S[-־]$', cur.rstrip()) and not blocked:
                 note('b_broken_fixable', i - 1, plain(cur)[-25:] + ' || ' + plain(nxt)[:25])
                 cur = cur.rstrip() + ' ' + nxt.lstrip()
+                cur_pinned = cur_pinned or i in pinned
+                linemap.append(len(out))
                 i += 1
                 merged += 1
                 continue
             if j == 'join':
-                note('b_broken_blocked_links' if block_merge else 'b_broken_ends_hyphen',
+                note('b_broken_blocked_links' if blocked else 'b_broken_ends_hyphen',
                      i - 1, plain(cur)[-25:] + ' || ' + plain(nxt)[:25])
             elif j == 'break':
                 st['b_unterminated_raw_also_breaks'] += 1
@@ -364,7 +514,7 @@ def process(path, ri, apply, block_merge):
     st['amp_leftover'] = sum(l.count('&amp;') for l in L)
     res = {'lines': len(L), 'body_lines': len(body), 'body_pairs': n_body_pairs,
            'merged': merged, 'heading_fixes': fixes_h,
-           'stats': dict(st), 'examples': {k: v for k, v in ex.items()}}
+           'stats': dict(st), 'examples': {k: v for k, v in ex.items()}, 'linemap': linemap}
     if apply and (merged or fixes_h):
         open(full, 'w', encoding='utf-8', newline='').write('\n'.join(out))
     return res
@@ -373,16 +523,19 @@ def process(path, ri, apply, block_merge):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument('mode', choices=['scan', 'fix'])
-    ap.add_argument('--commit', default='b9ce756e')
+    ap.add_argument('--commit', nargs='+', default=DEFAULT_COMMITS)
     ap.add_argument('--out', default='dbs_breaks_report.json')
-    ap.add_argument('--exclude', nargs='*', default=DEFAULT_EXCLUDE)
+    ap.add_argument('--exclude', nargs='*', default=[])
+    ap.add_argument('--hand-headings', nargs='*', default=HAND_HEADINGS,
+                    help='ספרים שמקבלים איחוד שורות בלבד, בלי תיקוני כותרות')
     a = ap.parse_args()
     apply = a.mode == 'fix'
-    books = books_of_commit(a.commit, a.exclude)
+    books = books_of_commits(a.commit, a.exclude)
     raws = raw_files()
     allraw = [f for v in raws.values() for f in v]
     cache = {}
     lidx = links_index()
+    titles = packaged_title_counts()
     report = {}
     for p in books:
         b = os.path.basename(p)
@@ -390,10 +543,14 @@ def main():
         cands = raws.get(b) or []
         rp = cands[0] if cands else find_raw_by_content(p, allraw, cache)
         ri = RawIndex(rp) if rp else None
-        blocked = bool(lidx.get(title))
-        r = process(p, ri, apply, blocked)
+        files = lidx.get(title, [])
+        ambiguous = bool(files) and titles[title] > 1
+        r = process(p, ri, apply, pinned_lines(title), block_merge=ambiguous,
+                    fix_headings=not any(h in p for h in a.hand_headings))
+        linemap = r.pop('linemap')
         r['raw'] = os.path.relpath(rp, REPO) if rp else None
-        r['links_files'] = lidx.get(title, [])
+        r['links_files'] = files
+        r['links_shifted'] = shift_links(title, files, linemap) if apply and r['merged'] else {}
         report[p] = r
     json.dump(report, open(a.out, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     tot = collections.Counter()
@@ -402,6 +559,7 @@ def main():
             tot[k] += v
         tot['merged'] += r['merged']
         tot['heading_fixes'] += r['heading_fixes']
+        tot['links_values_shifted'] += sum(r['links_shifted'].values())
     print('books scanned: %d, without raw: %d' % (len(report), sum(1 for r in report.values() if not r['raw'])))
     for k, v in sorted(tot.items()):
         print('%-36s %d' % (k, v))
