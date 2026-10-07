@@ -1,0 +1,4818 @@
+[
+  {
+    "line_index_1": 5,
+    "line_index_2": 5,
+    "line_index_2_end": 6,
+    "heRef_2": "תרגום ותפסיר רסג 5",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 6,
+    "line_index_2": 7,
+    "line_index_2_end": 8,
+    "heRef_2": "תרגום ותפסיר רסג 7",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7,
+    "line_index_2": 9,
+    "line_index_2_end": 10,
+    "heRef_2": "תרגום ותפסיר רסג 9",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 8,
+    "line_index_2": 11,
+    "line_index_2_end": 12,
+    "heRef_2": "תרגום ותפסיר רסג 11",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 9,
+    "line_index_2": 13,
+    "line_index_2_end": 14,
+    "heRef_2": "תרגום ותפסיר רסג 13",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 10,
+    "line_index_2": 15,
+    "line_index_2_end": 16,
+    "heRef_2": "תרגום ותפסיר רסג 15",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 11,
+    "line_index_2": 17,
+    "line_index_2_end": 18,
+    "heRef_2": "תרגום ותפסיר רסג 17",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 12,
+    "line_index_2": 19,
+    "line_index_2_end": 20,
+    "heRef_2": "תרגום ותפסיר רסג 19",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 13,
+    "line_index_2": 25,
+    "line_index_2_end": 26,
+    "heRef_2": "תרגום ותפסיר רסג 25",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 14,
+    "line_index_2": 31,
+    "line_index_2_end": 32,
+    "heRef_2": "תרגום ותפסיר רסג 31",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 15,
+    "line_index_2": 35,
+    "line_index_2_end": 36,
+    "heRef_2": "תרגום ותפסיר רסג 35",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 16,
+    "line_index_2": 37,
+    "line_index_2_end": 38,
+    "heRef_2": "תרגום ותפסיר רסג 37",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 17,
+    "line_index_2": 55,
+    "line_index_2_end": 56,
+    "heRef_2": "תרגום ותפסיר רסג 55",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 18,
+    "line_index_2": 57,
+    "line_index_2_end": 58,
+    "heRef_2": "תרגום ותפסיר רסג 57",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 20,
+    "line_index_2": 68,
+    "line_index_2_end": 69,
+    "heRef_2": "תרגום ותפסיר רסג 68",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 21,
+    "line_index_2": 70,
+    "line_index_2_end": 71,
+    "heRef_2": "תרגום ותפסיר רסג 70",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 22,
+    "line_index_2": 72,
+    "line_index_2_end": 73,
+    "heRef_2": "תרגום ותפסיר רסג 72",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 23,
+    "line_index_2": 78,
+    "line_index_2_end": 79,
+    "heRef_2": "תרגום ותפסיר רסג 78",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 24,
+    "line_index_2": 80,
+    "line_index_2_end": 81,
+    "heRef_2": "תרגום ותפסיר רסג 80",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 25,
+    "line_index_2": 84,
+    "line_index_2_end": 85,
+    "heRef_2": "תרגום ותפסיר רסג 84",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 26,
+    "line_index_2": 88,
+    "line_index_2_end": 89,
+    "heRef_2": "תרגום ותפסיר רסג 88",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 27,
+    "line_index_2": 90,
+    "line_index_2_end": 91,
+    "heRef_2": "תרגום ותפסיר רסג 90",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 28,
+    "line_index_2": 92,
+    "line_index_2_end": 93,
+    "heRef_2": "תרגום ותפסיר רסג 92",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 29,
+    "line_index_2": 94,
+    "line_index_2_end": 95,
+    "heRef_2": "תרגום ותפסיר רסג 94",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 30,
+    "line_index_2": 102,
+    "line_index_2_end": 103,
+    "heRef_2": "תרגום ותפסיר רסג 102",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 32,
+    "line_index_2": 119,
+    "line_index_2_end": 120,
+    "heRef_2": "תרגום ותפסיר רסג 119",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 33,
+    "line_index_2": 133,
+    "line_index_2_end": 134,
+    "heRef_2": "תרגום ותפסיר רסג 133",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 34,
+    "line_index_2": 147,
+    "line_index_2_end": 148,
+    "heRef_2": "תרגום ותפסיר רסג 147",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 35,
+    "line_index_2": 157,
+    "line_index_2_end": 158,
+    "heRef_2": "תרגום ותפסיר רסג 157",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 37,
+    "line_index_2": 180,
+    "line_index_2_end": 181,
+    "heRef_2": "תרגום ותפסיר רסג 180",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 38,
+    "line_index_2": 200,
+    "line_index_2_end": 201,
+    "heRef_2": "תרגום ותפסיר רסג 200",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 39,
+    "line_index_2": 202,
+    "line_index_2_end": 203,
+    "heRef_2": "תרגום ותפסיר רסג 202",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 40,
+    "line_index_2": 208,
+    "line_index_2_end": 209,
+    "heRef_2": "תרגום ותפסיר רסג 208",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 41,
+    "line_index_2": 210,
+    "line_index_2_end": 211,
+    "heRef_2": "תרגום ותפסיר רסג 210",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 42,
+    "line_index_2": 212,
+    "line_index_2_end": 213,
+    "heRef_2": "תרגום ותפסיר רסג 212",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 43,
+    "line_index_2": 214,
+    "line_index_2_end": 215,
+    "heRef_2": "תרגום ותפסיר רסג 214",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 45,
+    "line_index_2": 296,
+    "line_index_2_end": 297,
+    "heRef_2": "תרגום ותפסיר רסג 296",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 46,
+    "line_index_2": 298,
+    "line_index_2_end": 299,
+    "heRef_2": "תרגום ותפסיר רסג 298",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 47,
+    "line_index_2": 300,
+    "line_index_2_end": 301,
+    "heRef_2": "תרגום ותפסיר רסג 300",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 48,
+    "line_index_2": 308,
+    "line_index_2_end": 309,
+    "heRef_2": "תרגום ותפסיר רסג 308",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 49,
+    "line_index_2": 310,
+    "line_index_2_end": 311,
+    "heRef_2": "תרגום ותפסיר רסג 310",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 51,
+    "line_index_2": 375,
+    "line_index_2_end": 376,
+    "heRef_2": "תרגום ותפסיר רסג 375",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 53,
+    "line_index_2": 380,
+    "line_index_2_end": 381,
+    "heRef_2": "תרגום ותפסיר רסג 380",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 54,
+    "line_index_2": 386,
+    "line_index_2_end": 387,
+    "heRef_2": "תרגום ותפסיר רסג 386",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 55,
+    "line_index_2": 420,
+    "line_index_2_end": 421,
+    "heRef_2": "תרגום ותפסיר רסג 420",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 57,
+    "line_index_2": 429,
+    "line_index_2_end": 430,
+    "heRef_2": "תרגום ותפסיר רסג 429",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 58,
+    "line_index_2": 433,
+    "line_index_2_end": 434,
+    "heRef_2": "תרגום ותפסיר רסג 433",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 59,
+    "line_index_2": 435,
+    "line_index_2_end": 436,
+    "heRef_2": "תרגום ותפסיר רסג 435",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 60,
+    "line_index_2": 449,
+    "line_index_2_end": 450,
+    "heRef_2": "תרגום ותפסיר רסג 449",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 61,
+    "line_index_2": 473,
+    "line_index_2_end": 474,
+    "heRef_2": "תרגום ותפסיר רסג 473",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 62,
+    "line_index_2": 475,
+    "line_index_2_end": 476,
+    "heRef_2": "תרגום ותפסיר רסג 475",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 63,
+    "line_index_2": 477,
+    "line_index_2_end": 478,
+    "heRef_2": "תרגום ותפסיר רסג 477",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 64,
+    "line_index_2": 481,
+    "line_index_2_end": 482,
+    "heRef_2": "תרגום ותפסיר רסג 481",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 66,
+    "line_index_2": 490,
+    "line_index_2_end": 491,
+    "heRef_2": "תרגום ותפסיר רסג 490",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 67,
+    "line_index_2": 502,
+    "line_index_2_end": 503,
+    "heRef_2": "תרגום ותפסיר רסג 502",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 68,
+    "line_index_2": 506,
+    "line_index_2_end": 507,
+    "heRef_2": "תרגום ותפסיר רסג 506",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 69,
+    "line_index_2": 508,
+    "line_index_2_end": 509,
+    "heRef_2": "תרגום ותפסיר רסג 508",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 70,
+    "line_index_2": 510,
+    "line_index_2_end": 511,
+    "heRef_2": "תרגום ותפסיר רסג 510",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 71,
+    "line_index_2": 532,
+    "line_index_2_end": 533,
+    "heRef_2": "תרגום ותפסיר רסג 532",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 73,
+    "line_index_2": 549,
+    "line_index_2_end": 550,
+    "heRef_2": "תרגום ותפסיר רסג 549",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 74,
+    "line_index_2": 551,
+    "line_index_2_end": 552,
+    "heRef_2": "תרגום ותפסיר רסג 551",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 75,
+    "line_index_2": 569,
+    "line_index_2_end": 570,
+    "heRef_2": "תרגום ותפסיר רסג 569",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 76,
+    "line_index_2": 575,
+    "line_index_2_end": 576,
+    "heRef_2": "תרגום ותפסיר רסג 575",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 77,
+    "line_index_2": 581,
+    "line_index_2_end": 582,
+    "heRef_2": "תרגום ותפסיר רסג 581",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 78,
+    "line_index_2": 585,
+    "line_index_2_end": 586,
+    "heRef_2": "תרגום ותפסיר רסג 585",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 79,
+    "line_index_2": 603,
+    "line_index_2_end": 604,
+    "heRef_2": "תרגום ותפסיר רסג 603",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 80,
+    "line_index_2": 611,
+    "line_index_2_end": 612,
+    "heRef_2": "תרגום ותפסיר רסג 611",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 82,
+    "line_index_2": 614,
+    "line_index_2_end": 615,
+    "heRef_2": "תרגום ותפסיר רסג 614",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 83,
+    "line_index_2": 620,
+    "line_index_2_end": 621,
+    "heRef_2": "תרגום ותפסיר רסג 620",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 84,
+    "line_index_2": 624,
+    "line_index_2_end": 625,
+    "heRef_2": "תרגום ותפסיר רסג 624",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 85,
+    "line_index_2": 628,
+    "line_index_2_end": 629,
+    "heRef_2": "תרגום ותפסיר רסג 628",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 86,
+    "line_index_2": 630,
+    "line_index_2_end": 631,
+    "heRef_2": "תרגום ותפסיר רסג 630",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 87,
+    "line_index_2": 638,
+    "line_index_2_end": 639,
+    "heRef_2": "תרגום ותפסיר רסג 638",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 89,
+    "line_index_2": 655,
+    "line_index_2_end": 656,
+    "heRef_2": "תרגום ותפסיר רסג 655",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 90,
+    "line_index_2": 661,
+    "line_index_2_end": 662,
+    "heRef_2": "תרגום ותפסיר רסג 661",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 91,
+    "line_index_2": 671,
+    "line_index_2_end": 672,
+    "heRef_2": "תרגום ותפסיר רסג 671",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 92,
+    "line_index_2": 673,
+    "line_index_2_end": 674,
+    "heRef_2": "תרגום ותפסיר רסג 673",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 93,
+    "line_index_2": 675,
+    "line_index_2_end": 676,
+    "heRef_2": "תרגום ותפסיר רסג 675",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 94,
+    "line_index_2": 689,
+    "line_index_2_end": 690,
+    "heRef_2": "תרגום ותפסיר רסג 689",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 96,
+    "line_index_2": 692,
+    "line_index_2_end": 693,
+    "heRef_2": "תרגום ותפסיר רסג 692",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 97,
+    "line_index_2": 700,
+    "line_index_2_end": 701,
+    "heRef_2": "תרגום ותפסיר רסג 700",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 98,
+    "line_index_2": 702,
+    "line_index_2_end": 703,
+    "heRef_2": "תרגום ותפסיר רסג 702",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 99,
+    "line_index_2": 704,
+    "line_index_2_end": 705,
+    "heRef_2": "תרגום ותפסיר רסג 704",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 100,
+    "line_index_2": 710,
+    "line_index_2_end": 711,
+    "heRef_2": "תרגום ותפסיר רסג 710",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 101,
+    "line_index_2": 734,
+    "line_index_2_end": 735,
+    "heRef_2": "תרגום ותפסיר רסג 734",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 102,
+    "line_index_2": 736,
+    "line_index_2_end": 737,
+    "heRef_2": "תרגום ותפסיר רסג 736",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 104,
+    "line_index_2": 745,
+    "line_index_2_end": 746,
+    "heRef_2": "תרגום ותפסיר רסג 745",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 105,
+    "line_index_2": 749,
+    "line_index_2_end": 750,
+    "heRef_2": "תרגום ותפסיר רסג 749",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 106,
+    "line_index_2": 753,
+    "line_index_2_end": 754,
+    "heRef_2": "תרגום ותפסיר רסג 753",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 107,
+    "line_index_2": 755,
+    "line_index_2_end": 756,
+    "heRef_2": "תרגום ותפסיר רסג 755",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 108,
+    "line_index_2": 761,
+    "line_index_2_end": 762,
+    "heRef_2": "תרגום ותפסיר רסג 761",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 109,
+    "line_index_2": 767,
+    "line_index_2_end": 768,
+    "heRef_2": "תרגום ותפסיר רסג 767",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 110,
+    "line_index_2": 781,
+    "line_index_2_end": 782,
+    "heRef_2": "תרגום ותפסיר רסג 781",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 112,
+    "line_index_2": 792,
+    "line_index_2_end": 793,
+    "heRef_2": "תרגום ותפסיר רסג 792",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 113,
+    "line_index_2": 794,
+    "line_index_2_end": 795,
+    "heRef_2": "תרגום ותפסיר רסג 794",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 114,
+    "line_index_2": 796,
+    "line_index_2_end": 797,
+    "heRef_2": "תרגום ותפסיר רסג 796",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 115,
+    "line_index_2": 798,
+    "line_index_2_end": 799,
+    "heRef_2": "תרגום ותפסיר רסג 798",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 116,
+    "line_index_2": 810,
+    "line_index_2_end": 811,
+    "heRef_2": "תרגום ותפסיר רסג 810",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 118,
+    "line_index_2": 825,
+    "line_index_2_end": 826,
+    "heRef_2": "תרגום ותפסיר רסג 825",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 119,
+    "line_index_2": 831,
+    "line_index_2_end": 832,
+    "heRef_2": "תרגום ותפסיר רסג 831",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 121,
+    "line_index_2": 878,
+    "line_index_2_end": 879,
+    "heRef_2": "תרגום ותפסיר רסג 878",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 122,
+    "line_index_2": 914,
+    "line_index_2_end": 915,
+    "heRef_2": "תרגום ותפסיר רסג 914",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 123,
+    "line_index_2": 916,
+    "line_index_2_end": 917,
+    "heRef_2": "תרגום ותפסיר רסג 916",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 124,
+    "line_index_2": 924,
+    "line_index_2_end": 925,
+    "heRef_2": "תרגום ותפסיר רסג 924",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 125,
+    "line_index_2": 926,
+    "line_index_2_end": 927,
+    "heRef_2": "תרגום ותפסיר רסג 926",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 127,
+    "line_index_2": 979,
+    "line_index_2_end": 980,
+    "heRef_2": "תרגום ותפסיר רסג 979",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 128,
+    "line_index_2": 987,
+    "line_index_2_end": 988,
+    "heRef_2": "תרגום ותפסיר רסג 987",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 130,
+    "line_index_2": 1016,
+    "line_index_2_end": 1017,
+    "heRef_2": "תרגום ותפסיר רסג 1016",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 131,
+    "line_index_2": 1018,
+    "line_index_2_end": 1019,
+    "heRef_2": "תרגום ותפסיר רסג 1018",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 132,
+    "line_index_2": 1026,
+    "line_index_2_end": 1027,
+    "heRef_2": "תרגום ותפסיר רסג 1026",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 134,
+    "line_index_2": 1053,
+    "line_index_2_end": 1054,
+    "heRef_2": "תרגום ותפסיר רסג 1053",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 135,
+    "line_index_2": 1077,
+    "line_index_2_end": 1078,
+    "heRef_2": "תרגום ותפסיר רסג 1077",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 136,
+    "line_index_2": 1079,
+    "line_index_2_end": 1080,
+    "heRef_2": "תרגום ותפסיר רסג 1079",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 137,
+    "line_index_2": 1097,
+    "line_index_2_end": 1098,
+    "heRef_2": "תרגום ותפסיר רסג 1097",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 138,
+    "line_index_2": 1115,
+    "line_index_2_end": 1116,
+    "heRef_2": "תרגום ותפסיר רסג 1115",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 140,
+    "line_index_2": 1162,
+    "line_index_2_end": 1163,
+    "heRef_2": "תרגום ותפסיר רסג 1162",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 142,
+    "line_index_2": 1216,
+    "line_index_2_end": 1217,
+    "heRef_2": "תרגום ותפסיר רסג 1216",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 143,
+    "line_index_2": 1236,
+    "line_index_2_end": 1237,
+    "heRef_2": "תרגום ותפסיר רסג 1236",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 144,
+    "line_index_2": 1240,
+    "line_index_2_end": 1241,
+    "heRef_2": "תרגום ותפסיר רסג 1240",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 145,
+    "line_index_2": 1242,
+    "line_index_2_end": 1243,
+    "heRef_2": "תרגום ותפסיר רסג 1242",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 146,
+    "line_index_2": 1252,
+    "line_index_2_end": 1253,
+    "heRef_2": "תרגום ותפסיר רסג 1252",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 147,
+    "line_index_2": 1268,
+    "line_index_2_end": 1269,
+    "heRef_2": "תרגום ותפסיר רסג 1268",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 149,
+    "line_index_2": 1347,
+    "line_index_2_end": 1348,
+    "heRef_2": "תרגום ותפסיר רסג 1347",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 150,
+    "line_index_2": 1349,
+    "line_index_2_end": 1350,
+    "heRef_2": "תרגום ותפסיר רסג 1349",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 151,
+    "line_index_2": 1353,
+    "line_index_2_end": 1354,
+    "heRef_2": "תרגום ותפסיר רסג 1353",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 152,
+    "line_index_2": 1361,
+    "line_index_2_end": 1362,
+    "heRef_2": "תרגום ותפסיר רסג 1361",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 153,
+    "line_index_2": 1367,
+    "line_index_2_end": 1368,
+    "heRef_2": "תרגום ותפסיר רסג 1367",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 154,
+    "line_index_2": 1391,
+    "line_index_2_end": 1392,
+    "heRef_2": "תרגום ותפסיר רסג 1391",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 155,
+    "line_index_2": 1409,
+    "line_index_2_end": 1410,
+    "heRef_2": "תרגום ותפסיר רסג 1409",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 157,
+    "line_index_2": 1418,
+    "line_index_2_end": 1419,
+    "heRef_2": "תרגום ותפסיר רסג 1418",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 158,
+    "line_index_2": 1450,
+    "line_index_2_end": 1451,
+    "heRef_2": "תרגום ותפסיר רסג 1450",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 159,
+    "line_index_2": 1452,
+    "line_index_2_end": 1453,
+    "heRef_2": "תרגום ותפסיר רסג 1452",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 160,
+    "line_index_2": 1462,
+    "line_index_2_end": 1463,
+    "heRef_2": "תרגום ותפסיר רסג 1462",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 161,
+    "line_index_2": 1468,
+    "line_index_2_end": 1469,
+    "heRef_2": "תרגום ותפסיר רסג 1468",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 162,
+    "line_index_2": 1472,
+    "line_index_2_end": 1473,
+    "heRef_2": "תרגום ותפסיר רסג 1472",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 164,
+    "line_index_2": 1533,
+    "line_index_2_end": 1534,
+    "heRef_2": "תרגום ותפסיר רסג 1533",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 165,
+    "line_index_2": 1539,
+    "line_index_2_end": 1540,
+    "heRef_2": "תרגום ותפסיר רסג 1539",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 166,
+    "line_index_2": 1541,
+    "line_index_2_end": 1542,
+    "heRef_2": "תרגום ותפסיר רסג 1541",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 167,
+    "line_index_2": 1543,
+    "line_index_2_end": 1544,
+    "heRef_2": "תרגום ותפסיר רסג 1543",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 168,
+    "line_index_2": 1549,
+    "line_index_2_end": 1550,
+    "heRef_2": "תרגום ותפסיר רסג 1549",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 169,
+    "line_index_2": 1557,
+    "line_index_2_end": 1558,
+    "heRef_2": "תרגום ותפסיר רסג 1557",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 170,
+    "line_index_2": 1559,
+    "line_index_2_end": 1560,
+    "heRef_2": "תרגום ותפסיר רסג 1559",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 171,
+    "line_index_2": 1565,
+    "line_index_2_end": 1566,
+    "heRef_2": "תרגום ותפסיר רסג 1565",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 173,
+    "line_index_2": 1612,
+    "line_index_2_end": 1613,
+    "heRef_2": "תרגום ותפסיר רסג 1612",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 174,
+    "line_index_2": 1614,
+    "line_index_2_end": 1615,
+    "heRef_2": "תרגום ותפסיר רסג 1614",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 176,
+    "line_index_2": 1655,
+    "line_index_2_end": 1656,
+    "heRef_2": "תרגום ותפסיר רסג 1655",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 177,
+    "line_index_2": 1665,
+    "line_index_2_end": 1666,
+    "heRef_2": "תרגום ותפסיר רסג 1665",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 179,
+    "line_index_2": 1722,
+    "line_index_2_end": 1723,
+    "heRef_2": "תרגום ותפסיר רסג 1722",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 180,
+    "line_index_2": 1734,
+    "line_index_2_end": 1735,
+    "heRef_2": "תרגום ותפסיר רסג 1734",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 181,
+    "line_index_2": 1738,
+    "line_index_2_end": 1739,
+    "heRef_2": "תרגום ותפסיר רסג 1738",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 182,
+    "line_index_2": 1758,
+    "line_index_2_end": 1759,
+    "heRef_2": "תרגום ותפסיר רסג 1758",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 183,
+    "line_index_2": 1760,
+    "line_index_2_end": 1761,
+    "heRef_2": "תרגום ותפסיר רסג 1760",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 184,
+    "line_index_2": 1778,
+    "line_index_2_end": 1779,
+    "heRef_2": "תרגום ותפסיר רסג 1778",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 186,
+    "line_index_2": 1823,
+    "line_index_2_end": 1824,
+    "heRef_2": "תרגום ותפסיר רסג 1823",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 187,
+    "line_index_2": 1831,
+    "line_index_2_end": 1832,
+    "heRef_2": "תרגום ותפסיר רסג 1831",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 188,
+    "line_index_2": 1865,
+    "line_index_2_end": 1866,
+    "heRef_2": "תרגום ותפסיר רסג 1865",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 189,
+    "line_index_2": 1871,
+    "line_index_2_end": 1872,
+    "heRef_2": "תרגום ותפסיר רסג 1871",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 191,
+    "line_index_2": 1940,
+    "line_index_2_end": 1941,
+    "heRef_2": "תרגום ותפסיר רסג 1940",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 192,
+    "line_index_2": 1950,
+    "line_index_2_end": 1951,
+    "heRef_2": "תרגום ותפסיר רסג 1950",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 194,
+    "line_index_2": 1963,
+    "line_index_2_end": 1964,
+    "heRef_2": "תרגום ותפסיר רסג 1963",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 195,
+    "line_index_2": 1995,
+    "line_index_2_end": 1996,
+    "heRef_2": "תרגום ותפסיר רסג 1995",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 196,
+    "line_index_2": 1997,
+    "line_index_2_end": 1998,
+    "heRef_2": "תרגום ותפסיר רסג 1997",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 198,
+    "line_index_2": 2073,
+    "line_index_2_end": 2074,
+    "heRef_2": "תרגום ותפסיר רסג 2073",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 199,
+    "line_index_2": 2083,
+    "line_index_2_end": 2084,
+    "heRef_2": "תרגום ותפסיר רסג 2083",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 200,
+    "line_index_2": 2093,
+    "line_index_2_end": 2094,
+    "heRef_2": "תרגום ותפסיר רסג 2093",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 201,
+    "line_index_2": 2103,
+    "line_index_2_end": 2104,
+    "heRef_2": "תרגום ותפסיר רסג 2103",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 202,
+    "line_index_2": 2117,
+    "line_index_2_end": 2118,
+    "heRef_2": "תרגום ותפסיר רסג 2117",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 204,
+    "line_index_2": 2124,
+    "line_index_2_end": 2125,
+    "heRef_2": "תרגום ותפסיר רסג 2124",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 205,
+    "line_index_2": 2126,
+    "line_index_2_end": 2127,
+    "heRef_2": "תרגום ותפסיר רסג 2126",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 206,
+    "line_index_2": 2132,
+    "line_index_2_end": 2133,
+    "heRef_2": "תרגום ותפסיר רסג 2132",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 207,
+    "line_index_2": 2160,
+    "line_index_2_end": 2161,
+    "heRef_2": "תרגום ותפסיר רסג 2160",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 208,
+    "line_index_2": 2162,
+    "line_index_2_end": 2163,
+    "heRef_2": "תרגום ותפסיר רסג 2162",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 209,
+    "line_index_2": 2164,
+    "line_index_2_end": 2165,
+    "heRef_2": "תרגום ותפסיר רסג 2164",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 210,
+    "line_index_2": 2168,
+    "line_index_2_end": 2169,
+    "heRef_2": "תרגום ותפסיר רסג 2168",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 211,
+    "line_index_2": 2170,
+    "line_index_2_end": 2171,
+    "heRef_2": "תרגום ותפסיר רסג 2170",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 213,
+    "line_index_2": 2231,
+    "line_index_2_end": 2232,
+    "heRef_2": "תרגום ותפסיר רסג 2231",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 215,
+    "line_index_2": 2396,
+    "line_index_2_end": 2397,
+    "heRef_2": "תרגום ותפסיר רסג 2396",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 216,
+    "line_index_2": 2420,
+    "line_index_2_end": 2421,
+    "heRef_2": "תרגום ותפסיר רסג 2420",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 217,
+    "line_index_2": 2434,
+    "line_index_2_end": 2435,
+    "heRef_2": "תרגום ותפסיר רסג 2434",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 219,
+    "line_index_2": 2467,
+    "line_index_2_end": 2468,
+    "heRef_2": "תרגום ותפסיר רסג 2467",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 220,
+    "line_index_2": 2487,
+    "line_index_2_end": 2488,
+    "heRef_2": "תרגום ותפסיר רסג 2487",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 221,
+    "line_index_2": 2515,
+    "line_index_2_end": 2516,
+    "heRef_2": "תרגום ותפסיר רסג 2515",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 223,
+    "line_index_2": 2554,
+    "line_index_2_end": 2555,
+    "heRef_2": "תרגום ותפסיר רסג 2554",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 225,
+    "line_index_2": 2712,
+    "line_index_2_end": 2713,
+    "heRef_2": "תרגום ותפסיר רסג 2712",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 226,
+    "line_index_2": 2716,
+    "line_index_2_end": 2717,
+    "heRef_2": "תרגום ותפסיר רסג 2716",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 227,
+    "line_index_2": 2728,
+    "line_index_2_end": 2729,
+    "heRef_2": "תרגום ותפסיר רסג 2728",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 228,
+    "line_index_2": 2732,
+    "line_index_2_end": 2733,
+    "heRef_2": "תרגום ותפסיר רסג 2732",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 230,
+    "line_index_2": 2767,
+    "line_index_2_end": 2768,
+    "heRef_2": "תרגום ותפסיר רסג 2767",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 231,
+    "line_index_2": 2817,
+    "line_index_2_end": 2818,
+    "heRef_2": "תרגום ותפסיר רסג 2817",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 233,
+    "line_index_2": 2846,
+    "line_index_2_end": 2847,
+    "heRef_2": "תרגום ותפסיר רסג 2846",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 234,
+    "line_index_2": 2874,
+    "line_index_2_end": 2875,
+    "heRef_2": "תרגום ותפסיר רסג 2874",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 236,
+    "line_index_2": 2905,
+    "line_index_2_end": 2906,
+    "heRef_2": "תרגום ותפסיר רסג 2905",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 237,
+    "line_index_2": 2917,
+    "line_index_2_end": 2918,
+    "heRef_2": "תרגום ותפסיר רסג 2917",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 238,
+    "line_index_2": 2919,
+    "line_index_2_end": 2920,
+    "heRef_2": "תרגום ותפסיר רסג 2919",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 239,
+    "line_index_2": 2929,
+    "line_index_2_end": 2930,
+    "heRef_2": "תרגום ותפסיר רסג 2929",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 241,
+    "line_index_2": 2964,
+    "line_index_2_end": 2965,
+    "heRef_2": "תרגום ותפסיר רסג 2964",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 242,
+    "line_index_2": 2982,
+    "line_index_2_end": 2983,
+    "heRef_2": "תרגום ותפסיר רסג 2982",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 243,
+    "line_index_2": 2986,
+    "line_index_2_end": 2987,
+    "heRef_2": "תרגום ותפסיר רסג 2986",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 244,
+    "line_index_2": 2994,
+    "line_index_2_end": 2995,
+    "heRef_2": "תרגום ותפסיר רסג 2994",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 246,
+    "line_index_2": 3001,
+    "line_index_2_end": 3002,
+    "heRef_2": "תרגום ותפסיר רסג 3001",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 247,
+    "line_index_2": 3015,
+    "line_index_2_end": 3016,
+    "heRef_2": "תרגום ותפסיר רסג 3015",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 248,
+    "line_index_2": 3029,
+    "line_index_2_end": 3030,
+    "heRef_2": "תרגום ותפסיר רסג 3029",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 249,
+    "line_index_2": 3047,
+    "line_index_2_end": 3048,
+    "heRef_2": "תרגום ותפסיר רסג 3047",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 251,
+    "line_index_2": 3100,
+    "line_index_2_end": 3101,
+    "heRef_2": "תרגום ותפסיר רסג 3100",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 252,
+    "line_index_2": 3104,
+    "line_index_2_end": 3105,
+    "heRef_2": "תרגום ותפסיר רסג 3104",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 253,
+    "line_index_2": 3110,
+    "line_index_2_end": 3111,
+    "heRef_2": "תרגום ותפסיר רסג 3110",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 256,
+    "line_index_2": 3122,
+    "line_index_2_end": 3123,
+    "heRef_2": "תרגום ותפסיר רסג 3122",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 257,
+    "line_index_2": 3130,
+    "line_index_2_end": 3131,
+    "heRef_2": "תרגום ותפסיר רסג 3130",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 258,
+    "line_index_2": 3134,
+    "line_index_2_end": 3135,
+    "heRef_2": "תרגום ותפסיר רסג 3134",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 259,
+    "line_index_2": 3136,
+    "line_index_2_end": 3137,
+    "heRef_2": "תרגום ותפסיר רסג 3136",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 260,
+    "line_index_2": 3140,
+    "line_index_2_end": 3141,
+    "heRef_2": "תרגום ותפסיר רסג 3140",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 261,
+    "line_index_2": 3142,
+    "line_index_2_end": 3143,
+    "heRef_2": "תרגום ותפסיר רסג 3142",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 262,
+    "line_index_2": 3146,
+    "line_index_2_end": 3147,
+    "heRef_2": "תרגום ותפסיר רסג 3146",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 263,
+    "line_index_2": 3164,
+    "line_index_2_end": 3165,
+    "heRef_2": "תרגום ותפסיר רסג 3164",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 265,
+    "line_index_2": 3171,
+    "line_index_2_end": 3172,
+    "heRef_2": "תרגום ותפסיר רסג 3171",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 266,
+    "line_index_2": 3175,
+    "line_index_2_end": 3176,
+    "heRef_2": "תרגום ותפסיר רסג 3175",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 267,
+    "line_index_2": 3205,
+    "line_index_2_end": 3206,
+    "heRef_2": "תרגום ותפסיר רסג 3205",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 269,
+    "line_index_2": 3220,
+    "line_index_2_end": 3221,
+    "heRef_2": "תרגום ותפסיר רסג 3220",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 270,
+    "line_index_2": 3230,
+    "line_index_2_end": 3231,
+    "heRef_2": "תרגום ותפסיר רסג 3230",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 271,
+    "line_index_2": 3236,
+    "line_index_2_end": 3237,
+    "heRef_2": "תרגום ותפסיר רסג 3236",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 272,
+    "line_index_2": 3240,
+    "line_index_2_end": 3241,
+    "heRef_2": "תרגום ותפסיר רסג 3240",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 273,
+    "line_index_2": 3244,
+    "line_index_2_end": 3245,
+    "heRef_2": "תרגום ותפסיר רסג 3244",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 274,
+    "line_index_2": 3246,
+    "line_index_2_end": 3247,
+    "heRef_2": "תרגום ותפסיר רסג 3246",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 275,
+    "line_index_2": 3252,
+    "line_index_2_end": 3253,
+    "heRef_2": "תרגום ותפסיר רסג 3252",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 276,
+    "line_index_2": 3254,
+    "line_index_2_end": 3255,
+    "heRef_2": "תרגום ותפסיר רסג 3254",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 278,
+    "line_index_2": 3263,
+    "line_index_2_end": 3264,
+    "heRef_2": "תרגום ותפסיר רסג 3263",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 279,
+    "line_index_2": 3285,
+    "line_index_2_end": 3286,
+    "heRef_2": "תרגום ותפסיר רסג 3285",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 280,
+    "line_index_2": 3289,
+    "line_index_2_end": 3290,
+    "heRef_2": "תרגום ותפסיר רסג 3289",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 281,
+    "line_index_2": 3309,
+    "line_index_2_end": 3310,
+    "heRef_2": "תרגום ותפסיר רסג 3309",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 283,
+    "line_index_2": 3340,
+    "line_index_2_end": 3341,
+    "heRef_2": "תרגום ותפסיר רסג 3340",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 284,
+    "line_index_2": 3368,
+    "line_index_2_end": 3369,
+    "heRef_2": "תרגום ותפסיר רסג 3368",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 286,
+    "line_index_2": 3377,
+    "line_index_2_end": 3378,
+    "heRef_2": "תרגום ותפסיר רסג 3377",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 287,
+    "line_index_2": 3395,
+    "line_index_2_end": 3396,
+    "heRef_2": "תרגום ותפסיר רסג 3395",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 288,
+    "line_index_2": 3397,
+    "line_index_2_end": 3398,
+    "heRef_2": "תרגום ותפסיר רסג 3397",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 290,
+    "line_index_2": 3438,
+    "line_index_2_end": 3439,
+    "heRef_2": "תרגום ותפסיר רסג 3438",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 291,
+    "line_index_2": 3440,
+    "line_index_2_end": 3441,
+    "heRef_2": "תרגום ותפסיר רסג 3440",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 292,
+    "line_index_2": 3454,
+    "line_index_2_end": 3455,
+    "heRef_2": "תרגום ותפסיר רסג 3454",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 294,
+    "line_index_2": 3515,
+    "line_index_2_end": 3516,
+    "heRef_2": "תרגום ותפסיר רסג 3515",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 295,
+    "line_index_2": 3521,
+    "line_index_2_end": 3522,
+    "heRef_2": "תרגום ותפסיר רסג 3521",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 297,
+    "line_index_2": 3608,
+    "line_index_2_end": 3609,
+    "heRef_2": "תרגום ותפסיר רסג 3608",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 298,
+    "line_index_2": 3612,
+    "line_index_2_end": 3613,
+    "heRef_2": "תרגום ותפסיר רסג 3612",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 300,
+    "line_index_2": 3705,
+    "line_index_2_end": 3706,
+    "heRef_2": "תרגום ותפסיר רסג 3705",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 301,
+    "line_index_2": 3741,
+    "line_index_2_end": 3742,
+    "heRef_2": "תרגום ותפסיר רסג 3741",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 302,
+    "line_index_2": 3757,
+    "line_index_2_end": 3758,
+    "heRef_2": "תרגום ותפסיר רסג 3757",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 303,
+    "line_index_2": 3779,
+    "line_index_2_end": 3780,
+    "heRef_2": "תרגום ותפסיר רסג 3779",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 304,
+    "line_index_2": 3785,
+    "line_index_2_end": 3786,
+    "heRef_2": "תרגום ותפסיר רסג 3785",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 306,
+    "line_index_2": 3836,
+    "line_index_2_end": 3837,
+    "heRef_2": "תרגום ותפסיר רסג 3836",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 307,
+    "line_index_2": 3838,
+    "line_index_2_end": 3839,
+    "heRef_2": "תרגום ותפסיר רסג 3838",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 309,
+    "line_index_2": 3881,
+    "line_index_2_end": 3882,
+    "heRef_2": "תרגום ותפסיר רסג 3881",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 311,
+    "line_index_2": 3912,
+    "line_index_2_end": 3913,
+    "heRef_2": "תרגום ותפסיר רסג 3912",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 312,
+    "line_index_2": 3916,
+    "line_index_2_end": 3917,
+    "heRef_2": "תרגום ותפסיר רסג 3916",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 313,
+    "line_index_2": 3938,
+    "line_index_2_end": 3939,
+    "heRef_2": "תרגום ותפסיר רסג 3938",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 314,
+    "line_index_2": 3940,
+    "line_index_2_end": 3941,
+    "heRef_2": "תרגום ותפסיר רסג 3940",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 316,
+    "line_index_2": 3973,
+    "line_index_2_end": 3974,
+    "heRef_2": "תרגום ותפסיר רסג 3973",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 317,
+    "line_index_2": 3991,
+    "line_index_2_end": 3992,
+    "heRef_2": "תרגום ותפסיר רסג 3991",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 318,
+    "line_index_2": 3995,
+    "line_index_2_end": 3996,
+    "heRef_2": "תרגום ותפסיר רסג 3995",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 319,
+    "line_index_2": 3997,
+    "line_index_2_end": 3998,
+    "heRef_2": "תרגום ותפסיר רסג 3997",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 320,
+    "line_index_2": 4011,
+    "line_index_2_end": 4012,
+    "heRef_2": "תרגום ותפסיר רסג 4011",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 321,
+    "line_index_2": 4027,
+    "line_index_2_end": 4028,
+    "heRef_2": "תרגום ותפסיר רסג 4027",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 322,
+    "line_index_2": 4037,
+    "line_index_2_end": 4038,
+    "heRef_2": "תרגום ותפסיר רסג 4037",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 324,
+    "line_index_2": 4050,
+    "line_index_2_end": 4051,
+    "heRef_2": "תרגום ותפסיר רסג 4050",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 325,
+    "line_index_2": 4056,
+    "line_index_2_end": 4057,
+    "heRef_2": "תרגום ותפסיר רסג 4056",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 326,
+    "line_index_2": 4066,
+    "line_index_2_end": 4067,
+    "heRef_2": "תרגום ותפסיר רסג 4066",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 327,
+    "line_index_2": 4068,
+    "line_index_2_end": 4069,
+    "heRef_2": "תרגום ותפסיר רסג 4068",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 328,
+    "line_index_2": 4070,
+    "line_index_2_end": 4071,
+    "heRef_2": "תרגום ותפסיר רסג 4070",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 330,
+    "line_index_2": 4079,
+    "line_index_2_end": 4080,
+    "heRef_2": "תרגום ותפסיר רסג 4079",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 331,
+    "line_index_2": 4081,
+    "line_index_2_end": 4082,
+    "heRef_2": "תרגום ותפסיר רסג 4081",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 332,
+    "line_index_2": 4109,
+    "line_index_2_end": 4110,
+    "heRef_2": "תרגום ותפסיר רסג 4109",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 334,
+    "line_index_2": 4132,
+    "line_index_2_end": 4133,
+    "heRef_2": "תרגום ותפסיר רסג 4132",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 335,
+    "line_index_2": 4140,
+    "line_index_2_end": 4141,
+    "heRef_2": "תרגום ותפסיר רסג 4140",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 336,
+    "line_index_2": 4144,
+    "line_index_2_end": 4145,
+    "heRef_2": "תרגום ותפסיר רסג 4144",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 337,
+    "line_index_2": 4158,
+    "line_index_2_end": 4159,
+    "heRef_2": "תרגום ותפסיר רסג 4158",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 338,
+    "line_index_2": 4172,
+    "line_index_2_end": 4173,
+    "heRef_2": "תרגום ותפסיר רסג 4172",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 340,
+    "line_index_2": 4181,
+    "line_index_2_end": 4182,
+    "heRef_2": "תרגום ותפסיר רסג 4181",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 341,
+    "line_index_2": 4183,
+    "line_index_2_end": 4184,
+    "heRef_2": "תרגום ותפסיר רסג 4183",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 342,
+    "line_index_2": 4185,
+    "line_index_2_end": 4186,
+    "heRef_2": "תרגום ותפסיר רסג 4185",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 343,
+    "line_index_2": 4187,
+    "line_index_2_end": 4188,
+    "heRef_2": "תרגום ותפסיר רסג 4187",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 344,
+    "line_index_2": 4191,
+    "line_index_2_end": 4192,
+    "heRef_2": "תרגום ותפסיר רסג 4191",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 345,
+    "line_index_2": 4193,
+    "line_index_2_end": 4194,
+    "heRef_2": "תרגום ותפסיר רסג 4193",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 346,
+    "line_index_2": 4201,
+    "line_index_2_end": 4202,
+    "heRef_2": "תרגום ותפסיר רסג 4201",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 347,
+    "line_index_2": 4203,
+    "line_index_2_end": 4204,
+    "heRef_2": "תרגום ותפסיר רסג 4203",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 348,
+    "line_index_2": 4205,
+    "line_index_2_end": 4206,
+    "heRef_2": "תרגום ותפסיר רסג 4205",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 349,
+    "line_index_2": 4207,
+    "line_index_2_end": 4208,
+    "heRef_2": "תרגום ותפסיר רסג 4207",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 350,
+    "line_index_2": 4217,
+    "line_index_2_end": 4218,
+    "heRef_2": "תרגום ותפסיר רסג 4217",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 351,
+    "line_index_2": 4219,
+    "line_index_2_end": 4220,
+    "heRef_2": "תרגום ותפסיר רסג 4219",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 353,
+    "line_index_2": 4230,
+    "line_index_2_end": 4231,
+    "heRef_2": "תרגום ותפסיר רסג 4230",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 354,
+    "line_index_2": 4236,
+    "line_index_2_end": 4237,
+    "heRef_2": "תרגום ותפסיר רסג 4236",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 355,
+    "line_index_2": 4238,
+    "line_index_2_end": 4239,
+    "heRef_2": "תרגום ותפסיר רסג 4238",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 356,
+    "line_index_2": 4244,
+    "line_index_2_end": 4245,
+    "heRef_2": "תרגום ותפסיר רסג 4244",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 357,
+    "line_index_2": 4246,
+    "line_index_2_end": 4247,
+    "heRef_2": "תרגום ותפסיר רסג 4246",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 358,
+    "line_index_2": 4250,
+    "line_index_2_end": 4251,
+    "heRef_2": "תרגום ותפסיר רסג 4250",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 359,
+    "line_index_2": 4252,
+    "line_index_2_end": 4253,
+    "heRef_2": "תרגום ותפסיר רסג 4252",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 360,
+    "line_index_2": 4256,
+    "line_index_2_end": 4257,
+    "heRef_2": "תרגום ותפסיר רסג 4256",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 361,
+    "line_index_2": 4260,
+    "line_index_2_end": 4261,
+    "heRef_2": "תרגום ותפסיר רסג 4260",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 362,
+    "line_index_2": 4272,
+    "line_index_2_end": 4273,
+    "heRef_2": "תרגום ותפסיר רסג 4272",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 363,
+    "line_index_2": 4274,
+    "line_index_2_end": 4275,
+    "heRef_2": "תרגום ותפסיר רסג 4274",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 364,
+    "line_index_2": 4298,
+    "line_index_2_end": 4299,
+    "heRef_2": "תרגום ותפסיר רסג 4298",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 366,
+    "line_index_2": 4347,
+    "line_index_2_end": 4348,
+    "heRef_2": "תרגום ותפסיר רסג 4347",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 367,
+    "line_index_2": 4349,
+    "line_index_2_end": 4350,
+    "heRef_2": "תרגום ותפסיר רסג 4349",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 368,
+    "line_index_2": 4351,
+    "line_index_2_end": 4352,
+    "heRef_2": "תרגום ותפסיר רסג 4351",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 370,
+    "line_index_2": 4364,
+    "line_index_2_end": 4365,
+    "heRef_2": "תרגום ותפסיר רסג 4364",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 371,
+    "line_index_2": 4374,
+    "line_index_2_end": 4375,
+    "heRef_2": "תרגום ותפסיר רסג 4374",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 372,
+    "line_index_2": 4376,
+    "line_index_2_end": 4377,
+    "heRef_2": "תרגום ותפסיר רסג 4376",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 373,
+    "line_index_2": 4398,
+    "line_index_2_end": 4399,
+    "heRef_2": "תרגום ותפסיר רסג 4398",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 374,
+    "line_index_2": 4400,
+    "line_index_2_end": 4401,
+    "heRef_2": "תרגום ותפסיר רסג 4400",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 375,
+    "line_index_2": 4412,
+    "line_index_2_end": 4413,
+    "heRef_2": "תרגום ותפסיר רסג 4412",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 376,
+    "line_index_2": 4420,
+    "line_index_2_end": 4421,
+    "heRef_2": "תרגום ותפסיר רסג 4420",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 377,
+    "line_index_2": 4422,
+    "line_index_2_end": 4423,
+    "heRef_2": "תרגום ותפסיר רסג 4422",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 378,
+    "line_index_2": 4426,
+    "line_index_2_end": 4427,
+    "heRef_2": "תרגום ותפסיר רסג 4426",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 380,
+    "line_index_2": 4441,
+    "line_index_2_end": 4442,
+    "heRef_2": "תרגום ותפסיר רסג 4441",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 381,
+    "line_index_2": 4443,
+    "line_index_2_end": 4444,
+    "heRef_2": "תרגום ותפסיר רסג 4443",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 382,
+    "line_index_2": 4447,
+    "line_index_2_end": 4448,
+    "heRef_2": "תרגום ותפסיר רסג 4447",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 383,
+    "line_index_2": 4449,
+    "line_index_2_end": 4450,
+    "heRef_2": "תרגום ותפסיר רסג 4449",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 385,
+    "line_index_2": 4468,
+    "line_index_2_end": 4469,
+    "heRef_2": "תרגום ותפסיר רסג 4468",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 386,
+    "line_index_2": 4470,
+    "line_index_2_end": 4471,
+    "heRef_2": "תרגום ותפסיר רסג 4470",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 387,
+    "line_index_2": 4472,
+    "line_index_2_end": 4473,
+    "heRef_2": "תרגום ותפסיר רסג 4472",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 388,
+    "line_index_2": 4474,
+    "line_index_2_end": 4475,
+    "heRef_2": "תרגום ותפסיר רסג 4474",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 389,
+    "line_index_2": 4476,
+    "line_index_2_end": 4477,
+    "heRef_2": "תרגום ותפסיר רסג 4476",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 390,
+    "line_index_2": 4482,
+    "line_index_2_end": 4483,
+    "heRef_2": "תרגום ותפסיר רסג 4482",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 391,
+    "line_index_2": 4484,
+    "line_index_2_end": 4485,
+    "heRef_2": "תרגום ותפסיר רסג 4484",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 392,
+    "line_index_2": 4486,
+    "line_index_2_end": 4487,
+    "heRef_2": "תרגום ותפסיר רסג 4486",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 393,
+    "line_index_2": 4488,
+    "line_index_2_end": 4489,
+    "heRef_2": "תרגום ותפסיר רסג 4488",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 394,
+    "line_index_2": 4492,
+    "line_index_2_end": 4493,
+    "heRef_2": "תרגום ותפסיר רסג 4492",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 395,
+    "line_index_2": 4500,
+    "line_index_2_end": 4501,
+    "heRef_2": "תרגום ותפסיר רסג 4500",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 396,
+    "line_index_2": 4522,
+    "line_index_2_end": 4523,
+    "heRef_2": "תרגום ותפסיר רסג 4522",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 397,
+    "line_index_2": 4526,
+    "line_index_2_end": 4527,
+    "heRef_2": "תרגום ותפסיר רסג 4526",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 399,
+    "line_index_2": 4549,
+    "line_index_2_end": 4550,
+    "heRef_2": "תרגום ותפסיר רסג 4549",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 400,
+    "line_index_2": 4557,
+    "line_index_2_end": 4558,
+    "heRef_2": "תרגום ותפסיר רסג 4557",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 401,
+    "line_index_2": 4559,
+    "line_index_2_end": 4560,
+    "heRef_2": "תרגום ותפסיר רסג 4559",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 402,
+    "line_index_2": 4561,
+    "line_index_2_end": 4562,
+    "heRef_2": "תרגום ותפסיר רסג 4561",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 403,
+    "line_index_2": 4563,
+    "line_index_2_end": 4564,
+    "heRef_2": "תרגום ותפסיר רסג 4563",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 404,
+    "line_index_2": 4581,
+    "line_index_2_end": 4582,
+    "heRef_2": "תרגום ותפסיר רסג 4581",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 405,
+    "line_index_2": 4607,
+    "line_index_2_end": 4608,
+    "heRef_2": "תרגום ותפסיר רסג 4607",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 406,
+    "line_index_2": 4617,
+    "line_index_2_end": 4618,
+    "heRef_2": "תרגום ותפסיר רסג 4617",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 408,
+    "line_index_2": 4660,
+    "line_index_2_end": 4661,
+    "heRef_2": "תרגום ותפסיר רסג 4660",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 410,
+    "line_index_2": 4673,
+    "line_index_2_end": 4674,
+    "heRef_2": "תרגום ותפסיר רסג 4673",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 411,
+    "line_index_2": 4681,
+    "line_index_2_end": 4682,
+    "heRef_2": "תרגום ותפסיר רסג 4681",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 412,
+    "line_index_2": 4683,
+    "line_index_2_end": 4684,
+    "heRef_2": "תרגום ותפסיר רסג 4683",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 413,
+    "line_index_2": 4687,
+    "line_index_2_end": 4688,
+    "heRef_2": "תרגום ותפסיר רסג 4687",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 414,
+    "line_index_2": 4697,
+    "line_index_2_end": 4698,
+    "heRef_2": "תרגום ותפסיר רסג 4697",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 415,
+    "line_index_2": 4699,
+    "line_index_2_end": 4700,
+    "heRef_2": "תרגום ותפסיר רסג 4699",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 416,
+    "line_index_2": 4703,
+    "line_index_2_end": 4704,
+    "heRef_2": "תרגום ותפסיר רסג 4703",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 417,
+    "line_index_2": 4723,
+    "line_index_2_end": 4724,
+    "heRef_2": "תרגום ותפסיר רסג 4723",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 418,
+    "line_index_2": 4739,
+    "line_index_2_end": 4740,
+    "heRef_2": "תרגום ותפסיר רסג 4739",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 419,
+    "line_index_2": 4743,
+    "line_index_2_end": 4744,
+    "heRef_2": "תרגום ותפסיר רסג 4743",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 421,
+    "line_index_2": 4752,
+    "line_index_2_end": 4753,
+    "heRef_2": "תרגום ותפסיר רסג 4752",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 422,
+    "line_index_2": 4754,
+    "line_index_2_end": 4755,
+    "heRef_2": "תרגום ותפסיר רסג 4754",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 423,
+    "line_index_2": 4790,
+    "line_index_2_end": 4791,
+    "heRef_2": "תרגום ותפסיר רסג 4790",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 424,
+    "line_index_2": 4820,
+    "line_index_2_end": 4821,
+    "heRef_2": "תרגום ותפסיר רסג 4820",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 425,
+    "line_index_2": 4824,
+    "line_index_2_end": 4825,
+    "heRef_2": "תרגום ותפסיר רסג 4824",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 426,
+    "line_index_2": 4830,
+    "line_index_2_end": 4831,
+    "heRef_2": "תרגום ותפסיר רסג 4830",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 428,
+    "line_index_2": 4851,
+    "line_index_2_end": 4852,
+    "heRef_2": "תרגום ותפסיר רסג 4851",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 429,
+    "line_index_2": 4867,
+    "line_index_2_end": 4868,
+    "heRef_2": "תרגום ותפסיר רסג 4867",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 430,
+    "line_index_2": 4889,
+    "line_index_2_end": 4890,
+    "heRef_2": "תרגום ותפסיר רסג 4889",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 431,
+    "line_index_2": 4909,
+    "line_index_2_end": 4910,
+    "heRef_2": "תרגום ותפסיר רסג 4909",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 432,
+    "line_index_2": 4911,
+    "line_index_2_end": 4912,
+    "heRef_2": "תרגום ותפסיר רסג 4911",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 434,
+    "line_index_2": 4940,
+    "line_index_2_end": 4941,
+    "heRef_2": "תרגום ותפסיר רסג 4940",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 435,
+    "line_index_2": 4942,
+    "line_index_2_end": 4943,
+    "heRef_2": "תרגום ותפסיר רסג 4942",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 436,
+    "line_index_2": 4946,
+    "line_index_2_end": 4947,
+    "heRef_2": "תרגום ותפסיר רסג 4946",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 437,
+    "line_index_2": 4948,
+    "line_index_2_end": 4949,
+    "heRef_2": "תרגום ותפסיר רסג 4948",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 438,
+    "line_index_2": 4950,
+    "line_index_2_end": 4951,
+    "heRef_2": "תרגום ותפסיר רסג 4950",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 439,
+    "line_index_2": 4954,
+    "line_index_2_end": 4955,
+    "heRef_2": "תרגום ותפסיר רסג 4954",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 441,
+    "line_index_2": 4963,
+    "line_index_2_end": 4964,
+    "heRef_2": "תרגום ותפסיר רסג 4963",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 442,
+    "line_index_2": 4965,
+    "line_index_2_end": 4966,
+    "heRef_2": "תרגום ותפסיר רסג 4965",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 443,
+    "line_index_2": 4967,
+    "line_index_2_end": 4968,
+    "heRef_2": "תרגום ותפסיר רסג 4967",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 444,
+    "line_index_2": 4979,
+    "line_index_2_end": 4980,
+    "heRef_2": "תרגום ותפסיר רסג 4979",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 445,
+    "line_index_2": 4993,
+    "line_index_2_end": 4994,
+    "heRef_2": "תרגום ותפסיר רסג 4993",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 446,
+    "line_index_2": 4997,
+    "line_index_2_end": 4998,
+    "heRef_2": "תרגום ותפסיר רסג 4997",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 447,
+    "line_index_2": 5021,
+    "line_index_2_end": 5022,
+    "heRef_2": "תרגום ותפסיר רסג 5021",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 448,
+    "line_index_2": 5023,
+    "line_index_2_end": 5024,
+    "heRef_2": "תרגום ותפסיר רסג 5023",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 450,
+    "line_index_2": 5036,
+    "line_index_2_end": 5037,
+    "heRef_2": "תרגום ותפסיר רסג 5036",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 451,
+    "line_index_2": 5038,
+    "line_index_2_end": 5039,
+    "heRef_2": "תרגום ותפסיר רסג 5038",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 452,
+    "line_index_2": 5050,
+    "line_index_2_end": 5051,
+    "heRef_2": "תרגום ותפסיר רסג 5050",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 453,
+    "line_index_2": 5054,
+    "line_index_2_end": 5055,
+    "heRef_2": "תרגום ותפסיר רסג 5054",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 454,
+    "line_index_2": 5056,
+    "line_index_2_end": 5057,
+    "heRef_2": "תרגום ותפסיר רסג 5056",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 455,
+    "line_index_2": 5060,
+    "line_index_2_end": 5061,
+    "heRef_2": "תרגום ותפסיר רסג 5060",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 456,
+    "line_index_2": 5062,
+    "line_index_2_end": 5063,
+    "heRef_2": "תרגום ותפסיר רסג 5062",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 457,
+    "line_index_2": 5064,
+    "line_index_2_end": 5065,
+    "heRef_2": "תרגום ותפסיר רסג 5064",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 458,
+    "line_index_2": 5068,
+    "line_index_2_end": 5069,
+    "heRef_2": "תרגום ותפסיר רסג 5068",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 459,
+    "line_index_2": 5072,
+    "line_index_2_end": 5073,
+    "heRef_2": "תרגום ותפסיר רסג 5072",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 460,
+    "line_index_2": 5074,
+    "line_index_2_end": 5075,
+    "heRef_2": "תרגום ותפסיר רסג 5074",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 462,
+    "line_index_2": 5077,
+    "line_index_2_end": 5078,
+    "heRef_2": "תרגום ותפסיר רסג 5077",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 463,
+    "line_index_2": 5079,
+    "line_index_2_end": 5080,
+    "heRef_2": "תרגום ותפסיר רסג 5079",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 464,
+    "line_index_2": 5085,
+    "line_index_2_end": 5086,
+    "heRef_2": "תרגום ותפסיר רסג 5085",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 465,
+    "line_index_2": 5087,
+    "line_index_2_end": 5088,
+    "heRef_2": "תרגום ותפסיר רסג 5087",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 466,
+    "line_index_2": 5117,
+    "line_index_2_end": 5118,
+    "heRef_2": "תרגום ותפסיר רסג 5117",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 467,
+    "line_index_2": 5127,
+    "line_index_2_end": 5128,
+    "heRef_2": "תרגום ותפסיר רסג 5127",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 468,
+    "line_index_2": 5131,
+    "line_index_2_end": 5132,
+    "heRef_2": "תרגום ותפסיר רסג 5131",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 469,
+    "line_index_2": 5141,
+    "line_index_2_end": 5142,
+    "heRef_2": "תרגום ותפסיר רסג 5141",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 471,
+    "line_index_2": 5152,
+    "line_index_2_end": 5153,
+    "heRef_2": "תרגום ותפסיר רסג 5152",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 472,
+    "line_index_2": 5168,
+    "line_index_2_end": 5169,
+    "heRef_2": "תרגום ותפסיר רסג 5168",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 473,
+    "line_index_2": 5178,
+    "line_index_2_end": 5179,
+    "heRef_2": "תרגום ותפסיר רסג 5178",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 474,
+    "line_index_2": 5198,
+    "line_index_2_end": 5199,
+    "heRef_2": "תרגום ותפסיר רסג 5198",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 476,
+    "line_index_2": 5395,
+    "line_index_2_end": 5396,
+    "heRef_2": "תרגום ותפסיר רסג 5395",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 477,
+    "line_index_2": 5405,
+    "line_index_2_end": 5406,
+    "heRef_2": "תרגום ותפסיר רסג 5405",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 478,
+    "line_index_2": 5411,
+    "line_index_2_end": 5412,
+    "heRef_2": "תרגום ותפסיר רסג 5411",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 480,
+    "line_index_2": 5436,
+    "line_index_2_end": 5437,
+    "heRef_2": "תרגום ותפסיר רסג 5436",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 481,
+    "line_index_2": 5442,
+    "line_index_2_end": 5443,
+    "heRef_2": "תרגום ותפסיר רסג 5442",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 482,
+    "line_index_2": 5472,
+    "line_index_2_end": 5473,
+    "heRef_2": "תרגום ותפסיר רסג 5472",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 483,
+    "line_index_2": 5482,
+    "line_index_2_end": 5483,
+    "heRef_2": "תרגום ותפסיר רסג 5482",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 484,
+    "line_index_2": 5484,
+    "line_index_2_end": 5485,
+    "heRef_2": "תרגום ותפסיר רסג 5484",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 486,
+    "line_index_2": 5541,
+    "line_index_2_end": 5542,
+    "heRef_2": "תרגום ותפסיר רסג 5541",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 489,
+    "line_index_2": 5583,
+    "line_index_2_end": 5584,
+    "heRef_2": "תרגום ותפסיר רסג 5583",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 490,
+    "line_index_2": 5595,
+    "line_index_2_end": 5596,
+    "heRef_2": "תרגום ותפסיר רסג 5595",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 492,
+    "line_index_2": 5757,
+    "line_index_2_end": 5758,
+    "heRef_2": "תרגום ותפסיר רסג 5757",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 493,
+    "line_index_2": 5801,
+    "line_index_2_end": 5802,
+    "heRef_2": "תרגום ותפסיר רסג 5801",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 495,
+    "line_index_2": 5903,
+    "line_index_2_end": 5904,
+    "heRef_2": "תרגום ותפסיר רסג 5903",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 497,
+    "line_index_2": 6011,
+    "line_index_2_end": 6012,
+    "heRef_2": "תרגום ותפסיר רסג 6011",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 499,
+    "line_index_2": 6060,
+    "line_index_2_end": 6061,
+    "heRef_2": "תרגום ותפסיר רסג 6060",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 501,
+    "line_index_2": 6360,
+    "line_index_2_end": 6361,
+    "heRef_2": "תרגום ותפסיר רסג 6360",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 502,
+    "line_index_2": 6394,
+    "line_index_2_end": 6395,
+    "heRef_2": "תרגום ותפסיר רסג 6394",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 504,
+    "line_index_2": 6524,
+    "line_index_2_end": 6525,
+    "heRef_2": "תרגום ותפסיר רסג 6524",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 505,
+    "line_index_2": 6550,
+    "line_index_2_end": 6551,
+    "heRef_2": "תרגום ותפסיר רסג 6550",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 507,
+    "line_index_2": 6620,
+    "line_index_2_end": 6621,
+    "heRef_2": "תרגום ותפסיר רסג 6620",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 508,
+    "line_index_2": 6670,
+    "line_index_2_end": 6671,
+    "heRef_2": "תרגום ותפסיר רסג 6670",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 510,
+    "line_index_2": 6693,
+    "line_index_2_end": 6694,
+    "heRef_2": "תרגום ותפסיר רסג 6693",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 511,
+    "line_index_2": 6705,
+    "line_index_2_end": 6706,
+    "heRef_2": "תרגום ותפסיר רסג 6705",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 512,
+    "line_index_2": 6711,
+    "line_index_2_end": 6712,
+    "heRef_2": "תרגום ותפסיר רסג 6711",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 513,
+    "line_index_2": 6723,
+    "line_index_2_end": 6724,
+    "heRef_2": "תרגום ותפסיר רסג 6723",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 515,
+    "line_index_2": 6790,
+    "line_index_2_end": 6791,
+    "heRef_2": "תרגום ותפסיר רסג 6790",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 517,
+    "line_index_2": 6813,
+    "line_index_2_end": 6814,
+    "heRef_2": "תרגום ותפסיר רסג 6813",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 519,
+    "line_index_2": 6923,
+    "line_index_2_end": 6924,
+    "heRef_2": "תרגום ותפסיר רסג 6923",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 520,
+    "line_index_2": 6925,
+    "line_index_2_end": 6926,
+    "heRef_2": "תרגום ותפסיר רסג 6925",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 521,
+    "line_index_2": 6949,
+    "line_index_2_end": 6950,
+    "heRef_2": "תרגום ותפסיר רסג 6949",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 522,
+    "line_index_2": 6965,
+    "line_index_2_end": 6966,
+    "heRef_2": "תרגום ותפסיר רסג 6965",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 523,
+    "line_index_2": 6997,
+    "line_index_2_end": 6998,
+    "heRef_2": "תרגום ותפסיר רסג 6997",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 525,
+    "line_index_2": 7036,
+    "line_index_2_end": 7037,
+    "heRef_2": "תרגום ותפסיר רסג 7036",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 526,
+    "line_index_2": 7046,
+    "line_index_2_end": 7047,
+    "heRef_2": "תרגום ותפסיר רסג 7046",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 528,
+    "line_index_2": 7091,
+    "line_index_2_end": 7092,
+    "heRef_2": "תרגום ותפסיר רסג 7091",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 530,
+    "line_index_2": 7170,
+    "line_index_2_end": 7171,
+    "heRef_2": "תרגום ותפסיר רסג 7170",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 531,
+    "line_index_2": 7176,
+    "line_index_2_end": 7177,
+    "heRef_2": "תרגום ותפסיר רסג 7176",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 532,
+    "line_index_2": 7222,
+    "line_index_2_end": 7223,
+    "heRef_2": "תרגום ותפסיר רסג 7222",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 533,
+    "line_index_2": 7228,
+    "line_index_2_end": 7229,
+    "heRef_2": "תרגום ותפסיר רסג 7228",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 534,
+    "line_index_2": 7248,
+    "line_index_2_end": 7249,
+    "heRef_2": "תרגום ותפסיר רסג 7248",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 537,
+    "line_index_2": 7329,
+    "line_index_2_end": 7330,
+    "heRef_2": "תרגום ותפסיר רסג 7329",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 538,
+    "line_index_2": 7431,
+    "line_index_2_end": 7432,
+    "heRef_2": "תרגום ותפסיר רסג 7431",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 540,
+    "line_index_2": 7581,
+    "line_index_2_end": 7582,
+    "heRef_2": "תרגום ותפסיר רסג 7581",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 542,
+    "line_index_2": 7616,
+    "line_index_2_end": 7617,
+    "heRef_2": "תרגום ותפסיר רסג 7616",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 543,
+    "line_index_2": 7620,
+    "line_index_2_end": 7621,
+    "heRef_2": "תרגום ותפסיר רסג 7620",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 545,
+    "line_index_2": 7792,
+    "line_index_2_end": 7793,
+    "heRef_2": "תרגום ותפסיר רסג 7792",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 546,
+    "line_index_2": 7794,
+    "line_index_2_end": 7795,
+    "heRef_2": "תרגום ותפסיר רסג 7794",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 548,
+    "line_index_2": 7849,
+    "line_index_2_end": 7850,
+    "heRef_2": "תרגום ותפסיר רסג 7849",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 549,
+    "line_index_2": 8003,
+    "line_index_2_end": 8004,
+    "heRef_2": "תרגום ותפסיר רסג 8003",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 551,
+    "line_index_2": 8022,
+    "line_index_2_end": 8023,
+    "heRef_2": "תרגום ותפסיר רסג 8022",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 553,
+    "line_index_2": 8128,
+    "line_index_2_end": 8129,
+    "heRef_2": "תרגום ותפסיר רסג 8128",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 554,
+    "line_index_2": 8174,
+    "line_index_2_end": 8175,
+    "heRef_2": "תרגום ותפסיר רסג 8174",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 556,
+    "line_index_2": 8254,
+    "line_index_2_end": 8255,
+    "heRef_2": "תרגום ותפסיר רסג 8254",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 557,
+    "line_index_2": 8264,
+    "line_index_2_end": 8265,
+    "heRef_2": "תרגום ותפסיר רסג 8264",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 559,
+    "line_index_2": 8313,
+    "line_index_2_end": 8314,
+    "heRef_2": "תרגום ותפסיר רסג 8313",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 560,
+    "line_index_2": 8315,
+    "line_index_2_end": 8316,
+    "heRef_2": "תרגום ותפסיר רסג 8315",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 562,
+    "line_index_2": 8398,
+    "line_index_2_end": 8399,
+    "heRef_2": "תרגום ותפסיר רסג 8398",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 563,
+    "line_index_2": 8416,
+    "line_index_2_end": 8417,
+    "heRef_2": "תרגום ותפסיר רסג 8416",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 565,
+    "line_index_2": 8517,
+    "line_index_2_end": 8518,
+    "heRef_2": "תרגום ותפסיר רסג 8517",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 567,
+    "line_index_2": 8619,
+    "line_index_2_end": 8620,
+    "heRef_2": "תרגום ותפסיר רסג 8619",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 569,
+    "line_index_2": 8719,
+    "line_index_2_end": 8720,
+    "heRef_2": "תרגום ותפסיר רסג 8719",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 570,
+    "line_index_2": 8729,
+    "line_index_2_end": 8730,
+    "heRef_2": "תרגום ותפסיר רסג 8729",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 572,
+    "line_index_2": 8770,
+    "line_index_2_end": 8771,
+    "heRef_2": "תרגום ותפסיר רסג 8770",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 573,
+    "line_index_2": 8784,
+    "line_index_2_end": 8785,
+    "heRef_2": "תרגום ותפסיר רסג 8784",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 575,
+    "line_index_2": 8825,
+    "line_index_2_end": 8826,
+    "heRef_2": "תרגום ותפסיר רסג 8825",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 576,
+    "line_index_2": 8833,
+    "line_index_2_end": 8834,
+    "heRef_2": "תרגום ותפסיר רסג 8833",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 577,
+    "line_index_2": 8855,
+    "line_index_2_end": 8856,
+    "heRef_2": "תרגום ותפסיר רסג 8855",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 578,
+    "line_index_2": 8871,
+    "line_index_2_end": 8872,
+    "heRef_2": "תרגום ותפסיר רסג 8871",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 579,
+    "line_index_2": 8873,
+    "line_index_2_end": 8874,
+    "heRef_2": "תרגום ותפסיר רסג 8873",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 580,
+    "line_index_2": 8875,
+    "line_index_2_end": 8876,
+    "heRef_2": "תרגום ותפסיר רסג 8875",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 581,
+    "line_index_2": 8881,
+    "line_index_2_end": 8882,
+    "heRef_2": "תרגום ותפסיר רסג 8881",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 582,
+    "line_index_2": 8885,
+    "line_index_2_end": 8886,
+    "heRef_2": "תרגום ותפסיר רסג 8885",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 584,
+    "line_index_2": 8914,
+    "line_index_2_end": 8915,
+    "heRef_2": "תרגום ותפסיר רסג 8914",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 586,
+    "line_index_2": 9068,
+    "line_index_2_end": 9069,
+    "heRef_2": "תרגום ותפסיר רסג 9068",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 588,
+    "line_index_2": 9144,
+    "line_index_2_end": 9145,
+    "heRef_2": "תרגום ותפסיר רסג 9144",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 589,
+    "line_index_2": 9184,
+    "line_index_2_end": 9185,
+    "heRef_2": "תרגום ותפסיר רסג 9184",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 591,
+    "line_index_2": 9263,
+    "line_index_2_end": 9264,
+    "heRef_2": "תרגום ותפסיר רסג 9263",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 592,
+    "line_index_2": 9293,
+    "line_index_2_end": 9294,
+    "heRef_2": "תרגום ותפסיר רסג 9293",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 594,
+    "line_index_2": 9344,
+    "line_index_2_end": 9345,
+    "heRef_2": "תרגום ותפסיר רסג 9344",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 596,
+    "line_index_2": 9448,
+    "line_index_2_end": 9449,
+    "heRef_2": "תרגום ותפסיר רסג 9448",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 598,
+    "line_index_2": 9638,
+    "line_index_2_end": 9639,
+    "heRef_2": "תרגום ותפסיר רסג 9638",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 600,
+    "line_index_2": 9677,
+    "line_index_2_end": 9678,
+    "heRef_2": "תרגום ותפסיר רסג 9677",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 601,
+    "line_index_2": 9679,
+    "line_index_2_end": 9680,
+    "heRef_2": "תרגום ותפסיר רסג 9679",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 602,
+    "line_index_2": 9701,
+    "line_index_2_end": 9702,
+    "heRef_2": "תרגום ותפסיר רסג 9701",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 603,
+    "line_index_2": 9707,
+    "line_index_2_end": 9708,
+    "heRef_2": "תרגום ותפסיר רסג 9707",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 604,
+    "line_index_2": 9747,
+    "line_index_2_end": 9748,
+    "heRef_2": "תרגום ותפסיר רסג 9747",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 606,
+    "line_index_2": 9792,
+    "line_index_2_end": 9793,
+    "heRef_2": "תרגום ותפסיר רסג 9792",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 607,
+    "line_index_2": 9798,
+    "line_index_2_end": 9799,
+    "heRef_2": "תרגום ותפסיר רסג 9798",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 609,
+    "line_index_2": 9889,
+    "line_index_2_end": 9890,
+    "heRef_2": "תרגום ותפסיר רסג 9889",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 610,
+    "line_index_2": 9907,
+    "line_index_2_end": 9908,
+    "heRef_2": "תרגום ותפסיר רסג 9907",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 613,
+    "line_index_2": 9948,
+    "line_index_2_end": 9949,
+    "heRef_2": "תרגום ותפסיר רסג 9948",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 614,
+    "line_index_2": 9978,
+    "line_index_2_end": 9979,
+    "heRef_2": "תרגום ותפסיר רסג 9978",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 615,
+    "line_index_2": 10004,
+    "line_index_2_end": 10005,
+    "heRef_2": "תרגום ותפסיר רסג 10004",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 616,
+    "line_index_2": 10032,
+    "line_index_2_end": 10033,
+    "heRef_2": "תרגום ותפסיר רסג 10032",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 618,
+    "line_index_2": 10053,
+    "line_index_2_end": 10054,
+    "heRef_2": "תרגום ותפסיר רסג 10053",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 619,
+    "line_index_2": 10059,
+    "line_index_2_end": 10060,
+    "heRef_2": "תרגום ותפסיר רסג 10059",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 620,
+    "line_index_2": 10075,
+    "line_index_2_end": 10076,
+    "heRef_2": "תרגום ותפסיר רסג 10075",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 621,
+    "line_index_2": 10077,
+    "line_index_2_end": 10078,
+    "heRef_2": "תרגום ותפסיר רסג 10077",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 622,
+    "line_index_2": 10101,
+    "line_index_2_end": 10102,
+    "heRef_2": "תרגום ותפסיר רסג 10101",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 624,
+    "line_index_2": 10126,
+    "line_index_2_end": 10127,
+    "heRef_2": "תרגום ותפסיר רסג 10126",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 625,
+    "line_index_2": 10128,
+    "line_index_2_end": 10129,
+    "heRef_2": "תרגום ותפסיר רסג 10128",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 626,
+    "line_index_2": 10140,
+    "line_index_2_end": 10141,
+    "heRef_2": "תרגום ותפסיר רסג 10140",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 627,
+    "line_index_2": 10154,
+    "line_index_2_end": 10155,
+    "heRef_2": "תרגום ותפסיר רסג 10154",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 628,
+    "line_index_2": 10160,
+    "line_index_2_end": 10161,
+    "heRef_2": "תרגום ותפסיר רסג 10160",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 630,
+    "line_index_2": 10171,
+    "line_index_2_end": 10172,
+    "heRef_2": "תרגום ותפסיר רסג 10171",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 631,
+    "line_index_2": 10179,
+    "line_index_2_end": 10180,
+    "heRef_2": "תרגום ותפסיר רסג 10179",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 632,
+    "line_index_2": 10189,
+    "line_index_2_end": 10190,
+    "heRef_2": "תרגום ותפסיר רסג 10189",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 633,
+    "line_index_2": 10191,
+    "line_index_2_end": 10192,
+    "heRef_2": "תרגום ותפסיר רסג 10191",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 634,
+    "line_index_2": 10199,
+    "line_index_2_end": 10200,
+    "heRef_2": "תרגום ותפסיר רסג 10199",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 635,
+    "line_index_2": 10207,
+    "line_index_2_end": 10208,
+    "heRef_2": "תרגום ותפסיר רסג 10207",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 636,
+    "line_index_2": 10215,
+    "line_index_2_end": 10216,
+    "heRef_2": "תרגום ותפסיר רסג 10215",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 637,
+    "line_index_2": 10227,
+    "line_index_2_end": 10228,
+    "heRef_2": "תרגום ותפסיר רסג 10227",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 638,
+    "line_index_2": 10229,
+    "line_index_2_end": 10230,
+    "heRef_2": "תרגום ותפסיר רסג 10229",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 639,
+    "line_index_2": 10235,
+    "line_index_2_end": 10236,
+    "heRef_2": "תרגום ותפסיר רסג 10235",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 640,
+    "line_index_2": 10237,
+    "line_index_2_end": 10238,
+    "heRef_2": "תרגום ותפסיר רסג 10237",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 641,
+    "line_index_2": 10245,
+    "line_index_2_end": 10246,
+    "heRef_2": "תרגום ותפסיר רסג 10245",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 642,
+    "line_index_2": 10247,
+    "line_index_2_end": 10248,
+    "heRef_2": "תרגום ותפסיר רסג 10247",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 644,
+    "line_index_2": 10298,
+    "line_index_2_end": 10299,
+    "heRef_2": "תרגום ותפסיר רסג 10298",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 645,
+    "line_index_2": 10300,
+    "line_index_2_end": 10301,
+    "heRef_2": "תרגום ותפסיר רסג 10300",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 646,
+    "line_index_2": 10310,
+    "line_index_2_end": 10311,
+    "heRef_2": "תרגום ותפסיר רסג 10310",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 648,
+    "line_index_2": 10331,
+    "line_index_2_end": 10332,
+    "heRef_2": "תרגום ותפסיר רסג 10331",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 649,
+    "line_index_2": 10335,
+    "line_index_2_end": 10336,
+    "heRef_2": "תרגום ותפסיר רסג 10335",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 650,
+    "line_index_2": 10337,
+    "line_index_2_end": 10338,
+    "heRef_2": "תרגום ותפסיר רסג 10337",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 651,
+    "line_index_2": 10349,
+    "line_index_2_end": 10350,
+    "heRef_2": "תרגום ותפסיר רסג 10349",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 652,
+    "line_index_2": 10359,
+    "line_index_2_end": 10360,
+    "heRef_2": "תרגום ותפסיר רסג 10359",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 654,
+    "line_index_2": 10398,
+    "line_index_2_end": 10399,
+    "heRef_2": "תרגום ותפסיר רסג 10398",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 655,
+    "line_index_2": 10402,
+    "line_index_2_end": 10403,
+    "heRef_2": "תרגום ותפסיר רסג 10402",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 656,
+    "line_index_2": 10416,
+    "line_index_2_end": 10417,
+    "heRef_2": "תרגום ותפסיר רסג 10416",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 657,
+    "line_index_2": 10422,
+    "line_index_2_end": 10423,
+    "heRef_2": "תרגום ותפסיר רסג 10422",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 659,
+    "line_index_2": 10459,
+    "line_index_2_end": 10460,
+    "heRef_2": "תרגום ותפסיר רסג 10459",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 660,
+    "line_index_2": 10461,
+    "line_index_2_end": 10462,
+    "heRef_2": "תרגום ותפסיר רסג 10461",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 661,
+    "line_index_2": 10463,
+    "line_index_2_end": 10464,
+    "heRef_2": "תרגום ותפסיר רסג 10463",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 663,
+    "line_index_2": 10547,
+    "line_index_2_end": 10548,
+    "heRef_2": "תרגום ותפסיר רסג 10547",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 664,
+    "line_index_2": 10555,
+    "line_index_2_end": 10556,
+    "heRef_2": "תרגום ותפסיר רסג 10555",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 666,
+    "line_index_2": 10584,
+    "line_index_2_end": 10585,
+    "heRef_2": "תרגום ותפסיר רסג 10584",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 667,
+    "line_index_2": 10602,
+    "line_index_2_end": 10603,
+    "heRef_2": "תרגום ותפסיר רסג 10602",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 668,
+    "line_index_2": 10636,
+    "line_index_2_end": 10637,
+    "heRef_2": "תרגום ותפסיר רסג 10636",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 670,
+    "line_index_2": 10663,
+    "line_index_2_end": 10664,
+    "heRef_2": "תרגום ותפסיר רסג 10663",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 671,
+    "line_index_2": 10681,
+    "line_index_2_end": 10682,
+    "heRef_2": "תרגום ותפסיר רסג 10681",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 672,
+    "line_index_2": 10697,
+    "line_index_2_end": 10698,
+    "heRef_2": "תרגום ותפסיר רסג 10697",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 674,
+    "line_index_2": 10708,
+    "line_index_2_end": 10709,
+    "heRef_2": "תרגום ותפסיר רסג 10708",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 675,
+    "line_index_2": 10720,
+    "line_index_2_end": 10721,
+    "heRef_2": "תרגום ותפסיר רסג 10720",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 677,
+    "line_index_2": 10747,
+    "line_index_2_end": 10748,
+    "heRef_2": "תרגום ותפסיר רסג 10747",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 678,
+    "line_index_2": 10753,
+    "line_index_2_end": 10754,
+    "heRef_2": "תרגום ותפסיר רסג 10753",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 679,
+    "line_index_2": 10779,
+    "line_index_2_end": 10780,
+    "heRef_2": "תרגום ותפסיר רסג 10779",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 680,
+    "line_index_2": 10781,
+    "line_index_2_end": 10782,
+    "heRef_2": "תרגום ותפסיר רסג 10781",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 681,
+    "line_index_2": 10789,
+    "line_index_2_end": 10790,
+    "heRef_2": "תרגום ותפסיר רסג 10789",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 683,
+    "line_index_2": 10814,
+    "line_index_2_end": 10815,
+    "heRef_2": "תרגום ותפסיר רסג 10814",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 684,
+    "line_index_2": 10818,
+    "line_index_2_end": 10819,
+    "heRef_2": "תרגום ותפסיר רסג 10818",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 685,
+    "line_index_2": 10820,
+    "line_index_2_end": 10821,
+    "heRef_2": "תרגום ותפסיר רסג 10820",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 686,
+    "line_index_2": 10824,
+    "line_index_2_end": 10825,
+    "heRef_2": "תרגום ותפסיר רסג 10824",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 687,
+    "line_index_2": 10832,
+    "line_index_2_end": 10833,
+    "heRef_2": "תרגום ותפסיר רסג 10832",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 689,
+    "line_index_2": 10865,
+    "line_index_2_end": 10866,
+    "heRef_2": "תרגום ותפסיר רסג 10865",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 690,
+    "line_index_2": 10867,
+    "line_index_2_end": 10868,
+    "heRef_2": "תרגום ותפסיר רסג 10867",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 691,
+    "line_index_2": 10881,
+    "line_index_2_end": 10882,
+    "heRef_2": "תרגום ותפסיר רסג 10881",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 692,
+    "line_index_2": 10889,
+    "line_index_2_end": 10890,
+    "heRef_2": "תרגום ותפסיר רסג 10889",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 694,
+    "line_index_2": 10902,
+    "line_index_2_end": 10903,
+    "heRef_2": "תרגום ותפסיר רסג 10902",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 695,
+    "line_index_2": 10924,
+    "line_index_2_end": 10925,
+    "heRef_2": "תרגום ותפסיר רסג 10924",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 697,
+    "line_index_2": 11004,
+    "line_index_2_end": 11005,
+    "heRef_2": "תרגום ותפסיר רסג 11004",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 698,
+    "line_index_2": 11018,
+    "line_index_2_end": 11019,
+    "heRef_2": "תרגום ותפסיר רסג 11018",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 700,
+    "line_index_2": 11070,
+    "line_index_2_end": 11071,
+    "heRef_2": "תרגום ותפסיר רסג 11070",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 702,
+    "line_index_2": 11161,
+    "line_index_2_end": 11162,
+    "heRef_2": "תרגום ותפסיר רסג 11161",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 704,
+    "line_index_2": 11184,
+    "line_index_2_end": 11185,
+    "heRef_2": "תרגום ותפסיר רסג 11184",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 705,
+    "line_index_2": 11198,
+    "line_index_2_end": 11199,
+    "heRef_2": "תרגום ותפסיר רסג 11198",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 707,
+    "line_index_2": 11247,
+    "line_index_2_end": 11248,
+    "heRef_2": "תרגום ותפסיר רסג 11247",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 709,
+    "line_index_2": 11268,
+    "line_index_2_end": 11269,
+    "heRef_2": "תרגום ותפסיר רסג 11268",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 710,
+    "line_index_2": 11272,
+    "line_index_2_end": 11273,
+    "heRef_2": "תרגום ותפסיר רסג 11272",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 712,
+    "line_index_2": 11333,
+    "line_index_2_end": 11334,
+    "heRef_2": "תרגום ותפסיר רסג 11333",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 713,
+    "line_index_2": 11337,
+    "line_index_2_end": 11338,
+    "heRef_2": "תרגום ותפסיר רסג 11337",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 714,
+    "line_index_2": 11339,
+    "line_index_2_end": 11340,
+    "heRef_2": "תרגום ותפסיר רסג 11339",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 716,
+    "line_index_2": 11348,
+    "line_index_2_end": 11349,
+    "heRef_2": "תרגום ותפסיר רסג 11348",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 717,
+    "line_index_2": 11350,
+    "line_index_2_end": 11351,
+    "heRef_2": "תרגום ותפסיר רסג 11350",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 718,
+    "line_index_2": 11352,
+    "line_index_2_end": 11353,
+    "heRef_2": "תרגום ותפסיר רסג 11352",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 720,
+    "line_index_2": 11455,
+    "line_index_2_end": 11456,
+    "heRef_2": "תרגום ותפסיר רסג 11455",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 722,
+    "line_index_2": 11564,
+    "line_index_2_end": 11565,
+    "heRef_2": "תרגום ותפסיר רסג 11564",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 723,
+    "line_index_2": 11572,
+    "line_index_2_end": 11573,
+    "heRef_2": "תרגום ותפסיר רסג 11572",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 724,
+    "line_index_2": 11574,
+    "line_index_2_end": 11575,
+    "heRef_2": "תרגום ותפסיר רסג 11574",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 725,
+    "line_index_2": 11586,
+    "line_index_2_end": 11587,
+    "heRef_2": "תרגום ותפסיר רסג 11586",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 727,
+    "line_index_2": 11595,
+    "line_index_2_end": 11596,
+    "heRef_2": "תרגום ותפסיר רסג 11595",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 728,
+    "line_index_2": 11599,
+    "line_index_2_end": 11600,
+    "heRef_2": "תרגום ותפסיר רסג 11599",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 729,
+    "line_index_2": 11603,
+    "line_index_2_end": 11604,
+    "heRef_2": "תרגום ותפסיר רסג 11603",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 730,
+    "line_index_2": 11605,
+    "line_index_2_end": 11606,
+    "heRef_2": "תרגום ותפסיר רסג 11605",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 731,
+    "line_index_2": 11613,
+    "line_index_2_end": 11614,
+    "heRef_2": "תרגום ותפסיר רסג 11613",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 732,
+    "line_index_2": 11623,
+    "line_index_2_end": 11624,
+    "heRef_2": "תרגום ותפסיר רסג 11623",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 733,
+    "line_index_2": 11631,
+    "line_index_2_end": 11632,
+    "heRef_2": "תרגום ותפסיר רסג 11631",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 734,
+    "line_index_2": 11633,
+    "line_index_2_end": 11634,
+    "heRef_2": "תרגום ותפסיר רסג 11633",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 736,
+    "line_index_2": 11662,
+    "line_index_2_end": 11663,
+    "heRef_2": "תרגום ותפסיר רסג 11662",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 737,
+    "line_index_2": 11672,
+    "line_index_2_end": 11673,
+    "heRef_2": "תרגום ותפסיר רסג 11672",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 738,
+    "line_index_2": 11676,
+    "line_index_2_end": 11677,
+    "heRef_2": "תרגום ותפסיר רסג 11676",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 740,
+    "line_index_2": 11697,
+    "line_index_2_end": 11698,
+    "heRef_2": "תרגום ותפסיר רסג 11697",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 741,
+    "line_index_2": 11699,
+    "line_index_2_end": 11700,
+    "heRef_2": "תרגום ותפסיר רסג 11699",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 742,
+    "line_index_2": 11701,
+    "line_index_2_end": 11702,
+    "heRef_2": "תרגום ותפסיר רסג 11701",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 743,
+    "line_index_2": 11703,
+    "line_index_2_end": 11704,
+    "heRef_2": "תרגום ותפסיר רסג 11703",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 744,
+    "line_index_2": 11707,
+    "line_index_2_end": 11708,
+    "heRef_2": "תרגום ותפסיר רסג 11707",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 745,
+    "line_index_2": 11713,
+    "line_index_2_end": 11714,
+    "heRef_2": "תרגום ותפסיר רסג 11713",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 746,
+    "line_index_2": 11717,
+    "line_index_2_end": 11718,
+    "heRef_2": "תרגום ותפסיר רסג 11717",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 747,
+    "line_index_2": 11739,
+    "line_index_2_end": 11740,
+    "heRef_2": "תרגום ותפסיר רסג 11739",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 748,
+    "line_index_2": 11759,
+    "line_index_2_end": 11760,
+    "heRef_2": "תרגום ותפסיר רסג 11759",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 749,
+    "line_index_2": 11773,
+    "line_index_2_end": 11774,
+    "heRef_2": "תרגום ותפסיר רסג 11773",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 750,
+    "line_index_2": 11781,
+    "line_index_2_end": 11782,
+    "heRef_2": "תרגום ותפסיר רסג 11781",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 752,
+    "line_index_2": 11802,
+    "line_index_2_end": 11803,
+    "heRef_2": "תרגום ותפסיר רסג 11802",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 753,
+    "line_index_2": 11804,
+    "line_index_2_end": 11805,
+    "heRef_2": "תרגום ותפסיר רסג 11804",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 754,
+    "line_index_2": 11808,
+    "line_index_2_end": 11809,
+    "heRef_2": "תרגום ותפסיר רסג 11808",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 755,
+    "line_index_2": 11822,
+    "line_index_2_end": 11823,
+    "heRef_2": "תרגום ותפסיר רסג 11822",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 756,
+    "line_index_2": 11838,
+    "line_index_2_end": 11839,
+    "heRef_2": "תרגום ותפסיר רסג 11838",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 758,
+    "line_index_2": 11861,
+    "line_index_2_end": 11862,
+    "heRef_2": "תרגום ותפסיר רסג 11861",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 759,
+    "line_index_2": 11875,
+    "line_index_2_end": 11876,
+    "heRef_2": "תרגום ותפסיר רסג 11875",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 760,
+    "line_index_2": 11883,
+    "line_index_2_end": 11884,
+    "heRef_2": "תרגום ותפסיר רסג 11883",
+    "path_2": "תרגום ותפסיר רסג.txt",
+    "Conection Type": "source"
+  }
+]
