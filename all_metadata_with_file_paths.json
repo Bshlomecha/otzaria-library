@@ -405442,6 +405442,31 @@
   },
   {
     "heAuthors": [
+      "חיים חזקיהו מדיני"
+    ],
+    "title": "שדי חמד כללים מערכת ש",
+    "enTitle": "Sdei Chemed Kelalim Maarechet Shin",
+    "authors": [
+      "Chaim Hezekiah Medini"
+    ],
+    "pubDate": null,
+    "pubDateHeb": null,
+    "pubPlaceStringEn": null,
+    "pubPlaceStringHe": null,
+    "heCategories": [
+      "ספרות עזר",
+      "אנציקלופדיות",
+      "שדי חמד"
+    ],
+    "categories": [
+      "Reference"
+    ],
+    "publisher": "ים החכמה",
+    "Sourcefolder": "yam-HaHachma",
+    "file_path": "yam-HaHachmaToOtzaria/ספרים/אוצריא/ספרות עזר/אנציקלופדיות/שדי חמד/שדי חמד כללים מערכת ש.txt"
+  },
+  {
+    "heAuthors": [
       "יום טוב ליפמן הלפרין"
     ],
     "title": "קדושת יום טוב (ליפמן)",
