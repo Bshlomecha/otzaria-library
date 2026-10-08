@@ -4,8 +4,8 @@
     python3 install.py --src <tmp>/out            # הרצה יבשה
     python3 install.py --src <tmp>/out --apply
 
-- "פירוש הגרא על משלי" → תנך/אחרונים (חדש), "רבינו יונה על משלי" → תנך/ראשונים
-  (מחליף את הקובץ החלקי הקיים, אותו שם ונתיב). ספרי ההערות לצד כל ספר.
+- "פירוש הגרא על משלי" → תנך/אחרונים/פירוש הגרא (הערותיו ב־תנך/אחרונים),
+  "רבינו יונה על משלי" והערותיו → תנך/ראשונים. היעדים הם המקומות הקיימים בריפו.
 - קובצי הקישורים → MoreBooks/links.
 - metadata.json / ForDB/all_metadata.json / ForDB/book_info.csv: רק שורות חסרות;
   ספרי ההערות ממוזגים בבניית ה-DB ולכן *אין* להם רשומה.
@@ -31,11 +31,21 @@ TANAKH = os.path.join(REPO, 'MoreBooks/ספרים/אוצריא/תנך')
 LINKS_DIR = os.path.join(REPO, 'MoreBooks/links')
 NOTES_PREFIX = 'הערות על '
 BOOKS = {
-    'פירוש הגרא על משלי': {'dir': 'אחרונים', 'author': 'אליהו בן שלמה זלמן מווילנה',
+    'פירוש הגרא על משלי': {'dir': 'אחרונים/פירוש הגרא', 'notes_dir': 'אחרונים',
+                           'author': 'אליהו בן שלמה זלמן מווילנה',
                            'generation': 'אחרונים'},
     'רבינו יונה על משלי': {'dir': 'ראשונים', 'author': 'רבינו יונה',
                            'generation': 'ראשונים'},
 }
+
+
+def book_targets(src):
+    """(src, dst) לכל ספר ולספר ההערות שלו, ב־TANAKH."""
+    for t, b in BOOKS.items():
+        yield (os.path.join(src, t + '.txt'), os.path.join(TANAKH, b['dir'], t + '.txt'))
+        n = NOTES_PREFIX + t
+        yield (os.path.join(src, n + '.txt'),
+               os.path.join(TANAKH, b.get('notes_dir', b['dir']), n + '.txt'))
 
 
 def dump_meta(meta):
@@ -60,13 +70,12 @@ def main():
     a = ap.parse_args()
 
     files = []   # (src, dst)
-    for t, b in BOOKS.items():
-        for name in (t, NOTES_PREFIX + t):
-            s = os.path.join(a.src, name + '.txt')
-            if name == t and not os.path.isfile(s):
-                raise SystemExit('missing in --src: %s' % s)
-            if os.path.isfile(s):
-                files.append((s, os.path.join(TANAKH, b['dir'], name + '.txt')))
+    for s, d in book_targets(a.src):
+        if os.path.isfile(s):
+            files.append((s, d))
+        elif not os.path.basename(s).startswith(NOTES_PREFIX):
+            raise SystemExit('missing in --src: %s' % s)
+    for t in BOOKS:
         s = os.path.join(a.src, t + '_links.json')
         if not os.path.isfile(s):
             raise SystemExit('missing in --src: %s' % s)

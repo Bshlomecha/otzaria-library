@@ -4,7 +4,7 @@ from lxml import etree
 W='{http://schemas.openxmlformats.org/wordprocessingml/2006/main}'
 H=re.compile(r'[֐-׿]+'); mask=lambda s:H.sub('*',s)
 import os,zipfile
-REPO=os.path.abspath(os.path.join(os.path.dirname(__file__),'..','..'))
+REPO=os.path.abspath(os.path.join(os.path.dirname(__file__),'..','..','..'))
 DOCX=os.path.join(REPO,'extraBooks','ספרים פרטיים ועוד',"חזון למועד ג' שערים.docx")
 XML=zipfile.ZipFile(DOCX).read('word/document.xml')
 doc=etree.fromstring(XML).getroottree(); body=doc.getroot().find(W+'body')

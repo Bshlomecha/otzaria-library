@@ -106,7 +106,7 @@ jobs:
           set -euo pipefail
           python3 -m unittest discover -v -s "DictaToOtzaria/סקריפטים/tests"
 
-      # install.py של MoreBooks נטענים לבד ומוצאים את שורש הריפו (נתיבים לפי מיקום הקובץ).
+      # install.py של MoreBooks נטענים לבד, מוצאים את שורש הריפו ויעדיהם קיימים בעץ (git ls-tree).
       - name: MoreBooks install scripts
         working-directory: MoreBooks/סקריפטים
         env:

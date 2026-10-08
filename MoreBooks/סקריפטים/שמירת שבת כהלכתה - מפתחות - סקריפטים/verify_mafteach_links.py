@@ -8,7 +8,7 @@
 ("שמירת שבת כהלכתה, [מבוא להלכות שבת, ]פרק X סעיף Y" / "סעיפים Y-Z" / "הערה Y"),
 והסקריפט מוודא שהשורה N היא אכן אותו סעיף (או נושאת את סמן ההערה) באותו פרק.
 
-הרצה משורש המאגר:  python3 "MoreBooks/שמירת שבת כהלכתה - מפתחות - סקריפטים/verify_mafteach_links.py"
+הרצה משורש המאגר:  python3 "MoreBooks/סקריפטים/שמירת שבת כהלכתה - מפתחות - סקריפטים/verify_mafteach_links.py"
 יוצא בקוד 1 אם נמצאה שורה שזזה.
 """
 import os
@@ -17,7 +17,7 @@ import sys
 from urllib.parse import parse_qs, unquote, urlsplit
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-REPO = os.path.abspath(os.path.join(HERE, '..', '..'))
+REPO = os.path.abspath(os.path.join(HERE, '..', '..', '..'))
 DIR = os.path.join(REPO, 'MoreBooks', 'ספרים', 'אוצריא', 'הלכה', 'מחברי זמננו')
 INDEX = os.path.join(DIR, 'שמירת שבת כהלכתה - מפתחות.txt')
 BASE_TITLE = 'שמירת שבת כהלכתה - א'

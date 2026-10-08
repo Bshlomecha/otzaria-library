@@ -1,7 +1,7 @@
 """character-level preservation check: docx text vs the book file (Hebrew masked in output)."""
 import re,html,difflib,sys
 import os,zipfile
-REPO=os.path.abspath(os.path.join(os.path.dirname(__file__),'..','..'))
+REPO=os.path.abspath(os.path.join(os.path.dirname(__file__),'..','..','..'))
 X=zipfile.ZipFile(os.path.join(REPO,'extraBooks','ספרים פרטיים ועוד',"חזון למועד ג' שערים.docx")).read('word/document.xml').decode('utf-8')
 body=X[X.index('<w:body>'):]
 paras=[];depth=0;start=None
