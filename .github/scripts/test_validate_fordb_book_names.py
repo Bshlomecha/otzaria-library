@@ -150,14 +150,22 @@ class SefariaDisplayTitleTest(unittest.TestCase):
         self.assertEqual(validator.sefaria_display_title('רש"י על ברכות', "Rashi"), 'רש"י על ברכות')
         self.assertEqual(validator.sefaria_display_title("ברכות", None), "ברכות")
 
-    def test_the_index_yields_both_titles_during_the_transition(self):
-        index = [{"contents": [
-            {"heTitle": "חידושי אגדות על ברכות", "collectiveTitle": "Chidushei Agadot"},
-            {"heTitle": "ברכות"},
-        ]}]
+    INDEX = [{"contents": [
+        {"heTitle": "חידושי אגדות על ברכות", "collectiveTitle": "Chidushei Agadot"},
+        {"heTitle": "ברכות"},
+    ]}]
+
+    def test_the_index_yields_only_the_db_title(self):
+        # heTitle of a prefixed book is not a book.title: a row under it would match nothing.
         self.assertEqual(
-            validator.index_titles(index),
-            {"חידושי אגדות על ברכות", 'מהרש"א - חידושי אגדות על ברכות', "ברכות"},
+            validator.index_titles(self.INDEX),
+            {'מהרש"א - חידושי אגדות על ברכות', "ברכות"},
+        )
+
+    def test_display_renames_list_only_prefixed_books(self):
+        self.assertEqual(
+            validator.index_display_renames(self.INDEX),
+            {"חידושי אגדות על ברכות": 'מהרש"א - חידושי אגדות על ברכות'},
         )
 
 
