@@ -129,6 +129,46 @@ class DeadRenameTest(unittest.TestCase):
         self.assertEqual(validator.find_dead_renames([(2, self.STALE_SOURCE, "x")], set()), [])
 
 
+class SefariaDisplayTitleTest(unittest.TestCase):
+    """`sefaria_display_title` must mirror sefariaDisplayTitle in SefariaBookTitles.kt."""
+
+    def test_maharsha_collections_get_the_author_prefix(self):
+        self.assertEqual(
+            validator.sefaria_display_title("חידושי אגדות על חולין", "Chidushei Agadot"),
+            'מהרש"א - חידושי אגדות על חולין',
+        )
+        self.assertEqual(
+            validator.sefaria_display_title("חדושי הלכות על שבת", "Chidushei Halachot"),
+            'מהרש"א - חדושי הלכות על שבת',
+        )
+
+    def test_a_title_that_already_names_him_is_kept(self):
+        title = 'מהרש"א חידושי אגדות על ברכות'
+        self.assertEqual(validator.sefaria_display_title(title, "Chidushei Agadot"), title)
+
+    def test_other_books_keep_their_title(self):
+        self.assertEqual(validator.sefaria_display_title('רש"י על ברכות', "Rashi"), 'רש"י על ברכות')
+        self.assertEqual(validator.sefaria_display_title("ברכות", None), "ברכות")
+
+    INDEX = [{"contents": [
+        {"heTitle": "חידושי אגדות על ברכות", "collectiveTitle": "Chidushei Agadot"},
+        {"heTitle": "ברכות"},
+    ]}]
+
+    def test_the_index_yields_only_the_db_title(self):
+        # heTitle of a prefixed book is not a book.title: a row under it would match nothing.
+        self.assertEqual(
+            validator.index_titles(self.INDEX),
+            {'מהרש"א - חידושי אגדות על ברכות', "ברכות"},
+        )
+
+    def test_display_renames_list_only_prefixed_books(self):
+        self.assertEqual(
+            validator.index_display_renames(self.INDEX),
+            {"חידושי אגדות על ברכות": 'מהרש"א - חידושי אגדות על ברכות'},
+        )
+
+
 class PendingRenameMapTest(unittest.TestCase):
     """A PR that renames a book file must be checked as it will be after merge."""
 

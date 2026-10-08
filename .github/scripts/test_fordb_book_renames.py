@@ -716,6 +716,90 @@ class SparsePartialCloneTest(unittest.TestCase):
         self.assertTrue(any(line.startswith("R100") for line in status.splitlines()), status)
 
 
+# The real fetch path, reading a Sefaria index fixture instead of the network.
+INDEX_RUNNER = r"""
+import sys
+sys.path.insert(0, sys.argv[1])
+import validate_fordb_book_names as v
+v.SEFARIA_FETCH = True
+v.SEFARIA_INDEX_URL = sys.argv[2]
+sys.argv = ["validate_fordb_book_names.py"] + sys.argv[3:]
+sys.exit(v.main())
+"""
+
+MAHARSHA_HE = "חידושי אגדות על ברכות"
+MAHARSHA = 'מהרש"א - ' + MAHARSHA_HE
+
+
+class SefariaDisplayTitleRenameTest(FixtureTestCase):
+    """otzaria-library#105: rows renamed to the generator's book.title, with identity events."""
+
+    def setUp(self):
+        super().setUp()
+        index = [{"contents": [{"heTitle": t} for t in SEFARIA_STUB]
+                  + [{"heTitle": MAHARSHA_HE, "collectiveTitle": "Chidushei Agadot"}]}]
+        self.index = Path(self.tmp) / "index.json"
+        self.index.write_text(json.dumps(index, ensure_ascii=False), encoding="utf-8")
+        canonical = json.loads(self.repo.read("all_metadata_with_file_paths.json"))
+        canonical.append({"title": MAHARSHA_HE, "Sourcefolder": "sefaria"})
+        self.repo.write({
+            "all_metadata_with_file_paths.json": json.dumps(canonical, ensure_ascii=False, indent=2) + "\n",
+            "ForDB/book_info.csv": self.repo.read("ForDB/book_info.csv")
+            + f'"{MAHARSHA_HE}","שמואל אליעזר אדלס","אחרונים","","",""\n',
+            "ForDB/sefaria_metadata_changes.csv": self.repo.read("ForDB/sefaria_metadata_changes.csv")
+            + f'"תלמוד","{MAHARSHA_HE}","","קצר","",""\n',
+        })
+        self.before_rename = self.repo.commit("rows under heTitle")
+
+    def rename(self):
+        for path in ("ForDB/book_info.csv", "ForDB/sefaria_metadata_changes.csv"):
+            text = self.repo.read(path).replace(f'"{MAHARSHA_HE}"', '"' + MAHARSHA.replace('"', '""') + '"')
+            self.repo.write({path: text})
+        info = renames.sort_csv_records(self.repo.read("ForDB/book_info.csv").encode("utf-8"), ("bookName", "authorName"))
+        self.repo.write({"ForDB/book_info.csv": info.decode("utf-8")})
+        author = "שמואל אליעזר אדלס"
+        ledger = {"schemaVersion": 1, "events": [{
+            "id": 1, "kind": "rename",
+            "old": {"bookName": MAHARSHA_HE, "authorName": author},
+            "new": {"bookName": MAHARSHA, "authorName": author},
+            "commit": self.before_rename}]}
+        self.repo.write({"ForDB/book_info_identity.json": json.dumps(ledger, ensure_ascii=False, indent=2) + "\n"})
+        return self.repo.commit("rename to the display title")
+
+    def run_index(self, *args):
+        env = dict(os.environ, PYTHONIOENCODING="utf-8", SEFARIA_FETCH="1", PYTHONDONTWRITEBYTECODE="1")
+        result = subprocess.run(
+            [sys.executable, "-c", INDEX_RUNNER, os.path.join(self.repo.root, ".github", "scripts"),
+             self.index.as_uri(), *args],
+            capture_output=True, cwd=self.repo.root, env=env,
+        )
+        return result.returncode, result.stdout.decode("utf-8") + result.stderr.decode("utf-8")
+
+    def test_heTitle_rows_of_a_prefixed_book_fail_a_pull_request(self):
+        code, output = self.run_index("--rename-base", self.repo.base)
+        self.assertEqual(code, 1, output)
+        self.assertIn("ForDB/book_info.csv (1)", output)
+        self.assertIn("ForDB/sefaria_metadata_changes.csv (1)", output)
+        self.assertEqual(self.repo.git("status", "--porcelain"), "")
+
+    def test_renamed_rows_pass_a_pull_request(self):
+        self.rename()
+        code, output = self.run_index("--rename-base", self.before_rename)
+        self.assertEqual(code, 0, output)
+        self.assertEqual(self.repo.git("status", "--porcelain"), "")
+
+    def test_fix_on_main_keeps_the_renamed_rows_and_the_ledger(self):
+        self.rename()
+        before = {p: self.repo.read(p) for p in (
+            "ForDB/book_info.csv", "ForDB/sefaria_metadata_changes.csv", "ForDB/book_info_identity.json")}
+        code, output = self.run_index("--fix", "--rename-base", self.before_rename)
+        self.assertEqual(code, 0, output)
+        self.assertEqual(self.repo.touched(), [])
+        self.assertEqual(self.repo.git("status", "--porcelain"), "")
+        self.assertEqual({p: self.repo.read(p) for p in before}, before)
+        self.assertIn(MAHARSHA.replace('"', '""'), before["ForDB/book_info.csv"])
+
+
 class EditorUnitTest(unittest.TestCase):
     def test_csv_edit_keeps_every_other_byte(self):
         data = ('\ufeffa,b\r\n"x ""q""",1\r\ny,"multi\nline"\r\nz,3').encode("utf-8")

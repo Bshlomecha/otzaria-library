@@ -443,6 +443,9 @@ def load_canonical(srename):
         if live is None:
             print("::error::משיכת השמות מספריא נכשלה ו-SEFARIA_FETCH=1 — לא מאמתים מול רשימה חלקית; הריצו שוב.")
             sys.exit(2)
+        # רשומות ספריא ב-all_metadata נושאות heTitle; ב-DB הספר נקרא בכותרת התצוגה.
+        display = {sanitize_title(he): sanitize_title(t) for he, t in _SEFARIA_DISPLAY_RENAMES.items()}
+        sefaria = {display.get(t, t) for t in sefaria}
         before = len(sefaria)
         sefaria |= clean_titles(live)
         print(f"[canonical] נמשכו {len(live)} שמות חיים מספריא; נוספו {len(sefaria) - before} חדשים (union)")
@@ -470,7 +473,7 @@ def sefaria_live_titles():
 
 
 def fetch_sefaria_titles():
-    """מושך את עץ התוכן של ספריא ומחזיר set של heTitle *גולמיים*. None בכשל."""
+    """מושך את עץ התוכן של ספריא ומחזיר set של book.title של ספרי ספריא (index_titles). None בכשל."""
     try:
         req = urllib.request.Request(
             SEFARIA_INDEX_URL,
@@ -482,7 +485,29 @@ def fetch_sefaria_titles():
         print(f"::warning::משיכת השמות מספריא נכשלה ({e}).")
         return None
 
-    titles = set()
+    _SEFARIA_DISPLAY_RENAMES.clear()
+    _SEFARIA_DISPLAY_RENAMES.update(index_display_renames(data))
+    return index_titles(data)
+
+
+# העתק של authorPrefixesByCollectiveTitle ב-SefariaBookTitles.kt (SeforimLibrary).
+SEFARIA_AUTHOR_PREFIXES = {
+    "Chidushei Agadot": 'מהרש"א',
+    "Chidushei Halachot": 'מהרש"א',
+}
+
+
+def sefaria_display_title(he_title, collective_title_en):
+    """book.title של ספר ספריא — העתק מדויק של sefariaDisplayTitle ב-SefariaBookTitles.kt."""
+    prefix = SEFARIA_AUTHOR_PREFIXES.get(collective_title_en)
+    if prefix is None or he_title.startswith(prefix):
+        return he_title
+    return f"{prefix} - {he_title}"
+
+
+def _index_books(data):
+    """(heTitle, collectiveTitle) של כל ספר בעץ התוכן של ספריא."""
+    books = []
 
     def walk(node):
         if isinstance(node, list):
@@ -491,13 +516,31 @@ def fetch_sefaria_titles():
         elif isinstance(node, dict):
             if "contents" in node:
                 walk(node["contents"])
-            else:
-                he = node.get("heTitle")
-                if he:
-                    titles.add(he)
+            elif node.get("heTitle"):
+                books.append((node["heTitle"], node.get("collectiveTitle")))
 
     walk(data)
-    return titles
+    return books
+
+
+def index_titles(data):
+    """book.title של כל ספר בעץ התוכן — כותרת התצוגה בלבד. heTitle של ספר שמקבל
+    קידומת אינו book.title, ושורת ForDB בשם הזה לא תותאם."""
+    return {sefaria_display_title(he, collective) for he, collective in _index_books(data)}
+
+
+def index_display_renames(data):
+    """heTitle -> כותרת התצוגה, רק לספרים שהמחולל משנה את שמם."""
+    renames = {}
+    for he, collective in _index_books(data):
+        display = sefaria_display_title(he, collective)
+        if display != he:
+            renames[he] = display
+    return renames
+
+
+# heTitle -> book.title מהמשיכה החיה; ממפה את רשומות ספריא ב-all_metadata (שם heTitle).
+_SEFARIA_DISPLAY_RENAMES = {}
 
 
 # ---------------------------------------------------------------------------

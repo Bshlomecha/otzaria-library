@@ -70,6 +70,890 @@
       },
       "commit": null,
       "changeSetId": "6ac64b1d05621ef97d68df31"
+    },
+    {
+      "id": 6,
+      "kind": "rename",
+      "old": {
+        "bookName": "חדושי הלכות על בבא בתרא",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חדושי הלכות על בבא בתרא",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 7,
+      "kind": "rename",
+      "old": {
+        "bookName": "חדושי הלכות על בבא מציעא",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חדושי הלכות על בבא מציעא",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 8,
+      "kind": "rename",
+      "old": {
+        "bookName": "חדושי הלכות על בבא קמא",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חדושי הלכות על בבא קמא",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 9,
+      "kind": "rename",
+      "old": {
+        "bookName": "חדושי הלכות על ביצה",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חדושי הלכות על ביצה",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 10,
+      "kind": "rename",
+      "old": {
+        "bookName": "חדושי הלכות על בכורות",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חדושי הלכות על בכורות",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 11,
+      "kind": "rename",
+      "old": {
+        "bookName": "חדושי הלכות על גיטין",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חדושי הלכות על גיטין",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 12,
+      "kind": "rename",
+      "old": {
+        "bookName": "חדושי הלכות על הוריות",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חדושי הלכות על הוריות",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 13,
+      "kind": "rename",
+      "old": {
+        "bookName": "חדושי הלכות על חולין",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חדושי הלכות על חולין",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 14,
+      "kind": "rename",
+      "old": {
+        "bookName": "חדושי הלכות על יבמות",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חדושי הלכות על יבמות",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 15,
+      "kind": "rename",
+      "old": {
+        "bookName": "חדושי הלכות על מכות",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חדושי הלכות על מכות",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 16,
+      "kind": "rename",
+      "old": {
+        "bookName": "חדושי הלכות על מנחות",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חדושי הלכות על מנחות",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 17,
+      "kind": "rename",
+      "old": {
+        "bookName": "חדושי הלכות על נדרים",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חדושי הלכות על נדרים",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 18,
+      "kind": "rename",
+      "old": {
+        "bookName": "חדושי הלכות על סוטה",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חדושי הלכות על סוטה",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 19,
+      "kind": "rename",
+      "old": {
+        "bookName": "חדושי הלכות על סוכה",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חדושי הלכות על סוכה",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 20,
+      "kind": "rename",
+      "old": {
+        "bookName": "חדושי הלכות על סנהדרין",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חדושי הלכות על סנהדרין",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 21,
+      "kind": "rename",
+      "old": {
+        "bookName": "חדושי הלכות על עבודה זרה",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חדושי הלכות על עבודה זרה",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 22,
+      "kind": "rename",
+      "old": {
+        "bookName": "חדושי הלכות על פסחים",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חדושי הלכות על פסחים",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 23,
+      "kind": "rename",
+      "old": {
+        "bookName": "חדושי הלכות על קידושין",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חדושי הלכות על קידושין",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 24,
+      "kind": "rename",
+      "old": {
+        "bookName": "חדושי הלכות על ראש השנה",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חדושי הלכות על ראש השנה",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 25,
+      "kind": "rename",
+      "old": {
+        "bookName": "חדושי הלכות על שבועות",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חדושי הלכות על שבועות",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 26,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על בבא בתרא",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על בבא בתרא",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 27,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על בבא מציעא",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על בבא מציעא",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 28,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על בבא קמא",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על בבא קמא",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 29,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על ביצה",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על ביצה",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 30,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על בכורות",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על בכורות",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 31,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על ברכות",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על ברכות",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 32,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על גיטין",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על גיטין",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 33,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על הוריות",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על הוריות",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 34,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על זבחים",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על זבחים",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 35,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על חגיגה",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על חגיגה",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 36,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על חולין",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על חולין",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 37,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על יבמות",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על יבמות",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 38,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על יומא",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על יומא",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 39,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על כריתות",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על כריתות",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 40,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על כתובות",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על כתובות",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 41,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על מגילה",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על מגילה",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 42,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על מועד קטן",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על מועד קטן",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 43,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על מכות",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על מכות",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 44,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על מנחות",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על מנחות",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 45,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על מעילה",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על מעילה",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 46,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על נדה",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על נדה",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 47,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על נדרים",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על נדרים",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 48,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על נזיר",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על נזיר",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 49,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על סוטה",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על סוטה",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 50,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על סוכה",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על סוכה",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 51,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על סנהדרין",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על סנהדרין",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 52,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על עבודה זרה",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על עבודה זרה",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 53,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על עירובין",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על עירובין",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 54,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על ערכין",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על ערכין",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 55,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על פסחים",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על פסחים",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 56,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על קידושין",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על קידושין",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 57,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על ראש השנה",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על ראש השנה",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 58,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על שבועות",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על שבועות",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 59,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על שבת",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על שבת",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 60,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על תמורה",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על תמורה",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 61,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על תמיד",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על תמיד",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 62,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי אגדות על תענית",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי אגדות על תענית",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 63,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי הלכות על ברכות",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי הלכות על ברכות",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 64,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי הלכות על חגיגה",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי הלכות על חגיגה",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 65,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי הלכות על יומא",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי הלכות על יומא",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 66,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי הלכות על מגילה",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי הלכות על מגילה",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 67,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי הלכות על מועד קטן",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי הלכות על מועד קטן",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 68,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי הלכות על מסכת כתובות",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי הלכות על מסכת כתובות",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 69,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי הלכות על מסכת נדה",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי הלכות על מסכת נדה",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 70,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי הלכות על עירובין",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי הלכות על עירובין",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 71,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי הלכות על שבת",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי הלכות על שבת",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 72,
+      "kind": "rename",
+      "old": {
+        "bookName": "חידושי הלכות על תענית",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - חידושי הלכות על תענית",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
+    },
+    {
+      "id": 73,
+      "kind": "rename",
+      "old": {
+        "bookName": "יבמות מהדורא בתרא",
+        "authorName": "מהרש\"א"
+      },
+      "new": {
+        "bookName": "מהרש\"א - יבמות מהדורא בתרא",
+        "authorName": "מהרש\"א"
+      },
+      "commit": "3e74fb12842122af805a52e3a854250a12c6b68c"
     }
   ]
 }
