@@ -399459,6 +399459,30 @@
   },
   {
     "heAuthors": [
+      "חיים חזקיהו מדיני"
+    ],
+    "title": "שדי חמד כללים מערכת ר",
+    "enTitle": "Sdei Chemed Kelalim Maarechet Resh",
+    "authors": [
+      "Chaim Hezekiah Medini"
+    ],
+    "pubDate": null,
+    "pubDateHeb": null,
+    "pubPlaceStringEn": null,
+    "pubPlaceStringHe": null,
+    "heCategories": [
+      "ספרות עזר",
+      "אנציקלופדיות",
+      "שדי חמד"
+    ],
+    "categories": [
+      "Reference"
+    ],
+    "publisher": "ים החכמה",
+    "Sourcefolder": "yam-HaHachma"
+  },
+  {
+    "heAuthors": [
       "נפתלי הירץ מלעכוויטש"
     ],
     "title": "בית אבות על מסכת אבות",
