@@ -1,6 +1,9 @@
 import subprocess
 from pathlib import Path
 
+# dar = dar.js 0.3.2 (gitlab.com/pninim/dar/dar.js, 465af5e) עם dar_insert_pattern.patch:
+# בלי התיקון "{x}" תופס עד ה-} האחרון בשורה, ופסקה כזו נבלעת ושאר הספר יכול להיעלם (שו"ת מוהרץ)
+
 dar_files_path = Path("/workspaces/patriots/new/pninim")
 target_folder = Path("/workspaces/patriots/new/html")
 
