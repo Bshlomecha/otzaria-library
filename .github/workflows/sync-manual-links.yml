@@ -75,7 +75,23 @@ jobs:
       EXPECTED_OLD_CONFIG_SHA: ${{ inputs.expected_old_config_sha256 }}
       EXPECTED_OLD_TOOL_COMMIT: ${{ inputs.expected_old_tool_commit }}
     steps:
+      # ה-runner מגיע עם ~87GB פנויים. השיא של ה-job כ-40GB (שני עצי עבודה של ~11GB,
+      # .git ו-export של ספריא), ולכן הסף גבוה מזה של שאר ה-workflows; הניקוי לקח 127-180 שניות.
+      - name: Check free disk space
+        id: disk
+        run: |
+          set -euo pipefail
+          df -h /
+          AVAIL_GB=$(df -BG --output=avail / | tail -1 | tr -dc '0-9')
+          echo "available=${AVAIL_GB}GB"
+          if [ "$AVAIL_GB" -lt 65 ]; then
+            echo "low=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "low=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Free disk space for the verified Sefaria export
+        if: ${{ steps.disk.outputs.low == 'true' }}
         uses: jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be
         with:
           # Measured on run 33990185407: these four free 25.3GiB in 151s. large-packages

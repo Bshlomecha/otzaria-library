@@ -124,7 +124,23 @@ jobs:
       # itself re-runs the same collector as an exact pre-mutation preflight (defence
       # in depth), so a rule that only breaks against next week's tree still fails
       # loudly before any mutation.
+      # ה-runner מגיע עם ~86GB פנויים והשיא של ה-dry-run כ-8-12GB, והניקוי לקח 2-11 דקות.
+      # מנקים רק אם המקום הפנוי נמוך מהסף.
+      - name: Check free disk space
+        id: disk
+        run: |
+          set -euo pipefail
+          df -h /
+          AVAIL_GB=$(df -BG --output=avail / | tail -1 | tr -dc '0-9')
+          echo "available=${AVAIL_GB}GB"
+          if [ "$AVAIL_GB" -lt 40 ]; then
+            echo "low=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "low=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Free disk space for the released DB dry-run
+        if: ${{ steps.disk.outputs.low == 'true' }}
         uses: jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be
         with:
           tool-cache: true

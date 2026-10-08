@@ -143,7 +143,22 @@ jobs:
       EXPECTED_COMMIT: ${{ inputs.expected_links_commit }}
       CORRELATION_ID: ${{ inputs.correlation_id }}
     steps:
+      # ה-runner מגיע עם ~87GB פנויים והשיא של ה-job כ-23-30GB; הניקוי לקח 37-155 שניות.
+      # מנקים רק אם המקום הפנוי נמוך מהסף.
+      - name: Check free disk space
+        id: disk
+        run: |
+          set -euo pipefail
+          df -h /
+          AVAIL_GB=$(df -BG --output=avail / | tail -1 | tr -dc '0-9')
+          echo "available=${AVAIL_GB}GB"
+          if [ "$AVAIL_GB" -lt 40 ]; then
+            echo "low=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "low=false" >> "$GITHUB_OUTPUT"
+          fi
       - name: Free disk space for reproducible archives
+        if: ${{ steps.disk.outputs.low == 'true' }}
         uses: jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be
         with:
           # Measured on run 33990868742: these four free 25.3GiB in 151s of the step's
