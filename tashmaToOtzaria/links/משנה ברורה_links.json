@@ -172383,7 +172383,7 @@
  {
   "line_index_1": 15984,
   "ref_1": "Mishnah Berurah,  586:8",
-  "anchor_src_hash": "sha256:98fe47e7e0a67c2dae1cfe9623850ca9e77321720bd9263bd8fab61f1ce769ad",
+  "anchor_src_hash": "sha256:f7f5084cb2f56d1099fdd430cd0391f020f8b1ceb28ce432c6d6a301ee9c6c25",
   "anchor_context": {"before":"(ח) וכן שופר מבהמה טמאה - וכמו ","after":"דלא הוכשרו תפילין ליעשות מעור בה"},
   "heRef_2": "שער הציון, סימן תקפו, סעיף ח אות יג",
   "path_2": "שער הציון.txt",
@@ -172394,7 +172394,7 @@
  {
   "line_index_1": 15984,
   "ref_1": "Mishnah Berurah,  586:8",
-  "anchor_src_hash": "sha256:98fe47e7e0a67c2dae1cfe9623850ca9e77321720bd9263bd8fab61f1ce769ad",
+  "anchor_src_hash": "sha256:f7f5084cb2f56d1099fdd430cd0391f020f8b1ceb28ce432c6d6a301ee9c6c25",
   "anchor_context": {"before":"ת מעור בהמה טמאה וכתבו האחרונים ","after":"שאין דין זה ברור ולהכי אם אין לו"},
   "heRef_2": "שער הציון, סימן תקפו, סעיף ח אות יד",
   "path_2": "שער הציון.txt",
@@ -172405,7 +172405,7 @@
  {
   "line_index_1": 15984,
   "ref_1": "Mishnah Berurah,  586:8",
-  "anchor_src_hash": "sha256:98fe47e7e0a67c2dae1cfe9623850ca9e77321720bd9263bd8fab61f1ce769ad",
+  "anchor_src_hash": "sha256:f7f5084cb2f56d1099fdd430cd0391f020f8b1ceb28ce432c6d6a301ee9c6c25",
   "anchor_context": {"before":"להכי אם אין לו שופר אחר יתקע בו ","after":"אכן לא יברך עליו דשמא הוא פסול מ"},
   "heRef_2": "שער הציון, סימן תקפו, סעיף ח אות טו",
   "path_2": "שער הציון.txt",
@@ -172416,12 +172416,12 @@
  {
   "line_index_1": 15984,
   "ref_1": "Mishnah Berurah,  586:8",
-  "anchor_src_hash": "sha256:98fe47e7e0a67c2dae1cfe9623850ca9e77321720bd9263bd8fab61f1ce769ad",
-  "anchor_context": {"before":"דשמא כבר יצא בשופר בשופר הראשון ","after":"ולכו\"ע שופר של נבילה וטריפה כשר "},
+  "anchor_src_hash": "sha256:f7f5084cb2f56d1099fdd430cd0391f020f8b1ceb28ce432c6d6a301ee9c6c25",
+  "anchor_context": {"before":" ברכה דשמא כבר יצא בשופר הראשון ","after":"ולכו\"ע שופר של נבילה וטריפה כשר "},
   "heRef_2": "שער הציון, סימן תקפו, סעיף ח אות טז",
   "path_2": "שער הציון.txt",
   "line_index_2": 16263,
-  "start": 265,
+  "start": 259,
   "Conection Type": "commentary"
  },
  {
