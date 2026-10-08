@@ -470,7 +470,7 @@ def sefaria_live_titles():
 
 
 def fetch_sefaria_titles():
-    """מושך את עץ התוכן של ספריא ומחזיר set של heTitle *גולמיים*. None בכשל."""
+    """מושך את עץ התוכן של ספריא ומחזיר set של כותרות *גולמיות* (index_titles). None בכשל."""
     try:
         req = urllib.request.Request(
             SEFARIA_INDEX_URL,
@@ -482,6 +482,27 @@ def fetch_sefaria_titles():
         print(f"::warning::משיכת השמות מספריא נכשלה ({e}).")
         return None
 
+    return index_titles(data)
+
+
+# העתק של authorPrefixesByCollectiveTitle ב-SefariaBookTitles.kt (SeforimLibrary).
+SEFARIA_AUTHOR_PREFIXES = {
+    "Chidushei Agadot": 'מהרש"א',
+    "Chidushei Halachot": 'מהרש"א',
+}
+
+
+def sefaria_display_title(he_title, collective_title_en):
+    """book.title של ספר ספריא — העתק מדויק של sefariaDisplayTitle ב-SefariaBookTitles.kt."""
+    prefix = SEFARIA_AUTHOR_PREFIXES.get(collective_title_en)
+    if prefix is None or he_title.startswith(prefix):
+        return he_title
+    return f"{prefix} - {he_title}"
+
+
+def index_titles(data):
+    """heTitle וגם כותרת התצוגה של כל ספר בעץ התוכן. שתיהן נשמרות עד שהמחולל עם
+    כותרת התצוגה ישוחרר, כדי ששורות ForDB בשני השמות יעברו (מעבר בטוח)."""
     titles = set()
 
     def walk(node):
@@ -495,6 +516,7 @@ def fetch_sefaria_titles():
                 he = node.get("heTitle")
                 if he:
                     titles.add(he)
+                    titles.add(sefaria_display_title(he, node.get("collectiveTitle")))
 
     walk(data)
     return titles
