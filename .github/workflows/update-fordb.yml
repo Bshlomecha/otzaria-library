@@ -163,6 +163,23 @@ jobs:
           path: seforim-tool
           persist-credentials: false
 
+      # מטמון Gradle משותף עם validate-fordb-book-names.yml: אותו מפתח, אותו כלי ואותה
+      # משימה. ראו שם את ההסבר. כאן נקרא ונכתב רק ב-main (ה-workflow רץ רק שם).
+      - name: Resolve the SeforimLibrary tool commit
+        id: tool
+        run: echo "sha=$(git -C seforim-tool rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+
+      - name: Restore Gradle cache
+        id: gradle-cache
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+          key: gradle-seforim-${{ runner.os }}-${{ steps.tool.outputs.sha }}
+          restore-keys: |
+            gradle-seforim-${{ runner.os }}-
+
       - name: Dry-run every candidate input against the last released seforim.db
         id: deep_gate
         env:
@@ -194,10 +211,20 @@ jobs:
               -PseforimDb="$GITHUB_WORKSPACE/dbdir/seforim.db" \
               -PforDbArchive="$GITHUB_WORKSPACE/$ARCHIVE_NAME" \
               -PforDbSha256="$CANDIDATE_SHA" \
+              --build-cache \
               --no-daemon )
           echo "library_tag=$LIB_TAG" >> "$GITHUB_OUTPUT"
           echo "tool_sha=$(git -C seforim-tool rev-parse HEAD)" >> "$GITHUB_OUTPUT"
           rm -rf dbdir
+
+      - name: Save Gradle cache
+        if: ${{ !cancelled() && github.ref == 'refs/heads/main' && steps.gradle-cache.outputs.cache-hit != 'true' }}
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+          key: gradle-seforim-${{ runner.os }}-${{ steps.tool.outputs.sha }}
 
       - name: Publish immutable ForDB release and atomically advance the git pointer
         env:
