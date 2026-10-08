@@ -31844,6 +31844,29 @@
     "Sourcefolder": "yam-HaHachma"
   },
   {
+    "heAuthors": [
+      "יהושע העשיל"
+    ],
+    "title": "הגהות רבי העשיל על הסמג",
+    "enTitle": "Haghot Rabbi Heshil al HaSemag",
+    "authors": [
+      "Yehoshua Heschel"
+    ],
+    "pubDate": null,
+    "pubDateHeb": null,
+    "pubPlaceStringEn": null,
+    "pubPlaceStringHe": null,
+    "heCategories": [
+      "הלכה",
+      "ספרי מצות"
+    ],
+    "categories": [
+      "Halakhah"
+    ],
+    "publisher": "ים החכמה",
+    "Sourcefolder": "yam-HaHachma"
+  },
+  {
     "title": "פירוש הראש על זבים",
     "heAuthors": [
       "רבינו אשר בן יחיאל"
