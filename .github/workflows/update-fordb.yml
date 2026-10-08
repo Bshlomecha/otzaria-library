@@ -315,14 +315,26 @@ jobs:
           done
           [ "$published" = true ]
 
-          jq -cS -n --arg tag "$immutable_tag" --arg sha "$archive_sha" \
-            --arg provenance_sha "$remote_provenance_sha" \
-            '{schema_version:1,tag:$tag,asset:"fordb_latest.zip",sha256:$sha,provenance_asset:"fordb_provenance.json",provenance_sha256:$provenance_sha}' \
-            > fordb_latest_pointer.json
           git config user.name github-actions[bot]
           git config user.email github-actions[bot]@users.noreply.github.com
-          git add fordb_latest_pointer.json
-          git diff --cached --quiet || git commit -m "chore(fordb): advance immutable pointer [skip ci]"
-          git pull --rebase origin main
-          git push origin HEAD:main
+          # ה-checkout נעשה על ה-SHA שהפעיל את הריצה, וריצה שחיכתה בתור (queue: max)
+          # רואה מצביע ישן שריצה קודמת כבר קידמה. לכן כותבים את המצביע מחדש על
+          # קצה main העדכני במקום rebase שמתנגש על אותו קובץ. אם main התקדם
+          # בין ה-fetch ל-push, חוזרים על הסבב.
+          pushed=false
+          for attempt in 1 2 3 4 5; do
+            git fetch --no-tags origin main
+            git reset --hard FETCH_HEAD
+            jq -cS -n --arg tag "$immutable_tag" --arg sha "$archive_sha" \
+              --arg provenance_sha "$remote_provenance_sha" \
+              '{schema_version:1,tag:$tag,asset:"fordb_latest.zip",sha256:$sha,provenance_asset:"fordb_provenance.json",provenance_sha256:$provenance_sha}' \
+              > fordb_latest_pointer.json
+            git add fordb_latest_pointer.json
+            if git diff --cached --quiet; then pushed=true; break; fi
+            git commit -m "chore(fordb): advance immutable pointer [skip ci]"
+            if git push origin HEAD:main; then pushed=true; break; fi
+            echo "push attempt $attempt lost the race; retrying on fresh main"
+            sleep $((attempt * 3))
+          done
+          [ "$pushed" = true ]
           echo "Published $immutable_tag and advanced fordb_latest_pointer.json"
