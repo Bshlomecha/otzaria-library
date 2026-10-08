@@ -48,6 +48,8 @@ jobs:
             /.claude/skills/otzaria-book-format/scripts/
             /DictaToOtzaria/סקריפטים/
             /MoreBooks/סקריפטים/
+            /OnYourWayToOtzaria/סקריפטים/ובלכתך_בדרך.py
+            /OnYourWayToOtzaria/סקריפטים/test_onyourway_headings.py
             /ToratEmetToOtzaria/סקריפטים/te_convert.py
             /ToratEmetToOtzaria/סקריפטים/te_reapply.py
             /ToratEmetToOtzaria/סקריפטים/test_te_reapply.py
@@ -120,6 +122,16 @@ jobs:
         env:
           PYTHONIOENCODING: utf-8
         run: python3 -m unittest -v test_te_reapply
+
+      # ממיר ובלכתך בדרך: רמות הכותרות (book/chap/p), על XML סינתטי.
+      - name: OnYourWay converter suite
+        working-directory: OnYourWayToOtzaria/סקריפטים
+        env:
+          PYTHONIOENCODING: utf-8
+        run: |
+          set -euo pipefail
+          python3 -m pip install --quiet beautifulsoup4 lxml
+          python3 -m unittest -v test_onyourway_headings
 
       # ממירי פנינים (merge_books / manipulate / to_otzaria): קבצים סינתטיים בלבד.
       - name: Pninim converters suite

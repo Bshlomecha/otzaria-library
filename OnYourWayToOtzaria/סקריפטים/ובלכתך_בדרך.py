@@ -152,7 +152,7 @@ def process_body_xml(xml_content):
     
     return str(soup), title
 
-def main(file_path, target_file, file_name):
+def convert_file(file_path, target_file, file_name):
     try:
         with open (file_path, "r", encoding = "utf-8") as file:
             content = file.read()
@@ -166,15 +166,20 @@ def main(file_path, target_file, file_name):
     with open(target_file, "w", encoding = "utf-8") as output:
         output.write(join_lines)
 
-books_folder = "ובלכתך בדרך"
-target_path = os.path.join("..", "ספרים", "לא ממויין")
-for root, dir, file in os.walk(books_folder):
-    for file_name in file:
-        if file_name.lower().endswith(".txt"):
-            file_path = os.path.join(root, file_name)
-            relative_path = os.path.relpath(root, books_folder)
-            destination_path = os.path.join(target_path, relative_path)
-            os.makedirs(destination_path, exist_ok=True)
-            target_file = os.path.join(destination_path, file_name)
-            main(file_path, target_file, file_name[:-4])
-            print(file_path)
+def main():
+    books_folder = "ובלכתך בדרך"
+    target_path = os.path.join("..", "ספרים", "לא ממויין")
+    for root, dir, file in os.walk(books_folder):
+        for file_name in file:
+            if file_name.lower().endswith(".txt"):
+                file_path = os.path.join(root, file_name)
+                relative_path = os.path.relpath(root, books_folder)
+                destination_path = os.path.join(target_path, relative_path)
+                os.makedirs(destination_path, exist_ok=True)
+                target_file = os.path.join(destination_path, file_name)
+                convert_file(file_path, target_file, file_name[:-4])
+                print(file_path)
+
+
+if __name__ == "__main__":
+    main()
