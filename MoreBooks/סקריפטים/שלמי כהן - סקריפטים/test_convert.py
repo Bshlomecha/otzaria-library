@@ -100,6 +100,39 @@ class BuildBookTest(unittest.TestCase):
         book = C.build_book('מסכת', [d], lambda s: None)
         self.assertTrue(any('<i>' in e for e in C.check_book('מסכת', book)))
 
+    def test_a_join_that_opens_a_new_chapter_mid_daf_keeps_the_daf_heading(self):
+        # הפרק הקודם נגמר באמצע דף ב: והחלק הבא נפתח 'דף ב:' + פרק חדש: הכותרת היא מבנה המחבר
+        a = FakeDoc('a', [head('chapter', 'פרק א'), head('daf', 'דף ב:'), para('סוף פרק א'),
+                          ('small', [t('הדרן עלך פרק א')], 'הדרן עלך פרק א')])
+        b = FakeDoc('b', [('cover', [], 'בס"ד'), head('daf', 'דף ב:'), head('chapter', 'פרק ב'), para('תחילת פרק ב')])
+        log = []
+        book = C.build_book('מסכת', [a, b], log.append)
+        self.assertEqual(book.lines[3:], ['<h2>פרק א</h2>', '<h3>דף ב:</h3>', 'סוף פרק א',
+                                          'הדרן עלך פרק א',
+                                          '<h2>פרק ב</h2>', '<h3>דף ב:</h3>', 'תחילת פרק ב'])
+        self.assertFalse(any('!!' in x for x in log), log)
+
+    def test_broken_chapter_word_is_dropped_across_a_daf_heading(self):
+        a = FakeDoc('a', [head('chapter', 'פרק א'), head('daf', 'דף ב.'), para('א')])
+        b = FakeDoc('b', [head('chapter', 'פרק'), head('daf', 'דף ב.'), head('chapter', 'פרק ב'), para('ב')])
+        book = C.build_book('מסכת', [a, b], lambda s: None)
+        self.assertNotIn('<h2>פרק</h2>', book.lines)
+        self.assertEqual(book.lines[-3:], ['<h2>פרק ב</h2>', '<h3>דף ב.</h3>', 'ב'])
+
+
+class RunSizeTest(unittest.TestCase):
+    def rpr(self, xml):
+        from xml.etree import ElementTree as ET
+        return ET.fromstring(f'<w:rPr xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main">{xml}</w:rPr>')
+
+    def test_hebrew_size_szcs_wins_over_sz(self):
+        # ברוב הקטעים המוקטנים במקור יש szCs=20 בלי sz; Word מציג עברית לפי szCs
+        self.assertEqual(C._size_el(self.rpr('<w:szCs w:val="20"/>')).get(C.W + 'val'), '20')
+        self.assertEqual(C._size_el(self.rpr('<w:sz w:val="24"/><w:szCs w:val="20"/>')).get(C.W + 'val'), '20')
+        self.assertEqual(C._size_el(self.rpr('<w:sz w:val="20"/>')).get(C.W + 'val'), '20')
+        self.assertIsNone(C._size_el(self.rpr('<w:b/>')))
+        self.assertIsNone(C._size_el(None))
+
 
 class FootnoteSpacingTest(unittest.TestCase):
     def test_space_around_a_marker_is_kept(self):

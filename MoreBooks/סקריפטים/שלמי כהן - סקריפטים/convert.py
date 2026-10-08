@@ -7,12 +7,9 @@
   <out>/links/שלמי כהן <מסכת>_links.json     ("Conection Type": "footnotes")
 
 המקור: קובצי ה-Word של המחבר, שבהם הערות השוליים הן הערות שוליים אמיתיות של Word.
-מסכת בכורות אין לה docx: היא נבנית מהקובץ שהומר מראש (ConvertedTxt) דרך אותו צינור.
 
 --src חייב להכיל, כפי שהתקבל מהמחבר:
   שלמי כהן וורד/<תיקיית מסכת>/*.docx
-  מראי מקומות שלמי כהן/שלמי כהן בכורות/{שלמי כהן בכורות.txt, שלמי כהן הערות על בכורות.txt}
-  שלמי כהן קישורים/שלמי כהן בכורות_links.json
 (במאגר: extraBooks/שלמי כהן)
 
 הרצה:
@@ -41,6 +38,7 @@ TRACTATE_DIRS = {
     'שלמי כהן בב': 'בבא בתרא',
     'שלמי כהן במ': 'בבא מציעא',
     'שלמי כהן בק': 'בבא קמא',
+    'שלמי כהן בכורות': 'בכורות',
     'שלמי כהן גיטין': 'גיטין',
     'יבמות': 'יבמות',
     'שלמי כהן כריתות': 'כריתות',
@@ -53,7 +51,7 @@ TRACTATE_DIRS = {
     'שלמי כהן קידושין': 'קידושין',
     'שלמי כהן תמורה': 'תמורה',
 }
-ALL_TRACTATES = list(TRACTATE_DIRS.items()) + [(None, 'בכורות')]
+ALL_TRACTATES = list(TRACTATE_DIRS.items())
 # מסכת שיש לה קובץ מלא חדש יותר שמחליף את חלקי הביניים
 FULL_FILE = {'יבמות': 'יבמות שלמי כהן.docx'}
 
@@ -177,6 +175,15 @@ def _render(chunk, strip_left=True, strip_right=True):
     return re.sub(r'\s+', ' ', html)
 
 
+def _size_el(rp):
+    """גודל הגופן של ריצה/סגנון: szCs קודם. הטקסט עברי (rtl), ו-Word מציג אותו לפי szCs; sz חל על
+    טקסט לטיני בלבד. ברוב הקטעים המוקטנים במקור (בכל המסכתות) יש szCs=20 בלי sz כלל."""
+    if rp is None:
+        return None
+    el = rp.find(W + 'szCs')
+    return el if el is not None else rp.find(W + 'sz')
+
+
 class Docx:
     """פסקאות המסמך: [(role, parts, plain)], parts = [('t', html, small) | ('fn', id)]."""
 
@@ -222,7 +229,7 @@ class Docx:
             if s.get(W + 'type') != 'paragraph':
                 continue
             nm = s.find(W + 'name')
-            sz = s.find(W + 'rPr/' + W + 'sz')
+            sz = _size_el(s.find(W + 'rPr'))
             bo = s.find(W + 'basedOn')
             out[s.get(W + 'styleId')] = (nm.get(W + 'val') if nm is not None else '',
                                          int(sz.get(W + 'val')) if sz is not None else None,
@@ -251,7 +258,7 @@ class Docx:
                     raise ConvertError(f'{self.name}: ריצות מתחת ל-{ch.tag}')
                 continue
             rp = ch.find(W + 'rPr')
-            szel = rp.find(W + 'sz') if rp is not None else None
+            szel = _size_el(rp)
             sz = int(szel.get(W + 'val')) if szel is not None else base_sz
             va = rp.find(W + 'vertAlign') if rp is not None else None
             fmt = (_flag(rp, 'b'), _flag(rp, 'i'), _flag(rp, 'u'),
@@ -389,100 +396,6 @@ def _to_em(segs):
     return re.sub(r'\s+', ' ', ''.join(out))
 
 
-# ---------------------------------------------------------------- בכורות (אין docx: קובץ שהומר מראש)
-class ConvertedTxt:
-    """קורא את הקובץ שהומר מראש (בכורות) למבנה זהה ל-Docx, כדי לעבור את אותו build_book."""
-
-    def __init__(self, main: Path, notes: Path, links: Path):
-        self.name = main.name
-        m = main.read_bytes().decode('utf-8').lstrip('\ufeff').replace('\r\n', '\n').split('\n')
-        n = notes.read_bytes().decode('utf-8').lstrip('\ufeff').replace('\r\n', '\n').split('\n')
-        while m and not m[-1].strip():
-            m.pop()
-        while n and not n[-1].strip():
-            n.pop()
-        by_line = {}
-        for x in sorted(json.loads(links.read_bytes().decode('utf-8')), key=lambda r: r['line_index_2']):
-            by_line.setdefault(x['line_index_1'], []).append(x['line_index_2'])
-        linked = {b for bs in by_line.values() for b in bs}
-        unlinked = [j + 1 for j, l in enumerate(n) if l.strip() and (j + 1) not in linked]
-        if unlinked:
-            raise ConvertError(f'{self.name}: {len(unlinked)} שורות הערה בלי קישור')
-        self.footnotes, self.items, self.junk_tail = {}, [], []
-        for i, line in enumerate(m, 1):
-            self.items.append(self._line(i, line, by_line.get(i, []), n))
-        self.items = self._drop_join_artifacts([x for x in self.items if x])
-        fix_daf_labels(self.name, self.items)
-
-    @staticmethod
-    def _drop_join_artifacts(items):
-        """שורת כריכה (בס"ד) מסמנת חיבור בין קבצי-חלק; כותרת-דף זהה לקודמת מיד אחריה היא כפילות חיבור."""
-        out, last_daf, cover = [], None, False
-        for it in items:
-            if it[0] == 'cover':
-                cover = True
-                continue
-            if it[0] == 'daf' and cover and it[2] == last_daf:
-                cover = False
-                continue
-            if it[0] == 'daf':
-                last_daf = it[2]
-            cover = False
-            out.append(it)
-        return out
-
-    @staticmethod
-    def _note_body(raw):
-        t = re.sub(r'^<sup>[^<]*</sup>\s*', '', raw.lstrip('\ufeff'))
-        t = t.replace('<big>', '').replace('</big>', '').replace('<small>', '').replace('</small>', '')
-        t = re.sub(r'<br>\s*', '<br>', t).replace('\t', ' ')
-        t = re.sub(r'<(/?)i>', r'<\1em>', t)
-        return re.sub(r'[ ]{2,}', ' ', BIDI.sub('', t)).strip()
-
-    def _line(self, i, line, note_idx, notes):
-        line = line.lstrip('\ufeff')
-        plain = re.sub(r'\s+', ' ', _clean(TAG.sub('', line))).strip()
-        if not plain:
-            return None
-        if COVER_RE.match(plain):
-            return ('cover', [], plain)
-        hm = re.match(r'^<h([1-3])>(.*)</h\1>$', line)
-        role = {'1': 'chapter', '2': 'topic', '3': 'daf'}[hm.group(1)] if hm else 'normal'
-        if hm:
-            line = hm.group(2)
-        toks = re.split(r'(<small>|</small>|<sup>\d+</sup>)', line.replace('<big>', '').replace('</big>', ''))
-        markers = [t for t in toks if t.startswith('<sup>')]
-        if len(markers) != len(note_idx):
-            raise ConvertError(f'{self.name}: שורה {i}: {len(markers)} סמנים מול {len(note_idx)} הערות מקושרות')
-        parts, k, small = [], 0, False
-        for t in toks:
-            if t == '<small>':
-                small = True
-            elif t == '</small>':
-                small = False
-            elif t.startswith('<sup>'):
-                num = t[5:-6]
-                raw = notes[note_idx[k] - 1]
-                if not raw.lstrip('\ufeff').startswith(f'<sup>{num}</sup>'):
-                    raise ConvertError(f'{self.name}: שורה {i}: סמן {num} מול הערה {note_idx[k]}')
-                fid = f'{i}.{k}'
-                self.footnotes[fid] = self._note_body(raw)
-                parts.append(('fn', fid))
-                k += 1
-            else:
-                t = re.sub(r'[ \t]+', ' ', _clean(t))
-                if not t:
-                    continue
-                if not balanced(t):
-                    raise ConvertError(f'{self.name}: שורה {i}: תגים לא מאוזנים: {t[:60]}')
-                parts.append(('t', t, False if hm else small))
-        if parts and parts[0][0] == 't':
-            parts[0] = ('t', parts[0][1].lstrip(), parts[0][2])
-        if parts and parts[-1][0] == 't':
-            parts[-1] = ('t', parts[-1][1].rstrip(), parts[-1][2])
-        return (role, parts, plain)
-
-
 # ---------------------------------------------------------------- איחוי הקבצים
 def doc_start_key(doc: Docx):
     for role, _parts, plain in doc.items:
@@ -503,7 +416,7 @@ def check_daf_sequence(stream, log):
     last, between = None, []
     for x in stream:
         if x[0] != 'daf':
-            if x[0] in ('chapter', 'topic') and (x[0] == 'chapter' or x[2].startswith('הדרן')):
+            if x[0] == 'chapter' or x[2].startswith('הדרן'):   # 'הדרן' מופיע גם כנושא וגם כפסקה קטנה
                 between.append(x[0])
             continue
         k = daf_key(x[2])
@@ -553,6 +466,11 @@ def merge_docs(docs, log):
                 elif sec_b and sec_a[:len(sec_b)] == sec_b:
                     log(f'  חפיפה ב-{items[first][2]}: מחיקת רישא כפולה ({len(sec_b)} פריטים) מ-{d.name}')
                     del items[first + 1:end]
+                elif first + 1 < len(items) and items[first + 1][0] == 'chapter':
+                    # 'דף X' ומיד פרק חדש: הפרק הקודם נגמר באמצע דף X והחדש נפתח בו - מבנה המחבר, הכותרת נשארת
+                    log(f'  חיבור ב-{items[first][2]}: פרק חדש באמצע הדף, כותרת הדף נשמרת')
+                    stream.extend(items)
+                    continue
                 else:
                     log(f'  חיבור ב-{items[first][2]}: {len(sec_a)} פריטים + {len(sec_b)} (ללא חפיפה)')
                 del items[first]
@@ -574,11 +492,12 @@ class Book:
 def build_book(name, docs, log):
     stream = merge_docs(docs, log)
 
-    # כותרת-פרק שהיא המילה 'פרק' לבדה ואחריה מיד כותרת-פרק מלאה: שבר כפול של הכותרת
+    # כותרת-פרק שהיא המילה 'פרק' לבדה ואחריה מיד כותרת-פרק מלאה (אולי אחרי כותרת דף): שבר כפול של הכותרת
     for i in range(len(stream) - 1, -1, -1):
-        if stream[i][0] == 'chapter' and stream[i][2] == 'פרק' and i + 1 < len(stream) \
-                and stream[i + 1][0] == 'chapter' and stream[i + 1][2].startswith('פרק '):
-            log(f'  מחיקת כותרת פרק שבורה: {stream[i][2]!r} לפני {stream[i + 1][2]!r}')
+        j = next((k for k in range(i + 1, len(stream)) if stream[k][0] != 'daf'), None)
+        if stream[i][0] == 'chapter' and stream[i][2] == 'פרק' and j is not None \
+                and stream[j][0] == 'chapter' and stream[j][2].startswith('פרק '):
+            log(f'  מחיקת כותרת פרק שבורה: {stream[i][2]!r} לפני {stream[j][2]!r}')
             del stream[i]
 
     # כותרת-דף שאחריה מיד כותרת-פרק: הפרק פותח את הדף, ולכן הוא קודם לו בהיררכיה
@@ -710,18 +629,7 @@ def write_book(out_root: Path, name, book):
     (out_root / 'links' / f'{title}_links.json').write_bytes(links_json(title, notes_title, book).encode('utf-8'))
 
 
-BECHOROT = 'בכורות'
-
-
-def bechorot_doc(src: Path):
-    d = src / 'מראי מקומות שלמי כהן' / 'שלמי כהן בכורות'
-    return [ConvertedTxt(d / 'שלמי כהן בכורות.txt', d / 'שלמי כהן הערות על בכורות.txt',
-                         src / 'שלמי כהן קישורים' / 'שלמי כהן בכורות_links.json')]
-
-
 def tractate_docs(src: Path, dirname, name):
-    if name == BECHOROT:
-        return bechorot_doc(src)
     d = src / 'שלמי כהן וורד' / dirname
     files = sorted(d.glob('*.docx'))
     if name in FULL_FILE:

@@ -34,22 +34,7 @@ def main(argv=None):
         if args.only and name not in args.only:
             continue
         src_body, src_notes, fn_used = collections.Counter(), collections.Counter(), 0
-        if name == C.BECHOROT:
-            # אין docx: המקור הוא הקובץ שהומר מראש, נקרא גולמי (בלי ConvertedTxt) - בלי שורות כריכה
-            d0 = args.src / 'מראי מקומות שלמי כהן' / 'שלמי כהן בכורות'
-            raw_m = (d0 / 'שלמי כהן בכורות.txt').read_text(encoding='utf-8').lstrip('\ufeff').splitlines()
-            raw_n = (d0 / 'שלמי כהן הערות על בכורות.txt').read_text(encoding='utf-8').lstrip('\ufeff').splitlines()
-            for l in raw_m:
-                if toks(l) == ['בס"ד']:
-                    continue
-                src_body.update(toks(re.sub(r'<sup>\d+</sup>', '', l)))
-            for l in raw_n:
-                if l.strip():
-                    fn_used += 1
-                    src_notes.update(toks(re.sub(r'^<sup>\d+</sup> ', '', l.lstrip('\ufeff'))))
-            docs = []
-        else:
-            docs = C.tractate_docs(args.src, dirname, name)
+        docs = C.tractate_docs(args.src, dirname, name)
         # מקור: כל הפסקאות מכל הקבצים (בלי עותקים זהים), מעבר ל-merge: כך חפיפה שנמחקה בטעות תתגלה
         seen, uniq = set(), []
         for d in docs:
