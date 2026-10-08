@@ -249,20 +249,21 @@ HEADING_LINE_RE = re.compile(r"^<h([1-6])>(.*)</h\1>$")
 
 
 def normalize_heading_levels(lines: list[str], first: int = 1) -> list[str]:
-    """Map the heading levels after line 1 to a gapless sequence starting at h2.
+    """Map the heading levels after line 1 to a gapless tree starting at h2.
 
-    A heading deeper than its predecessor by more than one level is raised, since the
-    reader leaves it without a parent in the table of contents.
+    A heading's level is its depth among the open source headings, so siblings keep
+    one level and a skipped source level (h2 -> h4) does not leave a gap.
     """
-    used = sorted({int(m.group(1)) for m in (HEADING_LINE_RE.match(x) for x in lines[first:]) if m})
-    mapping = {lvl: min(2 + i, 6) for i, lvl in enumerate(used)}
     out = lines[:first]
-    previous = 1
+    open_levels: list[int] = []  # source levels of the current heading's ancestors
     for line in lines[first:]:
         m = HEADING_LINE_RE.match(line)
         if m:
-            level = min(mapping[int(m.group(1))], previous + 1)
-            previous = level
+            source = int(m.group(1))
+            while open_levels and open_levels[-1] >= source:
+                open_levels.pop()
+            level = min(2 + len(open_levels), 6)
+            open_levels.append(source)
             line = f"<h{level}>{m.group(2)}</h{level}>"
         out.append(line)
     return out

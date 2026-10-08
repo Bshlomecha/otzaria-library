@@ -67,6 +67,11 @@ def main() -> int:
          [(4, 2, "footnotes"), (4, 3, "footnotes")], "links"),
         (normalize_heading_levels(['<h1>T</h1>', '<h4>a</h4>', '<h2>b</h2>', '<h4>c</h4>']),
          ['<h1>T</h1>', '<h2>a</h2>', '<h2>b</h2>', '<h3>c</h3>'], "heading levels"),
+        # siblings under a skipped level (h2 -> h4, h4) stay siblings, not parent and child
+        (normalize_heading_levels(['<h1>T</h1>', '<h3>p</h3>', '<h2>a</h2>', '<h4>a1</h4>', '<h4>a2</h4>',
+                                   '<h2>b</h2>', '<h4>b1</h4>', '<h3>b2</h3>', '<h4>b21</h4>']),
+         ['<h1>T</h1>', '<h2>p</h2>', '<h2>a</h2>', '<h3>a1</h3>', '<h3>a2</h3>',
+          '<h2>b</h2>', '<h3>b1</h3>', '<h3>b2</h3>', '<h4>b21</h4>'], "sibling heading levels"),
     ]
     for got, expected, name in checks:
         if got != expected:
