@@ -204,7 +204,24 @@ jobs:
                   archive.writestr(info, path.read_bytes())
           PY
 
+      # ה-runner הנוכחי (ubuntu-24.04, Hosted Compute) מגיע עם ~86GB פנויים, והניקוי
+      # שלמטה לקח ~4 דקות מתוך ~9. מנקים רק אם המקום הפנוי נמוך מהסף: ה-DB המפוענח,
+      # ה-buildstate והעותק שהמאמת יוצר דורשים כמה עשרות GB במקרה הגרוע.
+      - name: Check free disk space
+        id: disk
+        run: |
+          set -euo pipefail
+          df -h /
+          AVAIL_GB=$(df -BG --output=avail / | tail -1 | tr -dc '0-9')
+          echo "available=${AVAIL_GB}GB"
+          if [ "$AVAIL_GB" -lt 40 ]; then
+            echo "low=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "low=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Free disk space for the full ForDB dry-run
+        if: ${{ steps.disk.outputs.low == 'true' }}
         uses: jlumbroso/free-disk-space@54081f138730dfa15788a46383842cd2f914a1be
         with:
           tool-cache: true
