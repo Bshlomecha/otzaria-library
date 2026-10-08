@@ -1,6 +1,6 @@
 """בדיקת build_g.py: כל אות במקור נמצאת בספר, כל הערה בספר הנלווה, וכל קישור מצביע נכון.
 
-    python3 qa_g.py SRC_DIR OUT_DIR
+    python3 qa_g.py SRC_DIR UPD_DIR OUT_DIR
 """
 import json
 import os
@@ -8,9 +8,11 @@ import re
 import sys
 
 from build import COPYRIGHT
-from build_g import BOOKS, SUFFIX, load_doc
+from build_g import BOOKS, SUFFIX, file_source, load_doc
 
-src, out = sys.argv[1], sys.argv[2]
+if len(sys.argv) != 4:
+    sys.exit(__doc__)
+src, upd, out = sys.argv[1:]
 folder = os.path.join(out, 'חלק ג')
 letters = lambda s: re.sub(r'[^א-ת0-9]', '', re.sub(r'<[^>]+>', '', s))
 bad = 0
@@ -23,14 +25,25 @@ for title, sub, files in BOOKS:
     assert base[0] == '<h1>%s</h1>' % title and base[2] == COPYRIGHT and comp[2] == COPYRIGHT
     # 1. טקסט: אותיות המקור (פחות שורות 'drop' ושינויי כותרת) == אותיות הספר
     src_main, src_notes = '', []
-    for fname, roles in files:
-        main, notes = load_doc(os.path.join(src, fname + '.doc'))
+    for entry in files:
+        fname, roles, fdir, keep = file_source(entry, src, upd)
+        main, notes = load_doc(os.path.join(fdir, fname + '.doc'))
+        inside = keep is None
         for para in main.split('\r'):
             plain = re.sub(r'\s+', ' ', para.replace('\x02', '')).strip()
+            if keep is not None:
+                if plain == keep[0]:
+                    inside = True
+                elif keep[1] and plain.startswith(keep[1]):
+                    inside = False
+                if not inside:
+                    continue
             role = roles.get(plain, '')
-            if role == 'drop':
+            if role in ('drop', 'pend'):
                 continue
-            if role.startswith('h') and ':' in role:
+            if role.startswith('lead:'):
+                para = role.split(':', 2)[2] + para
+            elif role.startswith('h') and ':' in role:
                 para = role.split(':', 1)[1]
             # מילת עמוד הבא (קטשווורד)
             para = re.sub(r'\x0b[\t ]*[^\s\x0b]+[\t ]*(?=\x0b|$)', '', para)

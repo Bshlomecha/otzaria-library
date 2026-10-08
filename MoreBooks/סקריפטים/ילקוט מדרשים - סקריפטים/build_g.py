@@ -4,7 +4,10 @@
 ההערות. העיצוב (מודגש, אותיות קטנות, יישור למרכז) נלקח מה־HTML של textutil,
 ומיושר אל טקסט ה־.doc תו מול תו.
 
-    python3 build_g.py SRC_DIR OUT_DIR
+    python3 build_g.py SRC_DIR UPD_DIR OUT_DIR
+
+SRC_DIR = "ילקוט מדרשים ג" (קובצי הכרך), UPD_DIR = "ילקוט מדרשים ג מעודכן" (השלמות המו"ל
+לעמודים שחסרו: הקדמת הכרך, מדרש מה רבו, יסוד אלף בית).
 """
 import html as htmlmod
 import json
@@ -23,12 +26,30 @@ from build import COPYRIGHT, HEADER_LINES
 SUFFIX = ' (ילקוט מדרשים)'
 SEP = '<div style="text-align: center;">%s</div>'
 
-# (כותרת הספר, שורה 2, [(קובץ, {טקסט פסקה: תפקיד})])
-# תפקיד: 'h2'/'h3' (אופציונלית 'h2:טקסט חדש'), 'drop', 'sub' (מצטרף לשורה הקודמת).
+# (כותרת הספר, שורה 2, [(קובץ, {טקסט פסקה: תפקיד}[, אפשרויות])])
+# תפקיד: 'h2'/'h3' (אופציונלית 'h2:טקסט חדש'), 'drop', 'sub' (מצטרף לשורה הקודמת),
+# 'pend' (הפסקה נמחקת, וסמני ההערות שבה יורדים לשורה הבאה, כמו מכותרת),
+# 'colophon' (שורת סיום שהוזחה בטאבים: ממורכזת, וכולה מודגשת).
+# 'lead:h2:טקסט' (כותרת חדשה לפני הפסקה, והפסקה עצמה נשארת כרגיל).
 # פסקה ממורכזת שאינה ברשימה -> div ממורכז.
+# אפשרויות: 'upd' - הקובץ מ־UPD_DIR; 'from'/'until' - רק הפסקאות מהפסקה ששווה ל־from
+# ועד לפני הפסקה שמתחילה ב־until (מה שבחוץ נמחק; אסור שיהיו בו סמני הערות).
+UPD = {'upd': True}
 BOOKS = [
     ('מדרש הלל', '', [
-        ('מדרש הלל', {'[מדרש הלל]': 'h2:מדרש הלל'})]),
+        # הקדמת הכרך (מהשלמות המו"ל): בלי דפי השער, הזכויות, המפתחות, ודפי המובאות
+        # בשבח האגדה שבסופה
+        ('הקדמה לילקוט מדרשים חלק שלישי', {
+            'הקדמה:': 'h2:הקדמה',
+            'פרקי רבי עקיבה': 'h2',
+            'פרקי דרבי יוסי': 'h2',
+            'פרק ראשון': 'h3',
+            'פרק שני': 'h3',
+            'פרקי רבי מאיר': 'h2'},
+         dict(UPD, until='ויגד משה, דברים שמושכין', **{'from': 'הקדמה:'})),
+        # כותרת המדרש לפני שורת הפתיחה הממורכזת, כדי שזו לא תיפול תחת "פרקי רבי מאיר"
+        ('מדרש הלל', {'בשם האל עושה נסים אתחיל ספר המעשים': 'lead:h2:מדרש הלל',
+                      '[מדרש הלל]': 'pend'})]),
     ('מנצפך צופים אמרום', 'אגדות מספר המעשים', [
         ('מנצפך צופים אמרום', {'אגדות מספר המעשים': 'h2:מנצפך צופים אמרום'})]),
     ('ענין חירם מלך צור', '', [
@@ -86,6 +107,24 @@ BOOKS = [
         ('ברייתא דמסכת נדה', {
             'ברייתא דמסכת נדה (נוסחא ראשונה)': 'h2',
             'ברייתא דמסכת נדה (נוסחא שנייה) ודין יצירת הולד': 'h2'})]),
+    # מהשלמות המו"ל (UPD_DIR)
+    ('מדרש מה רבו', 'הנקרא פסיקתא חדתא', [
+        ('מדרש מה רבו לראש השנה', {
+            'מדרש מה רבו': 'drop', 'הנקרא': 'drop', 'פסיקתא חדתא': 'pend',
+            'לראש השנה': 'h2'}, UPD),
+        ('מדרש מה רבו ליום הכיפורים', {'ליום הכיפורים': 'h2'}, UPD),
+        ('מדרש מה רבו לסוכות', {'לחג הסוכות': 'h2'}, UPD),
+        ('מדרש מה רבו לחנוכה', {'לחנוכה': 'h2'}, UPD),
+        ('מדרש מה רבו פיסקא לפורים', {'לפורים': 'h2'}, UPD),
+        ('מדרש מה רבו לפסח', {'לחג הפסח': 'h2'}, UPD),
+        ('מדרש מה רבו לשבועות', {'לחג השבועות': 'h2'}, UPD),
+        ('ספר מעין חכמה', {'ספר מעין חכמה': 'h3', 'נשלם ספר מעין חכמה': 'colophon'}, UPD),
+        ('מדרש מה רבו לשבועות המשך', {}, UPD)]),
+    ('יסוד אלף בית וסדר גימטריאות', '', [
+        ('יסוד אלף בית', {
+            'יסוד אלף בית וסדר גימטריאות': 'h2',
+            'וזהו יסוד אל"ף בי"ת': 'h3',
+            'זהו סדר גימטריא': 'h3'}, UPD)]),
 ]
 
 # קישוטי Wingdings בטווח הפרטי: זוג שמאל/ימין -> ☙ / ❧, כמו בחלקים א-ב
@@ -274,8 +313,9 @@ def is_separator(text):
     return bool(text.strip()) and not re.search(r'[א-ת\w]', re.sub(r'[\ue000-\uf8ff(]', '', text))
 
 
-def convert_file(src_dir, name, roles, html_dir):
-    """-> [(kind, payload)] ; kind: 'h2'/'h3'/'line'/'sub'; payload: [(תו,b,s)] או טקסט כותרת."""
+def convert_file(src_dir, name, roles, html_dir, keep=None):
+    """-> [(kind, payload)] ; kind: 'h2'/'h3'/'line'/'sub'/'pend'; payload: [(תו,b,s)] או טקסט כותרת.
+    keep = (from, until): רק הפסקאות מהפסקה ששווה ל־from ועד לפני זו שמתחילה ב־until."""
     main, notes = load_doc(os.path.join(src_dir, name + '.doc'))
     hparas = load_html(os.path.join(html_dir, name + '.html'))
     dparas = main.split('\r')
@@ -285,10 +325,19 @@ def convert_file(src_dir, name, roles, html_dir):
                or is_separator(d) for d, h in zip(dparas, hparas)), name
     items = []
     used = set()
+    inside = keep is None
     for dp, hp in zip(dparas, hparas):
+        plain = re.sub(r'\s+', ' ', dp.replace('\x02', '')).strip()
+        if keep is not None:
+            if plain == keep[0]:
+                inside = True
+            elif keep[1] and plain.startswith(keep[1]):
+                inside = False
+            if not inside:
+                assert '\x02' not in dp, (name, plain[:40])
+                continue
         if not norm(dp) and '\x02' not in dp:
             continue
-        plain = re.sub(r'\s+', ' ', dp.replace('\x02', '')).strip()
         if is_separator(dp):
             sym = re.sub(r'\s+', ' ', ''.join(SYMBOLS.get(c[0], c[0]) for c in hp['chars'])
                          .replace('\xa0', ' ')).strip()
@@ -305,6 +354,18 @@ def convert_file(src_dir, name, roles, html_dir):
         if role == 'drop':
             assert not marks, (name, plain)
             continue
+        if role == 'pend':
+            items.append(('pend', None, marks))
+            continue
+        if role == 'colophon':
+            assert not marks, (name, plain)
+            items.append(('line', [(c[0], True, False) for c in chars], 'center'))
+            continue
+        if role and role.startswith('lead:'):
+            # כותרת חדשה לפני הפסקה, והפסקה עצמה כרגיל
+            lvl, _, new = role[5:].partition(':')
+            items.append((lvl, new, []))
+            role = None
         if role and role.startswith('h'):
             lvl, _, new = role.partition(':')
             items.append((lvl, new or plain, marks))
@@ -363,13 +424,25 @@ def note_html(raw):
     return raw
 
 
-def build(src_dir, out_dir):
-    html_dir = tempfile.mkdtemp()
-    for f in os.listdir(src_dir):
-        if f.endswith('.doc'):
-            subprocess.run(['textutil', '-convert', 'html', '-output',
-                            os.path.join(html_dir, f[:-4] + '.html'),
-                            os.path.join(src_dir, f)], check=True, capture_output=True)
+def file_source(entry, src_dir, upd_dir):
+    """רשומת קובץ ב־BOOKS -> (שם, תפקידים, תיקיית מקור, keep)."""
+    fname, roles = entry[:2]
+    opts = entry[2] if len(entry) > 2 else {}
+    keep = (opts['from'], opts.get('until')) if 'from' in opts else None
+    return fname, roles, upd_dir if opts.get('upd') else src_dir, keep
+
+
+def build(src_dir, upd_dir, out_dir):
+    html_root = tempfile.mkdtemp()
+    html_dirs = {}
+    for d in (src_dir, upd_dir):
+        html_dirs[d] = os.path.join(html_root, str(len(html_dirs)))
+        os.makedirs(html_dirs[d])
+        for f in os.listdir(d):
+            if f.endswith('.doc'):
+                subprocess.run(['textutil', '-convert', 'html', '-output',
+                                os.path.join(html_dirs[d], f[:-4] + '.html'),
+                                os.path.join(d, f)], check=True, capture_output=True)
     folder = os.path.join(out_dir, 'חלק ג')
     os.makedirs(folder, exist_ok=True)
     os.makedirs(os.path.join(out_dir, 'links'), exist_ok=True)
@@ -384,10 +457,14 @@ def build(src_dir, out_dir):
         pending = []          # סמנים מכותרת שיורדים לשורה הבאה
         heads = []            # שרשרת הכותרות הנוכחית, לשיקוף בספר ההערות
         comp_heads = []
-        for fname, roles in files:
-            items, notes = convert_file(src_dir, fname, roles, html_dir)
+        for entry in files:
+            fname, roles, fdir, keep = file_source(entry, src_dir, upd_dir)
+            items, notes = convert_file(fdir, fname, roles, html_dirs[fdir], keep)
             ni = iter(notes)
             for kind, payload, extra in items:
+                if kind == 'pend':
+                    pending += [next(ni) for _ in extra]
+                    continue
                 if kind in ('h2', 'h3'):
                     base.append('<%s>%s</%s>' % (kind, payload, kind))
                     heads = heads[:int(kind[1]) - 2] + [base[-1]]
@@ -440,4 +517,6 @@ def build(src_dir, out_dir):
 
 
 if __name__ == '__main__':
-    build(sys.argv[1], sys.argv[2])
+    if len(sys.argv) != 4:
+        sys.exit(__doc__)
+    build(*sys.argv[1:])
