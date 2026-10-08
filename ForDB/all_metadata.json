@@ -31867,6 +31867,30 @@
     "Sourcefolder": "yam-HaHachma"
   },
   {
+    "heAuthors": [
+      "אברהם קואינקה"
+    ],
+    "title": "זכרון לאברהם",
+    "enTitle": "Zikaron LeAvraham",
+    "authors": [
+      "Avraham Koinka"
+    ],
+    "pubDate": null,
+    "pubDateHeb": null,
+    "pubPlaceStringEn": null,
+    "pubPlaceStringHe": null,
+    "heCategories": [
+      "משנה",
+      "מפרשים",
+      "אחרונים"
+    ],
+    "categories": [
+      "Mishnah"
+    ],
+    "publisher": "ים החכמה",
+    "Sourcefolder": "yam-HaHachma"
+  },
+  {
     "title": "פירוש הראש על זבים",
     "heAuthors": [
       "רבינו אשר בן יחיאל"

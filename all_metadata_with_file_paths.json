@@ -405516,6 +405516,31 @@
   },
   {
     "heAuthors": [
+      "אברהם קואינקה"
+    ],
+    "title": "זכרון לאברהם",
+    "enTitle": "Zikaron LeAvraham",
+    "authors": [
+      "Avraham Koinka"
+    ],
+    "pubDate": null,
+    "pubDateHeb": null,
+    "pubPlaceStringEn": null,
+    "pubPlaceStringHe": null,
+    "heCategories": [
+      "משנה",
+      "מפרשים",
+      "אחרונים"
+    ],
+    "categories": [
+      "Mishnah"
+    ],
+    "publisher": "ים החכמה",
+    "Sourcefolder": "yam-HaHachma",
+    "file_path": "yam-HaHachmaToOtzaria/ספרים/אוצריא/משנה/מפרשים/אחרונים/זכרון לאברהם.txt"
+  },
+  {
+    "heAuthors": [
       "יום טוב ליפמן הלפרין"
     ],
     "title": "קדושת יום טוב (ליפמן)",
