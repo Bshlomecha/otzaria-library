@@ -96,7 +96,7 @@ jobs:
           PYTHONIOENCODING: "utf-8"
         run: |
           set -euo pipefail
-          python3 -m unittest test_validate_fordb_book_names test_fordb_book_renames test_book_info_writer -v
+          python3 -m unittest test_validate_fordb_book_names test_fordb_book_renames test_book_info_writer test_library_tree -v
 
       # שינויי-שם נעקבים מהקומיט האחרון שהזרימה הזו אימתה *בהצלחה*, לא רק מ-
       # github.event.before: ריצה שנכשלה (למשל כשה-push של ה-auto-fix הפסיד במרוץ, כמו
@@ -298,6 +298,15 @@ jobs:
             rm -f "dbdir/$asset"
           done
           CANDIDATE_SHA=$(sha256sum "$ARCHIVE_NAME" | cut -d' ' -f1)
+
+          # עץ הספרייה שממנו נבנה ה-release מול העץ הנבדק: תיקייה שהתרוקנה מאז אינה
+          # הופכת עוד לקטגוריה, אבל ב-DB הישן היא עדיין קיימת ולכן לא נתפסת בלעדיהם.
+          gh release download "$LIB_TAG" -R Otzaria/SeforimLibrary -p build_provenance.json -D dbdir
+          BASE_COMMIT=$(jq -r '.otzaria_target_commit' dbdir/build_provenance.json)
+          [[ "$BASE_COMMIT" =~ ^[0-9a-f]{40}$ ]]
+          git cat-file -e "${BASE_COMMIT}^{commit}"
+          python3 .github/scripts/library_tree.py "$BASE_COMMIT" "$GITHUB_WORKSPACE/dbdir/base.tree"
+          python3 .github/scripts/library_tree.py HEAD "$GITHUB_WORKSPACE/dbdir/candidate.tree"
           (
             cd seforim-tool
             chmod +x gradlew
@@ -305,6 +314,8 @@ jobs:
               -PseforimDb="$GITHUB_WORKSPACE/dbdir/seforim.db" \
               -PforDbArchive="$GITHUB_WORKSPACE/$ARCHIVE_NAME" \
               -PforDbSha256="$CANDIDATE_SHA" \
+              -PlibraryTreeBase="$GITHUB_WORKSPACE/dbdir/base.tree" \
+              -PlibraryTreeCandidate="$GITHUB_WORKSPACE/dbdir/candidate.tree" \
               --build-cache \
               --no-daemon
           )
