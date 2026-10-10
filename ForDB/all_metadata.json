@@ -7900,8 +7900,7 @@
     "categories": [
       "Acharonim on Talmud Bavli"
     ],
-    "publisher": "ספריית דיקטה",
-    "Sourcefolder": "Dicta"
+    "Sourcefolder": "MoreBooks"
   },
   {
     "heAuthors": [
@@ -37598,6 +37597,27 @@
     "title": "יסוד אלף בית וסדר גימטריאות (ילקוט מדרשים)",
     "heAuthors": [
       "חז\"ל"
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "קובץ פרשיות ומועדים",
+    "heAuthors": [
+      "אלחנן בונים וסרמן"
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "קובץ מאמרים ואגרות חלק ג",
+    "heAuthors": [
+      "אלעזר שמחה וסרמן"
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "קובץ מאמרים ואגרות",
+    "heAuthors": [
+      "אלחנן בונים וסרמן"
     ],
     "Sourcefolder": "MoreBooks"
   }
