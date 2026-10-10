@@ -195,9 +195,9 @@ SEFARIA_FETCH=0 python3 .github/scripts/_tmp_v.py; rm .github/scripts/_tmp_v.py
 6. `git add` ושערי המאגר מול ה־index (סעיף 7).
 7. DB ממוקד ואימות בתוכו (סעיפים 8–9).
 
-דוגמאות מלאות: [אוצר ההלכה](MoreBooks/אוצר%20ההלכה%20-%20סקריפטים/README.md)
-(PDF → ספר + הערות + קישורים), [משנה הלכות](MoreBooks/משנה%20הלכות%20-%20סקריפטים/README.md)
-(גריפת אתר מתוקנת מול PDF).
+דוגמאות מלאות, בריפו [Otzaria/book-sources](https://github.com/Otzaria/book-sources):
+`MoreBooks/אוצר ההלכה/סקריפטים/README.md` (PDF → ספר + הערות + קישורים),
+`MoreBooks/משנה הלכות/סקריפטים/README.md` (גריפת אתר מתוקנת מול PDF).
 
 ## רישום קנוני ויומן זהות
 

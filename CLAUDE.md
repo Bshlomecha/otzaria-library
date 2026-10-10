@@ -58,7 +58,6 @@ BeitAharonVeYisraelToOtzaria/ספרים/אוצריא
 ### מה *לא* נארז
 
 - `extraBooks/`, `docxToOtzaria/`, `MoreBooks/ספרים/` שאינו תחת `אוצריא/`
-- `KSK/` שאינו תחת `ספרים/אוצריא/` — תיקיית הסקריפטים של קובץ שיטות קמאי
 - כל `<source>/ספרים/<משהו שאינו אוצריא>/` — למשל `OraytaToOtzaria/ספרים/לא רלוונטי/`
 - `DictaToOtzaria/לא ערוך/` — נכנס רק ל־`otzaria_dicta_latest.zip`, לא לספרייה
 - `BeitAharonVeYisraelToOtzaria/ספרים/בהמתנה/` — ספרים ממתינים של מכון בית אהרן וישראל (לא רשומים במטא־דאטה)
