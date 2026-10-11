@@ -1,0 +1,184 @@
+name: Validate Sefaria-shadowed books
+
+# שער שנכשל כשקובץ ספר אוצריא נארז *מתכסה לאחרונה* על ידי ספר ספריא.
+#
+# בבניית ה-DB ספריא מיובאת ראשונה, ו-createAndProcessBook (Generator.kt) מדלג על קובץ
+# אוצריא שה-heRef של ספר ספריא שווה לכותרת המנורמלת שלו ("already exists from Sefaria").
+# הספר עובר בשקט מאוצריא לספריא: מזהה ספר חדש, מזהי שורות חדשים, וסימניות המשתמשים
+# מתייתמות. כאן משחזרים את אותה החלטה בדיוק ומשווים אותה ל-baseline המחויב
+# (.github/data/sefaria_shadowed_books.txt). אדם מחליט: שינוי שם, blacklist, או קבלה.
+#
+# צד ספריא: ה-heRef של כל ספרי ספריא ב-DB של ה-release האחרון של SeforimLibrary
+# (אחרי כל ה-blacklists וכללי הייבוא), ובנוסף כותרות שייצוא ספריא חדש יותר הוסיף מאז
+# הייצוא שממנו נבנה ה-DB (titles.json). ייצוא חדש יכול ליצור כיסוי בלי שום קומיט כאן,
+# ולכן הבדיקה רצה גם אחרי Sync manual links (הצרכן של כל ייצוא חדש) ופעם ביום.
+
+on:
+  pull_request:
+    paths:
+      - '*/ספרים/אוצריא/**'
+      - 'DictaToOtzaria/ערוך/ספרים/אוצריא/**'
+      - 'sefariaToOtzaria/*/ספרים/אוצריא/**'
+      - '.github/data/sefaria_shadowed_books.txt'
+      - '.github/scripts/check_sefaria_shadowed_books.py'
+      - '.github/scripts/test_check_sefaria_shadowed_books.py'
+      - '.github/scripts/validate_fordb_book_names.py'
+      - '.github/workflows/validate-sefaria-shadowed-books.yml'
+  push:
+    branches: [main]
+    paths:
+      - '*/ספרים/אוצריא/**'
+      - 'DictaToOtzaria/ערוך/ספרים/אוצריא/**'
+      - 'sefariaToOtzaria/*/ספרים/אוצריא/**'
+      - '.github/data/sefaria_shadowed_books.txt'
+      - '.github/scripts/check_sefaria_shadowed_books.py'
+      - '.github/scripts/test_check_sefaria_shadowed_books.py'
+      - '.github/scripts/validate_fordb_book_names.py'
+      - '.github/workflows/validate-sefaria-shadowed-books.yml'
+  # כל ייצוא ספריא חדש נצרך כאן; זה הרגע הראשון שבו הוא יכול לכסות ספר.
+  workflow_run:
+    workflows: ["Sync manual links"]
+    types: [completed]
+  # release חדש של SeforimLibrary או שינוי ב-blacklists שם אינם מגיעים לכאן כאירוע.
+  schedule:
+    - cron: '23 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-sefaria-shadowed-books-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      GH_TOKEN: ${{ github.token }}
+      PYTHONIOENCODING: utf-8
+      WORK: ${{ github.workspace }}/.shadow-inputs
+    steps:
+      # blobless + sparse: עץ הספרים נקרא מ-git ls-tree, בלי תוכן הקבצים (~10GiB).
+      - name: Checkout repository (sparse, blobless)
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 1
+          lfs: false
+          filter: blob:none
+          sparse-checkout: |
+            /.github/scripts/
+            /.github/data/
+          sparse-checkout-cone-mode: false
+          persist-credentials: false
+
+      # files-blacklist.txt ו-source-blacklist.txt של הבנייה הבאה.
+      - name: Checkout the generator's Otzaria blacklists
+        uses: actions/checkout@v6
+        with:
+          repository: Otzaria/SeforimLibrary
+          ref: otzaria
+          path: seforim-tool
+          filter: blob:none
+          sparse-checkout: |
+            /generator/otzariasqlite/src/commonMain/resources/files-blacklist.txt
+            /generator/otzariasqlite/src/commonMain/resources/source-blacklist.txt
+          sparse-checkout-cone-mode: false
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Self-test the checker
+        working-directory: .github/scripts
+        run: python3 -m unittest -v test_check_sefaria_shadowed_books
+
+      - name: Resolve the built DB and the newest Sefaria export
+        id: inputs
+        run: |
+          set -euo pipefail
+          mkdir -p "$WORK"
+          download() {  # repo tag asset dir: download and verify against the release digest
+            gh release download "$2" -R "$1" -p "$3" -D "$4" --clobber
+            digest=$(gh release view "$2" -R "$1" --json assets --jq ".assets[] | select(.name==\"$3\") | .digest")
+            [[ "$digest" =~ ^sha256:[0-9a-f]{64}$ ]]
+            [[ "$(sha256sum "$4/$3" | cut -d' ' -f1)" == "${digest#sha256:}" ]]
+          }
+          lib_tag=$(gh release list -R Otzaria/SeforimLibrary --exclude-pre-releases --exclude-drafts \
+            -L1 --json tagName -q '.[0].tagName')
+          test -n "$lib_tag"
+          download Otzaria/SeforimLibrary "$lib_tag" build_provenance.json "$WORK"
+          built_export=$(jq -r '.sefaria_tag' "$WORK/build_provenance.json")
+          test -n "$built_export" && test "$built_export" != null
+          latest_export=$(gh release list -R Otzaria/SefariaExport --exclude-pre-releases --exclude-drafts \
+            -L1 --json tagName -q '.[0].tagName')
+          test -n "$latest_export"
+          mkdir -p "$WORK/built-export" "$WORK/latest-export"
+          download Otzaria/SefariaExport "$built_export" titles.json "$WORK/built-export"
+          download Otzaria/SefariaExport "$latest_export" titles.json "$WORK/latest-export"
+          db_digest=$(gh release view "$lib_tag" -R Otzaria/SeforimLibrary --json assets \
+            --jq '.assets[] | select(.name=="seforim-schema6.db.zst") | .digest')
+          [[ "$db_digest" =~ ^sha256:[0-9a-f]{64}$ ]]
+          echo "DB: SeforimLibrary $lib_tag (built from SefariaExport $built_export); newest export: $latest_export"
+          {
+            echo "lib_tag=$lib_tag"
+            echo "db_digest=${db_digest#sha256:}"
+          } >> "$GITHUB_OUTPUT"
+
+      # רשימת ה-heRef קטנה; ה-DB (~1.8GB דחוס) יורד רק פעם אחת לכל release.
+      - name: Restore Sefaria heRefs of the built DB
+        id: herefs-cache
+        uses: actions/cache/restore@v4
+        with:
+          path: ${{ env.WORK }}/sefaria_herefs.txt
+          key: sefaria-herefs-${{ steps.inputs.outputs.lib_tag }}-${{ steps.inputs.outputs.db_digest }}
+
+      - name: Extract Sefaria heRefs from the built DB
+        if: ${{ steps.herefs-cache.outputs.cache-hit != 'true' }}
+        env:
+          LIB_TAG: ${{ steps.inputs.outputs.lib_tag }}
+          DB_DIGEST: ${{ steps.inputs.outputs.db_digest }}
+        run: |
+          set -euo pipefail
+          gh release download "$LIB_TAG" -R Otzaria/SeforimLibrary -p seforim-schema6.db.zst -D "$WORK/db" --clobber
+          [[ "$(sha256sum "$WORK/db/seforim-schema6.db.zst" | cut -d' ' -f1)" == "$DB_DIGEST" ]]
+          unzstd -f "$WORK/db/seforim-schema6.db.zst" -o "$WORK/db/seforim.db"
+          rm "$WORK/db/seforim-schema6.db.zst"
+          python3 .github/scripts/check_sefaria_shadowed_books.py extract-herefs \
+            --db "$WORK/db/seforim.db" --output "$WORK/sefaria_herefs.txt"
+          rm -r "$WORK/db"
+
+      - name: Save Sefaria heRefs of the built DB
+        if: ${{ steps.herefs-cache.outputs.cache-hit != 'true' }}
+        uses: actions/cache/save@v4
+        with:
+          path: ${{ env.WORK }}/sefaria_herefs.txt
+          key: sefaria-herefs-${{ steps.inputs.outputs.lib_tag }}-${{ steps.inputs.outputs.db_digest }}
+
+      - name: Compare covered books with the baseline
+        run: |
+          set -euo pipefail
+          res=seforim-tool/generator/otzariasqlite/src/commonMain/resources
+          set +e
+          python3 .github/scripts/check_sefaria_shadowed_books.py check \
+            --sefaria-herefs "$WORK/sefaria_herefs.txt" \
+            --export-titles "$WORK/latest-export/titles.json" \
+            --built-export-titles "$WORK/built-export/titles.json" \
+            --files-blacklist "$res/files-blacklist.txt" \
+            --source-blacklist "$res/source-blacklist.txt" > "$WORK/report.txt"
+          code=$?
+          set -e
+          cat "$WORK/report.txt"
+          if [ "$code" -ne 0 ]; then
+            {
+              echo "### Sefaria-shadowed books: baseline mismatch"
+              echo '```'
+              cat "$WORK/report.txt"
+              echo '```'
+            } >> "$GITHUB_STEP_SUMMARY"
+            grep -E '^(NEWLY|NO LONGER) COVERED' "$WORK/report.txt" | sed 's/^/::error::/' || true
+          fi
+          exit "$code"

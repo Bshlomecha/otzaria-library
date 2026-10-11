@@ -1,0 +1,3 @@
+# Packaged Otzaria books that the DB build skips because a Sefaria book has the same heRef.
+# One path per line, relative to the אוצריא root of otzaria_latest.zip.
+# Checked by .github/scripts/check_sefaria_shadowed_books.py; see that file before editing.
