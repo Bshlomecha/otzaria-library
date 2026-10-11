@@ -12,7 +12,7 @@
     { "path": "MoreBooks/links", "expected_state": "present" },
     { "path": "KSK/links", "expected_state": "present" },
     { "path": "wikiJewishBooksToOtzaria/links", "expected_state": "present" },
-    { "path": "wikisourceToOtzaria/links", "expected_state": "absent" },
+    { "path": "wikisourceToOtzaria/links", "expected_state": "present" },
     { "path": "ToratEmetToOtzaria/links", "expected_state": "present" },
     { "path": "pninimToOtzaria/links", "expected_state": "present" },
     { "path": "National-LibraryToOtzaria/links", "expected_state": "present" },
