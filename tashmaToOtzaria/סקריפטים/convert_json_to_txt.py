@@ -1,5 +1,11 @@
 import json
+import os
 import re
+import sys
+
+SOURCE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.dirname(SOURCE_DIR))
+import post_convert_fixes  # noqa: E402
 
 def convert_json_book_to_txt(json_file_path, output_file_path):
     """Convert JSON book format to simple TXT with HTML headers"""
@@ -293,6 +299,8 @@ def convert_json_book_to_txt(json_file_path, output_file_path):
     final_content = '\n'.join(non_empty_lines)
     
     # Write to output file
+    book = os.path.splitext(os.path.basename(output_file_path))[0]
+    final_content = post_convert_fixes.apply_book(SOURCE_DIR, book, final_content)
     with open(output_file_path, 'w', encoding='utf-8') as f:
         f.write(final_content)
     

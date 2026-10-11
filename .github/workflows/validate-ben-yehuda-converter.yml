@@ -4,12 +4,16 @@ on:
   pull_request:
     paths:
       - "Ben-YehudaToOtzaria/סקריפטים/**"
+      - "Ben-YehudaToOtzaria/post_convert_fixes.tsv"
+      - "post_convert_fixes.py"
       - ".github/workflows/validate-ben-yehuda-converter.yml"
   push:
     branches:
       - main
     paths:
       - "Ben-YehudaToOtzaria/סקריפטים/**"
+      - "Ben-YehudaToOtzaria/post_convert_fixes.tsv"
+      - "post_convert_fixes.py"
       - ".github/workflows/validate-ben-yehuda-converter.yml"
   workflow_dispatch:
 
@@ -29,6 +33,8 @@ jobs:
           sparse-checkout: |
             /Ben-YehudaToOtzaria/סקריפטים/otzaria_markup.py
             /Ben-YehudaToOtzaria/סקריפטים/split_footnotes.py
+            /Ben-YehudaToOtzaria/post_convert_fixes.tsv
+            /post_convert_fixes.py
             /Ben-YehudaToOtzaria/סקריפטים/test_otzaria_markup.py
           sparse-checkout-cone-mode: false
 

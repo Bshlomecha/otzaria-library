@@ -5,11 +5,16 @@ import unicodedata
 from collections import defaultdict
 from dataclasses import dataclass
 from pathlib import Path
+import sys
+
+SOURCE_DIR = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(SOURCE_DIR.parent))
 
 from bs4 import BeautifulSoup, Tag
 from gematriapy import gematria
 from pyluach import dates
 
+import post_convert_fixes
 import fix_marker_breaks
 import fix_missing_spaces
 import normalize_source
@@ -437,6 +442,7 @@ for code_mefaresh_id, mef_entry in all_mef.items():
                                 "line_index_2": lines,
                                 "Conection Type": "commentary"
                             })
+    post_convert_fixes.apply_file(str(SOURCE_DIR), str(mef_file_path))
     json_links_path = links_base_path / f"{file_name}_links.json"
     if in_extra:
         json_links_path = extra_books_links_path / f"{file_name}_links.json"

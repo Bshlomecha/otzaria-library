@@ -15,9 +15,14 @@ from __future__ import annotations
 
 import argparse
 import json
+import sys
 from pathlib import Path
 
 from otzaria_markup import convert_block_lines
+
+SOURCE_DIR = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(SOURCE_DIR.parent))
+import post_convert_fixes  # noqa: E402
 
 NOTES_PREFIX = "הערות על "
 
@@ -42,14 +47,17 @@ def footnote_links(refs: list[tuple[int, int]], notes_name: str) -> list[dict]:
 def write_book(book_path: Path, lines: list[str], notes: list[str],
                refs: list[tuple[int, int]], links_dir: Path) -> None:
     book_path.parent.mkdir(parents=True, exist_ok=True)
-    book_path.write_text("\n".join(lines), encoding="utf-8", newline="\n")
+    text = post_convert_fixes.apply_book(str(SOURCE_DIR), book_path.stem, "\n".join(lines))
+    book_path.write_text(text, encoding="utf-8", newline="\n")
     if not notes:
         return
     missing = sorted(set(range(1, len(notes) + 1)) - {n for _, n in refs})
     if missing:
         print(f"{book_path.stem}: notes without a reference in the text: {missing}")
     notes_name = f"{NOTES_PREFIX}{book_path.stem}.txt"
-    (book_path.parent / notes_name).write_text("\n".join(notes_book(book_path.stem, notes)), encoding="utf-8", newline="\n")
+    notes_text = "\n".join(notes_book(book_path.stem, notes))
+    notes_text = post_convert_fixes.apply_book(str(SOURCE_DIR), notes_name[:-4], notes_text)
+    (book_path.parent / notes_name).write_text(notes_text, encoding="utf-8", newline="\n")
     links_dir.mkdir(parents=True, exist_ok=True)
     links_path = links_dir / f"{book_path.stem}_links.json"
     links_path.write_text(json.dumps(footnote_links(refs, notes_name), ensure_ascii=False, indent=2),

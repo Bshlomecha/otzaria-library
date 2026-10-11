@@ -60,6 +60,8 @@ jobs:
             /wikisourceToOtzaria/סקריפטים/mediawikitootzaria/
             /wikisourceToOtzaria/סקריפטים/test_mediawikitootzaria.py
             /manual_links_sync.json
+            /post_convert_fixes.py
+            /*/post_convert_fixes.tsv
             /_insert_sfat_emet_links.py
             /manual_links_packaging.py
             /pipeline_result_contract.py
@@ -69,6 +71,7 @@ jobs:
             /test_insert_sfat_emet_links.py
             /test_manual_links_packaging.py
             /test_pipeline_result_contract.py
+            /test_post_convert_fixes.py
             /test_saga_contract.py
             /test_sefaria_release_chain.py
             /test_source_lists_contract.py

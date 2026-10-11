@@ -2,6 +2,11 @@ from bs4 import BeautifulSoup
 import os
 import re
 import html as html_module
+import sys
+
+SOURCE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.dirname(SOURCE_DIR))
+import post_convert_fixes  # noqa: E402
 
 h_dict = {"book":1, "chap":2, "p":3}
 t_dict = {1:"אונקלוס",2:'תרגום ירושלמי',3:'רש"י',4:'רמב"ן',5:'אבן עזרא',6:'ספורנו',7:'בעל הטורים',
@@ -199,8 +204,9 @@ def convert_file(file_path, target_file, file_name):
     fix_spaces = adjust_html_tag_spaces(fix_xml).splitlines()
     output_text = [f"<h1>{title}</h1>" if title else f"<h1>{file_name}</h1>", ""] + [line.strip() for line in fix_spaces if check_line(line)]
     join_lines = normalize_chars(html_module.unescape("\n".join(output_text))).replace(TEXT_LT, "&lt;")
+    book = os.path.splitext(os.path.basename(target_file))[0]
     with open(target_file, "w", encoding = "utf-8") as output:
-        output.write(join_lines)
+        output.write(post_convert_fixes.apply_book(SOURCE_DIR, book, join_lines))
 
 def main():
     books_folder = "ובלכתך בדרך"

@@ -2,6 +2,7 @@ import csv
 import html
 import json
 import re
+import sys
 import time
 from collections.abc import Generator
 from pathlib import Path
@@ -9,6 +10,19 @@ from pathlib import Path
 from mediawikitootzaria import htmltootzaria, mediawikiapi, mediawikitohtml, templates, utils
 from openpyxl import load_workbook
 from tqdm import tqdm
+
+REPO = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(REPO))
+import post_convert_fixes  # noqa: E402
+
+# הממיר משמש את שני מקורות הוויקי; שמות הספרים בספרייה ייחודיים, ולכן מחילים את שתי הטבלאות
+FIX_SOURCES = [str(REPO / "wikisourceToOtzaria"), str(REPO / "wikiJewishBooksToOtzaria")]
+
+
+def apply_fixes(book: str, text: str) -> str:
+    for source in FIX_SOURCES:
+        text = post_convert_fixes.apply_book(source, book, text)
+    return text
 
 mediawikiapi.BASE_URL = mediawikiapi.WIKISOURCE
 templates.replacement_dict = templates.wikisource_replacement_dict
@@ -123,10 +137,10 @@ def process_book(pages: list[list[str]], title: str, author: str, link: str) -> 
         with json_file_path.open('w', encoding='utf-8') as f:
             json.dump(dict_links, f)
     with file_path.open("w", encoding="utf-8") as f:
-        f.write("\n".join(all_content))
+        f.write(apply_fixes(file_name, "\n".join(all_content)))
     if all_sup:
         with comments_file_path.open("w", encoding="utf-8") as f:
-            f.write("\n".join(all_sup))
+            f.write(apply_fixes(f"הערות על {file_name}", "\n".join(all_sup)))
 
 
 # file_path = r"C:\Users\User\Downloads\אוצר הספרים היהודי השיתופי - עץ הדר.csv"

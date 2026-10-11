@@ -27,6 +27,10 @@ import json
 import os
 import re
 
+SOURCE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.dirname(SOURCE_DIR))
+import post_convert_fixes  # noqa: E402
+
 SRC_ROOT = os.environ.get("TORAT_EMET_SRC", "")
 CT_KEYS = ('rep|pr|MIX|is|bs|ip|su|sil|ix|nik|bp|cp|dii|rnft|irfb|cs|rus|sem|sp|rlp|rls|'
            'rnp|rns|eoi|ec|ti|orp|wp|inp|ins|id|ft|ap|mxp|eh|jjjj|dai|ddc|nts|nte|mbw|sis|'
@@ -514,7 +518,8 @@ def main():
     _, lines = convert(a.book, levels=a.levels)
     text = to_text(lines)
     if a.out:
-        open(a.out, 'w', encoding='utf-8', newline='\n').write(text)
+        book = os.path.splitext(os.path.basename(a.out))[0]
+        open(a.out, 'w', encoding='utf-8', newline='\n').write(post_convert_fixes.apply_book(SOURCE_DIR, book, text))
     else:
         sys.stdout.write(text)
 

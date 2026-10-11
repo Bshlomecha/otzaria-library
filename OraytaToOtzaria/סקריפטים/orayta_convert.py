@@ -36,6 +36,10 @@ import sys
 import unicodedata
 import zipfile
 
+SOURCE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.dirname(SOURCE_DIR))
+import post_convert_fixes  # noqa: E402
+
 LEVEL_SIGNS = "#^@~!"  # מהגבוה לנמוך
 LONG_HEADING = 150  # שורת רמה ארוכה מזה היא פסקה מודגשת, לא כותרת
 
@@ -805,8 +809,9 @@ def write_editor_notes(out_path, editor_lines, links_dir):
     import json
     stem = os.path.splitext(os.path.basename(out_path))[0]
     notes_title = f"הערות על {stem}"
+    notes = "\n".join([f"<h1>{html.escape(notes_title, quote=False)}</h1>"] + [b for _, b in editor_lines])
     with open(os.path.join(os.path.dirname(out_path), notes_title + ".txt"), "w", encoding="utf-8", newline="\n") as f:
-        f.write("\n".join([f"<h1>{html.escape(notes_title, quote=False)}</h1>"] + [b for _, b in editor_lines]))
+        f.write(post_convert_fixes.apply_book(SOURCE_DIR, notes_title, notes))
     # בספר הסופי נוספת שורת מחבר אחרי ה־h1, ולכן כל שורה זזה באחת
     links = [{"line_index_1": n + 1, "line_index_2": k, "heRef_2": notes_title, "path_2": notes_title + ".txt",
               "Conection Type": "footnotes"} for k, (n, _) in enumerate(editor_lines, start=2)]
@@ -819,8 +824,9 @@ if __name__ == "__main__":
     # python orayta_convert.py <obk> <out.txt> [--gmara] [--links-dir <links>]
     daf_level = "~" if "--gmara" in sys.argv[3:] else None
     title, out, _, editor_lines = convert(sys.argv[1], gmara_daf_level=daf_level)
+    book = os.path.splitext(os.path.basename(sys.argv[2]))[0]
     with open(sys.argv[2], "w", encoding="utf-8") as f:
-        f.write("\n".join(out))
+        f.write(post_convert_fixes.apply_book(SOURCE_DIR, book, "\n".join(out)))
     if editor_lines:
         links_dir = sys.argv[sys.argv.index("--links-dir") + 1] if "--links-dir" in sys.argv else \
             os.path.dirname(os.path.abspath(sys.argv[2]))
