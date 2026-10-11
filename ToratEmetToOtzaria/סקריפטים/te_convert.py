@@ -338,6 +338,14 @@ def tidy(s):
 
 # ---------------------------------------------------------------- book conversion
 SIGIL_RE = re.compile(r'^([$#^@~!])\s?(.*)$')
+# A note marker is glued to its collapsible note, as elsewhere in the library; the
+# source has a space between them ('[[[א]]] {{' in וביום השבת).
+NOTE_GAP_RE = re.compile(r'</sup>(?:\s|<(?!/?script\b)[^<>]*>)*<script>(?:<teg>)?ExpandCollapse\(.*?'
+                         r'</script>(?:\s|</\w+>)*')
+
+
+def glue_notes(s):
+    return NOTE_GAP_RE.sub(lambda m: re.sub(r'\s+(?=<)|(?<=>)\s+', '', m.group(0)), s)
 
 
 def strip_tags(s):
@@ -383,7 +391,7 @@ def convert(rel, text=None, markers=False, levels=None, report=None):
         if m:
             items.append((i, m.group(1), apply_rules(m.group(2), rules, markers)))
         else:
-            items.append((i, None, show_pics(apply_rules(hide_pics(line, pics), rules, markers))))
+            items.append((i, None, glue_notes(show_pics(apply_rules(hide_pics(line, pics), rules, markers)))))
     # first pass: find the source tags that have no closer. A heading is rendered on its
     # own, so nothing it opens or closes reaches the text around it. A tag still open
     # at a heading may only be closed by the first paragraph after it (a Chavruta quote
