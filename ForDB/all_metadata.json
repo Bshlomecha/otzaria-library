@@ -33719,9 +33719,9 @@
   },
   {
     "heAuthors": [
-      "אשר בן צבי הירש אשכנזי"
+      "רבי אשר בן צבי הירש הכהן אשכנזי מטיקטין"
     ],
-    "title": "ברכת ראש נזיר",
+    "title": "ברכת ראש על מסכת נזיר",
     "enTitle": "Birchat Rosh (Nazir)",
     "authors": [
       "Asher Cohen"
@@ -35435,7 +35435,7 @@
   },
   {
     "heAuthors": [
-      "אשר בן צבי הירש אשכנזי"
+      "רבי אשר בן צבי הירש הכהן אשכנזי מטיקטין"
     ],
     "title": "ברכת ראש ברכות",
     "enTitle": "Birchat Rosh (Berakhot)",
@@ -37641,6 +37641,55 @@
     "title": "קובץ מאמרים ואגרות",
     "heAuthors": [
       "אלחנן בונים וסרמן"
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "באורי הגרא על משנה מסכת קנים",
+    "heAuthors": [
+      "אליהו בן שלמה זלמן מווילנה"
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "באורי הגרא על משנה מסכת מדות",
+    "heAuthors": [
+      "אליהו בן שלמה זלמן מווילנה"
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "באורי הגרא על משנה מסכת תמיד",
+    "heAuthors": [
+      "אליהו בן שלמה זלמן מווילנה"
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "הערות על ברכת ראש על מסכת נזיר",
+    "heAuthors": [
+      "רבי אשר בן צבי הירש הכהן אשכנזי מטיקטין"
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "איגרת הקודש להרמבן",
+    "heAuthors": [
+      "הרמב\"ן"
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "מכתם לדוד אורח חיים",
+    "heAuthors": [
+      "רבי דוד פארדו"
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "אגודת אזוב אבן העזר",
+    "heAuthors": [
+      "רבי משה זאב וולף מרגליות"
     ],
     "Sourcefolder": "MoreBooks"
   }
