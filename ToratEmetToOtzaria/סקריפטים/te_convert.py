@@ -480,7 +480,7 @@ def main():
     _, lines = convert(a.book, levels=a.levels)
     text = to_text(lines)
     if a.out:
-        open(a.out, 'w', encoding='utf-8').write(text)
+        open(a.out, 'w', encoding='utf-8', newline='\n').write(text)
     else:
         sys.stdout.write(text)
 
