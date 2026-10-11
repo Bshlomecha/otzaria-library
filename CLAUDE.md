@@ -59,7 +59,7 @@ BeitAharonVeYisraelToOtzaria/ספרים/אוצריא
 - כל `<source>/ספרים/<משהו שאינו אוצריא>/` — למשל `OraytaToOtzaria/ספרים/לא רלוונטי/`
 - `DictaToOtzaria/לא ערוך/` — נכנס רק ל־`otzaria_dicta_latest.zip`, לא לספרייה
 - `BeitAharonVeYisraelToOtzaria/ספרים/בהמתנה/` — ספרים ממתינים של מכון בית אהרן וישראל (לא רשומים במטא־דאטה)
-- כלי עבודה: `linker/`, `linker-eval/`, `metadata/`, `send_update/`, `סקריפטים שונות/`
+- כלי עבודה: `linker/`, `linker-eval/`, `metadata/`, `סקריפטים שונות/`
 
 ## הקישורים: `links_roots`
 
