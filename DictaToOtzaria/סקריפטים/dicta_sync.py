@@ -45,6 +45,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, HERE)
 REPO = os.path.abspath(os.path.join(HERE, "..", ".."))
 sys.path.insert(0, os.path.join(REPO, ".github", "scripts"))
+sys.path.insert(0, REPO)
+import post_convert_fixes  # noqa: E402
 from book_info_writer import plan_registration, apply_registration
 from validate_fordb_book_names import db_title as normalize_book_title
 
@@ -1028,8 +1030,10 @@ class Importer:
         self.summary["truncated — nothing written"].append((fn, f"{len(info['failed'])} of {info['expected']} pages unavailable"))
         return True
 
-    def convert(self, data, book, order):
+    def convert(self, data, book, order, *, book_name=None):
         res = DC.convert_zip_final(data, book, page_order=order)
+        title = book_name if book_name is not None else sanitize_filename(book.get("displayName") or book["fileName"])
+        res.text = post_convert_fixes.apply_book(os.path.join(REPO, "DictaToOtzaria"), title, res.text)
         src = " ".join(h for _, h in DC.read_zip_pages(data, order))
         return res, src
 
@@ -1193,7 +1197,7 @@ class Importer:
         data, order, remote, pagemap = got
         old_pages = expand(ent["remote"].get("pages", []))
         new_pages = expand(remote["pages"])
-        res, src = self.convert(data, book, order)
+        res, src = self.convert(data, book, order, book_name=os.path.splitext(os.path.basename(path))[0])
         gate = dicta_gate.evaluate(res.text, src, source_is_html=True)
         head = read_text(os.path.join(REPO, path))
         base = first_blob(path) or head

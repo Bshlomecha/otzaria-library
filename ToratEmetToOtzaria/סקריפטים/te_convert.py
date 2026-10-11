@@ -519,7 +519,9 @@ def main():
     text = to_text(lines)
     if a.out:
         book = os.path.splitext(os.path.basename(a.out))[0]
-        open(a.out, 'w', encoding='utf-8', newline='\n').write(post_convert_fixes.apply_book(SOURCE_DIR, book, text))
+        text = post_convert_fixes.apply_book(SOURCE_DIR, book, text)
+        with open(a.out, 'w', encoding='utf-8', newline='\n') as f:
+            f.write(text)
     else:
         sys.stdout.write(text)
 

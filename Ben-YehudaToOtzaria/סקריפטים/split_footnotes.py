@@ -46,10 +46,10 @@ def footnote_links(refs: list[tuple[int, int]], notes_name: str) -> list[dict]:
 
 def write_book(book_path: Path, lines: list[str], notes: list[str],
                refs: list[tuple[int, int]], links_dir: Path) -> None:
-    book_path.parent.mkdir(parents=True, exist_ok=True)
     text = post_convert_fixes.apply_book(str(SOURCE_DIR), book_path.stem, "\n".join(lines))
-    book_path.write_text(text, encoding="utf-8", newline="\n")
     if not notes:
+        book_path.parent.mkdir(parents=True, exist_ok=True)
+        book_path.write_text(text, encoding="utf-8", newline="\n")
         return
     missing = sorted(set(range(1, len(notes) + 1)) - {n for _, n in refs})
     if missing:
@@ -57,11 +57,14 @@ def write_book(book_path: Path, lines: list[str], notes: list[str],
     notes_name = f"{NOTES_PREFIX}{book_path.stem}.txt"
     notes_text = "\n".join(notes_book(book_path.stem, notes))
     notes_text = post_convert_fixes.apply_book(str(SOURCE_DIR), notes_name[:-4], notes_text)
+    links_text = json.dumps(footnote_links(refs, notes_name), ensure_ascii=False, indent=2)
+    # Validate both books and prepare links before changing any existing output.
+    book_path.parent.mkdir(parents=True, exist_ok=True)
+    book_path.write_text(text, encoding="utf-8", newline="\n")
     (book_path.parent / notes_name).write_text(notes_text, encoding="utf-8", newline="\n")
     links_dir.mkdir(parents=True, exist_ok=True)
     links_path = links_dir / f"{book_path.stem}_links.json"
-    links_path.write_text(json.dumps(footnote_links(refs, notes_name), ensure_ascii=False, indent=2),
-                          encoding="utf-8", newline="\n")
+    links_path.write_text(links_text, encoding="utf-8", newline="\n")
 
 
 def main() -> int:

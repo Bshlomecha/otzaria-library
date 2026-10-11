@@ -205,8 +205,9 @@ def convert_file(file_path, target_file, file_name):
     output_text = [f"<h1>{title}</h1>" if title else f"<h1>{file_name}</h1>", ""] + [line.strip() for line in fix_spaces if check_line(line)]
     join_lines = normalize_chars(html_module.unescape("\n".join(output_text))).replace(TEXT_LT, "&lt;")
     book = os.path.splitext(os.path.basename(target_file))[0]
+    join_lines = post_convert_fixes.apply_book(SOURCE_DIR, book, join_lines)
     with open(target_file, "w", encoding = "utf-8") as output:
-        output.write(post_convert_fixes.apply_book(SOURCE_DIR, book, join_lines))
+        output.write(join_lines)
 
 def main():
     books_folder = "ובלכתך בדרך"

@@ -804,30 +804,45 @@ def gematria(n):
     return s.replace("יה", "טו").replace("יו", "טז")
 
 
-def write_editor_notes(out_path, editor_lines, links_dir):
+def _editor_notes_outputs(out_path, editor_lines, links_dir):
     """'הערות על <ספר>.txt' ליד הספר + links/<ספר>_links.json מסוג footnotes."""
     import json
     stem = os.path.splitext(os.path.basename(out_path))[0]
     notes_title = f"הערות על {stem}"
     notes = "\n".join([f"<h1>{html.escape(notes_title, quote=False)}</h1>"] + [b for _, b in editor_lines])
-    with open(os.path.join(os.path.dirname(out_path), notes_title + ".txt"), "w", encoding="utf-8", newline="\n") as f:
-        f.write(post_convert_fixes.apply_book(SOURCE_DIR, notes_title, notes))
+    notes = post_convert_fixes.apply_book(SOURCE_DIR, notes_title, notes)
     # בספר הסופי נוספת שורת מחבר אחרי ה־h1, ולכן כל שורה זזה באחת
     links = [{"line_index_1": n + 1, "line_index_2": k, "heRef_2": notes_title, "path_2": notes_title + ".txt",
               "Conection Type": "footnotes"} for k, (n, _) in enumerate(editor_lines, start=2)]
-    os.makedirs(links_dir, exist_ok=True)
-    with open(os.path.join(links_dir, stem + "_links.json"), "w", encoding="utf-8", newline="\n") as f:
-        f.write(json.dumps(links, ensure_ascii=False, indent=2) + "\n")
+    return [(os.path.join(os.path.dirname(out_path), notes_title + ".txt"), notes),
+            (os.path.join(links_dir, stem + "_links.json"), json.dumps(links, ensure_ascii=False, indent=2) + "\n")]
+
+
+def _write_outputs(outputs):
+    for path, text in outputs:
+        os.makedirs(os.path.dirname(os.path.abspath(path)), exist_ok=True)
+        with open(path, "w", encoding="utf-8", newline="\n") as f:
+            f.write(text)
+
+
+def write_editor_notes(out_path, editor_lines, links_dir):
+    _write_outputs(_editor_notes_outputs(out_path, editor_lines, links_dir))
+
+
+def write_book(out_path, out, editor_lines, links_dir):
+    """Validate main text and companion notes before writing either book or links."""
+    book = os.path.splitext(os.path.basename(out_path))[0]
+    text = post_convert_fixes.apply_book(SOURCE_DIR, book, "\n".join(out))
+    outputs = [(out_path, text)]
+    if editor_lines:
+        outputs.extend(_editor_notes_outputs(out_path, editor_lines, links_dir))
+    _write_outputs(outputs)
 
 
 if __name__ == "__main__":
     # python orayta_convert.py <obk> <out.txt> [--gmara] [--links-dir <links>]
     daf_level = "~" if "--gmara" in sys.argv[3:] else None
     title, out, _, editor_lines = convert(sys.argv[1], gmara_daf_level=daf_level)
-    book = os.path.splitext(os.path.basename(sys.argv[2]))[0]
-    with open(sys.argv[2], "w", encoding="utf-8") as f:
-        f.write(post_convert_fixes.apply_book(SOURCE_DIR, book, "\n".join(out)))
-    if editor_lines:
-        links_dir = sys.argv[sys.argv.index("--links-dir") + 1] if "--links-dir" in sys.argv else \
-            os.path.dirname(os.path.abspath(sys.argv[2]))
-        write_editor_notes(sys.argv[2], editor_lines, links_dir)
+    links_dir = sys.argv[sys.argv.index("--links-dir") + 1] if "--links-dir" in sys.argv else \
+        os.path.dirname(os.path.abspath(sys.argv[2]))
+    write_book(sys.argv[2], out, editor_lines, links_dir)
