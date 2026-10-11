@@ -51,6 +51,8 @@ jobs:
           filter: blob:none
           sparse-checkout: |
             /DictaToOtzaria/סקריפטים/
+            /DictaToOtzaria/post_convert_fixes.tsv
+            /post_convert_fixes.py
             /.github/scripts/
             /manual_links_packaging.py
           sparse-checkout-cone-mode: false
@@ -113,6 +115,8 @@ jobs:
           filter: blob:none
           sparse-checkout: |
             /DictaToOtzaria/סקריפטים/
+            /DictaToOtzaria/post_convert_fixes.tsv
+            /post_convert_fixes.py
             /DictaToOtzaria/לא ערוך/
             /*/links/
             /DictaToOtzaria/ערוך/links/

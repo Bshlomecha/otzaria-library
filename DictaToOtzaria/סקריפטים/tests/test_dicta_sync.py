@@ -4,6 +4,7 @@
     python3 -m unittest discover -s "DictaToOtzaria/סקריפטים/tests" -v
 ללא רשת. בדיקות שקוראות את המאגר (git, manual_links_sync.json) רק קוראות.
 """
+import collections
 import csv
 import io
 import json
@@ -13,6 +14,8 @@ import sys
 import tempfile
 import unittest
 import zipfile
+from pathlib import Path
+from unittest.mock import Mock, patch
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 sys.path.insert(0, os.path.dirname(HERE))
@@ -22,6 +25,7 @@ import dicta_gate  # noqa: E402
 import dicta_place  # noqa: E402
 import dicta_replay  # noqa: E402
 import dicta_sync as SY  # noqa: E402
+import post_convert_fixes as P  # noqa: E402
 
 BODY = ("אמר רבי יוחנן כל המקיים נפש אחת מישראל כאילו קיים עולם מלא ולכן נברא אדם יחידי "
         "ללמדך שכל המאבד נפש אחת מעלה עליו הכתוב כאילו איבד עולם מלא ומפני שלום הבריות")
@@ -34,6 +38,92 @@ def book_zip(pages):
             html = "<html><body dir='rtl'>" + "<span> </span>".join(f"<span>{w}</span>" for w in words.split()) + "</body></html>"
             zf.writestr(f"book-{i:03d}__ocr_data.html", html)
     return buf.getvalue()
+
+
+class PostConvertImportTest(unittest.TestCase):
+    def setUp(self):
+        tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(tmp.cleanup)
+        self.repo = Path(tmp.name)
+        source = self.repo / "DictaToOtzaria"
+        source.mkdir()
+        (source / "post_convert_fixes.tsv").write_text(
+            "book\told\tnew\tnote\nספר\tטובא\tטובה\tregression\n", encoding="utf-8")
+        self.importer = SY.Importer.__new__(SY.Importer)
+        self.meta = {"displayName": "ספר", "fileName": "upstream.zip"}
+        self.patch_repo = patch.object(SY, "REPO", str(self.repo))
+        self.patch_repo.start()
+        self.addCleanup(self.patch_repo.stop)
+
+    def test_import_conversion_applies_table_after_cleanup(self):
+        data = book_zip([BODY + " ומצא אבן טובא מאד"])
+        res, src = self.importer.convert(data, self.meta, None)
+        self.assertIn("טובה", res.text)
+        self.assertNotIn("טובא", res.text)
+        self.assertIn("טובא", src)  # quality gates still compare against original OCR
+
+    def test_already_corrected_source_is_accepted(self):
+        res, _ = self.importer.convert(book_zip(["אבן טובה מאד"]), self.meta, None)
+        self.assertIn("טובה", res.text)
+
+    def test_missing_or_ambiguous_anchor_stops_conversion(self):
+        for text in ("מקור שהשתנה", "טובא וגם טובא"):
+            with self.subTest(text=text), self.assertRaises(P.PostConvertFixError):
+                self.importer.convert(book_zip([text]), self.meta, None)
+
+    def test_reconversion_can_use_existing_filename_after_upstream_rename(self):
+        meta = {**self.meta, "displayName": "שם חדש"}
+        res, _ = self.importer.convert(book_zip(["אבן טובא מאד"]), meta, None, book_name="ספר")
+        self.assertIn("טובה", res.text)
+
+    def test_reconvert_selects_existing_filename_and_writes_corrected_text(self):
+        fn = "upstream.zip"
+        path = "DictaToOtzaria/לא ערוך/ספרים/ספר.txt"
+        full = self.repo / path
+        full.parent.mkdir(parents=True)
+        data = book_zip([BODY * 4 + " ומצא אבן טובא מאד"])
+        original = SY.DC.convert_zip_final(data, self.meta).text
+        full.write_text(original, encoding="utf-8")
+        self.importer.st = {"books": {fn: {"repo": {"status": SY.RAW_S, "raw": [path]},
+                                         "remote": {"pages": [2]}}}}
+        self.importer.plan = {"books": {fn: {**self.meta, "displayName": "שם חדש"}}}
+        self.importer.idx = Mock()
+        self.importer.summary = collections.defaultdict(list)
+        self.importer.fetch_checked = Mock(return_value=(data, None, {"pages": [2], "zip_md5": "md5"}, {}))
+        self.importer.write = Mock()
+        self.importer._record = Mock()
+        with patch.object(SY, "links_guard", return_value=[{"packaged": False}]), \
+                patch.object(SY, "first_blob", return_value=original):
+            self.importer.do_reconvert(fn, "updated OCR")
+        self.importer.write.assert_called_once()
+        out_path, text = self.importer.write.call_args.args
+        self.assertEqual(out_path, path)
+        self.assertIn("טובה", text)
+        self.assertNotIn("טובא", text)
+        self.assertTrue(self.importer.summary["reconverted"])
+
+        self.importer.write.reset_mock()
+        self.importer.fetch_checked.return_value = (book_zip([BODY * 4]), None,
+                                                    {"pages": [2], "zip_md5": "md5"}, {})
+        with patch.object(SY, "links_guard", return_value=[{"packaged": False}]), \
+                self.assertRaises(P.PostConvertFixError):
+            self.importer.do_reconvert(fn, "anchor changed")
+        self.importer.write.assert_not_called()
+        self.assertEqual(full.read_text(encoding="utf-8"), original)
+
+    def test_book_without_table_rules_is_unchanged(self):
+        meta = {**self.meta, "displayName": "ספר אחר"}
+        res, _ = self.importer.convert(book_zip(["אבן טובא מאד"]), meta, None)
+        self.assertIn("טובא", res.text)
+
+    def test_both_workflow_checkouts_include_correction_module_and_table(self):
+        workflow = Path(SY.__file__).resolve().parents[2] / ".github/workflows/dicta-import.yml"
+        blocks = workflow.read_text(encoding="utf-8").split("sparse-checkout: |")[1:]
+        self.assertEqual(len(blocks), 2)
+        for block in blocks:
+            checkout = block.split("sparse-checkout-cone-mode:")[0]
+            self.assertIn("/post_convert_fixes.py", checkout)
+            self.assertIn("/DictaToOtzaria/post_convert_fixes.tsv", checkout)
 
 
 class FingerprintTest(unittest.TestCase):

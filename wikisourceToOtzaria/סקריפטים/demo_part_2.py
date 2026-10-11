@@ -2,6 +2,7 @@ import csv
 import html
 import json
 import re
+import sys
 import time
 from collections.abc import Generator
 from pathlib import Path
@@ -9,6 +10,19 @@ from pathlib import Path
 from mediawikitootzaria import htmltootzaria, mediawikiapi, mediawikitohtml, templates, utils
 from openpyxl import load_workbook
 from tqdm import tqdm
+
+REPO = Path(__file__).resolve().parents[2]
+sys.path.insert(0, str(REPO))
+import post_convert_fixes  # noqa: E402
+
+# הממיר משמש את שני מקורות הוויקי; שמות הספרים בספרייה ייחודיים, ולכן מחילים את שתי הטבלאות
+FIX_SOURCES = [str(REPO / "wikisourceToOtzaria"), str(REPO / "wikiJewishBooksToOtzaria")]
+
+
+def apply_fixes(book: str, text: str) -> str:
+    for source in FIX_SOURCES:
+        text = post_convert_fixes.apply_book(source, book, text)
+    return text
 
 mediawikiapi.BASE_URL = mediawikiapi.WIKISOURCE
 templates.replacement_dict = templates.wikisource_replacement_dict
@@ -115,18 +129,27 @@ def process_book(pages: list[list[str]], title: str, author: str, link: str) -> 
             v = html.unescape(v)
             all_sup.append(f'{k} {v}')
             sup_num += 1
+    write_book(target_dir, file_name, all_content, all_sup, dict_links)
+
+
+def write_book(target_dir: Path, file_name: str, all_content: list[str],
+               all_sup: list[str], dict_links: list[dict]) -> None:
+    # All correction anchors must validate before books or their links change.
+    text = apply_fixes(file_name, "\n".join(all_content))
+    notes_text = apply_fixes(f"הערות על {file_name}", "\n".join(all_sup)) if all_sup else None
+    links_text = json.dumps(dict_links) if dict_links else None
     file_path = target_dir / f"{file_name}.txt"
     json_file_path = target_dir / f"{file_name}_links.json"
     comments_file_path = target_dir / f"הערות על {file_name}.txt"
 
-    if dict_links:
+    if links_text is not None:
         with json_file_path.open('w', encoding='utf-8') as f:
-            json.dump(dict_links, f)
+            f.write(links_text)
     with file_path.open("w", encoding="utf-8") as f:
-        f.write("\n".join(all_content))
-    if all_sup:
+        f.write(text)
+    if notes_text is not None:
         with comments_file_path.open("w", encoding="utf-8") as f:
-            f.write("\n".join(all_sup))
+            f.write(notes_text)
 
 
 # file_path = r"C:\Users\User\Downloads\אוצר הספרים היהודי השיתופי - עץ הדר.csv"

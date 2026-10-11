@@ -59,7 +59,12 @@ jobs:
             /ToratEmetToOtzaria/סקריפטים/test_te_reapply.py
             /wikisourceToOtzaria/סקריפטים/mediawikitootzaria/
             /wikisourceToOtzaria/סקריפטים/test_mediawikitootzaria.py
+            /wikisourceToOtzaria/סקריפטים/demo_part_2.py
+            /Ben-YehudaToOtzaria/סקריפטים/otzaria_markup.py
+            /Ben-YehudaToOtzaria/סקריפטים/split_footnotes.py
             /manual_links_sync.json
+            /post_convert_fixes.py
+            /*/post_convert_fixes.tsv
             /_insert_sfat_emet_links.py
             /manual_links_packaging.py
             /pipeline_result_contract.py
@@ -69,6 +74,7 @@ jobs:
             /test_insert_sfat_emet_links.py
             /test_manual_links_packaging.py
             /test_pipeline_result_contract.py
+            /test_post_convert_fixes.py
             /test_saga_contract.py
             /test_sefaria_release_chain.py
             /test_source_lists_contract.py
@@ -148,6 +154,16 @@ jobs:
           set -euo pipefail
           python3 -m pip install --quiet mwparserfromhell wikitextparser gematriapy requests
           python3 -m unittest -v test_mediawikitootzaria
+
+      # Validate failures before writing any book, companion notes or links.
+      - name: Post-conversion output safety suite
+        working-directory: .github/scripts
+        env:
+          PYTHONIOENCODING: utf-8
+        run: |
+          set -euo pipefail
+          python3 -m pip install --quiet openpyxl tqdm
+          python3 -m unittest -v test_post_convert_writes
 
       # רשימה מפורשת ולא discover: test_validate_fordb_book_names ו-
       # test_validate_manual_links_refs יושבות באותה תיקייה ורצות ב-workflows אחרים.

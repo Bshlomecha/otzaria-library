@@ -802,6 +802,11 @@ def _main(argv=None) -> int:
     res = convert_zip(a.zip, meta, options=opt) if a.raw else \
         convert_zip_final(a.zip, meta, options=opt)
     if a.out:
+        if not a.raw:
+            source_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+            sys.path.insert(0, os.path.dirname(source_dir))
+            import post_convert_fixes
+            res.text = post_convert_fixes.apply_book(source_dir, os.path.basename(a.out), res.text)
         with open(a.out, "w", encoding="utf-8", newline="\n") as f:
             f.write(res.text)
     else:
