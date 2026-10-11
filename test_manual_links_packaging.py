@@ -47,6 +47,25 @@ class ManualLinksPackagingTest(unittest.TestCase):
             with self.assertRaises(packaging.PackagingError):
                 packaging.tree_hashes(root, config)
 
+    def test_alt_toc_beside_each_links_root_is_flattened_and_collisions_are_fatal(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            for source in ("A", "B"):
+                (root / source / "links").mkdir(parents=True)
+                (root / source / "alt_toc").mkdir()
+            (root / "A" / "alt_toc" / "ספר_alt_toc.json").write_text("[]", encoding="utf-8")
+            config = self.write_config(root, [
+                {"path": "A/links", "expected_state": "present"},
+                {"path": "B/links", "expected_state": "present"},
+            ])
+            self.assertEqual(
+                [(path, file.relative_to(root).as_posix()) for path, file in packaging.scan_alt_toc(root, config)],
+                [("alt_toc/ספר_alt_toc.json", "A/alt_toc/ספר_alt_toc.json")],
+            )
+            (root / "B" / "alt_toc" / "ספר_alt_toc.json").write_text("[]", encoding="utf-8")
+            with self.assertRaisesRegex(packaging.PackagingError, "collision"):
+                packaging.scan_alt_toc(root, config)
+
     def test_absent_root_is_part_of_source_hash(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
@@ -115,6 +134,8 @@ class ManualLinksPackagingTest(unittest.TestCase):
             links = root / "source-links"
             links.mkdir()
             (links / "one_links.json").write_text("[]", encoding="utf-8")
+            (root / "alt_toc").mkdir()
+            (root / "alt_toc" / "one_alt_toc.json").write_text("[]", encoding="utf-8")
             config = self.write_config(root, [{"path": "source-links", "expected_state": "present"}])
             source_hash, packaged_hash, _ = packaging.tree_hashes(root, config)
             config_hash = packaging.sha256_file(root / packaging.CONFIG_NAME)
@@ -147,6 +168,9 @@ class ManualLinksPackagingTest(unittest.TestCase):
             packaging.package(argparse.Namespace(workspace=str(root), output=str(output), result=str(result)))
             with zipfile.ZipFile(output) as archive:
                 self.assertIn("links/one_links.json", archive.namelist())
+                self.assertIn("alt_toc/one_alt_toc.json", archive.namelist())
+                files_manifest = json.loads(archive.read("files_manifest.json"))
+                self.assertIn("alt_toc/one_alt_toc.json", files_manifest)
                 self.assertIn(packaging.CONFIG_NAME, archive.namelist())
                 self.assertIn(packaging.LINEAGE_NAME, archive.namelist())
                 self.assertIn(packaging.TOOLCHAIN_NAME, archive.namelist())
