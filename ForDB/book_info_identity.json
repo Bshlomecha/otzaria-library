@@ -968,6 +968,202 @@
       },
       "commit": null,
       "changeSetId": "6acb77dfb9775d9e1a5c7246"
+    },
+    {
+      "id": 75,
+      "kind": "rename",
+      "old": {
+        "bookName": "אבני נזר אבן העזר",
+        "authorName": ""
+      },
+      "new": {
+        "bookName": "אבני נזר אבן העזר",
+        "authorName": "ר' אברהם בורנשטיין"
+      },
+      "commit": null,
+      "changeSetId": "6acb7825b9775d9e1a5c725b"
+    },
+    {
+      "id": 76,
+      "kind": "rename",
+      "old": {
+        "bookName": "אבני נזר אורח חיים",
+        "authorName": ""
+      },
+      "new": {
+        "bookName": "אבני נזר אורח חיים",
+        "authorName": "ר' אברהם בורנשטיין"
+      },
+      "commit": null,
+      "changeSetId": "6acb7847b9775d9e1a5c726a"
+    },
+    {
+      "id": 77,
+      "kind": "rename",
+      "old": {
+        "bookName": "אבני נזר חושן משפט",
+        "authorName": ""
+      },
+      "new": {
+        "bookName": "אבני נזר חושן משפט",
+        "authorName": "ר' אברהם בורנשטיין"
+      },
+      "commit": null,
+      "changeSetId": "6acb785fb9775d9e1a5c7271"
+    },
+    {
+      "id": 78,
+      "kind": "rename",
+      "old": {
+        "bookName": "אבני נזר יורה דעה",
+        "authorName": ""
+      },
+      "new": {
+        "bookName": "אבני נזר יורה דעה",
+        "authorName": "ר' אברהם בורנשטיין"
+      },
+      "commit": null,
+      "changeSetId": "6acb7875b9775d9e1a5c7275"
+    },
+    {
+      "id": 79,
+      "kind": "rename",
+      "old": {
+        "bookName": "אגרת התשובה לרבינו יונה",
+        "authorName": ""
+      },
+      "new": {
+        "bookName": "אגרת התשובה לרבינו יונה",
+        "authorName": "ר' יונה ב\"ר אברהם גירונדי"
+      },
+      "commit": null,
+      "changeSetId": "6acb78b3b9775d9e1a5c7282"
+    },
+    {
+      "id": 80,
+      "kind": "rename",
+      "old": {
+        "bookName": "אב בחכמה",
+        "authorName": ""
+      },
+      "new": {
+        "bookName": "אב בחכמה",
+        "authorName": "רבי אברהם אהרן יודלוביץ'"
+      },
+      "commit": null,
+      "changeSetId": "6acb7a0fb9775d9e1a5c72ed"
+    },
+    {
+      "id": 81,
+      "kind": "rename",
+      "old": {
+        "bookName": "דרך החיים",
+        "authorName": ""
+      },
+      "new": {
+        "bookName": "דרך החיים",
+        "authorName": "רבי יעקב ב\"ר יעקב משה לורברבוים מליסא זצ\"ל [בעל נתיבות המשפט]"
+      },
+      "commit": null,
+      "changeSetId": "6acb7a37b9775d9e1a5c72ee"
+    },
+    {
+      "id": 82,
+      "kind": "rename",
+      "old": {
+        "bookName": "אתוון דאורייתא",
+        "authorName": ""
+      },
+      "new": {
+        "bookName": "אתוון דאורייתא",
+        "authorName": "רבי יוסף ב\"ר יהודה ענגיל זצ\"ל"
+      },
+      "commit": null,
+      "changeSetId": "6acb7a78b9775d9e1a5c72f1"
+    },
+    {
+      "id": 83,
+      "kind": "rename",
+      "old": {
+        "bookName": "תקפו כהן",
+        "authorName": ""
+      },
+      "new": {
+        "bookName": "תקפו כהן",
+        "authorName": "רבי שבתי ב\"ר מאיר הכהן [בעל הש\"ך]"
+      },
+      "commit": null,
+      "changeSetId": "6acb7ad0b9775d9e1a5c7317"
+    },
+    {
+      "id": 84,
+      "kind": "rename",
+      "old": {
+        "bookName": "מקדש דוד חלק א",
+        "authorName": ""
+      },
+      "new": {
+        "bookName": "מקדש דוד חלק א",
+        "authorName": "הרב דוד רפפורט"
+      },
+      "commit": null,
+      "changeSetId": "6acb7b30b9775d9e1a5c7318"
+    },
+    {
+      "id": 85,
+      "kind": "rename",
+      "old": {
+        "bookName": "מקדש דוד חלק ב",
+        "authorName": ""
+      },
+      "new": {
+        "bookName": "מקדש דוד חלק ב",
+        "authorName": "הרב דוד רפפורט"
+      },
+      "commit": null,
+      "changeSetId": "6acb7b3db9775d9e1a5c7319"
+    },
+    {
+      "id": 86,
+      "kind": "rename",
+      "old": {
+        "bookName": "מקדש דוד חלק ג",
+        "authorName": ""
+      },
+      "new": {
+        "bookName": "מקדש דוד חלק ג",
+        "authorName": "הרב דוד רפפורט"
+      },
+      "commit": null,
+      "changeSetId": "6acb7b4bb9775d9e1a5c731a"
+    },
+    {
+      "id": 87,
+      "kind": "rename",
+      "old": {
+        "bookName": "מקדש דוד חלק ד",
+        "authorName": ""
+      },
+      "new": {
+        "bookName": "מקדש דוד חלק ד",
+        "authorName": "הרב דוד רפפורט"
+      },
+      "commit": null,
+      "changeSetId": "6acb7b58b9775d9e1a5c731b"
+    },
+    {
+      "id": 88,
+      "kind": "rename",
+      "old": {
+        "bookName": "צורת בית המקדש השני להתוספות יום טוב",
+        "authorName": ""
+      },
+      "new": {
+        "bookName": "צורת בית המקדש השני להתוספות יום טוב",
+        "authorName": "ר' יום טוב ליפמן הלוי הלר"
+      },
+      "commit": null,
+      "changeSetId": "6acb7bddb9775d9e1a5c73d2"
     }
   ]
 }
