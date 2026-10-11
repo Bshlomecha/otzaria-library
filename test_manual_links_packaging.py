@@ -5,7 +5,7 @@ import tempfile
 import unittest
 import argparse
 import zipfile
-from pathlib import Path
+from pathlib import Path, PurePosixPath
 
 import manual_links_packaging as packaging
 
@@ -47,24 +47,47 @@ class ManualLinksPackagingTest(unittest.TestCase):
             with self.assertRaises(packaging.PackagingError):
                 packaging.tree_hashes(root, config)
 
-    def test_alt_toc_beside_each_links_root_is_flattened_and_collisions_are_fatal(self):
+    def test_alt_toc_beside_each_book_source_is_flattened_and_collisions_are_fatal(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             for source in ("A", "B"):
-                (root / source / "links").mkdir(parents=True)
-                (root / source / "alt_toc").mkdir()
+                (root / source / "alt_toc").mkdir(parents=True)
             (root / "A" / "alt_toc" / "ספר_alt_toc.json").write_text("[]", encoding="utf-8")
-            config = self.write_config(root, [
-                {"path": "A/links", "expected_state": "present"},
-                {"path": "B/links", "expected_state": "present"},
-            ])
+            book_roots = ("A/ספרים/אוצריא", "B/ספרים/אוצריא")
             self.assertEqual(
-                [(path, file.relative_to(root).as_posix()) for path, file in packaging.scan_alt_toc(root, config)],
+                [(path, file.relative_to(root).as_posix()) for path, file in packaging.scan_alt_toc(root, book_roots)],
                 [("alt_toc/ספר_alt_toc.json", "A/alt_toc/ספר_alt_toc.json")],
             )
             (root / "B" / "alt_toc" / "ספר_alt_toc.json").write_text("[]", encoding="utf-8")
             with self.assertRaisesRegex(packaging.PackagingError, "collision"):
-                packaging.scan_alt_toc(root, config)
+                packaging.scan_alt_toc(root, book_roots)
+
+    def test_alt_toc_of_a_source_without_links_root_is_packaged(self):
+        # yam-HaHachma ships books but has no entry in links_roots.
+        config = packaging.validate_config(packaging.load_json(Path(__file__).resolve().parent / packaging.CONFIG_NAME))
+        sources = {str(Path(entry["path"]).parent) for entry in config["links_roots"]}
+        self.assertNotIn("yam-HaHachmaToOtzaria", sources)
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "yam-HaHachmaToOtzaria" / "alt_toc").mkdir(parents=True)
+            (root / "yam-HaHachmaToOtzaria" / "alt_toc" / "ספר_alt_toc.json").write_text("[]", encoding="utf-8")
+            self.assertEqual(
+                [path for path, _ in packaging.scan_alt_toc(root)],
+                ["alt_toc/ספר_alt_toc.json"],
+            )
+
+    def test_every_book_root_sits_under_a_sefarim_folder(self):
+        # scan_alt_toc finds a source's folder two levels above its book root.
+        for book_root in packaging.BOOK_ROOTS:
+            self.assertEqual(PurePosixPath(book_root).parts[-2:], ("ספרים", "אוצריא"), book_root)
+
+    def test_alt_toc_root_symlink_is_fatal_even_when_dangling(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "A").mkdir()
+            (root / "A" / "alt_toc").symlink_to(root / "missing")
+            with self.assertRaisesRegex(packaging.PackagingError, "symlink"):
+                packaging.scan_alt_toc(root, ("A/ספרים/אוצריא",))
 
     def test_absent_root_is_part_of_source_hash(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -134,8 +157,8 @@ class ManualLinksPackagingTest(unittest.TestCase):
             links = root / "source-links"
             links.mkdir()
             (links / "one_links.json").write_text("[]", encoding="utf-8")
-            (root / "alt_toc").mkdir()
-            (root / "alt_toc" / "one_alt_toc.json").write_text("[]", encoding="utf-8")
+            (root / "MoreBooks" / "alt_toc").mkdir(parents=True)
+            (root / "MoreBooks" / "alt_toc" / "one_alt_toc.json").write_text("[]", encoding="utf-8")
             config = self.write_config(root, [{"path": "source-links", "expected_state": "present"}])
             source_hash, packaged_hash, _ = packaging.tree_hashes(root, config)
             config_hash = packaging.sha256_file(root / packaging.CONFIG_NAME)
@@ -170,7 +193,7 @@ class ManualLinksPackagingTest(unittest.TestCase):
                 self.assertIn("links/one_links.json", archive.namelist())
                 self.assertIn("alt_toc/one_alt_toc.json", archive.namelist())
                 files_manifest = json.loads(archive.read("files_manifest.json"))
-                self.assertIn("alt_toc/one_alt_toc.json", files_manifest)
+                self.assertIn("MoreBooks/alt_toc/one_alt_toc.json", files_manifest)
                 self.assertIn(packaging.CONFIG_NAME, archive.namelist())
                 self.assertIn(packaging.LINEAGE_NAME, archive.namelist())
                 self.assertIn(packaging.TOOLCHAIN_NAME, archive.namelist())

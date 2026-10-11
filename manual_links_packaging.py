@@ -199,15 +199,22 @@ def tree_hashes(workspace: Path, config: dict) -> tuple[str, str, list[tuple[str
     return source.hexdigest(), packaged.hexdigest(), packaged_files
 
 
-def scan_alt_toc(workspace: Path, config: dict) -> list[tuple[str, Path]]:
-    """The ``alt_toc`` folder beside each links root, flattened to ``alt_toc/`` like links."""
+def scan_alt_toc(workspace: Path, book_roots: tuple[str, ...] = BOOK_ROOTS) -> list[tuple[str, Path]]:
+    """The ``alt_toc`` folder beside each source's ``ספרים`` folder, flattened to ``alt_toc/`` like links.
+
+    Anchored on the book roots, not on ``links_roots``: a source may ship books
+    without having a links root at all.
+    """
     packaged = {}
-    for entry in sorted(config["links_roots"], key=lambda item: os.fsencode(item["path"])):
-        root_rel = PurePosixPath(entry["path"]).parent / "alt_toc"
+    sources = {PurePosixPath(root).parent.parent for root in book_roots}
+    for source_rel in sorted(sources, key=lambda path: os.fsencode(str(path))):
+        root_rel = source_rel / "alt_toc"
         root = workspace / root_rel
+        if root.is_symlink():
+            raise PackagingError(f"alt_toc root must never be a symlink: {root_rel}")
         if not root.exists():
             continue
-        if root.is_symlink() or not root.is_dir():
+        if not root.is_dir():
             raise PackagingError(f"alt_toc root is not a real directory: {root_rel}")
         for child in sorted(root.iterdir(), key=lambda path: os.fsencode(path.name)):
             if child.is_dir():
@@ -354,7 +361,7 @@ def manifest(workspace: Path, config: dict) -> dict:
     _, files = scan_roots(workspace, config)
     for path, file_path in files:
         result[path] = {"hash": sha256_file(file_path)}
-    for _, file_path in scan_alt_toc(workspace, config):
+    for _, file_path in scan_alt_toc(workspace):
         result[file_path.relative_to(workspace).as_posix()] = {"hash": sha256_file(file_path)}
     return result
 
@@ -403,7 +410,7 @@ def package(args: argparse.Namespace) -> int:
                 raise PackagingError(f"unexpected link staging collision: {packaged_path}")
             shutil.copyfile(source, target)
         # The DB generator reads alt_toc/ beside links/ in the package root.
-        for packaged_path, source in scan_alt_toc(workspace, config):
+        for packaged_path, source in scan_alt_toc(workspace):
             target = staging / packaged_path
             target.parent.mkdir(parents=True, exist_ok=True)
             shutil.copyfile(source, target)
