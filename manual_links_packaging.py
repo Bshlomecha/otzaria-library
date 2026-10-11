@@ -199,6 +199,37 @@ def tree_hashes(workspace: Path, config: dict) -> tuple[str, str, list[tuple[str
     return source.hexdigest(), packaged.hexdigest(), packaged_files
 
 
+def scan_alt_toc(workspace: Path, book_roots: tuple[str, ...] = BOOK_ROOTS) -> list[tuple[str, Path]]:
+    """The ``alt_toc`` folder beside each source's ``ספרים`` folder, flattened to ``alt_toc/`` like links.
+
+    Anchored on the book roots, not on ``links_roots``: a source may ship books
+    without having a links root at all.
+    """
+    packaged = {}
+    sources = {PurePosixPath(root).parent.parent for root in book_roots}
+    for source_rel in sorted(sources, key=lambda path: os.fsencode(str(path))):
+        root_rel = source_rel / "alt_toc"
+        root = workspace / root_rel
+        if root.is_symlink():
+            raise PackagingError(f"alt_toc root must never be a symlink: {root_rel}")
+        if not root.exists():
+            continue
+        if not root.is_dir():
+            raise PackagingError(f"alt_toc root is not a real directory: {root_rel}")
+        for child in sorted(root.iterdir(), key=lambda path: os.fsencode(path.name)):
+            if child.is_dir():
+                raise PackagingError(f"nested directory is forbidden below alt_toc root: {child.relative_to(workspace)}")
+            assert_regular(child)
+            packaged_path = f"alt_toc/{child.name}"
+            if packaged_path in packaged:
+                raise PackagingError(
+                    f"packaged-path collision for {packaged_path}: "
+                    f"{packaged[packaged_path].relative_to(workspace)} and {child.relative_to(workspace)}"
+                )
+            packaged[packaged_path] = child
+    return sorted(packaged.items(), key=lambda item: item[0].encode("utf-8"))
+
+
 def validate_lineage(
     workspace: Path,
     config: dict,
@@ -330,6 +361,8 @@ def manifest(workspace: Path, config: dict) -> dict:
     _, files = scan_roots(workspace, config)
     for path, file_path in files:
         result[path] = {"hash": sha256_file(file_path)}
+    for _, file_path in scan_alt_toc(workspace):
+        result[file_path.relative_to(workspace).as_posix()] = {"hash": sha256_file(file_path)}
     return result
 
 
@@ -375,6 +408,11 @@ def package(args: argparse.Namespace) -> int:
             target = staging / packaged_path
             if target.exists():
                 raise PackagingError(f"unexpected link staging collision: {packaged_path}")
+            shutil.copyfile(source, target)
+        # The DB generator reads alt_toc/ beside links/ in the package root.
+        for packaged_path, source in scan_alt_toc(workspace):
+            target = staging / packaged_path
+            target.parent.mkdir(parents=True, exist_ok=True)
             shutil.copyfile(source, target)
 
         manifest_path = staging / "files_manifest.json"
