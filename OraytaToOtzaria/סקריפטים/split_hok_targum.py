@@ -5,8 +5,9 @@
 את רצפי המילים המופרדים ב-<j>, ומוסיף רווח בכל מילה בספר שאותיותיה שוות
 לחיבור של רצף כזה. רק רווחים נוספים; שורות ושאר התווים לא משתנים.
 
-חיבור שהוא בעצמו מילה אמיתית במקורות תורת אמת (למשל שתי מילים שמחוברות
-נותנות מילה קיימת) מדולג ומדווח, כי אין לדעת אם לפצל אותו.
+חיבור שהוא בעצמו מילה אמיתית (למשל "יתברך") מפוצל רק במקום שבו האותיות שסביבו
+נמצאות במקור תורת אמת מופרדות (ב-<j> או ברווח) במקום החיתוך (Splitter._separate_in_te), ואחרת מדולג.
+JOINS מסיר רווחים שגויים שהגיעו מתורת אמת באמצע מילה.
 
 הרצה (מתיקיית השורש של המאגר):
     python OraytaToOtzaria/סקריפטים/split_hok_targum.py          # מתקן
@@ -16,7 +17,9 @@
 from __future__ import annotations
 
 import argparse
+import bisect
 import collections
+import functools
 import re
 import sys
 import unicodedata
@@ -34,6 +37,31 @@ PRESENTATION = "יִ-ﭏ"
 WORD = re.compile(f"[{LETTERS}{MARKS}{PRESENTATION}]+")
 J_CHAIN = re.compile(f"[{LETTERS}{MARKS}]+(?:<j>[{LETTERS}{MARKS}]+)+")
 COMMENT = re.compile(r"<!--.*?-->", re.S)
+LETTER = re.compile(f"[{LETTERS}{PRESENTATION}]")
+TE_TOKEN = re.compile(f"(<j>)|([{LETTERS}])|([{MARKS}])|.", re.S)
+CONTEXT = 12
+MIN_CONTEXT = 6
+
+# <j> שגוי בתורת אמת באמצע מילה אחת (מלכא, במדברא, ואסיקו, ואמרת, מנהון, תברכינון,
+# בפריע דילמא, לביל) - לא מפצלים לפיו.
+DENIED = {
+    ("מ", "לכא"), ("במ", "דברא"), ("ואס", "יקו"), ("ואמ", "רת"),
+    ("מ", "נה"), ("נו", "ן"), ("ע", "די"),
+    ("ל", "ביל"),
+}
+
+# רווחים שגויים בתרגום (מתורת אמת), באותיות בלבד: "|" רווח שנשאר, " " רווח שנמחק.
+JOINS = (
+    "גבר|ל ביל",  # ישעיה נג, ו "איש לדרכו"
+    "ליסודא|ד מ דבחא",  # ויקרא ד, ז "יסוד מזבח"
+    "סיחון|מ לכא",  # "סיחן מלך חשבון"
+    "למ מ ת",  # שמות יד, יא "למות"
+    "לא|תב ר כ י נון",  # במדבר כג, כה "לא תברכנו"
+    "משכן|ז מנא",
+    "לבית|ש מעון",  # במדבר כה, יד
+    "מ עברא|לירדנא",  # "מעבר לירדן"
+    "בשמיא|מ לעלא",  # דברים ד, לט "בשמים ממעל"
+)
 
 
 def skel(word: str) -> str:
@@ -87,34 +115,123 @@ def split_word(word: str, lengths: tuple[int, ...]) -> str:
     return "".join(out)
 
 
+class TeIndex:
+    """אותיות מקור תורת אמת ברצף אחד, והמיקומים שבהם מתחילה מילה (אחרי <j>, רווח או סימן)."""
+
+    def __init__(self, te_texts: list[str]):
+        letters: list[str] = []
+        self.breaks: set[int] = set()
+        after_break = True
+        for text in te_texts:
+            for m in TE_TOKEN.finditer(text):
+                if m.group(2):
+                    if after_break:
+                        self.breaks.add(len(letters))
+                    after_break = False
+                    letters.append(m.group(2))
+                elif not m.group(3):
+                    after_break = True
+        self.letters = "".join(letters)
+
+    def find_all(self, needle: str) -> list[int]:
+        found, i = [], self.letters.find(needle)
+        while i >= 0:
+            found.append(i)
+            i = self.letters.find(needle, i + 1)
+        return found
+
+
+def _join_pattern(spec: str) -> tuple[re.Pattern, list[bool]]:
+    groups = [g.split(" ") for g in spec.split("|")]
+    words = [w for g in groups for w in g]
+    keep = [i == len(g) - 1 for g in groups for i in range(len(g))][:-1]
+    word_re = ["".join(f"{re.escape(ch)}[{MARKS}]*" for ch in w) for w in words]
+    body = "( +)".join(word_re)
+    return re.compile(f"(?<![{LETTERS}{MARKS}]){body}(?![{LETTERS}{MARKS}])"), keep
+
+
+def apply_joins(line: str, specs: tuple[str, ...] = JOINS) -> tuple[str, int]:
+    """מסיר את הרווחים שמסומנים ב-specs; מחזיר את השורה ומספר הרווחים שנמחקו."""
+    removed = 0
+    for spec in specs:
+        pattern, keep = _join_pattern(spec)
+
+        def fix(m: re.Match) -> str:
+            nonlocal removed
+            out, pos = [], m.start()
+            for g, kept in enumerate(keep, 1):
+                out.append(m.string[pos:m.start(g)])
+                if kept:
+                    out.append(m.group(g))
+                else:
+                    removed += len(m.group(g))
+                pos = m.end(g)
+            out.append(m.string[pos:m.end()])
+            return "".join(out)
+
+        line = pattern.sub(fix, line)
+    return line, removed
+
+
 class Splitter:
-    def __init__(self, parts: dict[str, tuple[str, ...]], real: set[str]):
-        self.parts = {k: v for k, v in parts.items() if k not in real}
+    def __init__(self, parts: dict[str, tuple[str, ...]], real: set[str], te: TeIndex | None = None):
+        self.parts = {k: v for k, v in parts.items() if k not in real and v not in DENIED}
         self.ambiguous = {k: v for k, v in parts.items() if k in real}
+        self.te = te
         self.added = 0
+        self.removed = 0
+        self.resolved: collections.Counter[tuple[str, ...]] = collections.Counter()
         self.skipped: collections.Counter[tuple[str, ...]] = collections.Counter()
 
-    def _replace(self, m: re.Match) -> str:
-        word = m.group()
-        key = skel(word)
-        if key in self.parts:
-            pieces = self.parts[key]
-            self.added += len(pieces) - 1
-            return split_word(word, tuple(len(p) for p in pieces))
-        if key in self.ambiguous:
-            self.skipped[self.ambiguous[key]] += 1
-        return word
+    def _separate_in_te(self, flat: str, li: int, key: str, pieces: tuple[str, ...]) -> bool:
+        """האם כל מופע של המילה עם האותיות שסביבה במקור תורת אמת מופרד (<j> או רווח) במקום החיתוך."""
+        if self.te is None or pieces in DENIED:
+            return False
+        before = flat[max(0, li - CONTEXT):li]
+        after = flat[li + len(key):li + len(key) + CONTEXT]
+        found = set()
+        if len(before) >= MIN_CONTEXT:
+            found.update(p + len(before) for p in self.te.find_all(before + key))
+        if len(after) >= MIN_CONTEXT:
+            found.update(self.te.find_all(key + after))
+        cuts = [sum(len(p) for p in pieces[:i]) for i in range(1, len(pieces))]
+        return bool(found) and all(q + c in self.te.breaks for q in found for c in cuts)
 
     def line(self, line: str) -> str:
-        return WORD.sub(self._replace, line)
+        line, removed = apply_joins(line)
+        self.removed += removed
+        starts = [m.start() for m in LETTER.finditer(line)]
+        flat = "".join(line[i] for i in starts)
+
+        def replace(m: re.Match) -> str:
+            word = m.group()
+            key = skel(word)
+            pieces = self.parts.get(key)
+            if pieces is None and key in self.ambiguous:
+                if self._separate_in_te(flat, bisect.bisect_left(starts, m.start()), key, self.ambiguous[key]):
+                    pieces = self.ambiguous[key]
+                    self.resolved[pieces] += 1
+                else:
+                    self.skipped[self.ambiguous[key]] += 1
+            if pieces is None:
+                return word
+            self.added += len(pieces) - 1
+            return split_word(word, tuple(len(p) for p in pieces))
+
+        return WORD.sub(replace, line)
 
 
-def splitter_for(volume: str, te_dir: Path = TE_DIR) -> Splitter:
+@functools.lru_cache(maxsize=None)
+def _volume_data(volume: str, te_dir: Path) -> tuple[dict, set, TeIndex]:
     texts = [read_te(p) for p in te_sources(volume, te_dir)]
     if not texts:
         raise FileNotFoundError(f"אין מקור תורת אמת עבור {volume} ב-{te_dir}")
     all_texts = [read_te(p) for v in VOLUMES for p in te_sources(v, te_dir)]
-    return Splitter(joined_parts(texts), real_words(all_texts))
+    return joined_parts(texts), real_words(all_texts), TeIndex(texts)
+
+
+def splitter_for(volume: str, te_dir: Path = TE_DIR) -> Splitter:
+    return Splitter(*_volume_data(volume, te_dir))
 
 
 def same_but_spaces(old: str, new: str) -> bool:
@@ -144,8 +261,10 @@ def main(argv: list[str] | None = None) -> int:
             raise SystemExit(f"{path}: לא זוהה כרך")
         sp = splitter_for(volume, args.te_dir)
         process(path, sp, write=not args.check)
-        print(f"{path.name}: נוספו {sp.added} רווחים, דולגו {sum(sp.skipped.values())} "
-              f"מופעים של {len(sp.skipped)} חיבורים דו-משמעיים")
+        print(f"{path.name}: נוספו {sp.added} רווחים, נמחקו {sp.removed}, "
+              f"דו-משמעיים: פוצלו {sum(sp.resolved.values())}, דולגו {sum(sp.skipped.values())}")
+        for pieces, n in sorted(sp.resolved.items()):
+            print(f"  פוצל: {' '.join(pieces)} ({n})")
         for pieces, n in sorted(sp.skipped.items()):
             print(f"  דולג: {' '.join(pieces)} ({n})")
     return 0

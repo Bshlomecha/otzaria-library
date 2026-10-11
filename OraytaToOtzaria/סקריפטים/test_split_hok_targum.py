@@ -1,6 +1,6 @@
 import unittest
 
-from split_hok_targum import Splitter, joined_parts, real_words, same_but_spaces, split_word
+from split_hok_targum import Splitter, TeIndex, apply_joins, joined_parts, real_words, same_but_spaces, split_word
 
 
 class SplitWordTest(unittest.TestCase):
@@ -43,6 +43,54 @@ class SplitterTest(unittest.TestCase):
         self.assertTrue(same_but_spaces("אב\nגד", "א ב\nגד"))
         self.assertFalse(same_but_spaces("אב\nגד", "אב גד"))
         self.assertFalse(same_but_spaces("אב", "אג"))
+
+
+class AmbiguousTest(unittest.TestCase):
+    """חיבור שהוא מילה אמיתית מפוצל רק כשהאותיות שסביבו מסמנות בתורת אמת <j> במקום החיתוך."""
+
+    TE = 'וְלָא מְנַעְתָּא יָת<j>בְּרָךְ יָת יְחִידָךְ. בָּרוּךְ הַקָּבָּ"ה יִתְבָּרַךְ שְׁמוֹ.'
+
+    def make(self, te: str = TE) -> Splitter:
+        return Splitter(joined_parts([te]), real_words([te]), TeIndex([te]))
+
+    def test_splits_targum_occurrence(self):
+        sp = self.make()
+        line = 'וְלָא מְנַעְתָּא יָתבְּרָךְ יָת יְחִידָךְ:'
+        self.assertEqual(sp.line(line), 'וְלָא מְנַעְתָּא יָת בְּרָךְ יָת יְחִידָךְ:')
+        self.assertEqual(sum(sp.resolved.values()), 1)
+
+    def test_keeps_real_word(self):
+        sp = self.make()
+        line = 'בָּרוּךְ הַקָּבָּ"ה יִתְבָּרַךְ שְׁמוֹ'
+        self.assertEqual(sp.line(line), line)
+        self.assertEqual(sum(sp.skipped.values()), 1)
+
+    def test_idempotent(self):
+        sp = self.make()
+        once = sp.line('וְלָא מְנַעְתָּא יָתבְּרָךְ יָת יְחִידָךְ:')
+        self.assertEqual(sp.line(once), once)
+
+    def test_denied_mid_word_j(self):
+        te = 'וּנְפַק סִיחוֹן מַ<j>לְכָּא דְחֶשְׁבּוֹן. מַלְכָּא רַבָּא'
+        sp = self.make(te)
+        line = 'וּנְפַק סִיחוֹן מַלְכָּא דְחֶשְׁבּוֹן'
+        self.assertEqual(sp.line(line), line)
+
+
+class JoinsTest(unittest.TestCase):
+    def test_removes_listed_space_only(self):
+        line, removed = apply_joins('כּוּלָנָא גְּבַר לָ בֵיל אוֹרְחֵיהּ')
+        self.assertEqual(line, 'כּוּלָנָא גְּבַר לָבֵיל אוֹרְחֵיהּ')
+        self.assertEqual(removed, 1)
+
+    def test_several_spaces(self):
+        line, removed = apply_joins('וְיָת כָּל דְּמֵהּ יֵשׁוֹד לִיסוֹדָא דְ מַ דְבְּחָא:')
+        self.assertEqual(line, 'וְיָת כָּל דְּמֵהּ יֵשׁוֹד לִיסוֹדָא דְמַדְבְּחָא:')
+        self.assertEqual(removed, 2)
+
+    def test_needs_whole_words(self):
+        line = 'גְּבַר לָא בֵיל'
+        self.assertEqual(apply_joins(line), (line, 0))
 
 
 if __name__ == "__main__":
