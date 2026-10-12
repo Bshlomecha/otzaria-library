@@ -31,6 +31,16 @@ its titles.json that were absent from the titles.json of the export the DB was b
 from.  Such a title may still be blacklisted by the next build, so those files are
 reported as "pending" rather than certain, but they fail the check all the same.
 
+The built DB predates any blacklist line added since, so --sefaria-books-blacklist
+takes books_blacklist.txt of the NEXT build (SeforimLibrary branch otzaria) and drops
+the Sefaria titles it blocks, from both sides above, exactly as
+SefariaBlacklists.isBookBlacklisted matches them: normalizeTitleKey of the entry
+against normalizeTitleKey of heTitle or of enTitle (the English title is mapped to its
+Hebrew one through titles.json).  Path entries ("category/title") and
+authors_blacklist.txt are not modelled; such a book stays reported, which is the safe
+direction.  Without this, blacklisting the Sefaria book, the remedy this check itself
+offers, kept failing it until the next DB release.
+
 Baseline: .github/data/sefaria_shadowed_books.txt, one archive path (relative to the
 "אוצריא" root of otzaria_latest.zip) per line.  Both directions fail: a covered file
 missing from the baseline, and a baseline line that is no longer covered.
@@ -42,6 +52,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sqlite3
 import subprocess
 import sys
@@ -65,6 +76,8 @@ SEFARIA_HEREFS_SQL = (
     "SELECT b.heRef FROM book b JOIN source s ON s.id = b.sourceId "
     "WHERE s.name = 'Sefaria' AND b.heRef IS NOT NULL"
 )
+# Kotlin "\\s+" is java.util.regex, whose \s is ASCII whitespace only.
+JAVA_WHITESPACE = re.compile(r"[ \t\n\x0b\f\r]+")
 
 
 @dataclass(frozen=True)
@@ -100,6 +113,34 @@ def load_files_blacklist(path: Path | None) -> frozenset[str]:
     if path is None or not path.is_file():
         return frozenset()
     return frozenset(read_resource_lines(path))
+
+
+def normalize_title_key(value: str | None) -> str | None:
+    """SefariaImportText.normalizeTitleKey."""
+    if value is None or not value.strip():
+        return None
+    for quote in ('"', "'", "׳", "״"):
+        value = value.replace(quote, "")
+    return JAVA_WHITESPACE.sub(" ", value.lower()).replace("_", " ").strip()
+
+
+def load_sefaria_books_blacklist(path: Path) -> frozenset[str]:
+    """SefariaBlacklists.loadSefariaBlacklists: the bookTitleKeys of books_blacklist.txt."""
+    keys = set()
+    for raw in path.read_text(encoding="utf-8").splitlines():
+        line = raw.removeprefix("﻿").strip()
+        if not line or line.startswith("#"):
+            continue
+        key = normalize_title_key(line.replace('\\"', '"').replace("\\'", "'"))
+        if key:
+            keys.add(key)
+    return frozenset(keys)
+
+
+def blacklisted_titles(he_titles: set[str], keys: frozenset[str], titles: dict[str, str]) -> set[str]:
+    """The Hebrew titles that SefariaBlacklists.isBookBlacklisted drops, by heTitle or enTitle."""
+    by_english = {he for en, he in titles.items() if he and normalize_title_key(en) in keys}
+    return {he for he in he_titles if normalize_title_key(he) in keys or he in by_english}
 
 
 def library_files(paths: list[str]) -> list[LibraryFile]:
@@ -246,6 +287,10 @@ def main(argv: list[str] | None = None) -> int:
     check.add_argument("--built-export-titles", type=Path, help="titles.json of the export the DB was built from")
     check.add_argument("--files-blacklist", required=True, type=Path)
     check.add_argument("--source-blacklist", required=True, type=Path)
+    check.add_argument(
+        "--sefaria-books-blacklist", type=Path,
+        help="books_blacklist.txt of the next build (generator/sefariasqlite)",
+    )
     check.add_argument("--baseline", type=Path, default=Path(BASELINE_PATH))
     check.add_argument("--commit", default="HEAD")
     check.add_argument("--repo", type=Path, default=Path("."))
@@ -261,17 +306,26 @@ def main(argv: list[str] | None = None) -> int:
 
         if (args.export_titles is None) != (args.built_export_titles is None):
             raise ValueError("--export-titles and --built-export-titles go together")
-        for path in (args.sefaria_herefs, args.files_blacklist, args.source_blacklist):
-            if not path.is_file():
+        for path in (args.sefaria_herefs, args.files_blacklist, args.source_blacklist, args.sefaria_books_blacklist):
+            if path is not None and not path.is_file():
                 raise ValueError(f"{path}: missing")
         herefs = set(read_list(args.sefaria_herefs))
         if not herefs:
             raise ValueError(f"{args.sefaria_herefs}: no Sefaria heRefs")
         pending = set()
+        titles: dict[str, str] = {}
         if args.export_titles is not None:
-            pending = pending_export_titles(
-                read_titles_json(args.export_titles), read_titles_json(args.built_export_titles)
+            latest_titles = read_titles_json(args.export_titles)
+            built_titles = read_titles_json(args.built_export_titles)
+            pending = pending_export_titles(latest_titles, built_titles)
+            titles = {**built_titles, **latest_titles}
+        dropped = set()
+        if args.sefaria_books_blacklist is not None:
+            dropped = blacklisted_titles(
+                herefs | pending, load_sefaria_books_blacklist(args.sefaria_books_blacklist), titles
             )
+            herefs -= dropped
+            pending -= dropped
         files = library_files(git_library_paths(args.commit, args.repo))
         if not files:
             raise ValueError(f"no packaged library books at {args.commit}")
@@ -287,6 +341,10 @@ def main(argv: list[str] | None = None) -> int:
         f"{len(files)} packaged books, {len(herefs)} Sefaria heRefs, "
         f"{len(pending)} Sefaria titles not built yet, {len(covered)} covered files"
     )
+    if dropped:
+        print(f"ignored {len(dropped)} Sefaria titles that books_blacklist.txt blocks in the next build:")
+        for title in sorted(dropped, key=lambda t: t.encode("utf-8")):
+            print(f"  {title}")
     if args.write_baseline:
         write_baseline(args.baseline, covered)
         print(f"wrote {len(covered)} entries to {args.baseline}")

@@ -127,6 +127,26 @@ class BlacklistFilesTest(unittest.TestCase):
             self.assertEqual(gate.load_files_blacklist(Path(tmp) / "missing.txt"), frozenset())
 
 
+class SefariaBooksBlacklistTest(unittest.TestCase):
+    def test_title_key_folds_like_the_generator(self):
+        self.assertEqual(gate.normalize_title_key('  Maaseh_Rokeach\ton  "Mishnah"  '), "maaseh rokeach on mishnah")
+        self.assertEqual(gate.normalize_title_key("הגהות הב״ח"), gate.normalize_title_key("הגהות הב\"ח"))
+        self.assertIsNone(gate.normalize_title_key("   "))
+
+    def test_entries(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = Path(tmp) / "books_blacklist.txt"
+            path.write_text("﻿# comment\n\n  מעשה רוקח  \nספר \\\"א\\\"\n", encoding="utf-8")
+            self.assertEqual(gate.load_sefaria_books_blacklist(path), frozenset({"מעשה רוקח", "ספר א"}))
+
+    def test_matches_hebrew_or_english_title(self):
+        keys = frozenset({"ספר א", "book b"})
+        titles = {"Book B": "ספר ב", "Book C": "ספר ג"}
+        self.assertEqual(
+            gate.blacklisted_titles({'ספר א', "ספר ב", "ספר ג"}, keys, titles), {"ספר א", "ספר ב"}
+        )
+
+
 class CommandLineTest(unittest.TestCase):
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()
@@ -181,6 +201,27 @@ class CommandLineTest(unittest.TestCase):
         )
         self.assertEqual(code, 1)
         self.assertIn("the newest Sefaria export adds a book titled 'אחר'", out)
+
+    def test_next_build_books_blacklist_uncovers_the_file(self):
+        self.baseline.write_text(gate.BASELINE_HEADER, encoding="utf-8")
+        blacklist = self.data / "books_blacklist.txt"
+        blacklist.write_text("# replaced by the Otzaria book\nספר\n", encoding="utf-8")
+        code, out = self.run_check(["ספר"], "--sefaria-books-blacklist", str(blacklist))
+        self.assertEqual(code, 0, out)
+        self.assertIn("ignored 1 Sefaria titles", out)
+
+    def test_books_blacklist_also_drops_pending_titles_by_english_name(self):
+        self.baseline.write_text(gate.BASELINE_HEADER, encoding="utf-8")
+        (self.data / "built.json").write_text(json.dumps({"X": "ישן"}), encoding="utf-8")
+        (self.data / "latest.json").write_text(json.dumps({"X": "ישן", "Other": "אחר"}), encoding="utf-8")
+        blacklist = self.data / "books_blacklist.txt"
+        blacklist.write_text("Other\n", encoding="utf-8")
+        code, out = self.run_check(
+            ["ישן"], "--export-titles", str(self.data / "latest.json"),
+            "--built-export-titles", str(self.data / "built.json"),
+            "--sefaria-books-blacklist", str(blacklist),
+        )
+        self.assertEqual(code, 0, out)
 
     def test_missing_baseline_and_bad_inputs_exit_2(self):
         self.assertEqual(self.run_check(["ספר"])[0], 2)

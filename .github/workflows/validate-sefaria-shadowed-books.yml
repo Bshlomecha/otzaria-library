@@ -10,7 +10,8 @@ name: Validate Sefaria-shadowed books
 #
 # צד ספריא: ה-heRef של כל ספרי ספריא ב-DB של ה-release האחרון של SeforimLibrary
 # (אחרי כל ה-blacklists וכללי הייבוא), ובנוסף כותרות שייצוא ספריא חדש יותר הוסיף מאז
-# הייצוא שממנו נבנה ה-DB (titles.json). ייצוא חדש יכול ליצור כיסוי בלי שום קומיט כאן,
+# הייצוא שממנו נבנה ה-DB (titles.json), פחות כותרות ש-books_blacklist.txt של הבנייה הבאה
+# חוסם (כדי שחסימת ספר ספריא תעבור מיד, בלי לחכות ל-release). ייצוא חדש יכול ליצור כיסוי בלי שום קומיט כאן,
 # ולכן הבדיקה רצה גם אחרי Sync manual links (הצרכן של כל ייצוא חדש) ופעם ביום.
 
 on:
@@ -73,8 +74,9 @@ jobs:
           sparse-checkout-cone-mode: false
           persist-credentials: false
 
-      # files-blacklist.txt ו-source-blacklist.txt של הבנייה הבאה.
-      - name: Checkout the generator's Otzaria blacklists
+      # files-blacklist.txt ו-source-blacklist.txt של הבנייה הבאה, וגם books_blacklist.txt של ספריא:
+      # ה-DB הבנוי קודם לשורות שנוספו לה מאז, וחסימת ספר ספריא היא אחת הדרכים לתקן כיסוי.
+      - name: Checkout the generator's blacklists
         uses: actions/checkout@v6
         with:
           repository: Otzaria/SeforimLibrary
@@ -84,6 +86,7 @@ jobs:
           sparse-checkout: |
             /generator/otzariasqlite/src/commonMain/resources/files-blacklist.txt
             /generator/otzariasqlite/src/commonMain/resources/source-blacklist.txt
+            /generator/sefariasqlite/src/jvmMain/resources/books_blacklist.txt
           sparse-checkout-cone-mode: false
           persist-credentials: false
 
@@ -168,7 +171,9 @@ jobs:
             --export-titles "$WORK/latest-export/titles.json" \
             --built-export-titles "$WORK/built-export/titles.json" \
             --files-blacklist "$res/files-blacklist.txt" \
-            --source-blacklist "$res/source-blacklist.txt" > "$WORK/report.txt"
+            --source-blacklist "$res/source-blacklist.txt" \
+            --sefaria-books-blacklist seforim-tool/generator/sefariasqlite/src/jvmMain/resources/books_blacklist.txt \
+            > "$WORK/report.txt"
           code=$?
           set -e
           cat "$WORK/report.txt"
