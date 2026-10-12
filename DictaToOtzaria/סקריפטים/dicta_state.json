@@ -26457,15 +26457,14 @@
    },
    "repo": {
     "dup": [],
-    "edited": [
-     "DictaToOtzaria/ערוך/ספרים/אוצריא/תנך/ראשונים/רוקח על שיר השירים חלק א.txt"
-    ],
+    "edited": [],
     "extra": [
+     "extraBooks/דיקטה/תנך/ראשונים/רוקח על שיר השירים חלק א.txt",
      "extraBooks/דיקטה/תנך/ראשונים/רוקח על שיר השירים.txt"
     ],
     "raw": [],
-    "reason": "extra 100%, edited 90%",
-    "status": "edited",
+    "reason": "edited copy moved out of the library to extraBooks/דיקטה/תנך/ראשונים/רוקח על שיר השירים חלק א.txt",
+    "status": "extra-only",
     "unsorted": []
    }
   },

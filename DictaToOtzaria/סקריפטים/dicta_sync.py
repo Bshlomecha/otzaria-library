@@ -1456,7 +1456,7 @@ def cmd_reconcile(a) -> int:
         if json.dumps(r, sort_keys=True, ensure_ascii=False) != before:
             changed += 1
     if changed and not a.dry_run:
-        save_state(st)
+        save_state(st, getattr(a, "state", None) or STATE_PATH)
     log(f"reconcile: {changed} updates")
     return 0
 
