@@ -35,7 +35,7 @@ permissions:
 
 jobs:
   validate-inputs:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 15
     outputs:
       mode: ${{ steps.validate.outputs.mode }}
@@ -69,7 +69,7 @@ jobs:
   prepare:
     needs: validate-inputs
     if: needs.validate-inputs.outputs.mode == 'prepare_only'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 120
     concurrency:
       group: otzaria-main-writer
@@ -79,11 +79,11 @@ jobs:
       queue: max
     steps:
       - name: Checkout main with LFS
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           lfs: true
           token: ${{ secrets.PIPELINE_TOKEN || github.token }}
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.12.10'
       - name: Sync files and folders
@@ -162,7 +162,7 @@ jobs:
           docker-images: false
           swap-storage: false
       - name: Checkout exact detached commit
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           ref: ${{ inputs.expected_links_commit }}
           fetch-depth: 0
@@ -176,7 +176,7 @@ jobs:
           git fetch origin main
           git merge-base --is-ancestor "$EXPECTED_COMMIT" origin/main
           test -z "$(git status --porcelain)"
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.12.10'
       - name: Validate and build reproducible archives

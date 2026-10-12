@@ -37,7 +37,7 @@ concurrency:
 
 jobs:
   validate:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     # כולל הורדת seforim.db, קומפילציית כלי ה-Kotlin והרצת כל צרכני ForDB.
     timeout-minutes: 180
 
@@ -252,7 +252,7 @@ jobs:
 
       - name: Restore Gradle cache
         id: gradle-cache
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v5
         with:
           path: |
             ~/.gradle/caches
@@ -320,7 +320,7 @@ jobs:
       # נשמר גם אחרי כשל ולידציה (הבנייה כבר הסתיימה), אך לא בביטול ולא על פגיעה מדויקת.
       - name: Save Gradle cache
         if: ${{ !cancelled() && github.ref == 'refs/heads/main' && steps.gradle-cache.outputs.cache-hit != 'true' }}
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v5
         with:
           path: |
             ~/.gradle/caches

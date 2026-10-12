@@ -39,7 +39,7 @@ permissions:
 
 jobs:
   detect:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     outputs:
       work: ${{ steps.plan.outputs.work }}
@@ -65,7 +65,7 @@ jobs:
       # נשמר בכל ריצה במפתח חדש ונטען לפי הקידומת; אם GitHub פינה אותו (7 ימים בלי שימוש) — בנייה מלאה
       # (~2.7GB blobs, ~15 דקות), עדיין בלי לעכב כותבים אחרים. ספרי ספריא: sefaria_fp.dat המחויב.
       - name: Restore the library fingerprint index
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v5
         with:
           path: ${{ runner.temp }}/fp
           key: dicta-fp-library-${{ github.run_id }}
@@ -75,7 +75,7 @@ jobs:
           PYTHONIOENCODING: utf-8
         run: python3 DictaToOtzaria/סקריפטים/dicta_sync.py fp-index --library "$RUNNER_TEMP/fp/library_fp.dat"
       - name: Save the library fingerprint index
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v5
         with:
           path: ${{ runner.temp }}/fp
           key: dicta-fp-library-${{ github.run_id }}
@@ -89,7 +89,7 @@ jobs:
           python3 dicta_sync.py detect --check-pages --out "$RUNNER_TEMP/plan.json" --max-books "$MAX_BOOKS"
           work=$(python3 -c "import json,sys; print('true' if json.load(open(sys.argv[1]))['items'] else 'false')" "$RUNNER_TEMP/plan.json")
           echo "work=$work" >> "$GITHUB_OUTPUT"
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v6
         with:
           name: dicta-plan
           path: |
@@ -99,7 +99,7 @@ jobs:
   import:
     needs: detect
     if: needs.detect.outputs.work == 'true'
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 120
     concurrency:
       group: otzaria-main-writer
@@ -128,7 +128,7 @@ jobs:
             /manual_links_packaging.py
           sparse-checkout-cone-mode: false
           token: ${{ secrets.PIPELINE_TOKEN }}
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v7
         with:
           name: dicta-plan
           path: ${{ runner.temp }}

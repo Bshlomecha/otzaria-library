@@ -28,7 +28,7 @@ jobs:
       group: otzaria-main-writer
       cancel-in-progress: false
       queue: max
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     defaults:
       run:
         working-directory: ${{ github.workspace }}
@@ -92,7 +92,7 @@ jobs:
           python3 -V || true
 
       - name: Set up Python 3.9
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.9'
 
@@ -364,7 +364,7 @@ jobs:
 
       # Run sefariaToOtzaria conversion scripts with Python 3.12
       - name: Set up Python 3.12 for conversion scripts
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.12'
           

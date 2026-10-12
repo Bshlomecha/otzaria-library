@@ -16,7 +16,7 @@ concurrency:
 
 jobs:
   orchestrate:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     # The orchestrator only waits for prepare (~7m) + the Sefaria export (~55m); 4h is
     # ample headroom yet bounds a stuck watch loop well below GitHub's implicit 6h job
     # ceiling, so a wedged wait can't silently burn a runner for hours.
@@ -31,7 +31,7 @@ jobs:
       GIT_CONFIG_KEY_0: init.defaultBranch
       GIT_CONFIG_VALUE_0: main
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           # The repository's current tree is ~10 GiB, while this coordinator
           # consumes only the exact-run helper.  Never download the book corpus

@@ -30,7 +30,7 @@ permissions:
 jobs:
   resolve:
     name: Resolve untrusted callback to canonical saga identity
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     outputs:
       stage: ${{ steps.resolve.outputs.stage }}
@@ -56,7 +56,7 @@ jobs:
       REQUEST_SAGA_RUN_ATTEMPT: ${{ github.event_name == 'repository_dispatch' && github.event.client_payload.saga_run_attempt || inputs.saga_run_attempt }}
       REQUEST_CHILD_RUN_ID: ${{ github.event_name == 'repository_dispatch' && github.event.client_payload.child_run_id || inputs.child_run_id }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 1
           sparse-checkout: |
@@ -131,7 +131,7 @@ jobs:
   continue:
     name: Mutate only under canonical correlation mutex
     needs: resolve
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 45
     concurrency:
       group: saga-${{ needs.resolve.outputs.correlation_sha256 }}-${{ needs.resolve.outputs.stage }}
@@ -155,7 +155,7 @@ jobs:
       CALLBACK_CHILD_RUN_ID: ${{ needs.resolve.outputs.child_run_id }}
       CALLBACK_CHILD_RUN_ATTEMPT: ${{ needs.resolve.outputs.child_run_attempt }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 1
           sparse-checkout: |

@@ -54,7 +54,7 @@ concurrency:
 
 jobs:
   validate:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 30
     env:
       GH_TOKEN: ${{ github.token }}
@@ -134,7 +134,7 @@ jobs:
       # רשימת ה-heRef קטנה; ה-DB (~1.8GB דחוס) יורד רק פעם אחת לכל release.
       - name: Restore Sefaria heRefs of the built DB
         id: herefs-cache
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v5
         with:
           path: ${{ env.WORK }}/sefaria_herefs.txt
           key: sefaria-herefs-${{ steps.inputs.outputs.lib_tag }}-${{ steps.inputs.outputs.db_digest }}
@@ -156,7 +156,7 @@ jobs:
 
       - name: Save Sefaria heRefs of the built DB
         if: ${{ steps.herefs-cache.outputs.cache-hit != 'true' }}
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v5
         with:
           path: ${{ env.WORK }}/sefaria_herefs.txt
           key: sefaria-herefs-${{ steps.inputs.outputs.lib_tag }}-${{ steps.inputs.outputs.db_digest }}

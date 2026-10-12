@@ -29,7 +29,7 @@ concurrency:
 
 jobs:
   unittest:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 10
     steps:
       # blobless + sparse: החבילות קוראות את ה-workflows, את .github/scripts

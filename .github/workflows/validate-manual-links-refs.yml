@@ -39,14 +39,14 @@ concurrency:
 
 jobs:
   validate:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     timeout-minutes: 20
     steps:
       # blobless + sparse: הבדיקה קוראת קובצי links, manual_links_sync.json, מאמת
       # הקונפיג (שגם גוזר את כותרת היעד) ותצלום הכותרות בלבד — אין צורך בתוכן
       # הספרים (~10GiB).
       - name: Checkout repository (sparse, blobless)
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
           lfs: false
@@ -60,7 +60,7 @@ jobs:
           sparse-checkout-cone-mode: false
           persist-credentials: false
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: '3.12'
 
