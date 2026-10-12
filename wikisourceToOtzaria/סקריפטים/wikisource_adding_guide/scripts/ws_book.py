@@ -73,9 +73,9 @@ def default_lib_candidates() -> list[Path]:
     return out
 
 COPYRIGHT_TMPL = (
-    '<p style="color: gray;">באדיבות "וויקי-טקסט", נלקח מהדף: '
+    '<p style="color: gray;"><small><small>באדיבות "וויקי-טקסט", נלקח מהדף: '
     '<a href="https://he.wikisource.org/wiki/{enc}">כאן</a>, בשימוש בהתאם לרישיון CC BY-SA 3.0. '
-    'בוצעו שינויים בעיבוד, להתאמה לאוצריא.</p>'
+    'בוצעו שינויים בעיבוד, להתאמה לאוצריא.</small></small></p>'
 )
 
 # שמות תתי-דפים שאינם פרקים (דף "הכול" / תוכן עניינים) - מדולגים אלא אם ביקשו אחרת

@@ -1,6 +1,6 @@
 <h1>הסליחות לכל השנה - זליגמן בער</h1>
 זליגמן בער
-<p style="color: gray;">באדיבות "וויקי-טקסט", נלקח מהדף: <a href="https://he.wikisource.org/wiki/%D7%94%D7%A1%D7%9C%D7%99%D7%97%D7%95%D7%AA_%D7%9C%D7%9B%D7%9C_%D7%94%D7%A9%D7%A0%D7%94_-_%D7%96%D7%9C%D7%99%D7%92%D7%9E%D7%9F_%D7%91%D7%A2%D7%A8">כאן</a>, בשימוש בהתאם לרישיון CC BY-SA 3.0. בוצעו שינויים בעיבוד, להתאמה לאוצריא.</p>
+<p style="color: gray;"><small><small>באדיבות "וויקי-טקסט", נלקח מהדף: <a href="https://he.wikisource.org/wiki/%D7%94%D7%A1%D7%9C%D7%99%D7%97%D7%95%D7%AA_%D7%9C%D7%9B%D7%9C_%D7%94%D7%A9%D7%A0%D7%94_-_%D7%96%D7%9C%D7%99%D7%92%D7%9E%D7%9F_%D7%91%D7%A2%D7%A8">כאן</a>, בשימוש בהתאם לרישיון CC BY-SA 3.0. בוצעו שינויים בעיבוד, להתאמה לאוצריא.</small></small></p>
 <h2>שער</h2>
 <div style="text-align: center;"><b>הסליחות לכל השנה</b></div>
 <div style="text-align: center;"><small>לפי</small></div>
