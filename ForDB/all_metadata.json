@@ -37666,5 +37666,33 @@
       "רבי משה זאב וולף מרגליות"
     ],
     "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "באר דוד",
+    "heAuthors": [
+      "רבי דוד שלמה פרענקל"
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "שות מהרי ברונא",
+    "heAuthors": [
+      "ישראל בן חיים ברונא"
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "תשובות רב נטרונאי גאון",
+    "heAuthors": [
+      "רב נטרונאי גאון"
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "אות ציון",
+    "heAuthors": [
+      "רבי בן ציון בלום"
+    ],
+    "Sourcefolder": "MoreBooks"
   }
 ]
