@@ -1164,6 +1164,19 @@
       },
       "commit": null,
       "changeSetId": "6acb7bddb9775d9e1a5c73d2"
+    },
+    {
+      "id": 89,
+      "kind": "rename",
+      "old": {
+        "bookName": "ברית שלום על חמשה מגילות",
+        "authorName": ""
+      },
+      "new": {
+        "bookName": "ברית שלום על חמש מגילות",
+        "authorName": ""
+      },
+      "commit": "2d2f5a800cda1c630735bf336459f8da61849903"
     }
   ]
 }
