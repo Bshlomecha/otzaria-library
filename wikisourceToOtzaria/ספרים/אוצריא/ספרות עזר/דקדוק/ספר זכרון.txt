@@ -1,5 +1,5 @@
 <h1>ספר זכרון</h1>
-רבי יוסף קמחי
+רבנו יוסף קמחי
 <p style="color: gray;"><small><small>באדיבות "וויקי-טקסט", נלקח מהדף: <a href="https://he.wikisource.org/wiki/%D7%A1%D7%A4%D7%A8_%D7%96%D7%9B%D7%A8%D7%95%D7%9F_%28%D7%A8%D7%99%D7%A7%22%D7%9D%29">כאן</a>, בשימוש בהתאם לרישיון CC BY-SA 3.0. בוצעו שינויים בעיבוד, להתאמה לאוצריא.</small></small></p>
 <h2>[פתיחה]</h2>
 <div style="text-align: center;"><b>לרבי יוסף קמחי</b></div>
