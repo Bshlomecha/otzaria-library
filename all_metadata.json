@@ -399526,6 +399526,30 @@
   },
   {
     "heAuthors": [
+      "חיים חזקיהו מדיני"
+    ],
+    "title": "שדי חמד כללים מערכת ל",
+    "enTitle": "Sdei Chemed Kelalim Maarechet Lamed",
+    "authors": [
+      "Chaim Hezekiah Medini"
+    ],
+    "pubDate": null,
+    "pubDateHeb": null,
+    "pubPlaceStringEn": null,
+    "pubPlaceStringHe": null,
+    "heCategories": [
+      "ספרות עזר",
+      "אנציקלופדיות",
+      "שדי חמד"
+    ],
+    "categories": [
+      "Reference"
+    ],
+    "publisher": "ים החכמה",
+    "Sourcefolder": "yam-HaHachma"
+  },
+  {
+    "heAuthors": [
       "יהושע העשיל"
     ],
     "title": "הגהות רבי העשיל על הסמג",
@@ -399567,6 +399591,29 @@
     ],
     "categories": [
       "Mishnah"
+    ],
+    "publisher": "ים החכמה",
+    "Sourcefolder": "yam-HaHachma"
+  },
+  {
+    "heAuthors": [
+      "רבי אברהם בן נתן הירחי"
+    ],
+    "title": "ספר המנהיג",
+    "enTitle": "Sefer HaManhig",
+    "authors": [
+      "Avraham ben Natan HaYarchi"
+    ],
+    "pubDate": null,
+    "pubDateHeb": null,
+    "pubPlaceStringEn": null,
+    "pubPlaceStringHe": null,
+    "heCategories": [
+      "הלכה",
+      "ראשונים"
+    ],
+    "categories": [
+      "Halakhah"
     ],
     "publisher": "ים החכמה",
     "Sourcefolder": "yam-HaHachma"
