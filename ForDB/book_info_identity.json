@@ -49785,6 +49785,34 @@
       },
       "commit": null,
       "changeSetId": "0de3baaf4e9e29a35f0f6e6d"
+    },
+    {
+      "id": 3562,
+      "kind": "rename",
+      "old": {
+        "bookName": "ברכת ראש על מסכת נזיר",
+        "authorName": "רבי אשר בן צבי הירש הכהן אשכנזי מטיקטין"
+      },
+      "new": {
+        "bookName": "ברכת ראש על מסכת נזיר",
+        "authorName": "רבי אשר הכהן אשכנזי משערשוב"
+      },
+      "commit": null,
+      "changeSetId": "5a6472eefe71114132105a28"
+    },
+    {
+      "id": 3563,
+      "kind": "rename",
+      "old": {
+        "bookName": "הערות על ברכת ראש על מסכת נזיר",
+        "authorName": "רבי אשר בן צבי הירש הכהן אשכנזי מטיקטין"
+      },
+      "new": {
+        "bookName": "הערות על ברכת ראש על מסכת נזיר",
+        "authorName": "רבי אשר הכהן אשכנזי משערשוב"
+      },
+      "commit": null,
+      "changeSetId": "5a6472eefe71114132105a28"
     }
   ]
 }
