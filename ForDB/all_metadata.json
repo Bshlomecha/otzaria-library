@@ -38220,5 +38220,31 @@
       "חז\"ל"
     ],
     "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "פירוש רבי יעקב אלאמאשטי על משנה תורה - הלכות שבת ועירובין",
+    "heAuthors": [
+      "רבי יעקב אלאמאשטי"
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "קול נגידים על משנה תורה - הלכות שבת ועירובין",
+    "heAuthors": [],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "שיעור הרמבם מגניזת קהיר",
+    "heAuthors": [
+      "רמב\"ם"
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "המספיק לעובדי ה - קטעים מכתב יד רבי דוד הנגיד",
+    "heAuthors": [
+      "אברהם בן הרמבם"
+    ],
+    "Sourcefolder": "MoreBooks"
   }
 ]
