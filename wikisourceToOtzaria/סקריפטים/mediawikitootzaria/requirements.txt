@@ -1,6 +1,0 @@
-wikiexpand
-mwparserfromhell
-wikitextparser
-bs4
-requests
-gematriapy

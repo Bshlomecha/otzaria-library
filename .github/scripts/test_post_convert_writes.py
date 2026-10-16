@@ -25,9 +25,8 @@ TE = converter("ToratEmetToOtzaria", "te_convert.py", "te_write_test")
 OY = converter("OnYourWayToOtzaria", "ובלכתך_בדרך.py", "oy_write_test")
 OR = converter("OraytaToOtzaria", "orayta_convert.py", "or_write_test")
 BY = converter("Ben-YehudaToOtzaria", "split_footnotes.py", "by_write_test")
-# Reuse the offline template-expansion stub used by the existing wiki suite.
-converter("wikisourceToOtzaria", "test_mediawikitootzaria.py", "wiki_offline_stub")
-WK = converter("wikisourceToOtzaria", "demo_part_2.py", "wiki_write_test")
+# The wiki converter (demo_part_2.write_book) moved to Otzaria/book-sources with its
+# own copy of these checks: wikisourceToOtzaria/סקריפטים/test_demo_part_2_writes.py.
 
 
 class OutputSafetyTest(unittest.TestCase):
@@ -42,10 +41,9 @@ class OutputSafetyTest(unittest.TestCase):
         self.links_dir = self.root / "links"
         self.links_dir.mkdir()
         self.links = self.links_dir / "ספר_links.json"
-        self.wiki_links = self.root / "ספר_links.json"
-        for n, path in enumerate((self.book, self.notes, self.links, self.wiki_links)):
+        for n, path in enumerate((self.book, self.notes, self.links)):
             path.write_text(f"EXISTING OUTPUT {n}\n", encoding="utf-8")
-        self.before = {p: p.read_bytes() for p in (self.book, self.notes, self.links, self.wiki_links)}
+        self.before = {p: p.read_bytes() for p in (self.book, self.notes, self.links)}
 
     def rules(self, target, old="עוגן", new="מתוקן"):
         (self.source / P.FILE_NAME).write_text(
@@ -72,12 +70,9 @@ class OutputSafetyTest(unittest.TestCase):
         if module is BY:
             with patch.object(BY, "SOURCE_DIR", self.source):
                 BY.write_book(self.book, ["<h1>ספר</h1>", text], [notes], [(2, 1)], self.links_dir)
-        elif module is OR:
+        else:
             with patch.object(OR, "SOURCE_DIR", str(self.source)):
                 OR.write_book(str(self.book), ["<h1>ספר</h1>", text], [(2, notes)], str(self.links_dir))
-        else:
-            with patch.object(WK, "FIX_SOURCES", [str(self.source)]):
-                WK.write_book(self.root, "ספר", ["<h1>ספר</h1>", text], [notes], [{"line_index_1": 2}])
 
     def test_single_book_errors_preserve_existing_output(self):
         self.rules("ספר")
@@ -105,7 +100,7 @@ class OutputSafetyTest(unittest.TestCase):
 
     def test_main_book_errors_preserve_all_outputs(self):
         self.rules("ספר")
-        for module in (BY, OR, WK):
+        for module in (BY, OR):
             for text in ("טקסט אחר", "עוגן עוגן"):
                 with self.subTest(module=module.__name__, text=text), self.assertRaises(P.PostConvertFixError):
                     self.grouped(module, text=text)
@@ -113,7 +108,7 @@ class OutputSafetyTest(unittest.TestCase):
 
     def test_notes_errors_preserve_main_notes_and_links(self):
         self.rules("הערות על ספר")
-        for module in (BY, OR, WK):
+        for module in (BY, OR):
             for notes in ("טקסט אחר", "עוגן עוגן"):
                 with self.subTest(module=module.__name__, notes=notes), self.assertRaises(P.PostConvertFixError):
                     self.grouped(module, notes=notes)
@@ -123,7 +118,7 @@ class OutputSafetyTest(unittest.TestCase):
         for path in self.before:
             path.unlink()
         self.rules("הערות על ספר")
-        for module in (BY, OR, WK):
+        for module in (BY, OR):
             with self.subTest(module=module.__name__), self.assertRaises(P.PostConvertFixError):
                 self.grouped(module, notes="טקסט אחר")
             for path in self.before:
@@ -131,14 +126,13 @@ class OutputSafetyTest(unittest.TestCase):
 
     def test_grouped_success_corrects_notes_and_writes_links(self):
         self.rules("הערות על ספר")
-        for module in (BY, OR, WK):
+        for module in (BY, OR):
             with self.subTest(module=module.__name__):
                 self.grouped(module)
                 self.assertIn("עוגן", self.book.read_text(encoding="utf-8"))
                 self.assertIn("מתוקן", self.notes.read_text(encoding="utf-8"))
                 self.assertNotIn("עוגן", self.notes.read_text(encoding="utf-8"))
-                links = self.wiki_links if module is WK else self.links
-                self.assertEqual(json.loads(links.read_text(encoding="utf-8"))[0]["line_index_1"], 3 if module is OR else 2)
+                self.assertEqual(json.loads(self.links.read_text(encoding="utf-8"))[0]["line_index_1"], 3 if module is OR else 2)
 
     def test_orayta_standalone_notes_error_preserves_output(self):
         self.rules("הערות על ספר")

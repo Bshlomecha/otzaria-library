@@ -14,6 +14,8 @@ name: Python tests
 #   .github/scripts/test_validate_manual_links_refs.py — כבר שער PR ב-validate-manual-links-refs.yml.
 #   .github/scripts/test_check_sefaria_shadowed_books.py — self-test ב-validate-sefaria-shadowed-books.yml.
 #   National-LibraryToOtzaria/סקריפטים/test_*.py — כבר שער PR ב-validate-national-library-normalizers.yml.
+#   ממיר הוויקי (mediawikitootzaria, demo_part_2.py) ובדיקותיו — הועברו ל-Otzaria/book-sources
+#     (wikisourceToOtzaria/סקריפטים) ורצים שם ב-wiki-sources-weekly.yml, מול post_convert_fixes.py שכאן.
 
 on:
   pull_request:
@@ -57,9 +59,6 @@ jobs:
             /ToratEmetToOtzaria/סקריפטים/te_convert.py
             /ToratEmetToOtzaria/סקריפטים/te_reapply.py
             /ToratEmetToOtzaria/סקריפטים/test_te_reapply.py
-            /wikisourceToOtzaria/סקריפטים/mediawikitootzaria/
-            /wikisourceToOtzaria/סקריפטים/test_mediawikitootzaria.py
-            /wikisourceToOtzaria/סקריפטים/demo_part_2.py
             /Ben-YehudaToOtzaria/סקריפטים/otzaria_markup.py
             /Ben-YehudaToOtzaria/סקריפטים/split_footnotes.py
             /manual_links_sync.json
@@ -145,25 +144,12 @@ jobs:
           python3 -m pip install --quiet beautifulsoup4 lxml
           python3 -m unittest -v test_onyourway_headings
 
-      # ממיר ויקיטקסט (ויקיטקסט וספרי ויקי יהודיים): טקסט סינתטי בלבד; wikiexpand מוחלף בבדיקה.
-      - name: Wiki converter suite
-        working-directory: wikisourceToOtzaria/סקריפטים
-        env:
-          PYTHONIOENCODING: utf-8
-        run: |
-          set -euo pipefail
-          python3 -m pip install --quiet mwparserfromhell wikitextparser gematriapy requests
-          python3 -m unittest -v test_mediawikitootzaria
-
       # Validate failures before writing any book, companion notes or links.
       - name: Post-conversion output safety suite
         working-directory: .github/scripts
         env:
           PYTHONIOENCODING: utf-8
-        run: |
-          set -euo pipefail
-          python3 -m pip install --quiet openpyxl tqdm
-          python3 -m unittest -v test_post_convert_writes
+        run: python3 -m unittest -v test_post_convert_writes
 
       # רשימה מפורשת ולא discover: test_validate_fordb_book_names ו-
       # test_validate_manual_links_refs יושבות באותה תיקייה ורצות ב-workflows אחרים.
