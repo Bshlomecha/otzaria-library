@@ -63,6 +63,42 @@ class SameTractateRefTest(unittest.TestCase):
         line = "(לקמן מכות\u05c3 דף ה:)"
         self.assertEqual(self.make_book("Makkot", {"heTitle": "מכות", "categories": ["Talmud", "Bavli"]}, [line]), [line + "\n"])
 
+    SHABBAT = {"heTitle": "שבת", "categories": ["Talmud", "Bavli", "Seder Moed"]}
+
+    def test_drops_own_tractate_inside_the_bracket_after_lekaman(self):
+        out = self.make_book("Shabbat", self.SHABBAT, [
+            "דפריך לקמן (שבת דף ה:) ולעיל (שבת סז, ב) ובמתני' לקמן [שבת לט ע\"ב]",
+            "(כלקמן שבת נט, ב) (וכדלקמן שבת מט, א) (להלן שבת כו,א)",
+            "(לעיל שבת דף מה. ולקמן שבת דף ס:)",
+        ])
+        self.assertEqual(out, [
+            "דפריך לקמן (דף ה:) ולעיל (סז, ב) ובמתני' לקמן [לט ע\"ב]\n",
+            "(כלקמן נט, ב) (וכדלקמן מט, א) (להלן כו,א)\n",
+            "(לעיל דף מה. ולקמן דף ס:)\n",
+        ])
+
+    def test_drops_own_tractate_before_a_daf_address(self):
+        out = self.make_book("Shabbat", self.SHABBAT, [
+            "בפרק כירה (שבת דף מד) ובפ' המצניע (שבת ד' צג:) ובסוף פירקין (שבת קנ\"ז ע\"ב)",
+            "(שבת קנז.) (שבת טו, א) (שבת פב ב') (שבת פב)",
+        ])
+        self.assertEqual(out, [
+            "בפרק כירה (דף מד) ובפ' המצניע (ד' צג:) ובסוף פירקין (קנ\"ז ע\"ב)\n",
+            "(קנז.) (טו, א) (פב ב') (פב)\n",
+        ])
+
+    def test_keeps_tractate_that_is_not_a_daf_reference(self):
+        # בלי כתובת דף, מספר שאינו דף, שם כמילה בטקסט, ושם ארוך יותר — הכול נשאר.
+        lines = [
+            "(שבת שנטמא) [שבת] (שבת בלעם) (שבת שם) (גזרו שבת) (שבתות דף ב.) (שבת פ\"ג ה\"א)",
+            "(לקמן פרק א' שבת דף ג.) (לקמן שבת)",
+        ]
+        self.assertEqual(self.make_book("Shabbat", self.SHABBAT, lines), [line + "\n" for line in lines])
+
+    def test_keeps_yerushalmi_and_tosefta_of_the_same_name(self):
+        lines = ["ובירושלמי (שבת ג,א) גרסינן", "לו.<br>ובירושלמי (שבת ג,א)", "בתוספתא (שבת ג, א)", "ירושלמי [שבת דף ג.]"]
+        self.assertEqual(self.make_book("Shabbat", self.SHABBAT, lines), [line + "\n" for line in lines])
+
 
 if __name__ == "__main__":
     unittest.main()
