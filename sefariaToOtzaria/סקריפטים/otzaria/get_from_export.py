@@ -3,7 +3,8 @@ from pathlib import Path
 
 from .utils import has_value, read_json, to_daf, to_eng_daf, to_gematria
 
-NIKUD = r"[֑-ׇ]*"
+# סימני ניקוד וטעמים בלבד; בלי מקף, פסק, סוף פסוק ונו"ן הפוכה, שהם פיסוק.
+NIKUD = r"[\u0591-\u05BD\u05BF\u05C1\u05C2\u05C4\u05C5\u05C7]*"
 
 
 class Book:
@@ -35,7 +36,9 @@ class Book:
         base_titles = self.schema.get("base_text_titles") or []
         if len(base_titles) != 1:
             return None
-        base_schema_path = schema_file_path.parent / f"{base_titles[0].replace(' ', '_')}.json"
+        # הייצוא (Index.contents) נותן {"en", "he"}; רשומת אינדקס גולמית נותנת מחרוזת.
+        base_title = base_titles[0]["en"] if isinstance(base_titles[0], dict) else base_titles[0]
+        base_schema_path = schema_file_path.parent / f"{base_title.replace(' ', '_')}.json"
         if not base_schema_path.exists():
             return None
         base_schema = read_json(base_schema_path)
