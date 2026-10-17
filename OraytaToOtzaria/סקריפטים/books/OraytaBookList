@@ -528,46 +528,6 @@
 ./030_tlmod_bbli/38_Bav_TAMID_L1.obk, 26484, 30/09/15, 5299eb2ad2f35b814cc7b20d053c7778
 ./030_tlmod_bbli/39_Bav_Nida_L1.obk, 205588, 30/09/15, 96a6d64c2a2777f4c9fbb3345c1f5683
 
-@ גמרא נוחה 
-./032_gmara_nocha.folder, 29, 20/09/13, 3436ee275f55d21de90c6a550e539dfc
-./032_gmara_nocha/01_msct_brcot.obk, 561891, 30/09/15, 6496d0e2d860468a1c968da1afbc79d1
-./032_gmara_nocha/02_msct_sbt.obk, 1200034, 30/09/15, 7c3a0684d78b6e8e62b492e404781eea
-./032_gmara_nocha/03_msct_uirobin.obk, 751260, 30/09/15, baff527898e74714cdd3d4af8f8a75ba
-./032_gmara_nocha/04_msct_pshim.obk, 940742, 30/09/15, df4fb077bdba30c2cda4ae389418c411
-./032_gmara_nocha/05_msct_tunit.obk, 303593, 30/09/15, 3b7b60eb51a19a0bbe22c584aab293fd
-./032_gmara_nocha/06_msct_ras_hsnh.obk, 270845, 30/09/15, d612fd6dbafe80aca0ee1baa1653b7e2
-./032_gmara_nocha/07_msct_ioma.obk, 612613, 30/09/15, 7429f63f7cb808aa1c33d170cda48261
-./032_gmara_nocha/08_msct_soch.obk, 406267, 30/09/15, f30b1d47d06d853ca6d857b752207852
-./032_gmara_nocha/09_msct_bizh.obk, 293280, 30/09/15, 4a94cac7aa94a76bd59707a8624ee780
-./032_gmara_nocha/11_msct_mgilh.obk, 304246, 30/09/15, 247a7ae34ec4a3e8c97678067bf561be
-./032_gmara_nocha/12_msct_moud_ktn.obk, 195833, 30/09/15, df008d3e60936c9854a834db46963b7d
-./032_gmara_nocha/13_msct_hgigh.obk, 187214, 30/09/15, 9011b0b48366fcb994f70441704234db
-./032_gmara_nocha/14_msct_ibmot.obk, 1257505, 30/09/15, 54e6060b7e310f1b5a6898be5520a48d
-./032_gmara_nocha/15_msct_ctobot.obk, 824028, 30/09/15, 201a8b95dc5d91f08b7d474819557160
-./032_gmara_nocha/16_msct_ndrim.obk, 428933, 30/09/15, 71fd2bc27d0395a7fe76f3cd1e5c4df7
-./032_gmara_nocha/17_msct_nzir.obk, 396580, 30/09/15, 3edcba4c21c460176570dae9b9bd0a4c
-./032_gmara_nocha/18_msct_soth.obk, 445604, 30/09/15, 9790e0b951c4e0a4b48215b11a9aba62
-./032_gmara_nocha/19_msct_gitin.obk, 637103, 30/09/15, 9f8e27062112510061fba11f171e8706
-./032_gmara_nocha/20_msct_kidosin.obk, 616426, 30/09/15, d0608ba06afcc34194da6c2054e6c05f
-./032_gmara_nocha/21_msct_bba_kma.obk, 779735, 30/09/15, 5e1ec0d08b5f877244dd71cb43ae97c9
-./032_gmara_nocha/22_msct_bba_mziua.obk, 866921, 30/09/15, 2ffecd22bb31d80d9f1717b65f43263f
-./032_gmara_nocha/23_msct_bba_btra.obk, 1424422, 30/09/15, 268ff3627ebac29fa70934b6efe8a78a
-./032_gmara_nocha/24_msct_sndhrin.obk, 1107417, 30/09/15, 42ed7af0e88a36baeb35409ad5c52738
-./032_gmara_nocha/25_msct_mcot.obk, 201472, 30/09/15, d0e8071e0f6977cb20e0676529d83b3a
-./032_gmara_nocha/27_msct_ubodh_zrh.obk, 544593, 30/09/15, 77bac3209198e2626eff57fd67e985a6
-./032_gmara_nocha/29_msct_horiot.obk, 126627, 30/09/15, 6e7418edb01eaad365b93307b66f0688
-./032_gmara_nocha/30_msct_zbhim.obk, 874410, 30/09/15, 4edc9f220272f1a0bb56ca4eb61ed82b
-./032_gmara_nocha/31_msct_mnhot.obk, 800283, 30/09/15, 6e6267afa33442646f1b95dc022cf571
-./032_gmara_nocha/32_msct_holin.obk, 1165618, 30/09/15, 30a2bea968cea8b934bb8d7c670cf2ca
-./032_gmara_nocha/33_msct_bcorot.obk, 447925, 30/09/15, 71cb02194079342e9e909e3da16e566a
-./032_gmara_nocha/34_msct_urcin.obk, 260542, 30/09/15, dffbce543fb81b4ee17629248ec69a61
-./032_gmara_nocha/35_msct_tmorh.obk, 263701, 30/09/15, bdf78a2cda065a90d2e782f7dec47220
-./032_gmara_nocha/36_msct_critot.obk, 264098, 30/09/15, 66d8a724406dc4af5adc6029959c2088
-./032_gmara_nocha/37_msct_muilh.obk, 133566, 30/09/15, 9a0c3c52fde2423a3cd26053d983c59c
-./032_gmara_nocha/38_msct_tmid.obk, 106058, 30/09/15, efa4670fff3f0e73c31ee3c7d8ec541c
-./032_gmara_nocha/39_msct_nidh.obk, 533029, 30/09/15, f1d34d8ba7c45e81b60cf40b5083366f
- 
-
 @ ראשונים על השס 
 ./040_rasonim_ss.folder, 31, 20/09/13, 45649839fb4ef07704f56e7b584a95f5
 ./040_rasonim_ss/01_rsi.folder, 18, 20/09/13, 62f10b2cf7f26efa7754c9097aad34f3
