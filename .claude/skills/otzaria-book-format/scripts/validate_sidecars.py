@@ -24,13 +24,16 @@ if hasattr(sys.stdout, "reconfigure"):
 HEADING_RE = re.compile(r"^\s*<\s*h[1-6]\b", re.I)
 # HearotCompanionMerge.isMergeableCompanionTitle: רק השם הזה ממוזג לספר הבסיס.
 COMPANION_PREFIX = "הערות על "
+HAVROUTA_PREFIX = "הערות על חברותא"
+# Generator.kt uses this narrower expression when planning companion merges.
+COMPANION_HEADING_RE = re.compile(r"^\ufeff?<h[1-6]", re.I)
 REQUIRED = {"line_index_1", "line_index_2", "heRef_2", "path_2", "Conection Type"}
 # "source" = the canonical value of a links file named after the CITING book: the
 # generator flips the pair into base→מפרש order and stores it as COMMENTARY
 # (Generator.kt: `flip = declaredType == SOURCE`). It is a dependent-text link like
 # the rest, not an unknown value, and never reaches the DB as SOURCE.
 # "footnotes" = הערות שוליים בספר נלווה "הערות על X". סוג תלוי-טקסט ככל השאר,
-# והוא מה שמזהה את הצמד ספר↔הערות בלי לנחש לפי כותרת הספר הנלווה.
+# סוג הקשר בתצוגה; המיזוג עצמו נבחר לפי כותרת היעד, בלי תלות בסוג הקשר.
 #
 # Every set below is spelled in the form SeforimLibrary compares against
 # (Link.kt `fromKnownStringOrNull`: trim, lowercase, ' ' -> '_'), and every value is
@@ -111,6 +114,7 @@ def check_links(path: Path, book: Path | None, target: Path | None,
 
     src_lines = read_lines(book) if book else None
     tgt_lines = read_lines(target) if target else None
+    target_title = _book_title(target.stem) if target else None
     if book and path.stem != f"{book.stem}_links":
         warn(f"שם קובץ הקישורים ({path.stem}) אינו '<{book.stem}>_links'")
 
@@ -147,20 +151,24 @@ def check_links(path: Path, book: Path | None, target: Path | None,
                 f"הערך הנכון הוא 'source'")
 
         p2 = str(entry.get("path_2", ""))
-        if p2 and not p2.endswith(".txt"):
-            err(f"{tag}: path_2 חייב להסתיים ב-.txt")
+        filename = p2.replace("\\", "/").rsplit("/", 1)[-1]
+        if "." in filename and not filename.endswith(".txt"):
+            err(f"{tag}: path_2 חייב להיות שם ספר ללא סיומת או עם סיומת .txt")
         if "ref_1" in entry and "ref_2" in entry:
             err(f"{tag}: ref_1 ו-ref_2 אינם יכולים להופיע יחד")
         if sefaria_titles is not None and p2:
-            title = p2[:-4]
+            title = _target_title(entry)
             is_sefaria = title in sefaria_titles
             if is_sefaria and not entry.get("ref_2"):
                 err(f"{tag}: היעד {title!r} הוא ספר ספריא — חובה ref_2 (new_target_ref_required)")
             if not is_sefaria and entry.get("ref_2"):
                 err(f"{tag}: ref_2 על יעד שאינו ספריא ({title!r}) — ייפול ב-ref_2 side classification changed")
 
+        # --target supplies one book, not every destination in a multi-target file.
+        entry_tgt_lines = (tgt_lines if target is not None and
+                           _book_title(_target_title(entry)) == target_title else None)
         for field, lines_ref, label in (("line_index_1", src_lines, "ספר המקור"),
-                                        ("line_index_2", tgt_lines, "ספר היעד")):
+                                        ("line_index_2", entry_tgt_lines, "ספר היעד")):
             val = entry.get(field)
             if not isinstance(val, int) or val < 1:
                 err(f"{tag}: {field} חייב להיות מספר שלם 1-based")
@@ -175,14 +183,14 @@ def check_links(path: Path, book: Path | None, target: Path | None,
 
         for field, base in (("line_index_1_end", "line_index_1"),
                             ("line_index_2_end", "line_index_2")):
-            if field in entry:
+            if entry.get(field) is not None:
                 end, start = entry[field], entry.get(base)
                 if not isinstance(end, int) or not isinstance(start, int):
                     err(f"{tag}: {field} חייב להיות מספר שלם")
                 elif end < start:
                     err(f"{tag}: {field}={end} קטן מ-{base}={start} — הטווח יושמט")
 
-        if "start" in entry:
+        if entry.get("start") is not None:
             s, e = entry.get("start"), entry.get("end")
             if not isinstance(s, int) or s < 0:
                 err(f"{tag}: start חייב להיות אופסט תו לא-שלילי")
@@ -210,35 +218,75 @@ def _target_title(entry: dict) -> str:
     return title[:-4] if title.endswith(".txt") else title
 
 
+def _book_title(title: str) -> str:
+    """CategoryLabels.bookTitle normalization used by the merge planner."""
+    title = _kt_trim(title).replace("“", '"').replace("”", '"').replace("‘", "'").replace("’", "'")
+    title = title.replace('"', "״").replace("''", "״").replace("׳׳", "״").replace("`", "׳")
+    title = _kt_trim(re.sub(r"\s+", " ", title, flags=re.ASCII))
+    return "תנ״ך" if title == "תנך" else title
+
+
 def check_companion_merge(path: Path, data: list, book: Path | None, src_lines: list[str] | None,
                           target: Path | None, tgt_lines: list[str] | None) -> None:
-    """חוזה המיזוג של HearotCompanionMerge (ADDING_BOOKS.md סעיף 3): כישלון משאיר את
-    ספר ההערות עצמאי, בשקט, והסמנים בגוף הספר לא מציגים את ההערה בריחוף."""
-    notes = [e for e in data if isinstance(e, dict)
-             and normalize_ctype(e.get("Conection Type")) in {"footnotes", "footnote"}]
-    for title in sorted({_target_title(e) for e in notes}):
-        if title and not title.startswith(COMPANION_PREFIX):
-            warn(f"{path.name}: ספר ההערות {title!r} אינו מתחיל ב-'{COMPANION_PREFIX}' — "
-                 f"הוא לא ימוזג לספר הבסיס ויישאר ספר עצמאי")
-    if tgt_lines is not None and target is not None:
-        own = [e for e in notes if _target_title(e) == target.stem]
-        if own:
+    """Local content checks for the current SeforimLibrary merge planner.
+
+    Selection is by target title, independent of connection type. Library-wide
+    conditions (unique files, blacklists, Sefaria shadowing) still need a DB build.
+    Group once instead of rescanning all links for every target.
+    """
+    by_title: dict[str, list[dict]] = {}
+    anchored_lines: set[int] = set()
+    for entry in data:
+        if not isinstance(entry, dict):
+            continue
+        by_title.setdefault(_book_title(_target_title(entry)), []).append(entry)
+        if entry.get("start") is not None and isinstance(entry.get("line_index_1"), int):
+            anchored_lines.add(entry["line_index_1"])
+
+    target_title = _book_title(target.stem) if target is not None else None
+    for title, raw_entries in sorted(by_title.items()):
+        if title.startswith(HAVROUTA_PREFIX):
+            warn(f"{path.name}: {title!r} מוחרג במפורש ממיזוג חברותא בגנרטור — נשאר ספר עצמאי")
+            continue
+        if not title.startswith(COMPANION_PREFIX):
+            if title and any(normalize_ctype(e.get("Conection Type")) in {"footnotes", "footnote"}
+                             for e in raw_entries):
+                warn(f"{path.name}: ספר ההערות {title!r} אינו מתחיל ב-'{COMPANION_PREFIX}' — "
+                     f"הוא לא ימוזג לספר הבסיס ויישאר ספר עצמאי")
+            continue
+
+        # The planner keeps the first entry for each source/target line pair.
+        entries: dict[tuple[int, int], dict] = {}
+        for entry in raw_entries:
+            pair = (entry.get("line_index_1"), entry.get("line_index_2"))
+            if all(isinstance(i, int) and i >= 1 for i in pair):
+                entries.setdefault(pair, entry)
+        own = list(entries.values())
+        if any(e.get("line_index_1_end") is not None or e.get("line_index_2_end") is not None for e in own):
+            err(f"{path.name}: {title!r} — קישור עם טווח שורות פוסל מיזוג, גם כשהסוף שווה להתחלה")
+
+        note_lines = {e["line_index_1"] for e in own}
+        blocked = note_lines & anchored_lines
+        if blocked:
+            err(f"{path.name}: {title!r} — עוגן מילה בשורת מקור {min(blocked)} פוסל מיזוג, "
+                f"גם אם הוא שייך לקישור לספר אחר")
+
+        if tgt_lines is not None and target is not None and title == target_title:
             linked = {e.get("line_index_2") for e in own}
             unlinked = [i for i, l in enumerate(tgt_lines, 1)
-                        if i not in linked and l.strip() and not HEADING_RE.match(l)]
+                        if i not in linked and _kt_trim(l) and not COMPANION_HEADING_RE.match(l)]
             if unlinked:
                 err(f"{target.name}: {len(unlinked)} שורות בלי קישור (הראשונה: {unlinked[0]}) — "
                     f"המיזוג נפסל לכל הכרך. שורת קרדיט/זכויות שייכת לספר הבסיס")
             for i in sorted(x for x in linked if isinstance(x, int) and 1 <= x <= len(tgt_lines)):
-                if re.search(r"<i[\s>]|</i>", tgt_lines[i - 1]):
+                if any(tag in tgt_lines[i - 1] for tag in ("<i>", "<i ", "</i>")):
                     err(f"{target.name}: שורה {i} — <i> בגוף ההערה פוסל את המיזוג")
                     break
-    if src_lines is not None and book is not None:
-        for e in notes:
-            li = e.get("line_index_1")
-            if isinstance(li, int) and 1 <= li <= len(src_lines) and 'class="footnote' in src_lines[li - 1]:
-                err(f"{book.name}: שורה {li} כבר נושאת הערות inline — המיזוג נפסל")
-                break
+        if src_lines is not None and book is not None:
+            for li in sorted(note_lines):
+                if 1 <= li <= len(src_lines) and 'class="footnote' in src_lines[li - 1]:
+                    err(f"{book.name}: שורה {li} כבר נושאת הערות inline — המיזוג של {title!r} נפסל")
+                    break
 
 
 def check_alt_toc(path: Path, book: Path | None) -> None:
