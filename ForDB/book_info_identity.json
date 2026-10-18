@@ -48651,6 +48651,20 @@
       },
       "commit": null,
       "changeSetId": "6ad1f4bcb9775d9e1a5d862b"
+    },
+    {
+      "id": 3481,
+      "kind": "rename",
+      "old": {
+        "bookName": "בית הלוי על התורה",
+        "authorName": "הרב יוסף דוב הלוי סולובייצ'יק"
+      },
+      "new": {
+        "bookName": "בית הלוי על התורה",
+        "authorName": "רבי יוסף דוב הלוי סולובייצ'יק מבריסק"
+      },
+      "commit": null,
+      "changeSetId": "b16a48f3dc4f310cad1168db"
     }
   ]
 }
