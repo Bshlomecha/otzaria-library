@@ -150,7 +150,7 @@ def cp_to_u16(s: str, off: int) -> int:
 @dataclass
 class Cut:
     end: int      # raw end of the previous piece
-    next: int     # raw start of the next piece (a cut <br> lies between the two)
+    next: int     # raw start of the next piece (a cut <br> or space lies between the two)
     visible: int
     kind: int
 
@@ -200,7 +200,7 @@ def scan(line: str):
             if c == ' ' and at_wrapper:
                 prev = line[i - 1] if i > 0 else ''
                 kind = COLON if prev == ':' else PERIOD if prev == '.' else SPACE
-                cuts.append(Cut(i + 1, i + 1, visible, kind))
+                cuts.append(Cut(i, i + 1, visible, kind))  # the space becomes the line break
         i += 1
     return visible, wrap, cuts
 
@@ -262,9 +262,15 @@ def split_line(line: str, cfg: Config = Config(), forbidden=()):
     closers = ''.join('</%s>' % t[0] for t in reversed(wrap))
     pieces, start = [], 0
     for k, cut in enumerate(chosen):
+        # Spaces around the cut would only be trailing/leading whitespace on the new lines.
+        end, nxt = cut.end, cut.next
+        while end > start and line[end - 1] == ' ':
+            end -= 1
+        while nxt < len(line) and line[nxt] == ' ':
+            nxt += 1
         prefix = '' if k == 0 else openers
-        pieces.append(Piece(prefix + line[start:cut.end] + closers, start, cut.end, len(prefix)))
-        start = cut.next
+        pieces.append(Piece(prefix + line[start:end] + closers, start, end, len(prefix)))
+        start = nxt
     pieces.append(Piece(openers + line[start:], start, len(line), len(openers)))
     return SplitLine(pieces, [c.kind for c in chosen], openers, closers), None
 
@@ -499,7 +505,7 @@ def remap_side(rec: dict, side: int, book: Book, stats, whole_line: str, note_pi
             k = piece_of(sp, raw)
             p = sp.pieces[k]
             new_idx += k
-            rec['start'] = same_type(rec['start'], cp_to_u16(p.content, raw - p.src_start + p.prefix_len))
+            rec['start'] = same_type(rec['start'], cp_to_u16(p.content, min(raw, p.src_end) - p.src_start + p.prefix_len))
             if 'end' in rec:
                 raw_end = min(u16_to_cp(line, int(rec['end'])), p.src_end)
                 rec['end'] = same_type(rec['end'], cp_to_u16(p.content, raw_end - p.src_start + p.prefix_len))

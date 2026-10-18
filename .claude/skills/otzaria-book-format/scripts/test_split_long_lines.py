@@ -40,6 +40,13 @@ class SplitRules(unittest.TestCase):
             self.assertGreaterEqual(sl.visible_len(p.content), sl.MIN_TAIL_CHARS)
             self.assertLessEqual(sl.visible_len(p.content), sl.MAX_CHARS)
 
+    def test_no_piece_keeps_the_cut_space(self):
+        line = long_line(95_000)
+        sp, _ = sl.split_line(line)
+        for p in sp.pieces:
+            self.assertEqual(p.content, p.content.strip())
+        self.assertEqual(sl.rejoin(sp, line), line)
+
     def test_br_wins_over_space_and_is_dropped_at_the_cut(self):
         line = long_line(60_000, br_every=21_000)
         sp, _ = sl.split_line(line)
@@ -51,7 +58,7 @@ class SplitRules(unittest.TestCase):
         line = text_of(22_000) + ': ' + text_of(2_000) + '. ' + text_of(40_000)
         sp, _ = sl.split_line(line)
         self.assertEqual(sp.kinds[0], sl.COLON)
-        self.assertTrue(sp.pieces[0].content.endswith(': '))
+        self.assertTrue(sp.pieces[0].content.endswith(':'))
 
     def test_never_cuts_inside_an_inner_tag(self):
         inner = '<b>' + text_of(40_000) + '</b>'
