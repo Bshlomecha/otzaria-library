@@ -3,7 +3,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from otzaria.get_from_export import Book
+from otzaria.get_from_export import Book, drop_same_tractate, same_tractate_patterns
 
 
 def write_json(path: Path, data: dict) -> Path:
@@ -100,8 +100,20 @@ class SameTractateRefTest(unittest.TestCase):
         lines = [
             "ובירושלמי (שבת ג,א) גרסינן", "לו.<br>ובירושלמי (שבת ג,א)", "בתוספתא (שבת ג, א)", "ירושלמי [שבת דף ג.]",
             "בירושלמי <b>(שבת ג, א)</b>", "<b>ירושלמי</b> (שבת ג, א)", "בתוספתא<br> <i>(שבת דף ג.)</i>",
+            "דבירושלמי (שבת ג,א)", "מהירושלמי (שבת ג,א)", "שבירושלמי (שבת ג,א)", "בירושל' (שבת ג,א)",
+            "בירו' (שבת ג,א)", "ובתוספ' (שבת ג, א)", "בירוש׳\u200e (שבת דף ב.)",
         ]
         self.assertEqual(self.make_book("Shabbat", self.SHABBAT, lines), [line + "\n" for line in lines])
+
+    def test_information_separators_are_whitespace(self):
+        # U+001C–U+001F מופיעים בייצוא; כמו ב-Kotlin, הם רווח.
+        patterns = same_tractate_patterns("שבת")
+        for line, expected in (
+            ("(שבת\x1fדף ב.)", "(דף ב.)"),
+            ("(לקמן שבת\x1cדף ב.)", "(לקמן\x1cדף ב.)"),
+            ("(שבת\x1cט״ז א.)", "(ט״ז א.)"),
+        ):
+            self.assertEqual(drop_same_tractate(line, patterns), expected)
 
     def test_many_references_in_one_line(self):
         line = " ".join(["(שבת דף ב.) לקמן (שבת ג.) (לעיל שבת דף ד:)"] * 2000)
