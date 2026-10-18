@@ -5,10 +5,11 @@ from .utils import has_value, read_json, to_daf, to_eng_daf, to_gematria
 
 # סימני ניקוד וטעמים בלבד; בלי מקף, פסק, סוף פסוק ונו"ן הפוכה, שהם פיסוק.
 NIKUD = r"[\u0591-\u05BD\u05BF\u05C1\u05C2\u05C4\u05C5\u05C7]*"
-# ערכי האותיות למספר עברי (דף); ט"ו/ט"ז הם החריגים היחידים לסדר היורד.
 # המסכת הארוכה בבבלי (בבא בתרא) מסתיימת בדף קעו.
 LAST_DAF = 176
-GEMATRIA = dict(zip("אבגדהוזחטיכךלמםנןסעפףצץקרשת", (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 20, 30, 40, 40, 50, 50, 60, 70, 80, 80, 90, 90, 100, 200, 300, 400)))
+GEMATRIA = dict(zip("אבגדהוזחטיכלמנסעפצק", (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100)))
+# מספר בכתיב התקני: מאה, עשרות, אחדות; ט"ו/ט"ז במקום י"ה/י"ו. "זו" או "זה" אינם מספר.
+DAF_NUMBER = re.compile(r"ק?(?:ט[וז]|י[א-דז-ט]?|[כלמנסעפצ]?[א-ט]?)")
 QUOTES = "\"'״׳"
 # כתובת דף אחרי שם המסכת: "דף"/"ד'", או מספר ואחריו . : , ע"א א' או סוגר.
 DAF_ADDRESS = re.compile(
@@ -16,16 +17,13 @@ DAF_ADDRESS = re.compile(
     r"|(?P<num>[א-ת](?:[\"'״׳]?[א-ת]){0,2}[\"'״׳]?)"
     r"(?:\s*[.:]|\s*,\s*[אב](?![א-ת])|\s+ע[\"'״׳]?[אב](?![א-ת])|\s+[אב]['׳]?(?=[\s)\],.;:])|(?=[)\]]))"
 )
-# בסוגר שאחרי "ירושלמי"/"תוספתא" שם המסכת הוא של ספר אחר.
-OTHER_WORK = re.compile(r"(?<![א-ת])(?:ו|ב|ה|וב|וה|ובה|ד|וד)?(?:ירושלמי|ירוש['׳]|תוספתא|תוספת['׳])\s*$")
+# בסוגר שאחרי "ירושלמי"/"תוספתא" (גם מעבר לתגית עיצוב) שם המסכת הוא של ספר אחר.
+OTHER_WORK = r"(?<![א-ת])(?:ו|ב|ה|וב|וה|ובה|ד|וד)?(?:ירושלמי|ירוש['׳]|תוספתא|תוספת['׳])(?:\s|<[^<>]*>)*"
 
 
 def is_daf_number(token: str) -> bool:
-    letters = [c for c in token if c not in QUOTES]
-    values = [GEMATRIA[c] for c in letters]
-    if "".join(letters) in ("טו", "טז"):
-        return True
-    return all(a > b for a, b in zip(values, values[1:])) and sum(values) <= LAST_DAF
+    letters = "".join(c for c in token if c not in QUOTES)
+    return DAF_NUMBER.fullmatch(letters) is not None and sum(GEMATRIA[c] for c in letters) <= LAST_DAF
 
 
 def same_tractate_patterns(tractate: str) -> tuple[re.Pattern, re.Pattern]:
@@ -33,13 +31,8 @@ def same_tractate_patterns(tractate: str) -> tuple[re.Pattern, re.Pattern]:
     name = NIKUD.join(chars.get(c, re.escape(c)) for c in re.sub(NIKUD, "", tractate))
     words = "|".join(NIKUD.join(word) for word in ("לקמן", "לעיל", "להלן"))
     relative = re.compile(rf"(?<![א-ת])((?:ו?(?:כד|כ|ד)?)(?:{words}){NIKUD})\s+{name}{NIKUD}(?=\s)")
-    bracketed = re.compile(rf"([(\[]){name}{NIKUD}\s+")
+    bracketed = re.compile(rf"(?P<other>{OTHER_WORK})?([(\[]){name}{NIKUD}\s+")
     return relative, bracketed
-
-
-def inside_bracket(text: str, pos: int) -> bool:
-    opened = max(text.rfind("(", 0, pos), text.rfind("[", 0, pos))
-    return opened > max(text.rfind(")", 0, pos), text.rfind("]", 0, pos))
 
 
 def drop_same_tractate(text: str, patterns: tuple[re.Pattern, re.Pattern] | None) -> str:
@@ -48,17 +41,28 @@ def drop_same_tractate(text: str, patterns: tuple[re.Pattern, re.Pattern] | None
     if patterns is None or ("(" not in text and "[" not in text):
         return text
     relative, bracketed = patterns
-    text = relative.sub(lambda m: m.group(1) if inside_bracket(m.string, m.start()) else m.group(0), text)
+    # הסוגר האחרון לפני כל התאמה; נסרק פעם אחת לאורך השורה.
+    scanned, inside = 0, False
+
+    def after_relative_word(m: re.Match) -> str:
+        nonlocal scanned, inside
+        for c in m.string[scanned:m.start()]:
+            if c in "([":
+                inside = True
+            elif c in ")]":
+                inside = False
+        scanned = m.start()
+        return m.group(1) if inside else m.group(0)
 
     def bare(m: re.Match) -> str:
+        if m.group("other"):
+            return m.group(0)
         address = DAF_ADDRESS.match(m.string, m.end())
         if address is None or (address.group("num") and not is_daf_number(address.group("num"))):
             return m.group(0)
-        if OTHER_WORK.search(m.string, 0, m.start()):
-            return m.group(0)
-        return m.group(1)
+        return m.group(2)
 
-    return bracketed.sub(bare, text)
+    return bracketed.sub(bare, relative.sub(after_relative_word, text))
 
 
 class Book:

@@ -88,16 +88,25 @@ class SameTractateRefTest(unittest.TestCase):
         ])
 
     def test_keeps_tractate_that_is_not_a_daf_reference(self):
-        # בלי כתובת דף, מספר שאינו דף, שם כמילה בטקסט, ושם ארוך יותר — הכול נשאר.
+        # בלי כתובת דף, מילה או כתיב שאינם מספר דף, שם כמילה בטקסט, ושם ארוך יותר — הכול נשאר.
         lines = [
             "(שבת שנטמא) [שבת] (שבת בלעם) (שבת שם) (גזרו שבת) (שבתות דף ב.) (שבת פ\"ג ה\"א)",
             "(לקמן פרק א' שבת דף ג.) (לקמן שבת)",
+            "(שבת זו) (שבת זה) [שבת זו.] (שבת יה.) (שבת ך)",
         ]
         self.assertEqual(self.make_book("Shabbat", self.SHABBAT, lines), [line + "\n" for line in lines])
 
     def test_keeps_yerushalmi_and_tosefta_of_the_same_name(self):
-        lines = ["ובירושלמי (שבת ג,א) גרסינן", "לו.<br>ובירושלמי (שבת ג,א)", "בתוספתא (שבת ג, א)", "ירושלמי [שבת דף ג.]"]
+        lines = [
+            "ובירושלמי (שבת ג,א) גרסינן", "לו.<br>ובירושלמי (שבת ג,א)", "בתוספתא (שבת ג, א)", "ירושלמי [שבת דף ג.]",
+            "בירושלמי <b>(שבת ג, א)</b>", "<b>ירושלמי</b> (שבת ג, א)", "בתוספתא<br> <i>(שבת דף ג.)</i>",
+        ]
         self.assertEqual(self.make_book("Shabbat", self.SHABBAT, lines), [line + "\n" for line in lines])
+
+    def test_many_references_in_one_line(self):
+        line = " ".join(["(שבת דף ב.) לקמן (שבת ג.) (לעיל שבת דף ד:)"] * 2000)
+        out = self.make_book("Shabbat", self.SHABBAT, [line])
+        self.assertEqual(out, [" ".join(["(דף ב.) לקמן (ג.) (לעיל דף ד:)"] * 2000) + "\n"])
 
 
 if __name__ == "__main__":
