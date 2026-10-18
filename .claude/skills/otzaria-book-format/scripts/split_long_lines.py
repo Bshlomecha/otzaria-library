@@ -247,7 +247,11 @@ def split_line(line: str, cfg: Config = Config(), forbidden=()):
         while i < len(cuts) and cuts[i].visible <= hi:
             c = cuts[i]
             # A piece opening with <hN> would become a TOC heading.
-            opens_heading = not wrap and is_heading(line, c.next)
+            # Checked where the next piece really starts: spaces after the cut are dropped.
+            start_of_next = c.next
+            while start_of_next < len(line) and line[start_of_next] == ' ':
+                start_of_next += 1
+            opens_heading = not wrap and is_heading(line, start_of_next)
             if c.visible >= lo and not opens_heading and (best < 0 or c.kind < cuts[best].kind):
                 best = i
             i += 1
@@ -540,19 +544,18 @@ def run(repo: str, cfg: Config, whole_line: str = 'range', roots=(), apply: bool
     stats['packaged_books_tracked'] = len(packaged)
     stats['packaged_books_scanned'] = len(present)
 
-    sync = json.loads(read_bytes(os.path.join(repo, 'manual_links_sync.json')).decode('utf-8'))
     docs = {}
-    for r in sync['links_roots']:
-        d = os.path.join(repo, r['path'])
-        if not os.path.isdir(d):
+    # A tracked links file missing on disk (sparse checkout) would leave its references unmapped.
+    missing_links = 0
+    for rel in tracked_links_files(repo, tracked):
+        path = os.path.join(repo, rel)
+        if not os.path.isfile(path):
+            missing_links += 1
             continue
-        for n in sorted(os.listdir(d)):
-            if n.endswith('_links.json'):
-                rel = r['path'] + '/' + n
-                raw = read_bytes(os.path.join(repo, rel))
-                text = raw.decode('utf-8')
-                docs[rel] = {'text': text, 'data': json.loads(text), 'title': n[:-len('_links.json')],
-                             'trail': len(raw) - len(raw.rstrip(b'\n')), 'dirty': False}
+        raw = read_bytes(path)
+        text = raw.decode('utf-8')
+        docs[rel] = {'text': text, 'data': json.loads(text), 'title': title_of(rel)[:-len('_links.json')],
+                     'trail': len(raw) - len(raw.rstrip(b'\n')), 'dirty': False}
     stats['links_files_read'] = len(docs)
 
     anchors = collections.defaultdict(list)
@@ -711,6 +714,8 @@ def run(repo: str, cfg: Config, whole_line: str = 'range', roots=(), apply: bool
                 if end_key in rec and int(rec[end_key]) < int(rec[key]):
                     stats['ERROR_reversed_range'] += 1
 
+    if missing_links and books:
+        stats['ERROR_tracked_links_files_not_checked_out'] = missing_links
     errors = sum(v for k, v in stats.items() if k.startswith('ERROR'))
     if apply and not errors:
         for book in books.values():
@@ -724,24 +729,58 @@ def run(repo: str, cfg: Config, whole_line: str = 'range', roots=(), apply: bool
     return stats, errors, books
 
 
+def tracked_links_files(repo: str, tracked: list) -> list:
+    sync = json.loads(read_bytes(os.path.join(repo, 'manual_links_sync.json')).decode('utf-8'))
+    roots = [r['path'] + '/' for r in sync['links_roots']]
+    return sorted(f for f in tracked if f.endswith('_links.json')
+                  and any(f.startswith(r) and '/' not in f[len(r):] for r in roots))
+
+
+def companion_is_merged(repo: str, title: str, links_by_title: dict) -> bool:
+    """Same rule --apply uses, read from the base book's links file in HEAD."""
+    rel = links_by_title.get(title[len(COMPANION_PREFIX):])
+    if rel is None:
+        return False
+    for rec in json.loads(git(repo, 'show', 'HEAD:' + rel).decode('utf-8')):
+        if rec.get('Conection Type') == 'footnotes' and title_of(rec['path_2']) == title:
+            return True
+    return False
+
+
 def check_changed(repo: str, base: str, cfg: Config) -> int:
-    """Fail when a packaged book changed since [base] still has a line this tool would split."""
-    names = git(repo, 'diff', '--name-only', '--diff-filter=d', '-z', base, 'HEAD', '--').decode('utf-8').split('\0')
+    """Fail when a packaged book changed since [base] has a line that --apply would split; warn on the rest."""
+    names = git(repo, 'diff', '--name-only', '--no-renames', '--diff-filter=d', '-z', base, 'HEAD', '--')
     roots = tuple(r + '/' for r in BOOK_ROOTS)
-    changed = [n for n in names if n.startswith(roots) and n.endswith('.txt')]
+    changed = [n for n in names.decode('utf-8').split('\0') if n.startswith(roots) and n.endswith('.txt')]
+    tracked = [x for x in git(repo, 'ls-files', '-z').decode('utf-8').split('\0') if x]
+    title_count = collections.Counter(title_of(p) for p in packaged_books(tracked).values())
+    links_by_title = {title_of(f)[:-len('_links.json')]: f for f in tracked_links_files(repo, tracked)}
     failed = 0
     for path in changed:
         try:
             book = parse_book(path, git(repo, 'show', 'HEAD:' + path))
         except (ValueError, UnicodeDecodeError):
             continue  # encoding problems are other validators' business
-        bad = [i + 1 for i, ln in enumerate(book.lines) if needs_split(ln, cfg) and split_line(ln, cfg)[0] is not None]
-        if bad and is_mergeable_companion(book.title):
-            print('warning: %s: lines %s are over %d chars (companion notes; not checked)' % (path, bad[:10], cfg.min_chars))
-        elif bad:
+        long_idx = [i for i, ln in enumerate(book.lines) if needs_split(ln, cfg)]
+        if not long_idx:
+            continue
+        verdicts = {i + 1: split_line(book.lines[i], cfg)[1] for i in long_idx}
+        splittable = [n for n, why in verdicts.items() if why is None]
+        unsplittable = {n: why for n, why in verdicts.items() if why not in (None, 'visible-under-threshold')}
+        skip = None
+        if title_count[book.title] > 1:
+            skip = 'the title is not unique, so --apply skips this book'
+        elif is_mergeable_companion(book.title) and companion_is_merged(repo, book.title, links_by_title):
+            skip = 'companion notes merged into their base book; split the base line instead'
+        if splittable and skip is None:
             failed += 1
             print('error: %s: lines %s are over %d visible chars (Otzaria/otzaria#1941). Run '
-                  '.claude/skills/otzaria-book-format/scripts/split_long_lines.py --apply' % (path, bad[:10], cfg.min_chars))
+                  '.claude/skills/otzaria-book-format/scripts/split_long_lines.py --apply' % (path, splittable[:10], cfg.min_chars))
+        elif splittable:
+            print('warning: %s: lines %s are over %d visible chars, not split: %s' % (path, splittable[:10], cfg.min_chars, skip))
+        for n, why in sorted(unsplittable.items())[:10]:
+            print('warning: %s: line %d is over %d visible chars and cannot be cut safely (%s); split it by hand'
+                  % (path, n, cfg.min_chars, why))
     print('checked %d changed book(s), %d with lines to split' % (len(changed), failed))
     return 1 if failed else 0
 

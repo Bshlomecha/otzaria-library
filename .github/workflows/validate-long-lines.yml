@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 20
     steps:
-      # blobless + sparse: only the script is checked out; changed books are read with git show.
+      # blobless + sparse: changed books and links files are read with git show.
       - name: Checkout repository (sparse, blobless)
         uses: actions/checkout@v5
         with:
@@ -32,6 +32,7 @@ jobs:
           filter: blob:none
           sparse-checkout: |
             /.claude/skills/otzaria-book-format/scripts/
+            /manual_links_sync.json
           sparse-checkout-cone-mode: false
           persist-credentials: false
 

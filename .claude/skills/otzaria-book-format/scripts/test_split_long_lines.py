@@ -88,6 +88,13 @@ class SplitRules(unittest.TestCase):
         sp, _ = sl.split_line(line)
         self.assertFalse(any(sl.is_heading(p.content) for p in sp.pieces))
 
+    def test_heading_after_br_and_space_is_not_a_piece_start(self):
+        line = text_of(21_000) + '<br> <h2>x</h2>' + text_of(20_000) + '<br>' + text_of(30_000)
+        sp, why = sl.split_line(line)
+        self.assertIsNone(why)
+        self.assertFalse(any(sl.is_heading(p.content) for p in sp.pieces))
+        self.assertEqual(sl.rejoin(sp, line), line)
+
     def test_forbidden_ranges_block_cuts(self):
         line = long_line(70_000)
         free, _ = sl.split_line(line)
@@ -205,6 +212,36 @@ class RepoRun(unittest.TestCase):
         sl.run(self.repo, sl.Config(), apply=True)
         self.git('commit', '-qam', 'split')
         self.assertEqual(sl.check_changed(self.repo, head, sl.Config()), 0)
+
+    def test_tracked_links_file_missing_on_disk_is_an_error(self):
+        os.remove(os.path.join(self.repo, LINKS + '/Other_links.json'))   # as in a sparse checkout
+        before = sl.read_bytes(os.path.join(self.repo, ROOT + '/Base.txt'))
+        stats, errors, _ = sl.run(self.repo, sl.Config(), apply=True)
+        self.assertEqual(stats['ERROR_tracked_links_files_not_checked_out'], 1)
+        self.assertGreater(errors, 0)
+        self.assertEqual(sl.read_bytes(os.path.join(self.repo, ROOT + '/Base.txt')), before)  # nothing written
+
+    def test_check_changed_matches_what_apply_would_split(self):
+        head = self.git('rev-parse', 'HEAD').decode().strip()
+        # Merged companion notes and a duplicate title: --apply skips both, so the gate only warns.
+        self.write(ROOT + '/' + sl.COMPANION_PREFIX + 'Base.txt', '<sup>1</sup> n1\n' + long_line(70_000) + '\n')
+        self.write('KSK/ספרים/אוצריא/x/Other.txt', 'x\n' + long_line(70_000) + '\n')
+        self.git('add', '-A')
+        self.git('commit', '-qm', 'skipped by apply')
+        self.assertEqual(sl.check_changed(self.repo, head, sl.Config()), 0)
+        stats, errors, _ = sl.run(self.repo, sl.Config())
+        self.assertEqual((errors, stats['skipped_lines:merged-companion'], stats['skipped_lines:title-not-unique']), (0, 1, 1))
+        # A line with no safe cut is a warning too.
+        head = self.git('rev-parse', 'HEAD').decode().strip()
+        self.write(ROOT + '/Solid.txt', 'x\n' + 'y' * 70_000 + '\n')
+        self.git('add', '-A')
+        self.git('commit', '-qm', 'solid')
+        self.assertEqual(sl.check_changed(self.repo, head, sl.Config()), 0)
+        # Companion notes without footnotes links are split by --apply, so the gate fails.
+        self.write(ROOT + '/' + sl.COMPANION_PREFIX + 'Lonely.txt', long_line(70_000) + '\n')
+        self.git('add', '-A')
+        self.git('commit', '-qm', 'lonely')
+        self.assertEqual(sl.check_changed(self.repo, head, sl.Config()), 1)
 
 
 if __name__ == '__main__':
