@@ -25,6 +25,7 @@
   },
   {
     "line_index_1": 19,
+    "line_index_1_end": 21,
     "heRef_2": "ספר זמנים, הלכות שבת, פרק ב, א",
     "path_2": "משנה תורה, הלכות שבת.txt",
     "line_index_2": 24,
@@ -32,7 +33,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 22,
+    "line_index_1": 24,
     "heRef_2": "ספר זמנים, הלכות שבת, פרק יב, א",
     "path_2": "משנה תורה, הלכות שבת.txt",
     "line_index_2": 220,
@@ -40,7 +41,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 25,
+    "line_index_1": 27,
     "heRef_2": "ספר זמנים, הלכות שבת, פרק יג, יג",
     "path_2": "משנה תורה, הלכות שבת.txt",
     "line_index_2": 252,
@@ -48,7 +49,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 29,
+    "line_index_1": 31,
     "heRef_2": "ספר זמנים, הלכות חמץ ומצה, פרק א, ג",
     "path_2": "משנה תורה, הלכות חמץ ומצה.txt",
     "line_index_2": 6,
@@ -56,7 +57,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 34,
+    "line_index_1": 36,
     "heRef_2": "ספר נשים, הלכות יבום וחליצה, פרק ו, ט",
     "path_2": "משנה תורה, הלכות יבום וחליצה.txt",
     "line_index_2": 145,
@@ -64,7 +65,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 36,
+    "line_index_1": 38,
     "heRef_2": "ספר נשים, הלכות יבום וחליצה, פרק ו, י",
     "path_2": "משנה תורה, הלכות יבום וחליצה.txt",
     "line_index_2": 146,
@@ -72,7 +73,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 38,
+    "line_index_1": 40,
     "heRef_2": "ספר נשים, הלכות יבום וחליצה, פרק ו, יא",
     "path_2": "משנה תורה, הלכות יבום וחליצה.txt",
     "line_index_2": 147,
@@ -80,7 +81,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 43,
+    "line_index_1": 45,
+    "line_index_1_end": 47,
     "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק ג, ח",
     "path_2": "משנה תורה, הלכות איסורי ביאה.txt",
     "line_index_2": 50,
@@ -88,7 +90,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 45,
+    "line_index_1": 49,
+    "line_index_1_end": 51,
     "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק ג, ט",
     "path_2": "משנה תורה, הלכות איסורי ביאה.txt",
     "line_index_2": 51,
@@ -96,7 +99,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 47,
+    "line_index_1": 53,
+    "line_index_1_end": 55,
     "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק ג, י",
     "path_2": "משנה תורה, הלכות איסורי ביאה.txt",
     "line_index_2": 52,
@@ -104,7 +108,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 49,
+    "line_index_1": 57,
+    "line_index_1_end": 59,
     "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק ג, יא",
     "path_2": "משנה תורה, הלכות איסורי ביאה.txt",
     "line_index_2": 53,
@@ -112,7 +117,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 51,
+    "line_index_1": 61,
+    "line_index_1_end": 63,
     "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק ג, יב",
     "path_2": "משנה תורה, הלכות איסורי ביאה.txt",
     "line_index_2": 54,
@@ -120,7 +126,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 54,
+    "line_index_1": 66,
     "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק ט, כט",
     "path_2": "משנה תורה, הלכות איסורי ביאה.txt",
     "line_index_2": 210,
@@ -128,7 +134,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 58,
+    "line_index_1": 70,
     "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק ד, ב",
     "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
     "line_index_2": 80,
@@ -136,7 +142,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 61,
+    "line_index_1": 73,
     "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק ח, יד",
     "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
     "line_index_2": 175,
@@ -144,7 +150,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 66,
+    "line_index_1": 78,
     "heRef_2": "ספר הפלאה, הלכות שבועות, פרק ד, ג",
     "path_2": "משנה תורה, הלכות שבועות.txt",
     "line_index_2": 52,
@@ -152,7 +158,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 69,
+    "line_index_1": 81,
     "heRef_2": "ספר הפלאה, הלכות שבועות, פרק יב, א",
     "path_2": "משנה תורה, הלכות שבועות.txt",
     "line_index_2": 208,
@@ -160,7 +166,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 73,
+    "line_index_1": 85,
     "heRef_2": "ספר הפלאה, הלכות נזירות, פרק ד, יא",
     "path_2": "משנה תורה, הלכות נזירות.txt",
     "line_index_2": 75,
@@ -168,7 +174,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 76,
+    "line_index_1": 88,
     "heRef_2": "ספר הפלאה, הלכות נזירות, פרק ו, א",
     "path_2": "משנה תורה, הלכות נזירות.txt",
     "line_index_2": 105,
@@ -176,7 +182,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 78,
+    "line_index_1": 90,
     "heRef_2": "ספר הפלאה, הלכות נזירות, פרק ו, ב",
     "path_2": "משנה תורה, הלכות נזירות.txt",
     "line_index_2": 106,
@@ -184,7 +190,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 80,
+    "line_index_1": 92,
     "heRef_2": "ספר הפלאה, הלכות נזירות, פרק ו, ט",
     "path_2": "משנה תורה, הלכות נזירות.txt",
     "line_index_2": 113,
@@ -192,7 +198,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 83,
+    "line_index_1": 95,
     "heRef_2": "ספר הפלאה, הלכות נזירות, פרק ז, טו",
     "path_2": "משנה תורה, הלכות נזירות.txt",
     "line_index_2": 140,
@@ -200,7 +206,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 88,
+    "line_index_1": 100,
     "heRef_2": "ספר זרעים, הלכות מתנות עניים, פרק ה, כז",
     "path_2": "משנה תורה, הלכות מתנות עניים.txt",
     "line_index_2": 119,
@@ -208,7 +214,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 92,
+    "line_index_1": 104,
     "heRef_2": "ספר זרעים, הלכות תרומות, פרק ד, ב",
     "path_2": "משנה תורה, הלכות תרומות.txt",
     "line_index_2": 75,
@@ -216,7 +222,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 95,
+    "line_index_1": 107,
     "heRef_2": "ספר זרעים, הלכות תרומות, פרק ה, כד",
     "path_2": "משנה תורה, הלכות תרומות.txt",
     "line_index_2": 119,
@@ -224,7 +230,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 100,
+    "line_index_1": 112,
     "heRef_2": "ספר עבודה, הלכות בית הבחירה, פרק ב, י",
     "path_2": "משנה תורה, הלכות בית הבחירה.txt",
     "line_index_2": 34,
@@ -232,7 +238,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 104,
+    "line_index_1": 116,
     "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ב, ב",
     "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
     "line_index_2": 25,
@@ -240,7 +246,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 107,
+    "line_index_1": 119,
     "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ד, יג",
     "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
     "line_index_2": 62,
@@ -248,7 +254,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 110,
+    "line_index_1": 122,
     "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק י, ו",
     "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
     "line_index_2": 161,
@@ -256,7 +262,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 114,
+    "line_index_1": 126,
     "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ד, ח",
     "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
     "line_index_2": 67,
@@ -264,7 +270,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 116,
+    "line_index_1": 128,
     "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ד, ט",
     "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
     "line_index_2": 68,
@@ -272,7 +278,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 118,
+    "line_index_1": 130,
     "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ד, יז",
     "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
     "line_index_2": 76,
@@ -280,7 +286,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 120,
+    "line_index_1": 132,
     "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ד, יח",
     "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
     "line_index_2": 77,
@@ -288,7 +294,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 123,
+    "line_index_1": 135,
     "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ה, י",
     "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
     "line_index_2": 88,
@@ -296,7 +302,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 126,
+    "line_index_1": 138,
     "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ט, ה",
     "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
     "line_index_2": 148,
@@ -304,7 +310,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 130,
+    "line_index_1": 142,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ה, יז",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 84,
@@ -312,7 +318,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 133,
+    "line_index_1": 145,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק ח, כא",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 147,
@@ -320,7 +326,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 136,
+    "line_index_1": 148,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק טו, ב",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 267,
@@ -328,7 +334,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 139,
+    "line_index_1": 151,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יח, י",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 318,
@@ -336,7 +342,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 140,
+    "line_index_1": 152,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יח, י",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 318,
@@ -344,7 +350,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 142,
+    "line_index_1": 154,
+    "line_index_1_end": 156,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יח, יד",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 322,
@@ -352,7 +359,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 146,
+    "line_index_1": 160,
     "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק א, א",
     "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
     "line_index_2": 4,
@@ -360,7 +367,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 149,
+    "line_index_1": 163,
     "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק ב, י",
     "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
     "line_index_2": 26,
@@ -368,7 +375,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 151,
+    "line_index_1": 165,
     "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק ב, יב",
     "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
     "line_index_2": 28,
@@ -376,7 +383,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 153,
+    "line_index_1": 167,
     "heRef_2": "ספר עבודה, הלכות תמידים ומוספין, פרק ב, יג",
     "path_2": "משנה תורה, הלכות תמידים ומוספין.txt",
     "line_index_2": 29,
@@ -384,7 +391,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 157,
+    "line_index_1": 171,
+    "line_index_1_end": 174,
     "heRef_2": "ספר עבודה, הלכות עבודת יום הכפורים, פרק ב, ג",
     "path_2": "משנה תורה, הלכות עבודת יום הכפורים.txt",
     "line_index_2": 15,
@@ -392,7 +400,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 161,
+    "line_index_1": 178,
     "heRef_2": "ספר עבודה, הלכות מעילה, פרק א, ז",
     "path_2": "משנה תורה, הלכות מעילה.txt",
     "line_index_2": 10,
@@ -400,7 +408,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 164,
+    "line_index_1": 181,
     "heRef_2": "ספר עבודה, הלכות מעילה, פרק ב, א",
     "path_2": "משנה תורה, הלכות מעילה.txt",
     "line_index_2": 18,

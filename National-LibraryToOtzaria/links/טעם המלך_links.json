@@ -193,6 +193,7 @@
   },
   {
     "line_index_1": 89,
+    "line_index_1_end": 92,
     "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק יז, ח",
     "path_2": "משנה תורה, הלכות איסורי ביאה.txt",
     "line_index_2": 384,
@@ -200,7 +201,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 92,
+    "line_index_1": 95,
     "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק כא, א",
     "path_2": "משנה תורה, הלכות איסורי ביאה.txt",
     "line_index_2": 475,
@@ -208,7 +209,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 96,
+    "line_index_1": 99,
     "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק ד, ב",
     "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
     "line_index_2": 80,
@@ -216,7 +217,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 99,
+    "line_index_1": 102,
     "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק ח, ו",
     "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
     "line_index_2": 167,
@@ -224,7 +225,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 102,
+    "line_index_1": 105,
     "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק יד, יז",
     "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
     "line_index_2": 337,
@@ -232,7 +233,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 106,
+    "line_index_1": 109,
     "heRef_2": "ספר קדושה, הלכות שחיטה, פרק ב, א",
     "path_2": "משנה תורה, הלכות שחיטה.txt",
     "line_index_2": 34,
@@ -240,7 +241,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 111,
+    "line_index_1": 114,
     "heRef_2": "ספר הפלאה, הלכות נדרים, פרק ג, ו",
     "path_2": "משנה תורה, הלכות נדרים.txt",
     "line_index_2": 60,
@@ -248,7 +249,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 116,
+    "line_index_1": 119,
     "heRef_2": "ספר זרעים, הלכות כלאים, פרק א, ג",
     "path_2": "משנה תורה, הלכות כלאים.txt",
     "line_index_2": 6,
@@ -256,7 +257,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 120,
+    "line_index_1": 123,
     "heRef_2": "ספר זרעים, הלכות שמיטה ויובל, פרק א, א",
     "path_2": "משנה תורה, הלכות שמיטה ויובל.txt",
     "line_index_2": 4,
@@ -264,7 +265,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 125,
+    "line_index_1": 128,
     "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק ו, י",
     "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
     "line_index_2": 108,
@@ -272,7 +273,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 130,
+    "line_index_1": 133,
     "heRef_2": "ספר טהרה, הלכות טומאת מת, פרק ט, יב",
     "path_2": "משנה תורה, הלכות טומאת מת.txt",
     "line_index_2": 124,
@@ -280,7 +281,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 134,
+    "line_index_1": 137,
     "heRef_2": "ספר טהרה, הלכות טומאת צרעת, פרק יא, ז",
     "path_2": "משנה תורה, הלכות טומאת צרעת.txt",
     "line_index_2": 123,
@@ -288,7 +289,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 139,
+    "line_index_1": 142,
     "heRef_2": "ספר נזיקין, הלכות גניבה, פרק ג, ו",
     "path_2": "משנה תורה, הלכות גניבה.txt",
     "line_index_2": 47,
@@ -296,7 +297,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 144,
+    "line_index_1": 147,
     "heRef_2": "ספר קניין, הלכות מכירה, פרק ג, ח",
     "path_2": "משנה תורה, הלכות מכירה.txt",
     "line_index_2": 43,
@@ -304,7 +305,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 147,
+    "line_index_1": 150,
     "heRef_2": "ספר קניין, הלכות מכירה, פרק כב, א",
     "path_2": "משנה תורה, הלכות מכירה.txt",
     "line_index_2": 322,
@@ -312,7 +313,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 151,
+    "line_index_1": 154,
     "heRef_2": "ספר קניין, הלכות זכייה ומתנה, פרק ג, ו",
     "path_2": "משנה תורה, הלכות זכייה ומתנה.txt",
     "line_index_2": 44,

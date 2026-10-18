@@ -65,6 +65,7 @@
   },
   {
     "line_index_1": 104,
+    "line_index_1_end": 107,
     "heRef_2": "ספר נשים, הלכות אישות, פרק ג, טז",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 56,
@@ -72,7 +73,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 106,
+    "line_index_1": 109,
     "heRef_2": "ספר נשים, הלכות אישות, פרק ג, יט",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 59,
@@ -80,7 +81,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 109,
+    "line_index_1": 112,
     "heRef_2": "ספר נשים, הלכות אישות, פרק ד, א",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 66,
@@ -88,7 +89,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 111,
+    "line_index_1": 114,
     "heRef_2": "ספר נשים, הלכות אישות, פרק ד, ב",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 67,
@@ -96,7 +97,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 113,
+    "line_index_1": 116,
     "heRef_2": "ספר נשים, הלכות אישות, פרק ד, ו",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 71,
@@ -104,7 +105,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 115,
+    "line_index_1": 118,
     "heRef_2": "ספר נשים, הלכות אישות, פרק ד, יט",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 84,
@@ -112,7 +113,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 118,
+    "line_index_1": 121,
     "heRef_2": "ספר נשים, הלכות אישות, פרק ה, א",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 89,
@@ -120,7 +121,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 120,
+    "line_index_1": 123,
     "heRef_2": "ספר נשים, הלכות אישות, פרק ה, ב",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 90,
@@ -128,7 +129,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 122,
+    "line_index_1": 125,
     "heRef_2": "ספר נשים, הלכות אישות, פרק ה, ג",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 91,
@@ -136,7 +137,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 124,
+    "line_index_1": 127,
     "heRef_2": "ספר נשים, הלכות אישות, פרק ה, ד",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 92,
@@ -144,7 +145,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 126,
+    "line_index_1": 129,
+    "line_index_1_end": 131,
     "heRef_2": "ספר נשים, הלכות אישות, פרק ה, ו",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 94,
@@ -152,7 +154,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 128,
+    "line_index_1": 133,
     "heRef_2": "ספר נשים, הלכות אישות, פרק ה, ז",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 95,
@@ -160,7 +162,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 130,
+    "line_index_1": 135,
     "heRef_2": "ספר נשים, הלכות אישות, פרק ה, ח",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 96,
@@ -168,7 +170,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 132,
+    "line_index_1": 137,
     "heRef_2": "ספר נשים, הלכות אישות, פרק ה, יב",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 100,
@@ -176,7 +178,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 134,
+    "line_index_1": 139,
     "heRef_2": "ספר נשים, הלכות אישות, פרק ה, יג",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 101,
@@ -184,7 +186,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 136,
+    "line_index_1": 141,
     "heRef_2": "ספר נשים, הלכות אישות, פרק ה, יז",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 105,
@@ -192,7 +194,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 138,
+    "line_index_1": 143,
     "heRef_2": "ספר נשים, הלכות אישות, פרק ה, כב",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 110,
@@ -200,7 +202,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 140,
+    "line_index_1": 145,
     "heRef_2": "ספר נשים, הלכות אישות, פרק ה, כד",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 112,
@@ -208,7 +210,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 143,
+    "line_index_1": 148,
+    "line_index_1_end": 159,
     "heRef_2": "ספר נשים, הלכות אישות, פרק ז, א",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 138,
@@ -216,7 +219,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 146,
+    "line_index_1": 162,
     "heRef_2": "ספר נשים, הלכות אישות, פרק ח, א",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 162,
@@ -224,7 +227,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 148,
+    "line_index_1": 164,
     "heRef_2": "ספר נשים, הלכות אישות, פרק ח, ב",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 163,
@@ -232,7 +235,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 151,
+    "line_index_1": 167,
     "heRef_2": "ספר נשים, הלכות אישות, פרק ט, ח",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 176,
@@ -240,7 +243,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 153,
+    "line_index_1": 169,
     "heRef_2": "ספר נשים, הלכות אישות, פרק ט, טו",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 183,
@@ -248,7 +251,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 156,
+    "line_index_1": 172,
     "heRef_2": "ספר נשים, הלכות אישות, פרק י, יד",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 214,
@@ -256,7 +259,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 159,
+    "line_index_1": 175,
     "heRef_2": "ספר נשים, הלכות אישות, פרק יא, ח",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 228,
@@ -264,7 +267,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 161,
+    "line_index_1": 177,
     "heRef_2": "ספר נשים, הלכות אישות, פרק יא, יא",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 231,
@@ -272,7 +275,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 164,
+    "line_index_1": 180,
     "heRef_2": "ספר נשים, הלכות אישות, פרק יב, כג",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 261,
@@ -280,7 +283,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 167,
+    "line_index_1": 183,
     "heRef_2": "ספר נשים, הלכות אישות, פרק טז, יב",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 342,
@@ -288,7 +291,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 169,
+    "line_index_1": 185,
     "heRef_2": "ספר נשים, הלכות אישות, פרק טז, טו",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 345,
@@ -296,7 +299,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 171,
+    "line_index_1": 187,
     "heRef_2": "ספר נשים, הלכות אישות, פרק טז, כה",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 355,
@@ -304,7 +307,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 173,
+    "line_index_1": 189,
     "heRef_2": "ספר נשים, הלכות אישות, פרק טז, כז",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 357,
@@ -312,7 +315,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 176,
+    "line_index_1": 192,
     "heRef_2": "ספר נשים, הלכות אישות, פרק יז, י",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 372,
@@ -320,7 +323,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 178,
+    "line_index_1": 194,
     "heRef_2": "ספר נשים, הלכות אישות, פרק יז, יט",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 381,
@@ -328,7 +331,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 181,
+    "line_index_1": 197,
     "heRef_2": "ספר נשים, הלכות אישות, פרק יח, ו",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 388,
@@ -336,7 +339,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 183,
+    "line_index_1": 199,
     "heRef_2": "ספר נשים, הלכות אישות, פרק יח, יט",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 401,
@@ -344,7 +347,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 186,
+    "line_index_1": 202,
     "heRef_2": "ספר נשים, הלכות אישות, פרק יט, ח",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 419,
@@ -352,7 +355,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 189,
+    "line_index_1": 205,
     "heRef_2": "ספר נשים, הלכות אישות, פרק כב, כד",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 492,
@@ -360,7 +363,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 192,
+    "line_index_1": 208,
     "heRef_2": "ספר נשים, הלכות אישות, פרק כג, ג",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 507,
@@ -368,7 +371,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 194,
+    "line_index_1": 210,
     "heRef_2": "ספר נשים, הלכות אישות, פרק כג, יח",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 522,
@@ -376,7 +379,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 197,
+    "line_index_1": 213,
     "heRef_2": "ספר נשים, הלכות אישות, פרק כד, יא",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 534,
@@ -384,7 +387,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 199,
+    "line_index_1": 215,
     "heRef_2": "ספר נשים, הלכות אישות, פרק כד, טו",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 538,
@@ -392,7 +395,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 201,
+    "line_index_1": 217,
     "heRef_2": "ספר נשים, הלכות אישות, פרק כד, יז",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 540,
@@ -400,7 +403,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 203,
+    "line_index_1": 219,
+    "line_index_1_end": 221,
     "heRef_2": "ספר נשים, הלכות אישות, פרק כד, יח",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 541,
@@ -408,7 +412,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 205,
+    "line_index_1": 223,
     "heRef_2": "ספר נשים, הלכות אישות, פרק כד, יט",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 542,
@@ -416,7 +420,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 207,
+    "line_index_1": 225,
     "heRef_2": "ספר נשים, הלכות אישות, פרק כד, כג",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 546,
@@ -424,7 +428,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 209,
+    "line_index_1": 227,
     "heRef_2": "ספר נשים, הלכות אישות, פרק כד, כה",
     "path_2": "משנה תורה, הלכות אישות.txt",
     "line_index_2": 548,
@@ -432,7 +436,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 213,
+    "line_index_1": 231,
     "heRef_2": "ספר נשים, הלכות גירושין, פרק א, ד",
     "path_2": "משנה תורה, הלכות גירושין.txt",
     "line_index_2": 7,
@@ -440,7 +444,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 215,
+    "line_index_1": 233,
     "heRef_2": "ספר נשים, הלכות גירושין, פרק א, ט",
     "path_2": "משנה תורה, הלכות גירושין.txt",
     "line_index_2": 12,
@@ -448,7 +452,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 217,
+    "line_index_1": 235,
     "heRef_2": "ספר נשים, הלכות גירושין, פרק א, י",
     "path_2": "משנה תורה, הלכות גירושין.txt",
     "line_index_2": 13,
@@ -456,7 +460,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 219,
+    "line_index_1": 237,
     "heRef_2": "ספר נשים, הלכות גירושין, פרק א, יא",
     "path_2": "משנה תורה, הלכות גירושין.txt",
     "line_index_2": 14,
@@ -464,7 +468,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 221,
+    "line_index_1": 239,
     "heRef_2": "ספר נשים, הלכות גירושין, פרק א, יג",
     "path_2": "משנה תורה, הלכות גירושין.txt",
     "line_index_2": 16,
@@ -472,7 +476,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 223,
+    "line_index_1": 241,
     "heRef_2": "ספר נשים, הלכות גירושין, פרק א, טז",
     "path_2": "משנה תורה, הלכות גירושין.txt",
     "line_index_2": 19,
@@ -480,7 +484,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 225,
+    "line_index_1": 243,
     "heRef_2": "ספר נשים, הלכות גירושין, פרק א, כד",
     "path_2": "משנה תורה, הלכות גירושין.txt",
     "line_index_2": 27,
@@ -488,7 +492,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 228,
+    "line_index_1": 246,
     "heRef_2": "ספר נשים, הלכות גירושין, פרק ב, יח",
     "path_2": "משנה תורה, הלכות גירושין.txt",
     "line_index_2": 50,
@@ -496,7 +500,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 231,
+    "line_index_1": 249,
     "heRef_2": "ספר נשים, הלכות גירושין, פרק ג, טו",
     "path_2": "משנה תורה, הלכות גירושין.txt",
     "line_index_2": 68,
@@ -504,7 +508,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 233,
+    "line_index_1": 251,
     "heRef_2": "ספר נשים, הלכות גירושין, פרק ג, טז",
     "path_2": "משנה תורה, הלכות גירושין.txt",
     "line_index_2": 69,
@@ -512,7 +516,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 235,
+    "line_index_1": 253,
     "heRef_2": "ספר נשים, הלכות גירושין, פרק ג, יט",
     "path_2": "משנה תורה, הלכות גירושין.txt",
     "line_index_2": 72,
@@ -520,7 +524,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 238,
+    "line_index_1": 256,
     "heRef_2": "ספר נשים, הלכות גירושין, פרק ה, א",
     "path_2": "משנה תורה, הלכות גירושין.txt",
     "line_index_2": 100,
@@ -528,7 +532,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 240,
+    "line_index_1": 258,
     "heRef_2": "ספר נשים, הלכות גירושין, פרק ה, ב",
     "path_2": "משנה תורה, הלכות גירושין.txt",
     "line_index_2": 101,

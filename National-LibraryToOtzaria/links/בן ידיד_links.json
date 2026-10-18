@@ -4697,6 +4697,7 @@
   },
   {
     "line_index_1": 1378,
+    "line_index_1_end": 1382,
     "heRef_2": "ספר נזיקין, הלכות גזילה ואבידה, פרק יב, י",
     "path_2": "משנה תורה, הלכות גזילה ואבידה.txt",
     "line_index_2": 195,
@@ -4704,7 +4705,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1382,
+    "line_index_1": 1386,
     "heRef_2": "ספר נזיקין, הלכות חובל ומזיק, פרק ה, יא",
     "path_2": "משנה תורה, הלכות חובל ומזיק.txt",
     "line_index_2": 90,
@@ -4712,7 +4713,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1387,
+    "line_index_1": 1391,
     "heRef_2": "ספר קניין, הלכות מכירה, פרק א, ז",
     "path_2": "משנה תורה, הלכות מכירה.txt",
     "line_index_2": 10,
@@ -4720,7 +4721,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1389,
+    "line_index_1": 1393,
     "heRef_2": "ספר קניין, הלכות מכירה, פרק א, טו",
     "path_2": "משנה תורה, הלכות מכירה.txt",
     "line_index_2": 18,
@@ -4728,7 +4729,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1392,
+    "line_index_1": 1396,
     "heRef_2": "ספר קניין, הלכות מכירה, פרק ז, יב",
     "path_2": "משנה תורה, הלכות מכירה.txt",
     "line_index_2": 114,
@@ -4736,7 +4737,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1395,
+    "line_index_1": 1399,
     "heRef_2": "ספר קניין, הלכות מכירה, פרק כב, טו",
     "path_2": "משנה תורה, הלכות מכירה.txt",
     "line_index_2": 336,
@@ -4744,7 +4745,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1399,
+    "line_index_1": 1403,
+    "line_index_1_end": 1404,
     "heRef_2": "ספר קניין, הלכות זכייה ומתנה, פרק ג, א",
     "path_2": "משנה תורה, הלכות זכייה ומתנה.txt",
     "line_index_2": 39,
@@ -4752,7 +4754,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1402,
+    "line_index_1": 1407,
+    "line_index_1_end": 1416,
     "heRef_2": "ספר קניין, הלכות זכייה ומתנה, פרק ו, א",
     "path_2": "משנה תורה, הלכות זכייה ומתנה.txt",
     "line_index_2": 80,
@@ -4760,7 +4763,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1405,
+    "line_index_1": 1419,
+    "line_index_1_end": 1420,
     "heRef_2": "ספר קניין, הלכות זכייה ומתנה, פרק יא, יח",
     "path_2": "משנה תורה, הלכות זכייה ומתנה.txt",
     "line_index_2": 209,
@@ -4768,7 +4772,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1409,
+    "line_index_1": 1424,
     "heRef_2": "ספר קניין, הלכות שכנים, פרק ו, ד",
     "path_2": "משנה תורה, הלכות שכנים.txt",
     "line_index_2": 72,
@@ -4776,7 +4780,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1412,
+    "line_index_1": 1427,
     "heRef_2": "ספר קניין, הלכות שכנים, פרק יב, ז",
     "path_2": "משנה תורה, הלכות שכנים.txt",
     "line_index_2": 142,
@@ -4784,7 +4788,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1416,
+    "line_index_1": 1431,
+    "line_index_1_end": 1436,
     "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק א, ה",
     "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
     "line_index_2": 8,
@@ -4792,7 +4797,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1419,
+    "line_index_1": 1439,
     "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק ה, יא",
     "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
     "line_index_2": 52,
@@ -4800,7 +4805,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1424,
+    "line_index_1": 1444,
+    "line_index_1_end": 1448,
     "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק ה, טז",
     "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
     "line_index_2": 61,
@@ -4808,7 +4814,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1427,
+    "line_index_1": 1451,
     "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק ח, ה",
     "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
     "line_index_2": 90,
@@ -4816,7 +4822,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1431,
+    "line_index_1": 1455,
+    "line_index_1_end": 1457,
     "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק ז, א",
     "path_2": "משנה תורה, הלכות טוען ונטען.txt",
     "line_index_2": 84,

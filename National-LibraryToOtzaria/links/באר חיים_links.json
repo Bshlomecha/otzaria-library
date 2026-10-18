@@ -1,6 +1,7 @@
 [
   {
     "line_index_1": 7,
+    "line_index_1_end": 9,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק א, א",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 4,
@@ -8,7 +9,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 9,
+    "line_index_1": 11,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק א, ב",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 5,
@@ -16,7 +17,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 11,
+    "line_index_1": 13,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק א, ג",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 6,
@@ -24,7 +25,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 13,
+    "line_index_1": 15,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק א, ד",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 7,
@@ -32,7 +33,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 15,
+    "line_index_1": 17,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק א, ו",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 9,
@@ -40,7 +41,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 17,
+    "line_index_1": 19,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק א, ז",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 10,
@@ -48,7 +49,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 19,
+    "line_index_1": 21,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק א, ח",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 11,
@@ -56,7 +57,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 21,
+    "line_index_1": 23,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק א, ט",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 12,
@@ -64,7 +65,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 23,
+    "line_index_1": 25,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק א, י",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 13,
@@ -72,7 +73,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 25,
+    "line_index_1": 27,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק א, יא",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 14,
@@ -80,7 +81,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 28,
+    "line_index_1": 30,
+    "line_index_1_end": 34,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק ב, א",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 16,
@@ -88,7 +90,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 30,
+    "line_index_1": 36,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק ב, ב",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 17,
@@ -96,7 +98,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 32,
+    "line_index_1": 38,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק ב, ג",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 18,
@@ -104,7 +106,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 34,
+    "line_index_1": 40,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק ב, ד",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 19,
@@ -112,7 +114,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 36,
+    "line_index_1": 42,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק ב, ה",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 20,
@@ -120,7 +122,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 38,
+    "line_index_1": 44,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק ב, ו",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 21,
@@ -128,7 +130,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 40,
+    "line_index_1": 46,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק ב, ח",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 23,
@@ -136,7 +138,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 42,
+    "line_index_1": 48,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק ב, ט",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 24,
@@ -144,7 +146,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 44,
+    "line_index_1": 50,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק ב, י",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 25,
@@ -152,7 +154,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 46,
+    "line_index_1": 52,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק ב, יא",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 26,
@@ -160,7 +162,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 48,
+    "line_index_1": 54,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק ב, יג",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 28,
@@ -168,7 +170,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 50,
+    "line_index_1": 56,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק ב, יד",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 29,
@@ -176,7 +178,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 53,
+    "line_index_1": 59,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק ג, א",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 31,
@@ -184,7 +186,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 55,
+    "line_index_1": 61,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק ג, ג",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 33,
@@ -192,7 +194,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 57,
+    "line_index_1": 63,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק ג, ד",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 34,
@@ -200,7 +202,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 59,
+    "line_index_1": 65,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק ג, ה",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 35,
@@ -208,7 +210,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 61,
+    "line_index_1": 67,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק ג, ו",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 36,
@@ -216,7 +218,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 63,
+    "line_index_1": 69,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק ג, ז",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 37,
@@ -224,7 +226,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 64,
+    "line_index_1": 70,
     "heRef_2": "ספר קורבנות, הלכות חגיגה, פרק ג, ז",
     "path_2": "משנה תורה, הלכות חגיגה.txt",
     "line_index_2": 37,
