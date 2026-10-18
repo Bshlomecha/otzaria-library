@@ -115,6 +115,11 @@ class SameTractateRefTest(unittest.TestCase):
         ):
             self.assertEqual(drop_same_tractate(line, patterns), expected)
 
+    def test_hatosaf_abbreviation_is_tosafot(self):
+        patterns = same_tractate_patterns("שבת")
+        self.assertEqual(drop_same_tractate("והקשו התוספ' (שבת דף ב. ד\"ה אמר)", patterns), "והקשו התוספ' (דף ב. ד\"ה אמר)")
+        self.assertEqual(drop_same_tractate("בתוספ' (שבת פ\"ג)", patterns), "בתוספ' (שבת פ\"ג)")
+
     def test_many_references_in_one_line(self):
         line = " ".join(["(שבת דף ב.) לקמן (שבת ג.) (לעיל שבת דף ד:)"] * 2000)
         out = self.make_book("Shabbat", self.SHABBAT, [line])
