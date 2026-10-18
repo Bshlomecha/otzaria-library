@@ -58,6 +58,7 @@ jobs:
           sparse-checkout: |
             /ForDB/
             /.github/scripts/
+            /.github/workflows/validate-fordb-book-names.yml
             /.github/workflows/update-fordb.yml
             /.claude/skills/otzaria-book-format/scripts/make_metadata.py
             /all_metadata_with_file_paths.json
@@ -172,6 +173,13 @@ jobs:
               "ForDB/sefaria_category_changes.csv",
               "ForDB/sefaria_metadata_changes.csv",
           }
+          # טבלאות book_banner / book_protection; קובץ חסר = אין טבלה.
+          # divine_name_overrides: קובץ חסר = בתנ"ך רק שם הוי"ה מסומן כקודש.
+          optional = {
+              "ForDB/book_banners.csv",
+              "ForDB/book_protection.csv",
+              "ForDB/divine_name_overrides.csv",
+          }
           paths = sorted(
               (path for path in root.rglob("*") if path.name != ".DS_Store" and path.as_posix() != "ForDB/book_info_identity.json"),
               key=lambda path: path.as_posix().encode(),
@@ -179,9 +187,9 @@ jobs:
           if any(path.is_symlink() for path in paths):
               raise SystemExit("ForDB archive refuses symlinks")
           actual = {path.as_posix() for path in paths if path.is_file()}
-          if actual != expected:
+          if actual - optional != expected:
               missing = sorted(expected - actual)
-              unknown = sorted(actual - expected)
+              unknown = sorted(actual - expected - optional)
               raise SystemExit(
                   "ForDB consumer coverage is incomplete; "
                   f"missing={missing}, files without a runtime validator={unknown}"
@@ -241,6 +249,11 @@ jobs:
           path: seforim-tool
           persist-credentials: false
 
+      - name: Self-test released DB downloads
+        env:
+          SEFORIM_TOOL_DIR: ${{ github.workspace }}/seforim-tool
+        run: python3 -m unittest discover -s .github/scripts -p test_download_released_fordb_db.py -v
+
       # מטמון Gradle משותף עם update-fordb.yml (אותו מפתח, אותו כלי, אותה משימה). מטמון
       # שנוצר ב-main נגיש לכל ענף ול-PR; הכתיבה רק ב-main, כך ש-PR רק קורא. מפתח לפי
       # קומיט הכלי, עם restore-keys כגיבוי: --build-cache ממחזר גם את תוצרי הקומפילציה,
@@ -274,31 +287,13 @@ jobs:
           test -n "$LIB_TAG"
           echo "Validating every ForDB input against SeforimLibrary release $LIB_TAG"
 
-          # The buildstate travels with the DB: without it the validator's allocator starts
-          # from zero and every pub_date/pub_place id check fails against the real DB.
-          for asset in seforim-schema6.db.zst seforim.db.buildstate.zst; do
-            gh release download "$LIB_TAG" \
-              -R Otzaria/SeforimLibrary \
-              -p "$asset" \
-              -D dbdir
-            ASSET_DIGEST=$(gh release view "$LIB_TAG" \
-              -R Otzaria/SeforimLibrary \
-              --json assets \
-              --jq ".assets[] | select(.name==\"$asset\") | .digest")
-            [[ "$ASSET_DIGEST" =~ ^sha256:[0-9a-f]{64}$ ]]
-            [[ "$(sha256sum "dbdir/$asset" | cut -d' ' -f1)" == "${ASSET_DIGEST#sha256:}" ]]
-
-            # Schema-6 releases name the DB seforim-schema6.db; extract it as seforim.db so the
-            # validator still finds its buildstate at "<db>.buildstate".
-            out="${asset%.zst}"
-            unzstd -f "dbdir/$asset" -o "dbdir/${out/seforim-schema6.db/seforim.db}"
-            rm -f "dbdir/$asset"
-          done
+          # Schema-qualified names and split archives follow the producer's contract.
+          # Authenticate the DB, allocator state and provenance before the dry-run.
+          bash .github/scripts/download_released_fordb_db.sh "$LIB_TAG" dbdir seforim-tool
           CANDIDATE_SHA=$(sha256sum "$ARCHIVE_NAME" | cut -d' ' -f1)
 
           # עץ הספרייה שממנו נבנה ה-release מול העץ הנבדק: תיקייה שהתרוקנה מאז אינה
           # הופכת עוד לקטגוריה, אבל ב-DB הישן היא עדיין קיימת ולכן לא נתפסת בלעדיהם.
-          gh release download "$LIB_TAG" -R Otzaria/SeforimLibrary -p build_provenance.json -D dbdir
           BASE_COMMIT=$(jq -r '.otzaria_target_commit' dbdir/build_provenance.json)
           [[ "$BASE_COMMIT" =~ ^[0-9a-f]{40}$ ]]
           git cat-file -e "${BASE_COMMIT}^{commit}"

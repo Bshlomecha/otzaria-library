@@ -49,6 +49,8 @@ jobs:
           sparse-checkout: |
             /ForDB/
             /.github/scripts/
+            /.github/workflows/validate-fordb-book-names.yml
+            /.github/workflows/update-fordb.yml
             /all_metadata_with_file_paths.json
             /fordb_latest_pointer.json
           sparse-checkout-cone-mode: false
@@ -163,6 +165,11 @@ jobs:
           path: seforim-tool
           persist-credentials: false
 
+      - name: Self-test released DB downloads
+        env:
+          SEFORIM_TOOL_DIR: ${{ github.workspace }}/seforim-tool
+        run: python3 -m unittest discover -s .github/scripts -p test_download_released_fordb_db.py -v
+
       # מטמון Gradle משותף עם validate-fordb-book-names.yml: אותו מפתח, אותו כלי ואותה
       # משימה. ראו שם את ההסבר. כאן נקרא ונכתב רק ב-main (ה-workflow רץ רק שם).
       - name: Resolve the SeforimLibrary tool commit
@@ -191,21 +198,11 @@ jobs:
           # Validate only against the newest final Seforim DB release.
           LIB_TAG=$(gh release list -R Otzaria/SeforimLibrary --exclude-pre-releases \
             --exclude-drafts -L1 --json tagName -q '.[0].tagName')
+          test -n "$LIB_TAG"
           echo "Dry-running against SeforimLibrary release $LIB_TAG"
-          # The buildstate travels with the DB: without it the validator's allocator starts
-          # from zero and every pub_date/pub_place id check fails against the real DB.
-          for asset in seforim-schema6.db.zst seforim.db.buildstate.zst; do
-            gh release download "$LIB_TAG" -R Otzaria/SeforimLibrary -p "$asset" -D dbdir
-            ASSET_DIGEST="$(gh release view "$LIB_TAG" -R Otzaria/SeforimLibrary --json assets \
-              --jq ".assets[] | select(.name==\"$asset\") | .digest")"
-            [[ "$ASSET_DIGEST" =~ ^sha256:[0-9a-f]{64}$ ]]
-            [[ "$(sha256sum "dbdir/$asset" | cut -d' ' -f1)" == "${ASSET_DIGEST#sha256:}" ]]
-            # Schema-6 releases name the DB seforim-schema6.db; extract it as seforim.db so the
-            # validator still finds its buildstate at "<db>.buildstate".
-            out="${asset%.zst}"
-            unzstd -f "dbdir/$asset" -o "dbdir/${out/seforim-schema6.db/seforim.db}"
-            rm -f "dbdir/$asset"
-          done
+          # Schema-qualified names and split archives follow the producer's contract.
+          # Authenticate the DB, allocator state and provenance before the dry-run.
+          bash .github/scripts/download_released_fordb_db.sh "$LIB_TAG" dbdir seforim-tool
           CANDIDATE_SHA=$(sha256sum "$GITHUB_WORKSPACE/$ARCHIVE_NAME" | cut -d' ' -f1)
           ( cd seforim-tool && chmod +x gradlew && ./gradlew :sefariasqlite:validateForDbInputs \
               -PseforimDb="$GITHUB_WORKSPACE/dbdir/seforim.db" \
