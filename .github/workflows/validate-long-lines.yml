@@ -1,0 +1,53 @@
+name: Validate long lines
+
+# A paragraph of more than 50,000 visible chars freezes the reader (Otzaria/otzaria#1941).
+# Only books changed by the pull request are checked, so books already on main never fail it.
+
+on:
+  pull_request:
+    paths:
+      - '**/*.txt'
+      - '.claude/skills/otzaria-book-format/scripts/split_long_lines.py'
+      - '.github/workflows/validate-long-lines.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-long-lines-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      # blobless + sparse: only the script is checked out; changed books are read with git show.
+      - name: Checkout repository (sparse, blobless)
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          lfs: false
+          filter: blob:none
+          sparse-checkout: |
+            /.claude/skills/otzaria-book-format/scripts/
+          sparse-checkout-cone-mode: false
+          persist-credentials: false
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+
+      - name: Changed books have no line to split
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          PYTHONIOENCODING: utf-8
+        run: |
+          set -euo pipefail
+          base="${BASE_SHA:-}"
+          if [ -z "$base" ]; then
+            git fetch --no-tags origin main
+            base="$(git rev-parse origin/main)"
+          fi
+          python3 .claude/skills/otzaria-book-format/scripts/split_long_lines.py --repo . --check-changed "$base"

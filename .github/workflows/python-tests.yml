@@ -107,7 +107,7 @@ jobs:
         run: |
           set -euo pipefail
           (cd .claude/skills/otzaria-commentary-linker-qa/scripts && python3 -m unittest -v test_check_daf)
-          (cd .claude/skills/otzaria-book-format/scripts && python3 -m unittest -v test_connection_types)
+          (cd .claude/skills/otzaria-book-format/scripts && python3 -m unittest -v test_connection_types test_split_long_lines)
           (cd .claude/skills/otzaria-db-linker/scripts && python3 -m unittest -v test_insert_commentary_link)
           (cd .claude/skills/otzaria-db-ingestion-audit/scripts && python3 -m unittest -v test_audit_ingestion)
 

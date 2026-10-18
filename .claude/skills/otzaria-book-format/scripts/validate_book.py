@@ -24,6 +24,9 @@ import re
 import sys
 from pathlib import Path
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from split_long_lines import MIN_CHARS, needs_split, visible_len  # noqa: E402
+
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
 
@@ -231,6 +234,11 @@ def validate_file(path: Path) -> Report:
             continue
         if line != line.rstrip():
             rep.warn(i, "רווחים בסוף השורה")
+        if needs_split(line) and visible_len(line) > MIN_CHARS:
+            msg = (f"שורה של {visible_len(line):,} תווים גלויים (מעל {MIN_CHARS:,}) תוקעת את הקורא — "
+                   "split_long_lines.py מפצל ומעדכן קישורים (otzaria#1941)")
+            # ספר הערות שממוזג לבסיס אינו ניתן לפיצול: החלקים יהיו שורות הערה בלי קישור.
+            (rep.warn if is_notes_file else rep.err)(i, msg)
 
         low = line.lower()
         if "<script" in low:

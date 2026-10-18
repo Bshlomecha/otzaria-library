@@ -119,6 +119,9 @@ python -X utf8 validate_sidecars.py --links "…/ספר_links.json" --book "ספ
 9. **המיקום בתיקיות הוא הקטגוריה** — אין שדה קטגוריה בקובץ.
 10. בקבצי קישורים: `"Conection Type"` עם n אחת; יעד ספריא חייב `ref_2`; אין לקשר
     לשורת כותרת.
+11. **שורה עד 50,000 תווים גלויים.** שורה ארוכה יותר תוקעת את הקורא
+    ([otzaria#1941](https://github.com/Otzaria/otzaria/issues/1941)). `split_long_lines.py --apply`
+    מפצל אותה לחלקים של כ־20,000 תווים ומעדכן באותה ריצה את כל ההפניות למספרי שורות.
 
 ## מלכודות שחוזרות בכל המרה
 
@@ -144,6 +147,7 @@ python -X utf8 validate_sidecars.py --links "…/ספר_links.json" --book "ספ
 | `inspect_book.py` | עץ כותרות, מספרי שורות, סטטיסטיקה, חיפוש שורה |
 | `make_metadata.py` | רשומת מטא-דאטה, בדיקת התנגשות שם, מיזוג ל-`all_metadata.json`, שורות ForDB, שורת תיאור ל־`sefaria_metadata_changes.csv` |
 | `validate_sidecars.py` | ולידציה של `_links.json` / `_alt_toc.json` / `_headings.json` |
+| `split_long_lines.py` | פיצול שורות של מעל 50,000 תווים ועדכון הקישורים, ה־alt_toc וה־headings שמצביעים עליהן |
 
 ## References
 
