@@ -1,6 +1,68 @@
+import re
 from pathlib import Path
 
 from .utils import has_value, read_json, to_daf, to_eng_daf, to_gematria
+
+# סימני ניקוד וטעמים בלבד; בלי מקף, פסק, סוף פסוק ונו"ן הפוכה, שהם פיסוק.
+NIKUD = r"[\u0591-\u05BD\u05BF\u05C1\u05C2\u05C4\u05C5\u05C7]*"
+# המסכת הארוכה בבבלי (בבא בתרא) מסתיימת בדף קעו.
+LAST_DAF = 176
+GEMATRIA = dict(zip("אבגדהוזחטיכלמנסעפצק", (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100)))
+# מספר בכתיב התקני: מאה, עשרות, אחדות; ט"ו/ט"ז במקום י"ה/י"ו. "זו" או "זה" אינם מספר.
+DAF_NUMBER = re.compile(r"ק?(?:ט[וז]|י[א-דז-ט]?|[כלמנסעפצ]?[א-ט]?)")
+QUOTES = "\"'״׳"
+# כתובת דף אחרי שם המסכת: "דף"/"ד'", או מספר ואחריו . : , ע"א א' או סוגר.
+DAF_ADDRESS = re.compile(
+    r"(?:דף|ד['׳])\s"
+    r"|(?P<num>[א-ת](?:[\"'״׳]?[א-ת]){0,2}[\"'״׳]?)"
+    r"(?:\s*[.:]|\s*,\s*[אב](?![א-ת])|\s+ע[\"'״׳]?[אב](?![א-ת])|\s+[אב]['׳]?(?=[\s)\],.;:])|(?=[)\]]))"
+)
+# בסוגר שאחרי "ירושלמי"/"תוספתא" (גם מעבר לתגית עיצוב) שם המסכת הוא של ספר אחר.
+OTHER_WORK = r"(?<![א-ת])(?:ו|ב|ה|וב|וה|ובה|ד|וד)?(?:ירושלמי|ירוש['׳]|תוספתא|תוספת['׳])(?:\s|<[^<>]*>)*"
+
+
+def is_daf_number(token: str) -> bool:
+    letters = "".join(c for c in token if c not in QUOTES)
+    return DAF_NUMBER.fullmatch(letters) is not None and sum(GEMATRIA[c] for c in letters) <= LAST_DAF
+
+
+def same_tractate_patterns(tractate: str) -> tuple[re.Pattern, re.Pattern]:
+    chars = {" ": r"\s+", '"': '["״]', "״": '["״]', "'": "['׳]", "׳": "['׳]"}
+    name = NIKUD.join(chars.get(c, re.escape(c)) for c in re.sub(NIKUD, "", tractate))
+    words = "|".join(NIKUD.join(word) for word in ("לקמן", "לעיל", "להלן"))
+    relative = re.compile(rf"(?<![א-ת])((?:ו?(?:כד|כ|ד)?)(?:{words}){NIKUD})\s+{name}{NIKUD}(?=\s)")
+    bracketed = re.compile(rf"(?P<other>{OTHER_WORK})?([(\[]){name}{NIKUD}\s+")
+    return relative, bracketed
+
+
+def drop_same_tractate(text: str, patterns: tuple[re.Pattern, re.Pattern] | None) -> str:
+    """בפירושי הבבלי ספריא הוסיפה את שם המסכת עצמה להפניות, שאינו בדפוס וילנא:
+    "(לקמן מכות דף ט.)", "לקמן (מכות דף ט.)", "בפרק כירה (שבת דף מד)" ← בלי השם."""
+    if patterns is None or ("(" not in text and "[" not in text):
+        return text
+    relative, bracketed = patterns
+    # הסוגר האחרון לפני כל התאמה; נסרק פעם אחת לאורך השורה.
+    scanned, inside = 0, False
+
+    def after_relative_word(m: re.Match) -> str:
+        nonlocal scanned, inside
+        for c in m.string[scanned:m.start()]:
+            if c in "([":
+                inside = True
+            elif c in ")]":
+                inside = False
+        scanned = m.start()
+        return m.group(1) if inside else m.group(0)
+
+    def bare(m: re.Match) -> str:
+        if m.group("other"):
+            return m.group(0)
+        address = DAF_ADDRESS.match(m.string, m.end())
+        if address is None or (address.group("num") and not is_daf_number(address.group("num"))):
+            return m.group(0)
+        return m.group(2)
+
+    return bracketed.sub(bare, relative.sub(after_relative_word, text))
 
 
 class Book:
@@ -25,6 +87,25 @@ class Book:
         self.text = read_json(text_file_path)
         self.schema = read_json(schema_file_path)
         self.he_title = he_title
+        self.same_tractate_ref = self.get_same_tractate_ref(Path(schema_file_path))
+
+    def get_same_tractate_ref(self, schema_file_path: Path) -> tuple[re.Pattern, re.Pattern] | None:
+        base_titles = self.schema.get("base_text_titles") or []
+        if len(base_titles) != 1:
+            return None
+        # הייצוא (Index.contents) נותן {"en", "he"}; רשומת אינדקס גולמית נותנת מחרוזת.
+        base_title = base_titles[0]["en"] if isinstance(base_titles[0], dict) else base_titles[0]
+        base_schema_path = schema_file_path.parent / f"{base_title.replace(' ', '_')}.json"
+        if not base_schema_path.exists():
+            return None
+        base_schema = read_json(base_schema_path)
+        tractate = base_schema.get("heTitle")
+        if base_schema.get("categories", [])[:2] != ["Talmud", "Bavli"] or not tractate:
+            return None
+        return same_tractate_patterns(tractate)
+
+    def drop_same_tractate_name(self, text: str) -> str:
+        return drop_same_tractate(text, self.same_tractate_ref)
 
     def get_metadata(self) -> tuple[dict, list[str]]:
         era_dict = {
@@ -199,7 +280,7 @@ class Book:
             anchor_ref_address = f"{ref} {":".join(anchor_ref)}"
             he_ref = f"{heb_title} {"&&&".join(heb_anchor_ref)}"
             if text.strip():
-                self.book_content.append(f"{letter}{text.strip().replace("\n", "<br>")}" + "\n")
+                self.book_content.append(f"{letter}{self.drop_same_tractate_name(text.strip()).replace("\n", "<br>")}" + "\n")
                 if anchor_ref_address == "Genesis 1:1":
                     print(f"{len(self.book_content)}")
                     print(f"{self.book_content=}")
