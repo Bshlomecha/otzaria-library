@@ -147,6 +147,11 @@ def cp_to_u16(s: str, off: int) -> int:
     return off + sum(1 for ch in s[:off] if ord(ch) > 0xFFFF)
 
 
+def word_anchor_ranges(line: str, spans) -> list:
+    """Raw Python ranges protected by the generator's UTF-16 word offsets."""
+    return [(u16_to_cp(line, int(start)), u16_to_cp(line, int(end))) for start, end in spans]
+
+
 @dataclass
 class Cut:
     end: int      # raw end of the previous piece
@@ -565,7 +570,8 @@ def run(repo: str, cfg: Config, whole_line: str = 'range', roots=(), apply: bool
             if 'start' in rec and 'end' in rec:
                 anchors[(d['title'], int(rec['line_index_1']) - 1)].append((rec['start'], rec['end']))
             target = title_of(rec['path_2'])
-            if rec.get('Conection Type') == 'footnotes' and is_mergeable_companion(target):
+            # The generator selects companion links by title, regardless of connection type.
+            if is_mergeable_companion(target):
                 merged_companions.add(target)
 
     books = {}
@@ -585,7 +591,7 @@ def run(repo: str, cfg: Config, whole_line: str = 'range', roots=(), apply: bool
             continue
         for i in long_idx:
             line = book.lines[i]
-            forbidden = [(u16_to_cp(line, int(s)), u16_to_cp(line, int(e))) for s, e in anchors.get((book.title, i), [])]
+            forbidden = word_anchor_ranges(line, anchors.get((book.title, i), []))
             sp, why = split_line(line, cfg, forbidden)
             if sp is None:
                 stats['skipped_lines:' + why] += 1
@@ -615,7 +621,7 @@ def run(repo: str, cfg: Config, whole_line: str = 'range', roots=(), apply: bool
             for n, rec in enumerate(d['data']):
                 target = title_of(rec['path_2'])
                 idx = int(rec['line_index_1']) - 1
-                if rec.get('Conection Type') == 'footnotes' and is_mergeable_companion(target) and idx in src.split:
+                if is_mergeable_companion(target) and idx in src.split:
                     groups[(idx, target)].append(n)
             for (idx, target), members in groups.items():
                 cpath = companions.get(target)
@@ -643,7 +649,7 @@ def run(repo: str, cfg: Config, whole_line: str = 'range', roots=(), apply: bool
                 rec = remap_side(rec, 1, src, stats, whole_line, note_piece.get(n), anchored='start' in rec)
             if tgt is not None:
                 stats['records_side2_in_split_books'] += 1
-                if rec.get('Conection Type') == 'footnotes' and is_mergeable_companion(tgt.title):
+                if is_mergeable_companion(tgt.title):
                     stats['ERROR_merged_companion_was_split'] += 1
                 rec = remap_side(rec, 2, tgt, stats, whole_line)
             if json.dumps(rec, sort_keys=True) != before:
@@ -742,7 +748,7 @@ def companion_is_merged(repo: str, title: str, links_by_title: dict) -> bool:
     if rel is None:
         return False
     for rec in json.loads(git(repo, 'show', 'HEAD:' + rel).decode('utf-8')):
-        if rec.get('Conection Type') == 'footnotes' and title_of(rec['path_2']) == title:
+        if title_of(rec['path_2']) == title:
             return True
     return False
 
@@ -764,7 +770,16 @@ def check_changed(repo: str, base: str, cfg: Config) -> int:
         long_idx = [i for i, ln in enumerate(book.lines) if needs_split(ln, cfg)]
         if not long_idx:
             continue
-        verdicts = {i + 1: split_line(book.lines[i], cfg)[1] for i in long_idx}
+        anchors = collections.defaultdict(list)
+        links = links_by_title.get(book.title)
+        if links is not None:
+            # Read HEAD, just like the book: CI may have a sparse checkout.
+            for rec in json.loads(git(repo, 'show', 'HEAD:' + links).decode('utf-8')):
+                if 'start' in rec and 'end' in rec:
+                    anchors[int(rec['line_index_1']) - 1].append((rec['start'], rec['end']))
+        verdicts = {i + 1: split_line(book.lines[i], cfg,
+                                     word_anchor_ranges(book.lines[i], anchors[i]))[1]
+                    for i in long_idx}
         splittable = [n for n, why in verdicts.items() if why is None]
         unsplittable = {n: why for n, why in verdicts.items() if why not in (None, 'visible-under-threshold')}
         skip = None

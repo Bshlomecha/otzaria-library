@@ -193,6 +193,82 @@ class RepoRun(unittest.TestCase):
         again, errors, _ = sl.run(self.repo, sl.Config(), apply=True)
         self.assertEqual((errors, again['split_lines'], again['records_changed']), (0, 0, 0))
 
+    def test_companion_merge_ignores_connection_type(self):
+        rows = self.read_json(LINKS + '/Base_links.json')
+        # The generator groups both rows by companion title, including mixed types.
+        rows[2]['Conection Type'] = 'commentary'
+        self.write(LINKS + '/Base_links.json', json.dumps(rows, ensure_ascii=False, indent=2))
+        stats, errors, books = sl.run(self.repo, sl.Config(), apply=True)
+        self.assertEqual(errors, 0)
+        self.assertEqual(stats['footnote_merge_proofs_ok'], 1)
+        remapped = self.read_json(LINKS + '/Base_links.json')
+        self.assertEqual([r['line_index_1'] for r in remapped[2:]], [3, 4])
+        for old, new in zip(rows[2:], remapped[2:]):
+            self.assertNotIn('line_index_1_end', new)
+            self.assertEqual(new['Conection Type'], old['Conection Type'])
+        sp = books['Base'].split[2]
+        self.assertTrue(sl.merge_is_preserved(self.long, sp,
+                                            ['<sup>1</sup> n1', '<sup>2</sup> n2'], [0, 1]))
+
+    def test_commentary_companion_is_protected_in_apply_and_check_changed(self):
+        head = self.git('rev-parse', 'HEAD').decode().strip()
+        rows = self.read_json(LINKS + '/Base_links.json')
+        for row in rows[2:]:
+            row['Conection Type'] = 'commentary'
+        self.write(LINKS + '/Base_links.json', json.dumps(rows, ensure_ascii=False, indent=2))
+        companion = ROOT + '/' + sl.COMPANION_PREFIX + 'Base.txt'
+        text = '<sup>1</sup> n1\n<sup>2</sup> ' + long_line() + '\n'
+        self.write(companion, text)
+        self.git('commit', '-qam', 'long commentary companion')
+        self.assertEqual(sl.check_changed(self.repo, head, sl.Config()), 0)
+        stats, errors, books = sl.run(self.repo, sl.Config(), apply=True)
+        self.assertEqual(errors, 0)
+        self.assertEqual(stats['skipped_lines:merged-companion'], 1)
+        self.assertNotIn(sl.COMPANION_PREFIX + 'Base', books)
+        self.assertEqual(sl.read_bytes(os.path.join(self.repo, companion)), text.encode('utf-8'))
+
+    def test_check_changed_respects_word_anchor_that_blocks_only_safe_cut(self):
+        head = self.git('rev-parse', 'HEAD').decode().strip()
+        # UTF-16 offsets differ from Python indexes before the protected space.
+        line = '😀' + 'a' * 21_999 + ' ' + 'b' * 22_000 + ' ' + 'c' * 26_000
+        self.assertIsNotNone(sl.split_line(line)[0])
+        self.write(ROOT + '/Other.txt', 'x\n' + line + '\n')
+        rows = [{'line_index_1': 2, 'line_index_2': 1, 'path_2': 'Base.txt',
+                 'Conection Type': 'reference', 'start': 21_996, 'end': 22_006}]
+        self.write(LINKS + '/Other_links.json', json.dumps(rows, indent=2))
+        self.git('commit', '-qam', 'long line with protected cut')
+        # The gate must read committed anchors even when links are not checked out in CI.
+        os.remove(os.path.join(self.repo, LINKS + '/Other_links.json'))
+        self.assertEqual(sl.check_changed(self.repo, head, sl.Config()), 0)
+        self.write(LINKS + '/Other_links.json', json.dumps(rows, indent=2))
+        before = sl.read_bytes(os.path.join(self.repo, ROOT + '/Other.txt'))
+        stats, errors, books = sl.run(self.repo, sl.Config(), apply=True)
+        self.assertEqual(errors, 0)
+        self.assertEqual(stats['skipped_lines:no-cut-in-window'], 1)
+        self.assertNotIn('Other', books)
+        self.assertEqual(sl.read_bytes(os.path.join(self.repo, ROOT + '/Other.txt')), before)
+
+    def test_check_changed_still_fails_when_word_anchor_allows_another_cut(self):
+        head = self.git('rev-parse', 'HEAD').decode().strip()
+        line = long_line()
+        sp, _ = sl.split_line(line)
+        cut = sp.pieces[0].src_end
+        self.write(ROOT + '/Other.txt', 'x\n' + line + '\n')
+        rows = [{'line_index_1': 2, 'line_index_2': 1, 'path_2': 'Base.txt',
+                 'Conection Type': 'reference', 'start': cut - 5, 'end': cut + 5}]
+        self.write(LINKS + '/Other_links.json', json.dumps(rows, indent=2))
+        self.git('commit', '-qam', 'long line with alternative cuts')
+        self.assertEqual(sl.check_changed(self.repo, head, sl.Config()), 1)
+        stats, errors, books = sl.run(self.repo, sl.Config(), apply=True)
+        self.assertEqual(errors, 0)
+        self.assertIn('Other', books)
+        mapped = self.read_json(LINKS + '/Other_links.json')[0]
+        actual_line = books['Other'].new_lines()[int(mapped['line_index_1']) - 1]
+        self.assertEqual(actual_line[int(mapped['start']):int(mapped['end'])],
+                         line[rows[0]['start']:rows[0]['end']])
+        self.git('commit', '-qam', 'split safely')
+        self.assertEqual(sl.check_changed(self.repo, head, sl.Config()), 0)
+
     def test_first_piece_policy(self):
         sl.run(self.repo, sl.Config(), whole_line='first', apply=True)
         base = self.read_json(LINKS + '/Base_links.json')
