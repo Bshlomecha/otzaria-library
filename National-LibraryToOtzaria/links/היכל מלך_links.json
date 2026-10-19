@@ -1449,6 +1449,7 @@
   },
   {
     "line_index_1": 560,
+    "line_index_1_end": 562,
     "heRef_2": "ספר קניין, הלכות זכייה ומתנה, פרק ג, יב",
     "path_2": "משנה תורה, הלכות זכייה ומתנה.txt",
     "line_index_2": 50,
@@ -1456,7 +1457,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 562,
+    "line_index_1": 564,
+    "line_index_1_end": 566,
     "heRef_2": "ספר קניין, הלכות זכייה ומתנה, פרק ג, יג",
     "path_2": "משנה תורה, הלכות זכייה ומתנה.txt",
     "line_index_2": 51,
@@ -1464,7 +1466,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 564,
+    "line_index_1": 568,
+    "line_index_1_end": 570,
     "heRef_2": "ספר קניין, הלכות זכייה ומתנה, פרק ג, יד",
     "path_2": "משנה תורה, הלכות זכייה ומתנה.txt",
     "line_index_2": 52,
@@ -1472,7 +1475,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 567,
+    "line_index_1": 573,
     "heRef_2": "ספר קניין, הלכות זכייה ומתנה, פרק ו, כ",
     "path_2": "משנה תורה, הלכות זכייה ומתנה.txt",
     "line_index_2": 99,
@@ -1480,7 +1483,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 571,
+    "line_index_1": 577,
     "heRef_2": "ספר קניין, הלכות שכנים, פרק יב, א",
     "path_2": "משנה תורה, הלכות שכנים.txt",
     "line_index_2": 136,
@@ -1488,7 +1491,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 575,
+    "line_index_1": 581,
     "heRef_2": "ספר קניין, הלכות עבדים, פרק ג, ח",
     "path_2": "משנה תורה, הלכות עבדים.txt",
     "line_index_2": 35,
@@ -1496,7 +1499,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 578,
+    "line_index_1": 584,
     "heRef_2": "ספר קניין, הלכות עבדים, פרק ה, ד",
     "path_2": "משנה תורה, הלכות עבדים.txt",
     "line_index_2": 64,
@@ -1504,7 +1507,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 581,
+    "line_index_1": 587,
     "heRef_2": "ספר קניין, הלכות עבדים, פרק ט, ו",
     "path_2": "משנה תורה, הלכות עבדים.txt",
     "line_index_2": 125,
@@ -1512,7 +1515,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 586,
+    "line_index_1": 592,
     "heRef_2": "ספר משפטים, הלכות שכירות, פרק א, ד",
     "path_2": "משנה תורה, הלכות שכירות.txt",
     "line_index_2": 7,
@@ -1520,7 +1523,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 589,
+    "line_index_1": 595,
     "heRef_2": "ספר משפטים, הלכות שכירות, פרק ג, ב",
     "path_2": "משנה תורה, הלכות שכירות.txt",
     "line_index_2": 25,
@@ -1528,7 +1531,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 592,
+    "line_index_1": 598,
     "heRef_2": "ספר משפטים, הלכות שכירות, פרק ט, ח",
     "path_2": "משנה תורה, הלכות שכירות.txt",
     "line_index_2": 96,
@@ -1536,7 +1539,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 596,
+    "line_index_1": 602,
     "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק ד, יג",
     "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
     "line_index_2": 43,
@@ -1544,7 +1547,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 599,
+    "line_index_1": 605,
     "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק ז, יא",
     "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
     "line_index_2": 83,
@@ -1552,7 +1555,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 602,
+    "line_index_1": 608,
     "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק יט, ח",
     "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
     "line_index_2": 218,
@@ -1560,7 +1563,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 605,
+    "line_index_1": 611,
     "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק כה, יד",
     "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
     "line_index_2": 296,
@@ -1568,7 +1571,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 608,
+    "line_index_1": 614,
     "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק כז, א",
     "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
     "line_index_2": 311,
@@ -1576,7 +1579,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 612,
+    "line_index_1": 618,
     "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק א, א",
     "path_2": "משנה תורה, הלכות טוען ונטען.txt",
     "line_index_2": 4,
@@ -1584,7 +1587,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 614,
+    "line_index_1": 620,
     "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק א, ו",
     "path_2": "משנה תורה, הלכות טוען ונטען.txt",
     "line_index_2": 9,
@@ -1592,7 +1595,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 617,
+    "line_index_1": 623,
     "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק ז, ב",
     "path_2": "משנה תורה, הלכות טוען ונטען.txt",
     "line_index_2": 85,
@@ -1600,7 +1603,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 619,
+    "line_index_1": 625,
     "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק ז, ח",
     "path_2": "משנה תורה, הלכות טוען ונטען.txt",
     "line_index_2": 91,
@@ -1608,7 +1611,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 623,
+    "line_index_1": 629,
     "heRef_2": "ספר משפטים, הלכות נחלות, פרק ד, ו",
     "path_2": "משנה תורה, הלכות נחלות.txt",
     "line_index_2": 51,
@@ -1616,7 +1619,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 628,
+    "line_index_1": 634,
     "heRef_2": "ספר שופטים, הלכות סנהדרין והעונשין המסורין להם, פרק כא, ו",
     "path_2": "משנה תורה, הלכות סנהדרין והעונשין המסורין להם.txt",
     "line_index_2": 224,
@@ -1624,7 +1627,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 632,
+    "line_index_1": 638,
     "heRef_2": "ספר שופטים, הלכות עדות, פרק יב, ב",
     "path_2": "משנה תורה, הלכות עדות.txt",
     "line_index_2": 102,
@@ -1632,7 +1635,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 635,
+    "line_index_1": 641,
     "heRef_2": "ספר שופטים, הלכות עדות, פרק יד, ז",
     "path_2": "משנה תורה, הלכות עדות.txt",
     "line_index_2": 134,
@@ -1640,7 +1643,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 639,
+    "line_index_1": 645,
     "heRef_2": "ספר שופטים, הלכות אבל, פרק א, יא",
     "path_2": "משנה תורה, הלכות אבל.txt",
     "line_index_2": 14,
@@ -1648,7 +1651,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 642,
+    "line_index_1": 648,
     "heRef_2": "ספר שופטים, הלכות אבל, פרק ג, יב",
     "path_2": "משנה תורה, הלכות אבל.txt",
     "line_index_2": 43,
@@ -1656,7 +1659,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 645,
+    "line_index_1": 651,
     "heRef_2": "ספר שופטים, הלכות אבל, פרק ה, יז",
     "path_2": "משנה תורה, הלכות אבל.txt",
     "line_index_2": 73,
@@ -1664,7 +1667,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 647,
+    "line_index_1": 653,
     "heRef_2": "ספר שופטים, הלכות אבל, פרק ה, יח",
     "path_2": "משנה תורה, הלכות אבל.txt",
     "line_index_2": 74,
@@ -1672,7 +1675,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 651,
+    "line_index_1": 657,
     "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק א, ג",
     "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
     "line_index_2": 6,
@@ -1680,7 +1683,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 654,
+    "line_index_1": 660,
     "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק ב, ד",
     "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
     "line_index_2": 20,
@@ -1688,7 +1691,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 657,
+    "line_index_1": 663,
     "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק י, ו",
     "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
     "line_index_2": 123,

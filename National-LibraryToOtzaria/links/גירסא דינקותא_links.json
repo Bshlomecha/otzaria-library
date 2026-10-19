@@ -105,6 +105,7 @@
   },
   {
     "line_index_1": 60,
+    "line_index_1_end": 65,
     "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק א, א",
     "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
     "line_index_2": 4,
@@ -112,7 +113,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 62,
+    "line_index_1": 67,
+    "line_index_1_end": 72,
     "heRef_2": "ספר עבודה, הלכות ביאת מקדש, פרק א, ב",
     "path_2": "משנה תורה, הלכות ביאת מקדש.txt",
     "line_index_2": 5,
@@ -120,7 +122,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 67,
+    "line_index_1": 77,
     "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק א, ד",
     "path_2": "משנה תורה, הלכות קרבן פסח.txt",
     "line_index_2": 7,
@@ -128,7 +130,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 69,
+    "line_index_1": 79,
     "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק א, ה",
     "path_2": "משנה תורה, הלכות קרבן פסח.txt",
     "line_index_2": 8,
@@ -136,7 +138,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 74,
+    "line_index_1": 84,
     "heRef_2": "ספר נזיקין, הלכות נזקי ממון, פרק ח, א",
     "path_2": "משנה תורה, הלכות נזקי ממון.txt",
     "line_index_2": 107,
@@ -144,7 +146,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 78,
+    "line_index_1": 88,
     "heRef_2": "ספר נזיקין, הלכות רוצח ושמירת נפש, פרק ה, ב",
     "path_2": "משנה תורה, הלכות רוצח ושמירת נפש.txt",
     "line_index_2": 66,
@@ -152,7 +154,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 83,
+    "line_index_1": 93,
     "heRef_2": "ספר קניין, הלכות מכירה, פרק ט, א",
     "path_2": "משנה תורה, הלכות מכירה.txt",
     "line_index_2": 127,
@@ -160,7 +162,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 88,
+    "line_index_1": 98,
     "heRef_2": "ספר משפטים, הלכות מלווה ולווה, פרק ה, א",
     "path_2": "משנה תורה, הלכות מלווה ולווה.txt",
     "line_index_2": 46,
@@ -168,7 +170,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 92,
+    "line_index_1": 102,
     "heRef_2": "ספר משפטים, הלכות טוען ונטען, פרק א, ב",
     "path_2": "משנה תורה, הלכות טוען ונטען.txt",
     "line_index_2": 5,
@@ -176,7 +178,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 97,
+    "line_index_1": 107,
     "heRef_2": "ספר שופטים, הלכות סנהדרין והעונשין המסורין להם, פרק ה, א",
     "path_2": "משנה תורה, הלכות סנהדרין והעונשין המסורין להם.txt",
     "line_index_2": 57,
@@ -184,7 +186,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 99,
+    "line_index_1": 109,
     "heRef_2": "ספר שופטים, הלכות סנהדרין והעונשין המסורין להם, פרק ה, יג",
     "path_2": "משנה תורה, הלכות סנהדרין והעונשין המסורין להם.txt",
     "line_index_2": 69,

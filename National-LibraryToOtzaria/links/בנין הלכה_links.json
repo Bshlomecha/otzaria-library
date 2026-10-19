@@ -113,6 +113,7 @@
   },
   {
     "line_index_1": 58,
+    "line_index_1_end": 63,
     "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק יד, י",
     "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
     "line_index_2": 330,
@@ -120,7 +121,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 60,
+    "line_index_1": 65,
+    "line_index_1_end": 70,
     "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק יד, יא",
     "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
     "line_index_2": 331,
@@ -128,7 +130,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 65,
+    "line_index_1": 75,
     "heRef_2": "ספר הפלאה, הלכות נדרים, פרק ט, כ",
     "path_2": "משנה תורה, הלכות נדרים.txt",
     "line_index_2": 173,
@@ -136,7 +138,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 70,
+    "line_index_1": 80,
     "heRef_2": "ספר זרעים, הלכות כלאים, פרק י, לב",
     "path_2": "משנה תורה, הלכות כלאים.txt",
     "line_index_2": 194,
@@ -144,7 +146,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 75,
+    "line_index_1": 85,
     "heRef_2": "ספר עבודה, הלכות בית הבחירה, פרק ב, א",
     "path_2": "משנה תורה, הלכות בית הבחירה.txt",
     "line_index_2": 25,
@@ -152,7 +154,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 77,
+    "line_index_1": 87,
     "heRef_2": "ספר עבודה, הלכות בית הבחירה, פרק ב, ב",
     "path_2": "משנה תורה, הלכות בית הבחירה.txt",
     "line_index_2": 26,
@@ -160,7 +162,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 80,
+    "line_index_1": 90,
     "heRef_2": "ספר עבודה, הלכות בית הבחירה, פרק ו, טו",
     "path_2": "משנה תורה, הלכות בית הבחירה.txt",
     "line_index_2": 109,
@@ -168,7 +170,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 82,
+    "line_index_1": 92,
     "heRef_2": "ספר עבודה, הלכות בית הבחירה, פרק ו, טז",
     "path_2": "משנה תורה, הלכות בית הבחירה.txt",
     "line_index_2": 110,
@@ -176,7 +178,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 86,
+    "line_index_1": 96,
     "heRef_2": "ספר עבודה, הלכות איסורי המזבח, פרק ד, ו",
     "path_2": "משנה תורה, הלכות איסורי המזבח.txt",
     "line_index_2": 55,
@@ -184,7 +186,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 90,
+    "line_index_1": 100,
     "heRef_2": "ספר עבודה, הלכות מעשה הקרבנות, פרק יח, י",
     "path_2": "משנה תורה, הלכות מעשה הקרבנות.txt",
     "line_index_2": 318,
@@ -192,7 +194,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 94,
+    "line_index_1": 104,
     "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק ב, א",
     "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
     "line_index_2": 42,
@@ -200,7 +202,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 96,
+    "line_index_1": 106,
     "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק ב, ב",
     "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
     "line_index_2": 43,
@@ -208,7 +210,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 98,
+    "line_index_1": 108,
     "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק ב, ג",
     "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
     "line_index_2": 44,
@@ -216,7 +218,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 101,
+    "line_index_1": 111,
     "heRef_2": "ספר עבודה, הלכות פסולי המוקדשין, פרק יט, ו",
     "path_2": "משנה תורה, הלכות פסולי המוקדשין.txt",
     "line_index_2": 357,
@@ -224,7 +226,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 106,
+    "line_index_1": 116,
+    "line_index_1_end": 119,
     "heRef_2": "ספר קורבנות, הלכות קרבן פסח, פרק ד, ח",
     "path_2": "משנה תורה, הלכות קרבן פסח.txt",
     "line_index_2": 58,
@@ -232,7 +235,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 111,
+    "line_index_1": 124,
     "heRef_2": "ספר טהרה, הלכות שאר אבות הטומאות, פרק ח, ג",
     "path_2": "משנה תורה, הלכות שאר אבות הטומאות.txt",
     "line_index_2": 113,
@@ -240,7 +243,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 114,
+    "line_index_1": 127,
     "heRef_2": "ספר טהרה, הלכות שאר אבות הטומאות, פרק כ, יא",
     "path_2": "משנה תורה, הלכות שאר אבות הטומאות.txt",
     "line_index_2": 274,
@@ -248,7 +251,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 118,
+    "line_index_1": 131,
     "heRef_2": "ספר טהרה, הלכות טומאת אוכלים, פרק י, יז",
     "path_2": "משנה תורה, הלכות טומאת אוכלים.txt",
     "line_index_2": 188,

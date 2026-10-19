@@ -9,6 +9,7 @@
   },
   {
     "line_index_1": 11,
+    "line_index_1_end": 15,
     "heRef_2": "ספר אהבה, הלכות ברכות, פרק ח, יג",
     "path_2": "משנה תורה, הלכות ברכות.txt",
     "line_index_2": 134,
@@ -16,7 +17,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 16,
+    "line_index_1": 20,
     "heRef_2": "ספר זמנים, הלכות שביתת יום טוב, פרק ה, ו",
     "path_2": "משנה תורה, הלכות שביתת יום טוב.txt",
     "line_index_2": 98,
@@ -24,7 +25,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 21,
+    "line_index_1": 25,
     "heRef_2": "ספר נשים, הלכות גירושין, פרק א, א",
     "path_2": "משנה תורה, הלכות גירושין.txt",
     "line_index_2": 4,
@@ -32,7 +33,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 25,
+    "line_index_1": 29,
     "heRef_2": "ספר נשים, הלכות יבום וחליצה, פרק ג, ב",
     "path_2": "משנה תורה, הלכות יבום וחליצה.txt",
     "line_index_2": 51,
@@ -40,7 +41,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 30,
+    "line_index_1": 34,
     "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק ג, טו",
     "path_2": "משנה תורה, הלכות איסורי ביאה.txt",
     "line_index_2": 57,
@@ -48,7 +49,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 33,
+    "line_index_1": 37,
     "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק יב, א",
     "path_2": "משנה תורה, הלכות איסורי ביאה.txt",
     "line_index_2": 264,
@@ -56,7 +57,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 35,
+    "line_index_1": 39,
     "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק יב, ב",
     "path_2": "משנה תורה, הלכות איסורי ביאה.txt",
     "line_index_2": 265,
@@ -64,7 +65,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 38,
+    "line_index_1": 42,
     "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק טו, ד",
     "path_2": "משנה תורה, הלכות איסורי ביאה.txt",
     "line_index_2": 332,
@@ -72,7 +73,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 41,
+    "line_index_1": 45,
     "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק יז, יא",
     "path_2": "משנה תורה, הלכות איסורי ביאה.txt",
     "line_index_2": 387,
@@ -80,7 +81,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 44,
+    "line_index_1": 48,
     "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק יח, ב",
     "path_2": "משנה תורה, הלכות איסורי ביאה.txt",
     "line_index_2": 400,
@@ -88,7 +89,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 47,
+    "line_index_1": 51,
     "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק יט, א",
     "path_2": "משנה תורה, הלכות איסורי ביאה.txt",
     "line_index_2": 430,
@@ -96,7 +97,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 50,
+    "line_index_1": 54,
     "heRef_2": "ספר קדושה, הלכות איסורי ביאה, פרק כא, כג",
     "path_2": "משנה תורה, הלכות איסורי ביאה.txt",
     "line_index_2": 497,
@@ -104,7 +105,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 54,
+    "line_index_1": 58,
     "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק ד, כב",
     "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
     "line_index_2": 100,
@@ -112,7 +113,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 57,
+    "line_index_1": 61,
     "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק ו, יב",
     "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
     "line_index_2": 129,
@@ -120,7 +121,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 60,
+    "line_index_1": 64,
     "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק ח, א",
     "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
     "line_index_2": 162,
@@ -128,7 +129,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 63,
+    "line_index_1": 67,
     "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק י, טז",
     "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
     "line_index_2": 225,
@@ -136,7 +137,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 65,
+    "line_index_1": 69,
     "heRef_2": "ספר קדושה, הלכות מאכלות אסורות, פרק י, כ",
     "path_2": "משנה תורה, הלכות מאכלות אסורות.txt",
     "line_index_2": 229,
@@ -144,7 +145,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 70,
+    "line_index_1": 74,
+    "line_index_1_end": 79,
     "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ד, א",
     "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
     "line_index_2": 50,
@@ -152,7 +154,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 72,
+    "line_index_1": 81,
+    "line_index_1_end": 86,
     "heRef_2": "ספר עבודה, הלכות כלי המקדש והעובדין בו, פרק ד, ב",
     "path_2": "משנה תורה, הלכות כלי המקדש והעובדין בו.txt",
     "line_index_2": 51,
@@ -160,7 +163,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 77,
+    "line_index_1": 91,
     "heRef_2": "ספר משפטים, הלכות שכירות, פרק ג, ב",
     "path_2": "משנה תורה, הלכות שכירות.txt",
     "line_index_2": 25,
@@ -168,7 +171,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 82,
+    "line_index_1": 96,
     "heRef_2": "ספר שופטים, הלכות אבל, פרק י, א",
     "path_2": "משנה תורה, הלכות אבל.txt",
     "line_index_2": 128,
@@ -176,7 +179,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 86,
+    "line_index_1": 100,
+    "line_index_1_end": 107,
     "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק ט, י",
     "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
     "line_index_2": 112,
@@ -184,7 +188,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 88,
+    "line_index_1": 109,
+    "line_index_1_end": 116,
     "heRef_2": "ספר שופטים, הלכות מלכים ומלחמות, פרק ט, יא",
     "path_2": "משנה תורה, הלכות מלכים ומלחמות.txt",
     "line_index_2": 113,

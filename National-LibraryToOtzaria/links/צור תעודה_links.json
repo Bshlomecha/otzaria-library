@@ -1,6 +1,7 @@
 [
   {
     "line_index_1": 7,
+    "line_index_1_end": 15,
     "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק א, א",
     "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
     "line_index_2": 4,
@@ -8,7 +9,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 9,
+    "line_index_1": 17,
     "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק א, ב",
     "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
     "line_index_2": 5,
@@ -16,7 +17,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 11,
+    "line_index_1": 19,
     "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק א, ג",
     "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
     "line_index_2": 6,
@@ -24,7 +25,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 13,
+    "line_index_1": 21,
     "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק א, ד",
     "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
     "line_index_2": 7,
@@ -32,7 +33,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 15,
+    "line_index_1": 23,
+    "line_index_1_end": 24,
     "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק א, ה",
     "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
     "line_index_2": 8,
@@ -40,7 +42,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 17,
+    "line_index_1": 26,
+    "line_index_1_end": 33,
     "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק א, ו",
     "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
     "line_index_2": 9,
@@ -48,7 +51,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 19,
+    "line_index_1": 35,
+    "line_index_1_end": 37,
     "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק א, ז",
     "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
     "line_index_2": 10,
@@ -56,7 +60,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 21,
+    "line_index_1": 39,
+    "line_index_1_end": 41,
     "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק א, ח",
     "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
     "line_index_2": 11,
@@ -64,7 +69,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 23,
+    "line_index_1": 43,
     "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק א, ט",
     "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
     "line_index_2": 12,
@@ -72,7 +77,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 26,
+    "line_index_1": 46,
+    "line_index_1_end": 49,
     "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק ב, א",
     "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
     "line_index_2": 14,
@@ -80,7 +86,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 28,
+    "line_index_1": 51,
     "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק ב, ב",
     "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
     "line_index_2": 15,
@@ -88,7 +94,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 30,
+    "line_index_1": 53,
     "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק ב, ג",
     "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
     "line_index_2": 16,
@@ -96,7 +102,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 32,
+    "line_index_1": 55,
+    "line_index_1_end": 59,
     "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק ב, ה",
     "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
     "line_index_2": 18,
@@ -104,7 +111,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 34,
+    "line_index_1": 61,
+    "line_index_1_end": 64,
     "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק ב, ו",
     "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
     "line_index_2": 19,
@@ -112,7 +120,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 36,
+    "line_index_1": 66,
     "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק ב, ז",
     "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
     "line_index_2": 20,
@@ -120,7 +128,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 38,
+    "line_index_1": 68,
+    "line_index_1_end": 71,
     "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק ב, ח",
     "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
     "line_index_2": 21,
@@ -128,7 +137,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 40,
+    "line_index_1": 73,
     "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק ב, ט",
     "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
     "line_index_2": 22,
@@ -136,7 +145,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 43,
+    "line_index_1": 76,
     "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק ג, א",
     "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
     "line_index_2": 24,
@@ -144,7 +153,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 45,
+    "line_index_1": 78,
     "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק ג, ב",
     "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
     "line_index_2": 25,
@@ -152,7 +161,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 47,
+    "line_index_1": 80,
     "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק ג, ג",
     "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
     "line_index_2": 26,
@@ -160,7 +169,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 49,
+    "line_index_1": 82,
     "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק ג, ד",
     "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
     "line_index_2": 27,
@@ -168,7 +177,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 51,
+    "line_index_1": 84,
     "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק ג, ה",
     "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
     "line_index_2": 28,
@@ -176,7 +185,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 53,
+    "line_index_1": 86,
+    "line_index_1_end": 88,
     "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק ג, ז",
     "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
     "line_index_2": 30,
@@ -184,7 +194,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 54,
+    "line_index_1": 89,
     "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק ג, ז",
     "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
     "line_index_2": 30,
@@ -192,7 +202,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 56,
+    "line_index_1": 91,
+    "line_index_1_end": 93,
     "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק ג, ח",
     "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
     "line_index_2": 31,
@@ -200,7 +211,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 58,
+    "line_index_1": 95,
     "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק ג, ט",
     "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
     "line_index_2": 32,
@@ -208,7 +219,8 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 60,
+    "line_index_1": 97,
+    "line_index_1_end": 107,
     "heRef_2": "ספר קניין, הלכות שלוחין ושותפין, פרק ג, י",
     "path_2": "משנה תורה, הלכות שלוחין ושותפין.txt",
     "line_index_2": 33,
