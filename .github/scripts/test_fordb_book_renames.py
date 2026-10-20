@@ -770,6 +770,17 @@ class SourceScopedTablesTest(FixtureTestCase):
         self.assertEqual(code, 1, output)
         self.assertIn("level חייב להיות", output)
 
+    def test_an_invalid_or_repeated_banner_id_fails(self):
+        for ids, reason in ((["0"], "id חייב להיות"), (["x"], "id חייב להיות"), (["7", "7"], "id כבר בשימוש")):
+            with self.subTest(ids=ids):
+                self.repo.write({"ForDB/book_banners.csv": scoped_csv(
+                    ["id", "sourceName", "bookName", "text"],
+                    [[i, "MoreBooks", "", f"באנר {n}"] for n, i in enumerate(ids)])})
+                self.repo.commit("באנר")
+                code, output = self.repo.run_validator()
+                self.assertEqual(code, 1, output)
+                self.assertIn(reason, output)
+
     def test_a_missing_banner_book_only_warns(self):
         self.write_tables(banners=[["MoreBooks", "ספר שאינו קיים", "x"]])
         code, output = self.repo.run_validator()

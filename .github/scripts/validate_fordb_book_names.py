@@ -337,7 +337,7 @@ def packaged_titles_by_source(rename_pairs):
     return by_source
 
 
-def check_source_scoped_rows(path, by_source, pending_renames, value_column=None):
+def check_source_scoped_rows(path, by_source, pending_renames, value_column=None, unique_value=False):
     """
     בודק את שורות book_banners.csv / book_protection.csv. מחזיר
     (שגיאות, שורות ספר שלא נמצאו, מקורות שאינם במאגר) - כל אחת [(מזהה, ערך, סיבה)].
@@ -354,6 +354,7 @@ def check_source_scoped_rows(path, by_source, pending_renames, value_column=None
     v_idx = col_index(header, value_column) if value_column else None
     sources = known_sources()
     errors, unresolved, foreign = [], [], []
+    first_row_of_value = {}
     for line_no, row in enumerate(rows, start=2):
         if not row:
             continue
@@ -361,6 +362,8 @@ def check_source_scoped_rows(path, by_source, pending_renames, value_column=None
         source, name = row[s_idx], row[b_idx]
         if v_idx is not None and not re.fullmatch(r"[1-9][0-9]*", row[v_idx]):
             errors.append((identifier, row[v_idx], f"{value_column} חייב להיות מספר שלם 1 ומעלה"))
+        elif unique_value and first_row_of_value.setdefault(row[v_idx], identifier) != identifier:
+            errors.append((identifier, row[v_idx], f"{value_column} כבר בשימוש ב{first_row_of_value[row[v_idx]]}"))
         if source not in sources:
             foreign.append((identifier, source, "sourceName אינו מקור במאגר זה (מאגר פרטי?)"))
             continue
@@ -1276,7 +1279,8 @@ def main():
         BOOK_PROTECTION, by_source, pending_renames, "level")
     if p_errors or p_unresolved:
         scoped["ForDB/book_protection.csv"] = p_errors + p_unresolved
-    b_errors, b_unresolved, b_foreign = check_source_scoped_rows(BOOK_BANNERS, by_source, pending_renames)
+    b_errors, b_unresolved, b_foreign = check_source_scoped_rows(
+        BOOK_BANNERS, by_source, pending_renames, "id", unique_value=True)
     if b_errors:
         scoped["ForDB/book_banners.csv"] = b_errors
     for file_label, items in (("ForDB/book_protection.csv", p_foreign),
