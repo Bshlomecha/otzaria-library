@@ -691,7 +691,8 @@ class SourceScopedTablesTest(FixtureTestCase):
     def write_tables(self, protection=(), banners=(), renames=None):
         files = {
             "ForDB/book_protection.csv": scoped_csv(["sourceName", "bookName", "level"], protection),
-            "ForDB/book_banners.csv": scoped_csv(["sourceName", "bookName", "text"], banners),
+            "ForDB/book_banners.csv": scoped_csv(["id", "sourceName", "bookName", "text"],
+                                                 [[str(i), *row] for i, row in enumerate(banners, 1)]),
         }
         if renames is not None:
             files["ForDB/book_renames.csv"] = renames
@@ -710,7 +711,7 @@ class SourceScopedTablesTest(FixtureTestCase):
                          [[ONYOURWAY, NEW, "1"], ["MoreBooks", OTHER, "1"]])
         # Same title under another source is a different book: untouched, and only a warning.
         self.assertEqual(csv_rows(self.repo.read("ForDB/book_banners.csv"))[1:],
-                         [[ONYOURWAY, "", "שורה\nשנייה"], ["MoreBooks", OLD, "באנר"]])
+                         [["1", ONYOURWAY, "", "שורה\nשנייה"], ["2", "MoreBooks", OLD, "באנר"]])
         self.assertIn("::warning::ForDB/book_banners.csv", output)
         self.assertIn("ForDB/book_protection.csv", self.repo.touched())
         self.assertNotIn("ForDB/book_banners.csv", self.repo.touched())
