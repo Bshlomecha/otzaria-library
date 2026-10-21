@@ -108,8 +108,9 @@ BeitAharonVeYisraelToOtzaria/ספרים/אוצריא
 
 ## באנר והגנה לספר
 
-שני קבצים אופציונליים ב־`ForDB/`, שהמחולל ב־SeforimLibrary הופך לטבלאות `banner`, `book_banner`
-ו־`book_protection` ב־`seforim.db`. קובץ חסר = טבלה ריקה (אין באנר / אין הגנה).
+שני קבצי חובה ב־`ForDB/`, שהמחולל ב־SeforimLibrary הופך לטבלאות `banner`, `book_banner`
+ו־`book_protection` ב־`seforim.db`. קובץ חסר מפיל את הבנייה (ואת שער ה־ForDB): הגנה שנעלמת בשקט
+גרועה מבנייה שנכשלת. אין שורות = כותרת בלבד.
 CSV לפי RFC-4180 ב־UTF-8, עם שורת כותרת:
 
 | קובץ | כותרת | ערך |
