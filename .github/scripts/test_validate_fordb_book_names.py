@@ -283,8 +283,8 @@ class DivineNameOverridesTest(unittest.TestCase):
         self.assertTrue(os.path.exists(validator.DIVINE_NAME_OVERRIDES))
         self.assertEqual(validator.check_divine_name_overrides(validator.DIVINE_NAME_OVERRIDES), [])
 
-    def test_a_missing_file_is_not_an_error(self):
-        self.assertEqual(validator.check_divine_name_overrides("/nonexistent/divine.csv"), [])
+    def test_a_missing_file_is_an_error(self):
+        self.assertEqual(len(validator.check_divine_name_overrides("/nonexistent/divine.csv")), 1)
 
     def test_valid_rows_of_every_ref_form(self):
         rows = [

@@ -36,7 +36,7 @@ sefariaToOtzaria/.../otzaria/utils.py):
     ההכרעה מול הספרים שנותרו ב-DB נעשית במחולל אחרי המיזוג ושינויי השמות.
     sourceName שאינו מקור במאגר (מאגר פרטי) הוא אזהרה בלבד.
   * divine_name_overrides: כל שורה חייבת להיות מובנת כמו ב-DivineNameOverrides.parse,
-    כי שורה אחת שאינה מובנת גורמת למחולל להתעלם מכל הרשימה (בתנ"ך: שם הוי"ה בלבד).
+    כי שורה אחת שאינה מובנת, או קובץ חסר, מפילים את הבנייה.
   * book_renames.csv: שם ה*מקור* (העמודה השמאלית) מול sources - הספר שמשנים חייב להתקיים
     (שינוי לא "יתום"). שם היעד אינו נבדק בנפרד.
   * כפילויות שם בתוך ה-ZIP: שני קבצי ספרים שונים עם אותו שם מנוקה בתיקיות הנארזות
@@ -100,7 +100,7 @@ FORDB_METADATA = os.path.join(FORDB, "all_metadata.json")
 # באנר / הגנה לפי sourceName + bookName (ריק = כל ספרי המקור). שניהם אופציונליים.
 BOOK_BANNERS = os.path.join(FORDB, "book_banners.csv")
 BOOK_PROTECTION = os.path.join(FORDB, "book_protection.csv")
-# פסוקים שבהם שם הוא קודש/חול, לטבלת line_divine_name. אופציונלי.
+# פסוקים שבהם שם הוא קודש/חול, לטבלת line_divine_name. חובה.
 DIVINE_NAME_OVERRIDES = os.path.join(FORDB, "divine_name_overrides.csv")
 
 # דוח --fix עבור ה-workflow: נכתב רק כאשר הוסר משהו בפועל.
@@ -420,10 +420,10 @@ def parse_divine_name_ref(ref):
 def check_divine_name_overrides(path):
     """
     בודק את divine_name_overrides.csv כמו DivineNameOverrides.parse ומחזיר [(מזהה, ערך, סיבה)].
-    כל בעיה היא שגיאה: המחולל מתעלם מהרשימה *כולה* אם שורה אחת אינה מובנת.
+    כל בעיה היא שגיאה: המחולל נכשל על קובץ חסר או על שורה אחת שאינה מובנת.
     """
     if not os.path.exists(path):
-        return []
+        return [("קובץ", path, "divine_name_overrides.csv חובה")]
     header, rows = read_csv_rows(path, has_header=True)
     if header is None or [h.strip() for h in header] != DIVINE_NAME_HEADER:
         return [("כותרת", header, "הכותרת חייבת להיות " + ",".join(DIVINE_NAME_HEADER))]
@@ -1288,7 +1288,7 @@ def main():
         for identifier, value, reason in items:
             print(f"::warning::{file_label} {identifier}: {value!r} — {reason}")
 
-    # 10) קודש/חול של שמות: שורה אחת שאינה מובנת מבטלת במחולל את הרשימה כולה.
+    # 10) קודש/חול של שמות: קובץ חסר או שורה שאינה מובנת מפילים את הבנייה.
     divine = check_divine_name_overrides(DIVINE_NAME_OVERRIDES)
 
     print_rename_report(resolution, rename_plan, applied=args.fix)
@@ -1376,7 +1376,7 @@ def main():
             print()
 
     if divine:
-        print(f"\n❌ {len(divine)} בעיות ב-ForDB/divine_name_overrides.csv; המחולל יתעלם מכל הרשימה:\n")
+        print(f"\n❌ {len(divine)} בעיות ב-ForDB/divine_name_overrides.csv; הבנייה תיכשל:\n")
         for identifier, value, reason in divine:
             print(f"     - {identifier}: {value!r} — {reason}")
         print()

@@ -79,6 +79,8 @@ def base_files():
         f"{RISHONIM}/{OTHER}.txt": book_text(OTHER),
         f"{RISHONIM}/{LEAVES}.txt": book_text(LEAVES),
         "extraBooks/ישנים/placeholder.txt": book_text("placeholder"),
+        # חובה גם כשהיא ריקה: קובץ חסר מפיל את הבדיקה.
+        "ForDB/divine_name_overrides.csv": "ref,kind,decision,source,note\n",
         "ForDB/book_moves.csv": (
             "name,Source path,Destination path\n"
             f'"{OLD}",חסידות,חסידות/נוספים\n'

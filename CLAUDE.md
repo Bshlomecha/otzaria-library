@@ -142,7 +142,7 @@ CSV לפי RFC-4180 ב־UTF-8, עם שורת כותרת:
 
 ## קודש וחול בשמות שבתנ"ך
 
-`ForDB/divine_name_overrides.csv` (אופציונלי) הוא רשימת פסוקים שהמחולל ב־SeforimLibrary
+`ForDB/divine_name_overrides.csv` (חובה; קובץ חסר מפיל את הבנייה ואת שער ה־ForDB) הוא רשימת פסוקים שהמחולל ב־SeforimLibrary
 (`buildLineDivineNameIndex`) משתמש בה לטבלה `line_divine_name`. היא חלה רק על שורות ספרי הבסיס
 של התנ"ך. CSV לפי RFC-4180 ב־UTF-8, עם הכותרת `ref,kind,decision,source,note`:
 
