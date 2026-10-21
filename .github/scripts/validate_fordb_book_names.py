@@ -360,7 +360,7 @@ def check_source_scoped_rows(path, by_source, pending_renames, value_column=None
             continue
         identifier = f"שורה {line_no}"
         source, name = row[s_idx], row[b_idx]
-        if v_idx is not None and not re.fullmatch(r"[1-9][0-9]*", row[v_idx]):
+        if v_idx is not None and not re.fullmatch(r"[1-9][0-9]{0,17}", row[v_idx]):
             errors.append((identifier, row[v_idx], f"{value_column} חייב להיות מספר שלם 1 ומעלה"))
         elif unique_value and first_row_of_value.setdefault(row[v_idx], identifier) != identifier:
             errors.append((identifier, row[v_idx], f"{value_column} כבר בשימוש ב{first_row_of_value[row[v_idx]]}"))
