@@ -1,6 +1,6 @@
 <h1>ברייתא דמסכת נדה</h1>
 חז"ל
-<span style="color:Gray;"><small>© כל הזכויות שמורות למכון ׳אור עולם׳ - צפת.</small></span>
+
 <h2>נוסח ראשון</h2>
 <div style="text-align: center;"><b>מסכת נדה</b></div>
 <h3>[פרק א]</h3>

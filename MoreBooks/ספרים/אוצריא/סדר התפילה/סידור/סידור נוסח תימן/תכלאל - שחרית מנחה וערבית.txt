@@ -1,6 +1,6 @@
 <h1>תכלאל - שחרית מנחה וערבית</h1>
 
-<span style="color: Gray;"><small><small>באדיבות אתר <a href="https://www.yadmeir.co.il/">יד מאיר</a></small></small></span>
+
 <h2>שחרית</h2>
 <h3>ברכות השחר</h3>
 כשייעור משנתו בעודו על משכבו יאמר:
