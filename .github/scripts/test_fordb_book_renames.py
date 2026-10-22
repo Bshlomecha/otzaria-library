@@ -783,6 +783,16 @@ class SourceScopedTablesTest(FixtureTestCase):
                 self.assertEqual(code, 1, output)
                 self.assertIn(reason, output)
 
+    def test_books_with_the_same_banner_text_share_its_id(self):
+        # Like parseBookBanners: one id may carry one text only, over CRLF or LF.
+        self.repo.write({"ForDB/book_banners.csv": scoped_csv(
+            ["id", "sourceName", "bookName", "text"],
+            [["7", "MoreBooks", "", "שורה\nב"], ["7", "MoreBooks", OTHER, "שורה\r\nב"]])})
+        self.repo.commit("באנר")
+        code, output = self.repo.run_validator()
+        self.assertEqual(code, 0, output)
+        self.assertNotIn("כבר בשימוש", output)
+
     def test_a_missing_banner_book_only_warns(self):
         self.write_tables(banners=[["MoreBooks", "ספר שאינו קיים", "x"]])
         code, output = self.repo.run_validator()
