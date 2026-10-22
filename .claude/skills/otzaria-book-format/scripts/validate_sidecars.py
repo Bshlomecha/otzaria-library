@@ -246,7 +246,7 @@ def check_companion_merge(path: Path, data: list, book: Path | None, src_lines: 
     target_title = _book_title(target.stem) if target is not None else None
     for title, raw_entries in sorted(by_title.items()):
         if title.startswith(HAVROUTA_PREFIX):
-            warn(f"{path.name}: {title!r} מוחרג במפורש ממיזוג חברותא בגנרטור — נשאר ספר עצמאי")
+            warn(f"{path.name}: {title!r} — המחולל ממזג הערות חברותא בדקדוק סמנים משלו; בדיקה זו אינה מכסה אותו")
             continue
         if not title.startswith(COMPANION_PREFIX):
             if title and any(normalize_ctype(e.get("Conection Type")) in {"footnotes", "footnote"}

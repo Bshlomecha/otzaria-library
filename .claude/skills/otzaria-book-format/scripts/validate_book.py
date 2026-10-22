@@ -9,6 +9,7 @@
   * הערות שוליים inline: סמן+גוף צמודים
   * מלכודת ההיפוך RTL: לכל היותר "תיבה" אחת בשורה (ראו count_boxes)
   * CSS/תגים שאינם נתמכים; class-ים שמורים
+  * שורת זכויות/קרדיט בראש הספר (מקומה ב-ForDB/book_banners.csv)
 
 שימוש:
   python -X utf8 validate_book.py "<ספר>.txt" [עוד קבצים/תיקיות] [--json] [--quiet]
@@ -70,6 +71,14 @@ BAD_CSS = [
     (re.compile(r"\b(position|transform|float|opacity|border-radius|animation|transition)\s*:", re.I), "תכונה שאינה ברשימת ההיתר ואינה נתמכת בקורא"),
     (re.compile(r"rebeccapurple", re.I), "שם הצבע rebeccapurple אינו נתמך — קוד HEX"),
 ]
+
+# שורת זכויות/קרדיט: מקומה בבאנר (ForDB/book_banners.csv), לא בגוף הספר.
+NOTICE_RE = re.compile(
+    r"כל הזכויות שמורות|כל הזכיות שמורות|הזכויות שמורות|זכויות היוצרים|©|Copyright|CC[ -]?BY|"
+    r"GNU Free Documentation|באדיבות|לשימוש אישי בלבד",
+    re.I,
+)
+NOTICE_HEAD_LINES = 6
 
 SANITIZE_STRIP = re.compile(r"[֑-ׇ]")
 SANITIZE_ILLEGAL = re.compile(r"[\\/:*\"״?<>|]")
@@ -225,6 +234,12 @@ def validate_file(path: Path) -> Report:
             second = lines[1].strip()
             if second and HEADING_OPEN_RE.match(second):
                 rep.warn(2, "שורה 2 היא כותרת — המוסכמה היא שם המחבר או שורה ריקה")
+
+    # --- זכויות/קרדיט ---
+    for i, line in enumerate(lines[:NOTICE_HEAD_LINES], start=1):
+        if NOTICE_RE.search(strip_tags(line)):
+            rep.warn(i, "שורת זכויות/קרדיט בגוף הספר — מקומה ב-ForDB/book_banners.csv (באנר מעל הספר). "
+                        "בספר שכבר יש לו קישורים מרוקנים את השורה ולא מוחקים אותה")
 
     # --- מעבר על השורות ---
     h1_count = 0
