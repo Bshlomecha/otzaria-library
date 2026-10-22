@@ -1,6 +1,5 @@
 <h1>הסליחות לכל השנה - זליגמן בער</h1>
 זליגמן בער
-
 <h2>שער</h2>
 <div style="text-align: center;"><b>הסליחות לכל השנה</b></div>
 <div style="text-align: center;"><small>לפי</small></div>

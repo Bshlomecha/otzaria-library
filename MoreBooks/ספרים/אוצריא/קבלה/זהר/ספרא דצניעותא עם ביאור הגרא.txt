@@ -1,6 +1,5 @@
 <span style="font-size:200%; font-weight:800; font-family: FrankRuehl;color:#0E2841">ספרא דצניעותא</span> <span style="font-size:175%; font-weight:200; font-family: FrankRuehl;color:#0E2841">עם ביאור רבנו הגר"א זללה"ה</span>
 <span style="font-size:75%; font-family: FrankRuehl; color: Gray">תחילה מופיע הספרא כולו, ולאחריו ביאור הגר"א ערוך על סדר דברי הספרא, דבר דבור על אפניו.</span>
-
 <span style="font-size:75%; font-family: FrankRuehl; color: LightGray">מהדורת ביקורת [אלול ה'תשפ"ה]. תיקונים והערות יתקבלו בברכה: 052-7642298.</span>
 
 <h1>ספרא דצניעותא</h1>

@@ -1,5 +1,13 @@
 [
   {
+    "line_index_1": 219,
+    "line_index_2": 3,
+    "heRef_2": "גיטין ב., א",
+    "ref_2": "Gittin 2a:1",
+    "path_2": "גיטין.txt",
+    "Conection Type": "source"
+  },
+  {
     "line_index_1": 220,
     "line_index_2": 3,
     "heRef_2": "גיטין ב., א",
@@ -24,7 +32,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 223,
+    "line_index_1": 224,
     "line_index_2": 3,
     "heRef_2": "גיטין ב., א",
     "ref_2": "Gittin 2a:1",
@@ -40,10 +48,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 226,
-    "line_index_2": 3,
-    "heRef_2": "גיטין ב., א",
-    "ref_2": "Gittin 2a:1",
+    "line_index_1": 228,
+    "line_index_2": 10,
+    "heRef_2": "גיטין ב:, א",
+    "ref_2": "Gittin 2b:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -88,7 +96,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 234,
+    "line_index_1": 235,
     "line_index_2": 10,
     "heRef_2": "גיטין ב:, א",
     "ref_2": "Gittin 2b:1",
@@ -112,7 +120,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 238,
+    "line_index_1": 239,
     "line_index_2": 10,
     "heRef_2": "גיטין ב:, א",
     "ref_2": "Gittin 2b:1",
@@ -144,10 +152,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 243,
-    "line_index_2": 10,
-    "heRef_2": "גיטין ב:, א",
-    "ref_2": "Gittin 2b:1",
+    "line_index_1": 245,
+    "line_index_2": 19,
+    "heRef_2": "גיטין ג., א",
+    "ref_2": "Gittin 3a:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -248,7 +256,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 258,
+    "line_index_1": 259,
     "line_index_2": 19,
     "heRef_2": "גיטין ג., א",
     "ref_2": "Gittin 3a:1",
@@ -288,7 +296,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 264,
+    "line_index_1": 265,
     "line_index_2": 19,
     "heRef_2": "גיטין ג., א",
     "ref_2": "Gittin 3a:1",
@@ -312,15 +320,15 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 268,
-    "line_index_2": 19,
-    "heRef_2": "גיטין ג., א",
-    "ref_2": "Gittin 3a:1",
+    "line_index_1": 269,
+    "line_index_2": 42,
+    "heRef_2": "גיטין ד., א",
+    "ref_2": "Gittin 4a:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 270,
+    "line_index_1": 271,
     "line_index_2": 42,
     "heRef_2": "גיטין ד., א",
     "ref_2": "Gittin 4a:1",
@@ -360,10 +368,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 276,
-    "line_index_2": 42,
-    "heRef_2": "גיטין ד., א",
-    "ref_2": "Gittin 4a:1",
+    "line_index_1": 278,
+    "line_index_2": 75,
+    "heRef_2": "גיטין ה., א",
+    "ref_2": "Gittin 5a:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -416,7 +424,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 285,
+    "line_index_1": 286,
     "line_index_2": 75,
     "heRef_2": "גיטין ה., א",
     "ref_2": "Gittin 5a:1",
@@ -432,10 +440,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 288,
-    "line_index_2": 75,
-    "heRef_2": "גיטין ה., א",
-    "ref_2": "Gittin 5a:1",
+    "line_index_1": 290,
+    "line_index_2": 211,
+    "heRef_2": "גיטין ט., א",
+    "ref_2": "Gittin 9a:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -520,10 +528,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 301,
-    "line_index_2": 211,
-    "heRef_2": "גיטין ט., א",
-    "ref_2": "Gittin 9a:1",
+    "line_index_1": 303,
+    "line_index_2": 283,
+    "heRef_2": "גיטין יא:, א",
+    "ref_2": "Gittin 11b:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -600,10 +608,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 313,
-    "line_index_2": 283,
-    "heRef_2": "גיטין יא:, א",
-    "ref_2": "Gittin 11b:1",
+    "line_index_1": 315,
+    "line_index_2": 299,
+    "heRef_2": "גיטין יב., א",
+    "ref_2": "Gittin 12a:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -672,10 +680,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 324,
-    "line_index_2": 299,
-    "heRef_2": "גיטין יב., א",
-    "ref_2": "Gittin 12a:1",
+    "line_index_1": 364,
+    "line_index_2": 365,
+    "heRef_2": "גיטין יד., א",
+    "ref_2": "Gittin 14a:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -704,7 +712,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 368,
+    "line_index_1": 369,
     "line_index_2": 365,
     "heRef_2": "גיטין יד., א",
     "ref_2": "Gittin 14a:1",
@@ -768,10 +776,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 377,
-    "line_index_2": 365,
-    "heRef_2": "גיטין יד., א",
-    "ref_2": "Gittin 14a:1",
+    "line_index_1": 379,
+    "line_index_2": 385,
+    "heRef_2": "גיטין יד:, א",
+    "ref_2": "Gittin 14b:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -784,10 +792,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 381,
-    "line_index_2": 385,
-    "heRef_2": "גיטין יד:, א",
-    "ref_2": "Gittin 14b:1",
+    "line_index_1": 384,
+    "line_index_2": 459,
+    "heRef_2": "גיטין יז., א",
+    "ref_2": "Gittin 17a:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -816,7 +824,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 388,
+    "line_index_1": 389,
     "line_index_2": 459,
     "heRef_2": "גיטין יז., א",
     "ref_2": "Gittin 17a:1",
@@ -856,10 +864,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 394,
-    "line_index_2": 459,
-    "heRef_2": "גיטין יז., א",
-    "ref_2": "Gittin 17a:1",
+    "line_index_1": 396,
+    "line_index_2": 473,
+    "heRef_2": "גיטין יז:, א",
+    "ref_2": "Gittin 17b:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -896,7 +904,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 401,
+    "line_index_1": 402,
     "line_index_2": 473,
     "heRef_2": "גיטין יז:, א",
     "ref_2": "Gittin 17b:1",
@@ -920,7 +928,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 405,
+    "line_index_1": 406,
     "line_index_2": 473,
     "heRef_2": "גיטין יז:, א",
     "ref_2": "Gittin 17b:1",
@@ -1000,10 +1008,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 416,
-    "line_index_2": 473,
-    "heRef_2": "גיטין יז:, א",
-    "ref_2": "Gittin 17b:1",
+    "line_index_1": 418,
+    "line_index_2": 569,
+    "heRef_2": "גיטין כ:, א",
+    "ref_2": "Gittin 20b:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -1016,7 +1024,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 420,
+    "line_index_1": 421,
     "line_index_2": 569,
     "heRef_2": "גיטין כ:, א",
     "ref_2": "Gittin 20b:1",
@@ -1048,10 +1056,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 425,
-    "line_index_2": 569,
-    "heRef_2": "גיטין כ:, א",
-    "ref_2": "Gittin 20b:1",
+    "line_index_1": 427,
+    "line_index_2": 589,
+    "heRef_2": "גיטין כא., א",
+    "ref_2": "Gittin 21a:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -1136,7 +1144,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 438,
+    "line_index_1": 439,
     "line_index_2": 589,
     "heRef_2": "גיטין כא., א",
     "ref_2": "Gittin 21a:1",
@@ -1144,10 +1152,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 440,
-    "line_index_2": 589,
-    "heRef_2": "גיטין כא., א",
-    "ref_2": "Gittin 21a:1",
+    "line_index_1": 443,
+    "line_index_2": 747,
+    "heRef_2": "גיטין כו., א",
+    "ref_2": "Gittin 26a:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -1208,10 +1216,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 451,
-    "line_index_2": 747,
-    "heRef_2": "גיטין כו., א",
-    "ref_2": "Gittin 26a:1",
+    "line_index_1": 453,
+    "line_index_2": 765,
+    "heRef_2": "גיטין כו:, א",
+    "ref_2": "Gittin 26b:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -1312,18 +1320,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 466,
-    "line_index_2": 765,
-    "heRef_2": "גיטין כו:, א",
-    "ref_2": "Gittin 26b:1",
+    "line_index_1": 467,
+    "line_index_2": 780,
+    "heRef_2": "גיטין כז., א",
+    "ref_2": "Gittin 27a:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 468,
-    "line_index_2": 780,
-    "heRef_2": "גיטין כז., א",
-    "ref_2": "Gittin 27a:1",
+    "line_index_1": 550,
+    "line_index_2": 839,
+    "heRef_2": "גיטין כט., א",
+    "ref_2": "Gittin 29a:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -1384,18 +1392,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 558,
-    "line_index_2": 839,
-    "heRef_2": "גיטין כט., א",
-    "ref_2": "Gittin 29a:1",
+    "line_index_1": 559,
+    "line_index_2": 878,
+    "heRef_2": "גיטין ל., א",
+    "ref_2": "Gittin 30a:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 560,
-    "line_index_2": 878,
-    "heRef_2": "גיטין ל., א",
-    "ref_2": "Gittin 30a:1",
+    "line_index_1": 563,
+    "line_index_2": 934,
+    "heRef_2": "גיטין לב., א",
+    "ref_2": "Gittin 32a:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -1456,7 +1464,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 571,
+    "line_index_1": 572,
     "line_index_2": 934,
     "heRef_2": "גיטין לב., א",
     "ref_2": "Gittin 32a:1",
@@ -1560,7 +1568,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 585,
+    "line_index_1": 586,
     "line_index_2": 934,
     "heRef_2": "גיטין לב., א",
     "ref_2": "Gittin 32a:1",
@@ -1608,7 +1616,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 592,
+    "line_index_1": 593,
     "line_index_2": 934,
     "heRef_2": "גיטין לב., א",
     "ref_2": "Gittin 32a:1",
@@ -1672,7 +1680,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 601,
+    "line_index_1": 602,
     "line_index_2": 934,
     "heRef_2": "גיטין לב., א",
     "ref_2": "Gittin 32a:1",
@@ -1704,18 +1712,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 606,
-    "line_index_2": 934,
-    "heRef_2": "גיטין לב., א",
-    "ref_2": "Gittin 32a:1",
+    "line_index_1": 608,
+    "line_index_2": 988,
+    "heRef_2": "גיטין לד., א",
+    "ref_2": "Gittin 34a:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 609,
-    "line_index_2": 988,
-    "heRef_2": "גיטין לד., א",
-    "ref_2": "Gittin 34a:1",
+    "line_index_1": 611,
+    "line_index_2": 1032,
+    "heRef_2": "גיטין לה:, א",
+    "ref_2": "Gittin 35b:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -1792,7 +1800,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 621,
+    "line_index_1": 622,
     "line_index_2": 1032,
     "heRef_2": "גיטין לה:, א",
     "ref_2": "Gittin 35b:1",
@@ -1872,10 +1880,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 632,
-    "line_index_2": 1032,
-    "heRef_2": "גיטין לה:, א",
-    "ref_2": "Gittin 35b:1",
+    "line_index_1": 634,
+    "line_index_2": 1044,
+    "heRef_2": "גיטין לו., א",
+    "ref_2": "Gittin 36a:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -1904,10 +1912,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 638,
-    "line_index_2": 1044,
-    "heRef_2": "גיטין לו., א",
-    "ref_2": "Gittin 36a:1",
+    "line_index_1": 640,
+    "line_index_2": 1169,
+    "heRef_2": "גיטין לט:, א",
+    "ref_2": "Gittin 39b:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -1928,10 +1936,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 643,
-    "line_index_2": 1169,
-    "heRef_2": "גיטין לט:, א",
-    "ref_2": "Gittin 39b:1",
+    "line_index_1": 645,
+    "line_index_2": 1188,
+    "heRef_2": "גיטין מ., א",
+    "ref_2": "Gittin 40a:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -1952,10 +1960,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 648,
-    "line_index_2": 1188,
-    "heRef_2": "גיטין מ., א",
-    "ref_2": "Gittin 40a:1",
+    "line_index_1": 650,
+    "line_index_2": 1205,
+    "heRef_2": "גיטין מ:, א",
+    "ref_2": "Gittin 40b:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -2032,7 +2040,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 660,
+    "line_index_1": 661,
     "line_index_2": 1205,
     "heRef_2": "גיטין מ:, א",
     "ref_2": "Gittin 40b:1",
@@ -2072,7 +2080,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 666,
+    "line_index_1": 667,
     "line_index_2": 1205,
     "heRef_2": "גיטין מ:, א",
     "ref_2": "Gittin 40b:1",
@@ -2080,10 +2088,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 668,
-    "line_index_2": 1205,
-    "heRef_2": "גיטין מ:, א",
-    "ref_2": "Gittin 40b:1",
+    "line_index_1": 670,
+    "line_index_2": 1217,
+    "heRef_2": "גיטין מא., א",
+    "ref_2": "Gittin 41a:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -2104,7 +2112,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 673,
+    "line_index_1": 674,
     "line_index_2": 1217,
     "heRef_2": "גיטין מא., א",
     "ref_2": "Gittin 41a:1",
@@ -2128,7 +2136,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 677,
+    "line_index_1": 678,
     "line_index_2": 1217,
     "heRef_2": "גיטין מא., א",
     "ref_2": "Gittin 41a:1",
@@ -2176,7 +2184,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 684,
+    "line_index_1": 685,
     "line_index_2": 1217,
     "heRef_2": "גיטין מא., א",
     "ref_2": "Gittin 41a:1",
@@ -2216,10 +2224,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 690,
-    "line_index_2": 1217,
-    "heRef_2": "גיטין מא., א",
-    "ref_2": "Gittin 41a:1",
+    "line_index_1": 692,
+    "line_index_2": 1249,
+    "heRef_2": "גיטין מב., א",
+    "ref_2": "Gittin 42a:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -2368,10 +2376,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 711,
-    "line_index_2": 1249,
-    "heRef_2": "גיטין מב., א",
-    "ref_2": "Gittin 42a:1",
+    "line_index_1": 713,
+    "line_index_2": 1286,
+    "heRef_2": "גיטין מג., א",
+    "ref_2": "Gittin 43a:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -2440,10 +2448,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 722,
-    "line_index_2": 1286,
-    "heRef_2": "גיטין מג., א",
-    "ref_2": "Gittin 43a:1",
+    "line_index_1": 724,
+    "line_index_2": 1400,
+    "heRef_2": "גיטין מו., א",
+    "ref_2": "Gittin 46a:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -2504,10 +2512,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 732,
-    "line_index_2": 1400,
-    "heRef_2": "גיטין מו., א",
-    "ref_2": "Gittin 46a:1",
+    "line_index_1": 734,
+    "line_index_2": 1434,
+    "heRef_2": "גיטין מז., א",
+    "ref_2": "Gittin 47a:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -2528,7 +2536,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 737,
+    "line_index_1": 738,
     "line_index_2": 1434,
     "heRef_2": "גיטין מז., א",
     "ref_2": "Gittin 47a:1",
@@ -2560,10 +2568,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 742,
-    "line_index_2": 1434,
-    "heRef_2": "גיטין מז., א",
-    "ref_2": "Gittin 47a:1",
+    "line_index_1": 744,
+    "line_index_2": 1452,
+    "heRef_2": "גיטין מז:, א",
+    "ref_2": "Gittin 47b:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -2592,7 +2600,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 748,
+    "line_index_1": 749,
     "line_index_2": 1452,
     "heRef_2": "גיטין מז:, א",
     "ref_2": "Gittin 47b:1",
@@ -2624,10 +2632,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 753,
-    "line_index_2": 1452,
-    "heRef_2": "גיטין מז:, א",
-    "ref_2": "Gittin 47b:1",
+    "line_index_1": 755,
+    "line_index_2": 1468,
+    "heRef_2": "גיטין מח., א",
+    "ref_2": "Gittin 48a:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -2656,10 +2664,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 759,
-    "line_index_2": 1468,
-    "heRef_2": "גיטין מח., א",
-    "ref_2": "Gittin 48a:1",
+    "line_index_1": 762,
+    "line_index_2": 1485,
+    "heRef_2": "גיטין מח:, א",
+    "ref_2": "Gittin 48b:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -2680,7 +2688,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 765,
+    "line_index_1": 766,
     "line_index_2": 1485,
     "heRef_2": "גיטין מח:, א",
     "ref_2": "Gittin 48b:1",
@@ -2736,7 +2744,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 773,
+    "line_index_1": 774,
     "line_index_2": 1485,
     "heRef_2": "גיטין מח:, א",
     "ref_2": "Gittin 48b:1",
@@ -2792,10 +2800,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 781,
-    "line_index_2": 1485,
-    "heRef_2": "גיטין מח:, א",
-    "ref_2": "Gittin 48b:1",
+    "line_index_1": 783,
+    "line_index_2": 1537,
+    "heRef_2": "גיטין נ., א",
+    "ref_2": "Gittin 50a:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -2840,7 +2848,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 789,
+    "line_index_1": 790,
     "line_index_2": 1537,
     "heRef_2": "גיטין נ., א",
     "ref_2": "Gittin 50a:1",
@@ -2912,10 +2920,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 799,
-    "line_index_2": 1537,
-    "heRef_2": "גיטין נ., א",
-    "ref_2": "Gittin 50a:1",
+    "line_index_1": 801,
+    "line_index_2": 1557,
+    "heRef_2": "גיטין נ:, א",
+    "ref_2": "Gittin 50b:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -3048,7 +3056,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 818,
+    "line_index_1": 819,
     "line_index_2": 1557,
     "heRef_2": "גיטין נ:, א",
     "ref_2": "Gittin 50b:1",
@@ -3080,10 +3088,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 823,
-    "line_index_2": 1557,
-    "heRef_2": "גיטין נ:, א",
-    "ref_2": "Gittin 50b:1",
+    "line_index_1": 825,
+    "line_index_2": 1574,
+    "heRef_2": "גיטין נא., א",
+    "ref_2": "Gittin 51a:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -3136,7 +3144,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 832,
+    "line_index_1": 833,
     "line_index_2": 1574,
     "heRef_2": "גיטין נא., א",
     "ref_2": "Gittin 51a:1",
@@ -3216,10 +3224,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 843,
-    "line_index_2": 1574,
-    "heRef_2": "גיטין נא., א",
-    "ref_2": "Gittin 51a:1",
+    "line_index_1": 845,
+    "line_index_2": 1631,
+    "heRef_2": "גיטין נב:, א",
+    "ref_2": "Gittin 52b:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -3272,7 +3280,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 852,
+    "line_index_1": 853,
     "line_index_2": 1631,
     "heRef_2": "גיטין נב:, א",
     "ref_2": "Gittin 52b:1",
@@ -3544,10 +3552,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 887,
-    "line_index_2": 1631,
-    "heRef_2": "גיטין נב:, א",
-    "ref_2": "Gittin 52b:1",
+    "line_index_1": 889,
+    "line_index_2": 1705,
+    "heRef_2": "גיטין נד:, א",
+    "ref_2": "Gittin 54b:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -3632,7 +3640,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 900,
+    "line_index_1": 901,
     "line_index_2": 1705,
     "heRef_2": "גיטין נד:, א",
     "ref_2": "Gittin 54b:1",
@@ -3824,10 +3832,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 925,
-    "line_index_2": 1705,
-    "heRef_2": "גיטין נד:, א",
-    "ref_2": "Gittin 54b:1",
+    "line_index_1": 927,
+    "line_index_2": 1725,
+    "heRef_2": "גיטין נה., א",
+    "ref_2": "Gittin 55a:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -3872,7 +3880,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 933,
+    "line_index_1": 934,
     "line_index_2": 1725,
     "heRef_2": "גיטין נה., א",
     "ref_2": "Gittin 55a:1",
@@ -3952,10 +3960,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 944,
-    "line_index_2": 1725,
-    "heRef_2": "גיטין נה., א",
-    "ref_2": "Gittin 55a:1",
+    "line_index_1": 946,
+    "line_index_2": 1742,
+    "heRef_2": "גיטין נה:, א",
+    "ref_2": "Gittin 55b:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -4000,10 +4008,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 952,
-    "line_index_2": 1742,
-    "heRef_2": "גיטין נה:, א",
-    "ref_2": "Gittin 55b:1",
+    "line_index_1": 955,
+    "line_index_2": 2050,
+    "heRef_2": "גיטין סג:, א",
+    "ref_2": "Gittin 63b:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -4072,10 +4080,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 964,
-    "line_index_2": 2050,
-    "heRef_2": "גיטין סג:, א",
-    "ref_2": "Gittin 63b:1",
+    "line_index_1": 966,
+    "line_index_2": 2161,
+    "heRef_2": "גיטין סו:, א",
+    "ref_2": "Gittin 66b:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -4224,7 +4232,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 985,
+    "line_index_1": 986,
     "line_index_2": 2161,
     "heRef_2": "גיטין סו:, א",
     "ref_2": "Gittin 66b:1",
@@ -4384,7 +4392,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1006,
+    "line_index_1": 1007,
     "line_index_2": 2161,
     "heRef_2": "גיטין סו:, א",
     "ref_2": "Gittin 66b:1",
@@ -4488,10 +4496,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1020,
-    "line_index_2": 2161,
-    "heRef_2": "גיטין סו:, א",
-    "ref_2": "Gittin 66b:1",
+    "line_index_1": 1021,
+    "line_index_2": 2177,
+    "heRef_2": "גיטין סז., א",
+    "ref_2": "Gittin 67a:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -4504,10 +4512,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1023,
-    "line_index_2": 2177,
-    "heRef_2": "גיטין סז., א",
-    "ref_2": "Gittin 67a:1",
+    "line_index_1": 1026,
+    "line_index_2": 2394,
+    "heRef_2": "גיטין עב:, א",
+    "ref_2": "Gittin 72b:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -4544,10 +4552,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1031,
-    "line_index_2": 2394,
-    "heRef_2": "גיטין עב:, א",
-    "ref_2": "Gittin 72b:1",
+    "line_index_1": 1033,
+    "line_index_2": 2415,
+    "heRef_2": "גיטין עג., א",
+    "ref_2": "Gittin 73a:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -4608,10 +4616,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1041,
-    "line_index_2": 2415,
-    "heRef_2": "גיטין עג., א",
-    "ref_2": "Gittin 73a:1",
+    "line_index_1": 1043,
+    "line_index_2": 2454,
+    "heRef_2": "גיטין עד., א",
+    "ref_2": "Gittin 74a:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -4648,7 +4656,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1048,
+    "line_index_1": 1049,
     "line_index_2": 2454,
     "heRef_2": "גיטין עד., א",
     "ref_2": "Gittin 74a:1",
@@ -4672,7 +4680,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1052,
+    "line_index_1": 1053,
     "line_index_2": 2454,
     "heRef_2": "גיטין עד., א",
     "ref_2": "Gittin 74a:1",
@@ -4696,10 +4704,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1056,
-    "line_index_2": 2454,
-    "heRef_2": "גיטין עד., א",
-    "ref_2": "Gittin 74a:1",
+    "line_index_1": 1058,
+    "line_index_2": 2496,
+    "heRef_2": "גיטין עה., א",
+    "ref_2": "Gittin 75a:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -4768,7 +4776,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1067,
+    "line_index_1": 1068,
     "line_index_2": 2496,
     "heRef_2": "גיטין עה., א",
     "ref_2": "Gittin 75a:1",
@@ -4912,7 +4920,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1086,
+    "line_index_1": 1087,
     "line_index_2": 2496,
     "heRef_2": "גיטין עה., א",
     "ref_2": "Gittin 75a:1",
@@ -4968,7 +4976,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1094,
+    "line_index_1": 1095,
     "line_index_2": 2496,
     "heRef_2": "גיטין עה., א",
     "ref_2": "Gittin 75a:1",
@@ -5024,10 +5032,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1102,
-    "line_index_2": 2496,
-    "heRef_2": "גיטין עה., א",
-    "ref_2": "Gittin 75a:1",
+    "line_index_1": 1104,
+    "line_index_2": 2511,
+    "heRef_2": "גיטין עה:, א",
+    "ref_2": "Gittin 75b:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -5184,18 +5192,18 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1124,
-    "line_index_2": 2511,
-    "heRef_2": "גיטין עה:, א",
-    "ref_2": "Gittin 75b:1",
+    "line_index_1": 1125,
+    "line_index_2": 2553,
+    "heRef_2": "גיטין עו:, א",
+    "ref_2": "Gittin 76b:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1126,
-    "line_index_2": 2553,
-    "heRef_2": "גיטין עו:, א",
-    "ref_2": "Gittin 76b:1",
+    "line_index_1": 1129,
+    "line_index_2": 2796,
+    "heRef_2": "גיטין פב., א",
+    "ref_2": "Gittin 82a:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -5280,10 +5288,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1140,
-    "line_index_2": 2796,
-    "heRef_2": "גיטין פב., א",
-    "ref_2": "Gittin 82a:1",
+    "line_index_1": 1142,
+    "line_index_2": 2810,
+    "heRef_2": "גיטין פב:, א",
+    "ref_2": "Gittin 82b:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -5352,7 +5360,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1151,
+    "line_index_1": 1152,
     "line_index_2": 2810,
     "heRef_2": "גיטין פב:, א",
     "ref_2": "Gittin 82b:1",
@@ -5400,7 +5408,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1158,
+    "line_index_1": 1159,
     "line_index_2": 2810,
     "heRef_2": "גיטין פב:, א",
     "ref_2": "Gittin 82b:1",
@@ -5432,7 +5440,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1163,
+    "line_index_1": 1164,
     "line_index_2": 2810,
     "heRef_2": "גיטין פב:, א",
     "ref_2": "Gittin 82b:1",
@@ -5488,10 +5496,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1171,
-    "line_index_2": 2810,
-    "heRef_2": "גיטין פב:, א",
-    "ref_2": "Gittin 82b:1",
+    "line_index_1": 1172,
+    "line_index_2": 2827,
+    "heRef_2": "גיטין פג., א",
+    "ref_2": "Gittin 83a:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -5504,10 +5512,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1174,
-    "line_index_2": 2827,
-    "heRef_2": "גיטין פג., א",
-    "ref_2": "Gittin 83a:1",
+    "line_index_1": 1176,
+    "line_index_2": 2856,
+    "heRef_2": "גיטין פג:, א",
+    "ref_2": "Gittin 83b:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -5592,10 +5600,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1187,
-    "line_index_2": 2856,
-    "heRef_2": "גיטין פג:, א",
-    "ref_2": "Gittin 83b:1",
+    "line_index_1": 1189,
+    "line_index_2": 3028,
+    "heRef_2": "גיטין פז., א",
+    "ref_2": "Gittin 87a:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -5656,7 +5664,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1197,
+    "line_index_1": 1198,
     "line_index_2": 3028,
     "heRef_2": "גיטין פז., א",
     "ref_2": "Gittin 87a:1",
@@ -5712,7 +5720,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1205,
+    "line_index_1": 1206,
     "line_index_2": 3028,
     "heRef_2": "גיטין פז., א",
     "ref_2": "Gittin 87a:1",
@@ -5736,10 +5744,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1209,
-    "line_index_2": 3028,
-    "heRef_2": "גיטין פז., א",
-    "ref_2": "Gittin 87a:1",
+    "line_index_1": 1211,
+    "line_index_2": 3090,
+    "heRef_2": "גיטין פח:, א",
+    "ref_2": "Gittin 88b:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -5816,7 +5824,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1221,
+    "line_index_1": 1222,
     "line_index_2": 3090,
     "heRef_2": "גיטין פח:, א",
     "ref_2": "Gittin 88b:1",
@@ -5864,7 +5872,7 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1228,
+    "line_index_1": 1229,
     "line_index_2": 3090,
     "heRef_2": "גיטין פח:, א",
     "ref_2": "Gittin 88b:1",
@@ -5896,10 +5904,10 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1233,
-    "line_index_2": 3090,
-    "heRef_2": "גיטין פח:, א",
-    "ref_2": "Gittin 88b:1",
+    "line_index_1": 1235,
+    "line_index_2": 3107,
+    "heRef_2": "גיטין פט., א",
+    "ref_2": "Gittin 89a:1",
     "path_2": "גיטין.txt",
     "Conection Type": "source"
   },
@@ -5952,932 +5960,924 @@
     "Conection Type": "source"
   },
   {
-    "line_index_1": 1242,
-    "line_index_2": 3107,
-    "heRef_2": "גיטין פט., א",
-    "ref_2": "Gittin 89a:1",
-    "path_2": "גיטין.txt",
-    "Conection Type": "source"
-  },
-  {
-    "line_index_1": 31,
+    "line_index_1": 30,
     "line_index_2": 3,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 31,
+    "line_index_1": 30,
     "line_index_2": 4,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 31,
+    "line_index_1": 30,
     "line_index_2": 5,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 33,
+    "line_index_1": 32,
     "line_index_2": 6,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 33,
+    "line_index_1": 32,
     "line_index_2": 7,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 33,
+    "line_index_1": 32,
     "line_index_2": 8,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 40,
+    "line_index_1": 39,
     "line_index_2": 11,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 58,
+    "line_index_1": 57,
     "line_index_2": 13,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 61,
+    "line_index_1": 60,
     "line_index_2": 15,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 63,
+    "line_index_1": 62,
     "line_index_2": 16,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 67,
+    "line_index_1": 66,
     "line_index_2": 17,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 68,
+    "line_index_1": 67,
     "line_index_2": 18,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 81,
+    "line_index_1": 80,
     "line_index_2": 20,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 141,
+    "line_index_1": 140,
     "line_index_2": 23,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 145,
+    "line_index_1": 144,
     "line_index_2": 25,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 149,
+    "line_index_1": 148,
     "line_index_2": 26,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 152,
+    "line_index_1": 151,
     "line_index_2": 28,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 162,
+    "line_index_1": 161,
     "line_index_2": 30,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 167,
+    "line_index_1": 166,
     "line_index_2": 31,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 170,
+    "line_index_1": 169,
     "line_index_2": 32,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 223,
+    "line_index_1": 222,
     "line_index_2": 37,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 225,
+    "line_index_1": 224,
     "line_index_2": 39,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 246,
+    "line_index_1": 245,
     "line_index_2": 42,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 251,
+    "line_index_1": 250,
     "line_index_2": 43,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 251,
+    "line_index_1": 250,
     "line_index_2": 44,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 257,
+    "line_index_1": 256,
     "line_index_2": 45,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 267,
+    "line_index_1": 266,
     "line_index_2": 47,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 270,
+    "line_index_1": 269,
     "line_index_2": 49,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 281,
+    "line_index_1": 280,
     "line_index_2": 52,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 292,
+    "line_index_1": 291,
     "line_index_2": 55,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 309,
+    "line_index_1": 308,
     "line_index_2": 58,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 332,
+    "line_index_1": 331,
     "line_index_2": 61,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 333,
+    "line_index_1": 332,
     "line_index_2": 62,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 339,
+    "line_index_1": 338,
     "line_index_2": 64,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 341,
+    "line_index_1": 340,
     "line_index_2": 66,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 344,
+    "line_index_1": 343,
     "line_index_2": 67,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 345,
+    "line_index_1": 344,
     "line_index_2": 68,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 355,
+    "line_index_1": 354,
     "line_index_2": 69,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 355,
+    "line_index_1": 354,
     "line_index_2": 70,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 355,
+    "line_index_1": 354,
     "line_index_2": 71,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 385,
+    "line_index_1": 384,
     "line_index_2": 75,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 394,
+    "line_index_1": 393,
     "line_index_2": 77,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 394,
+    "line_index_1": 393,
     "line_index_2": 78,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 401,
+    "line_index_1": 400,
     "line_index_2": 81,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 403,
+    "line_index_1": 402,
     "line_index_2": 83,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 404,
+    "line_index_1": 403,
     "line_index_2": 84,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 408,
+    "line_index_1": 407,
     "line_index_2": 86,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 409,
+    "line_index_1": 408,
     "line_index_2": 87,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 409,
+    "line_index_1": 408,
     "line_index_2": 88,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 410,
+    "line_index_1": 409,
     "line_index_2": 89,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 425,
+    "line_index_1": 424,
     "line_index_2": 92,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 437,
+    "line_index_1": 436,
     "line_index_2": 95,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 438,
+    "line_index_1": 437,
     "line_index_2": 96,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 454,
+    "line_index_1": 453,
     "line_index_2": 100,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 458,
+    "line_index_1": 457,
     "line_index_2": 101,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 458,
+    "line_index_1": 457,
     "line_index_2": 102,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 487,
+    "line_index_1": 486,
     "line_index_2": 105,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 535,
+    "line_index_1": 534,
     "line_index_2": 107,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 551,
+    "line_index_1": 550,
     "line_index_2": 110,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 571,
+    "line_index_1": 570,
     "line_index_2": 114,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 574,
+    "line_index_1": 573,
     "line_index_2": 116,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 581,
+    "line_index_1": 580,
     "line_index_2": 117,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 587,
+    "line_index_1": 586,
     "line_index_2": 119,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 590,
+    "line_index_1": 589,
     "line_index_2": 120,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 636,
+    "line_index_1": 635,
     "line_index_2": 123,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 646,
+    "line_index_1": 645,
     "line_index_2": 126,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 654,
+    "line_index_1": 653,
     "line_index_2": 129,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 664,
+    "line_index_1": 663,
     "line_index_2": 131,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 676,
+    "line_index_1": 675,
     "line_index_2": 134,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 682,
+    "line_index_1": 681,
     "line_index_2": 136,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 686,
+    "line_index_1": 685,
     "line_index_2": 138,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 709,
+    "line_index_1": 708,
     "line_index_2": 141,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 717,
+    "line_index_1": 716,
     "line_index_2": 144,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 725,
+    "line_index_1": 724,
     "line_index_2": 147,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 726,
+    "line_index_1": 725,
     "line_index_2": 148,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 741,
+    "line_index_1": 740,
     "line_index_2": 151,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 750,
+    "line_index_1": 749,
     "line_index_2": 154,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 776,
+    "line_index_1": 775,
     "line_index_2": 158,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 792,
+    "line_index_1": 791,
     "line_index_2": 161,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 792,
+    "line_index_1": 791,
     "line_index_2": 162,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 804,
+    "line_index_1": 803,
     "line_index_2": 165,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 809,
+    "line_index_1": 808,
     "line_index_2": 166,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 817,
+    "line_index_1": 816,
     "line_index_2": 167,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 830,
+    "line_index_1": 829,
     "line_index_2": 170,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 832,
+    "line_index_1": 831,
     "line_index_2": 171,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 880,
+    "line_index_1": 879,
     "line_index_2": 174,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 892,
+    "line_index_1": 891,
     "line_index_2": 177,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 896,
+    "line_index_1": 895,
     "line_index_2": 178,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 913,
+    "line_index_1": 912,
     "line_index_2": 180,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 923,
+    "line_index_1": 922,
     "line_index_2": 181,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 938,
+    "line_index_1": 937,
     "line_index_2": 184,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 939,
+    "line_index_1": 938,
     "line_index_2": 185,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 973,
+    "line_index_1": 972,
     "line_index_2": 189,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 974,
+    "line_index_1": 973,
     "line_index_2": 190,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 996,
+    "line_index_1": 995,
     "line_index_2": 191,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 997,
+    "line_index_1": 996,
     "line_index_2": 192,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 998,
+    "line_index_1": 997,
     "line_index_2": 193,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 998,
+    "line_index_1": 997,
     "line_index_2": 194,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 1031,
+    "line_index_1": 1030,
     "line_index_2": 198,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 1056,
+    "line_index_1": 1055,
     "line_index_2": 201,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 1062,
+    "line_index_1": 1061,
     "line_index_2": 204,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 1070,
+    "line_index_1": 1069,
     "line_index_2": 206,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 1076,
+    "line_index_1": 1075,
     "line_index_2": 207,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 1080,
+    "line_index_1": 1079,
     "line_index_2": 208,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 1094,
+    "line_index_1": 1093,
     "line_index_2": 210,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 1097,
+    "line_index_1": 1096,
     "line_index_2": 212,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 1101,
+    "line_index_1": 1100,
     "line_index_2": 213,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 1138,
+    "line_index_1": 1137,
     "line_index_2": 217,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 1139,
+    "line_index_1": 1138,
     "line_index_2": 218,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 1181,
+    "line_index_1": 1180,
     "line_index_2": 221,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 1183,
+    "line_index_1": 1182,
     "line_index_2": 222,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 1190,
+    "line_index_1": 1189,
     "line_index_2": 225,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 1193,
+    "line_index_1": 1192,
     "line_index_2": 226,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 1193,
+    "line_index_1": 1192,
     "line_index_2": 227,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 1193,
+    "line_index_1": 1192,
     "line_index_2": 228,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 1223,
+    "line_index_1": 1222,
     "line_index_2": 231,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 1256,
+    "line_index_1": 1255,
     "line_index_2": 234,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 1257,
+    "line_index_1": 1256,
     "line_index_2": 235,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 1292,
+    "line_index_1": 1291,
     "line_index_2": 237,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 1303,
+    "line_index_1": 1302,
     "line_index_2": 239,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 1303,
+    "line_index_1": 1302,
     "line_index_2": 240,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 1304,
+    "line_index_1": 1303,
     "line_index_2": 241,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 1306,
+    "line_index_1": 1305,
     "line_index_2": 242,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 1308,
+    "line_index_1": 1307,
     "line_index_2": 243,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 1311,
+    "line_index_1": 1310,
     "line_index_2": 244,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 1314,
+    "line_index_1": 1313,
     "line_index_2": 245,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 1318,
+    "line_index_1": 1317,
     "line_index_2": 246,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 1320,
+    "line_index_1": 1319,
     "line_index_2": 247,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 1325,
+    "line_index_1": 1324,
     "line_index_2": 248,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 1327,
+    "line_index_1": 1326,
     "line_index_2": 249,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 1328,
+    "line_index_1": 1327,
     "line_index_2": 250,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
     "Conection Type": "footnotes"
   },
   {
-    "line_index_1": 1328,
+    "line_index_1": 1327,
     "line_index_2": 251,
     "heRef_2": "הערות",
     "path_2": "הערות על טופסי גיטין.txt",
