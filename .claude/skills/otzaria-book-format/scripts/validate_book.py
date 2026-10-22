@@ -239,7 +239,7 @@ def validate_file(path: Path) -> Report:
     for i, line in enumerate(lines[:NOTICE_HEAD_LINES], start=1):
         if NOTICE_RE.search(strip_tags(line)):
             rep.warn(i, "שורת זכויות/קרדיט בגוף הספר — מקומה ב-ForDB/book_banners.csv (באנר מעל הספר). "
-                        "בספר שכבר יש לו קישורים מרוקנים את השורה ולא מוחקים אותה")
+                        "בספר שכבר יש לו קישורים, מחיקת השורה מחייבת להוריד באחת את מספרי השורות שאחריה בקישורים")
 
     # --- מעבר על השורות ---
     h1_count = 0
