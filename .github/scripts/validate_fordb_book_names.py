@@ -36,7 +36,7 @@ sefariaToOtzaria/.../otzaria/utils.py):
     ההכרעה מול הספרים שנותרו ב-DB נעשית במחולל אחרי המיזוג ושינויי השמות.
     sourceName שאינו מקור במאגר (מאגר פרטי) הוא אזהרה בלבד.
   * divine_name_overrides: כל שורה חייבת להיות מובנת כמו ב-DivineNameOverrides.parse,
-    כי שורה אחת שאינה מובנת גורמת למחולל להתעלם מכל הרשימה (בתנ"ך: שם הוי"ה בלבד).
+    כי שורה אחת שאינה מובנת, או קובץ חסר, מפילים את הבנייה.
   * book_renames.csv: שם ה*מקור* (העמודה השמאלית) מול sources - הספר שמשנים חייב להתקיים
     (שינוי לא "יתום"). שם היעד אינו נבדק בנפרד.
   * כפילויות שם בתוך ה-ZIP: שני קבצי ספרים שונים עם אותו שם מנוקה בתיקיות הנארזות
@@ -100,7 +100,7 @@ FORDB_METADATA = os.path.join(FORDB, "all_metadata.json")
 # באנר / הגנה לפי sourceName + bookName (ריק = כל ספרי המקור). שניהם אופציונליים.
 BOOK_BANNERS = os.path.join(FORDB, "book_banners.csv")
 BOOK_PROTECTION = os.path.join(FORDB, "book_protection.csv")
-# פסוקים שבהם שם הוא קודש/חול, לטבלת line_divine_name. אופציונלי.
+# פסוקים שבהם שם הוא קודש/חול, לטבלת line_divine_name. חובה.
 DIVINE_NAME_OVERRIDES = os.path.join(FORDB, "divine_name_overrides.csv")
 
 # דוח --fix עבור ה-workflow: נכתב רק כאשר הוסר משהו בפועל.
@@ -337,7 +337,7 @@ def packaged_titles_by_source(rename_pairs):
     return by_source
 
 
-def check_source_scoped_rows(path, by_source, pending_renames, value_column=None):
+def check_source_scoped_rows(path, by_source, pending_renames, value_column=None, unique_value=False):
     """
     בודק את שורות book_banners.csv / book_protection.csv. מחזיר
     (שגיאות, שורות ספר שלא נמצאו, מקורות שאינם במאגר) - כל אחת [(מזהה, ערך, סיבה)].
@@ -354,13 +354,16 @@ def check_source_scoped_rows(path, by_source, pending_renames, value_column=None
     v_idx = col_index(header, value_column) if value_column else None
     sources = known_sources()
     errors, unresolved, foreign = [], [], []
+    first_row_of_value = {}
     for line_no, row in enumerate(rows, start=2):
         if not row:
             continue
         identifier = f"שורה {line_no}"
         source, name = row[s_idx], row[b_idx]
-        if v_idx is not None and not re.fullmatch(r"[1-9][0-9]*", row[v_idx]):
+        if v_idx is not None and not re.fullmatch(r"[1-9][0-9]{0,17}", row[v_idx]):
             errors.append((identifier, row[v_idx], f"{value_column} חייב להיות מספר שלם 1 ומעלה"))
+        elif unique_value and first_row_of_value.setdefault(row[v_idx], identifier) != identifier:
+            errors.append((identifier, row[v_idx], f"{value_column} כבר בשימוש ב{first_row_of_value[row[v_idx]]}"))
         if source not in sources:
             foreign.append((identifier, source, "sourceName אינו מקור במאגר זה (מאגר פרטי?)"))
             continue
@@ -417,10 +420,10 @@ def parse_divine_name_ref(ref):
 def check_divine_name_overrides(path):
     """
     בודק את divine_name_overrides.csv כמו DivineNameOverrides.parse ומחזיר [(מזהה, ערך, סיבה)].
-    כל בעיה היא שגיאה: המחולל מתעלם מהרשימה *כולה* אם שורה אחת אינה מובנת.
+    כל בעיה היא שגיאה: המחולל נכשל על קובץ חסר או על שורה אחת שאינה מובנת.
     """
     if not os.path.exists(path):
-        return []
+        return [("קובץ", path, "divine_name_overrides.csv חובה")]
     header, rows = read_csv_rows(path, has_header=True)
     if header is None or [h.strip() for h in header] != DIVINE_NAME_HEADER:
         return [("כותרת", header, "הכותרת חייבת להיות " + ",".join(DIVINE_NAME_HEADER))]
@@ -1276,7 +1279,8 @@ def main():
         BOOK_PROTECTION, by_source, pending_renames, "level")
     if p_errors or p_unresolved:
         scoped["ForDB/book_protection.csv"] = p_errors + p_unresolved
-    b_errors, b_unresolved, b_foreign = check_source_scoped_rows(BOOK_BANNERS, by_source, pending_renames)
+    b_errors, b_unresolved, b_foreign = check_source_scoped_rows(
+        BOOK_BANNERS, by_source, pending_renames, "id", unique_value=True)
     if b_errors:
         scoped["ForDB/book_banners.csv"] = b_errors
     for file_label, items in (("ForDB/book_protection.csv", p_foreign),
@@ -1284,7 +1288,7 @@ def main():
         for identifier, value, reason in items:
             print(f"::warning::{file_label} {identifier}: {value!r} — {reason}")
 
-    # 10) קודש/חול של שמות: שורה אחת שאינה מובנת מבטלת במחולל את הרשימה כולה.
+    # 10) קודש/חול של שמות: קובץ חסר או שורה שאינה מובנת מפילים את הבנייה.
     divine = check_divine_name_overrides(DIVINE_NAME_OVERRIDES)
 
     print_rename_report(resolution, rename_plan, applied=args.fix)
@@ -1372,7 +1376,7 @@ def main():
             print()
 
     if divine:
-        print(f"\n❌ {len(divine)} בעיות ב-ForDB/divine_name_overrides.csv; המחולל יתעלם מכל הרשימה:\n")
+        print(f"\n❌ {len(divine)} בעיות ב-ForDB/divine_name_overrides.csv; הבנייה תיכשל:\n")
         for identifier, value, reason in divine:
             print(f"     - {identifier}: {value!r} — {reason}")
         print()

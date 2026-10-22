@@ -108,18 +108,22 @@ BeitAharonVeYisraelToOtzaria/ספרים/אוצריא
 
 ## באנר והגנה לספר
 
-שני קבצים אופציונליים ב־`ForDB/`, שהמחולל ב־SeforimLibrary הופך לטבלאות `book_banner`
-ו־`book_protection` ב־`seforim.db`. קובץ חסר = הטבלה לא נוצרת (אין באנר / אין הגנה).
+שני קבצי חובה ב־`ForDB/`, שהמחולל ב־SeforimLibrary הופך לטבלאות `banner`, `book_banner`
+ו־`book_protection` ב־`seforim.db`. קובץ חסר מפיל את הבנייה (ואת שער ה־ForDB): הגנה שנעלמת בשקט
+גרועה מבנייה שנכשלת. אין שורות = כותרת בלבד.
 CSV לפי RFC-4180 ב־UTF-8, עם שורת כותרת:
 
 | קובץ | כותרת | ערך |
 | --- | --- | --- |
-| `book_banners.csv` | `sourceName,bookName,text` | טקסט הבאנר שמעל תחילת הספר. ירידת שורה = שורה חדשה בתוך שדה במירכאות. הסימון היחיד: קישור `[תווית](url)`, ו־`{title}` מוחלף בשם הספר |
+| `book_banners.csv` | `id,sourceName,bookName,text` | טקסט הבאנר שמעל תחילת הספר. ירידת שורה = שורה חדשה בתוך שדה במירכאות. הסימון היחיד: קישור `[תווית](url)`, ו־`{title}` מוחלף בשם הספר (באפליקציה) |
 | `book_protection.csv` | `sourceName,bookName,level` | `1` = בלי ייצוא לעריכה והגבלת העתקה; `2` = גם בלי ייצוא PDF והגבלת הדפסה |
 
 `sourceName` הוא שם תיקיית המקור העליונה (`KSK`, `National-LibraryToOtzaria`), כמו `source.name`
 ב־DB. `bookName` ריק = ברירת מחדל לכל ספרי המקור; שורה עם `bookName` גוברת עליה. `bookName` הוא
 שם הספר הסופי ב־DB: איות `book.title` של שם קובץ ה־`.txt`, **אחרי** `book_renames.csv`.
+
+`id` בבאנר הוא מספר קבוע (1 ומעלה, ייחודי) שהטקסט נשמר תחתיו ב־DB: שינוי נוסח נשאר באותו `id`,
+ושורה חדשה מקבלת מספר שלא היה בשימוש. לא ממספרים מחדש ולא ממחזרים מספר של שורה שנמחקה.
 
 `validate_fordb_book_names.py` בודק כל שורה מול ספרי אותו מקור: בהגנה שורה שלא נמצאה מפילה את
 הבדיקה (וגם המחולל נכשל), בבאנר היא רק אזהרה. `sourceName` שאינו מקור במאגר הזה הוא רק אזהרה,
@@ -138,7 +142,7 @@ CSV לפי RFC-4180 ב־UTF-8, עם שורת כותרת:
 
 ## קודש וחול בשמות שבתנ"ך
 
-`ForDB/divine_name_overrides.csv` (אופציונלי) הוא רשימת פסוקים שהמחולל ב־SeforimLibrary
+`ForDB/divine_name_overrides.csv` (חובה; קובץ חסר מפיל את הבנייה ואת שער ה־ForDB) הוא רשימת פסוקים שהמחולל ב־SeforimLibrary
 (`buildLineDivineNameIndex`) משתמש בה לטבלה `line_divine_name`. היא חלה רק על שורות ספרי הבסיס
 של התנ"ך. CSV לפי RFC-4180 ב־UTF-8, עם הכותרת `ref,kind,decision,source,note`:
 

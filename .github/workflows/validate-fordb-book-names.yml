@@ -163,22 +163,20 @@ jobs:
           root = Path("ForDB")
           expected = {
               "ForDB/all_metadata.json",
+              # טבלאות banner / book_banner / book_protection; קובץ חסר מפיל את הבנייה.
+              "ForDB/book_banners.csv",
               # מידע על ספרים מהאתר; מקור הדור של seedGenerations (במקום generations.csv).
               "ForDB/book_info.csv",
               "ForDB/book_moves.csv",
+              "ForDB/book_protection.csv",
               "ForDB/book_renames.csv",
               "ForDB/category_moves.csv",
               "ForDB/category_renames.csv",
+              # קודש/חול בתנ"ך ל-line_divine_name; קובץ חסר מפיל את הבנייה.
+              "ForDB/divine_name_overrides.csv",
               "ForDB/sefaria_author_changes.csv",
               "ForDB/sefaria_category_changes.csv",
               "ForDB/sefaria_metadata_changes.csv",
-          }
-          # טבלאות book_banner / book_protection; קובץ חסר = אין טבלה.
-          # divine_name_overrides: קובץ חסר = בתנ"ך רק שם הוי"ה מסומן כקודש.
-          optional = {
-              "ForDB/book_banners.csv",
-              "ForDB/book_protection.csv",
-              "ForDB/divine_name_overrides.csv",
           }
           paths = sorted(
               (path for path in root.rglob("*") if path.name != ".DS_Store" and path.as_posix() != "ForDB/book_info_identity.json"),
@@ -187,9 +185,9 @@ jobs:
           if any(path.is_symlink() for path in paths):
               raise SystemExit("ForDB archive refuses symlinks")
           actual = {path.as_posix() for path in paths if path.is_file()}
-          if actual - optional != expected:
+          if actual != expected:
               missing = sorted(expected - actual)
-              unknown = sorted(actual - expected - optional)
+              unknown = sorted(actual - expected)
               raise SystemExit(
                   "ForDB consumer coverage is incomplete; "
                   f"missing={missing}, files without a runtime validator={unknown}"

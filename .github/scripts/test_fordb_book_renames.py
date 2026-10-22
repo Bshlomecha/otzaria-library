@@ -79,6 +79,8 @@ def base_files():
         f"{RISHONIM}/{OTHER}.txt": book_text(OTHER),
         f"{RISHONIM}/{LEAVES}.txt": book_text(LEAVES),
         "extraBooks/ישנים/placeholder.txt": book_text("placeholder"),
+        # חובה גם כשהיא ריקה: קובץ חסר מפיל את הבדיקה.
+        "ForDB/divine_name_overrides.csv": "ref,kind,decision,source,note\n",
         "ForDB/book_moves.csv": (
             "name,Source path,Destination path\n"
             f'"{OLD}",חסידות,חסידות/נוספים\n'
@@ -691,7 +693,8 @@ class SourceScopedTablesTest(FixtureTestCase):
     def write_tables(self, protection=(), banners=(), renames=None):
         files = {
             "ForDB/book_protection.csv": scoped_csv(["sourceName", "bookName", "level"], protection),
-            "ForDB/book_banners.csv": scoped_csv(["sourceName", "bookName", "text"], banners),
+            "ForDB/book_banners.csv": scoped_csv(["id", "sourceName", "bookName", "text"],
+                                                 [[str(i), *row] for i, row in enumerate(banners, 1)]),
         }
         if renames is not None:
             files["ForDB/book_renames.csv"] = renames
@@ -710,7 +713,7 @@ class SourceScopedTablesTest(FixtureTestCase):
                          [[ONYOURWAY, NEW, "1"], ["MoreBooks", OTHER, "1"]])
         # Same title under another source is a different book: untouched, and only a warning.
         self.assertEqual(csv_rows(self.repo.read("ForDB/book_banners.csv"))[1:],
-                         [[ONYOURWAY, "", "שורה\nשנייה"], ["MoreBooks", OLD, "באנר"]])
+                         [["1", ONYOURWAY, "", "שורה\nשנייה"], ["2", "MoreBooks", OLD, "באנר"]])
         self.assertIn("::warning::ForDB/book_banners.csv", output)
         self.assertIn("ForDB/book_protection.csv", self.repo.touched())
         self.assertNotIn("ForDB/book_banners.csv", self.repo.touched())
@@ -768,6 +771,17 @@ class SourceScopedTablesTest(FixtureTestCase):
         code, output = self.repo.run_validator()
         self.assertEqual(code, 1, output)
         self.assertIn("level חייב להיות", output)
+
+    def test_an_invalid_or_repeated_banner_id_fails(self):
+        for ids, reason in ((["0"], "id חייב להיות"), (["x"], "id חייב להיות"), (["1" + "0" * 18], "id חייב להיות"), (["7", "7"], "id כבר בשימוש")):
+            with self.subTest(ids=ids):
+                self.repo.write({"ForDB/book_banners.csv": scoped_csv(
+                    ["id", "sourceName", "bookName", "text"],
+                    [[i, "MoreBooks", "", f"באנר {n}"] for n, i in enumerate(ids)])})
+                self.repo.commit("באנר")
+                code, output = self.repo.run_validator()
+                self.assertEqual(code, 1, output)
+                self.assertIn(reason, output)
 
     def test_a_missing_banner_book_only_warns(self):
         self.write_tables(banners=[["MoreBooks", "ספר שאינו קיים", "x"]])
