@@ -48679,6 +48679,19 @@
       },
       "commit": null,
       "changeSetId": "6ad9083b2917198d739916de"
+    },
+    {
+      "id": 3483,
+      "kind": "rename",
+      "old": {
+        "bookName": "צלח ביצה",
+        "authorName": ""
+      },
+      "new": {
+        "bookName": "ציון לנפש חיה ביצה",
+        "authorName": ""
+      },
+      "commit": "52576281dbd999a27246c24cc8803ae97d6f84ec"
     }
   ]
 }
