@@ -18,3 +18,9 @@
 # pinned to inputs from before that commit would ship a library main no longer
 # describes. Its Seforim child 35282267160 was cancelled deliberately.
 35278510961
+# Abandoned 2026-10-22 cycle (Sefaria export 2026-10-22_22-16): its Seforim
+# child 39846448214 failed in seedAllMetadata because sefaria_category_changes.csv
+# still described the removed library folder of תבואות השדה (a148b7cd4 moved the
+# books). Fixed in cc019429a, but the bounded recovery budget was already spent;
+# the next cycle supersedes this lineage.
+39843446809
