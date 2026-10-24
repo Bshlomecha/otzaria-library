@@ -38363,5 +38363,427 @@
       "המאירי"
     ],
     "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "חזות קשה",
+    "heAuthors": [
+      "רבנו יצחק עראמה"
+    ],
+    "pubDate": [
+      2015
+    ],
+    "pubPlaceStringHe": "ירושלים",
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "עקידת יצחק על חמש מגילות",
+    "heAuthors": [
+      "רבנו יצחק עראמה"
+    ],
+    "pubDate": [
+      2015
+    ],
+    "pubPlaceStringHe": "ירושלים",
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "שערי קדושה חלק ד",
+    "heAuthors": [
+      "רבי חיים ויטאל"
+    ],
+    "pubDate": [
+      2006
+    ],
+    "pubPlaceStringHe": "ארץ ישראל",
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "חיי הנפש",
+    "heAuthors": [
+      "רבי אברהם אבולעפיה"
+    ],
+    "pubDate": [
+      2001
+    ],
+    "pubPlaceStringHe": "ירושלים",
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "מפתח החכמות",
+    "heAuthors": [
+      "רבי אברהם אבולעפיה"
+    ],
+    "pubDate": [
+      2001
+    ],
+    "pubPlaceStringHe": "ירושלים",
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "מפתח הספירות",
+    "heAuthors": [
+      "רבי אברהם אבולעפיה"
+    ],
+    "pubDate": [
+      2001
+    ],
+    "pubPlaceStringHe": "ירושלים",
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "מפתח הרעיון",
+    "heAuthors": [
+      "רבי אברהם אבולעפיה"
+    ],
+    "pubDate": [
+      2002
+    ],
+    "pubPlaceStringHe": "ירושלים",
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "מפתח השמות",
+    "heAuthors": [
+      "רבי אברהם אבולעפיה"
+    ],
+    "pubDate": [
+      2001
+    ],
+    "pubPlaceStringHe": "ירושלים",
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "מפתח התוכחות",
+    "heAuthors": [
+      "רבי אברהם אבולעפיה"
+    ],
+    "pubDate": [
+      2001
+    ],
+    "pubPlaceStringHe": "ירושלים",
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "מצרף השכל",
+    "heAuthors": [
+      "רבי אברהם אבולעפיה"
+    ],
+    "pubDate": [
+      2001
+    ],
+    "pubPlaceStringHe": "ירושלים",
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "מצרף לכסף",
+    "heAuthors": [
+      "רבי אברהם אבולעפיה"
+    ],
+    "pubDate": [
+      2001
+    ],
+    "pubPlaceStringHe": "ירושלים",
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "נר אלהים",
+    "heAuthors": [
+      "רבי אברהם אבולעפיה"
+    ],
+    "pubDate": [
+      2002
+    ],
+    "pubPlaceStringHe": "ירושלים",
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "ספר המלמד",
+    "heAuthors": [
+      "רבי אברהם אבולעפיה"
+    ],
+    "pubDate": [
+      2002
+    ],
+    "pubPlaceStringHe": "ירושלים",
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "ספר הצירוף",
+    "heAuthors": [
+      "מיוחס לרבי אברהם אבולעפיה"
+    ],
+    "pubDate": [
+      2003
+    ],
+    "pubPlaceStringHe": "ירושלים",
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "סתרי תורה",
+    "heAuthors": [
+      "רבי אברהם אבולעפיה"
+    ],
+    "pubDate": [
+      2001
+    ],
+    "pubPlaceStringHe": "ירושלים",
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "שומר מצוה",
+    "heAuthors": [
+      "רבי אברהם אבולעפיה"
+    ],
+    "pubDate": [
+      2001
+    ],
+    "pubPlaceStringHe": "ירושלים",
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "שערי צדק (ביאור ספר יצירה)",
+    "heAuthors": [
+      "מיוחס לרבי שם טוב ספרדי מליאון"
+    ],
+    "pubDate": [
+      2008
+    ],
+    "pubPlaceStringHe": "ארץ ישראל",
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "אגרת סוד הגאולה",
+    "heAuthors": [
+      "רבי אברהם הלוי"
+    ],
+    "pubDate": [
+      2004
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "אור המנורה",
+    "heAuthors": [],
+    "pubDate": [
+      2017
+    ],
+    "pubPlaceStringHe": "בית שמש",
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "ארון העדות",
+    "heAuthors": [
+      "רבי יהודה אלכרסאני"
+    ],
+    "pubDate": [
+      2021
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "הוראה על שאלת המלאכים",
+    "heAuthors": [
+      "רבי אברהם הלוי"
+    ],
+    "pubDate": [
+      2004
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "מאמר היחוד",
+    "heAuthors": [
+      "רבי אברהם הלוי"
+    ],
+    "pubDate": [
+      2004
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "מגלת אמרפל",
+    "heAuthors": [
+      "רבי אברהם הלוי"
+    ],
+    "pubDate": [
+      2004
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "מסורת החכמה",
+    "heAuthors": [
+      "רבי אברהם הלוי"
+    ],
+    "pubDate": [
+      2004
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "מעשה נורא (מעשה ר יוסף דילה ריינה)",
+    "heAuthors": [],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "משרא קטרין",
+    "heAuthors": [
+      "רבי אברהם הלוי"
+    ],
+    "pubDate": [
+      2004
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "נבואת הילד (עם פירוש אברהם הלוי)",
+    "heAuthors": [
+      "רבי אברהם הלוי"
+    ],
+    "pubDate": [
+      2004
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "סולם העליה",
+    "heAuthors": [
+      "רבי יהודה אלבוטיני"
+    ],
+    "pubDate": [
+      2008
+    ],
+    "pubPlaceStringHe": "ארץ ישראל",
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "ציוני על התורה",
+    "heAuthors": [
+      "רבי מנחם ציוני"
+    ],
+    "pubDate": [
+      2005
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "קול בוכים על מגילת איכה (עם פירוש קינת הסתרים)",
+    "heAuthors": [
+      "רבי אברהם גלאנטי"
+    ],
+    "pubDate": [
+      2004
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "אור זרוע (רבי משה די ליאון)",
+    "heAuthors": [
+      "רבנו משה די ליאון"
+    ],
+    "pubDate": [
+      2019
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "הנפש החכמה (רבי משה די ליאון)",
+    "heAuthors": [
+      "רבנו משה די ליאון"
+    ],
+    "pubDate": [
+      2019
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "משכיות כסף",
+    "heAuthors": [
+      "רבנו משה די ליאון"
+    ],
+    "pubDate": [
+      2019
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "משכן העדות (רבי משה די ליאון)",
+    "heAuthors": [
+      "רבנו משה די ליאון"
+    ],
+    "pubDate": [
+      2019
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "סוד עשר ספירות בלימה (רבי משה די ליאון)",
+    "heAuthors": [
+      "רבנו משה די ליאון"
+    ],
+    "pubDate": [
+      2019
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "ספר הרמון",
+    "heAuthors": [
+      "רבנו משה די ליאון"
+    ],
+    "pubDate": [
+      2019
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "ספר השם (רבי משה די ליאון)",
+    "heAuthors": [
+      "רבנו משה די ליאון"
+    ],
+    "pubDate": [
+      2019
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "ספר יסוד המרכבה (רבי משה די ליאון)",
+    "heAuthors": [
+      "רבנו משה די ליאון"
+    ],
+    "pubDate": [
+      2019
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "פירוש הגדה של פסח",
+    "heAuthors": [
+      "רבנו משה די ליאון"
+    ],
+    "pubDate": [
+      2019
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "שושן עדות (רבי משה די ליאון)",
+    "heAuthors": [
+      "רבנו משה די ליאון"
+    ],
+    "pubDate": [
+      2019
+    ],
+    "Sourcefolder": "MoreBooks"
+  },
+  {
+    "title": "שות בענייני קבלה",
+    "heAuthors": [
+      "רבנו משה די ליאון"
+    ],
+    "pubDate": [
+      2019
+    ],
+    "Sourcefolder": "MoreBooks"
   }
 ]
