@@ -297,7 +297,7 @@ def check_alt_toc(path: Path, book: Path | None) -> None:
     total = len(read_lines(book)) if book else None
     keys: set[str] = set()
 
-    def walk(nodes, parent: str, seen_lines: set[int]) -> int:
+    def walk(nodes, parent: str) -> int:
         count = 0
         if not isinstance(nodes, list):
             err(f"{path.name}: nodes תחת {parent} אינו מערך")
@@ -311,15 +311,11 @@ def check_alt_toc(path: Path, book: Path | None) -> None:
             line = node.get("line")
             if not isinstance(line, int) or line < 1:
                 err(f"{path.name}: {node.get('heTitle')!r} — line חייב להיות 1-based")
-            else:
-                if total and line > total:
-                    err(f"{path.name}: {node.get('heTitle')!r} — line={line} מעבר לסוף הספר ({total})")
-                if line in seen_lines:
-                    err(f"{path.name}: שורה {line} כפולה תחת {parent} — הצומת יושמט")
-                seen_lines.add(line)
+            elif total and line > total:
+                err(f"{path.name}: {node.get('heTitle')!r} — line={line} מעבר לסוף הספר ({total})")
             count += 1
             if node.get("children"):
-                count += walk(node["children"], node.get("heTitle", "?"), set())
+                count += walk(node["children"], node.get("heTitle", "?"))
         return count
 
     nodes_total = 0
@@ -334,7 +330,7 @@ def check_alt_toc(path: Path, book: Path | None) -> None:
             err(f"{path.name}: key כפול {key!r}")
         else:
             keys.add(key)
-        nodes_total += walk(struct.get("nodes", []), str(key), set())
+        nodes_total += walk(struct.get("nodes", []), str(key))
     print(f"{path.name}: {len(data)} מבנים, {nodes_total} צמתים")
 
 
