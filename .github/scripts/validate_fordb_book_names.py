@@ -1053,7 +1053,8 @@ def write_fix_outputs(removed, resolution, plan):
                         "new": r.new_title,
                         "commit": r.commit,
                         "changes": [
-                            {"file": c.path, "kind": c.kind, "detail": c.detail}
+                            {"file": c.path, "kind": c.kind, "detail": c.detail,
+                             **({"from": c.old, "to": c.new} if c.old is not None else {})}
                             for c in plan.changes
                             if c.rename_key == key
                         ],

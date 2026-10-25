@@ -7,11 +7,17 @@ change is intended, the row changes in the same commit; this script writes it:
     # these keys, to their current values in the working tree
     update_locked_metadata.py --key author:TITLE --key line2:PATH/TO/BOOK.txt
 
-    # every key of a locked kind whose value differs between REF and the working tree
+    # every key of a locked kind that this branch changed: the working tree (untracked
+    # files included) against the merge base of REF and HEAD
     update_locked_metadata.py --all-changed-vs origin/main [--add-new] [--drop-missing]
 
+The comparison starts at the merge base, not at REF itself: a branch behind REF would
+otherwise count everything REF changed since the fork as its own change, and lock REF's
+old values (the gate would then ask to revert REF's fix after the merge).
+
 --add-new also locks keys that are not locked yet (with --key: the listed keys; with
---all-changed-vs: every changed or new value of the five kinds).  --drop-missing deletes
+--all-changed-vs: every changed or new value of the five kinds, except an empty value,
+which locks nothing, and line2 of a file outside the packaged book roots).  --drop-missing deletes
 the row of a key that no longer exists (a renamed or removed book, a deleted CSV row);
 without it such a row is left for a human.  Existing rows keep their place; new rows are
 inserted in sorted position, so parallel updates rarely touch the same lines.
@@ -33,10 +39,10 @@ from pathlib import Path
 from typing import Callable, Iterable
 
 import check_locked_metadata as lock
+from check_locked_metadata import is_packaged_book
 
 Reader = Callable[[str], "str | None"]
 GREY = frozenset(chr(c) for c in range(0x2061, 0x2065))  # never locked as a new value
-BOOKS = "/ספרים/אוצריא/"  # line2 is added only for book files under a books root
 
 
 def file_reader(repo: Path) -> Reader:
@@ -187,7 +193,8 @@ def apply_updates(
         for (kind, key), value in sorted(updates.items(), key=lambda item: _order(*item[0])):
             if (kind, key) in seen or value is None:
                 continue
-            if kind not in lock.KINDS or any(c in GREY for c in value) or (kind == "line2" and BOOKS not in key):
+            if (kind not in lock.KINDS or not value or any(c in GREY for c in value)
+                    or (kind == "line2" and not is_packaged_book(key))):
                 stats["skipped"] += 1
                 continue
             at = bisect.bisect_right(orders, _order(kind, key))
@@ -198,12 +205,19 @@ def apply_updates(
     return "\n".join(out) + "\n", stats
 
 
-def git_changed_paths(repo: Path, ref: str) -> list[str]:
-    out = subprocess.run(
-        ["git", "-C", str(repo), "diff", "--name-only", "-z", ref, "--"],
-        check=True, capture_output=True,
-    ).stdout.decode("utf-8")
-    return [p for p in out.split("\0") if p]
+def _git(repo: Path, *args: str) -> str:
+    return subprocess.run(["git", "-C", str(repo), *args], check=True, capture_output=True).stdout.decode("utf-8")
+
+
+def merge_base(repo: Path, ref: str) -> str:
+    return _git(repo, "merge-base", ref, "HEAD").strip()
+
+
+def git_changed_paths(repo: Path, base: str) -> list[str]:
+    """The paths that differ between base and the working tree, untracked files included."""
+    changed = _git(repo, "diff", "--no-renames", "--name-only", "-z", base, "--")
+    untracked = _git(repo, "ls-files", "--others", "--exclude-standard", "-z")
+    return sorted({p for p in (changed + untracked).split("\0") if p})
 
 
 def main(argv: list[str] | None = None) -> int:
@@ -233,8 +247,9 @@ def main(argv: list[str] | None = None) -> int:
                     raise ValueError(f"--key {item!r}: the live value cannot be locked (no second line, or entries disagree)")
                 updates[kind, key] = value if exists else None
         else:
-            paths = git_changed_paths(args.repo, args.all_changed_vs)
-            updates = changed_values(git_reader(args.repo, args.all_changed_vs), read, paths)
+            base = merge_base(args.repo, args.all_changed_vs)
+            paths = git_changed_paths(args.repo, base)
+            updates = changed_values(git_reader(args.repo, base), read, paths)
         new_text, stats = apply_updates(
             text, updates, add_new=args.add_new, drop_missing=args.drop_missing, note=args.note
         )

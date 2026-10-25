@@ -475,6 +475,9 @@ class Change:
     path: str
     kind: str  # renamed / dropped_superseded / kept_conflict / links_file_renamed / links_ref
     detail: str = ""
+    # renamed בקובץ CSV/JSON: הערך כפי שנכתב בפועל, לפני ואחרי (follow_lock_renames.py)
+    old: str = None
+    new: str = None
 
 
 @dataclass
@@ -719,7 +722,8 @@ def _plan_once(repo, renames, db_title, key, db_prefixes, links_roots):
                 continue
             edits[(idx, col)] = new_value
             collisions.add(target.path, new_value, rid)
-            plan.changes.append(Change(rid, target.path, "renamed", f"{old_value} -> {new_value}"))
+            plan.changes.append(Change(rid, target.path, "renamed", f"{old_value} -> {new_value}",
+                                       old_value, new_value))
         if edits or drop:
             result = edit_csv(data, edits, drop)
             if author_col is not None:
@@ -754,7 +758,8 @@ def _plan_once(repo, renames, db_title, key, db_prefixes, links_roots):
                 continue
             edits[(idx, target.field)] = new_value
             collisions.add(target.path, new_value, rid)
-            plan.changes.append(Change(rid, target.path, "renamed", f"{old_value} -> {new_value}"))
+            plan.changes.append(Change(rid, target.path, "renamed", f"{old_value} -> {new_value}",
+                                       old_value, new_value))
             fp_field = target.file_path_field
             old_fp = record.get(fp_field) if fp_field else None
             new_rel = _package_relative(rename.new_path, db_prefixes)

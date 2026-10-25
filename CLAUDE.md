@@ -113,12 +113,15 @@ BeitAharonVeYisraelToOtzaria/ספרים/אוצריא
 `heShortDesc` ו־`heDescNew` ב־`ForDB/sefaria_metadata_changes.csv`. ערך נעול **קודם** לכל סנכרון
 גורף — `heAuthors` → `metadata.json`, הרצה ידנית של `sefaria-export`, המרה חוזרת או שינוי מפתח
 בספריא. `.github/scripts/check_locked_metadata.py` רץ ב־`validate-fordb-book-names.yml` ונכשל כשערך
-נעול השתנה או כשהמפתח שלו נעלם (ספר ששמו שונה או שנמחק, שורת CSV שנמחקה). שינוי מכוון: מעדכנים את
+נעול השתנה או כשהמפתח שלו נעלם (ספר שנמחק, שורת CSV שנמחקה), ו־`update-fordb.yml` לא מפרסם ForDB
+שערך נעול בו נדרס. שינוי מכוון: מעדכנים את
 השורה **באותו קומיט** — `python3 .github/scripts/update_locked_metadata.py --key KIND:KEY`, או
-`--all-changed-vs origin/main --add-new` לכל מה שהענף שינה — או עורכים אותה ביד. PR של עורך הקטלוג
-(Bshlomecha) נושא את עדכון הנעילה בקומיט משלו, «עדכון קובץ הנעילה לערכים החדשים». שורה 2 אינה נבדקת ב־CI (ה־job אינו מושך את קובצי
-הספרים, לכן `--skip line2`); בודקים אותה בעותק מלא בהרצה בלי הדגל. בספרי ממירים היא נשמרת גם
-ב־`post_convert_fixes.tsv` של המקור.
+`--all-changed-vs origin/main --add-new` לכל מה שהענף שינה (מול נקודת הפיצול, לא מול קצה main) — או עורכים אותה ביד. PR של עורך הקטלוג
+(Bshlomecha) נושא את עדכון הנעילה בקומיט משלו, «עדכון קובץ הנעילה לערכים החדשים». שינוי שם של ספר
+שה־CI מיישר (`fordb_book_renames.py`) והעברה/שינוי שם של קובץ בלי שינוי תוכן (git R100) — שורות הנעילה
+עוברות לבד ב־push ל־main (`follow_lock_renames.py`). ב־CI שורה 2 נקראת מ־git: כל נתיב נעול חייב
+להתקיים, והתוכן מושווה בספרים שהשתנו מאז הריצה המוצלחת האחרונה; בדיקה מלאה של כל הספרים — הרצה
+מקומית בלי `--git-rev`. בספרי ממירים שורה 2 נשמרת גם ב־`post_convert_fixes.tsv` של המקור.
 
 ## באנר והגנה לספר
 

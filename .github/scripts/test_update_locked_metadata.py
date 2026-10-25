@@ -115,6 +115,16 @@ class ApplyUpdatesTest(unittest.TestCase):
         self.assertIn("sefaria_long\tת\tשורה\\nשנייה\tPR #2", text)
         self.assertEqual((stats["added"], stats["skipped"]), (1, 2))
 
+    def test_empty_values_and_unpackaged_books_are_not_added(self):
+        text, stats = self.apply({
+            ("sefaria_short", "ריק"): "",
+            ("line2", "extraBooks/SefariaToOtzria/ספרים/אוצריא/x.txt"): "y",
+            ("line2", "DictaToOtzaria/לא ערוך/ספרים/אוצריא/x.txt"): "y",
+            ("line2", OTHER): "רבי",
+        })
+        self.assertEqual((stats["added"], stats["skipped"]), (1, 3))
+        self.assertIn(f"line2\t{OTHER}\tרבי", text)
+
     def test_unchanged_value_is_a_no_op(self):
         text, stats = self.apply({("author", "א"): "ישן"})
         self.assertEqual((text, stats["updated"]), (lock_text(*self.ROWS), 0))
@@ -183,6 +193,42 @@ class CommandLineTest(unittest.TestCase):
         self.assertIn("author\tאחר\tרבי ד", (self.root / gate.LOCK_PATH).read_text(encoding="utf-8"))
         # a second run finds nothing to do
         self.assertIn("updated 0, added 0", self.run_tool("--all-changed-vs", "HEAD", "--add-new")[1])
+
+    def init_repo(self):
+        git(self.root, "init", "-q", "-b", "main")
+        git(self.root, "config", "user.email", "gate@example.invalid")
+        git(self.root, "config", "user.name", "gate")
+        git(self.root, "config", "commit.gpgsign", "false")
+
+    def commit(self, message):
+        git(self.root, "add", "-A")
+        git(self.root, "commit", "-q", "-m", message)
+
+    def test_a_branch_behind_ref_locks_only_its_own_changes(self):
+        self.init_repo()
+        self.write(gate.METADATA_JSON, metadata(("א", "רבי א"), ("ד", "צורה ישנה")))
+        self.write(gate.LOCK_PATH, lock_text(("author", "א", "רבי א", "")))
+        self.commit("base")
+        git(self.root, "checkout", "-q", "-b", "branch")
+        git(self.root, "checkout", "-q", "main")
+        self.write(gate.METADATA_JSON, metadata(("א", "רבי א"), ("ד", "רבי ד המתוקן")))
+        self.commit("main fixes ד")
+        git(self.root, "checkout", "-q", "branch")
+        self.write(gate.METADATA_JSON, metadata(("א", "רבי א החדש"), ("ד", "צורה ישנה")))
+        code, out = self.run_tool("--all-changed-vs", "main", "--add-new")
+        self.assertEqual(code, 0, out)
+        self.assertIn("updated 1, added 0", out)
+        self.assertNotIn("author\tד\t", (self.root / gate.LOCK_PATH).read_text(encoding="utf-8"))
+
+    def test_an_untracked_new_book_is_locked(self):
+        self.init_repo()
+        self.write(gate.METADATA_JSON, metadata(("א", "רבי א")))
+        self.write(gate.LOCK_PATH, lock_text())
+        self.commit("base")
+        self.write(OTHER, "כותרת\nרבי חדש\n")
+        code, out = self.run_tool("--all-changed-vs", "HEAD", "--add-new")
+        self.assertEqual(code, 0, out)
+        self.assertIn(f"line2\t{OTHER}\tרבי חדש", (self.root / gate.LOCK_PATH).read_text(encoding="utf-8"))
 
 
 if __name__ == "__main__":

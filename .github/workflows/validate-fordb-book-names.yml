@@ -96,27 +96,7 @@ jobs:
           PYTHONIOENCODING: "utf-8"
         run: |
           set -euo pipefail
-          python3 -m unittest test_validate_fordb_book_names test_fordb_book_renames test_book_info_writer test_library_tree test_check_author_mirrors test_check_locked_metadata test_update_locked_metadata test_follow_lock_renames -v
-
-      # ערכים שתוקנו ביד ונבדקו נעולים ב-.github/data/locked_metadata.tsv: author ב-metadata.json,
-      # שמות קנוניים ב-sefaria_author_changes.csv ו-heShortDesc/heDescNew ב-sefaria_metadata_changes.csv.
-      # סנכרון heAuthors -> metadata.json, הרצה ידנית של sefaria-export או שינוי מפתח בספריא
-      # נכשלים כאן במקום להחזיר בשקט ערך ישן. שינוי מכוון = עדכון השורה באותו קומיט
-      # (update_locked_metadata.py); PR של עורך הקטלוג נושא את העדכון בקומיט משלו.
-      # offline, שניות ספורות. שורה 2 של קובצי הספרים (line2) לא נבדקת כאן: ה-checkout הזה
-      # אינו מושך את תוכן הספרים, ולכן --skip line2 במפורש.
-      - name: Check locked metadata values
-        env:
-          PYTHONIOENCODING: "utf-8"
-        run: python3 .github/scripts/check_locked_metadata.py --skip line2
-
-      # שם המחבר של ספר של המאגר נקבע ב-metadata.json; heAuthors ב-ForDB/all_metadata.json ו-authorName
-      # ב-ForDB/book_info.csv הם העתקים (ForDB/README.md). אזהרה בלבד, ותמיד exit 0: הפרש דורש לעתים
-      # הכרעת אדם, ושינוי authorName מחייב אירוע rename ביומן הזהות של האתר.
-      - name: Warn when author copies differ from metadata.json
-        env:
-          PYTHONIOENCODING: "utf-8"
-        run: python3 .github/scripts/check_author_mirrors.py
+          python3 -m unittest test_validate_fordb_book_names test_fordb_book_renames test_book_info_writer test_library_tree test_check_author_mirrors test_check_locked_metadata test_update_locked_metadata test_follow_lock_renames test_fordb_archive -v
 
       # שינויי-שם נעקבים מהקומיט האחרון שהזרימה הזו אימתה *בהצלחה*, לא רק מ-
       # github.event.before: ריצה שנכשלה (למשל כשה-push של ה-auto-fix הפסיד במרוץ, כמו
@@ -143,6 +123,21 @@ jobs:
             bases="$last_ok ${BEFORE:-}"
           fi
           echo "bases=$bases" >> "$GITHUB_OUTPUT"
+
+      # שם המחבר של ספר של המאגר נקבע ב-metadata.json; heAuthors ו-authorName הם העתקים. אזהרה
+      # בלבד: הפרש דורש לעתים הכרעת אדם, ושינוי authorName מחייב אירוע rename ביומן הזהות של האתר.
+      # מסומן רק הפרש חדש מאז הבסיס; קריסה של הבדיקה עצמה מפילה את הצעד.
+      - name: Warn when author copies differ from metadata.json
+        env:
+          PYTHONIOENCODING: "utf-8"
+          RENAME_BASES: ${{ steps.rename_base.outputs.bases }}
+        run: |
+          set -euo pipefail
+          base_args=()
+          for base in $RENAME_BASES; do
+            base_args+=(--base "$base")
+          done
+          python3 .github/scripts/check_author_mirrors.py "${base_args[@]}"
 
       # exit 1 = נשארה בעיה שאסור לתקן בניחוש (כולל שינוי-שם שלא ניתן ליישר בבטחה —
       # שורותיו נשמרות); exit 2 = ספריא לא זמינה. במקרה השני --fix יוצא לפני כל כתיבה,
@@ -171,72 +166,53 @@ jobs:
             echo "fixed=false" >> "$GITHUB_OUTPUT"
           fi
 
-      # שורות הנעילה של author ושל תיאורי הספר נקראות לפי כותר הספר. ה-auto-fix שינה את הכותר
-      # בקבצים, ולכן הנעילה עוברת איתו (ובלי זה הריצה הבאה נכשלת ב-MISSING). שורות line2 לא נוגעים
-      # בהן כאן: מפתחן הוא נתיב, והן לא נבדקות ב-CI.
-      - name: Follow book renames in the metadata lock
-        if: ${{ steps.names.outputs.fixed == 'true' }}
+      # שורות הנעילה עוברות עם הספר. author ותיאורי הספר נקראים לפי הכותר שה-auto-fix כתב בפועל
+      # (fordb_renamed.json: הערך לפני ואחרי בכל קובץ, באיות של אותו קובץ); line2 נקרא לפי נתיב,
+      # ועובר עם שינוי-שם או העברה שה-git מזהה כזהים בתוכן (R100) מאז הבסיס. בלי זה הריצה הבאה
+      # נכשלת ב-MISSING. רק ב-push ל-main, כמו ה-auto-fix; ב-PR הבדיקה שלמטה מקבלת העברה כזו.
+      - name: Follow book renames and moves in the metadata lock
+        id: follow
+        if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
         env:
           PYTHONIOENCODING: "utf-8"
-        run: python3 .github/scripts/follow_lock_renames.py
+          RENAME_BASES: ${{ steps.rename_base.outputs.bases }}
+        run: |
+          set -euo pipefail
+          base_args=()
+          for base in $RENAME_BASES; do
+            base_args+=(--base "$base")
+          done
+          python3 .github/scripts/follow_lock_renames.py "${base_args[@]}"
+          if git diff --quiet -- .github/data/locked_metadata.tsv; then
+            echo "followed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "followed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      # ערכים שתוקנו ביד ונבדקו נעולים ב-.github/data/locked_metadata.tsv: author ב-metadata.json,
+      # line2 (שורה 2 של קובץ ספר), שמות קנוניים ב-sefaria_author_changes.csv ו-heShortDesc/heDescNew
+      # ב-sefaria_metadata_changes.csv. סנכרון heAuthors -> metadata.json, הרצה ידנית של
+      # sefaria-export, המרה חוזרת או שינוי מפתח בספריא נכשלים כאן במקום להחזיר בשקט ערך ישן.
+      # שינוי מכוון = עדכון השורה באותו קומיט (update_locked_metadata.py). רץ אחרי ה-auto-fix
+      # והמעקב, כך שגם מה שהבוט עומד לדחוף נבדק. קובצי הספרים אינם ב-checkout: line2 נקרא
+      # מ-git, כל נתיב נעול חייב להתקיים, ושורה 2 מושווית בספרים שהשתנו מאז הבסיס (או ששורת
+      # הנעילה שלהם השתנתה). בדיקה מלאה של כל הספרים: הרצה מקומית בלי --git-rev.
+      - name: Check locked metadata values
+        env:
+          PYTHONIOENCODING: "utf-8"
+          RENAME_BASES: ${{ steps.rename_base.outputs.bases }}
+        run: |
+          set -euo pipefail
+          since_args=()
+          for base in $RENAME_BASES; do
+            since_args+=(--since "$base")
+          done
+          python3 .github/scripts/check_locked_metadata.py --git-rev HEAD "${since_args[@]}"
 
       # אורזים בדיוק את המועמד הנוכחי, כדי שכל תהליכי SeforimLibrary יקראו payload
       # יחיד וממוען-תוכן — ללא תלות ב-fordb_latest_pointer.json שעדיין מצביע ל-last-good.
       - name: Create deterministic candidate archive
-        run: |
-          set -euo pipefail
-          export LANG=C.UTF-8
-          export LC_ALL=C.UTF-8
-          python3 - <<'PY'
-          from pathlib import Path
-          import zipfile
-
-          root = Path("ForDB")
-          expected = {
-              "ForDB/all_metadata.json",
-              # טבלאות banner / book_banner / book_protection; קובץ חסר מפיל את הבנייה.
-              "ForDB/book_banners.csv",
-              # מידע על ספרים מהאתר; מקור הדור של seedGenerations (במקום generations.csv).
-              "ForDB/book_info.csv",
-              "ForDB/book_moves.csv",
-              "ForDB/book_protection.csv",
-              "ForDB/book_renames.csv",
-              "ForDB/category_moves.csv",
-              "ForDB/category_renames.csv",
-              # קודש/חול בתנ"ך ל-line_divine_name; קובץ חסר מפיל את הבנייה.
-              "ForDB/divine_name_overrides.csv",
-              "ForDB/sefaria_author_changes.csv",
-              "ForDB/sefaria_category_changes.csv",
-              "ForDB/sefaria_metadata_changes.csv",
-          }
-          paths = sorted(
-              (path for path in root.rglob("*") if path.name != ".DS_Store" and path.as_posix() not in ("ForDB/book_info_identity.json", "ForDB/README.md")),
-              key=lambda path: path.as_posix().encode(),
-          )
-          if any(path.is_symlink() for path in paths):
-              raise SystemExit("ForDB archive refuses symlinks")
-          actual = {path.as_posix() for path in paths if path.is_file()}
-          if actual != expected:
-              missing = sorted(expected - actual)
-              unknown = sorted(actual - expected)
-              raise SystemExit(
-                  "ForDB consumer coverage is incomplete; "
-                  f"missing={missing}, files without a runtime validator={unknown}"
-              )
-          with zipfile.ZipFile(
-              "fordb_candidate.zip",
-              "w",
-              compression=zipfile.ZIP_STORED,
-          ) as archive:
-              for path in paths:
-                  if not path.is_file():
-                      continue
-                  info = zipfile.ZipInfo(path.as_posix(), date_time=(1980, 1, 1, 0, 0, 0))
-                  info.create_system = 3
-                  info.external_attr = 0o100644 << 16
-                  info.compress_type = zipfile.ZIP_STORED
-                  archive.writestr(info, path.read_bytes())
-          PY
+        run: python3 .github/scripts/fordb_archive.py build "$ARCHIVE_NAME"
 
       # ה-runner הנוכחי (ubuntu-24.04, Hosted Compute) מגיע עם ~86GB פנויים, והניקוי
       # שלמטה לקח ~4 דקות מתוך ~9. מנקים רק אם המקום הפנוי נמוך מהסף: ה-DB המפוענח,
@@ -356,7 +332,7 @@ jobs:
       # ואת הודעת הקומיט. אם ה-push מפסיד במרוץ, הריצה נכשלת ואינה "מוצלחת", ולכן
       # הריצה הבאה עוקבת שוב מאותו בסיס — שום שינוי-שם לא הולך לאיבוד.
       - name: Commit and push safe ForDB fixes
-        if: ${{ steps.names.outputs.fixed == 'true' }}
+        if: ${{ steps.names.outputs.fixed == 'true' || steps.follow.outputs.followed == 'true' }}
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"

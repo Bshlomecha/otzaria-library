@@ -1,6 +1,7 @@
 import contextlib
 import io
 import json
+import subprocess
 import tempfile
 import unittest
 from pathlib import Path
@@ -160,6 +161,103 @@ class EscapeTest(unittest.TestCase):
         for text in ("a\tb", "a\nb", "a\r\nb", "a\\nb", "\\"):
             with self.subTest(text=text):
                 self.assertEqual(gate.unescape(gate.escape(text), "t:1"), text)
+
+
+def git(repo, *args):
+    return subprocess.run(["git", *args], cwd=repo, check=True, capture_output=True).stdout.decode()
+
+
+class GitLine2Test(unittest.TestCase):
+    """--git-rev: the CI checkout has no book files, so line2 is read from git."""
+
+    OTHER = "MoreBooks/ספרים/אוצריא/הלכה/אחר.txt"
+
+    def setUp(self):
+        self.dir = tempfile.TemporaryDirectory()
+        self.repo = Fixture(Path(self.dir.name))
+        self.repo.write(self.OTHER, "<h1>אחר</h1>\nרבי אלמוני\nטקסט ארוך דיו\n" * 3)
+        root = self.repo.root
+        git(root, "init", "-q", "-b", "main")
+        git(root, "config", "user.email", "gate@example.invalid")
+        git(root, "config", "user.name", "gate")
+        git(root, "config", "commit.gpgsign", "false")
+        self.rows = (("line2", BOOK, "רבי פלוני", ""), ("line2", self.OTHER, "רבי אלמוני", ""))
+        self.repo.write(gate.LOCK_PATH, lock_file(*self.rows))
+        self.base = self.commit("base")
+
+    def tearDown(self):
+        self.dir.cleanup()
+
+    def commit(self, message):
+        git(self.repo.root, "add", "-A")
+        git(self.repo.root, "commit", "-q", "-m", message)
+        return git(self.repo.root, "rev-parse", "HEAD").strip()
+
+    def run_git_mode(self, *rows, since=None):
+        if rows:
+            self.repo.write(gate.LOCK_PATH, lock_file(*rows))
+        args = ["--git-rev", "HEAD"] + (["--since", since] if since else [])
+        return self.repo.run(*(rows or self.rows), args=args)
+
+    def test_a_changed_book_is_compared_and_an_unchanged_one_is_not_read(self):
+        self.repo.write(BOOK, "<h1>ספר</h1>\nרבי אחר\nטקסט\n")
+        (self.repo.root / self.OTHER).unlink()  # gone from the working tree, still in git
+        git(self.repo.root, "add", "-A")
+        git(self.repo.root, "checkout", "-q", "HEAD", "--", self.OTHER)
+        self.commit("edit")
+        (self.repo.root / self.OTHER).unlink()
+        code, out = self.run_git_mode(since=self.base)
+        self.assertEqual(code, 1, out)
+        self.assertIn(f"locked_metadata.tsv:2: line2 '{BOOK}' is locked to 'רבי פלוני', now 'רבי אחר'", out)
+        self.assertIn("1 changed books compared", out)
+
+    def test_working_tree_book_files_are_not_needed(self):
+        for path in (BOOK, self.OTHER):
+            (self.repo.root / path).unlink()
+        code, out = self.run_git_mode(since=self.base)
+        self.assertEqual(code, 0, out)
+
+    def test_an_exact_move_is_a_note_and_a_move_with_an_edit_fails(self):
+        moved = self.OTHER.replace("הלכה", "מוסר")
+        (self.repo.root / moved).parent.mkdir(parents=True)
+        git(self.repo.root, "mv", self.OTHER, moved)
+        self.commit("move")
+        code, out = self.run_git_mode(since=self.base)
+        self.assertEqual(code, 0, out)
+        self.assertIn("MOVED:", out)
+        self.repo.write(moved, "<h1>אחר</h1>\nרבי אלמוני\nטקסט אחר לגמרי\n")
+        self.commit("edit")
+        code, out = self.run_git_mode(since=self.base)
+        self.assertEqual(code, 1, out)
+        self.assertIn("MISSING:", out)
+
+    def test_an_exact_move_out_of_the_packaged_roots_fails(self):
+        moved = "extraBooks/ספרים/אוצריא/הלכה/אחר.txt"
+        (self.repo.root / moved).parent.mkdir(parents=True)
+        git(self.repo.root, "mv", self.OTHER, moved)
+        self.commit("discard")
+        code, out = self.run_git_mode(since=self.base)
+        self.assertEqual(code, 1, out)
+        self.assertIn("MISSING:", out)
+
+    def test_a_new_lock_row_is_compared_even_when_its_book_did_not_change(self):
+        rows = (("line2", BOOK, "רבי פלוני", ""), ("line2", self.OTHER, "ערך אחר", ""))
+        self.repo.write(gate.LOCK_PATH, lock_file(*rows))
+        self.commit("relock")
+        code, out = self.run_git_mode(*rows, since=self.base)
+        self.assertEqual(code, 1, out)
+        self.assertIn(f"line2 '{self.OTHER}'", out)
+
+    def test_without_a_usable_base_only_paths_are_checked(self):
+        self.repo.write(BOOK, "<h1>ספר</h1>\nרבי אחר\n")
+        self.commit("edit")
+        code, out = self.run_git_mode(since="0" * 40)
+        self.assertEqual(code, 0, out)
+        self.assertIn("only the paths were checked", out)
+        rows = (("line2", "MoreBooks/ספרים/אוצריא/אין.txt", "x", ""),)
+        code, out = self.run_git_mode(*rows)
+        self.assertEqual(code, 1, out)
+        self.assertIn("does not exist in HEAD", out)
 
 
 class RepositoryLockTest(unittest.TestCase):

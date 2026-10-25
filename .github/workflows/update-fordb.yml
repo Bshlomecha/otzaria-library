@@ -5,6 +5,10 @@ name: Update ForDB release
 #
 # כל payload מתפרסם תחת tag ממוען-תוכן, ללא clobber. הקובץ
 # fordb_latest_pointer.json ב-main הוא המצביע האטומי היחיד ל-last-good.
+#
+# ריצה שנכשלה או שהוחלפה בתור אינה חוזרת מעצמה, ושום push נוסף ל-ForDB אינו מגיע בהכרח.
+# לכן ריצה יומית מתוזמנת: אם תוכן הארכיב ב-main שונה ממה שהמצביע מצביע עליו, היא מפרסמת;
+# אחרת (וכך גם ב-push שלא שינה את תוכן הארכיב, למשל README) היא מסתיימת בלי השער הכבד.
 
 on:
   push:
@@ -12,6 +16,8 @@ on:
       - main
     paths:
       - "ForDB/**"
+  schedule:
+    - cron: "41 2 * * *"
   workflow_dispatch:
 
 permissions:
@@ -24,6 +30,8 @@ concurrency:
 
 jobs:
   publish-fordb:
+    needs: freshness
+    if: ${{ needs.freshness.outputs.publish == 'true' }}
     runs-on: ubuntu-24.04
     # Includes a multi-GB DB download + fresh Gradle compile + full real-consumer
     # validation. Keep a finite ceiling but allow normal network/cache variance.
@@ -35,7 +43,6 @@ jobs:
 
     env:
       ARCHIVE_NAME: fordb_latest.zip
-      SRC_DIR: ForDB
 
     steps:
       - name: Checkout repository
@@ -49,6 +56,7 @@ jobs:
           sparse-checkout: |
             /ForDB/
             /.github/scripts/
+            /.github/data/locked_metadata.tsv
             /.github/workflows/validate-fordb-book-names.yml
             /.github/workflows/update-fordb.yml
             /all_metadata_with_file_paths.json
@@ -81,37 +89,19 @@ jobs:
           PYTHONIOENCODING: "utf-8"
         run: python3 .github/scripts/validate_fordb_book_names.py
 
+      # ערכים נעולים בקובצי ForDB (שמות קנוניים ותיאורי ספרים): ערך נעול שנדרס לא מתפרסם.
+      # author ו-line2 אינם ב-ForDB ונבדקים ב-validate-fordb-book-names.yml.
+      - name: Check locked ForDB values
+        env:
+          PYTHONIOENCODING: "utf-8"
+        run: python3 .github/scripts/check_locked_metadata.py --skip author --skip line2
+
+      # The archive and its coverage check live in fordb_archive.py, shared with the
+      # candidate archive of validate-fordb-book-names.yml.
       - name: Create ForDB archive
         run: |
           set -euo pipefail
-          export LANG=C.UTF-8
-          export LC_ALL=C.UTF-8
-
-          if [ ! -d "$SRC_DIR" ]; then
-            echo "Source directory '$SRC_DIR' not found." >&2
-            exit 1
-          fi
-
-          echo "Creating deterministic ZIP archive of '$SRC_DIR'..."
-          # Stored (uncompressed) entries, fixed timestamp/mode and bytewise path
-          # ordering make the exact archive a pure function of file names+bytes;
-          # runner zlib upgrades and source mtimes cannot mint a different digest.
-          python3 - <<'PY'
-          from pathlib import Path
-          import zipfile
-          root=Path("ForDB")
-          paths=sorted((p for p in root.rglob("*") if p.name != ".DS_Store" and p.as_posix() not in ("ForDB/book_info_identity.json", "ForDB/README.md")),key=lambda p:p.as_posix().encode())
-          if any(p.is_symlink() for p in paths): raise SystemExit("ForDB archive refuses symlinks")
-          with zipfile.ZipFile("fordb_latest.zip","w",compression=zipfile.ZIP_STORED) as archive:
-              for path in paths:
-                  if not path.is_file(): continue
-                  info=zipfile.ZipInfo(path.as_posix(),date_time=(1980,1,1,0,0,0))
-                  info.create_system=3
-                  info.external_attr=0o100644 << 16
-                  info.compress_type=zipfile.ZIP_STORED
-                  archive.writestr(info,path.read_bytes())
-          PY
-
+          python3 .github/scripts/fordb_archive.py build "$ARCHIVE_NAME"
           echo "Archive contents:"
           unzip -l "$GITHUB_WORKSPACE/$ARCHIVE_NAME"
 
@@ -233,13 +223,15 @@ jobs:
           archive_sha="$(sha256sum "$ARCHIVE_NAME" | cut -d' ' -f1)"
           archive_size="$(stat -c %s "$ARCHIVE_NAME")"
           immutable_tag="fordb-sha256-$archive_sha"
-          jq -cS -n \
-            --arg archive_name "$ARCHIVE_NAME" --arg archive_sha "$archive_sha" \
-            --argjson archive_size "$archive_size" --arg source_commit "$GITHUB_SHA" \
-            --arg validator_tool_sha "$VALIDATOR_TOOL_SHA" \
-            --arg validated_library_tag "$VALIDATED_LIBRARY_TAG" \
-            '{schema_version:1,archive:{name:$archive_name,sha256:$archive_sha,size:$archive_size},source_commit:$source_commit,validator_tool_sha:$validator_tool_sha,validated_library_tag:$validated_library_tag}' \
-            > fordb_provenance.json
+          write_provenance() {
+            jq -cS -n \
+              --arg archive_name "$ARCHIVE_NAME" --arg archive_sha "$archive_sha" \
+              --argjson archive_size "$archive_size" --arg source_commit "$1" \
+              --arg validator_tool_sha "$VALIDATOR_TOOL_SHA" \
+              --arg validated_library_tag "$VALIDATED_LIBRARY_TAG" \
+              '{schema_version:1,archive:{name:$archive_name,sha256:$archive_sha,size:$archive_size},source_commit:$source_commit,validator_tool_sha:$validator_tool_sha,validated_library_tag:$validated_library_tag}' \
+              > fordb_provenance.json
+          }
 
           rm -rf fordb-verify && mkdir fordb-verify
           list_releases() {
@@ -253,19 +245,50 @@ jobs:
               else error("expected at most one ForDB release for the immutable tag") end
             ' fordb-verify/releases.json
           }
-          list_releases
-          release_id="$(find_release_id)"
-          if [ -z "$release_id" ]; then
-            gh release create "$immutable_tag" --draft --latest=false --target "$GITHUB_SHA" \
-              --title "$immutable_tag" --notes "Immutable validated ForDB payload sha256:$archive_sha" \
-              "$ARCHIVE_NAME" fordb_provenance.json
-            for _ in $(seq 1 12); do
-              list_releases
-              release_id="$(find_release_id)"
-              [ -n "$release_id" ] && break
-              sleep 5
-            done
-          fi
+          # GitHub refuses GITHUB_TOKEN a new tag on a commit whose .github/workflows differs
+          # from main's tip ("HTTP 403: Resource not accessible by integration", runs 40227285093
+          # and 40227471966): main had moved on to a workflow change while the run waited for the
+          # gate. The tag therefore goes on main's current tip whenever that tip ships the same
+          # ForDB files; when main changed ForDB since, the run for that change (or the daily
+          # run) publishes instead. A lost race with another push is retried on fresh main.
+          # A draft left by a failed run is never consumed and carries an old target, so it is
+          # deleted and created again here rather than published as it is.
+          release_id=""
+          for attempt in 1 2 3 4 5; do
+            list_releases
+            release_id="$(find_release_id)"
+            if [ -n "$release_id" ]; then
+              if [ "$(jq -r --arg tag "$immutable_tag" 'add | map(select(.tag_name == $tag))[0].draft' fordb-verify/releases.json)" != true ]; then
+                break
+              fi
+              echo "deleting the leftover draft $release_id of $immutable_tag"
+              gh api --method DELETE "repos/${GITHUB_REPOSITORY}/releases/$release_id"
+              release_id=""
+            fi
+            git fetch --no-tags origin main
+            target="$(git rev-parse FETCH_HEAD)"
+            same=0
+            python3 .github/scripts/fordb_archive.py same-content "$GITHUB_SHA" "$target" || same=$?
+            if [ "$same" = 3 ]; then
+              echo "::notice::ForDB changed on main after $GITHUB_SHA; the run for that change (or the daily run) publishes it"
+              exit 0
+            fi
+            [ "$same" = 0 ]
+            write_provenance "$target"
+            if gh release create "$immutable_tag" --draft --latest=false --target "$target" \
+                --title "$immutable_tag" --notes "Immutable validated ForDB payload sha256:$archive_sha" \
+                "$ARCHIVE_NAME" fordb_provenance.json; then
+              for _ in $(seq 1 12); do
+                list_releases
+                release_id="$(find_release_id)"
+                [ -n "$release_id" ] && break
+                sleep 5
+              done
+              break
+            fi
+            echo "release create attempt $attempt failed; retrying on fresh main"
+            sleep $((attempt * 5))
+          done
           [[ "$release_id" =~ ^[1-9][0-9]*$ ]]
           verify_remote() {
             gh api "repos/${GITHUB_REPOSITORY}/releases/$release_id" > fordb-verify/release.json
@@ -378,3 +401,52 @@ jobs:
           done
           [ "$pushed" = true ]
           echo "Published $immutable_tag and advanced fordb_latest_pointer.json"
+
+  # הבדיקה הזולה לפני השער הכבד: האם הארכיב שהקומיט הזה היה מפרסם שונה ממה שהמצביע
+  # מצביע עליו. ממוקם אחרי publish-fordb בקובץ: ה-checkout הראשון בקובץ הוא של המפרסם.
+  freshness:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    outputs:
+      publish: ${{ steps.compare.outputs.publish }}
+    steps:
+      - name: Checkout ForDB and the pointer
+        uses: actions/checkout@v6
+        with:
+          lfs: false
+          sparse-checkout: |
+            /ForDB/
+            /.github/scripts/
+          sparse-checkout-cone-mode: false
+
+      - name: Hydrate only possible ForDB inputs from LFS
+        run: |
+          set -euo pipefail
+          git lfs install --local
+          git lfs pull --include="ForDB/**" --exclude=""
+
+      # אותו פייתון כמו ב-publish-fordb, כדי שהארכיב ייבנה באותם בתים.
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      # המצביע נקרא מקצה main ולא מהקומיט של הריצה: ריצה שהמתינה בתור ותוכנה כבר פורסם
+      # בידי ריצה אחרת אינה צריכה את השער הכבד.
+      - name: Compare the archive with the published pointer
+        id: compare
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          python3 .github/scripts/fordb_archive.py build candidate.zip
+          candidate="$(sha256sum candidate.zip | cut -d' ' -f1)"
+          published="$(gh api -H "Accept: application/vnd.github.raw+json" \
+            "repos/${GITHUB_REPOSITORY}/contents/fordb_latest_pointer.json?ref=main" | jq -er .sha256)"
+          if [ "$candidate" = "$published" ]; then
+            echo "::notice::ForDB at $GITHUB_SHA is already published ($published)"
+            echo "publish=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "ForDB at $GITHUB_SHA ($candidate) differs from the pointer ($published)"
+            echo "publish=true" >> "$GITHUB_OUTPUT"
+          fi
