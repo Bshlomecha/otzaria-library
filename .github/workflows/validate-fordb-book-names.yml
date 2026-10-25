@@ -62,6 +62,7 @@ jobs:
             /.github/workflows/update-fordb.yml
             /.claude/skills/otzaria-book-format/scripts/make_metadata.py
             /all_metadata_with_file_paths.json
+            /metadata.json
             /manual_links_packaging.py
           sparse-checkout-cone-mode: false
           # PAT ב-main גורם ל-auto-fix push להפעיל את השערים מחדש. ב-fork PR אין
@@ -94,7 +95,15 @@ jobs:
           PYTHONIOENCODING: "utf-8"
         run: |
           set -euo pipefail
-          python3 -m unittest test_validate_fordb_book_names test_fordb_book_renames test_book_info_writer test_library_tree -v
+          python3 -m unittest test_validate_fordb_book_names test_fordb_book_renames test_book_info_writer test_library_tree test_check_author_mirrors -v
+
+      # שם המחבר של ספר של המאגר נקבע ב-metadata.json; heAuthors ב-ForDB/all_metadata.json ו-authorName
+      # ב-ForDB/book_info.csv הם העתקים (ForDB/README.md). אזהרה בלבד, ותמיד exit 0: הפרש דורש לעתים
+      # הכרעת אדם, ושינוי authorName מחייב אירוע rename ביומן הזהות של האתר.
+      - name: Warn when author copies differ from metadata.json
+        env:
+          PYTHONIOENCODING: "utf-8"
+        run: python3 .github/scripts/check_author_mirrors.py
 
       # שינויי-שם נעקבים מהקומיט האחרון שהזרימה הזו אימתה *בהצלחה*, לא רק מ-
       # github.event.before: ריצה שנכשלה (למשל כשה-push של ה-auto-fix הפסיד במרוץ, כמו
