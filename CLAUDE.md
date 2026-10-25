@@ -106,6 +106,20 @@ BeitAharonVeYisraelToOtzaria/ספרים/אוצריא
 סופר` ו־`סופר, שמעון בן אברהם שמואל בנימין` דומים הרבה יותר זה לזה מאשר שתי
 הצורות של יעקב מליסא, והם אב ובן.
 
+### ערכים נעולים
+
+חלק מהערכים תוקנו ונבדקו ביד; הם רשומים ב־[.github/data/locked_metadata.tsv](.github/data/locked_metadata.tsv):
+`author` ב־`metadata.json`, שורה 2 בקובץ הספר, `שם קנוני` ב־`ForDB/sefaria_author_changes.csv`,
+`heShortDesc` ו־`heDescNew` ב־`ForDB/sefaria_metadata_changes.csv`. ערך נעול **קודם** לכל סנכרון
+גורף — `heAuthors` → `metadata.json`, הרצה ידנית של `sefaria-export`, המרה חוזרת או שינוי מפתח
+בספריא. `.github/scripts/check_locked_metadata.py` רץ ב־`validate-fordb-book-names.yml` ונכשל כשערך
+נעול השתנה או כשהמפתח שלו נעלם (ספר ששמו שונה או שנמחק, שורת CSV שנמחקה). שינוי מכוון: מעדכנים את
+השורה **באותו קומיט** — `python3 .github/scripts/update_locked_metadata.py --key KIND:KEY`, או
+`--all-changed-vs origin/main --add-new` לכל מה שהענף שינה — או עורכים אותה ביד. PR של עורך הקטלוג
+(Bshlomecha) נושא את עדכון הנעילה בקומיט משלו, «עדכון קובץ הנעילה לערכים החדשים». שורה 2 אינה נבדקת ב־CI (ה־job אינו מושך את קובצי
+הספרים, לכן `--skip line2`); בודקים אותה בעותק מלא בהרצה בלי הדגל. בספרי ממירים היא נשמרת גם
+ב־`post_convert_fixes.tsv` של המקור.
+
 ## באנר והגנה לספר
 
 שני קבצי חובה ב־`ForDB/`, שהמחולל ב־SeforimLibrary הופך לטבלאות `banner`, `book_banner`
