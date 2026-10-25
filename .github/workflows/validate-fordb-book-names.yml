@@ -58,10 +58,12 @@ jobs:
           sparse-checkout: |
             /ForDB/
             /.github/scripts/
+            /.github/data/locked_metadata.tsv
             /.github/workflows/validate-fordb-book-names.yml
             /.github/workflows/update-fordb.yml
             /.claude/skills/otzaria-book-format/scripts/make_metadata.py
             /all_metadata_with_file_paths.json
+            /metadata.json
             /manual_links_packaging.py
           sparse-checkout-cone-mode: false
           # PAT ב-main גורם ל-auto-fix push להפעיל את השערים מחדש. ב-fork PR אין
@@ -94,7 +96,19 @@ jobs:
           PYTHONIOENCODING: "utf-8"
         run: |
           set -euo pipefail
-          python3 -m unittest test_validate_fordb_book_names test_fordb_book_renames test_book_info_writer test_library_tree -v
+          python3 -m unittest test_validate_fordb_book_names test_fordb_book_renames test_book_info_writer test_library_tree test_check_locked_metadata test_update_locked_metadata -v
+
+      # ערכים שתוקנו ביד ונבדקו נעולים ב-.github/data/locked_metadata.tsv: author ב-metadata.json,
+      # שמות קנוניים ב-sefaria_author_changes.csv ו-heShortDesc/heDescNew ב-sefaria_metadata_changes.csv.
+      # סנכרון heAuthors -> metadata.json, הרצה ידנית של sefaria-export או שינוי מפתח בספריא
+      # נכשלים כאן במקום להחזיר בשקט ערך ישן. שינוי מכוון = עדכון השורה באותו קומיט
+      # (update_locked_metadata.py); PR של עורך הקטלוג נושא את העדכון בקומיט משלו.
+      # offline, שניות ספורות. שורה 2 של קובצי הספרים (line2) לא נבדקת כאן: ה-checkout הזה
+      # אינו מושך את תוכן הספרים, ולכן --skip line2 במפורש.
+      - name: Check locked metadata values
+        env:
+          PYTHONIOENCODING: "utf-8"
+        run: python3 .github/scripts/check_locked_metadata.py --skip line2
 
       # שינויי-שם נעקבים מהקומיט האחרון שהזרימה הזו אימתה *בהצלחה*, לא רק מ-
       # github.event.before: ריצה שנכשלה (למשל כשה-push של ה-auto-fix הפסיד במרוץ, כמו
