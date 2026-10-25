@@ -210,7 +210,7 @@ jobs:
               "ForDB/sefaria_metadata_changes.csv",
           }
           paths = sorted(
-              (path for path in root.rglob("*") if path.name != ".DS_Store" and path.as_posix() != "ForDB/book_info_identity.json"),
+              (path for path in root.rglob("*") if path.name != ".DS_Store" and path.as_posix() not in ("ForDB/book_info_identity.json", "ForDB/README.md")),
               key=lambda path: path.as_posix().encode(),
           )
           if any(path.is_symlink() for path in paths):
