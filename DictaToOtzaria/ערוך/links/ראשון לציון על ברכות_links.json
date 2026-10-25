@@ -1,0 +1,1370 @@
+[
+  {
+    "line_index_1": 6,
+    "line_index_2": 3,
+    "heRef_2": "ברכות ב., א",
+    "ref_2": "Berakhot 2a:1",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 7,
+    "line_index_2": 10,
+    "heRef_2": "ברכות ב., ח",
+    "ref_2": "Berakhot 2a:8",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 9,
+    "line_index_2": 15,
+    "heRef_2": "תוספות על ברכות ב:, יז, א",
+    "ref_2": "Tosafot on Berakhot 2b:17:1",
+    "path_2": "תוספות על ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 11,
+    "line_index_2": 105,
+    "heRef_2": "ברכות ד., יט",
+    "ref_2": "Berakhot 4a:19",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 13,
+    "line_index_2": 337,
+    "heRef_2": "ברכות ח., יט",
+    "ref_2": "Berakhot 8a:19",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 15,
+    "line_index_2": 367,
+    "heRef_2": "ברכות ח:, יח",
+    "ref_2": "Berakhot 8b:18",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 16,
+    "line_index_2": 367,
+    "heRef_2": "ברכות ח:, יח",
+    "ref_2": "Berakhot 8b:18",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 17,
+    "line_index_2": 367,
+    "heRef_2": "ברכות ח:, יח",
+    "ref_2": "Berakhot 8b:18",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 19,
+    "line_index_2": 384,
+    "heRef_2": "ברכות ט., יא",
+    "ref_2": "Berakhot 9a:11",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 20,
+    "line_index_2": 384,
+    "heRef_2": "ברכות ט., יא",
+    "ref_2": "Berakhot 9a:11",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 22,
+    "line_index_2": 412,
+    "heRef_2": "ברכות ט:, ט",
+    "ref_2": "Berakhot 9b:9",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 24,
+    "line_index_2": 572,
+    "heRef_2": "ברכות יב., י",
+    "ref_2": "Berakhot 12a:10",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 25,
+    "line_index_2": 572,
+    "heRef_2": "ברכות יב., י",
+    "ref_2": "Berakhot 12a:10",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 26,
+    "line_index_2": 575,
+    "heRef_2": "ברכות יב., יג",
+    "ref_2": "Berakhot 12a:13",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 29,
+    "line_index_2": 636,
+    "heRef_2": "ברכות יג., טז",
+    "ref_2": "Berakhot 13a:16",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 30,
+    "line_index_2": 636,
+    "heRef_2": "ברכות יג., טז",
+    "ref_2": "Berakhot 13a:16",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 31,
+    "line_index_2": 636,
+    "heRef_2": "ברכות יג., טז",
+    "ref_2": "Berakhot 13a:16",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 32,
+    "line_index_2": 636,
+    "heRef_2": "ברכות יג., טז",
+    "ref_2": "Berakhot 13a:16",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 33,
+    "line_index_2": 636,
+    "heRef_2": "ברכות יג., טז",
+    "ref_2": "Berakhot 13a:16",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 35,
+    "line_index_2": 692,
+    "heRef_2": "ברכות יד., ד",
+    "ref_2": "Berakhot 14a:4",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 36,
+    "line_index_2": 695,
+    "heRef_2": "ברכות יד., ז",
+    "ref_2": "Berakhot 14a:7",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 37,
+    "line_index_2": 695,
+    "heRef_2": "ברכות יד., ז",
+    "ref_2": "Berakhot 14a:7",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 38,
+    "line_index_2": 695,
+    "heRef_2": "ברכות יד., ז",
+    "ref_2": "Berakhot 14a:7",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 40,
+    "line_index_2": 722,
+    "heRef_2": "ברכות יד:, יב",
+    "ref_2": "Berakhot 14b:12",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 42,
+    "line_index_2": 779,
+    "heRef_2": "ברכות טו:, טז",
+    "ref_2": "Berakhot 15b:16",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 44,
+    "line_index_2": 798,
+    "heRef_2": "ברכות טז., ד",
+    "ref_2": "Berakhot 16a:4",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 45,
+    "line_index_2": 799,
+    "heRef_2": "ברכות טז., ה",
+    "ref_2": "Berakhot 16a:5",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 46,
+    "line_index_2": 812,
+    "heRef_2": "ברכות טז., יח",
+    "ref_2": "Berakhot 16a:18",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 47,
+    "line_index_2": 814,
+    "heRef_2": "ברכות טז., כ",
+    "ref_2": "Berakhot 16a:20",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 50,
+    "line_index_2": 977,
+    "heRef_2": "ברכות כ:, יא",
+    "ref_2": "Berakhot 20b:11",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 52,
+    "line_index_2": 996,
+    "heRef_2": "ברכות כא., ז",
+    "ref_2": "Berakhot 21a:7",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 53,
+    "line_index_2": 995,
+    "heRef_2": "ברכות כא., ו",
+    "ref_2": "Berakhot 21a:6",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 54,
+    "line_index_2": 1003,
+    "heRef_2": "ברכות כא., יד",
+    "ref_2": "Berakhot 21a:14",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 55,
+    "line_index_2": 1003,
+    "heRef_2": "ברכות כא., יד",
+    "ref_2": "Berakhot 21a:14",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 57,
+    "line_index_2": 1010,
+    "heRef_2": "ברכות כא:, ג",
+    "ref_2": "Berakhot 21b:3",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 59,
+    "line_index_2": 1068,
+    "heRef_2": "ברכות כב:, טו",
+    "ref_2": "Berakhot 22b:15",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 61,
+    "line_index_2": 1128,
+    "heRef_2": "ברכות כד., ט",
+    "ref_2": "Berakhot 24a:9",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 63,
+    "line_index_2": 1148,
+    "heRef_2": "ברכות כד:, ה",
+    "ref_2": "Berakhot 24b:5",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 65,
+    "line_index_2": 1171,
+    "heRef_2": "ברכות כה., ה",
+    "ref_2": "Berakhot 25a:5",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 67,
+    "line_index_2": 1197,
+    "heRef_2": "ברכות כה:, ג",
+    "ref_2": "Berakhot 25b:3",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 68,
+    "line_index_2": 1198,
+    "heRef_2": "ברכות כה:, ד",
+    "ref_2": "Berakhot 25b:4",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 69,
+    "line_index_2": 1209,
+    "heRef_2": "ברכות כה:, טו",
+    "ref_2": "Berakhot 25b:15",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 70,
+    "line_index_2": 1210,
+    "heRef_2": "ברכות כה:, טז",
+    "ref_2": "Berakhot 25b:16",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 72,
+    "line_index_2": 1221,
+    "heRef_2": "ברכות כו., א",
+    "ref_2": "Berakhot 26a:1",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 74,
+    "line_index_2": 417,
+    "heRef_2": "ברכות ט:, יד",
+    "ref_2": "Berakhot 9b:14",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 75,
+    "line_index_2": 608,
+    "heRef_2": "ברכות יב:, יז",
+    "ref_2": "Berakhot 12b:17",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 76,
+    "line_index_2": 1237,
+    "heRef_2": "ברכות כו., יז",
+    "ref_2": "Berakhot 26a:17",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 77,
+    "line_index_2": 1239,
+    "heRef_2": "ברכות כו., יט",
+    "ref_2": "Berakhot 26a:19",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 79,
+    "line_index_2": 1245,
+    "heRef_2": "ברכות כו:, ג",
+    "ref_2": "Berakhot 26b:3",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 80,
+    "line_index_2": 1249,
+    "heRef_2": "ברכות כו:, ז",
+    "ref_2": "Berakhot 26b:7",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 81,
+    "line_index_2": 1250,
+    "heRef_2": "ברכות כו:, ח",
+    "ref_2": "Berakhot 26b:8",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 83,
+    "line_index_2": 1272,
+    "heRef_2": "ברכות כז., יד",
+    "ref_2": "Berakhot 27a:14",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 85,
+    "line_index_2": 1284,
+    "heRef_2": "ברכות כז:, ח",
+    "ref_2": "Berakhot 27b:8",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 87,
+    "line_index_2": 1313,
+    "heRef_2": "ברכות כח., יד",
+    "ref_2": "Berakhot 28a:14",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 88,
+    "line_index_2": 1314,
+    "heRef_2": "ברכות כח., טו",
+    "ref_2": "Berakhot 28a:15",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 90,
+    "line_index_2": 1345,
+    "heRef_2": "ברכות כט., א",
+    "ref_2": "Berakhot 29a:1",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 92,
+    "line_index_2": 1378,
+    "heRef_2": "ברכות כט:, ו",
+    "ref_2": "Berakhot 29b:6",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 93,
+    "line_index_2": 1388,
+    "heRef_2": "ברכות כט:, טז",
+    "ref_2": "Berakhot 29b:16",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 96,
+    "line_index_2": 1485,
+    "heRef_2": "ברכות לא:, יט",
+    "ref_2": "Berakhot 31b:19",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 98,
+    "line_index_2": 1550,
+    "heRef_2": "ברכות לב:, כב",
+    "ref_2": "Berakhot 32b:22",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 100,
+    "line_index_2": 1625,
+    "heRef_2": "ברכות לג:, כז",
+    "ref_2": "Berakhot 33b:27",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 102,
+    "line_index_2": 1632,
+    "heRef_2": "ברכות לד., ב",
+    "ref_2": "Berakhot 34a:2",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 105,
+    "line_index_2": 1697,
+    "heRef_2": "ברכות לה., יח",
+    "ref_2": "Berakhot 35a:18",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 106,
+    "line_index_2": 1697,
+    "heRef_2": "ברכות לה., יח",
+    "ref_2": "Berakhot 35a:18",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 107,
+    "line_index_2": 1697,
+    "heRef_2": "ברכות לה., יח",
+    "ref_2": "Berakhot 35a:18",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 108,
+    "line_index_2": 1697,
+    "heRef_2": "ברכות לה., יח",
+    "ref_2": "Berakhot 35a:18",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 110,
+    "line_index_2": 1714,
+    "heRef_2": "ברכות לה:, יג",
+    "ref_2": "Berakhot 35b:13",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 112,
+    "line_index_2": 1730,
+    "heRef_2": "ברכות לו., ה",
+    "ref_2": "Berakhot 36a:5",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 113,
+    "line_index_2": 1738,
+    "heRef_2": "ברכות לו., יג",
+    "ref_2": "Berakhot 36a:13",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 114,
+    "line_index_2": 1738,
+    "heRef_2": "ברכות לו., יג",
+    "ref_2": "Berakhot 36a:13",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 115,
+    "line_index_2": 1738,
+    "heRef_2": "ברכות לו., יג",
+    "ref_2": "Berakhot 36a:13",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 117,
+    "line_index_2": 1773,
+    "heRef_2": "ברכות לז., ב",
+    "ref_2": "Berakhot 37a:2",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 118,
+    "line_index_2": 1773,
+    "heRef_2": "ברכות לז., ב",
+    "ref_2": "Berakhot 37a:2",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 119,
+    "line_index_2": 1777,
+    "heRef_2": "ברכות לז., ו",
+    "ref_2": "Berakhot 37a:6",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 120,
+    "line_index_2": 1778,
+    "heRef_2": "ברכות לז., ז",
+    "ref_2": "Berakhot 37a:7",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 121,
+    "line_index_2": 1785,
+    "heRef_2": "ברכות לז., יד",
+    "ref_2": "Berakhot 37a:14",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 123,
+    "line_index_2": 1791,
+    "heRef_2": "ברכות לז:, ד",
+    "ref_2": "Berakhot 37b:4",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 124,
+    "line_index_2": 1792,
+    "heRef_2": "ברכות לז:, ה",
+    "ref_2": "Berakhot 37b:5",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 125,
+    "line_index_2": 1792,
+    "heRef_2": "ברכות לז:, ה",
+    "ref_2": "Berakhot 37b:5",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 126,
+    "line_index_2": 1792,
+    "heRef_2": "ברכות לז:, ה",
+    "ref_2": "Berakhot 37b:5",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 127,
+    "line_index_2": 1792,
+    "heRef_2": "ברכות לז:, ה",
+    "ref_2": "Berakhot 37b:5",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 128,
+    "line_index_2": 1798,
+    "heRef_2": "ברכות לז:, יא",
+    "ref_2": "Berakhot 37b:11",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 129,
+    "line_index_2": 1799,
+    "heRef_2": "ברכות לז:, יב",
+    "ref_2": "Berakhot 37b:12",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 131,
+    "line_index_2": 1805,
+    "heRef_2": "ברכות לח., ד",
+    "ref_2": "Berakhot 38a:4",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 132,
+    "line_index_2": 1809,
+    "heRef_2": "ברכות לח., ח",
+    "ref_2": "Berakhot 38a:8",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 134,
+    "line_index_2": 1828,
+    "heRef_2": "ברכות לח:, י",
+    "ref_2": "Berakhot 38b:10",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 136,
+    "line_index_2": 1840,
+    "heRef_2": "ברכות לט., ו",
+    "ref_2": "Berakhot 39a:6",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 137,
+    "line_index_2": 1842,
+    "heRef_2": "ברכות לט., ח",
+    "ref_2": "Berakhot 39a:8",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 139,
+    "line_index_2": 1852,
+    "heRef_2": "ברכות לט:, ג",
+    "ref_2": "Berakhot 39b:3",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 140,
+    "line_index_2": 1852,
+    "heRef_2": "ברכות לט:, ג",
+    "ref_2": "Berakhot 39b:3",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 142,
+    "line_index_2": 1871,
+    "heRef_2": "ברכות מ., י",
+    "ref_2": "Berakhot 40a:10",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 143,
+    "line_index_2": 1874,
+    "heRef_2": "ברכות מ., יג",
+    "ref_2": "Berakhot 40a:13",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 144,
+    "line_index_2": 1873,
+    "heRef_2": "ברכות מ., יב",
+    "ref_2": "Berakhot 40a:12",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 145,
+    "line_index_2": 1876,
+    "heRef_2": "ברכות מ., טו",
+    "ref_2": "Berakhot 40a:15",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 147,
+    "line_index_2": 1887,
+    "heRef_2": "ברכות מ:, י",
+    "ref_2": "Berakhot 40b:10",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 148,
+    "line_index_2": 1883,
+    "heRef_2": "ברכות מ:, ו",
+    "ref_2": "Berakhot 40b:6",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 149,
+    "line_index_2": 1883,
+    "heRef_2": "ברכות מ:, ו",
+    "ref_2": "Berakhot 40b:6",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 150,
+    "line_index_2": 1883,
+    "heRef_2": "ברכות מ:, ו",
+    "ref_2": "Berakhot 40b:6",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 151,
+    "line_index_2": 1889,
+    "heRef_2": "ברכות מ:, יב",
+    "ref_2": "Berakhot 40b:12",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 152,
+    "line_index_2": 1889,
+    "heRef_2": "ברכות מ:, יב",
+    "ref_2": "Berakhot 40b:12",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 153,
+    "line_index_2": 1889,
+    "heRef_2": "ברכות מ:, יב",
+    "ref_2": "Berakhot 40b:12",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 155,
+    "line_index_2": 1905,
+    "heRef_2": "ברכות מא., ב",
+    "ref_2": "Berakhot 41a:2",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 156,
+    "line_index_2": 1905,
+    "heRef_2": "ברכות מא., ב",
+    "ref_2": "Berakhot 41a:2",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 157,
+    "line_index_2": 1911,
+    "heRef_2": "ברכות מא., ח",
+    "ref_2": "Berakhot 41a:8",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 159,
+    "line_index_2": 1923,
+    "heRef_2": "ברכות מא:, ז",
+    "ref_2": "Berakhot 41b:7",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 161,
+    "line_index_2": 1927,
+    "heRef_2": "ברכות מב., ב",
+    "ref_2": "Berakhot 42a:2",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 162,
+    "line_index_2": 1932,
+    "heRef_2": "ברכות מב., ז",
+    "ref_2": "Berakhot 42a:7",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 163,
+    "line_index_2": 1927,
+    "heRef_2": "ברכות מב., ב",
+    "ref_2": "Berakhot 42a:2",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 164,
+    "line_index_2": 1934,
+    "heRef_2": "ברכות מב., ט",
+    "ref_2": "Berakhot 42a:9",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 165,
+    "line_index_2": 1934,
+    "heRef_2": "ברכות מב., ט",
+    "ref_2": "Berakhot 42a:9",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 167,
+    "line_index_2": 1942,
+    "heRef_2": "ברכות מב:, ו",
+    "ref_2": "Berakhot 42b:6",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 168,
+    "line_index_2": 1945,
+    "heRef_2": "ברכות מב:, ט",
+    "ref_2": "Berakhot 42b:9",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 170,
+    "line_index_2": 1953,
+    "heRef_2": "ברכות מג., ב",
+    "ref_2": "Berakhot 43a:2",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 171,
+    "line_index_2": 1953,
+    "heRef_2": "ברכות מג., ב",
+    "ref_2": "Berakhot 43a:2",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 172,
+    "line_index_2": 1965,
+    "heRef_2": "ברכות מג., יד",
+    "ref_2": "Berakhot 43a:14",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 174,
+    "line_index_2": 1979,
+    "heRef_2": "ברכות מג:, ח",
+    "ref_2": "Berakhot 43b:8",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 176,
+    "line_index_2": 1993,
+    "heRef_2": "ברכות מד., א",
+    "ref_2": "Berakhot 44a:1",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 179,
+    "line_index_2": 2044,
+    "heRef_2": "ברכות מה., ח",
+    "ref_2": "Berakhot 45a:8",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 181,
+    "line_index_2": 2062,
+    "heRef_2": "ברכות מה:, ט",
+    "ref_2": "Berakhot 45b:9",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 183,
+    "line_index_2": 2080,
+    "heRef_2": "ברכות מו., ב",
+    "ref_2": "Berakhot 46a:2",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 185,
+    "line_index_2": 2094,
+    "heRef_2": "ברכות מו:, א",
+    "ref_2": "Berakhot 46b:1",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 186,
+    "line_index_2": 2105,
+    "heRef_2": "ברכות מו:, יב",
+    "ref_2": "Berakhot 46b:12",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 188,
+    "line_index_2": 2113,
+    "heRef_2": "ברכות מז., ד",
+    "ref_2": "Berakhot 47a:4",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 189,
+    "line_index_2": 2115,
+    "heRef_2": "ברכות מז., ו",
+    "ref_2": "Berakhot 47a:6",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 190,
+    "line_index_2": 2116,
+    "heRef_2": "ברכות מז., ז",
+    "ref_2": "Berakhot 47a:7",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 191,
+    "line_index_2": 2119,
+    "heRef_2": "ברכות מז., י",
+    "ref_2": "Berakhot 47a:10",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 192,
+    "line_index_2": 2124,
+    "heRef_2": "ברכות מז., טו",
+    "ref_2": "Berakhot 47a:15",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 193,
+    "line_index_2": 2125,
+    "heRef_2": "ברכות מז., טז",
+    "ref_2": "Berakhot 47a:16",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 194,
+    "line_index_2": 2134,
+    "heRef_2": "ברכות מז:, ח",
+    "ref_2": "Berakhot 47b:8",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 195,
+    "line_index_2": 2135,
+    "heRef_2": "ברכות מז:, ט",
+    "ref_2": "Berakhot 47b:9",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 196,
+    "line_index_2": 2138,
+    "heRef_2": "ברכות מז:, יב",
+    "ref_2": "Berakhot 47b:12",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 197,
+    "line_index_2": 2143,
+    "heRef_2": "ברכות מז:, יז",
+    "ref_2": "Berakhot 47b:17",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 198,
+    "line_index_2": 2143,
+    "heRef_2": "ברכות מז:, יז",
+    "ref_2": "Berakhot 47b:17",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 200,
+    "line_index_2": 2150,
+    "heRef_2": "ברכות מח., ב",
+    "ref_2": "Berakhot 48a:2",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 201,
+    "line_index_2": 2152,
+    "heRef_2": "ברכות מח., ד",
+    "ref_2": "Berakhot 48a:4",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 202,
+    "line_index_2": 2156,
+    "heRef_2": "ברכות מח., ח",
+    "ref_2": "Berakhot 48a:8",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 204,
+    "line_index_2": 2161,
+    "heRef_2": "ברכות מח:, ב",
+    "ref_2": "Berakhot 48b:2",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 206,
+    "line_index_2": 2175,
+    "heRef_2": "ברכות מט., ב",
+    "ref_2": "Berakhot 49a:2",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 207,
+    "line_index_2": 2175,
+    "heRef_2": "ברכות מט., ב",
+    "ref_2": "Berakhot 49a:2",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 208,
+    "line_index_2": 2184,
+    "heRef_2": "ברכות מט., יא",
+    "ref_2": "Berakhot 49a:11",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 209,
+    "line_index_2": 2184,
+    "heRef_2": "ברכות מט., יא",
+    "ref_2": "Berakhot 49a:11",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 210,
+    "line_index_2": 2192,
+    "heRef_2": "ברכות מט., יט",
+    "ref_2": "Berakhot 49a:19",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 211,
+    "line_index_2": 2192,
+    "heRef_2": "ברכות מט., יט",
+    "ref_2": "Berakhot 49a:19",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 212,
+    "line_index_2": 2192,
+    "heRef_2": "ברכות מט., יט",
+    "ref_2": "Berakhot 49a:19",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 214,
+    "line_index_2": 2200,
+    "heRef_2": "ברכות מט:, ד",
+    "ref_2": "Berakhot 49b:4",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 216,
+    "line_index_2": 2237,
+    "heRef_2": "ברכות נ., כב",
+    "ref_2": "Berakhot 50a:22",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 218,
+    "line_index_2": 2246,
+    "heRef_2": "ברכות נ:, ו",
+    "ref_2": "Berakhot 50b:6",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 219,
+    "line_index_2": 2253,
+    "heRef_2": "ברכות נ:, יג",
+    "ref_2": "Berakhot 50b:13",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 221,
+    "line_index_2": 2258,
+    "heRef_2": "ברכות נא., ב",
+    "ref_2": "Berakhot 51a:2",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 224,
+    "line_index_2": 2319,
+    "heRef_2": "ברכות נב., יד",
+    "ref_2": "Berakhot 52a:14",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 225,
+    "line_index_2": 2319,
+    "heRef_2": "ברכות נב., יד",
+    "ref_2": "Berakhot 52a:14",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 227,
+    "line_index_2": 2345,
+    "heRef_2": "ברכות נב:, כ",
+    "ref_2": "Berakhot 52b:20",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 228,
+    "line_index_2": 2355,
+    "heRef_2": "ברכות נב:, ל",
+    "ref_2": "Berakhot 52b:30",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 229,
+    "line_index_2": 2355,
+    "heRef_2": "ברכות נב:, ל",
+    "ref_2": "Berakhot 52b:30",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 230,
+    "line_index_2": 2357,
+    "heRef_2": "ברכות נב:, לב",
+    "ref_2": "Berakhot 52b:32",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 231,
+    "line_index_2": 2357,
+    "heRef_2": "ברכות נב:, לב",
+    "ref_2": "Berakhot 52b:32",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 233,
+    "line_index_2": 2370,
+    "heRef_2": "ברכות נג., י",
+    "ref_2": "Berakhot 53a:10",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 234,
+    "line_index_2": 2371,
+    "heRef_2": "ברכות נג., יא",
+    "ref_2": "Berakhot 53a:11",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 235,
+    "line_index_2": 2371,
+    "heRef_2": "ברכות נג., יא",
+    "ref_2": "Berakhot 53a:11",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 236,
+    "line_index_2": 2376,
+    "heRef_2": "ברכות נג., טז",
+    "ref_2": "Berakhot 53a:16",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 237,
+    "line_index_2": 2379,
+    "heRef_2": "ברכות נג., יט",
+    "ref_2": "Berakhot 53a:19",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 238,
+    "line_index_2": 2383,
+    "heRef_2": "ברכות נג., כג",
+    "ref_2": "Berakhot 53a:23",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 240,
+    "line_index_2": 2397,
+    "heRef_2": "ברכות נג:, ב",
+    "ref_2": "Berakhot 53b:2",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 241,
+    "line_index_2": 2408,
+    "heRef_2": "ברכות נג:, יג",
+    "ref_2": "Berakhot 53b:13",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 242,
+    "line_index_2": 2416,
+    "heRef_2": "ברכות נג:, כא",
+    "ref_2": "Berakhot 53b:21",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 245,
+    "line_index_2": 2432,
+    "heRef_2": "ברכות נד., ג",
+    "ref_2": "Berakhot 54a:3",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 246,
+    "line_index_2": 2432,
+    "heRef_2": "ברכות נד., ג",
+    "ref_2": "Berakhot 54a:3",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 248,
+    "line_index_2": 2650,
+    "heRef_2": "ברכות נט:, ב",
+    "ref_2": "Berakhot 59b:2",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 250,
+    "line_index_2": 2668,
+    "heRef_2": "ברכות ס., ב",
+    "ref_2": "Berakhot 60a:2",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 251,
+    "line_index_2": 2676,
+    "heRef_2": "ברכות ס., י",
+    "ref_2": "Berakhot 60a:10",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  },
+  {
+    "line_index_1": 253,
+    "line_index_2": 2811,
+    "heRef_2": "ברכות סג., ד",
+    "ref_2": "Berakhot 63a:4",
+    "path_2": "ברכות.txt",
+    "Conection Type": "source"
+  }
+]
