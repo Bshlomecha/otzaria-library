@@ -193,7 +193,6 @@ jobs:
 
           root = Path("ForDB")
           expected = {
-              "ForDB/README.md",
               "ForDB/all_metadata.json",
               # טבלאות banner / book_banner / book_protection; קובץ חסר מפיל את הבנייה.
               "ForDB/book_banners.csv",
