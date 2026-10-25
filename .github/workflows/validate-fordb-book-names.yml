@@ -58,6 +58,7 @@ jobs:
           sparse-checkout: |
             /ForDB/
             /.github/scripts/
+            /.github/data/locked_metadata.tsv
             /.github/workflows/validate-fordb-book-names.yml
             /.github/workflows/update-fordb.yml
             /.claude/skills/otzaria-book-format/scripts/make_metadata.py
@@ -95,7 +96,19 @@ jobs:
           PYTHONIOENCODING: "utf-8"
         run: |
           set -euo pipefail
-          python3 -m unittest test_validate_fordb_book_names test_fordb_book_renames test_book_info_writer test_library_tree test_check_author_mirrors -v
+          python3 -m unittest test_validate_fordb_book_names test_fordb_book_renames test_book_info_writer test_library_tree test_check_author_mirrors test_check_locked_metadata test_update_locked_metadata -v
+
+      # ערכים שתוקנו ביד ונבדקו נעולים ב-.github/data/locked_metadata.tsv: author ב-metadata.json,
+      # שמות קנוניים ב-sefaria_author_changes.csv ו-heShortDesc/heDescNew ב-sefaria_metadata_changes.csv.
+      # סנכרון heAuthors -> metadata.json, הרצה ידנית של sefaria-export או שינוי מפתח בספריא
+      # נכשלים כאן במקום להחזיר בשקט ערך ישן. שינוי מכוון = עדכון השורה באותו קומיט
+      # (update_locked_metadata.py); PR של עורך הקטלוג נושא את העדכון בקומיט משלו.
+      # offline, שניות ספורות. שורה 2 של קובצי הספרים (line2) לא נבדקת כאן: ה-checkout הזה
+      # אינו מושך את תוכן הספרים, ולכן --skip line2 במפורש.
+      - name: Check locked metadata values
+        env:
+          PYTHONIOENCODING: "utf-8"
+        run: python3 .github/scripts/check_locked_metadata.py --skip line2
 
       # שם המחבר של ספר של המאגר נקבע ב-metadata.json; heAuthors ב-ForDB/all_metadata.json ו-authorName
       # ב-ForDB/book_info.csv הם העתקים (ForDB/README.md). אזהרה בלבד, ותמיד exit 0: הפרש דורש לעתים
