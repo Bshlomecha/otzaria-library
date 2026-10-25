@@ -96,7 +96,7 @@ jobs:
           PYTHONIOENCODING: "utf-8"
         run: |
           set -euo pipefail
-          python3 -m unittest test_validate_fordb_book_names test_fordb_book_renames test_book_info_writer test_library_tree test_check_author_mirrors test_check_locked_metadata test_update_locked_metadata -v
+          python3 -m unittest test_validate_fordb_book_names test_fordb_book_renames test_book_info_writer test_library_tree test_check_author_mirrors test_check_locked_metadata test_update_locked_metadata test_follow_lock_renames -v
 
       # ערכים שתוקנו ביד ונבדקו נעולים ב-.github/data/locked_metadata.tsv: author ב-metadata.json,
       # שמות קנוניים ב-sefaria_author_changes.csv ו-heShortDesc/heDescNew ב-sefaria_metadata_changes.csv.
@@ -170,6 +170,15 @@ jobs:
             python3 .github/scripts/validate_fordb_book_names.py "${base_args[@]}"
             echo "fixed=false" >> "$GITHUB_OUTPUT"
           fi
+
+      # שורות הנעילה של author ושל תיאורי הספר נקראות לפי כותר הספר. ה-auto-fix שינה את הכותר
+      # בקבצים, ולכן הנעילה עוברת איתו (ובלי זה הריצה הבאה נכשלת ב-MISSING). שורות line2 לא נוגעים
+      # בהן כאן: מפתחן הוא נתיב, והן לא נבדקות ב-CI.
+      - name: Follow book renames in the metadata lock
+        if: ${{ steps.names.outputs.fixed == 'true' }}
+        env:
+          PYTHONIOENCODING: "utf-8"
+        run: python3 .github/scripts/follow_lock_renames.py
 
       # אורזים בדיוק את המועמד הנוכחי, כדי שכל תהליכי SeforimLibrary יקראו payload
       # יחיד וממוען-תוכן — ללא תלות ב-fordb_latest_pointer.json שעדיין מצביע ל-last-good.

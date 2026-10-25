@@ -11,7 +11,7 @@ name: Python tests
 #     ה-job היחיד שכבר מושך את ForDB מ-LFS (RepositoryForDbTest קורא את ה-CSV-ים).
 #   .github/scripts/test_fordb_book_renames.py — רץ לצידה, באותו צעד self-test.
 #   .github/scripts/test_library_tree.py — גם הוא באותו צעד self-test.
-#   .github/scripts/test_check_locked_metadata.py, test_update_locked_metadata.py — גם הן באותו צעד self-test.
+#   .github/scripts/test_check_locked_metadata.py, test_update_locked_metadata.py, test_follow_lock_renames.py — גם הן באותו צעד self-test.
 #   .github/scripts/test_validate_manual_links_refs.py — כבר שער PR ב-validate-manual-links-refs.yml.
 #   .github/scripts/test_check_sefaria_shadowed_books.py — self-test ב-validate-sefaria-shadowed-books.yml.
 #   National-LibraryToOtzaria/סקריפטים/test_*.py — כבר שער PR ב-validate-national-library-normalizers.yml.
