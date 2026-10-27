@@ -399569,10 +399569,14 @@
     "Sourcefolder": "yam-HaHachma"
   },
   {
-    "heAuthors": [],
+    "heAuthors": [
+      "רבי רפאל כהן"
+    ],
     "title": "שות ושב הכהן",
     "enTitle": "Shut Veshev HaKohen",
-    "authors": [],
+    "authors": [
+      "Raphael Cohen"
+    ],
     "pubDate": null,
     "pubDateHeb": null,
     "pubPlaceStringEn": null,

@@ -405503,10 +405503,14 @@
     "file_path": "yam-HaHachmaToOtzaria/ספרים/אוצריא/מדרש/אגדה/ילקוט מעם לועז/ילקוט מעם לועז - במדבר.txt"
   },
   {
-    "heAuthors": [],
+    "heAuthors": [
+      "רבי רפאל כהן"
+    ],
     "title": "שות ושב הכהן",
     "enTitle": "Shut Veshev HaKohen",
-    "authors": [],
+    "authors": [
+      "Raphael Cohen"
+    ],
     "pubDate": null,
     "pubDateHeb": null,
     "pubPlaceStringEn": null,
