@@ -405400,6 +405400,130 @@
   },
   {
     "heAuthors": [
+      "רבי יעקב כולי"
+    ],
+    "title": "ילקוט מעם לועז - בראשית",
+    "enTitle": "Yalkut Meam Loez - Bereshit",
+    "authors": [
+      "Yaakov Culi"
+    ],
+    "pubDate": null,
+    "pubDateHeb": null,
+    "pubPlaceStringEn": null,
+    "pubPlaceStringHe": null,
+    "heCategories": [
+      "מדרש",
+      "אגדה",
+      "ילקוט מעם לועז"
+    ],
+    "categories": [
+      "Midrash",
+      "Aggadah"
+    ],
+    "publisher": "ים החכמה",
+    "Sourcefolder": "yam-HaHachma",
+    "file_path": "yam-HaHachmaToOtzaria/ספרים/אוצריא/מדרש/אגדה/ילקוט מעם לועז/ילקוט מעם לועז - בראשית.txt"
+  },
+  {
+    "heAuthors": [
+      "רבי יעקב כולי"
+    ],
+    "title": "ילקוט מעם לועז - שמות",
+    "enTitle": "Yalkut Meam Loez - Shemot",
+    "authors": [
+      "Yaakov Culi"
+    ],
+    "pubDate": null,
+    "pubDateHeb": null,
+    "pubPlaceStringEn": null,
+    "pubPlaceStringHe": null,
+    "heCategories": [
+      "מדרש",
+      "אגדה",
+      "ילקוט מעם לועז"
+    ],
+    "categories": [
+      "Midrash",
+      "Aggadah"
+    ],
+    "publisher": "ים החכמה",
+    "Sourcefolder": "yam-HaHachma",
+    "file_path": "yam-HaHachmaToOtzaria/ספרים/אוצריא/מדרש/אגדה/ילקוט מעם לועז/ילקוט מעם לועז - שמות.txt"
+  },
+  {
+    "heAuthors": [
+      "רבי יעקב כולי"
+    ],
+    "title": "ילקוט מעם לועז - ויקרא",
+    "enTitle": "Yalkut Meam Loez - Vayikra",
+    "authors": [
+      "Yaakov Culi"
+    ],
+    "pubDate": null,
+    "pubDateHeb": null,
+    "pubPlaceStringEn": null,
+    "pubPlaceStringHe": null,
+    "heCategories": [
+      "מדרש",
+      "אגדה",
+      "ילקוט מעם לועז"
+    ],
+    "categories": [
+      "Midrash",
+      "Aggadah"
+    ],
+    "publisher": "ים החכמה",
+    "Sourcefolder": "yam-HaHachma",
+    "file_path": "yam-HaHachmaToOtzaria/ספרים/אוצריא/מדרש/אגדה/ילקוט מעם לועז/ילקוט מעם לועז - ויקרא.txt"
+  },
+  {
+    "heAuthors": [
+      "רבי יעקב כולי"
+    ],
+    "title": "ילקוט מעם לועז - במדבר",
+    "enTitle": "Yalkut Meam Loez - Bamidbar",
+    "authors": [
+      "Yaakov Culi"
+    ],
+    "pubDate": null,
+    "pubDateHeb": null,
+    "pubPlaceStringEn": null,
+    "pubPlaceStringHe": null,
+    "heCategories": [
+      "מדרש",
+      "אגדה",
+      "ילקוט מעם לועז"
+    ],
+    "categories": [
+      "Midrash",
+      "Aggadah"
+    ],
+    "publisher": "ים החכמה",
+    "Sourcefolder": "yam-HaHachma",
+    "file_path": "yam-HaHachmaToOtzaria/ספרים/אוצריא/מדרש/אגדה/ילקוט מעם לועז/ילקוט מעם לועז - במדבר.txt"
+  },
+  {
+    "heAuthors": [],
+    "title": "שות ושב הכהן",
+    "enTitle": "Shut Veshev HaKohen",
+    "authors": [],
+    "pubDate": null,
+    "pubDateHeb": null,
+    "pubPlaceStringEn": null,
+    "pubPlaceStringHe": null,
+    "heCategories": [
+      "שות",
+      "אחרונים"
+    ],
+    "categories": [
+      "Responsa"
+    ],
+    "publisher": "ים החכמה",
+    "Sourcefolder": "yam-HaHachma",
+    "file_path": "yam-HaHachmaToOtzaria/ספרים/אוצריא/שות/אחרונים/שות ושב הכהן.txt"
+  },
+  {
+    "heAuthors": [
       "רבי רפאל יום טוב ליפמן היילפרין"
     ],
     "title": "קדושת יום טוב (ליפמן)",
