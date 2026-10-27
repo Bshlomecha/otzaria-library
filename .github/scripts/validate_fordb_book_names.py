@@ -37,6 +37,9 @@ sefariaToOtzaria/.../otzaria/utils.py):
     sourceName שאינו מקור במאגר (מאגר פרטי) הוא אזהרה בלבד.
   * divine_name_overrides: כל שורה חייבת להיות מובנת כמו ב-DivineNameOverrides.parse,
     כי שורה אחת שאינה מובנת, או קובץ חסר, מפילים את הבנייה.
+  * sefaria_category_changes.csv: נתיב חייב להשתמש בשם הקטגוריה אחרי category_renames.csv
+    (קטגוריה ממוזגת, כמו «מילונים וספרי יעץ» ← «ספרות עזר», נעלמת מהעץ), וכל נתיב מופיע פעם
+    אחת. אחרת SeedAllMetadata נכשל באמצע הבנייה.
   * book_renames.csv: שם ה*מקור* (העמודה השמאלית) מול sources - הספר שמשנים חייב להתקיים
     (שינוי לא "יתום"). שם היעד אינו נבדק בנפרד.
   * כפילויות שם בתוך ה-ZIP: שני קבצי ספרים שונים עם אותו שם מנוקה בתיקיות הנארזות
@@ -102,6 +105,9 @@ BOOK_BANNERS = os.path.join(FORDB, "book_banners.csv")
 BOOK_PROTECTION = os.path.join(FORDB, "book_protection.csv")
 # פסוקים שבהם שם הוא קודש/חול, לטבלת line_divine_name. חובה.
 DIVINE_NAME_OVERRIDES = os.path.join(FORDB, "divine_name_overrides.csv")
+# שינוי שמות קטגוריות (נוצל במיזוג עצים, כמו «מילונים וספרי יעץ» ← «ספרות עזר») ותיאורי המדפים.
+CATEGORY_RENAMES = os.path.join(FORDB, "category_renames.csv")
+CATEGORY_DESCRIPTIONS = os.path.join(FORDB, "sefaria_category_changes.csv")
 
 # דוח --fix עבור ה-workflow: נכתב רק כאשר הוסר משהו בפועל.
 REMOVED_REPORT = os.path.join(REPO_ROOT, "fordb_removed.json")
@@ -423,6 +429,34 @@ def parse_divine_name_ref(ref):
     if chapter < 1 or verse < 1 or end[1:] < start[1:]:
         return None
     return start, end
+
+
+def check_category_description_paths(renames_path, descriptions_path):
+    """
+    sefaria_category_changes.csv נקרא אחרי category_renames.csv, ולכן נתיב בו חייב להשתמש בשם
+    החדש של הקטגוריה. נתיב עם שם שכבר הוחלף, או שני נתיבים זהים, מפילים את SeedAllMetadata
+    באמצע בנייה. כלל שינוי שם שאינו שייך לקטגוריה כזו (כמו כלל תחילית) אינו נבדק כאן.
+    מחזיר [(מזהה, ערך, סיבה)].
+    """
+    if not os.path.exists(renames_path) or not os.path.exists(descriptions_path):
+        return []
+    _, rename_rows = read_csv_rows(renames_path, has_header=False)
+    # כלל תחילית נאכף ב-RenameCategoriesPostProcess לפי רשימה סגורה; כאן רק התאמה מדויקת.
+    renamed = {row[0]: row[1] for row in rename_rows if len(row) >= 2 and row[0] != row[1]}
+    _, rows = read_csv_rows(descriptions_path, has_header=True)
+    errors, seen = [], {}
+    for line_no, row in enumerate(rows, start=2):
+        if not row:
+            continue
+        path = row[0]
+        identifier = f"רשומה {line_no}"
+        if path in seen:
+            errors.append((identifier, path, f"אותו נתיב כמו ברשומה {seen[path]}"))
+        seen.setdefault(path, line_no)
+        for segment in path.split("/"):
+            if segment in renamed:
+                errors.append((identifier, path, f"הקטגוריה «{segment}» משנה את שמה ל«{renamed[segment]}»; יש לכתוב את הנתיב בשם החדש"))
+    return errors
 
 
 def check_divine_name_overrides(path):
@@ -1300,6 +1334,9 @@ def main():
     # 10) קודש/חול של שמות: קובץ חסר או שורה שאינה מובנת מפילים את הבנייה.
     divine = check_divine_name_overrides(DIVINE_NAME_OVERRIDES)
 
+    # 11) נתיבי תיאורי המדפים מול כללי שינוי השם של הקטגוריות.
+    category_paths = check_category_description_paths(CATEGORY_RENAMES, CATEGORY_DESCRIPTIONS)
+
     print_rename_report(resolution, rename_plan, applied=args.fix)
     if args.fix:
         record_identity_changes(identities_before, identity_ledger, resolution, removed, rename_plan)
@@ -1320,6 +1357,7 @@ def main():
         and not held_referenced
         and not scoped
         and not divine
+        and not category_paths
     ):
         print(
             "\n✅ כל שמות הספרים ב-ForDB קיימים ברשימת הספרים הקנונית, מאויתים כפי שייכתבו "
@@ -1387,6 +1425,12 @@ def main():
     if divine:
         print(f"\n❌ {len(divine)} בעיות ב-ForDB/divine_name_overrides.csv; הבנייה תיכשל:\n")
         for identifier, value, reason in divine:
+            print(f"     - {identifier}: {value!r} — {reason}")
+        print()
+
+    if category_paths:
+        print(f"\n❌ {len(category_paths)} בעיות ב-ForDB/sefaria_category_changes.csv; הבנייה תיכשל:\n")
+        for identifier, value, reason in category_paths:
             print(f"     - {identifier}: {value!r} — {reason}")
         print()
 

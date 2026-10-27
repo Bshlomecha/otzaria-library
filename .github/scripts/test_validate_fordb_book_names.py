@@ -261,6 +261,52 @@ class SourceScopedNoticeTest(unittest.TestCase):
         self.assertEqual(errors[0][1], "0")
 
 
+class CategoryDescriptionPathsTest(unittest.TestCase):
+    """A shelf row is read after category_renames.csv: a path that still carries a renamed
+    (merged-away) category title, or the same path twice, aborts SeedAllMetadata mid-build."""
+
+    HEADER = ["categoryPath", "heShortDesc", "heDesc", "heShortDescNew", "heDescNew"]
+
+    def check(self, renames, paths):
+        with tempfile.TemporaryDirectory() as tmp:
+            renames_path = os.path.join(tmp, "category_renames.csv")
+            with open(renames_path, "w", encoding="utf-8", newline="") as handle:
+                csv.writer(handle, lineterminator="\r\n").writerows(renames)
+            descriptions_path = os.path.join(tmp, "sefaria_category_changes.csv")
+            with open(descriptions_path, "w", encoding="utf-8", newline="") as handle:
+                writer = csv.writer(handle, quoting=csv.QUOTE_ALL, lineterminator="\r\n")
+                writer.writerow(self.HEADER)
+                writer.writerows([path, "", "", "קצר", "ארוך"] for path in paths)
+            return validator.check_category_description_paths(renames_path, descriptions_path)
+
+    def test_the_committed_rows_follow_the_committed_renames(self):
+        self.assertEqual(
+            validator.check_category_description_paths(validator.CATEGORY_RENAMES, validator.CATEGORY_DESCRIPTIONS), [])
+
+    def test_the_reference_trees_are_merged_under_sifrut_ezer(self):
+        with open(validator.CATEGORY_RENAMES, encoding="utf-8", newline="") as handle:
+            rules = {row[0]: row[1] for row in csv.reader(handle) if row}
+        self.assertEqual(rules.get("מילונים וספרי יעץ"), "ספרות עזר")
+
+    def test_a_path_under_a_merged_away_category_is_an_error(self):
+        errors = self.check([["מילונים וספרי יעץ", "ספרות עזר"]], ["מילונים וספרי יעץ/דקדוק", "ספרות עזר/דקדוק"])
+        self.assertEqual([identifier for identifier, _value, _reason in errors], ["רשומה 2"])
+
+    def test_a_deep_segment_is_checked_too(self):
+        errors = self.check([["ר' סעדיה גאון", "רבינו סעדיה גאון"]], ["תנ״ך/ראשונים/ר' סעדיה גאון/כתובים"])
+        self.assertEqual(len(errors), 1)
+
+    def test_the_same_path_twice_is_an_error(self):
+        errors = self.check([], ["ספרות עזר/דקדוק", "ספרות עזר/דקדוק"])
+        self.assertEqual([identifier for identifier, _value, _reason in errors], ["רשומה 3"])
+
+    def test_paths_in_the_new_names_pass(self):
+        self.assertEqual(self.check([["מילונים וספרי יעץ", "ספרות עזר"]], ["ספרות עזר", "ספרות עזר/מילונים"]), [])
+
+    def test_a_missing_file_is_not_this_checks_business(self):
+        self.assertEqual(validator.check_category_description_paths("/nonexistent/a.csv", "/nonexistent/b.csv"), [])
+
+
 class DivineNameOverridesTest(unittest.TestCase):
     """divine_name_overrides.csv must be read exactly as DivineNameOverrides.parse reads it:
     one row the generator does not understand makes it drop the whole list."""
