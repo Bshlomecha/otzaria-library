@@ -74,6 +74,8 @@ jobs:
           sparse-checkout-cone-mode: false
           persist-credentials: false
 
+      # db_asset_names.sh ו-assemble_split_asset.sh: שם נכס ה-DB (seforim-schema<N>.db.zst) והרכבת DB מפוצל
+      # הם חוזה של היצרן, ואסור לקבע אותם כאן (קיבוע schema6 הפיל את השער כש-v34 עבר ל-schema7).
       # files-blacklist.txt ו-source-blacklist.txt של הבנייה הבאה, וגם books_blacklist.txt של ספריא:
       # ה-DB הבנוי קודם לשורות שנוספו לה מאז, וחסימת ספר ספריא היא אחת הדרכים לתקן כיסוי.
       - name: Checkout the generator's blacklists
@@ -87,6 +89,8 @@ jobs:
             /generator/otzariasqlite/src/commonMain/resources/files-blacklist.txt
             /generator/otzariasqlite/src/commonMain/resources/source-blacklist.txt
             /generator/sefariasqlite/src/jvmMain/resources/books_blacklist.txt
+            /.github/scripts/db_asset_names.sh
+            /.github/scripts/assemble_split_asset.sh
           sparse-checkout-cone-mode: false
           persist-credentials: false
 
@@ -122,12 +126,28 @@ jobs:
           mkdir -p "$WORK/built-export" "$WORK/latest-export"
           download Otzaria/SefariaExport "$built_export" titles.json "$WORK/built-export"
           download Otzaria/SefariaExport "$latest_export" titles.json "$WORK/latest-export"
-          db_digest=$(gh release view "$lib_tag" -R Otzaria/SeforimLibrary --json assets \
-            --jq '.assets[] | select(.name=="seforim-schema6.db.zst") | .digest')
-          [[ "$db_digest" =~ ^sha256:[0-9a-f]{64}$ ]]
-          echo "DB: SeforimLibrary $lib_tag (built from SefariaExport $built_export); newest export: $latest_export"
+          # שם נכס ה-DB לפי חוזה היצרן (סכימה 6+ = seforim-schema<N>.db.zst, ו-DB גדול מפוצל ל-parts),
+          # מאומת מול הסכימה שה-provenance מצהיר עליה.
+          . seforim-tool/.github/scripts/db_asset_names.sh
+          gh release view "$lib_tag" -R Otzaria/SeforimLibrary --json assets > "$WORK/release.json"
+          db_asset=$(jq -er "$FULL_DB_ASSET_JQ | .name // empty" "$WORK/release.json") || {
+            echo "::error::release $lib_tag of Otzaria/SeforimLibrary has no full-DB asset"; exit 1; }
+          if jq -e '.db_schema != null' "$WORK/build_provenance.json" >/dev/null; then
+            schema=$(jq -er '.db_schema.db_schema_version' "$WORK/build_provenance.json")
+            [ "$db_asset" = "$(full_db_asset_name "$schema")" ] || {
+              echo "::error::DB asset $db_asset disagrees with build provenance schema $schema"; exit 1; }
+          fi
+          if [ -n "$(jq -r "$FULL_DB_ASSET_JQ | .manifest // empty" "$WORK/release.json")" ]; then
+            db_digest=$(split_full_db_meta "$lib_tag" "$db_asset" Otzaria/SeforimLibrary | cut -f2)
+          else
+            db_digest=$(jq -er "$FULL_DB_ASSET_JQ | .digest" "$WORK/release.json")
+          fi
+          [[ "$db_digest" =~ ^sha256:[0-9a-f]{64}$ ]] || {
+            echo "::error::no sha256 digest for $db_asset of $lib_tag"; exit 1; }
+          echo "DB: SeforimLibrary $lib_tag, $db_asset (built from SefariaExport $built_export); newest export: $latest_export"
           {
             echo "lib_tag=$lib_tag"
+            echo "db_asset=$db_asset"
             echo "db_digest=${db_digest#sha256:}"
           } >> "$GITHUB_OUTPUT"
 
@@ -143,13 +163,17 @@ jobs:
         if: ${{ steps.herefs-cache.outputs.cache-hit != 'true' }}
         env:
           LIB_TAG: ${{ steps.inputs.outputs.lib_tag }}
+          DB_ASSET: ${{ steps.inputs.outputs.db_asset }}
           DB_DIGEST: ${{ steps.inputs.outputs.db_digest }}
         run: |
           set -euo pipefail
-          gh release download "$LIB_TAG" -R Otzaria/SeforimLibrary -p seforim-schema6.db.zst -D "$WORK/db" --clobber
-          [[ "$(sha256sum "$WORK/db/seforim-schema6.db.zst" | cut -d' ' -f1)" == "$DB_DIGEST" ]]
-          unzstd -f "$WORK/db/seforim-schema6.db.zst" -o "$WORK/db/seforim.db"
-          rm "$WORK/db/seforim-schema6.db.zst"
+          . seforim-tool/.github/scripts/db_asset_names.sh
+          mkdir -p "$WORK/db"
+          # DB מפוצל מורכב ומאומת מול ה-manifest; קובץ יחיד מאומת כאן מול ה-digest של ה-release.
+          download_full_db_by_name "$LIB_TAG" "$DB_ASSET" "$WORK/db" Otzaria/SeforimLibrary
+          [[ "$(sha256sum "$WORK/db/$DB_ASSET" | cut -d' ' -f1)" == "$DB_DIGEST" ]]
+          unzstd --long=31 --memory=2048MB -f "$WORK/db/$DB_ASSET" -o "$WORK/db/seforim.db"
+          rm "$WORK/db/$DB_ASSET"
           python3 .github/scripts/check_sefaria_shadowed_books.py extract-herefs \
             --db "$WORK/db/seforim.db" --output "$WORK/sefaria_herefs.txt"
           rm -r "$WORK/db"
