@@ -571,9 +571,27 @@ class QaFixesTest(unittest.TestCase):
     def test_sanitize_curly_quotes(self):
         self.assertEqual(SY.sanitize_filename("צל\u201cח \u2018ביצה\u2019"), "צלח 'ביצה'")
 
-    def test_new_author_without_honorific(self):
-        self.assertEqual(SY.canonical_author("רבי פלוני אלמוני", {"אחר"}), "פלוני אלמוני")
+    def test_new_author_prefix_only(self):
+        # אדם חדש: קידומת רבי נשמרת (כמו שורה 2), בלי כינוי בסוגריים, "י-הודה" → "יהודה", הרב/הגאון נחתכים
+        self.assertEqual(SY.canonical_author("רבי פלוני אלמוני", {"אחר"}), "רבי פלוני אלמוני")
+        self.assertEqual(SY.canonical_author("רבי שלמה יצחקי (רש\"י)", {"אחר"}), "רבי שלמה יצחקי")
+        self.assertEqual(SY.canonical_author("רבי י-הודה יצחקי", {"אחר"}), "רבי יהודה יצחקי")
+        self.assertEqual(SY.canonical_author("הגאון פלוני אלמוני", {"אחר"}), "פלוני אלמוני")
+        self.assertEqual(SY.canonical_author("רבי יקותיאל י-הודה טייטלבוים", {"רבי יקותיאל יהודה טייטלבוים"}),
+                         "רבי יקותיאל יהודה טייטלבוים")
         self.assertEqual(SY.canonical_author("פלוני אלמוני", {"רבי פלוני אלמוני"}), "רבי פלוני אלמוני")
+
+    def test_author_same_person_other_spelling(self):
+        known = {"הרב אהרן וואלקין", "רבי יעקב לורברבוים מליסא", "יעקב דוד וילובסקי", "רבינו אשר בן יחיאל"}
+        self.assertEqual(SY.canonical_author("רבי אהרן וואלקין", known), "הרב אהרן וואלקין")
+        self.assertEqual(SY.canonical_author("רבי יעקב לורברבוים מליסא (ה'נתיבות')", known), "רבי יעקב לורברבוים מליסא")
+        self.assertEqual(SY.canonical_author("רבי יעקב דוד וילובסקי (רידב\"ז)", known), "יעקב דוד וילובסקי")
+        self.assertEqual(SY.canonical_author("רבי אשר בן יחיאל (הרא\"ש)", known), "רבינו אשר בן יחיאל")
+        # אב ובן אינם אותו אדם: מילים שונות במפתח
+        self.assertEqual(SY.canonical_author("רבי יעקב בן יעקב משה לורברבוים", known), "רבי יעקב בן יעקב משה לורברבוים")
+        # עמום: נבחר הנפוץ
+        cnt = {"שלמה קלוגר": 4, "רבי שלמה קלוגר [המהרש\"ק]": 5}
+        self.assertEqual(SY.canonical_author("הרב שלמה קלוגר (מהרשק)", collections.Counter(cnt)), "רבי שלמה קלוגר [המהרש\"ק]")
 
     def test_atomic_write(self):
         d = tempfile.mkdtemp()

@@ -797,7 +797,21 @@ def _metadata_authors(repo=REPO):
             {m["author"] for m in meta if m.get("author")})
 
 
-def canonical_author(author: str, known: set[str]) -> str:
+_AUTHOR_KEY_HONORIFIC = re.compile(r"^(?:(?:רבי|רבינו|רבנו|ר'|הרב|הגאון|מרן|רב)\s+)+")
+
+
+def _author_key(a: str) -> str:
+    """מפתח השוואה לאדם: בלי כינוי בסוגריים (`(הרא"ש)`, `[מלבי"ם]`), בלי תואר כבוד בראש, גרשיים/מקפים/נקודות כרווח."""
+    a = re.sub(r"\([^)]*\)|\[[^\]]*\]", " ", a or "")
+    a = _AUTHOR_KEY_HONORIFIC.sub("", re.sub(r"\s+", " ", a).strip())
+    a = re.sub(r"י[-־]הוד", "יהוד", a)  # "י-הודה" של דיקטה = "יהודה"
+    return re.sub(r"\s+", " ", re.sub(r"[\"'׳״\-־.,]", " ", a)).strip()
+
+
+def canonical_author(author: str, known) -> str:
+    """`known` — קבוצת המחברים שב־metadata.json, או Counter (אז בהתאמה עמומה נבחר הנפוץ).
+    סדר: התאמה מדויקת → אותו כתיב עם/בלי רבי/רבינו/ר' → אותו אדם לפי `_author_key`
+    (הרב / כינוי בסוגריים / מקף / י-הודה) → אדם חדש (עם קידומת רבי כשדיקטה כתבה אותה)."""
     a = re.sub(r"\s+", " ", (author or "").strip())
     if a in known:
         return a
@@ -805,7 +819,22 @@ def canonical_author(author: str, known: set[str]) -> str:
     for cand in (base, "רבי " + base, "רבינו " + base, "ר' " + base):
         if cand in known:
             return cand
-    return base  # אדם חדש: בלי תואר כבוד (תארים מפצלים את טבלת המחברים — CLAUDE.md)
+    key = _author_key(a)
+    if key:
+        hits = sorted((k for k in known if k and _author_key(k) == key),
+                      key=lambda k: (-(known.get(k, 0) if hasattr(known, "get") else 0), k))
+        if hits:
+            return hits[0]
+    # אדם חדש: קידומת "רבי"/"רבינו"/"רבנו" בלבד (כמו שורה 2 ובהתאם לזיכרון author-honorifics-prefix-only), בלי כינוי בסוגריים
+    # (דיקטה מוסיפה `(הרא"ש)`) ובכתיב "יהודה" (דיקטה: "י-הודה"). שאר התארים (הרב/הגאון/מרן) נחתכים.
+    new = re.sub(r"\s+", " ", re.sub(r"\([^)]*\)|\[[^\]]*\]", " ", a)).strip()
+    new = re.sub(r"י[-־]הוד", "יהוד", new)
+    m = re.match(r"^(רבי|רבינו|רבנו)\s+(\S.*)$", new)
+    if m:
+        return f"{m.group(1)} {_HONORIFIC.sub('', m.group(2))}"
+    if new.startswith("ר' "):
+        return "רבי " + _HONORIFIC.sub("", new)
+    return _HONORIFIC.sub("", new)
 
 
 def generation_of(sub: str) -> str | None:
@@ -842,7 +871,7 @@ def register_packaged(book: dict, rel_path: str, repo=REPO) -> list[str]:
     md = DC.build_metadata(book)
     # Plan the canonical CSV and check all registries before any mutation.
     existing_meta = read_json(os.path.join(repo, "metadata.json"))
-    known = {m.get("author") for m in existing_meta if m.get("author")}
+    known = collections.Counter(m.get("author") for m in existing_meta if m.get("author"))
     existing_author = next((m.get("author") for m in existing_meta if m.get("title") == title and m.get("author")), None)
     authors = [existing_author] if existing_author else [canonical_author(a, known) for a in md.get("heAuthors", []) if a]
     if not authors:
@@ -857,7 +886,7 @@ def register_packaged(book: dict, rel_path: str, repo=REPO) -> list[str]:
         raise ValueError("metadata.json is not in the compact one-object-per-line format")
     meta = read_json(p)
     if not any(m.get("title") == title for m in meta):
-        known = {m.get("author") for m in meta if m.get("author")}
+        known = collections.Counter(m.get("author") for m in meta if m.get("author"))
         meta.append({"title": title, "author": canonical_author(md["author"], known), "pubDate": None, "pubPlace": None,
                      "compPlace": None, "compDate": None, "תיאור_חדש": None, "heShortDesc": None, "heDesc": None,
                      "Unnamed: 9": None, "order": None})
