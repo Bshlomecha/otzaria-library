@@ -84520,6 +84520,292 @@
         "authorName": "רבנו יוסף גיקטליה"
       },
       "commit": "ba67c714ed91c8e00e7e51c7cd3bc33704a634f2"
+    },
+    {
+      "id": 6240,
+      "kind": "rename",
+      "old": {
+        "bookName": "אוצר הגאונים ברכות",
+        "authorName": "בנימין מנשה לוין"
+      },
+      "new": {
+        "bookName": "אוצר הגאונים ברכות",
+        "authorName": "הרב בנימין מנשה לוין"
+      },
+      "commit": "a2f03756460ad3b3e67596cd3ca4e0fce46bc3ee"
+    },
+    {
+      "id": 6241,
+      "kind": "rename",
+      "old": {
+        "bookName": "בירת מגדל עוז",
+        "authorName": "רבי יעקב עמדין"
+      },
+      "new": {
+        "bookName": "בירת מגדל עוז",
+        "authorName": "רבי יעקב ב\"ר צבי [היעב\"ץ] עמדין"
+      },
+      "commit": "a2f03756460ad3b3e67596cd3ca4e0fce46bc3ee"
+    },
+    {
+      "id": 6242,
+      "kind": "rename",
+      "old": {
+        "bookName": "הסליחות לכל השנה - זליגמן בער",
+        "authorName": "זליגמן בער"
+      },
+      "new": {
+        "bookName": "הסליחות לכל השנה - זליגמן בער",
+        "authorName": "(נערך ע\"י יצחק זליגמן בער)"
+      },
+      "commit": "a2f03756460ad3b3e67596cd3ca4e0fce46bc3ee"
+    },
+    {
+      "id": 6243,
+      "kind": "rename",
+      "old": {
+        "bookName": "טור ברקת - הלכות סוכה, לולב, חנוכה ומגילה",
+        "authorName": "רבי חיים ב\"ר אברהם הכהן מארם צובה"
+      },
+      "new": {
+        "bookName": "טור ברקת - הלכות סוכה, לולב, חנוכה ומגילה",
+        "authorName": "רבי חיים הכהן מארם צובה"
+      },
+      "commit": "a2f03756460ad3b3e67596cd3ca4e0fce46bc3ee"
+    },
+    {
+      "id": 6244,
+      "kind": "rename",
+      "old": {
+        "bookName": "לבנון נטע על הלכות מקוואות",
+        "authorName": "רבי נתן נטע ב\"ר משה דוד סג\"ל לנדא"
+      },
+      "new": {
+        "bookName": "לבנון נטע על הלכות מקוואות",
+        "authorName": "רבי נתן נטע סג\"ל לנדא"
+      },
+      "commit": "a2f03756460ad3b3e67596cd3ca4e0fce46bc3ee"
+    },
+    {
+      "id": 6245,
+      "kind": "rename",
+      "old": {
+        "bookName": "לבנון נטע על הלכות נדה",
+        "authorName": "רבי נתן נטע ב\"ר משה דוד סג\"ל לנדא"
+      },
+      "new": {
+        "bookName": "לבנון נטע על הלכות נדה",
+        "authorName": "רבי נתן נטע סג\"ל לנדא"
+      },
+      "commit": "a2f03756460ad3b3e67596cd3ca4e0fce46bc3ee"
+    },
+    {
+      "id": 6246,
+      "kind": "rename",
+      "old": {
+        "bookName": "מעשה אפוד",
+        "authorName": "יצחק בן משה הלוי"
+      },
+      "new": {
+        "bookName": "מעשה אפוד",
+        "authorName": "רבנו יצחק ב\"ר משה הלוי"
+      },
+      "commit": "a2f03756460ad3b3e67596cd3ca4e0fce46bc3ee"
+    },
+    {
+      "id": 6247,
+      "kind": "rename",
+      "old": {
+        "bookName": "משפחות סופרים",
+        "authorName": "שלום אלבק"
+      },
+      "new": {
+        "bookName": "משפחות סופרים",
+        "authorName": "הרב שלום אלבק"
+      },
+      "commit": "a2f03756460ad3b3e67596cd3ca4e0fce46bc3ee"
+    },
+    {
+      "id": 6248,
+      "kind": "rename",
+      "old": {
+        "bookName": "ספר אותיות הנוח (תרגום ראבע)",
+        "authorName": "יהודה חיוג"
+      },
+      "new": {
+        "bookName": "ספר אותיות הנוח (תרגום ראבע)",
+        "authorName": "רבי יהודה חיוג'"
+      },
+      "commit": "a2f03756460ad3b3e67596cd3ca4e0fce46bc3ee"
+    },
+    {
+      "id": 6249,
+      "kind": "rename",
+      "old": {
+        "bookName": "ספר אותיות הנוח (תרגום רמבג)",
+        "authorName": "יהודה חיוג"
+      },
+      "new": {
+        "bookName": "ספר אותיות הנוח (תרגום רמבג)",
+        "authorName": "רבי יהודה חיוג'"
+      },
+      "commit": "a2f03756460ad3b3e67596cd3ca4e0fce46bc3ee"
+    },
+    {
+      "id": 6250,
+      "kind": "rename",
+      "old": {
+        "bookName": "ספר הנקוד (תרגום ראבע, מהדורת דוקעס)",
+        "authorName": "יהודה חיוג"
+      },
+      "new": {
+        "bookName": "ספר הנקוד (תרגום ראבע, מהדורת דוקעס)",
+        "authorName": "רבי יהודה חיוג'"
+      },
+      "commit": "a2f03756460ad3b3e67596cd3ca4e0fce46bc3ee"
+    },
+    {
+      "id": 6251,
+      "kind": "rename",
+      "old": {
+        "bookName": "ספר הנקוד (תרגום ראבע, מהדורת נוט)",
+        "authorName": "יהודה חיוג"
+      },
+      "new": {
+        "bookName": "ספר הנקוד (תרגום ראבע, מהדורת נוט)",
+        "authorName": "רבי יהודה חיוג'"
+      },
+      "commit": "a2f03756460ad3b3e67596cd3ca4e0fce46bc3ee"
+    },
+    {
+      "id": 6252,
+      "kind": "rename",
+      "old": {
+        "bookName": "ספר הרכבה",
+        "authorName": "רבנו אליהו בחור ב\"ר אשר הלוי אשכנזי"
+      },
+      "new": {
+        "bookName": "ספר הרכבה",
+        "authorName": "רבנו אליהו בחור הלוי אשכנזי"
+      },
+      "commit": "a2f03756460ad3b3e67596cd3ca4e0fce46bc3ee"
+    },
+    {
+      "id": 6253,
+      "kind": "rename",
+      "old": {
+        "bookName": "ספר מכלול",
+        "authorName": "רבנו דוד קמחי"
+      },
+      "new": {
+        "bookName": "ספר מכלול",
+        "authorName": "רבנו דוד קמחי [הרד\"ק]"
+      },
+      "commit": "a2f03756460ad3b3e67596cd3ca4e0fce46bc3ee"
+    },
+    {
+      "id": 6254,
+      "kind": "rename",
+      "old": {
+        "bookName": "ספר פעלי הכפל (תרגום ראבע)",
+        "authorName": "יהודה חיוג"
+      },
+      "new": {
+        "bookName": "ספר פעלי הכפל (תרגום ראבע)",
+        "authorName": "רבי יהודה חיוג'"
+      },
+      "commit": "a2f03756460ad3b3e67596cd3ca4e0fce46bc3ee"
+    },
+    {
+      "id": 6255,
+      "kind": "rename",
+      "old": {
+        "bookName": "ספר פעלי הכפל (תרגום רמבג)",
+        "authorName": "יהודה חיוג"
+      },
+      "new": {
+        "bookName": "ספר פעלי הכפל (תרגום רמבג)",
+        "authorName": "רבי יהודה חיוג'"
+      },
+      "commit": "a2f03756460ad3b3e67596cd3ca4e0fce46bc3ee"
+    },
+    {
+      "id": 6256,
+      "kind": "rename",
+      "old": {
+        "bookName": "פני מאיר",
+        "authorName": "רבי מאיר בן ישעיה אבוביץ"
+      },
+      "new": {
+        "bookName": "פני מאיר",
+        "authorName": "רבי מאיר אבוביץ"
+      },
+      "commit": "a2f03756460ad3b3e67596cd3ca4e0fce46bc3ee"
+    },
+    {
+      "id": 6257,
+      "kind": "rename",
+      "old": {
+        "bookName": "פרקי אליהו",
+        "authorName": "רבנו אליהו בחור ב\"ר אשר הלוי אשכנזי"
+      },
+      "new": {
+        "bookName": "פרקי אליהו",
+        "authorName": "רבנו אליהו בחור הלוי אשכנזי"
+      },
+      "commit": "a2f03756460ad3b3e67596cd3ca4e0fce46bc3ee"
+    },
+    {
+      "id": 6258,
+      "kind": "rename",
+      "old": {
+        "bookName": "קובץ מאמרים ואגרות חלק ג",
+        "authorName": "אלעזר שמחה וסרמן"
+      },
+      "new": {
+        "bookName": "קובץ מאמרים ואגרות חלק ג",
+        "authorName": "הרב אלעזר שמחה וסרמן"
+      },
+      "commit": "a2f03756460ad3b3e67596cd3ca4e0fce46bc3ee"
+    },
+    {
+      "id": 6259,
+      "kind": "rename",
+      "old": {
+        "bookName": "שות חיים ביד",
+        "authorName": "רבי חיים פלאג'י"
+      },
+      "new": {
+        "bookName": "שות חיים ביד",
+        "authorName": "רבי חיים ב\"ר יעקב פלאג'י [החבי\"ף]"
+      },
+      "commit": "a2f03756460ad3b3e67596cd3ca4e0fce46bc3ee"
+    },
+    {
+      "id": 6260,
+      "kind": "rename",
+      "old": {
+        "bookName": "תולדות תנאים ואמוראים",
+        "authorName": "אהרן הימן"
+      },
+      "new": {
+        "bookName": "תולדות תנאים ואמוראים",
+        "authorName": "הרב אהרן הימן"
+      },
+      "commit": "a2f03756460ad3b3e67596cd3ca4e0fce46bc3ee"
+    },
+    {
+      "id": 6261,
+      "kind": "rename",
+      "old": {
+        "bookName": "תורת המנחה",
+        "authorName": "רבי יעקב ב\"ר חננאל סקילי"
+      },
+      "new": {
+        "bookName": "תורת המנחה",
+        "authorName": "רבנו יעקב ב\"ר חננאל סקילי"
+      },
+      "commit": "a2f03756460ad3b3e67596cd3ca4e0fce46bc3ee"
     }
   ]
 }
