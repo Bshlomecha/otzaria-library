@@ -84468,6 +84468,58 @@
         "authorName": "רבי שניאור זלמן [הגר\"ז] מלאדי"
       },
       "commit": "75ff85a081ab6e5adf23a110c923cf7fe50dfe18"
+    },
+    {
+      "id": 6236,
+      "kind": "rename",
+      "old": {
+        "bookName": "כללי המצוות",
+        "authorName": "רבי יוסף בן אברהם ג'יקטיליה"
+      },
+      "new": {
+        "bookName": "כללי המצוות",
+        "authorName": "רבנו יוסף גיקטליה"
+      },
+      "commit": "ba67c714ed91c8e00e7e51c7cd3bc33704a634f2"
+    },
+    {
+      "id": 6237,
+      "kind": "rename",
+      "old": {
+        "bookName": "ספר משלים",
+        "authorName": "רבי יוסף בן אברהם ג'יקטיליה"
+      },
+      "new": {
+        "bookName": "ספר משלים",
+        "authorName": "רבנו יוסף גיקטליה"
+      },
+      "commit": "ba67c714ed91c8e00e7e51c7cd3bc33704a634f2"
+    },
+    {
+      "id": 6238,
+      "kind": "rename",
+      "old": {
+        "bookName": "שערי אורה",
+        "authorName": "רבנו יוסף אבן ג'קטילה"
+      },
+      "new": {
+        "bookName": "שערי אורה",
+        "authorName": "רבנו יוסף גיקטליה"
+      },
+      "commit": "ba67c714ed91c8e00e7e51c7cd3bc33704a634f2"
+    },
+    {
+      "id": 6239,
+      "kind": "rename",
+      "old": {
+        "bookName": "שערי צדק",
+        "authorName": "רבנו יוסף אבן ג'קטילה"
+      },
+      "new": {
+        "bookName": "שערי צדק",
+        "authorName": "רבנו יוסף גיקטליה"
+      },
+      "commit": "ba67c714ed91c8e00e7e51c7cd3bc33704a634f2"
     }
   ]
 }
